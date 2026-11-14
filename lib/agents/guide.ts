@@ -90,8 +90,8 @@ export function stepLine(g: GuideState): string {
 export async function startGuide(caseId: string, profile?: TalkProfile): Promise<ToolReply> {
   const c = await load(caseId);
   const g0 = c.guide;
-  if (g0 && (g0.status === "guiding" || g0.status === "plan_ready")) {
-    const g = { ...g0, status: "guiding" as const };
+  if (g0 && (g0.status === "guiding" || g0.status === "plan_ready" || g0.status === "stopped")) {
+    const g = { ...g0, status: "guiding" as const, finishedAt: undefined };
     const done = g.results.filter((r) => r.outcome !== "pending").length;
     const say = done
       ? `Welcome back, picking up where we stopped. ${stepLine(g)}`
