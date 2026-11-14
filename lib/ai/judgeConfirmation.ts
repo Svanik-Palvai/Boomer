@@ -39,7 +39,7 @@ export function judgeConfirmation(step: Step, text: string): Judgement {
   if (VAGUE.test(t)) return { ok: false, say: `I need a clear answer on this one. ${ask}` };
 
   if (isBreaker && (OFF.test(t) || YES.test(t))) return { ok: true };
-  if (isTester) return YES.test(t) && !step.hardGate ? { ok: true } : { ok: false, say: `Tell me what the tester reads. ${ask}` };
+  if (isTester) return YES.test(t) && !step.hardGate ? { ok: true } : { ok: false, say: /tester reads/i.test(ask) ? ask : `Tell me what the tester reads. ${ask}` };
   if (/test|reset|trip/i.test(`${step.id} ${step.check.question}`) && (TRIP.test(t) || YES.test(t))) return { ok: true };
   if (YES.test(t)) return { ok: true };
   return { ok: false, say: step.hardGate ? `I need a clear yes. ${ask}` : ask };
