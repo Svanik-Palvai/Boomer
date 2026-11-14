@@ -1,15 +1,40 @@
-// OWNER: Zohaib. Inbound iMessage from Photon. Not in the core flow; logs the text into the worker's job memory.
-// TODO(Zohaib): verify PHOTON_WEBHOOK_SECRET, dedup by message id, match the real Photon payload shape.
+// OWNER: Zohaib. Inbound texts from Photon 2.0 (Standard Webhooks). Not in the core flow:
+// the text goes into the worker's job memory, and "record" gets their work record link back.
+// Photon dashboard → Webhooks → Add a destination: this URL, event "message.received" (or *). Put the whsec_ secret in PHOTON_WEBHOOK_SECRET.
+// Local testing: with no PHOTON_WEBHOOK_SECRET set, POST { "data": { "id": "...", "sentBy": { "handle": "+1..." }, "content": { "type": "text", "text": "record" } } }.
 import { NextResponse } from "next/server";
 import { firstTimeSeen } from "@/lib/db";
 import { resolveJob } from "@/lib/jobs/resolve";
 import { remember } from "@/lib/memory/store";
+import { verifyPhotonWebhook } from "@/lib/photon/client";
+import { sendText } from "@/lib/photon/send";
+import { absolute, pages } from "@/lib/routes";
+
+interface PhotonMessage {
+  id?: string;
+  status?: string;
+  sentBy?: { handle?: string; kind?: string };
+  content?: { type?: string; text?: string };
+}
 
 export async function POST(req: Request) {
-  const body = (await req.json().catch(() => ({}))) as { id?: string; from?: string; text?: string; jobId?: string };
-  if (body.id && !(await firstTimeSeen(`photon:${body.id}`))) return NextResponse.json({ ok: true, duplicate: true });
-  const r = await resolveJob({ jobId: body.jobId, callerPhone: body.from });
-  if (!r || !body.text) return NextResponse.json({ ok: false });
-  await remember(r.job.id, { channel: "imessage", agent: "recorder", speaker: "worker", text: body.text });
+  const raw = await req.text();
+  if (!verifyPhotonWebhook(raw, req.headers)) return NextResponse.json({ error: "bad signature" }, { status: 400 });
+
+  const event = JSON.parse(raw || "{}") as { id?: string; type?: string; data?: PhotonMessage & { message?: PhotonMessage } };
+  const eventId = req.headers.get("webhook-id") ?? event.id;
+  if (eventId && !(await firstTimeSeen(`photon:${eventId}`))) return new Response(null, { status: 204 });
+
+  const m = event.data?.message ?? event.data;
+  if (!m || m.sentBy?.kind === "agent" || m.content?.type !== "text" || !m.sentBy?.handle || !m.content.text) {
+    return new Response(null, { status: 204 }); // not an inbound human text
+  }
+
+  const r = await resolveJob({ callerPhone: m.sentBy.handle, create: false });
+  if (!r) return new Response(null, { status: 204 });
+  await remember(r.job.id, { channel: "imessage", agent: "recorder", speaker: "worker", text: m.content.text });
+  if (/\brecord\b/i.test(m.content.text)) {
+    await sendText(r.worker.phone, `Your Boomer work record: ${absolute(pages.workRecord(r.worker.id))}`, `boomer-reply:${eventId}`);
+  }
   return NextResponse.json({ ok: true, jobId: r.job.id });
 }

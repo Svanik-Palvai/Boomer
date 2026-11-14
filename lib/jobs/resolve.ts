@@ -1,7 +1,7 @@
 // OWNER: Zohaib (caller-to-job matching)
 import type { Job, Worker } from "@/lib/types";
 import { USE_MOCKS } from "@/lib/config";
-import { createJob, findOpenJob, getJob, getWorker, getWorkerByPhone } from "@/lib/db";
+import { createJob, findOpenJob, getJob, getWorker, getWorkerByPhone, listJobs } from "@/lib/db";
 import { DEMO_JOB_ID } from "@/lib/mock/demo";
 
 export interface Resolved {
@@ -14,9 +14,15 @@ export interface Resolved {
 /**
  * Find the job a call, a frame upload or a tool call belongs to.
  * Order: explicit jobId → worker's open job (by workerId or caller phone) → new job for that worker.
+ * With create: false (inbound texts) it falls back to the worker's most recent job instead of opening one.
  * In mock mode an unknown caller falls back to demo-2041 so browser test calls work.
  */
-export async function resolveJob(q: { jobId?: string; workerId?: string; callerPhone?: string }): Promise<Resolved | null> {
+export async function resolveJob(q: {
+  jobId?: string;
+  workerId?: string;
+  callerPhone?: string;
+  create?: boolean;
+}): Promise<Resolved | null> {
   if (q.jobId) {
     const job = await getJob(q.jobId);
     const worker = job && (await getWorker(job.workerId));
@@ -29,6 +35,10 @@ export async function resolveJob(q: { jobId?: string; workerId?: string; callerP
   if (worker) {
     const open = await findOpenJob(worker.id);
     if (open) return { job: open, worker, resumed: open.status === "guiding" };
+    if (q.create === false) {
+      const [latest] = await listJobs(worker.id);
+      return latest ? { job: latest, worker, resumed: false } : null;
+    }
     return { job: await createJob(worker), worker, resumed: false };
   }
 

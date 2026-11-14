@@ -1,28 +1,25 @@
 // OWNER: Zohaib (backend)
 import type { Experience, Jurisdiction, Worker } from "@/lib/types";
-import { newId, nowIso, tables } from "./memoryStore";
+import { backend } from "./backend";
+import { newId, nowIso, ready } from "./memoryStore";
+import { normalizePhone } from "./phone";
 
-/** "+1 (215) 555-0123", "2155550123" -> "+12155550123". US numbers only for now. */
-export function normalizePhone(raw: string): string {
-  const digits = raw.replace(/[^\d+]/g, "");
-  if (digits.startsWith("+")) return digits;
-  if (digits.length === 10) return `+1${digits}`;
-  if (digits.length === 11 && digits.startsWith("1")) return `+${digits}`;
-  return digits;
-}
+export { normalizePhone };
 
 export async function getWorker(id: string): Promise<Worker | null> {
-  return tables().workers.get(id) ?? null;
+  await ready();
+  return backend().get<Worker>("worker", id);
 }
 
 export async function getWorkerByPhone(phone: string): Promise<Worker | null> {
-  const p = normalizePhone(phone);
-  for (const w of tables().workers.values()) if (normalizePhone(w.phone) === p) return w;
-  return null;
+  await ready();
+  const [w] = await backend().list<Worker>("worker", { phone: normalizePhone(phone) });
+  return w ?? null;
 }
 
 export async function listWorkers(): Promise<Worker[]> {
-  return [...tables().workers.values()];
+  await ready();
+  return backend().list<Worker>("worker");
 }
 
 export interface WorkerInput {
@@ -33,7 +30,7 @@ export interface WorkerInput {
   experience: Experience;
 }
 
-/** Create, or update when id (or phone) matches an existing worker. */
+/** Create, or update when id (or phone) matches an existing worker. One worker per phone number. */
 export async function saveWorker(input: WorkerInput): Promise<Worker> {
   const existing = (input.id && (await getWorker(input.id))) || (await getWorkerByPhone(input.phone));
   const w: Worker = {
@@ -44,6 +41,6 @@ export async function saveWorker(input: WorkerInput): Promise<Worker> {
     home: input.home,
     experience: input.experience,
   };
-  tables().workers.set(w.id, w);
+  await backend().put("worker", w.id, w, { phone: w.phone });
   return w;
 }
