@@ -2,6 +2,7 @@
 // OWNER: Lessons feature. Supabase session tokens stay in the auth SDK, never in source URLs.
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import styles from "./lessons.module.css";
 import { lessonClient, lessonRequest } from "@/lib/lessons/client";
 import type { LessonDraft } from "@/lib/lessons/types";
 export default function Workspace() {
@@ -54,19 +55,23 @@ export default function Workspace() {
     }
   }
   return (
-    <main>
+    <main className={styles.workspace}>
       <Link href="/lessons">← Published lessons</Link>
-      <h1>Lesson workspace</h1>
+      <span className={styles.eyebrow}>PRIVATE / TEAM WORKSPACE</span>
+      <h1>From a finished job<br />to a useful lesson.</h1>
       <p>
         Private recordings become a lesson only after editing, electrician
         review and the worker’s publishing permission.
       </p>
       {!account ? (
-        <section>
+        <section className={styles.signin}>
+          <h2>Sign in to your notebook</h2>
+          <p>Your source recordings and drafts stay private.</p>
           <label>
             Email
             <input
               type="email"
+              autoComplete="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -76,7 +81,7 @@ export default function Workspace() {
           </button>
           <label>
             Email verification code
-            <input value={code} onChange={(e) => setCode(e.target.value)} />
+            <input inputMode="numeric" autoComplete="one-time-code" value={code} onChange={(e) => setCode(e.target.value)} />
           </label>
           <button onClick={verify}>Verify code</button>
         </section>
@@ -99,11 +104,11 @@ export default function Workspace() {
           <h2>Private drafts</h2>
           {items.length ? (
             items.map(({ id, document: d }) => (
-              <p key={id}>
+              <article className={styles.draftCard} key={id}>
                 <Link href={`/lessons/${id}/edit`}>{d.edit.title}</Link> ·{" "}
-                {d.status}
+                {d.status.replaceAll("_", " ")}
                 {d.error && ` · ${d.error}`}
-              </p>
+              </article>
             ))
           ) : (
             <p>
@@ -149,7 +154,7 @@ export default function Workspace() {
           </details>
         </>
       )}
-      <p role="status">{message}</p>
+      <p className={message ? styles.feedback : undefined} role="status">{message}</p>
     </main>
   );
 }

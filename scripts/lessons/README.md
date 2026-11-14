@@ -34,9 +34,8 @@ In the dedicated project only:
 2. Confirm the bucket is private, has no public object policies, and accepts the script's allowed media types. Source parts are capped at 25 MiB each by the API; the private bucket has a 50 MiB object limit and render bitrate/duration are bounded to fit it. Never change it to public to fix preview access.
 3. Enable email OTP/magic-link sign-in. The currently authorized dashboard account can run SQL but Auth URL settings are read-only; the project owner must add the following exact redirect URLs in Authentication → URL Configuration (do not allow arbitrary domains):
    - `http://localhost:3000/lessons/workspace`
-   - `https://boomer-hackprinceton.vercel.app/lessons/workspace`
-   - `https://boomer-hackprinceton-4rkqs8lw1-anikethmalipeddi-8851s-projects.vercel.app/lessons/workspace`
-   Verify email delivery and sign-in in that project. New preview deployments need their own redirect entry. The preview has dedicated lesson URL/server/public-key variables configured; production lesson configuration is intentionally pending the rollout.
+   - `https://YOUR-TEAM-DEPLOYMENT/lessons/workspace`
+   Verify email delivery and sign-in in that project. New preview deployments need their own redirect entry. The original Aniketh-owned Vercel project and its previews have been removed at the team’s request. The repository owner is deploying a replacement. Configure the lesson URL/server/public-key variables and reviewer allowlist on that new project; the retired project’s configuration does not transfer automatically.
 4. Sign in as reviewer and worker. The workspace displays each account UUID. Reviewer explicitly links the existing worker ID to the correct UUID. There is no automatic ownership based on phone number and no account reassignment endpoint.
 5. Enable ElevenLabs post-call transcription webhooks with timestamps, conversation ID, call start time/duration and the same `job_id` mapping as the existing integration. Confirm provider recording retention/consent and that the worker account can retrieve conversation audio. Original audio is fetched by the laptop worker, not exposed through the browser.
 6. Ensure Zohaib's job persistence is durable across Vercel instances. Source snapshots persist in lesson storage after capture starts, but the existing `lib/db` job/worker backend is still process-local on main. Reusing demo-2041 after a reset is rejected instead of mixing distinct recordings into an old lesson; create a new job ID for a new recording.
@@ -78,3 +77,7 @@ Remaining acceptance requires reviewer allowlist and Auth redirect/email deliver
 ## Coordination / integration diff
 
 All lesson logic is under new modules and routes. Existing integrations are limited to one home-page link, the optional recorder component on Andy's camera page, Zohaib's post-call transcript hook, and his post-record completion hook. Existing function signatures, shared types, route contracts, dependencies, and configuration files are preserved. These integration points are identified for review alongside the active AI and backend branches; neither teammate branch was overwritten or merged into this feature.
+
+## Lesson UI
+
+The lesson library, private workspace, editor and public viewer follow the existing steel/ink design tokens. The library uses actual published posters only and an explicit empty state. The viewer has current-chapter navigation and playback error handling; the editor has links to clips, editorial checks and review. Library and signed-out workspace were visually checked locally, including a 390px layout/overflow check. Authenticated editor and published-video visual acceptance still require a real session and the configured login flow.

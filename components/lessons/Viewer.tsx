@@ -1,6 +1,7 @@
 "use client";
 // OWNER: Lessons feature.
 import { useEffect, useState, useRef } from "react";
+import styles from "./lessons.module.css";
 export default function Viewer({
   id,
   chapters,
@@ -10,13 +11,15 @@ export default function Viewer({
 }) {
   const video = useRef<HTMLVideoElement>(null);
   const [transcript, setTranscript] = useState("");
+  const [time, setTime] = useState(0);
+  const [playbackError, setPlaybackError] = useState("");
   useEffect(() => {
     let active = true;
     void fetch(`/api/lessons/public/${id}/captions`, { cache: "no-store" })
       .then((r) => (r.ok ? r.text() : ""))
       .then((t) => {
         if (active) setTranscript(t);
-      });
+      }).catch(() => { if (active) setTranscript(""); });
     return () => {
       active = false;
     };
@@ -26,6 +29,8 @@ export default function Viewer({
       <video
         ref={video}
         controls
+        onTimeUpdate={() => setTime(video.current?.currentTime ?? 0)}
+        onError={() => setPlaybackError("Video is unavailable. The lesson may have been withdrawn; refresh to check its status.")}
         playsInline
         preload="metadata"
         style={{ width: "100%" }}
@@ -41,24 +46,24 @@ export default function Viewer({
           src={`/api/lessons/public/${id}/captions`}
         />
       </video>
-      <h2>Chapters</h2>
+      {playbackError && <p role="alert">{playbackError}</p>}
+      <h2>Follow the repair</h2>
+      <ol className={styles.chapterList}>
       {chapters.map((c, i) => (
-        <p key={i}>
-          <button
+        <li key={i}>
+          <button className={styles.chapter} aria-current={time >= c.start && time < c.end ? "true" : undefined}
             onClick={() => {
               if (video.current) {
                 video.current.currentTime = c.start;
-                void video.current.play();
+                void video.current.play().catch(() => setPlaybackError("Press play on the video to continue."));
               }
-            }}
-          >
-            {Math.floor(c.start / 60)}:
-            {String(Math.floor(c.start % 60)).padStart(2, "0")} ·{" "}
-            {c.kind.replaceAll("_", " ")}
-          </button>{" "}
-          {c.caption}
-        </p>
+            }}>
+            <time>{Math.floor(c.start / 60)}:{String(Math.floor(c.start % 60)).padStart(2, "0")}</time>
+            <span><small>{c.kind.replaceAll("_", " ")}</small>{c.caption}</span>
+          </button>
+        </li>
       ))}
+      </ol>
       <details>
         <summary>Edited lesson transcript</summary>
         <pre style={{ whiteSpace: "pre-wrap" }}>

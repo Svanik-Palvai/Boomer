@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { configured, load } from "@/lib/lessons/store";
 import { publicLesson } from "@/lib/lessons/types";
+import styles from "@/components/lessons/lessons.module.css";
 import Viewer from "@/components/lessons/Viewer";
 export const dynamic = "force-dynamic";
 export default async function Page({ params }: { params: { id: string } }) {
@@ -15,9 +16,9 @@ export default async function Page({ params }: { params: { id: string } }) {
   }
   if (!lesson) notFound();
   return (
-    <main>
+    <main className={styles.watch}>
       <Link href="/lessons">← Lesson library</Link>
-      <h1>{lesson.title}</h1>
+      <span className={styles.eyebrow}>OBSERVED BY BOOMER</span><h1>{lesson.title}</h1>
       <p>
         {lesson.region?.city}, {lesson.region?.state} · NEC{" "}
         {lesson.region?.necEdition}

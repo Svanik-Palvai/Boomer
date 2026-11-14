@@ -148,7 +148,7 @@ export default function Editor({ id }: { id: string }) {
     <main className={styles.editor}>
       <fieldset disabled={busy} style={{ border: 0, padding: 0, minWidth: 0 }}>
         <Link href="/lessons/workspace">← Workspace</Link>
-        <h1>Edit lesson</h1>
+        <span className={styles.eyebrow}>PRIVATE / LESSON EDITOR</span><h1>Shape the lesson.</h1><nav className={styles.editorNav} aria-label="Editor sections"><a href="#clips">01 Clips</a><a href="#issues">02 Editorial checks</a><a href="#review">03 Review & publish</a></nav>
         {d.fixture && (
           <p role="status">
             Fixture / mock-check session. It can be edited and rendered
@@ -177,7 +177,7 @@ export default function Editor({ id }: { id: string }) {
             onChange={(e) => change({ ...edit, description: e.target.value })}
           />
         </label>
-        <h2>Clips and chapters</h2>
+        <h2 id="clips">Clips and chapters</h2>
         <div className={styles.actions}>
           {edit.clips.map((c, i) => (
             <button
@@ -531,7 +531,7 @@ export default function Editor({ id }: { id: string }) {
             </div>
           </section>
         )}
-        <h2>Editorial issues</h2>
+        <h2 id="issues">Editorial issues</h2>
         <p>
           Resolve each issue by inspecting the source. Removing a note does not
           establish electrical correctness; the electrician must review the
@@ -626,7 +626,7 @@ export default function Editor({ id }: { id: string }) {
             ))}
           </details>
         ))}
-        <h2>Review and publishing</h2>
+        <h2 id="review">Review and publishing</h2>
         <button disabled={busy || dirty} onClick={() => action("sync")}>
           I checked audio/video synchronization for this revision
         </button>
