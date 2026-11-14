@@ -10,7 +10,7 @@ import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import type { Frame } from "@/lib/types";
 import { FRAMES } from "@/lib/config";
 
-export type Kind = "worker" | "job" | "record" | "toollog" | "flag";
+export type Kind = "worker" | "job" | "record" | "toollog" | "flag" | "contact" | "signup";
 export interface Index {
   workerId?: string;
   jobId?: string;
@@ -106,7 +106,11 @@ function memoryBackend(): Backend {
 // ───────────── supabase ─────────────
 
 function supabaseBackend(url: string, serviceKey: string): Backend {
-  const db: SupabaseClient = createClient(url, serviceKey, { auth: { persistSession: false } });
+  const db: SupabaseClient = createClient(url, serviceKey, {
+    auth: { persistSession: false },
+    // Next.js caches fetch() in server code; job state must always be fresh (live view, mini app, voice tools).
+    global: { fetch: (input, init) => fetch(input, { ...init, cache: "no-store" }) },
+  });
   const ok = <T>(r: { data: T; error: { message: string } | null }) => {
     if (r.error) throw new Error(`[supabase] ${r.error.message}`);
     return r.data;

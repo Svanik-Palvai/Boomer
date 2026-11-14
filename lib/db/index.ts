@@ -4,4 +4,5 @@ export * from "./jobs";
 export * from "./frames";
 export * from "./records";
 export * from "./logs";
+export * from "./contacts";
 export { newId, nowIso } from "./memoryStore";
