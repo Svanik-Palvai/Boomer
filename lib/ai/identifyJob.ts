@@ -24,17 +24,20 @@ export const COMPONENTS = [
   "other",
 ] as const;
 
-const fallback = (): JobIdentity => ({
-  component: "kitchen countertop receptacle",
-  problem: "standard receptacle by the counter, needs to be a GFCI",
+/** No usable picture: go by what the worker said. Never claims to have seen anything. */
+const fallback = (reason: "no_frame" | "model_error"): JobIdentity => ({
+  component: "standard receptacle",
+  problem: "an outlet to swap for a GFCI",
   jobType: DEMO_JOB_TYPE,
-  confidence: 0.9,
+  confidence: 0.5,
   source: "fallback",
+  fallbackReason: reason,
 });
 
 export async function identifyJob(frames: Frame[], note?: string): Promise<JobIdentity> {
   const parts = frameParts(frames.slice(0, 3));
-  if (!geminiEnabled() || parts.length === 0) return fallback();
+  if (parts.length === 0) return fallback("no_frame");
+  if (!geminiEnabled()) return fallback("model_error");
 
   const types = jobTypes();
   try {
@@ -86,6 +89,6 @@ Pick the component from: ${COMPONENTS.join(", ")}.
     };
   } catch (err) {
     console.error("[identifyJob] Gemini failed, using demo job:", errorText(err).slice(0, 200));
-    return fallback();
+    return fallback("model_error");
   }
 }

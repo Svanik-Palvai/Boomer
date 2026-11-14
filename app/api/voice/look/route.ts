@@ -14,6 +14,8 @@ export const POST = voiceTool("look", async ({ job, worker, req }) => {
 
   // "What am I looking at?" mid-job: describe, don't re-plan.
   if (job.status === "guiding") {
+    if (identity.fallbackReason === "no_frame") return { say: "I don't have a picture from the camera right now. Check the camera page is open and pointed at the work." };
+    if (identity.fallbackReason) return { say: "I couldn't read the camera picture just now. Try again in a second." };
     const seen = identity.details ?? `I see a ${identity.component}.`;
     return { say: `${seen} That is just what I see. Say "check" and I'll judge this step.` };
   }
@@ -41,7 +43,12 @@ export const POST = voiceTool("look", async ({ job, worker, req }) => {
   const where = job.site
     ? `I have you in ${job.site.city}, ${job.site.state}, and you work out of ${job.home.city}${newHere ? `, so ${newHere} step${newHere === 1 ? " is" : "s are"} different here` : ""}.`
     : "I don't have your location yet; keep the camera page open.";
-  const seen = `I can see ${identity.problem}. ${where}`;
+  const seen =
+    identity.fallbackReason === "no_frame"
+      ? `I can't see the camera yet, so I'm going by what you said: ${identity.problem}. ${where}`
+      : identity.fallbackReason
+        ? `I couldn't read the camera picture, so I'm going by what you said: ${identity.problem}. ${where}`
+        : `I can see ${identity.problem}. ${where}`;
 
   // Supervisor on file: send the plan for their OK and wait in "plan ready". next_step starts once they answer.
   const asked = await requestApproval(planned, worker);

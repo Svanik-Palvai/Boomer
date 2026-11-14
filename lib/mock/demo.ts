@@ -60,7 +60,7 @@ export function demoJob(opts: { status?: JobStatus; current?: number } = {}): Jo
     title: template.title,
     identity: {
       component: template.component,
-      problem: "standard receptacle by the counter, needs to be a GFCI",
+      problem: "an outlet to swap for a GFCI",
       jobType: DEMO_JOB_TYPE,
       confidence: 0.9,
       source: "fallback",

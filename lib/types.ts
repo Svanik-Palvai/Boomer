@@ -129,6 +129,8 @@ export interface JobIdentity {
   details?: string;
   confidence: number; // 0..1
   source: "gemini" | "fallback";
+  /** Why it fell back: no fresh camera frame, or the model call failed. The agent says so instead of claiming to see. */
+  fallbackReason?: "no_frame" | "model_error";
 }
 
 /**
