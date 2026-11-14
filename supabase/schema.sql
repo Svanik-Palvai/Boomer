@@ -2,7 +2,7 @@
 -- Documents (workers, jobs, records, tool logs, flags) are stored as JSON; the app owns the shape (lib/types.ts).
 
 create table if not exists boomer_docs (
-  kind        text not null,              -- worker | job | record | toollog | flag
+  kind        text not null,              -- worker | job | record | toollog | flag | contact | signup
   id          text not null,
   data        jsonb not null,
   worker_id   text,

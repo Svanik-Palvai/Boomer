@@ -1,7 +1,10 @@
 // OWNER: Zohaib. ElevenLabs post-call webhook -> call summary in job memory. The job stays open so a
-// dropped call resumes at the same step.
+// dropped call resumes at the same step, and if the call ended mid-job the worker gets a text saying where they were.
 import { NextResponse } from "next/server";
-import { firstTimeSeen, updateJob } from "@/lib/db";
+import { firstTimeSeen, getJob, updateJob } from "@/lib/db";
+import { stepNumber } from "@/lib/agent/engine";
+import { sendText } from "@/lib/photon/send";
+import type { Job } from "@/lib/types";
 import { resolveJob } from "@/lib/jobs/resolve";
 import { summarizeCall } from "@/lib/ai/summarize";
 import { remember } from "@/lib/memory/store";
@@ -43,5 +46,22 @@ export async function POST(req: Request) {
   const summary = await summarizeCall(transcript);
   await remember(r.job.id, { channel: "voice", agent: "guide", speaker: "system", text: `Call summary: ${summary}` });
   if (conversationId) await updateJob(r.job.id, (j) => ({ ...j, callIds: [...j.callIds, conversationId] }));
-  return NextResponse.json({ ok: true, jobId: r.job.id });
+  const pickedUp = await pickupText((await getJob(r.job.id)) ?? r.job, r.worker.phone, conversationId);
+  return NextResponse.json({ ok: true, jobId: r.job.id, pickupText: pickedUp });
+}
+
+/** Call ended while a step was still open: text where they were so they can call back and carry on. */
+async function pickupText(job: Job, phone: string, conversationId?: string): Promise<boolean> {
+  const n = stepNumber(job);
+  if (job.status !== "guiding" || !n) return false;
+  const line = process.env.PHOTON_NUMBER;
+  const text = `Paused on step ${n} of ${job.steps.length}: ${job.steps[job.current].text}\nCall Boomer${line ? ` at ${line}` : ""} when you're ready and we'll pick up right there.`;
+  try {
+    await sendText(phone, text, `pickup:${conversationId ?? job.id}`);
+    await remember(job.id, { channel: "imessage", agent: "recorder", speaker: "agent", text });
+    return true;
+  } catch (err) {
+    console.error("[voice webhook] pick-up text failed:", err);
+    return false;
+  }
 }

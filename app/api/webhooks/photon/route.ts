@@ -1,10 +1,14 @@
-// OWNER: Zohaib. Inbound texts from Photon 2.0 (Standard Webhooks). Not in the core flow:
-// the text goes into the worker's job memory, then the recorder agent (lib/agents/recorder.ts) reads that memory and replies.
+// OWNER: Zohaib. Inbound texts from Photon 2.0 (Standard Webhooks). Not in the core flow. Each text goes to one agent:
+//   unknown number            -> sign-up agent (lib/agents/signup.ts)
+//   share / supervisor command -> share agent (lib/agents/share.ts)
+//   anything else             -> recorder agent (lib/agents/recorder.ts), which answers from the shared job memory
 // Photon dashboard → Webhooks → Add a destination: this URL, event "message.received" (or *). Put the whsec_ secret in PHOTON_WEBHOOK_SECRET.
 // Local testing: with no PHOTON_WEBHOOK_SECRET set, POST { "data": { "id": "...", "sentBy": { "handle": "+1..." }, "content": { "type": "text", "text": "record" } } }.
 import { NextResponse } from "next/server";
 import { recorderReply } from "@/lib/agents/recorder";
-import { firstTimeSeen } from "@/lib/db";
+import { shareReply } from "@/lib/agents/share";
+import { signupReply } from "@/lib/agents/signup";
+import { firstTimeSeen, getWorkerByPhone, normalizePhone } from "@/lib/db";
 import { resolveJob } from "@/lib/jobs/resolve";
 import { remember } from "@/lib/memory/store";
 import { verifyPhotonWebhook } from "@/lib/photon/client";
@@ -30,13 +34,31 @@ export async function POST(req: Request) {
     return new Response(null, { status: 204 }); // not an inbound human text
   }
 
-  const r = await resolveJob({ callerPhone: m.sentBy.handle, create: false });
-  if (!r) return new Response(null, { status: 204 });
-  await remember(r.job.id, { channel: "imessage", agent: "recorder", speaker: "worker", text: m.content.text });
-  const reply = await recorderReply(r.job, r.worker, m.content.text);
-  if (reply) {
-    await sendText(r.worker.phone, reply, `boomer-reply:${eventId}`);
-    await remember(r.job.id, { channel: "imessage", agent: "recorder", speaker: "agent", text: reply });
+  const from = normalizePhone(m.sentBy.handle);
+  const text = m.content.text;
+  const reply = (r: string, agent: string, jobId?: string) =>
+    sendText(from, r, `boomer-reply:${eventId}`).then(
+      () => NextResponse.json({ ok: true, agent, jobId, replied: true }),
+      (err) => (console.error(`[photon webhook] ${agent} reply failed:`, String(err).slice(0, 200)), NextResponse.json({ ok: false, agent, jobId, replied: false })),
+    );
+
+  const worker = await getWorkerByPhone(from);
+  if (!worker) return reply(await signupReply(from, text), "signup");
+
+  const r = await resolveJob({ callerPhone: from, create: false });
+  const job = r?.job ?? null;
+  if (job) await remember(job.id, { channel: "imessage", agent: "recorder", speaker: "worker", text });
+
+  const shared = await shareReply(job, worker, text);
+  if (shared) return reply(shared, "share", job?.id);
+
+  if (!job) {
+    if (/^(ok(ay)?|k|cool|got it|thanks?|thank you|thx|ty|great|nice|👍|🙏)[\s.!]*$/i.test(text.trim())) return NextResponse.json({ ok: true, agent: "recorder", replied: false });
+    const n = process.env.PHOTON_NUMBER;
+    return reply(`No jobs on your record yet. When you're on one, call Boomer${n ? ` at ${n}` : ""}.`, "recorder");
   }
-  return NextResponse.json({ ok: true, jobId: r.job.id, replied: !!reply });
+  const answer = await recorderReply(job, worker, text);
+  if (!answer) return NextResponse.json({ ok: true, agent: "recorder", jobId: job.id, replied: false });
+  await remember(job.id, { channel: "imessage", agent: "recorder", speaker: "agent", text: answer });
+  return reply(answer, "recorder", job.id);
 }

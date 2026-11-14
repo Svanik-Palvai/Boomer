@@ -10,7 +10,7 @@ import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import type { Frame } from "@/lib/types";
 import { FRAMES } from "@/lib/config";
 
-export type Kind = "worker" | "job" | "record" | "toollog" | "flag";
+export type Kind = "worker" | "job" | "record" | "toollog" | "flag" | "contact" | "signup";
 export interface Index {
   workerId?: string;
   jobId?: string;
