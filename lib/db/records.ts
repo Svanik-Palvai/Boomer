@@ -1,19 +1,21 @@
 // OWNER: Zohaib (backend). Work record entries, one per finished job.
 import type { RecordEntry } from "@/lib/types";
-import { tables } from "./memoryStore";
+import { backend } from "./backend";
+import { ready } from "./memoryStore";
 
 export async function saveRecordEntry(e: RecordEntry): Promise<RecordEntry> {
-  tables().records.set(e.id, e);
+  await ready();
+  await backend().put("record", e.id, e, { workerId: e.workerId, jobId: e.jobId });
   return e;
 }
 
 export async function getRecordEntryByJob(jobId: string): Promise<RecordEntry | null> {
-  for (const e of tables().records.values()) if (e.jobId === jobId) return e;
-  return null;
+  await ready();
+  const [e] = await backend().list<RecordEntry>("record", { jobId });
+  return e ?? null;
 }
 
 export async function listRecordEntries(workerId: string): Promise<RecordEntry[]> {
-  return [...tables().records.values()]
-    .filter((e) => e.workerId === workerId)
-    .sort((a, b) => b.date.localeCompare(a.date));
+  await ready();
+  return (await backend().list<RecordEntry>("record", { workerId })).sort((a, b) => b.date.localeCompare(a.date));
 }

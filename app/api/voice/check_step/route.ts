@@ -9,6 +9,11 @@ import { UNCLEAR_RETRIES } from "@/lib/config";
 import { judgeConfirmation } from "@/lib/ai/judgeConfirmation";
 import { remember } from "@/lib/memory/store";
 
+/** Checker -> shared job memory, so the guide and the iMessage recorder can refer back to it. Fire-and-forget: the check has a ~3 s budget. */
+function logCheck(jobId: string, text: string) {
+  remember(jobId, { channel: "voice", agent: "checker", speaker: "agent", text }).catch((err) => console.error("[check_step] memory write failed:", err));
+}
+
 export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
   const step = currentStep(job);
   if (job.status !== "guiding" || !step) return { say: allDone(job) ? "That's every step. Say finish." : "We haven't started the steps yet." };
@@ -25,6 +30,7 @@ export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
     }
     const updated = await updateJob(job.id, (j) => confirmSpoken(j, req.spokenConfirmation!));
     const check: CheckResult = { outcome: "pass", say: SAY.workerConfirmed };
+    logCheck(job.id, `Step ${step.order} worker confirmed: "${req.spokenConfirmation}"`);
     return { job: updated, check, say: `${SAY.workerConfirmed} ${readStep(updated, worker)}` };
   }
 
@@ -34,6 +40,7 @@ export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
   const check = await checkStep(step, frames, attempt);
 
   const updated = await updateJob(job.id, (j) => (j.current === job.current ? applyCheck(j, check) : j));
+  logCheck(job.id, `Step ${step.order} camera check: ${check.outcome}. ${check.say}`);
   if (check.outcome === "pass") return { job: updated, check, say: `${check.say} ${readStep(updated, worker)}` };
 
   const unclear = updated.results[updated.current]?.unclear ?? 0;
