@@ -1,6 +1,7 @@
 // OWNER: Lessons feature. Actual Supabase SDK + lesson route against an isolated fake HTTP service.
 // This does not claim to test live Supabase/RLS; no external request or real credential is used.
 require("../../scripts/lessons/run.cjs");
+process.env.USE_MOCKS = "false";
 const assert = require("node:assert/strict");
 process.env.LESSON_SUPABASE_URL = "https://lesson-fixture.supabase.co";
 process.env.LESSON_SUPABASE_SERVICE_ROLE_KEY = "fixture-server-key";

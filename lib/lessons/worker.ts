@@ -422,17 +422,17 @@ export async function runTask(
     await rm(dir, { recursive: true, force: true });
   }
 }
-export async function workOnce() {
+export async function workOnce(onlyLessonId?: string) {
   const db = database(),
     now = new Date().toISOString();
-  const { data, error } = await db
+  let candidates = db
     .from("boomer_lesson_tasks")
     .select("*")
     .or(
       `and(state.eq.queued,not_before.lte.${now}),and(state.eq.running,lease_until.lt.${now})`,
-    )
-    .order("created_at")
-    .limit(10);
+    );
+  if (onlyLessonId) candidates = candidates.eq("lesson_id", onlyLessonId);
+  const { data, error } = await candidates.order("created_at").limit(10);
   if (error) throw error;
   for (const old of (data ?? []) as RenderTask[]) {
     const token = randomUUID();

@@ -125,6 +125,7 @@ export interface LessonDraft {
     | "published"
     | "failed";
   recordingConsentAt: string;
+  fixture?: boolean;
   sessions: RecordingSession[];
   calls: CallAsset[];
   edit: LessonRevision;
@@ -221,6 +222,9 @@ export function validateEvidence(
 export function publishProblems(d: LessonDraft): string[] {
   return [
     ...validateEvidence(d, d.edit),
+    ...(d.fixture
+      ? ["Fixture or mocked-check lessons cannot be publicly published"]
+      : []),
     ...(!editSchema.safeParse(d.edit).success
       ? ["Lesson edit is incomplete or invalid"]
       : []),

@@ -12,9 +12,9 @@ This feature extends the v2 scaffold. It does not replace the guided-call engine
 - Rendering: FFmpeg H.264/AAC MP4, portrait/landscape normalization, labeled freeze-frame annotations, original conversation audio, silent freeze holds, a burned inert-demo notice, synchronized VTT transcript, poster and chapter timing. This is post-production annotation, not live AR tracking.
 - Public `/lessons` library and lesson viewer: published projections only. Source media, raw calls, owner IDs, private drafts and credentials do not appear in public responses. New public media requests check publication before streaming; withdrawal blocks subsequent requests. Already-downloaded video cannot be recalled.
 
-## External dependencies — not yet configured or claimed tested
+## Live setup and remaining dependencies
 
-The connected account currently exposes only unrelated Supabase projects. No schema was applied and no recordings were uploaded to them. The supplied dedicated Boomer project is reachable through its service key; its private lesson bucket has now been created and verified private. Database management/public-key access is still pending. Zohaib must supply the dedicated Boomer project and configure these environment variables locally AND on Vercel:
+The dedicated Boomer project (`xhxckolfwfpvqmwltpis`) is configured locally. The bootstrap schema was applied through the authorized Supabase dashboard, and its private bucket, RLS and table grants were verified. A disposable, visibly labeled private fixture exercised real authentication, direct uploads, queue claims, FFmpeg rendering and private output storage; its users, rows and objects were removed afterward. No unrelated project was modified. The connected MCP account still lacks management access, so dashboard access was used. Configure these environment variables locally AND on Vercel as appropriate:
 
 ```
 LESSON_SUPABASE_URL=https://YOUR-BOOMER-PROJECT.supabase.co
@@ -30,7 +30,7 @@ Do not send secret keys through chat or commit them. Lesson-specific configurati
 
 In the dedicated project only:
 
-1. Review and apply `scripts/lessons/schema.sql`. It creates three server-only tables with RLS enabled and no anon/authenticated grants, and one private media bucket. It is a bootstrap SQL script, not a falsely claimed applied migration. No live database/RLS verification has occurred yet.
+1. `scripts/lessons/schema.sql` has been applied to the dedicated project. It creates three server-only tables with RLS enabled and no anon/authenticated grants, and one private media bucket. This is a bootstrap script, not a Supabase migration-history entry. For a fresh project, apply it before using the APIs.
 2. Confirm the bucket is private, has no public object policies, and accepts the script's allowed media types. Source parts are capped at 25 MiB each by the API; the private bucket has a 50 MiB object limit and render bitrate/duration are bounded to fit it. Never change it to public to fix preview access.
 3. Enable email OTP/magic-link sign-in. Add local and deployed `/lessons/workspace` redirect URLs to Auth settings. Verify email delivery and sign-in in that project.
 4. Sign in as reviewer and worker. The workspace displays each account UUID. Reviewer explicitly links the existing worker ID to the correct UUID. There is no automatic ownership based on phone number and no account reassignment endpoint.
@@ -53,7 +53,7 @@ The worker reads `.env` and `.env.local` without printing secrets. It needs the 
 ## End-to-end workflow
 
 1. Visit `/lessons/workspace`; sign in. Reviewer binds the worker account.
-2. On the harness camera page, start the existing camera; opt in to lesson recording. Use the two-device fallback if a phone call suspends camera/recording. Capture remains optional and failures never stop still-frame guidance.
+2. On the harness camera page, start the existing camera; open the optional lesson controls, confirm the job location using the reused LocationPicker, then opt in to lesson recording before the call. Use the two-device fallback if a phone call suspends camera/recording. Capture remains optional and failures never stop still-frame guidance.
 3. Run the actual inert job. Complete both spoken hard gates. Keep the prop disconnected. A simulated test is never described as a real electrical test.
 4. Stop capture or finish the job. Upload verifies all chunks, preserves interrupted source metadata and queues preparation. The job must be done, video finalized, and original call audio/timed transcript available. Calls may arrive before or after completion; events queue preparation independently.
 5. Start the worker. Open the draft, inspect source previews and original audio, verify synchronization, trim/reorder clips and adjust part boxes on readable freeze frames. Approximate clocks are suggestions only; a reviewer must check sync. Review corrections in context rather than guessing a mistake timestamp from aggregate failure counts.
@@ -64,11 +64,12 @@ The worker reads `.env` and `.env.local` without printing secrets. It needs the 
 
 - `node tests/lessons/verify.cjs`: publication/evidence gates, owner isolation, revision invalidation, correction ordering, false regional claims, caption edits and freeze-frame timing, missing sources, unconfigured/authenticated API behavior.
 - `node tests/lessons/api.cjs`: actual Supabase SDK against an isolated fake HTTP service. Exercises verified-auth lookup, reviewer allowlist, private owner isolation, idempotent creation, stale edits, consent/review/publication, minimal public projections, withdrawal, optimistic retries, duplicate queue creation, concurrent claims and expired-lease recovery. This is not a live Supabase/RLS test.
-- `FFMPEG_PATH=/path/to/ffmpeg node tests/lessons/render.cjs`: actual synthetic portrait video/audio rendered through the real pipeline. Verified output duration, audio-bearing MP4, two-second freeze, burned part annotation/notice, poster and VTT. The exported frame was visually inspected. Synthetic fixtures are labeled and never uploaded or published as real jobs.
+- `FFMPEG_PATH=/path/to/ffmpeg node tests/lessons/render.cjs`: actual synthetic portrait video/audio rendered through the real pipeline. Verified output duration, audio-bearing MP4, two-second freeze, burned part annotation/notice, poster and VTT. The exported frame was visually inspected. Synthetic fixtures are labeled and never published as real jobs. The explicit live suite uploads private fixtures only and removes them afterward.
 - Optional UI suite: set `REACT_TEST_RENDERER` to an isolated react-test-renderer@18.3.1 installation and `FAKE_INDEXEDDB` to an isolated fake-indexeddb installation, then run `node tests/lessons/recorder.cjs`. Tests format negotiation, cloned video-only capture, chunk persistence, camera independence, failed upload retention and successful retry. Test-only packages were installed outside the repo; shared package.json/lockfile are untouched.
+- `LESSON_LIVE_TESTS=true LESSON_TEST_PROJECT_REF=xhxckolfwfpvqmwltpis FFMPEG_PATH=/path/to/ffmpeg node tests/lessons/live.cjs`: passed against the dedicated project. Verifies real authenticated private APIs, denied anonymous table/object reads, signed direct uploads/downloads, durable writes, a scoped worker claim, real source assembly/rendering and private artifact storage. Temporary fixtures are explicitly blocked from publication and cleaned up. Never run against an unrelated project.
 - Existing location suite and full mock guided-call flow must continue passing. `npm run check` runs typecheck and production build. Existing `npm run lint` still starts a configuration wizard because the shared scaffold has no ESLint setup.
 
-Remaining acceptance requires the actual Boomer database/Auth/Storage setup, a real signed call and camera recording on the team phones, actual AI/provider API calls, a real electrician review and consent, and playback of the approved lesson on Vercel. No claim that these external steps occurred is made.
+Remaining acceptance requires reviewer allowlist and Auth redirect/email delivery configuration, a real signed call and camera recording on the team phones, actual AI/provider API calls, a real electrician review and consent, and playback of the approved lesson on Vercel. Database/private-storage setup and the live private synthetic pipeline have been verified; email delivery and real-device capture have not. No claim that these external steps occurred is made.
 
 ## Coordination / integration diff
 

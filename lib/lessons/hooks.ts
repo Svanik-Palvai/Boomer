@@ -1,5 +1,6 @@
 // OWNER: Lessons feature. Small integration hooks; disabled without dedicated lesson configuration.
 import { templateReview } from "@/lib/location/steps";
+import { USE_MOCKS } from "@/lib/config";
 import type { Job } from "@/lib/types";
 import {
   configured,
@@ -42,6 +43,7 @@ export async function createForJob(job: Job, userId: string) {
     revision: 1,
     status: "waiting_for_media",
     recordingConsentAt: now,
+    fixture: USE_MOCKS,
     sessions: [],
     calls: [],
     edit: {

@@ -149,6 +149,12 @@ export default function Editor({ id }: { id: string }) {
       <fieldset disabled={busy} style={{ border: 0, padding: 0, minWidth: 0 }}>
         <Link href="/lessons/workspace">← Workspace</Link>
         <h1>Edit lesson</h1>
+        {d.fixture && (
+          <p role="status">
+            Fixture / mock-check session. It can be edited and rendered
+            privately, but cannot be published as a real-job lesson.
+          </p>
+        )}
         <p>
           Revision {d.revision} · {d.status} {dirty && "· Unsaved edits"}
         </p>

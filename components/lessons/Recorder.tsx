@@ -2,6 +2,7 @@
 // OWNER: Lessons feature. Opt-in recording reuses a clone of camera video tracks, never microphone.
 import { useEffect, useRef, useState, type RefObject } from "react";
 import Link from "next/link";
+import LocationPicker from "@/components/location/LocationPicker";
 import { lessonRequest } from "@/lib/lessons/client";
 import {
   localSessions,
@@ -289,6 +290,19 @@ export default function LessonRecorder({
         <Link href="/lessons/workspace" target="_blank">
           Lesson workspace · sign in first
         </Link>
+        {jobId &&
+          !active &&
+          jobStatus !== "done" &&
+          jobStatus !== "stopped" && (
+            <LocationPicker
+              jobId={jobId}
+              onConfirm={() =>
+                setMessage(
+                  "Location confirmed. Start recording before the call.",
+                )
+              }
+            />
+          )}
         <p>
           Optional video lesson. No phone microphone is recorded. Call audio is
           stored separately with your consent.
