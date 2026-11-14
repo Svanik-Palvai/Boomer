@@ -1,6 +1,8 @@
 // OWNER: Sunny (AI)
 import type { Check, Job, PlanStep, Rule } from "@/lib/types";
-import { rules as allRules } from "@/lib/checks/runChecks";
+import rulesData from "@/data/rules.json";
+
+const allRules = rulesData as Rule[];
 
 /**
  * Job + checks -> ordered plan, each step tagged "standard" or "new_here".
@@ -65,8 +67,15 @@ export function applicableRules(job: Job, checks: Check[], rules: Rule[] = allRu
   return rules.filter(
     (r) =>
       fromChecks.has(r.id) ||
-      (places.has(r.jurisdiction.toLowerCase()) && r.appliesTo.some((a) => a.toLowerCase() === component)),
+      (places.has(r.jurisdiction.toLowerCase()) && r.appliesTo.some((a) => sameComponent(a, component))),
   );
+}
+
+/** "island receptacle" matches "kitchen island receptacle"; "receptacle" alone does not match "light switch". */
+function sameComponent(a: string, b: string): boolean {
+  const x = a.toLowerCase().trim();
+  const y = b.toLowerCase().trim();
+  return x === y || y.includes(x) || x.includes(y);
 }
 
 export function buildPlan(job: Job, checks: Check[], rules: Rule[] = allRules): PlanStep[] {

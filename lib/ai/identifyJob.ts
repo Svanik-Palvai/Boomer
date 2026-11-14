@@ -14,6 +14,7 @@ import { callGemini, errorText, gemini, geminiEnabled, VISION_MODEL } from "@/li
  */
 
 export const COMPONENTS = [
+  "kitchen island receptacle",
   "kitchen countertop receptacle",
   "bathroom receptacle",
   "outdoor receptacle",
@@ -59,6 +60,7 @@ export async function identifyJob(photo: string, note?: string): Promise<JobIden
               {
                 text: `You help an electrician document a job. Look at the photo${note ? ` and their note: "${note}"` : ""}.
 
+A receptacle on a freestanding kitchen island or peninsula is "kitchen island receptacle".
 Pick the component from this list: ${COMPONENTS.join(", ")}.
 Write the task as a short phrase like "replace receptacle", "install new receptacle", "replace switch".
 In "details", list what you can see that matters for code: number of prongs, GFCI test/reset buttons or not,

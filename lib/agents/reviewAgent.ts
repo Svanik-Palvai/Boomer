@@ -1,7 +1,9 @@
 // OWNER: Sunny (AI + agents)
-import type { Case, Stage } from "@/lib/types";
+import type { Case, Rule, Stage } from "@/lib/types";
 import { contextFor } from "@/lib/memory/store";
-import { rules } from "@/lib/checks/runChecks";
+import rulesData from "@/data/rules.json";
+
+const rules = rulesData as Rule[];
 
 /**
  * REVIEW AGENT (iMessage). Writes the short text that goes with each mini app card,

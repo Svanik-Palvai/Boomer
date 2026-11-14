@@ -1,6 +1,8 @@
 // OWNER: Sunny (AI + agents), using Aniketh's rules data
-import { rules } from "@/lib/checks/runChecks";
+import rulesData from "@/data/rules.json";
 import type { Rule } from "@/lib/types";
+
+const rules = rulesData as Rule[];
 
 /**
  * CODE AGENT. Answers "what does the code say" for the other agents, only from rules.json.
