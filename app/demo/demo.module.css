@@ -1,0 +1,428 @@
+/* OWNER: Pitch presentation. Scoped console styling; product screens are unchanged. */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 22px 5%;
+  background: #171914;
+  color: #f1ebdd;
+}
+.header a {
+  text-decoration: none;
+  font-size: 13px;
+}
+.header a.brand {
+  font-family: BoomerCondensed, Impact, sans-serif;
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+.header > span {
+  font: 10px monospace;
+  color: #f4c430;
+}
+.main {
+  max-width: 1240px;
+  padding: 36px 40px 64px;
+}
+.meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font: 10px monospace;
+  border-bottom: 1px solid #17191440;
+  padding-bottom: 18px;
+  margin-bottom: 48px;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 10%;
+  align-items: center;
+}
+.eyebrow {
+  display: block;
+  font: 10px/1.6 monospace;
+  letter-spacing: 0.06em;
+}
+.hero h1 {
+  font-size: clamp(60px, 7vw, 100px);
+  margin: 24px 0;
+  line-height: 0.93;
+}
+.hero em {
+  color: #525b3e;
+  font-style: normal;
+}
+.hero > div > p {
+  font-size: 20px;
+  max-width: 36ch;
+  line-height: 1.5;
+}
+.monitor {
+  padding: 30px;
+  background: #171914;
+  color: #f1ebdd;
+  box-shadow: 8px 8px 0 #17191415;
+}
+.monitor > .eyebrow {
+  color: #f4c430;
+}
+.monitor h2 {
+  font-size: 44px;
+  margin: 24px 0 20px;
+}
+.monitor > p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #c2c4b6;
+}
+.primary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  min-height: 60px;
+  padding: 16px 20px;
+  background: #f4c430;
+  color: #171914 !important;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 24px;
+}
+.mode {
+  font: 10px monospace;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #c2c4b6;
+  margin-top: 22px;
+}
+.dot {
+  width: 7px;
+  height: 7px;
+  background: #f4c430;
+  display: inline-block;
+}
+.stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  border-block: 1px solid #17191440;
+  margin: 48px 0 0;
+  padding: 20px 0;
+  font: 10px monospace;
+  color: #525b3e;
+}
+.workflowStep {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 24px;
+  border-bottom: 1px solid #17191440;
+  padding: 42px 0;
+}
+.stepNumber {
+  font:
+    700 56px/1 BoomerCondensed,
+    Impact,
+    sans-serif;
+  color: #525b3e;
+}
+.workflowStep h2 {
+  font-size: 38px;
+  margin: 12px 0 18px;
+}
+.workflowStep p {
+  font-size: 17px;
+  line-height: 1.6;
+  max-width: 66ch;
+}
+.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 24px;
+}
+.links a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  border: 1px solid #17191445;
+  background: #f8f5ed;
+  padding: 20px;
+  text-decoration: none;
+  min-height: 100px;
+}
+.links a:hover {
+  background: #f4c430;
+}
+.links b {
+  display: block;
+  font-size: 18px;
+}
+.links small {
+  display: block;
+  font-size: 12px;
+  color: #525b3e;
+  margin-top: 8px;
+}
+.call {
+  margin-top: 24px;
+  border-left: 2px solid #525b3e;
+  padding-left: 16px;
+}
+.call > a {
+  display: inline-block;
+  font-weight: bold;
+  padding-block: 8px;
+}
+.call small {
+  font: 10px/1.6 monospace;
+  display: block;
+  color: #525b3e;
+  margin-top: 10px;
+  max-width: 70ch;
+}
+.call p {
+  font-size: 14px;
+}
+.sheets {
+  background: #f4c430;
+  padding: 32px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 42px;
+  scroll-margin-top: 24px;
+}
+.sheets h2 {
+  font-size: 40px;
+  margin: 18px 0;
+}
+.sheets p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.sheetLinks {
+  display: grid;
+  gap: 16px;
+}
+.sheetLinks > a {
+  display: block;
+  padding: 20px;
+  background: #f1ebdd;
+  border: 1px solid #17191440;
+  text-decoration: none;
+  box-shadow: 4px 4px 0 #17191415;
+}
+.sheetLinks span {
+  font: 9px monospace;
+  display: block;
+  color: #525b3e;
+}
+.sheetLinks b {
+  font:
+    700 30px/1.1 BoomerCondensed,
+    Impact,
+    sans-serif;
+  display: block;
+  margin: 12px 0;
+}
+.sheetLinks small {
+  font-size: 12px;
+}
+.lesson {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 42px 0;
+  border-bottom: 1px solid #17191440;
+}
+.lesson h2 {
+  font-size: 34px;
+  margin: 16px 0;
+}
+.lesson p {
+  font-size: 15px;
+  max-width: 52ch;
+  line-height: 1.6;
+}
+.lesson > a {
+  font-size: 14px;
+  flex-shrink: 0;
+  padding: 16px 0;
+}
+.footer {
+  padding-top: 32px;
+}
+.footer > span {
+  font: 10px monospace;
+  color: #525b3e;
+}
+.footer p {
+  font-size: 13px;
+  line-height: 1.6;
+  margin-top: 14px;
+  max-width: 80ch;
+}
+.footer > a {
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 20px;
+  padding-block: 12px;
+}
+@media (max-width: 800px) {
+  .main {
+    padding: 28px 24px 48px;
+  }
+  .hero {
+    gap: 6%;
+  }
+  .hero h1 {
+    font-size: 70px;
+  }
+  .hero > div > p {
+    font-size: 17px;
+  }
+  .monitor {
+    padding: 24px;
+  }
+  .monitor h2 {
+    font-size: 36px;
+  }
+  .header > span {
+    display: none;
+  }
+  .workflowStep {
+    grid-template-columns: 50px 1fr;
+    gap: 20px;
+  }
+  .stepNumber {
+    font-size: 46px;
+  }
+  .links a {
+    padding: 16px;
+  }
+  .links b {
+    font-size: 16px;
+  }
+  .sheets {
+    padding: 24px;
+    gap: 28px;
+  }
+  .sheets h2 {
+    font-size: 34px;
+  }
+  .lesson {
+    gap: 24px;
+  }
+  .lesson h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 599px) {
+  .header {
+    padding: 18px 20px;
+  }
+  .header a.brand {
+    font-size: 30px;
+  }
+  .header a:last-child {
+    font-size: 11px;
+  }
+  .main {
+    padding: 24px 20px 40px;
+  }
+  .meta {
+    font-size: 8px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  .meta > span:last-child {
+    text-align: right;
+    max-width: 50%;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .hero h1 {
+    font-size: 72px;
+    margin: 20px 0;
+  }
+  .eyebrow {
+    font-size: 9px;
+  }
+  .monitor {
+    box-shadow: 5px 5px 0 #17191415;
+  }
+  .monitor h2 {
+    font-size: 39px;
+  }
+  .stack {
+    gap: 14px;
+    margin-top: 36px;
+    font-size: 8px;
+  }
+  .stack span {
+    flex-basis: 45%;
+  }
+  .workflowStep {
+    grid-template-columns: 34px 1fr;
+    gap: 14px;
+    padding: 32px 0;
+  }
+  .stepNumber {
+    font-size: 36px;
+  }
+  .workflowStep h2 {
+    font-size: 32px;
+  }
+  .workflowStep p {
+    font-size: 15px;
+  }
+  .links {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .links a {
+    min-height: 88px;
+    padding: 16px;
+  }
+  .links b {
+    font-size: 17px;
+  }
+  .links small {
+    font-size: 11px;
+  }
+  .sheets {
+    grid-template-columns: 1fr;
+    padding: 24px 18px;
+    gap: 28px;
+    margin-top: 32px;
+  }
+  .sheets h2 {
+    font-size: 36px;
+  }
+  .sheets p {
+    font-size: 15px;
+  }
+  .lesson {
+    display: block;
+    padding: 32px 0;
+  }
+  .lesson h2 {
+    font-size: 32px;
+  }
+  .lesson > a {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .footer p {
+    font-size: 12px;
+  }
+}

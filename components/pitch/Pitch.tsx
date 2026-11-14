@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { companies, guideBeats, replayBeats, sections } from "./content";
 import CompanyMark from "./CompanyMark";
+import AgentSystem from "./AgentSystem";
+import JudgeTracks from "./JudgeTracks";
 import { OpeningScene, BorderScene, RecordScene } from "./ScrollScenes";
 import { Harness, Outlet } from "./Illustrations";
 import s from "./pitch.module.css";
@@ -142,7 +144,7 @@ export default function Pitch() {
         <section id="how" data-section className={`${s.section} ${s.dark}`}>
           <div className={s.sectionLabel}>
             <span>02 / THE SETUP</span>
-            <span>A PHONE. A HARNESS. A CALL.</span>
+            <span>PHOTON NUMBER → ELEVENLABS VOICE AGENT</span>
           </div>
           <h2>
             Strap in.
@@ -156,7 +158,7 @@ export default function Pitch() {
               <span className={s.kicker}>FIELD SETUP / ILLUSTRATION</span>
               <Harness beat={guide} />
               <div className={s.voice}>
-                <span className={s.kicker}>BOOMER / EXAMPLE RESPONSE</span>
+                <span className={s.kicker}>BOOMER VOICE AGENT / EXAMPLE</span>
                 <p>“{guideBeats[guide].say}”</p>
                 <div className={s.signal} aria-hidden="true">
                   {Array.from({ length: 24 }, (_, i) => (
@@ -313,6 +315,27 @@ export default function Pitch() {
                 </li>
               ))}
             </ol>
+            <details className={s.pipelineTech}>
+              <summary>Inside the lesson pipeline ↗</summary>
+              <p>
+                Private direct uploads and retained recording chunks feed a
+                durable preparation/render queue. An explicit laptop FFmpeg
+                worker exports H.264/AAC video, captions and a poster with
+                labeled freeze-frame annotations.
+              </p>
+              <p>
+                Revision checks, task leases and retry paths protect the render.
+                Every edit invalidates the prior render and approvals; only the
+                reviewed, worker-permitted revision can be published.
+              </p>
+              <a
+                href="https://github.com/Svanik-Palvai/Boomer/pull/6/files"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Inspect the pipeline implementation ↗
+              </a>
+            </details>
             <p className={s.pipelineNote}>
               Pipeline implemented; real-session acceptance remains. No real-job
               lesson is presented as published here.
@@ -320,9 +343,12 @@ export default function Pitch() {
           </div>
         </section>
 
+        <AgentSystem />
+        <JudgeTracks />
+
         <section id="build" data-section className={`${s.section} ${s.dark}`}>
           <div className={s.sectionLabel}>
-            <span>06 / UNDER THE HOOD</span>
+            <span>08 / UNDER THE HOOD</span>
             <span>ONE JOB CONNECTS THE SYSTEM</span>
           </div>
           <div className={s.split}>
@@ -359,8 +385,8 @@ export default function Pitch() {
             </span>
             <div>
               <span className={s.kicker}>ON THE CALL</span>
-              <h3>Photon + ElevenLabs</h3>
-              <p>Voice tools and responses</p>
+              <h3>Photon voice + ElevenLabs agent</h3>
+              <p>SIP call → agent → server tools</p>
             </div>
           </div>
           <div className={s.architectureBottom}>
@@ -410,16 +436,8 @@ export default function Pitch() {
             </p>
           </div>
           <div className={s.team}>
-            {[
-              ["Andy", "Screens & camera"],
-              ["Zohaib", "Backend & voice"],
-              ["Sunny", "AI & memory"],
-              ["Aniketh", "Jurisdiction data & field workflow"],
-            ].map(([name, role]) => (
-              <div key={name}>
-                <b>{name}</b>
-                <span>{role}</span>
-              </div>
+            {["Andy", "Zohaib", "Sunny", "Aniketh"].map((name) => (
+              <b key={name}>{name}</b>
             ))}
           </div>
         </section>

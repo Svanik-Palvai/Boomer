@@ -10,6 +10,8 @@ export const sections = [
   { id: "how", label: "How it works" },
   { id: "correction", label: "See it work" },
   { id: "record", label: "What travels" },
+  { id: "agents", label: "Agents" },
+  { id: "tracks", label: "Tracks" },
   { id: "build", label: "The build" },
 ] as const;
 export interface Company {

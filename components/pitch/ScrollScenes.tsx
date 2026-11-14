@@ -159,7 +159,8 @@ export function OpeningScene() {
             who build everything?
           </h1>
           <p className={s.positioning}>
-            The operating system for blue-collar work.
+            The operating system for blue-collar work. Voice agents. Local
+            context.
           </p>
         </div>
         <div className={s.chaos} aria-hidden="true">
@@ -384,7 +385,7 @@ export function RecordScene() {
         <div className={s.recordObjects}>
           <div className={s.messagePhone}>
             <div className={s.phoneNotch} />
-            <span>MESSAGES / EXAMPLE</span>
+            <span>PHOTON IMESSAGE / EXAMPLE</span>
             <b>BOOMER</b>
             <div className={s.message}>
               Your GFCI demo job in Princeton is saved.

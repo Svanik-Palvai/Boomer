@@ -78,3 +78,38 @@ GitHub's default `main` view or a main-only deployment until the PR is merged.
 The newest teammates' main changes were merged through a82682c. The post-call
 webhook conflict was comment-only: both lesson evidence capture and the new
 pick-up text behavior were retained.
+
+## Agent, sponsor and demo-console presentation
+
+`/demo` is a styled field console with worker-phone setup, the judge's live
+monitor, job/work records and links to the actual Photon mini-app sheets. It
+shows the configured AI mode, never a fabricated online/provider-ready indicator.
+A call link appears only for a configured E.164 Photon number; no number is
+invented when it is absent. The camera/call screens retain their original routes.
+
+The pitch names the actual architecture: one ElevenLabs voice agent reached on
+a Photon SIP number plus signup, recorder and sharing text-agent workflows.
+The four-node map supports manual inspection or following the scroll. On desktop,
+manual selection also brings the matching explanation into view. Text agents are
+not represented as independent voice models. The nine displayed voice tools were
+checked against lib/agent/tools.ts, and every code evidence path exists.
+
+Six judging views map the team brief to implemented features: Photon Best Voice
+Agent, Photon iMessage, MLH Gemini, Amazon Practical AI, Peri Forward Deployed,
+and Business & Enterprise. Photon 2.0 voice/text and Photon 1.0 mini apps are
+explicitly distinguished. No AWS usage, prize eligibility, live provider success,
+customer traction or electrical certification is inferred from the pitch.
+
+The user reports consultations with all companies in the industry rail. The Peri
+view records that as a team-reported statement; individual interviewee names,
+roles, quotations and evidence links remain placeholders for later team input.
+The logo rail still does not imply a customer relationship or endorsement.
+
+Personal technical role labels were removed from the public team footer; the
+names remain. CONTRIBUTING ownership information remains intact for collaboration.
+
+Validation for this revision includes all six track selections, all four agent
+selections and return-to-scroll behavior, 390/768/1440 layout/overflow checks,
+HTTP checks for the linked product/mini-app routes, and no-script availability of
+all four descriptions and all six track summaries. Browser interaction produced
+no product API requests. The local production preview is available on port 3300.

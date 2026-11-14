@@ -1092,3 +1092,44 @@
     top: 0;
   }
 }
+
+.nav nav {
+  flex: 1;
+  min-width: 0;
+  overflow-x: auto;
+}
+.nav nav a {
+  flex-shrink: 0;
+}
+.team > b {
+  font-family: BoomerCondensed, Impact, sans-serif;
+  font-size: 28px;
+}
+@media (max-width: 899px) {
+  .nav nav {
+    flex: 0 0 100%;
+    width: 100%;
+    order: 3;
+  }
+}
+
+.pipelineTech {
+  margin-top: 20px;
+  border-top: 1px solid #17191440;
+  font-size: 13px;
+}
+.pipelineTech summary {
+  min-height: 48px;
+  cursor: pointer;
+  padding-block: 14px;
+}
+.pipelineTech p {
+  font-size: 13px;
+  line-height: 1.6;
+  margin-block: 12px;
+}
+.pipelineTech a {
+  display: inline-block;
+  padding-block: 12px;
+  font-size: 12px;
+}
