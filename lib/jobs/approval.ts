@@ -7,6 +7,8 @@
 import type { ApprovalStatus, Job, PlanApproval, Worker } from "@/lib/types";
 import { findOpenJob, getContacts, listWorkers, normalizePhone, updateJob } from "@/lib/db";
 import { refreshJobCards, sendJobCard, textAnyLine } from "@/lib/photon/miniapp";
+import { sendText } from "@/lib/photon/send";
+import { sendStableText } from "@/lib/photon/stable";
 import { stableConfigured } from "@/lib/photon/stable";
 import { absolute, pages } from "@/lib/routes";
 import { remember } from "@/lib/memory/store";
@@ -42,7 +44,11 @@ export function planText(job: Job, worker: Worker): string {
 export async function requestApproval(job: Job, worker: Worker): Promise<Job | null> {
   const c = await getContacts(worker.id);
   if (!c?.supervisorPhone) return null;
-  const sent = await textAnyLine(c.supervisorPhone, planText(job, worker), `approval:${job.id}:${Date.now()}`);
+  // Like textAnyLine, but keeps the error so a failed send says why in the job memory.
+  let sendError = "";
+  const text = planText(job, worker);
+  let sent = await sendText(c.supervisorPhone, text, `approval:${job.id}:${Date.now()}`).then(() => true, (e) => ((sendError = String(e).slice(0, 300)), false));
+  if (!sent && stableConfigured()) sent = await sendStableText(c.supervisorPhone, text).then(() => true, (e) => ((sendError += ` | 1.0: ${String(e).slice(0, 200)}`), false));
   let delivery: PlanApproval["delivery"] = sent ? "text" : "none";
   if (sent && stableConfigured()) {
     const card = await sendJobCard(job, c.supervisorPhone, "Plan for your OK").catch(() => "none" as const);
@@ -61,7 +67,7 @@ export async function requestApproval(job: Job, worker: Worker): Promise<Job | n
     channel: "imessage",
     agent: "recorder",
     speaker: "agent",
-    text: sent ? `Sent the plan to ${who} for approval.` : `Couldn't reach ${who} (${c.supervisorPhone}) with the plan.`,
+    text: sent ? `Sent the plan to ${who} for approval.` : `Couldn't reach ${who} (${c.supervisorPhone}) with the plan. Error: ${sendError}`,
   }).catch(() => {});
   return updated;
 }

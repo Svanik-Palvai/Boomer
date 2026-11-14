@@ -131,6 +131,8 @@ export interface JobIdentity {
   source: "gemini" | "fallback";
   /** Why it fell back: no fresh camera frame, or the model call failed. The agent says so instead of claiming to see. */
   fallbackReason?: "no_frame" | "model_error";
+  /** The model error text, for debugging from the job JSON. */
+  fallbackError?: string;
 }
 
 /**
