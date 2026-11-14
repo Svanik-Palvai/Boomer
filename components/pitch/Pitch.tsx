@@ -117,7 +117,6 @@ export default function Pitch() {
           <div className={s.railHeading}>
             <div>
               <h2 id="industry-title">The industry we’re building for.</h2>
-              <p>Industry examples—not Boomer customers or partners.</p>
             </div>
             <button onClick={() => setPaused(!paused)} aria-pressed={paused}>
               {paused ? "Resume motion →" : "Pause motion Ⅱ"}
