@@ -29,6 +29,7 @@ export default function LessonRecorder({
   jobStatus?: string;
   videoRef: RefObject<HTMLVideoElement>;
 }) {
+  const controls = useRef<HTMLDetailsElement>(null);
   const epoch = useRef(0);
   const [consent, setConsent] = useState(false),
     [active, setActive] = useState(false),
@@ -128,6 +129,14 @@ export default function LessonRecorder({
         videoBitsPerSecond: 1200000,
       });
       recorder.current = rec;
+      const interrupted = () => {
+        s.interruptions.push("Camera track muted or ended during recording");
+        if (rec.state === "recording") rec.stop();
+      };
+      tracks.forEach((t) => {
+        t.addEventListener("mute", interrupted);
+        t.addEventListener("ended", interrupted);
+      });
       rec.ondataavailable = (e) => {
         if (!e.data.size) return;
         const i = s.count++;
@@ -158,7 +167,11 @@ export default function LessonRecorder({
       }, 900000);
       rec.onstop = async () => {
         clearTimeout(limit);
-        tracks.forEach((t) => t.stop());
+        tracks.forEach((t) => {
+          t.removeEventListener("mute", interrupted);
+          t.removeEventListener("ended", interrupted);
+          t.stop();
+        });
         s.endedAt = new Date().toISOString();
         s.duration = (performance.now() - started) / 1000;
         await persistence;
@@ -177,6 +190,7 @@ export default function LessonRecorder({
       s.startedAt = new Date().toISOString();
       rec.start(4000);
       setActive(true);
+      if (controls.current) controls.current.open = false;
     } catch (e) {
       clonedTracks.current.forEach((t) => t.stop());
       setMessage(e instanceof Error ? e.message : "Recording could not start");
@@ -250,61 +264,73 @@ export default function LessonRecorder({
     <aside
       style={{
         position: "absolute",
-        bottom: 70,
+        bottom: 16,
+        zIndex: 3,
+        maxHeight: "65vh",
+        overflowY: "auto",
         left: 16,
         right: 16,
         maxWidth: 420,
-        background: "#10151fee",
+        background: "var(--steel)",
         padding: 12,
         borderRadius: 12,
         fontSize: 14,
       }}
       aria-label="Optional lesson recording"
     >
-      <Link href="/lessons/workspace" target="_blank">
-        Lesson workspace · sign in first
-      </Link>
-      <p>
-        Optional video lesson. No phone microphone is recorded. Call audio is
-        stored separately with your consent.
-      </p>
-      <label>
-        <input
-          type="checkbox"
-          checked={consent}
-          disabled={active || busy}
-          onChange={(e) => setConsent(e.target.checked)}
-        />{" "}
-        I consent to retain this video and call for a private draft. Publication
-        needs separate permission.
-      </label>
-      {active ? (
-        <button
-          onClick={() => {
-            if (recorder.current?.state === "recording")
-              recorder.current.stop();
-          }}
-        >
-          Stop lesson recording
-        </button>
-      ) : (
-        <button disabled={busy || !jobId || !consent} onClick={start}>
-          Record lesson video
-        </button>
-      )}
-      <p role="status">{message}</p>
-      {saved.map((s) => (
-        <p key={s.id}>
-          {s.endedAt ? "Saved recording" : "Interrupted recording"} · {s.count}{" "}
-          parts{" "}
-          <button
-            disabled={busy || active || !s.endedAt}
-            onClick={() => upload(s)}
-          >
-            Upload / retry
-          </button>
+      <details ref={controls}>
+        <summary style={{ minHeight: 36, cursor: "pointer" }}>
+          {active
+            ? "Recording lesson video"
+            : saved.length
+              ? "Lesson sources · upload / retry"
+              : "Optional lesson recording"}
+        </summary>
+        <Link href="/lessons/workspace" target="_blank">
+          Lesson workspace · sign in first
+        </Link>
+        <p>
+          Optional video lesson. No phone microphone is recorded. Call audio is
+          stored separately with your consent.
         </p>
-      ))}
+        <label>
+          <input
+            type="checkbox"
+            checked={consent}
+            disabled={active || busy}
+            onChange={(e) => setConsent(e.target.checked)}
+          />{" "}
+          I consent to retain this video and call for a private draft.
+          Publication needs separate permission.
+        </label>
+        {active ? (
+          <button
+            onClick={() => {
+              if (recorder.current?.state === "recording")
+                recorder.current.stop();
+            }}
+          >
+            Stop lesson recording
+          </button>
+        ) : (
+          <button disabled={busy || !jobId || !consent} onClick={start}>
+            Record lesson video
+          </button>
+        )}
+        <p role="status">{message}</p>
+        {saved.map((s) => (
+          <p key={s.id}>
+            {s.endedAt ? "Saved recording" : "Interrupted recording"} ·{" "}
+            {s.count} parts{" "}
+            <button
+              disabled={busy || active || !s.endedAt}
+              onClick={() => upload(s)}
+            >
+              Upload / retry
+            </button>
+          </p>
+        ))}
+      </details>
     </aside>
   );
 }

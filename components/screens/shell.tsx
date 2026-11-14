@@ -68,13 +68,16 @@ export function ActionBar({ children, note }: { children: React.ReactNode; note?
   );
 }
 
-export type MarkKind = "green" | "ring" | "grey" | "red";
+/** greenRing = done, but only by the worker saying so (not seen on camera). */
+export type MarkKind = "green" | "greenRing" | "ring" | "grey" | "red";
 export function StatusMark({ kind, children }: { kind: MarkKind; children: React.ReactNode }) {
-  const color = { green: s.markGreen, ring: s.markInk, grey: s.markMuted, red: s.markRed }[kind];
+  const color = { green: s.markGreen, greenRing: s.markGreen, ring: s.markInk, grey: s.markMuted, red: s.markRed }[
+    kind
+  ];
   return (
     <span className={`${s.mark} ${color}`}>
       <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden focusable="false">
-        {kind === "ring" ? (
+        {kind === "ring" || kind === "greenRing" ? (
           <circle cx="7" cy="7" r="5.5" fill="none" stroke="currentColor" strokeWidth="2" />
         ) : (
           <circle cx="7" cy="7" r="6" fill="currentColor" />

@@ -1,0 +1,62 @@
+/* OWNER: Andy. Job record and work record: read on a phone after the job, often by an employer. */
+.stamp { margin-top: 14px; }
+.place { margin-top: 6px; color: var(--ink-2); }
+.place strong { color: var(--ink); }
+
+.summary {
+  margin: 20px 0 24px;
+  font-size: var(--fs-step);
+  line-height: 1.35;
+}
+.note { margin: -8px 0 24px; color: var(--ink-2); }
+
+.fine { margin-top: 28px; font-size: var(--fs-small); color: var(--ink-2); }
+.links { margin-top: 16px; }
+
+/* Work record */
+.facts {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0;
+  margin: 24px 0 0;
+  border-top: 1px solid var(--rule);
+}
+.facts dt, .facts dd {
+  margin: 0;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.facts dt { color: var(--ink-2); padding-right: 20px; }
+.facts dd { font-weight: 700; }
+
+.share {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+.shareUrl {
+  flex: 1;
+  min-width: 0;
+  font-size: var(--fs-small);
+  color: var(--ink-2);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.share :global(.btn) { width: auto; margin: 0; min-height: var(--tap); padding: 8px 18px; }
+
+.jobs { list-style: none; margin: 12px 0 0; padding: 0; border-top: 1px solid var(--rule); }
+.job { border-bottom: 1px solid var(--rule); }
+.jobLink {
+  display: grid;
+  gap: 4px;
+  padding: 16px 0;
+  text-decoration: none;
+}
+.jobTitle { font-size: var(--fs-step); font-weight: 700; text-decoration: underline; text-decoration-color: var(--ink-2); text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+.jobMeta { font-size: var(--fs-small); color: var(--ink-2); }
+.jobCounts { font-size: var(--fs-small); }
+.empty { color: var(--ink-2); padding: 16px 0; border-bottom: 1px solid var(--rule); }
+
+.h2 { margin-top: 36px; }

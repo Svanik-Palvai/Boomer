@@ -49,7 +49,11 @@ global.document = {
 let sourceStops = 0,
   cloneStops = 0;
 const sourceTrack = {
-  clone: () => ({ stop: () => cloneStops++ }),
+  clone: () => ({
+    stop: () => cloneStops++,
+    addEventListener() {},
+    removeEventListener() {},
+  }),
   stop: () => sourceStops++,
 };
 global.MediaStream = class {
