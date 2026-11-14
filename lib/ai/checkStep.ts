@@ -34,8 +34,7 @@ export async function checkStep(step: Step, frames: Frame[], attempt = 0): Promi
       contents: [{ role: "user", parts: [...parts, { text: prompt(step) }] }],
       config: {
         temperature: 0,
-        maxOutputTokens: 200,
-        ...(thinkingOff ? { thinkingConfig: { thinkingBudget: 0 } } : {}),
+        ...(thinkingOff ? { maxOutputTokens: 400, thinkingConfig: { thinkingBudget: 0 } } : {}),
         responseMimeType: "application/json",
         responseSchema: {
           type: Type.OBJECT,
@@ -55,10 +54,13 @@ export async function checkStep(step: Step, frames: Frame[], attempt = 0): Promi
     try {
       res = await withTimeout(request(true), CHECK_TIMEOUT_MS);
     } catch (err) {
-      if (!/thinking/i.test(errorText(err))) throw err;
+      // Some models reject the thinking-off setting (Gemini 3 uses thinking levels). Retry once with
+      // the model's defaults on ANY error, so a config mismatch never turns every check into "can't tell".
+      console.error("[checkStep] fast request failed, retrying with model defaults:", errorText(err).slice(0, 300));
       res = await withTimeout(request(false), CHECK_TIMEOUT_MS);
     }
-    const r = JSON.parse(res.text ?? "{}") as { outcome?: string; seen?: string; expected?: string; fix?: string };
+    const raw = (res.text ?? "").trim().replace(/^```(?:json)?|```$/g, "").trim();
+    const r = JSON.parse(raw || "{}") as { outcome?: string; seen?: string; expected?: string; fix?: string };
     const outcome: CheckResult["outcome"] = r.outcome === "pass" || r.outcome === "fail" ? r.outcome : "unclear";
     const seen = scrub(r.seen);
     const expected = scrub(r.expected);

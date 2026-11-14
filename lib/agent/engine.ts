@@ -62,11 +62,16 @@ export function explainStep(job: Job, why?: string): string {
 }
 
 /** The worker may confirm out loud: spoken steps, or a vision step after "can't tell" more than UNCLEAR_RETRIES times. */
+/** Vision steps that must be SEEN: the camera has to pass them, a spoken "confirm" never does (the caught mistake lives here). */
+export const SEEN_ONLY_STEPS = new Set(["gfci-5-line"]);
+
 export function canConfirmByVoice(job: Job): boolean {
   const step = currentStep(job);
   const r = job.results[job.current];
   if (!step || !r) return false;
-  return step.check.kind === "spoken" || r.unclear > UNCLEAR_RETRIES;
+  if (step.check.kind === "spoken") return true;
+  if (SEEN_ONLY_STEPS.has(step.id)) return false;
+  return r.unclear > UNCLEAR_RETRIES;
 }
 
 /** Apply a vision check. Advances only on "pass". Never turns "unclear" into "pass". */
