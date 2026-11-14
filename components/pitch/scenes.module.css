@@ -1152,20 +1152,30 @@
     display: none !important;
   }
 }
-/* Quiet technical register: three field inputs, aligned beneath the headline. */
-.wordmark > span:first-child { font-size:1em; vertical-align:baseline; margin-left:0; }
-.introTitle .positioning { font-size:17px; font-weight:700; color:#171914; }
-.evidenceRow { position:absolute; left:10%; right:10%; bottom:7%; display:grid; grid-template-columns:repeat(3,1fr); gap:40px; opacity:calc(1 - var(--gather)); transform:translateY(calc(var(--gather) * 30px)); }
-.evidence { border-top:1px solid #17191465; padding-top:12px; text-align:left; }
-.evidence > span { display:block; font:9px/1.5 monospace; letter-spacing:.08em; color:#525b3e; }
-.evidence > b { display:block; font:700 25px/1.1 BoomerCondensed,Impact,sans-serif; margin:8px 0; }
-.evidence svg { width:100%; max-width:200px; height:45px; color:#171914; display:block; }
-.evidence > small { display:block; font:10px/1.5 monospace; color:#525b3e; }
-.fieldCheck { display:flex; gap:14px; align-items:center; height:45px; font:700 20px monospace; }
-.fieldCheck span { border:1px solid #17191480; padding:4px 12px; }
-.fieldCheck small {font:9px monospace;color:#525b3e;}
-.fieldRecord { font:10px/1.6 monospace; height:45px; display:flex; align-items:center; gap:16px; }
-.fieldRecord span { border-left:2px solid #525b3e;padding-left:10px; }
-@media (min-width:760px) and (max-height:780px) { .evidenceRow {bottom:8%;} .evidence > b {font-size:21px;} .evidence svg,.fieldCheck,.fieldRecord {height:30px;} .evidence > small {font-size:8px;} }
-@media (max-width:1000px) { .evidenceRow {left:6%;right:6%;gap:24px;} .evidence > b {font-size:22px;} .fieldRecord {font-size:8px;gap:8px;} }
-@media (max-width:759px), (prefers-reduced-motion:reduce) { .chaos {display:none !important;} }
+/* Real workflow inputs converge into the wordmark before the system is revealed. */
+.intro { background:#1c201b; color:#f1ebdd; --hat-gap:#1c201b; }
+.intro .stageMeta {border-color:#f1ebdd35;}
+.wordmark > span:first-child {font-size:1em;vertical-align:baseline;margin-left:0;}
+.wordmark > span:last-child {color:#f4c430;}
+.introTitle .positioning {font-size:17px;font-weight:400;color:#c9cebd;letter-spacing:.02em;}
+.evidenceRow {position:absolute;left:8%;right:8%;bottom:8%;display:grid;grid-template-columns:repeat(3,1fr);gap:28px;}
+.evidence {border:1px solid #f1ebdd30;background:#242a22;padding:16px;text-align:left;transform:translate(calc(var(--gather) * var(--dx,0px)),calc(var(--gather) * var(--dy,0px))) scale(calc(1 - var(--gather) * .94));opacity:calc(1 - var(--gather) * var(--gather));transform-origin:center;will-change:transform,opacity;}
+.evidence > span {display:block;font:9px/1.5 monospace;color:#f4c430;letter-spacing:.06em;}
+.evidence > b {display:block;font:700 27px/1.1 BoomerCondensed,Impact,sans-serif;margin:14px 0;}
+.evidence > small {display:block;font:10px/1.5 monospace;color:#b8c0ab;margin-top:12px;}
+.cameraView {position:relative;margin-top:12px;height:67px;background:#151913;display:grid;place-content:center;font:700 22px monospace;}
+.cameraView > span {border:1px solid #c4cab8;padding:3px 22px;}
+.cameraView i {position:absolute;inset:8px 25%;border:1px solid #f4c430;}
+.cameraView small {font:7px monospace;text-align:center;margin-top:5px;color:#b8c0ab;}
+.cameraInput > b {display:none;}
+.sourceRow,.stepLine {display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-top:1px solid #f1ebdd20;font:10px/1.4 monospace;}
+.sourceRow > span,.stepLine > span {color:#b8c0ab;}
+.sourceRow strong,.stepLine strong {font-weight:400;text-align:right;}
+.intro .wires path {stroke:#f4c430;}
+.intro .branch {background:#242a22;color:#f1ebdd;border-color:#f1ebdd40;box-shadow:none;}
+.intro .branch span {color:#f4c430;}
+.intro .hub {border:1px solid #f4c430;box-shadow:none;}
+.intro .staticCapabilities > div {border-color:#f1ebdd40;}
+@media (min-width:760px) and (max-height:780px) { .evidenceRow {bottom:7%;} .evidence {padding:12px;} .evidence > b {font-size:22px;margin:10px 0;} .cameraView {height:50px;} .evidence > small {font-size:8px;margin-top:8px;} .sourceRow,.stepLine {font-size:8px;padding:5px 0;} }
+@media (max-width:1000px) { .evidenceRow {left:5%;right:5%;gap:16px;} .evidence > b {font-size:23px;} .sourceRow,.stepLine {font-size:8px;}}
+@media (max-width:759px), (prefers-reduced-motion:reduce) { .intro .chaos {display:block !important;position:relative;inset:auto;} .evidenceRow {position:relative;left:auto;right:auto;bottom:auto;grid-template-columns:1fr;margin:12px 0 28px;} .evidence {transform:none;opacity:1;will-change:auto;} }

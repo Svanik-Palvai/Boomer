@@ -38,11 +38,19 @@ function useScene(kind: "intro" | "border" | "record") {
         el.style.setProperty(key, String(n));
       put("--p", p);
       if (kind === "intro") {
-        const title = ease(segment(p, 0.08, 0.28));
-        const gather = ease(segment(p, 0.1, 0.38));
+        const title = ease(segment(p, 0.38, 0.48));
+        const gather = ease(segment(p, 0.05, 0.36));
         put("--title-out", title);
         put("--gather", gather);
-        put("--hub", ease(segment(p, 0.3, 0.43)));
+        const stage = el.querySelector<HTMLElement>("[data-intro-stage]");
+        const row = el.querySelector<HTMLElement>("[data-inputs]");
+        if (stage && row) {
+          row.querySelectorAll<HTMLElement>("[data-input]").forEach((card) => {
+            card.style.setProperty("--dx", `${stage.clientWidth / 2 - row.offsetLeft - card.offsetLeft - card.offsetWidth / 2}px`);
+            card.style.setProperty("--dy", `${stage.clientHeight * .38 - row.offsetTop - card.offsetTop - card.offsetHeight / 2}px`);
+          });
+        }
+        put("--hub", ease(segment(p, 0.42, 0.5)));
         put("--left", ease(segment(p, 0.44, 0.57)));
         put("--middle", ease(segment(p, 0.58, 0.71)));
         put("--right", ease(segment(p, 0.72, 0.85)));
@@ -133,7 +141,7 @@ export function OpeningScene() {
       className={`${s.scene} ${s.intro}`}
       aria-label="The Boomer story"
     >
-      <div className={s.stage}>
+      <div className={s.stage} data-intro-stage>
         <div className={s.stageMeta}>
           <span>HACKPRINCETON / 2026</span>
           <span>BUILT FOR THE PEOPLE WHO BUILD EVERYTHING</span>
@@ -149,7 +157,7 @@ export function OpeningScene() {
             who build everything?
           </h1>
           <p className={s.positioning}>
-            The AI Copilot for Electricians.
+            Your job. In view. In context.
           </p>
         </div>
         <div className={s.chaos} aria-hidden="true">
@@ -205,7 +213,7 @@ export function OpeningScene() {
             {!motion
               ? "LOCAL KNOWLEDGE. WORK THAT TRAVELS."
               : phase === 0
-                ? "SCROLL TO BRING IT TOGETHER ↓"
+                ? "CAMERA + LOCAL SOURCES + JOB STATE → SCROLL ↓"
                 : `THE STORY / 0${phase} OF 04`}
           </span>
         </div>
