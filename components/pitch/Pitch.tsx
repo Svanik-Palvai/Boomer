@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { companies, guideBeats, replayBeats, sections } from "./content";
 import CompanyMark from "./CompanyMark";
+import Wordmark from "./Wordmark";
 import AgentSystem from "./AgentSystem";
 import JudgeTracks from "./JudgeTracks";
 import { OpeningScene, BorderScene, RecordScene } from "./ScrollScenes";
@@ -90,7 +91,7 @@ export default function Pitch() {
           href="#problem"
           aria-label="Boomer, back to the beginning"
         >
-          BOOMER<span aria-hidden="true">↗</span>
+          <Wordmark /><span aria-hidden="true">↗</span>
         </a>
         <nav aria-label="Pitch sections">
           {sections.map((item) => (
@@ -443,7 +444,7 @@ export default function Pitch() {
         </section>
       </main>
       <footer className={s.footer}>
-        <a href="#problem">BOOMER ↗</a>
+        <a href="#problem"><Wordmark /> ↗</a>
         <p>
           Local knowledge. Hands-free guidance.
           <br />A work record that travels with you.

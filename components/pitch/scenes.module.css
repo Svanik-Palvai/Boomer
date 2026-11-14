@@ -1152,3 +1152,33 @@
     display: none !important;
   }
 }
+/* Layered field artifacts stay behind the wordmark and gather with the existing notes. */
+.evidence { position: absolute; pointer-events: none; width: 220px; padding: 13px; border: 1px solid #17191455; background: #f1ebdd; color: #171914; box-shadow: 5px 6px 0 #17191412; opacity: calc((1 - var(--gather)) * .8); transform: translateY(calc(var(--gather) * 90px)) rotate(var(--tilt, -5deg)); }
+.evidence > span, .evidence > small { display:block; font: 8px/1.5 monospace; letter-spacing: .03em; }
+.evidence > span { padding-bottom: 8px; border-bottom: 1px solid #17191430; }
+.evidence > small { margin-top: 10px; color: #525b3e; }
+.evidence > b { display:block; font: 700 22px/1.1 BoomerCondensed, Impact, sans-serif; margin-top: 12px; }
+.circuit { left: 22%; top: 6%; width: 210px; --tilt: -9deg; background: #525b3e; color:#f1ebdd; }
+.circuit > small { color:#f1ebdd; }
+.circuit svg { width:100%; height:65px; margin-top:8px; }
+.vision { right: 21%; top: 8%; width:180px; --tilt: 8deg; }
+.visionFrame { position:relative; height:90px; margin-top:10px; background:#282d22; display:grid; place-items:center; color:#f1ebdd; }
+.terminal { border:1px solid #f1ebdd70; padding:8px 22px; text-align:center; font:700 19px monospace; }
+.terminal small { font:6px monospace; }
+.visionFrame i { position:absolute; border:1px solid #f4c430; inset:12px 22px; }
+.visionFrame b { position:absolute; right:16px; top:5px; color:#171914; background:#f4c430; font:8px monospace; padding:3px; }
+.voiceInterface { left:23%; bottom:8%; width:255px; --tilt:5deg; background:#171914; color:#f1ebdd; }
+.voiceInterface > small { color:#b8bea8; }
+.voiceInterface > span { border-color:#f1ebdd40; }
+.wave { display:flex; align-items:center; gap:5px; height:60px; margin-top:10px; }
+.wave i { display:block; width:5px; background:#f4c430; }
+.recordSlip { right:20%; bottom:8%; width:240px; --tilt:-6deg; }
+.recordSlip > div { display:flex; justify-content:space-between; gap:12px; border-bottom:1px solid #17191425; padding:9px 0; font:8px monospace; }
+.recordSlip strong { color:#525b3e; font-weight:400; }
+.codeSheet { right:-95px; top:39%; width:155px; --tilt:12deg; opacity:calc((1 - var(--gather)) * .45); }
+.codeSheet p { font:11px/1.9 monospace; margin:12px 0; }
+.wordmark > span:first-child { font-size:1em; vertical-align:baseline; margin-left:0; }
+.introTitle .positioning { font-weight:700; font-size:18px; color:#171914; }
+@media (max-width:1100px) { .evidence { scale:.8; } .circuit { left:16%; top:5%; } .vision {right:16%;top:5%;} .voiceInterface {left:16%;bottom:9%;} .recordSlip {right:13%;bottom:5%;} .codeSheet {display:none;} }
+@media (max-width:759px) { .chaos {display:block;position:absolute;inset:0;pointer-events:none;} .fragment,.circuit,.vision,.codeSheet {display:none;} .evidence {opacity:.22;scale:.62;} .voiceInterface {left:-85px;bottom:auto;top:28px;} .recordSlip {right:-90px;bottom:90px;} .introTitle {z-index:3;} }
+@media (prefers-reduced-motion:reduce) { .chaos {display:block !important;} .fragment {display:none;} .evidence {transform:rotate(var(--tilt));opacity:.18;} .circuit,.vision,.codeSheet {display:none;} .voiceInterface {top:35px;bottom:auto;left:-80px;} .recordSlip {right:-80px;bottom:70px;} }

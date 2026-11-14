@@ -3,6 +3,8 @@
 import { useEffect, useRef, useState, type RefObject } from "react";
 import { jurisdictions } from "./content";
 import s from "./scenes.module.css";
+import Wordmark from "./Wordmark";
+import HeroEvidence from "./HeroEvidence";
 
 const clamp = (n: number) => Math.min(1, Math.max(0, n));
 const segment = (p: number, a: number, b: number) => clamp((p - a) / (b - a));
@@ -151,7 +153,7 @@ export function OpeningScene() {
         <div className={s.introTitle}>
           <p>AI is moving other industries at lightspeed.</p>
           <div className={s.wordmark} aria-hidden="true">
-            BOOMER<span>↗</span>
+            <Wordmark /><span>↗</span>
           </div>
           <h1>
             Who’s building for the people
@@ -159,11 +161,11 @@ export function OpeningScene() {
             who build everything?
           </h1>
           <p className={s.positioning}>
-            The operating system for blue-collar work. Voice agents. Local
-            context.
+            The AI Copilot for Electricians.
           </p>
         </div>
         <div className={s.chaos} aria-hidden="true">
+          <HeroEvidence />
           {friction.map(([tag, title, detail], i) => (
             <div className={`${s.fragment} ${s[`fragment${i}`]}`} key={tag}>
               <span>{tag}</span>
