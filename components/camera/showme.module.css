@@ -1,0 +1,61 @@
+/* OWNER: Andy. Show me: frozen photo with one marked part. The phone is in the worker's hand here,
+   so the actions are normal-size buttons in thumb reach. */
+.sheet {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  background: var(--steel);
+  padding-top: env(safe-area-inset-top);
+}
+
+.photoArea {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  place-items: center;
+  padding: 12px var(--gutter) 0;
+}
+.frame {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-button);
+  background: #000;
+  line-height: 0;
+}
+.frame img {
+  display: block;
+  max-width: 100%;
+  max-height: calc(100dvh - 260px - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+  transition: filter 300ms ease-out;
+}
+.busy img { filter: brightness(0.6); }
+
+/* The mark: yellow tape outline, dark edge for contrast on pale walls, rest of the photo dimmed. */
+.mark {
+  position: absolute;
+  border: 3px solid var(--tape-yellow);
+  border-radius: 6px;
+  box-shadow:
+    inset 0 0 0 1.5px var(--on-tape),
+    0 0 0 1.5px var(--on-tape),
+    0 0 0 9999px rgb(0 0 0 / 0.5);
+  animation: settle 420ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+@keyframes settle {
+  from { transform: scale(1.18); opacity: 0; box-shadow: inset 0 0 0 1.5px var(--on-tape), 0 0 0 1.5px var(--on-tape), 0 0 0 9999px rgb(0 0 0 / 0); }
+  to { transform: none; opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mark { animation: none; }
+}
+
+.panel {
+  padding: 16px var(--gutter) calc(12px + env(safe-area-inset-bottom));
+  border-top: 1px solid var(--rule);
+}
+.say { font-size: var(--fs-step); line-height: 1.3; min-height: 2.6em; max-width: none; }
+.note { margin-top: 6px; font-size: var(--fs-small); color: var(--ink-2); }
+.actions { display: grid; justify-items: center; margin-top: 4px; }
+.actions :global(.btn-quiet) { width: 100%; }

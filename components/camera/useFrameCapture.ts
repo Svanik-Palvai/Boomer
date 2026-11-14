@@ -188,5 +188,8 @@ export function useFrameCapture(
   const sinceOkMs = lastOkAt == null ? null : Math.max(0, now - lastOkAt);
   const connection: Connection = sinceOkMs == null ? "off" : sinceOkMs <= OK_WINDOW_MS ? "ok" : "failing";
 
-  return { videoRef, ack, camera, cameraError, connection, sinceOkMs, sent, restart, upload };
+  /** The current camera picture as a data URL, or null when the camera isn't live. */
+  const snapshot = grab;
+
+  return { videoRef, ack, camera, cameraError, connection, sinceOkMs, sent, restart, upload, snapshot };
 }

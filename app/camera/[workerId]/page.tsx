@@ -1,11 +1,13 @@
 "use client";
 // OWNER: Andy (screens). Harness phone: live camera, sends frames, keeps the screen awake,
-// shows the step number and a connection dot. Nothing to tap mid-job.
+// shows the step number and a connection dot. Nothing to tap mid-job; "Show me" is for when the worker
+// takes the phone out of the harness to see a part marked on a photo.
 import { useEffect, useRef, useState } from "react";
 import type { GeoPoint, Job, Worker } from "@/lib/types";
 import { useFrameCapture } from "@/components/camera/useFrameCapture";
 import { useWakeLock } from "@/components/camera/useWakeLock";
 import { usePoll } from "@/components/hooks/useJob";
+import { ShowMe } from "@/components/camera/ShowMe";
 import { ActionBar, Banner, Tape } from "@/components/screens/shell";
 import { FRAMES } from "@/lib/config";
 import { api } from "@/lib/routes";
@@ -19,6 +21,7 @@ export default function CameraPage({ params }: { params: { workerId: string } })
   const cam = useFrameCapture(params.workerId, { running: started, point });
   const { data: job } = usePoll<Job>(cam.ack?.jobId ? api.job(cam.ack.jobId) : null, { intervalMs: 2000 });
   const sentSite = useRef<string | null>(null);
+  const [photo, setPhoto] = useState<string | null>(null);
 
   // GPS once at start.
   useEffect(() => {
@@ -101,11 +104,33 @@ export default function CameraPage({ params }: { params: { workerId: string } })
       </div>
 
       <footer className={s.foot}>
-        <span className="num">
-          {cam.sent} {cam.sent === 1 ? "frame" : "frames"} sent
-        </span>
-        {(!wake.supported || !wake.held) && <span>Screen may sleep: set Auto-Lock to Never</span>}
+        <div className={s.footText}>
+          <span className="num">
+            {cam.sent} {cam.sent === 1 ? "frame" : "frames"} sent
+          </span>
+          {(!wake.supported || !wake.held) && <span>Screen may sleep: set Auto-Lock to Never</span>}
+        </div>
+        <button
+          className={`btn ${s.showMe}`}
+          type="button"
+          disabled={cam.camera !== "live"}
+          onClick={() => setPhoto(cam.snapshot())}
+        >
+          Show me
+        </button>
       </footer>
+
+      {photo && (
+        <ShowMe
+          image={photo}
+          workerId={params.workerId}
+          jobId={cam.ack?.jobId}
+          stepId={step?.id}
+          stepNumber={stepNumber}
+          onRetake={() => setPhoto(cam.snapshot())}
+          onClose={() => setPhoto(null)}
+        />
+      )}
     </div>
   );
 }
