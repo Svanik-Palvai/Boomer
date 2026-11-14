@@ -11,7 +11,8 @@
     "fake-call": "node scripts/fake-call.mjs",
     "check": "tsc --noEmit && next build",
     "photon-test": "node scripts/photon-test.mjs",
-    "miniapp-test": "node scripts/miniapp-test.mjs"
+    "miniapp-test": "node scripts/miniapp-test.mjs",
+    "eval": "npx tsx --tsconfig tsconfig.json eval/run.mts && node eval/gate.mjs"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "^2.78.0",

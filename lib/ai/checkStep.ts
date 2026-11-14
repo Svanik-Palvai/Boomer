@@ -1,6 +1,6 @@
 // OWNER: Sunny (AI). The step check: one yes/no question on fresh frames, answer in ~3 s.
-import { Type } from "@google/genai";
-import type { CheckResult, Frame, Step } from "@/lib/types";
+import { ThinkingLevel, Type } from "@google/genai";
+import type { CheckOutcome, CheckResult, CheckVote, Frame, Step } from "@/lib/types";
 import { errorText, gemini, geminiEnabled, VISION_MODEL } from "@/lib/ai/gemini";
 import { frameParts } from "@/lib/ai/frames";
 import { BANNED_WORDS, SAY } from "@/lib/copy";
@@ -8,15 +8,48 @@ import { BANNED_WORDS, SAY } from "@/lib/copy";
 /**
  * Frames MUST already be fresh (< 10 s, see recentFrames()). Returns pass / fail / unclear and one line to say.
  *
- * - One yes/no question per step (step.check.question), newest frame first, up to 3 frames.
- * - Thinking is turned off so the answer comes back inside the ~3 s budget. If the model rejects that
- *   setting, it retries once with the model's default.
- * - Hard cap of CHECK_TIMEOUT_MS: a slow answer becomes "unclear", never "pass".
- * - On "fail" the model writes one spoken fix line using the labels printed on the device
- *   ("Those are the LOAD terminals. Move both wires to the pair marked LINE.").
- * - Any error -> "unclear". Banned words are scrubbed from anything the model says.
+ * Panel of three reviewers, each a different Gemini model asked the same step question in parallel:
+ *   - inspector  (VISION_MODEL): the general check, does the photo show the step done?
+ *   - wiring     (CHECK_WIRING_MODEL): traces every wire to the screw it lands on and reads the printed labels
+ *   - photo      (CHECK_PHOTO_MODEL): doubts the photo itself: right device, right side, lit, sharp, labels readable
+ * Majority rules: "pass" only when at least 2 of 3 say pass; "fail" when at least 2 say fail; anything else
+ * (a split, or reviewers that errored) is "unclear" and the worker is asked for a better look.
+ * CHECK_PANEL=off goes back to the inspector alone.
+ *
+ * Per reviewer: thinking off for speed (one retry with the model default if it's rejected), hard cap of
+ * CHECK_TIMEOUT_MS, any error or timeout is an "unclear" vote, never "pass". Banned words are scrubbed.
  */
 const CHECK_TIMEOUT_MS = Number(process.env.CHECK_TIMEOUT_MS || 6000);
+
+interface Reviewer {
+  name: CheckVote["reviewer"];
+  model: string;
+  focus: string;
+}
+
+function panel(): Reviewer[] {
+  const inspector: Reviewer = { name: "inspector", model: VISION_MODEL, focus: "" };
+  if (process.env.CHECK_PANEL === "off") return [inspector];
+  return [
+    inspector,
+    {
+      name: "wiring",
+      model: process.env.CHECK_WIRING_MODEL || "gemini-3.8-flash",
+      focus: `You are the wiring checker. Ignore everything except conductors and terminals.
+Trace each wire to the exact screw it is under and read the label printed beside that screw (LINE, LOAD, ground).
+Check wire colors against screw colors (black on brass, white on silver, bare or green on the green screw).
+One wire on the wrong screw is a "fail", even if everything else looks right. If you cannot follow a wire to its screw, "unclear".`,
+    },
+    {
+      name: "photo",
+      model: process.env.CHECK_PHOTO_MODEL || "gemini-3.5-flash",
+      focus: `You are the photo skeptic. Before judging the work, doubt the photo.
+Is it the right device and the right side of it for this step? Is the part the question is about lit, in focus and
+fully in frame? Are the printed labels actually readable, not just assumed? If any of that is missing, answer "unclear".
+Only when the photo truly shows it, answer the question.`,
+    },
+  ];
+}
 
 export async function checkStep(step: Step, frames: Frame[], attempt = 0): Promise<CheckResult> {
   const started = Date.now();
@@ -28,14 +61,40 @@ export async function checkStep(step: Step, frames: Frame[], attempt = 0): Promi
   const parts = frameParts(frames.slice(0, 3));
   if (parts.length === 0) return { outcome: "unclear", say: SAY.cantTell, frameId, ms: Date.now() - started };
 
+  const votes = await Promise.all(panel().map((r) => review(r, step, parts)));
+  const outcome = majority(votes);
+  // Speak the reasons of a reviewer that voted with the result (the inspector first).
+  const lead = votes.find((v) => v.outcome === outcome) ?? votes[0];
+  return {
+    outcome,
+    say: sayFor(outcome, lead.seen, lead.expected, lead.fix),
+    seen: lead.seen,
+    expected: lead.expected,
+    frameId,
+    ms: Date.now() - started,
+    votes,
+  };
+}
+
+/** 2 of 3 decide. With one reviewer (CHECK_PANEL=off) that reviewer decides. */
+export function majority(votes: Pick<CheckVote, "outcome">[]): CheckOutcome {
+  const need = Math.floor(votes.length / 2) + 1;
+  const n = (o: CheckOutcome) => votes.filter((v) => v.outcome === o).length;
+  if (n("pass") >= need) return "pass";
+  if (n("fail") >= need) return "fail";
+  return "unclear";
+}
+
+async function review(r: Reviewer, step: Step, parts: ReturnType<typeof frameParts>): Promise<CheckVote> {
+  const started = Date.now();
   const request = (thinkingOff: boolean) =>
     gemini().models.generateContent({
-      model: VISION_MODEL,
-      contents: [{ role: "user", parts: [...parts, { text: prompt(step) }] }],
+      model: r.model,
+      contents: [{ role: "user", parts: [...parts, { text: prompt(step, r.focus) }] }],
       config: {
         temperature: 0,
         maxOutputTokens: 200,
-        ...(thinkingOff ? { thinkingConfig: { thinkingBudget: 0 } } : {}),
+        ...(thinkingOff ? { thinkingConfig: thinkingOffConfig(r.model) } : {}),
         responseMimeType: "application/json",
         responseSchema: {
           type: Type.OBJECT,
@@ -55,27 +114,44 @@ export async function checkStep(step: Step, frames: Frame[], attempt = 0): Promi
     try {
       res = await withTimeout(request(true), CHECK_TIMEOUT_MS);
     } catch (err) {
-      if (!/thinking/i.test(errorText(err))) throw err;
+      // Models reject thinking settings they don't support with a bare "invalid argument", so retry without it.
+      if (!/thinking|invalid argument|INVALID_ARGUMENT/i.test(errorText(err))) throw err;
       res = await withTimeout(request(false), CHECK_TIMEOUT_MS);
     }
-    const r = JSON.parse(res.text ?? "{}") as { outcome?: string; seen?: string; expected?: string; fix?: string };
-    const outcome: CheckResult["outcome"] = r.outcome === "pass" || r.outcome === "fail" ? r.outcome : "unclear";
-    const seen = scrub(r.seen);
-    const expected = scrub(r.expected);
-    return { outcome, say: sayFor(outcome, seen, expected, scrub(r.fix)), seen, expected, frameId, ms: Date.now() - started };
+    const j = JSON.parse(res.text ?? "{}") as { outcome?: string; seen?: string; expected?: string; fix?: string };
+    const outcome: CheckOutcome = j.outcome === "pass" || j.outcome === "fail" ? j.outcome : "unclear";
+    return { reviewer: r.name, model: r.model, outcome, seen: scrub(j.seen), expected: scrub(j.expected), fix: scrub(j.fix), ms: Date.now() - started };
   } catch (err) {
-    console.error("[checkStep] Gemini failed:", errorText(err).slice(0, 200));
-    return { outcome: "unclear", say: SAY.cantTell, frameId, ms: Date.now() - started };
+    console.error(`[checkStep] ${r.name} (${r.model}) failed:`, errorText(err).slice(0, 200));
+    return { reviewer: r.name, model: r.model, outcome: "unclear", error: true, ms: Date.now() - started };
   }
 }
 
-function prompt(step: Step): string {
-  return `You check one step of an electrician's job from a chest-mounted phone camera. The newest photo comes first.
+/**
+ * Fastest thinking setting per model family. Gemini 3.x rejects `thinkingBudget: 0` (400 "invalid argument",
+ * which made every check come back "unclear"); it takes `thinkingLevel` instead. Gemini 2.x takes the budget.
+ */
+function thinkingOffConfig(model: string) {
+  return /gemini-2\./.test(model) ? { thinkingBudget: 0 } : { thinkingLevel: ThinkingLevel.MINIMAL };
+}
+
+/** Device facts the model kept getting wrong on the test set (it called a white wire on the silver LINE screw a mistake). */
+const GFCI_FACTS = `GFCI facts:
+- The LINE pair is one brass screw (hot, usually the black wire) and one silver screw (neutral, usually the white wire).
+  A white wire on the silver LINE screw is correct. Both LINE screws should have a wire.
+- LOAD is the other brass and silver pair, often under a sticker or tape. Any wire on a LOAD screw is wrong for this job.
+- The bare or green wire goes on the green ground screw. It is not part of LINE or LOAD.
+- A GFCI has TEST and RESET buttons on the front. A plain receptacle without them is not a GFCI.`;
+
+function prompt(step: Step, focus = ""): string {
+  return `${focus ? `${focus}\n\n` : ""}You check one step of an electrician's job from a chest-mounted phone camera. The newest photo comes first.
 All props are de-energized. Step the worker just finished: "${step.text}"
 Question: ${step.check.question}
 ${step.check.expect ? `Looks right when: ${step.check.expect}` : ""}
-Answer "pass" only if the photos clearly show it. "fail" if they clearly show something different.
-"unclear" if the part is blurry, too dark, cut off or blocked. Never guess.
+${/gfci/i.test(step.id + step.text) ? GFCI_FACTS : ""}
+"pass": the photos clearly show what the question asks.
+"fail": you can clearly see something wrong, like a wire on a LOAD terminal or the wrong side of the device. Say what is wrong.
+"unclear": the part is too dark, blurry, cut off or blocked to judge. A bad photo is "unclear", never "fail". Never guess.
 "seen": what is actually visible, under 15 words. "expected": what should be there, under 15 words.
 If "fail", "fix": one short spoken sentence telling the worker what is wrong and what to do, using the labels
 printed on the device, e.g. "Those are the LOAD terminals. Move both wires to the pair marked LINE."
