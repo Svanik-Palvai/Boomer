@@ -43,22 +43,28 @@ export const clipSchema = z
       c.freezeAt === undefined || (c.freezeAt >= c.start && c.freezeAt < c.end),
     "Freeze outside clip",
   );
-export const editSchema = z.object({
-  title: z.string().trim().min(1).max(160),
-  description: z.string().max(2000),
-  clips: z.array(clipSchema).min(1).max(50),
-  issues: z.array(z.string().min(1).max(300)).max(30),
-  captionEdits: z
-    .array(
-      z.object({
-        callId: z.string().min(1),
-        turn: z.number().int().nonnegative(),
-        text: z.string().max(2000),
-      }),
-    )
-    .max(1000)
-    .optional(),
-});
+export const editSchema = z
+  .object({
+    title: z.string().trim().min(1).max(160),
+    description: z.string().max(2000),
+    clips: z.array(clipSchema).min(1).max(50),
+    issues: z.array(z.string().min(1).max(300)).max(30),
+    captionEdits: z
+      .array(
+        z.object({
+          callId: z.string().min(1),
+          turn: z.number().int().nonnegative(),
+          text: z.string().max(2000),
+        }),
+      )
+      .max(1000)
+      .optional(),
+  })
+  .refine(
+    (e) =>
+      e.clips.reduce((n, c) => n + c.end - c.start + c.freezeSeconds, 0) <= 240,
+    "Demo lessons are limited to four minutes",
+  );
 export type LessonRevision = z.infer<typeof editSchema>;
 export type Clip = z.infer<typeof clipSchema>;
 export interface RecordingSession {

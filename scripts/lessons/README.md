@@ -14,7 +14,7 @@ This feature extends the v2 scaffold. It does not replace the guided-call engine
 
 ## External dependencies — not yet configured or claimed tested
 
-The connected account currently exposes only unrelated Supabase projects. No schema was applied and no recordings were uploaded to them. Zohaib must supply the dedicated Boomer project and configure these environment variables locally AND on Vercel:
+The connected account currently exposes only unrelated Supabase projects. No schema was applied and no recordings were uploaded to them. The supplied dedicated Boomer project is reachable through its service key; its private lesson bucket has now been created and verified private. Database management/public-key access is still pending. Zohaib must supply the dedicated Boomer project and configure these environment variables locally AND on Vercel:
 
 ```
 LESSON_SUPABASE_URL=https://YOUR-BOOMER-PROJECT.supabase.co
@@ -31,7 +31,7 @@ Do not send secret keys through chat or commit them. Lesson-specific configurati
 In the dedicated project only:
 
 1. Review and apply `scripts/lessons/schema.sql`. It creates three server-only tables with RLS enabled and no anon/authenticated grants, and one private media bucket. It is a bootstrap SQL script, not a falsely claimed applied migration. No live database/RLS verification has occurred yet.
-2. Confirm the bucket is private, has no public object policies, and accepts the script's allowed media types. Source parts are capped at 25 MiB each by the API; the bucket allows larger completed renders. Never change it to public to fix preview access.
+2. Confirm the bucket is private, has no public object policies, and accepts the script's allowed media types. Source parts are capped at 25 MiB each by the API; the private bucket has a 50 MiB object limit and render bitrate/duration are bounded to fit it. Never change it to public to fix preview access.
 3. Enable email OTP/magic-link sign-in. Add local and deployed `/lessons/workspace` redirect URLs to Auth settings. Verify email delivery and sign-in in that project.
 4. Sign in as reviewer and worker. The workspace displays each account UUID. Reviewer explicitly links the existing worker ID to the correct UUID. There is no automatic ownership based on phone number and no account reassignment endpoint.
 5. Enable ElevenLabs post-call transcription webhooks with timestamps, conversation ID, call start time/duration and the same `job_id` mapping as the existing integration. Confirm provider recording retention/consent and that the worker account can retrieve conversation audio. Original audio is fetched by the laptop worker, not exposed through the browser.

@@ -8,6 +8,7 @@ import { bucket, database, load, mutate, sign } from "./store";
 import { propose, vtt } from "./proposal";
 import {
   timeline,
+  editSchema,
   validateEvidence,
   type LessonDraft,
   type RenderTask,
@@ -92,13 +93,16 @@ export async function assemble(d: LessonDraft, dir: string) {
   return files;
 }
 async function saveArtifact(path: string, file: string, type: string) {
-  const { error } = await database()
-    .storage.from(bucket)
-    .upload(path, await readFile(file), {
-      contentType: type,
-      upsert: false,
-      cacheControl: "0",
-    });
+  const bytes = await readFile(file);
+  if (bytes.length > 50 * 1024 * 1024)
+    throw new Error(
+      "Media exceeds the project file limit; shorten the lesson or source session",
+    );
+  const { error } = await database().storage.from(bucket).upload(path, bytes, {
+    contentType: type,
+    upsert: false,
+    cacheControl: "0",
+  });
   if (error) throw error;
   return path;
 }
@@ -108,6 +112,7 @@ export async function render(
   files: Map<string, string>,
   writeArtifact = saveArtifact,
 ) {
+  editSchema.parse(d.edit);
   const issues = validateEvidence(d, d.edit);
   if (issues.length || !d.edit.clips.length)
     throw new Error(issues.join("; ") || "No selected clips");
@@ -192,8 +197,14 @@ export async function render(
         "veryfast",
         "-crf",
         "23",
+        "-maxrate",
+        "1200k",
+        "-bufsize",
+        "2400k",
         "-c:a",
         "aac",
+        "-b:a",
+        "128k",
         "-ar",
         "48000",
         "-ac",
@@ -243,6 +254,10 @@ export async function render(
     "veryfast",
     "-crf",
     "23",
+    "-maxrate",
+    "1200k",
+    "-bufsize",
+    "2400k",
     "-c:a",
     "copy",
     "-movflags",
@@ -274,12 +289,24 @@ export async function runTask(
       )) {
         const files = await assemble({ ...d, sessions: [s], calls: [] }, dir);
         const preview = join(dir, `${s.id}-preview.mp4`);
+        const previewRate = String(
+          Math.min(
+            1800000,
+            Math.floor((40 * 1024 * 1024 * 8) / (s.duration ?? 900)),
+          ),
+        );
         await ffmpeg([
           "-i",
           files.get(s.id)!,
           "-vf",
           "scale=1280:720:force_original_aspect_ratio=decrease:force_divisible_by=2,setsar=1",
           "-an",
+          "-b:v",
+          previewRate,
+          "-maxrate",
+          previewRate,
+          "-bufsize",
+          String(Number(previewRate) * 2),
           "-c:v",
           "libx264",
           "-preset",

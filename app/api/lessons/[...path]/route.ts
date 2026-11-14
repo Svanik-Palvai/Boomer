@@ -364,6 +364,7 @@ async function handler(req: Request, path: string[]) {
     return json({ ok: true });
   }
   if (action === "render") {
+    editSchema.parse(d.edit);
     const issues = validateEvidence(d, d.edit);
     if (issues.length || !d.edit.clips.length)
       throw new LessonError(issues.join("; ") || "No clips");

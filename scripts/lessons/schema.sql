@@ -23,6 +23,6 @@ revoke all on public.boomer_lesson_workers,public.boomer_lessons,public.boomer_l
 grant all on public.boomer_lesson_workers,public.boomer_lessons,public.boomer_lesson_tasks to service_role;
 -- No public Storage policies. Only server-generated scoped signed URLs are issued.
 insert into storage.buckets(id,name,public,file_size_limit,allowed_mime_types)
-values ('boomer-lesson-media','boomer-lesson-media',false,262144000,
+values ('boomer-lesson-media','boomer-lesson-media',false,52428800,
  array['video/webm','video/mp4','audio/mpeg','audio/mp4','image/jpeg','text/vtt','application/octet-stream'])
 on conflict(id) do nothing;

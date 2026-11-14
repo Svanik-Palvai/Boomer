@@ -36,11 +36,9 @@ export function evidenceProposal(d: LessonDraft): LessonRevision {
       recordingId: session.id,
       callId: call.id,
       stepId: step.id,
-      start: (start - Date.parse(session.startedAt)) / 1000,
-      end: Math.min(
-        (end - Date.parse(session.startedAt)) / 1000,
-        (start - Date.parse(session.startedAt)) / 1000 + 60,
-      ),
+      start:
+        (Math.max(start, end - 40000) - Date.parse(session.startedAt)) / 1000,
+      end: (end - Date.parse(session.startedAt)) / 1000,
       caption: step.text,
       kind:
         r.status === "worker_confirmed"
