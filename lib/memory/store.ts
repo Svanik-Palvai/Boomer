@@ -1,5 +1,5 @@
 // OWNER: Sunny (memory). Multiple agents, one job memory.
-import type { AgentName, Channel, Job, MemoryEvent, Worker } from "@/lib/types";
+import type { AgentName, Channel, Job, MemoryEvent, RecordEntry, Worker } from "@/lib/types";
 import { getJob, updateJob } from "@/lib/db";
 import { STATUS_LABEL } from "@/lib/copy";
 import { talkProfile } from "@/lib/agent/prompt";
@@ -23,27 +23,45 @@ export async function recall(jobId: string): Promise<MemoryEvent[]> {
 
 /**
  * The text block the voice agent gets from get_context.
- * TODO(Sunny): add the worker's past jobs from their record; summarize when memory gets long.
+ * `past` (optional) is the worker's record, newest first: the agent knows their past jobs and where.
+ * Memory is capped to the last 20 events so the prompt stays short on long jobs.
  */
-export function contextFor(job: Job, worker: Worker): string {
+export function contextFor(job: Job, worker: Worker, past: RecordEntry[] = []): string {
   const steps = job.steps
     .map((s, i) => {
       const r = job.results[i];
       const mark = i === job.current ? "->" : r?.status === "seen" || r?.status === "worker_confirmed" ? "ok" : "  ";
-      return `${mark} ${s.order}. ${s.text}${s.tag === "new_here" ? " [NEW HERE]" : ""}`;
+      const tries = r && r.fails ? ` (${r.fails} not yet)` : "";
+      return `${mark} ${s.order}. ${s.text}${s.tag === "new_here" ? " [NEW HERE]" : ""}${s.hardGate ? " [HARD GATE]" : ""}${tries}`;
     })
     .join("\n");
   const said = job.memory
     .slice(-20)
     .map((m) => `- (${m.channel}, ${m.speaker}) ${m.text}`)
     .join("\n");
+  const history = past
+    .filter((e) => e.jobId !== job.id)
+    .slice(0, 5)
+    .map((e) => `- ${e.date.slice(0, 10)}: ${e.title} in ${e.city}, ${e.state} (${e.outcome}, ${e.counts.done}/${e.counts.total} steps)`)
+    .join("\n");
+  const next =
+    job.status === "plan_ready"
+      ? "Plan is ready. Call next_step to read step 1."
+      : job.status === "guiding"
+        ? `Guiding: step ${Math.min(job.current + 1, job.steps.length)} of ${job.steps.length}. Call repeat_step to read it.`
+        : job.status === "done" || job.status === "stopped"
+          ? "This job is closed."
+          : "No plan yet. Ask what the job is, then call look with what they said.";
   return [
     `Worker: ${worker.name}, home ${worker.home.city}, ${worker.home.state} (NEC ${worker.home.necEdition}). ${talkProfile(worker.experience)}`,
-    `Job ${job.id}: ${job.title ?? "not identified yet"}. Status: ${STATUS_LABEL[job.status]}.`,
+    `Job ${job.id}: ${job.title ?? "not identified yet"}. Status: ${STATUS_LABEL[job.status]}. ${next}`,
     job.site
       ? `Site: ${job.site.city}, ${job.site.state} (NEC ${job.site.necEdition})${job.siteConfirmed ? "" : " - confirm the town out loud"}.`
       : "Site: unknown yet.",
     steps ? `Steps:\n${steps}` : "No plan yet. Call look.",
+    history ? `Past jobs:\n${history}` : "",
     `What has been said:\n${said || "- nothing yet"}`,
-  ].join("\n\n");
+  ]
+    .filter(Boolean)
+    .join("\n\n");
 }

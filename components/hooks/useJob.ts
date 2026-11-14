@@ -21,6 +21,7 @@ export function usePoll<T>(url: string | null, { intervalMs = 1000, poll = true 
       if (r.status === 404) return setNotFound(true);
       if (!r.ok) throw new Error(`Server returned ${r.status}`);
       setData((await r.json()) as T);
+      setNotFound(false); // e.g. a job record that didn't exist until the job closed
       setError(null);
       fails.current = 0;
     } catch (e) {
@@ -34,7 +35,8 @@ export function usePoll<T>(url: string | null, { intervalMs = 1000, poll = true 
     let timer: ReturnType<typeof setTimeout>;
     const tick = async () => {
       await load();
-      if (!alive || !poll) return;
+      // poll: false still retries a failed first load (e.g. while the dev server compiles).
+      if (!alive || (!poll && fails.current === 0)) return;
       timer = setTimeout(tick, intervalMs * Math.min(8, 2 ** Math.max(0, fails.current - 1)));
     };
     tick();

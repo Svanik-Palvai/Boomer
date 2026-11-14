@@ -1,8 +1,13 @@
 // OWNER: Aniketh (stretch: gap list)
 import type { GapItem } from "@/lib/types";
 import gapsData from "@/data/gaps.json";
-
-/** What the new state requires that the worker's home state didn't. Only verified lines are facts. */
+/** Research checklist, never proof of eligibility. A work record covers no licensing requirements. */
 export function gapList(fromState: string, toState: string): GapItem[] {
-  return (gapsData as GapItem[]).filter((g) => g.fromState === fromState && g.toState === toState);
+  return gapsData
+    .filter(
+      (g) =>
+        g.fromState === fromState.trim().toUpperCase() &&
+        g.toState === toState.trim().toUpperCase(),
+    )
+    .map((g) => ({ ...g }));
 }

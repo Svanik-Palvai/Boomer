@@ -10,42 +10,74 @@
         "shortText": "Breaker off. Tell me when it's off.",
         "reason": "Everything after this is hands-on, so the circuit has to be off first.",
         "hardGate": true,
-        "check": { "kind": "spoken", "question": "Did the worker say the breaker is off?", "prompt": "Tell me when the breaker is off." }
+        "check": {
+          "kind": "spoken",
+          "question": "Did the worker say the breaker is off?",
+          "prompt": "Tell me when the breaker is off."
+        }
       },
       {
         "id": "gfci-2-tester",
         "text": "Hold your tester on the receptacle where I can see it, and tell me what it reads.",
         "shortText": "Test it dead and tell me the reading.",
-        "reason": "A breaker label can be wrong. The tester is the only proof the circuit is dead.",
+        "reason": "A camera cannot establish absence of voltage; the electrician must test and report it.",
         "hardGate": true,
-        "check": { "kind": "spoken", "question": "Did the worker say the tester shows no voltage?", "prompt": "Tell me what the tester reads." }
+        "check": {
+          "kind": "spoken",
+          "question": "Did the worker say the tester shows no voltage?",
+          "prompt": "Tell me what the tester reads."
+        }
       },
       {
         "id": "gfci-3-remove",
         "text": "Take off the faceplate and pull the old receptacle out of the box so the wires are visible.",
         "shortText": "Pull the old device.",
         "reason": "You need to see which wires come in from the panel before you land them on the new device.",
-        "check": { "kind": "vision", "question": "Is the old receptacle pulled out of the box with its wires visible?", "expect": "A receptacle pulled forward out of a wall box, wires visible behind it." }
+        "check": {
+          "kind": "vision",
+          "question": "Is the old receptacle pulled out of the box with its wires visible?",
+          "expect": "A receptacle pulled forward out of a wall box, wires visible behind it."
+        }
       },
       {
         "id": "gfci-4-terminals",
         "text": "Turn the new GFCI around and find the LINE pair and the LOAD pair on the back. Show me the back.",
         "reason": "A GFCI only protects correctly when the incoming power is on LINE.",
-        "check": { "kind": "vision", "question": "Is the back of a GFCI receptacle with LINE and LOAD markings in frame?", "expect": "The back of a GFCI, LINE and LOAD terminal labels readable." }
+        "check": {
+          "kind": "vision",
+          "question": "Is the back of a GFCI receptacle with LINE and LOAD markings in frame?",
+          "expect": "The back of a GFCI, LINE and LOAD terminal labels readable."
+        }
       },
       {
         "id": "gfci-5-line",
-        "text": "Land the incoming wires on the LINE pair: hot on brass, neutral on silver. Leave LOAD empty.",
-        "reason": "Wires on LOAD leave the outlet unprotected even though it looks like it works.",
-        "check": { "kind": "vision", "question": "Are the wires landed on the LINE terminals and not on the LOAD terminals?", "expect": "Both wires on the terminal pair marked LINE; LOAD terminals empty or taped." }
+        "text": "On the inert single-feed prop, connect the identified incoming pair to LINE and the grounding conductor as the device instructions specify. Leave LOAD covered.",
+        "reason": "Reversing LINE and LOAD can prevent this GFCI from resetting; a photo cannot verify torque or hidden connections.",
+        "check": {
+          "kind": "vision",
+          "question": "Are the identified incoming conductors visibly connected to the readable LINE pair, with LOAD unused?",
+          "expect": "Both identified incoming conductors at readable LINE terminals, LOAD covered or unused. If labels or connections are obscured, answer unclear; wire color alone cannot identify the supply."
+        }
       },
       {
         "id": "gfci-6-test",
-        "text": "Mount the GFCI, put the faceplate on, turn the breaker back on, then press TEST and RESET. Tell me if it trips and resets.",
-        "shortText": "Mount it, power on, TEST then RESET. Tell me if it trips and resets.",
-        "reason": "TEST and RESET show the device trips the way it should.",
-        "check": { "kind": "spoken", "question": "Did the worker say it tripped on TEST and reset on RESET?", "prompt": "Did it trip on TEST and come back on RESET?" }
+        "text": "Mount the device and faceplate. For this inert demo, describe the simulated TEST and RESET outcome; do not energize the prop.",
+        "shortText": "Mount the prop and report the simulated TEST / RESET result. Keep it unpowered.",
+        "reason": "The worker confirms the functional result; the camera cannot establish electrical protection.",
+        "check": {
+          "kind": "spoken",
+          "question": "Did the worker say it tripped on TEST and reset on RESET?",
+          "prompt": "Did it trip on TEST and come back on RESET?"
+        }
       }
-    ]
+    ],
+    "review": {
+      "status": "pending",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    "demoOnly": true,
+    "sourceUrl": "https://leviton.com/content/dam/leviton/residential/product_documents/instruction_sheet/GFNT2_Instruction_Sheet_English.pdf",
+    "scope": "Inert single-feed mock outlet only. No downstream feed or live panel. This six-step demo is not a complete field installation procedure. A working electrician must review the actual device and step list before demo freeze."
   }
 ]

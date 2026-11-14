@@ -1,6 +1,6 @@
 // OWNER: Zohaib (Photon). Photon 2.0 (beta platform, app.beta.photon.codes) through @photon-ai/api.
 import { createHmac, timingSafeEqual } from "crypto";
-import { Photon } from "@photon-ai/api";
+import type { Photon } from "@photon-ai/api";
 
 const env = {
   apiKey: () => process.env.PHOTON_API_KEY,
@@ -17,14 +17,21 @@ export function photonConfigured(): boolean {
 }
 
 const g = globalThis as unknown as { __photon?: Photon; __photonIds?: Map<string, string> };
-const client = () => (g.__photon ??= new Photon({ headers: { Authorization: `Bearer ${env.apiKey()}` } }));
+// Loaded on first use: the SDK is ESM-only, and a static import breaks plain Node scripts (e.g. lib/agent/call.sim.ts) that pull in lib/db.
+async function client(): Promise<Photon> {
+  if (!g.__photon) {
+    const { Photon } = await import("@photon-ai/api");
+    g.__photon = new Photon({ headers: { Authorization: `Bearer ${env.apiKey()}` } });
+  }
+  return g.__photon;
+}
 const ids = () => (g.__photonIds ??= new Map());
 
 async function userId(handle: string): Promise<string> {
   const key = `user:${env.platform()}:${handle}`;
   const cached = ids().get(key);
   if (cached) return cached;
-  const u = (await client().projects.createOrGetUser({
+  const u = (await (await client()).projects.createOrGetUser({
     path: { id: env.project()! },
     body: { handle, platform: env.platform() },
   })) as unknown as { id: string };
@@ -36,7 +43,7 @@ async function dmSpace(agentId: string, humanId: string): Promise<string> {
   const key = `space:${agentId}:${humanId}`;
   const cached = ids().get(key);
   if (cached) return cached;
-  const s = (await client().projects.createOrGetSpace({
+  const s = (await (await client()).projects.createOrGetSpace({
     path: { id: env.project()! },
     headers: { "idempotency-key": `boomer-dm:${agentId}:${humanId}` },
     body: { participantIds: [agentId, humanId], platform: env.platform() },
@@ -55,7 +62,7 @@ export async function sendPhotonText(phone: string, text: string, dedupeKey: str
   const agentId = await userId(env.agentHandle()!);
   const humanId = await userId(phone);
   const spaceId = await dmSpace(agentId, humanId);
-  const m = (await client().projects.sendMessage({
+  const m = (await (await client()).projects.sendMessage({
     path: { id: env.project()! },
     headers: { "idempotency-key": dedupeKey.slice(0, 255) },
     body: { spaceId, senderId: agentId, content: { type: "text", format: "plain", text } },

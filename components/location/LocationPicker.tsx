@@ -1,7 +1,8 @@
 "use client";
 // OWNER: Aniketh (location)
-import { useState } from "react";
-import type { Jurisdiction } from "@/lib/types";
+import { useEffect, useRef, useState } from "react";
+import { api } from "@/lib/routes";
+import type { GeoPoint, Jurisdiction } from "@/lib/types";
 import towns from "@/data/towns.json";
 /** Manual location fallback for the camera page or profile. Saves nothing until the worker confirms. */
 export default function LocationPicker({
@@ -9,21 +10,40 @@ export default function LocationPicker({
   onConfirm,
 }: {
   jobId?: string;
-  onConfirm: (
-    jurisdiction: Jurisdiction,
-    point?: { lat: number; lng: number },
-  ) => void;
+  onConfirm: (jurisdiction: Jurisdiction, point?: GeoPoint) => void;
 }) {
+  const mounted = useRef(true);
+  const request = useRef<AbortController>();
+  const operation = useRef(0);
+  const working = useRef(false);
+  useEffect(() => {
+    mounted.current = true;
+    working.current = false;
+    setCandidate(undefined);
+    setPoint(undefined);
+    setBusy(false);
+    setError("");
+    return () => {
+      operation.current++;
+      mounted.current = false;
+      request.current?.abort();
+    };
+  }, [jobId]);
   const [candidate, setCandidate] = useState<Jurisdiction>();
-  const [point, setPoint] = useState<{ lat: number; lng: number }>();
+  const [point, setPoint] = useState<GeoPoint>();
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   async function locate() {
+    if (working.current) return;
+    working.current = true;
+    const token = ++operation.current;
     setBusy(true);
     setError("");
     setCandidate(undefined);
     setPoint(undefined);
     try {
+      if (!window.isSecureContext)
+        throw new Error("GPS requires HTTPS. Select a town manually.");
       if (!navigator.geolocation)
         throw new Error("GPS unavailable. Select a demo town below.");
       const p = await new Promise<GeolocationPosition>((resolve, reject) =>
@@ -33,27 +53,54 @@ export default function LocationPicker({
           maximumAge: 0,
         }),
       );
-      if (p.coords.accuracy > 1000)
+      if (!mounted.current || token !== operation.current) return;
+      if (!Number.isFinite(p.coords.accuracy) || p.coords.accuracy > 1000)
         throw new Error(
           "GPS accuracy is too low to identify a town. Retry outdoors or select manually.",
         );
       const lat = p.coords.latitude,
         lng = p.coords.longitude;
-      const r = await fetch(`/api/jurisdiction?lat=${lat}&lng=${lng}`, {
-        signal: AbortSignal.timeout(10000),
-      });
-      const data = await r.json();
-      if (!r.ok) throw new Error(data.error);
-      setPoint({ lat, lng });
+      request.current = new AbortController();
+      const controller = request.current;
+      const timer = setTimeout(() => controller.abort(), 10000);
+      let data: Jurisdiction;
+      try {
+        const r = await fetch(`${api.jurisdiction()}?lat=${lat}&lng=${lng}`, {
+          signal: controller.signal,
+        });
+        const body = await r.json().catch(() => null);
+        if (!r.ok) throw new Error(body?.error || "Location lookup failed");
+        if (
+          !body ||
+          typeof body.city !== "string" ||
+          typeof body.state !== "string" ||
+          typeof body.necEdition !== "string" ||
+          typeof body.sourceUrl !== "string"
+        )
+          throw new Error(
+            "Location service returned no town. Select manually.",
+          );
+        data = body;
+      } finally {
+        clearTimeout(timer);
+      }
+      if (!mounted.current || token !== operation.current) return;
+      setPoint({ lat, lng, accuracy: p.coords.accuracy });
       setCandidate(data);
     } catch (e) {
+      if (!mounted.current || token !== operation.current) return;
       setError(
-        e instanceof Error
-          ? e.message
-          : "Location permission denied or timed out. Select a town manually.",
+        e instanceof DOMException && e.name === "AbortError"
+          ? "Location lookup timed out. Retry or select a town manually."
+          : e instanceof Error
+            ? e.message
+            : "Location permission denied or timed out. Select a town manually.",
       );
     } finally {
-      setBusy(false);
+      if (mounted.current && token === operation.current) {
+        working.current = false;
+        setBusy(false);
+      }
     }
   }
   return (
@@ -66,6 +113,7 @@ export default function LocationPicker({
       <label>
         Manual fallback (pre-loaded towns)
         <select
+          style={{ display: "block", minHeight: 48, width: "100%" }}
           aria-label="Manual town"
           disabled={busy}
           value=""
@@ -75,7 +123,9 @@ export default function LocationPicker({
             setError("Manually selected; GPS was not used.");
           }}
         >
-          <option value="">Choose a town</option>
+          <option value="" disabled>
+            Choose a town
+          </option>
           {towns.map((t, i) => (
             <option key={t.city} value={i}>
               {t.city}, {t.state}
@@ -100,25 +150,53 @@ export default function LocationPicker({
             className="btn"
             disabled={busy}
             onClick={async () => {
+              if (working.current) return;
+              working.current = true;
+              const token = ++operation.current;
               setBusy(true);
               setError("");
+              request.current = new AbortController();
+              const controller = request.current;
+              const timer = setTimeout(() => controller.abort(), 12000);
               try {
                 if (jobId) {
-                  const r = await fetch("/api/jurisdiction", {
+                  const r = await fetch(api.jurisdiction(), {
                     method: "POST",
+                    signal: controller.signal,
                     headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ jobId, city: candidate.city, state: candidate.state, ...point, confirmed: true }),
+                    body: JSON.stringify({
+                      jobId,
+                      city: candidate.city,
+                      state: candidate.state,
+                      ...point,
+                      confirmed: true,
+                    }),
                   });
-                  const data = await r.json();
-                  if (!r.ok) throw new Error(data.error);
+                  const data = await r.json().catch(() => null);
+                  if (!r.ok)
+                    throw new Error(data?.error || "Could not save location");
+                  if (!data || data.id !== jobId || data.siteConfirmed !== true)
+                    throw new Error(
+                      "Location confirmation was not acknowledged. Retry.",
+                    );
                 }
-                onConfirm(candidate, point);
+                if (mounted.current && token === operation.current)
+                  onConfirm(candidate, point);
               } catch (e) {
-                setError(
-                  e instanceof Error ? e.message : "Could not save location",
-                );
+                if (mounted.current && token === operation.current)
+                  setError(
+                    e instanceof DOMException && e.name === "AbortError"
+                      ? "Saving timed out. Retry confirmation."
+                      : e instanceof Error
+                        ? e.message
+                        : "Could not save location",
+                  );
               } finally {
-                setBusy(false);
+                clearTimeout(timer);
+                if (mounted.current && token === operation.current) {
+                  working.current = false;
+                  setBusy(false);
+                }
               }
             }}
           >

@@ -22,3 +22,37 @@ export const DYNAMIC_PARAMS = {
 } as const;
 
 export const toolUrl = (name: VoiceToolName) => absolute(api.voiceTool(name));
+
+/** What each tool-specific body field means, for the ElevenLabs tool form (value type: LLM prompt). */
+export const PARAM_HELP: Record<string, string> = {
+  jobId: "Always the job id from the system prompt (demo-2041 for the demo).",
+  note: "What the worker said the job or problem is, in their words.",
+  spokenConfirmation: "The worker's exact words when they answer a yes/no question or confirm a spoken step. Leave empty after a plain 'done'.",
+  reason: "Why the worker stopped, in their words.",
+};
+
+/**
+ * ElevenLabs webhook tool configs (POST, JSON body) for every tool, ready to paste or apply.
+ * Body: jobId (LLM prompt, required) + the tool's own params. ElevenLabs' form rejects constant-value
+ * fields, so jobId is filled by the model from the prompt; resolveJob also falls back on the caller's phone.
+ */
+export function elevenLabsTools(baseUrl: string) {
+  const url = baseUrl.replace(/\/$/, "");
+  return TOOLS.map((t) => ({
+    type: "webhook" as const,
+    name: t.name,
+    description: t.description,
+    response_timeout_secs: t.name === "check_step" || t.name === "look" ? 10 : 5,
+    api_schema: {
+      url: `${url}/api/voice/${t.name}`,
+      method: "POST",
+      request_body_schema: {
+        type: "object",
+        properties: Object.fromEntries(
+          ["jobId", ...(t.params ?? [])].map((p) => [p, { type: "string", description: PARAM_HELP[p] ?? p }]),
+        ),
+        required: ["jobId"],
+      },
+    },
+  }));
+}
