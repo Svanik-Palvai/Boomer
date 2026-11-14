@@ -1,7 +1,8 @@
 "use client";
 // OWNER: Aniketh (location)
 import { useState } from "react";
-import type { Jurisdiction } from "@/lib/types";
+import { api } from "@/lib/routes";
+import type { GeoPoint, Jurisdiction } from "@/lib/types";
 import towns from "@/data/towns.json";
 /** Manual location fallback for the camera page or profile. Saves nothing until the worker confirms. */
 export default function LocationPicker({
@@ -9,13 +10,10 @@ export default function LocationPicker({
   onConfirm,
 }: {
   jobId?: string;
-  onConfirm: (
-    jurisdiction: Jurisdiction,
-    point?: { lat: number; lng: number },
-  ) => void;
+  onConfirm: (jurisdiction: Jurisdiction, point?: GeoPoint) => void;
 }) {
   const [candidate, setCandidate] = useState<Jurisdiction>();
-  const [point, setPoint] = useState<{ lat: number; lng: number }>();
+  const [point, setPoint] = useState<GeoPoint>();
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   async function locate() {
@@ -24,6 +22,8 @@ export default function LocationPicker({
     setCandidate(undefined);
     setPoint(undefined);
     try {
+      if (!window.isSecureContext)
+        throw new Error("GPS requires HTTPS. Select a town manually.");
       if (!navigator.geolocation)
         throw new Error("GPS unavailable. Select a demo town below.");
       const p = await new Promise<GeolocationPosition>((resolve, reject) =>
@@ -39,12 +39,14 @@ export default function LocationPicker({
         );
       const lat = p.coords.latitude,
         lng = p.coords.longitude;
-      const r = await fetch(`/api/jurisdiction?lat=${lat}&lng=${lng}`, {
+      const r = await fetch(`${api.jurisdiction()}?lat=${lat}&lng=${lng}`, {
         signal: AbortSignal.timeout(10000),
       });
       const data = await r.json();
       if (!r.ok) throw new Error(data.error);
-      setPoint({ lat, lng });
+      setPoint({ lat, lng, accuracy: p.coords.accuracy });
+      if (typeof data.city !== "string" || typeof data.state !== "string")
+        throw new Error("Location service returned no town. Select manually.");
       setCandidate(data);
     } catch (e) {
       setError(
@@ -66,6 +68,7 @@ export default function LocationPicker({
       <label>
         Manual fallback (pre-loaded towns)
         <select
+          style={{ display: "block", minHeight: 48, width: "100%" }}
           aria-label="Manual town"
           disabled={busy}
           value=""
@@ -75,7 +78,9 @@ export default function LocationPicker({
             setError("Manually selected; GPS was not used.");
           }}
         >
-          <option value="">Choose a town</option>
+          <option value="" disabled>
+            Choose a town
+          </option>
           {towns.map((t, i) => (
             <option key={t.city} value={i}>
               {t.city}, {t.state}
@@ -104,10 +109,17 @@ export default function LocationPicker({
               setError("");
               try {
                 if (jobId) {
-                  const r = await fetch("/api/jurisdiction", {
+                  const r = await fetch(api.jurisdiction(), {
                     method: "POST",
+                    signal: AbortSignal.timeout(12000),
                     headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ jobId, city: candidate.city, state: candidate.state, ...point, confirmed: true }),
+                    body: JSON.stringify({
+                      jobId,
+                      city: candidate.city,
+                      state: candidate.state,
+                      ...point,
+                      confirmed: true,
+                    }),
                   });
                   const data = await r.json();
                   if (!r.ok) throw new Error(data.error);

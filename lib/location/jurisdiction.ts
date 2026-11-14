@@ -10,12 +10,20 @@ export function validCoordinates(lat: number, lng: number) {
     Math.abs(lng) <= 180
   );
 }
+const cache = new Map<string, { at: number; value: Jurisdiction }>();
+let lastLookup = 0;
 /** Real reverse lookup, including in mock mode. Never infer a town from a broad bounding box. */
 export async function getJurisdiction(
   lat: number,
   lng: number,
 ): Promise<Jurisdiction> {
   if (!validCoordinates(lat, lng)) throw new Error("Invalid coordinates");
+  const cacheKey = `${lat},${lng}`;
+  const cached = cache.get(cacheKey);
+  if (cached && Date.now() - cached.at < 60000) return { ...cached.value };
+  if (Date.now() - lastLookup < 1100)
+    throw new Error("Please wait a moment before retrying");
+  lastLookup = Date.now();
   const url = new URL("https://nominatim.openstreetmap.org/reverse");
   url.search = new URLSearchParams({
     lat: String(lat),
@@ -40,12 +48,16 @@ export async function getJurisdiction(
     throw new Error("Only US jurisdictions are supported");
   const city = a.city || a.town || a.village || a.municipality;
   const state = a["ISO3166-2-lvl4"]?.split("-")[1];
-  if (!city || !state)
+  if (
+    typeof city !== "string" ||
+    typeof state !== "string" ||
+    !/^[A-Z]{2}$/.test(state)
+  )
     throw new Error("Town could not be identified; choose manually");
   const known = towns.find(
     (t) => t.city.toLowerCase() === city.toLowerCase() && t.state === state,
   );
-  return known
+  const value: Jurisdiction = known
     ? {
         city: known.city,
         state,
@@ -58,4 +70,7 @@ export async function getJurisdiction(
         necEdition: "needs review",
         sourceUrl: "https://www.openstreetmap.org/copyright",
       };
+  if (cache.size >= 100) cache.delete(cache.keys().next().value!);
+  cache.set(cacheKey, { at: Date.now(), value });
+  return { ...value };
 }

@@ -1,10 +1,42 @@
 [
   {
-    "id": "pa-nj-DRAFT-1",
+    "id": "nj-contractor-authority",
     "fromState": "PA",
     "toState": "NJ",
-    "requirement": "DRAFT placeholder. Aniketh: what NJ requires of an out-of-state electrician (license type, experience, exam, reciprocity), one line per requirement.",
+    "requirement": "Confirm the NJ electrical contractor license and business permit for the contracting entity; distinguish the individual worker role and applicable exemptions.",
     "sourceUrl": "https://www.njconsumeraffairs.gov/elec/",
+    "verified": true
+  },
+  {
+    "id": "philadelphia-credential",
+    "fromState": "PA",
+    "toState": "NJ",
+    "requirement": "Document the Philadelphia electrical contractor credential with L&I. It does not itself establish NJ contracting authority.",
+    "sourceUrl": "https://www.phila.gov/services/permits-violations-licenses/get-a-license/trade-licenses/get-an-electrical-contractor-license/",
+    "verified": true
+  },
+  {
+    "id": "nj-experience-exam",
+    "fromState": "PA",
+    "toState": "NJ",
+    "requirement": "Needs review: confirm the current experience, apprenticeship, examination and application requirements for this applicant with the NJ Board.",
+    "sourceUrl": "https://www.njconsumeraffairs.gov/elec/Pages/FAQ.aspx",
+    "verified": false
+  },
+  {
+    "id": "nj-reciprocity",
+    "fromState": "PA",
+    "toState": "NJ",
+    "requirement": "Needs review: ask the NJ Board whether a reciprocity pathway applies to this exact credential. No automatic transfer or examination waiver is asserted.",
+    "sourceUrl": "https://www.njconsumeraffairs.gov/elec/Pages/FAQ.aspx",
+    "verified": false
+  },
+  {
+    "id": "pa-state-transition",
+    "fromState": "PA",
+    "toState": "NJ",
+    "requirement": "Needs review: confirm Pennsylvania statewide licensing implementation and how it relates to municipal credentials. Do not assume Pennsylvania has no state board.",
+    "sourceUrl": "https://www.pa.gov/agencies/dos/department-and-offices/bpoa/boards-commissions/electricians",
     "verified": false
   }
 ]
