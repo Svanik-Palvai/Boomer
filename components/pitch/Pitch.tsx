@@ -2,14 +2,9 @@
 // OWNER: Pitch presentation. Example-only UI: no camera, call, job mutations or provider requests.
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import {
-  companies,
-  guideBeats,
-  jurisdictions,
-  replayBeats,
-  sections,
-} from "./content";
+import { companies, guideBeats, replayBeats, sections } from "./content";
 import CompanyMark from "./CompanyMark";
+import { OpeningScene, BorderScene, RecordScene } from "./ScrollScenes";
 import { Harness, Outlet } from "./Illustrations";
 import s from "./pitch.module.css";
 
@@ -34,21 +29,11 @@ export default function Pitch() {
         "--progress",
         String(max > 0 ? Math.min(1, Math.max(0, scrollY / max)) : 0),
       );
-      const hero = document.getElementById("problem");
-      const heroProgress = hero
-        ? Math.min(
-            1,
-            Math.max(0, -hero.getBoundingClientRect().top / innerHeight),
-          )
-        : 0;
-      root.current?.style.setProperty(
-        "--gather",
-        String(reduced.matches ? 0 : heroProgress),
-      );
       if (
         !manualReplay &&
         !reduced.matches &&
         innerWidth >= 900 &&
+        innerHeight >= 620 &&
         replay.current
       ) {
         const rect = replay.current.getBoundingClientRect();
@@ -92,8 +77,6 @@ export default function Pitch() {
     setManualReplay(true);
     setBeat(Math.max(0, Math.min(replayBeats.length - 1, index)));
   }
-  const dest = jurisdictions.destination,
-    home = jurisdictions.home;
   return (
     <div ref={root} className={s.pitch} data-enhanced={enhanced}>
       <a className={s.skip} href="#problem">
@@ -124,144 +107,8 @@ export default function Pitch() {
         <div className={s.progress} aria-hidden="true" />
       </header>
       <main className={s.main}>
-        <section id="problem" data-section className={s.hero}>
-          <div className={s.heroTop}>
-            <span className={s.kicker}>
-              BUILT FOR THE PEOPLE WHO BUILD EVERYTHING.
-            </span>
-            <span className={s.kicker}>HACKPRINCETON / 2026</span>
-          </div>
-          <div className={s.hook}>
-            <p>AI is moving other industries at lightspeed.</p>
-            <h1>
-              Who’s building for
-              <br />
-              the people who
-              <br />
-              <em>build everything?</em>
-            </h1>
-          </div>
-          <div className={s.fragments} aria-label="The friction between jobs">
-            <span>
-              NEW STATE.
-              <br />
-              <b>NEW RULES?</b>
-            </span>
-            <span>
-              LICENSE STATUS
-              <br />
-              <b>START AGAIN.</b>
-            </span>
-            <span>
-              YEARS OF WORK.
-              <br />
-              <b>NO SHARED RECORD.</b>
-            </span>
-          </div>
-          <div className={s.heroBottom}>
-            <span className={s.heroWord} aria-label="Boomer">
-              BOOMER<span aria-hidden="true">↗</span>
-            </span>
-            <div>
-              <p>
-                The operating system
-                <br />
-                for blue-collar work.
-              </p>
-              <a href="#borders">
-                SCROLL TO SEE IT WORK <span aria-hidden="true">↓</span>
-              </a>
-            </div>
-          </div>
-          <div className={s.heroFooter}>
-            <span>
-              LOCAL KNOWLEDGE. HANDS-FREE GUIDANCE. A WORK RECORD THAT TRAVELS.
-            </span>
-            <span>STARTING WITH ELECTRICIANS.</span>
-          </div>
-        </section>
-
-        <section
-          id="borders"
-          data-section
-          className={`${s.section} ${s.paper}`}
-        >
-          <div className={s.sectionLabel}>
-            <span>01 / THE BORDER PROBLEM</span>
-            <span>PHILADELPHIA, PA → PRINCETON, NJ</span>
-          </div>
-          <div className={s.split}>
-            <h2>
-              Your skills travel.
-              <br />
-              <span className={s.olive}>
-                The information
-                <br />
-                doesn’t.
-              </span>
-            </h2>
-            <div className={s.lede}>
-              <p>
-                You know the work. A new jurisdiction brings another set of
-                questions: which rules apply, who issues the permit, and what
-                your credentials cover.
-              </p>
-              <p>
-                Boomer puts local references into the job—and keeps the work
-                you’ve done connected to you.
-              </p>
-            </div>
-          </div>
-          <div className={s.borderJourney}>
-            <div className={s.town}>
-              <span className={s.kicker}>HOME JURISDICTION / PA</span>
-              <h3>{home.city}</h3>
-              <p>
-                <b>{home.necEdition}</b> NEC
-              </p>
-              <a href={home.sourceUrl} target="_blank" rel="noreferrer">
-                City’s adopted-code listing ↗
-              </a>
-            </div>
-            <div className={s.borderLine} aria-hidden="true">
-              <span>STATE LINE</span>
-              <b>→</b>
-            </div>
-            <div className={s.town}>
-              <span className={s.kicker}>JOB LOCATION / NJ</span>
-              <h3>{dest.city}</h3>
-              <p>
-                <b>{dest.necEdition}</b> NEC
-              </p>
-              <a href={dest.sourceUrl} target="_blank" rel="noreferrer">
-                State’s adopted-code listing ↗
-              </a>
-            </div>
-          </div>
-          <div className={s.evidenceRow}>
-            <div>
-              <span className={s.stamp}>SOURCE-BACKED</span>
-              <p>
-                Location confirmed with the worker. Code editions and regional
-                references are preloaded and hand-checked.
-              </p>
-            </div>
-            <div>
-              <span className={s.stamp}>SCOPE STILL MATTERS</span>
-              <p>
-                {dest.editionCaveat} The countertop GFCI demo does not establish
-                a Philadelphia-to-Princeton installation difference.
-              </p>
-            </div>
-            <div>
-              <span className={s.stamp}>LICENSE ≠ WORK RECORD</span>
-              <p>{dest.licenseNote}</p>
-              <a href={dest.licenseUrl} target="_blank" rel="noreferrer">
-                NJ electrical licensing ↗
-              </a>
-            </div>
-          </div>
-        </section>
+        <OpeningScene />
+        <BorderScene />
 
         <section className={s.industry} aria-labelledby="industry-title">
           <div className={s.railHeading}>
@@ -305,7 +152,7 @@ export default function Pitch() {
             <span className={s.yellowText}>Get to work.</span>
           </h2>
           <div className={s.guideLayout}>
-            <div className={s.guideVisual}>
+            <div className={s.guideVisual} data-guide-phase={guide}>
               <span className={s.kicker}>FIELD SETUP / ILLUSTRATION</span>
               <Harness beat={guide} />
               <div className={s.voice}>
@@ -431,74 +278,7 @@ export default function Pitch() {
           </div>
         </section>
 
-        <section
-          id="record"
-          data-section
-          className={`${s.section} ${s.yellow}`}
-        >
-          <div className={s.sectionLabel}>
-            <span>04 / WHAT YOU TAKE WITH YOU</span>
-            <span>THE WORKER OWNS THE RECORD</span>
-          </div>
-          <div className={s.split}>
-            <div>
-              <h2>
-                New job.
-                <br />
-                New state.
-                <br />
-                Same track record.
-              </h2>
-              <p className={s.lede}>
-                The job ends. Your experience doesn’t disappear with it.
-              </p>
-              <p>
-                Step observations, corrections, photos and regional references
-                stay in a work record you can share with the next employer.
-              </p>
-              <span className={s.recordStamp}>OBSERVED BY BOOMER ↗</span>
-            </div>
-            <div className={s.recordPreview}>
-              <div className={s.messageTop}>
-                <span>MESSAGES / EXAMPLE</span>
-                <b>BOOMER</b>
-              </div>
-              <div className={s.messageBubble}>
-                Your GFCI demo job in Princeton is saved. Here’s the record you
-                can take to the next job. <span>boomer / job / example</span>
-              </div>
-              <div className={s.paperRecord}>
-                <div className={s.recordTop}>
-                  <span>FIELD RECORD / EXAMPLE</span>
-                  <b>01</b>
-                </div>
-                <h3>
-                  Kitchen GFCI
-                  <br />
-                  Princeton, NJ
-                </h3>
-                <ul>
-                  <li>
-                    <span>Breaker off</span>
-                    <b>Worker confirmed</b>
-                  </li>
-                  <li>
-                    <span>Circuit test</span>
-                    <b>Spoken / simulated</b>
-                  </li>
-                  <li>
-                    <span>LINE connection</span>
-                    <b>Corrected · seen</b>
-                  </li>
-                </ul>
-                <p>
-                  A camera observation is not an electrical test or a license.
-                </p>
-                <span className={s.kicker}>OBSERVED BY BOOMER</span>
-              </div>
-            </div>
-          </div>
-        </section>
+        <RecordScene />
 
         <section
           className={`${s.section} ${s.paper} ${s.lessonSection}`}

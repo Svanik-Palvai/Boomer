@@ -8,7 +8,16 @@ artwork/fonts and provenance under `public/pitch/`.
 
 ## Narrative and controls
 
-The hook leads into the state-line information gap, a phone/harness/voice setup,
+The opening is a pinned scene: scattered jurisdiction/work-history fragments
+converge into Boomer, then connectors draw three worker-centered capabilities.
+A second scene moves an experience marker from Philadelphia to Princeton and
+reveals local context. The record scene animates the message and unfolds the
+portable job record. All three scenes scrub forward AND backward with scroll,
+using requestAnimationFrame and DOM transforms rather than a new animation library.
+Phones, short landscape viewports and reduced-motion users get stacked static
+content. Source/scope detail stays accessible in a disclosure below the border story.
+
+The story continues through a phone/harness/voice setup,
 a staged LINE/LOAD correction, the portable record, reviewed lessons, architecture
 and the real demo setup. The company rail shows industry examples only. Neither
 those companies nor the reference sites are represented as partners or customers.
@@ -47,8 +56,9 @@ No Vercel deployment was recreated by this change.
 - Replay Next/Back/Replay state and corrected LINE diagram; forward/backward
   desktop scrolling changes the replay in both directions.
 - Keyboard skip link has a visible focus outline.
-- Reduced motion produces no rail animation and removes replay pinning.
-- JavaScript-disabled page retains the opening and all four replay responses.
+- New opening, border and record scenes were checked scrubbing forward/backward.
+- Reduced motion produces no rail animation, removes pinning and shows all capabilities.
+- JavaScript-disabled page retains the opening, all three capabilities and all four replay responses.
 - Browser network capture found no /api/ requests from the pitch.
 - Logo error handler exercised with the React test renderer: failed image is
   removed and the readable company name/link remain.
@@ -56,3 +66,15 @@ No Vercel deployment was recreated by this change.
 The plugin catalog did not contain Impeccable. No substitute plugin was installed
 or claimed used. The reference pitch's source and Caterpillar assets were not
 copied. Company logo sources and font license are documented in public/pitch.
+
+## Run locally and find the changes
+
+Run `npm run dev -- --port 3300` and open http://localhost:3300 to edit, or
+`npm run check` followed by `npm run start -- --port 3300` for the production build.
+Stop the running server before rebuilding `.next`.
+
+The changes are on `codex/reviewed-video-lessons` and PR #6. They do not change
+GitHub's default `main` view or a main-only deployment until the PR is merged.
+The newest teammates' main changes were merged through a82682c. The post-call
+webhook conflict was comment-only: both lesson evidence capture and the new
+pick-up text behavior were retained.
