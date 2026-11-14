@@ -1,6 +1,6 @@
 "use client";
 // OWNER: Aniketh (location)
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { api } from "@/lib/routes";
 import type { GeoPoint, Jurisdiction } from "@/lib/types";
 import towns from "@/data/towns.json";
@@ -12,6 +12,15 @@ export default function LocationPicker({
   jobId?: string;
   onConfirm: (jurisdiction: Jurisdiction, point?: GeoPoint) => void;
 }) {
+  const mounted = useRef(true);
+  const request = useRef<AbortController>();
+  useEffect(() => {
+    mounted.current = true;
+    return () => {
+      mounted.current = false;
+      request.current?.abort();
+    };
+  }, []);
   const [candidate, setCandidate] = useState<Jurisdiction>();
   const [point, setPoint] = useState<GeoPoint>();
   const [busy, setBusy] = useState(false);
@@ -33,29 +42,42 @@ export default function LocationPicker({
           maximumAge: 0,
         }),
       );
-      if (p.coords.accuracy > 1000)
+      if (!mounted.current) return;
+      if (!Number.isFinite(p.coords.accuracy) || p.coords.accuracy > 1000)
         throw new Error(
           "GPS accuracy is too low to identify a town. Retry outdoors or select manually.",
         );
       const lat = p.coords.latitude,
         lng = p.coords.longitude;
-      const r = await fetch(`${api.jurisdiction()}?lat=${lat}&lng=${lng}`, {
-        signal: AbortSignal.timeout(10000),
-      });
+      request.current = new AbortController();
+      const controller = request.current;
+      const timer = setTimeout(() => controller.abort(), 10000);
+      let r: Response;
+      try {
+        r = await fetch(`${api.jurisdiction()}?lat=${lat}&lng=${lng}`, {
+          signal: controller.signal,
+        });
+      } finally {
+        clearTimeout(timer);
+      }
       const data = await r.json();
+      if (!mounted.current) return;
       if (!r.ok) throw new Error(data.error);
       setPoint({ lat, lng, accuracy: p.coords.accuracy });
       if (typeof data.city !== "string" || typeof data.state !== "string")
         throw new Error("Location service returned no town. Select manually.");
       setCandidate(data);
     } catch (e) {
+      if (!mounted.current) return;
       setError(
-        e instanceof Error
-          ? e.message
-          : "Location permission denied or timed out. Select a town manually.",
+        e instanceof DOMException && e.name === "AbortError"
+          ? "Location lookup timed out. Retry or select a town manually."
+          : e instanceof Error
+            ? e.message
+            : "Location permission denied or timed out. Select a town manually.",
       );
     } finally {
-      setBusy(false);
+      if (mounted.current) setBusy(false);
     }
   }
   return (

@@ -7,6 +7,14 @@ const schema = z.array(
     jobType: z.string().min(1),
     title: z.string().min(1),
     component: z.string().min(1),
+    demoOnly: z.literal(true),
+    sourceUrl: z.string().url(),
+    scope: z.string().min(1),
+    review: z.object({
+      status: z.enum(["pending", "reviewed"]),
+      reviewer: z.string().nullable(),
+      reviewedAt: z.string().datetime().nullable(),
+    }),
     steps: z
       .array(
         z.object({
@@ -26,7 +34,15 @@ const schema = z.array(
       .min(1),
   }),
 );
-const templates: JobTemplate[] = schema.parse(stepsData);
+const parsedTemplates = schema.parse(stepsData);
+for (const t of parsedTemplates) {
+  if (
+    t.review.status === "reviewed" &&
+    (!t.review.reviewer?.trim() || !t.review.reviewedAt)
+  )
+    throw new Error("Reviewed templates require reviewer identity and date");
+}
+const templates: JobTemplate[] = parsedTemplates;
 const ids = new Set<string>();
 for (const t of templates) {
   if (ids.has(t.jobType)) throw new Error("Duplicate job type");
@@ -44,7 +60,12 @@ for (const t of templates) {
 export function jobTemplate(jobType: string): JobTemplate | undefined {
   const t = templates.find((t) => t.jobType === jobType);
   return t
-    ? { ...t, steps: t.steps.map((s) => ({ ...s, check: { ...s.check } })) }
+    ? {
+        jobType: t.jobType,
+        title: t.title,
+        component: t.component,
+        steps: t.steps.map((s) => ({ ...s, check: { ...s.check } })),
+      }
     : undefined;
 }
 export function jobTypes() {
@@ -56,7 +77,7 @@ export function jobTypes() {
 }
 /** Review metadata is separate from the shared runtime template contract. Never claim a review occurred. */
 export function templateReview(jobType: string) {
-  const t = stepsData.find((t) => t.jobType === jobType);
+  const t = parsedTemplates.find((t) => t.jobType === jobType);
   return t
     ? {
         ...t.review,

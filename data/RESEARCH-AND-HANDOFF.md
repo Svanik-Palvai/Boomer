@@ -48,3 +48,7 @@ Validation: `node lib/location/verify.cjs`, `npm run check`, and `npm run fake-c
 - Full scaffold `fake-call` passed against the local v2 server with `USE_MOCKS=true`: repeat, two spoken gates, visual steps, one staged failed LINE check, correction, completion and record closure. Photon delivery and Gemini were mocked, not tested live.
 - Live GET jurisdiction lookup for 40.3431, -74.6551 returned Princeton NJ / NEC 2023.
 - Lint attempted; shared ESLint setup is missing and launches the configuration wizard.
+
+## Follow-up audit
+
+The geocoder now validates response shape before reading fields, normalizes network/timeout errors, and shares an in-flight request for identical coordinates. Concurrent callers receive independent objects. Added regression checks cover malformed/null responses, foreign locations, unknown US towns, throttling, transport and HTTP failures, duplicate requests and cached-object mutation. The location picker cancels a pending lookup on unmount, retains its timeout and reports timeout recovery. Review metadata is now validated; a reviewed status requires a reviewer identity and timestamp, while runtime template callers cannot mutate review metadata. All focused tests and a fresh `npm run check` pass after these changes. No shared types or other lanes were modified.
