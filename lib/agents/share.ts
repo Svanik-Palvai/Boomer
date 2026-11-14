@@ -4,14 +4,16 @@
 //   "tell my supervisor I'm stuck on step 4"    -> texts the supervisor the worker's words + where the job stands
 //   "send my record to +1 609 555 0100"         -> texts that person the work-record card
 //   "send me my record card"                    -> the card alone, ready for the worker to forward
-// The record link unfurls into a preview card in iMessage (app/api/og), which is our mini-app surface on the 2.0 beta.
-// A shared iMessage line can't start a chat: someone who never texted Boomer can't be reached, so the worker gets the card to forward.
+//   "send me the job sheet" / "live card"       -> the live job sheet card for this job
+// Cards are Photon 1.0 iMessage mini apps when PHOTON_STABLE_* is set (lib/photon/miniapp.ts), otherwise a link that
+// unfurls into a preview card. Shared lines (both Photon versions, free plans) can't start a chat, so someone who
+// never texted Boomer can't be reached: the worker gets the card to forward instead.
 import type { Job, Worker } from "@/lib/types";
 import { getContacts, normalizePhone, saveContacts } from "@/lib/db";
 import { stepNumber } from "@/lib/agent/engine";
 import { remember } from "@/lib/memory/store";
-import { photonErrorText } from "@/lib/photon/client";
-import { sendText } from "@/lib/photon/send";
+import { recordCardUrl, sendJobCard, sendRecordCard, textAnyLine } from "@/lib/photon/miniapp";
+import { stableConfigured } from "@/lib/photon/stable";
 import { absolute, pages } from "@/lib/routes";
 import { guard } from "./recorder";
 
@@ -41,29 +43,39 @@ export async function shareReply(job: Job | null, worker: Worker, text: string):
       [
         `From Boomer, for ${worker.name}${words ? `: "${words}"` : "."}`,
         job ? whereItStands(job) : "",
-        job ? `Live view: ${absolute(pages.liveJob(job.id))}` : "",
+        job && !stableConfigured() ? `Job sheet: ${absolute(pages.miniJob(job.id))}` : "",
       ]
         .filter(Boolean)
         .join("\n"),
     );
-    const sent = await trySend(c.supervisorPhone, alert, `supervisor:${worker.id}:${Date.now()}`);
+    const sent = await textAnyLine(c.supervisorPhone, alert, `supervisor:${worker.id}:${Date.now()}`);
+    // With Photon 1.0 the supervisor also gets the live job sheet card, which updates as the steps move.
+    const card = sent && job && stableConfigured() ? (await sendJobCard(job, c.supervisorPhone)) === "card" : false;
     if (job) await remember(job.id, { channel: "imessage", agent: "recorder", speaker: "agent", text: sent ? `Texted supervisor: ${alert}` : `Couldn't reach supervisor ${c.supervisorPhone}` });
     const who = c.supervisorName ?? "your supervisor";
     return sent
-      ? `Sent to ${who}.`
+      ? `Sent to ${who}${card ? ", with the live job sheet" : ""}.`
       : `I can't reach ${who} yet: they need to text this number once first. Here's the message to forward:\n\n${alert}`;
+  }
+
+  // The live job sheet for this job.
+  if (/\b(job|live)\s*(card|sheet)\b/i.test(msg)) {
+    if (!job) return "No job open right now. Your record card: just text \"send me my record card\".";
+    if (stableConfigured() && (await sendJobCard(job, worker.phone)) === "card") return "Sent the job sheet card. It updates as the steps move.";
+    return `Your job sheet:\n${absolute(pages.miniJob(job.id))}`;
   }
 
   // Share the record.
   if (/\b(send|share|forward|text)\b.*\b(record|proof|resume|card)\b/i.test(msg)) {
-    const link = absolute(pages.workRecord(worker.id));
-    if (!phone) return `Here's your work record card. Press and hold it to forward it to anyone:\n${link}`;
-    const card = `${worker.name} shared their Boomer work record with you. Observed by Boomer, one job at a time.\n${link}`;
-    const sent = await trySend(phone, card, `share:${worker.id}:${phone}:${Date.now()}`);
-    if (job) await remember(job.id, { channel: "imessage", agent: "recorder", speaker: "agent", text: sent ? `Sent work record to ${phone}` : `Couldn't reach ${phone} with the work record` });
-    return sent
-      ? `Sent your record to ${phone}.`
-      : `I can't text ${phone} first. Press and hold this card and forward it to them:\n${link}`;
+    if (!phone) {
+      if (stableConfigured() && (await sendRecordCard(worker, worker.phone)) === "card") return "Sent your record card. Press and hold it to forward it to anyone.";
+      return `Here's your work record card. Press and hold it to forward it to anyone:\n${recordCardUrl(worker)}`;
+    }
+    const how = await sendRecordCard(worker, phone, `${worker.name} shared their Boomer work record with you. Observed by Boomer, one job at a time.`);
+    if (job) await remember(job.id, { channel: "imessage", agent: "recorder", speaker: "agent", text: how !== "none" ? `Sent work record to ${phone}` : `Couldn't reach ${phone} with the work record` });
+    return how !== "none"
+      ? `Sent your record ${how === "card" ? "card " : ""}to ${phone}.`
+      : `I can't text ${phone} first. Press and hold this card and forward it to them:\n${recordCardUrl(worker)}`;
   }
 
   return null;
@@ -91,14 +103,4 @@ function theirWords(msg: string): string {
 function nameNear(msg: string, phone: string): string | undefined {
   const m = msg.replace(phone, " ").match(/\b(?:is|:)\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)/);
   return m?.[1];
-}
-
-async function trySend(phone: string, text: string, key: string): Promise<boolean> {
-  try {
-    await sendText(phone, text, key);
-    return true;
-  } catch (err) {
-    console.error("[share] send failed:", photonErrorText(err).slice(0, 200));
-    return false;
-  }
 }

@@ -6,6 +6,8 @@ import { recordText, sendText } from "@/lib/photon/send";
 import { summarizeJob } from "@/lib/ai/summarize";
 import { absolute, pages } from "@/lib/routes";
 import { remember } from "@/lib/memory/store";
+import { refreshJobCards, sendJobCard } from "@/lib/photon/miniapp";
+import { stableConfigured } from "@/lib/photon/stable";
 
 /**
  * Called once the job is done or stopped. Idempotent: a second call returns the same entry and
@@ -36,6 +38,14 @@ export async function closeJob(job: Job): Promise<RecordEntry> {
     } catch (err) {
       // The fallback is the link + QR on the live job view, so a failed text must not fail the close.
       console.error("[closeJob] record text failed:", err);
+    }
+    // Photon 1.0: freeze any live job cards at their final state, then hand the worker the finished job sheet as a
+    // mini app card. After the text above, so the 10 s record text never waits on Photon 1.0.
+    if (stableConfigured()) {
+      const closed = { ...job, recordId: entry.id };
+      void refreshJobCards(closed)
+        .then((n) => (n ? undefined : sendJobCard(closed, worker.phone, "Your finished job sheet")))
+        .catch((err) => console.error("[closeJob] mini app card failed:", err));
     }
   }
   return entry;

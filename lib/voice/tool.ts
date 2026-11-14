@@ -4,6 +4,7 @@ import type { Job, VoiceToolName, VoiceToolRequest, VoiceToolResponse, Worker } 
 import { resolveJob } from "@/lib/jobs/resolve";
 import { logToolCall, updateJob } from "@/lib/db";
 import { stepNumber } from "@/lib/agent/engine";
+import { refreshJobCards } from "@/lib/photon/miniapp";
 
 export interface ToolCtx {
   req: VoiceToolRequest;
@@ -41,6 +42,10 @@ export function voiceTool(name: VoiceToolName, handler: (ctx: ToolCtx) => Promis
         jobId = resolved.job.id;
         const out = await handler({ req: body, ...resolved });
         const job = out.job ?? resolved.job;
+        // A step moved or the status changed: edit any mini app cards already sent for this job (fire-and-forget).
+        if (out.job && (out.job.current !== resolved.job.current || out.job.status !== resolved.job.status)) {
+          refreshJobCards(out.job).catch(() => {});
+        }
         const { job: _omit, ...rest } = out;
         res = {
           jobId: job.id,

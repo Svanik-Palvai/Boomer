@@ -10,6 +10,8 @@ export const pages = {
   liveJob: (jobId: string) => `/job/${jobId}`,
   jobRecord: (jobId: string) => `/job/${jobId}/record`,
   workRecord: (workerId: string) => `/record/${workerId}`,
+  miniJob: (jobId: string) => `/m/job/${jobId}`, // [Zohaib] iMessage mini app: live job sheet (Photon 1.0 card)
+  miniRecord: (workerId: string) => `/m/record/${workerId}`, // [Zohaib] iMessage mini app: work record sheet
 } as const;
 
 /** API routes. Owner in brackets. */
@@ -34,4 +36,4 @@ export const api = {
   ogRecord: (workerId: string) => `/api/og/record/${workerId}`, // [Zohaib] GET link-preview card image for a work record
 } as const;
 
-export const absolute = (path: string) => `${APP_URL}${path}`;
+export const absolute = (path: string) => `${APP_URL.replace(/\/+$/, "")}${path}`; // tolerate a trailing "/" in NEXT_PUBLIC_APP_URL
