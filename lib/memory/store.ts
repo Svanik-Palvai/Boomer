@@ -1,4 +1,4 @@
-// OWNER: Teammate 3 (agents + memory)
+// OWNER: Sunny (AI: agents + memory)
 import type { AgentName, Channel, MemoryEvent } from "@/lib/types";
 import { getCase, saveCase } from "@/lib/cases/store";
 
@@ -23,22 +23,38 @@ export async function recall(caseId: string): Promise<MemoryEvent[]> {
 }
 
 /**
- * Short text block an agent puts in its prompt: plan state + what everyone said.
- * TODO(T3): summarize with Gemini when the history gets long.
+ * Short text block an agent puts in its prompt: job, guided-call state, plan and what everyone said.
+ * The voice agent gets this from get_context at the start of every call, so a dropped call
+ * resumes at the same step and knows what was already checked.
  */
 export async function contextFor(caseId: string, agent: AgentName): Promise<string> {
   const c = await getCase(caseId);
   if (!c) return "No case found.";
-  const steps = c.plan.map((s) => `${s.order}. ${s.text}${s.tag === "new_here" ? " [NEW HERE]" : ""}`).join("\n");
   const said = (c.memory ?? [])
     .slice(-20)
     .map((m) => `- (${m.channel}, ${m.speaker}) ${m.text}`)
     .join("\n");
-  return [
-    `You are the ${agent} agent for case ${c.id}.`,
-    `Job: ${c.job.component}, ${c.job.task} in ${c.job.site.city}, ${c.job.site.state} (NEC ${c.job.site.necEdition}).`,
-    `Status: ${c.status}`,
-    `Plan:\n${steps}`,
-    `What has been said so far:\n${said || "- nothing yet"}`,
-  ].join("\n\n");
+  const parts = [
+    `You are the ${agent} agent for job ${c.id}.`,
+    `Job: ${c.job.component}, ${c.job.task} in ${c.job.site.city}, ${c.job.site.state} (NEC ${c.job.site.necEdition}). Worker's home: ${c.job.home.city || ""} ${c.job.home.state} (NEC ${c.job.home.necEdition}).`,
+  ];
+  const g = c.guide;
+  if (g && g.status !== "new") {
+    const steps = g.steps
+      .map((s, i) => {
+        const r = g.results[i];
+        const mark = r.outcome === "pending" ? (i === g.current ? "->" : "  ") : "ok";
+        return `${mark} ${s.order}. ${s.text}${s.tag === "new_here" ? " [NEW HERE]" : ""}${s.hardGate ? " [HARD GATE]" : ""}${r.attempts ? ` (${r.attempts} retries)` : ""}`;
+      })
+      .join("\n");
+    parts.push(
+      `Guided call: ${g.status}, step ${Math.min(g.current + 1, g.steps.length)} of ${g.steps.length}, talk profile ${g.profile}.`,
+      `Steps:\n${steps}`,
+    );
+  } else {
+    const steps = c.plan.map((s) => `${s.order}. ${s.text}${s.tag === "new_here" ? " [NEW HERE]" : ""}`).join("\n");
+    parts.push(`Status: ${c.status}. Guided call not started yet.`, `Plan:\n${steps}`);
+  }
+  parts.push(`What has been said so far:\n${said || "- nothing yet"}`);
+  return parts.join("\n\n");
 }
