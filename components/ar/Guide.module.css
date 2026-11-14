@@ -1,0 +1,62 @@
+.stage {
+  position: relative;
+  aspect-ratio: 3/4;
+  background: #202732;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 20px 0;
+  border: 1px solid #435063;
+}
+.video,
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.target {
+  position: absolute;
+  border: 3px solid #ffbd55;
+  border-radius: 12px;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.target span {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  background: #10151f;
+  color: #ffcd7b;
+  padding: 8px;
+  border-radius: 8px;
+  min-width: 160px;
+}
+.empty {
+  padding: 30px;
+  text-align: center;
+}
+.badge {
+  color: #ffcd7b;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.controls button {
+  min-height: 48px;
+}
+.source {
+  overflow-wrap: anywhere;
+}
+.progress {
+  width: 100%;
+  accent-color: #ffbd55;
+}
+.file {
+  display: block;
+  padding: 16px;
+  border: 1px solid #637087;
+  border-radius: 12px;
+  margin: 12px 0;
+}
+.error {
+  color: #ffb4aa;
+}

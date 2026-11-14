@@ -4,19 +4,29 @@
     "state": "NJ",
     "necEdition": "2023",
     "sourceUrl": "https://www.nj.gov/dca/codes/codreg/current.shtml",
-    "permitOffice": "TBD (T4)",
-    "permitUrl": "TBD",
-    "inspection": "TBD",
-    "licenseNote": "TBD"
+    "permitOffice": "Princeton Building & Construction",
+    "permitUrl": "https://www.princetonnj.gov/185/Building-Construction",
+    "permitNote": "Like-for-like receptacle replacement may be ordinary maintenance under NJAC 5:23-2.7; new wiring or altered scope needs a permit determination. Confirm with Princeton.",
+    "maintenanceUrl": "https://www.nj.gov/dca/codes/codreg/pdf_regs/njac_5_23.pdf",
+    "inspection": "For permitted work, arrange electrical inspections with Princeton. Confirm required stages before concealing work; no inspection is inferred for exempt maintenance.",
+    "inspectionUrl": "https://www.princetonnj.gov/186/Building-Inspections",
+    "licenseNote": "Confirm NJ electrical contractor license and business permit with the NJ Board; a Philadelphia credential alone does not establish NJ authority.",
+    "licenseUrl": "https://www.njconsumeraffairs.gov/elec/",
+    "editionCaveat": "DCA lists adoption August 17, 2026. Confirm transition/grace-period election and rehabilitation subcode for this existing-building job."
   },
   {
     "city": "Philadelphia",
     "state": "PA",
     "necEdition": "2020",
     "sourceUrl": "https://www.phila.gov/departments/department-of-licenses-and-inspections/resources/applicable-codes/",
-    "permitOffice": "TBD",
-    "permitUrl": "TBD",
-    "inspection": "TBD",
-    "licenseNote": "TBD"
+    "permitOffice": "Philadelphia Licenses & Inspections",
+    "permitUrl": "https://www.phila.gov/services/permits-violations-licenses/apply-for-a-permit/building-and-repair-permits/get-an-electrical-permit/",
+    "permitNote": "Electrical work generally needs a permit; minor maintenance including receptacle replacement may be exempt. Confirm scope with L&I.",
+    "maintenanceUrl": "https://www.phila.gov/services/permits-violations-licenses/apply-for-a-permit/building-and-repair-permits/get-an-electrical-permit/",
+    "inspection": "Permitted electrical work requires inspection coordination; confirm the agency and stages with L&I.",
+    "inspectionUrl": "https://www.phila.gov/services/permits-violations-licenses/apply-for-a-permit/building-and-repair-permits/get-an-electrical-permit/",
+    "licenseNote": "Confirm Philadelphia electrical contractor licensing with L&I before contracting.",
+    "licenseUrl": "https://www.phila.gov/services/permits-violations-licenses/apply-for-a-permit/building-and-repair-permits/get-an-electrical-permit/",
+    "editionCaveat": "Confirm applicable building and existing-building provisions for the permit."
   }
 ]
