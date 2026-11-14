@@ -1,0 +1,65 @@
+/* OWNER: Lessons feature. */
+.editor {
+  max-width: 1000px;
+}
+.editor input,
+.editor select,
+.editor textarea {
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  background: #171e28;
+  color: #fff;
+  border: 1px solid #64748b;
+  border-radius: 6px;
+  padding: 8px;
+  margin: 6px 0 12px;
+}
+.editor textarea {
+  min-height: 90px;
+}
+.editor button {
+  min-height: 44px;
+  padding: 8px 12px;
+  margin: 4px;
+  border: 1px solid #64748b;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.editor button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: flex-end;
+}
+.actions label {
+  flex: 1;
+  min-width: 100px;
+}
+.source {
+  position: relative;
+  background: #000;
+  margin: 16px 0;
+}
+.source video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.annotation {
+  position: absolute;
+  border: 3px solid #fbbf24;
+  color: #fbbf24;
+  background: #0003;
+  touch-action: none;
+  cursor: move;
+  font-size: 14px;
+  text-shadow: 0 1px #000;
+}
+.annotation:focus {
+  outline: 3px solid white;
+}

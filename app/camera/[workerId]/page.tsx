@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import type { GeoPoint } from "@/lib/types";
 import { useFrameCapture } from "@/components/camera/useFrameCapture";
 import { useWakeLock } from "@/components/camera/useWakeLock";
+import LessonRecorder from "@/components/lessons/Recorder";
 import { api } from "@/lib/routes";
 
 export default function CameraPage({ params }: { params: { workerId: string } }) {
@@ -54,6 +55,7 @@ export default function CameraPage({ params }: { params: { workerId: string } })
         <span>{ack?.stepNumber ? `Step ${ack.stepNumber} of ${ack.stepCount}` : "Waiting for the call"}</span>
         <span aria-label={`Connection ${connection}`} style={{ width: 20, height: 20, borderRadius: 10, background: dot }} />
       </div>
+      <LessonRecorder workerId={params.workerId} jobId={ack?.jobId} jobStatus={ack?.status} videoRef={videoRef} />
       {(cameraError || !awake) && (
         <p style={{ position: "absolute", bottom: 16, left: 16, right: 16 }} role="status">
           {cameraError ?? "Screen may sleep: wake lock not held."}

@@ -15,6 +15,7 @@ export default function Home() {
         <li><Link href={pages.liveJob(DEMO_JOB_ID)}>Live job view (laptop)</Link></li>
         <li><Link href={pages.jobRecord(DEMO_JOB_ID)}>Job record</Link></li>
         <li><Link href={pages.workRecord(DEMO_WORKER_ID)}>Work record</Link></li>
+        <li><Link href="/lessons">Reviewed video lessons</Link></li>
       </ul>
       <p className="muted" style={{ marginTop: 24 }}>{SAFETY_LINE}</p>
     </main>

@@ -1,4 +1,5 @@
 // OWNER: Zohaib (job close → record → iMessage)
+import { completed as scheduleLesson } from "@/lib/lessons/hooks";
 import type { Frame, Job, RecordEntry } from "@/lib/types";
 import { getFrame, getRecordEntryByJob, getWorker, saveRecordEntry, updateJob } from "@/lib/db";
 import { buildRecordEntry } from "@/lib/record/buildEntry";
@@ -14,7 +15,7 @@ import { remember } from "@/lib/memory/store";
  */
 export async function closeJob(job: Job): Promise<RecordEntry> {
   const existing = await getRecordEntryByJob(job.id);
-  if (existing) return existing;
+  if (existing) { await scheduleLesson(job); return existing; }
 
   const frames = new Map<string, Frame>();
   for (const r of job.results) {
@@ -38,5 +39,6 @@ export async function closeJob(job: Job): Promise<RecordEntry> {
       console.error("[closeJob] record text failed:", err);
     }
   }
+  await scheduleLesson(job);
   return entry;
 }
