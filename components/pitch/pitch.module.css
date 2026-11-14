@@ -212,7 +212,11 @@
   width: 270px;
   display: grid;
   gap: 20px;
-  transform: translateY(calc(var(--gather) * 90px));
+  transform: translate(
+      calc(var(--gather) * -180px),
+      calc(var(--gather) * 240px)
+    )
+    scale(calc(1 - var(--gather) * 0.35));
   opacity: calc(1 - var(--gather) * 0.7);
 }
 .fragments span {
@@ -1465,4 +1469,14 @@
   .voice {
     display: none;
   }
+}
+
+/* A faint paper impression, drawn locally rather than a stock texture. */
+.hero,
+.paper,
+.yellow {
+  background-image: url("/pitch/grain.svg");
+}
+.heroWord {
+  font-weight: 800;
 }
