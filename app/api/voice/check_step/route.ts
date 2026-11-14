@@ -8,6 +8,7 @@ import { SAY } from "@/lib/copy";
 import { UNCLEAR_RETRIES } from "@/lib/config";
 import { judgeConfirmation } from "@/lib/ai/judgeConfirmation";
 import { remember } from "@/lib/memory/store";
+import { approvalGate } from "@/lib/jobs/approval";
 
 /** Checker -> shared job memory, so the guide and the iMessage recorder can refer back to it. Fire-and-forget: the check has a ~3 s budget. */
 function logCheck(jobId: string, text: string) {
@@ -16,7 +17,11 @@ function logCheck(jobId: string, text: string) {
 
 export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
   const step = currentStep(job);
-  if (job.status !== "guiding" || !step) return { say: allDone(job) ? "That's every step. Say finish." : "We haven't started the steps yet." };
+  if (job.status !== "guiding" || !step) {
+    const gate = job.status === "plan_ready" ? approvalGate(job) : null;
+    if (gate?.wait) return { say: gate.say };
+    return { say: allDone(job) ? "That's every step. Say finish." : "We haven't started the steps yet. Say next to begin." };
+  }
 
   // Spoken checks (and vision steps after repeated "can't tell"): log the worker's confirmation.
   // Vision steps: only an explicit "confirm" (after repeated "can't tell") overrides the camera. "done" never does.

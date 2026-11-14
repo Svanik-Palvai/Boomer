@@ -43,6 +43,15 @@ export function buildRecordEntry(job: Job, frames: Map<string, Frame>, summary?:
     },
     minutes: Math.max(1, Math.round((end - start) / 60000)),
     summary,
+    approval:
+      job.approval && job.approval.status !== "waiting" && job.approval.decidedAt
+        ? {
+            by: job.approval.supervisorName ?? job.approval.supervisorPhone,
+            at: job.approval.decidedAt,
+            status: job.approval.status,
+            note: job.approval.note,
+          }
+        : undefined,
   };
 }
 

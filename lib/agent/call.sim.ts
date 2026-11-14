@@ -8,6 +8,8 @@ import { POST as goBack } from "@/app/api/voice/go_back/route";
 import { POST as checkStep } from "@/app/api/voice/check_step/route";
 import { POST as finishJob } from "@/app/api/voice/finish_job/route";
 import { POST as stopJob } from "@/app/api/voice/stop_job/route";
+import { POST as look } from "@/app/api/voice/look/route";
+import { handleInboundText } from "@/lib/agents/inbox";
 import { addFrame, getJob, resetDemo } from "@/lib/db";
 import { DEMO_JOB_ID, DEMO_WORKER_ID } from "@/lib/mock/demo";
 import { BANNED_WORDS } from "@/lib/copy";
@@ -25,11 +27,12 @@ async function call(label: string, h: H, body: Record<string, unknown> = {}): Pr
 const frame = () => addFrame({ jobId: DEMO_JOB_ID, workerId: DEMO_WORKER_ID, image: "data:image/jpeg;base64,AAAA" });
 
 async function main() {
+  delete process.env.DEMO_SUPERVISOR_PHONE;
   await resetDemo();
   let r = await call("get_context", getContext);
-  expect(!!r.context && r.context.includes("Plan is ready"), "context says plan ready");
-  r = await call("next_step", nextStep);
-  expect(r.stepNumber === 1 && r.status === "guiding", "guiding at step 1");
+  expect(!!r.context && r.context.includes("No plan yet"), "fresh demo has no plan");
+  r = await call("look (no supervisor)", look, { note: "swapping this outlet for a GFCI" });
+  expect(r.stepNumber === 1 && r.status === "guiding", "no supervisor -> guiding at step 1");
 
   r = await call("done (no words)", checkStep);
   expect(r.stepNumber === 1, "breaker needs words");
@@ -68,9 +71,51 @@ async function main() {
   expect(!!job?.recordId, "record saved");
   console.log("memory events:", job?.memory.length);
 
-  await resetDemo(); await call("next_step", nextStep);
+  await resetDemo(); await call("look", look, { note: "GFCI swap" });
   r = await call("stop", stopJob, { reason: "customer asked us to leave" });
   expect(r.status === "stopped", "stopped");
+
+  // ── Supervisor approval ──
+  const BOSS = "+12155550100";
+  process.env.DEMO_SUPERVISOR_PHONE = BOSS;
+  process.env.DEMO_SUPERVISOR_NAME = "Dana";
+  await resetDemo();
+  r = await call("look (with supervisor)", look, { note: "swapping this outlet for a GFCI" });
+  expect(r.status === "plan_ready" && /Dana/.test(r.say), "plan sent to Dana, waiting");
+  r = await call("next_step (waiting)", nextStep);
+  expect(r.status === "plan_ready" && /waiting on Dana/i.test(r.say), "still waiting");
+  r = await call("check_step (waiting)", checkStep);
+  expect(/waiting on Dana/i.test(r.say), "check blocked while waiting");
+  r = await call("get_context (waiting)", getContext);
+  expect(!!r.context?.includes("waiting on their reply"), "context knows it's waiting");
+  const worker = (await import("@/lib/db")).getWorker;
+  const w = await worker(DEMO_WORKER_ID);
+  const wt = await handleInboundText(w!.phone, "job sheet");
+  console.log("[worker text while waiting]", wt.agent, "::", wt.reply);
+  expect(wt.agent !== "share" || !/can start/.test(wt.reply ?? ""), "worker text is not a decision");
+  const sup = await handleInboundText(BOSS, "Approve, but use the 20A GFCI");
+  console.log("[supervisor text]", sup.agent, "::", sup.reply);
+  expect(sup.agent === "share" && /can start/.test(sup.reply ?? ""), "supervisor approval parsed");
+  r = await call("next_step (approved)", nextStep);
+  expect(r.status === "guiding" && r.stepNumber === 1 && /20A GFCI/.test(r.say), "note read, then step 1");
+  r = await call("repeat (told once)", repeatStep);
+  expect(!/20A/.test(r.say), "note not repeated");
+  const sup2 = await handleInboundText(BOSS, "approve");
+  expect(sup2.agent !== "share" || !/can start/.test(sup2.reply ?? ""), "late reply is not a second decision");
+
+  await resetDemo();
+  await call("look", look, { note: "GFCI" });
+  const no = await handleInboundText(BOSS, "Hold off, customer wants a quote first");
+  console.log("[supervisor hold]", no.reply);
+  r = await call("next_step (held)", nextStep);
+  expect(r.status === "plan_ready" && /hold off/i.test(r.say), "held by supervisor");
+
+  await resetDemo();
+  await call("look", look, { note: "GFCI" });
+  await handleInboundText(BOSS, "yes");
+  r = await call("next_step (plain yes)", nextStep);
+  expect(r.status === "guiding" && /approved the plan\. Step 1/.test(r.say), "plain approval");
+  r = await call("finish early", stopJob, { reason: "test" });
   console.log(fails ? `\n${fails} FAILED` : "\nALL PASSED");
 }
 main().catch((e) => { console.error(e); process.exit(1); });

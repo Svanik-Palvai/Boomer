@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import type { Job } from "@/lib/types";
 import { CODE_LABEL, fmtDate, fmtTime, jobNo, sheetRows, sheetSummary, shortName } from "@/lib/record/sheet";
 import { api } from "@/lib/routes";
+import { approvalLine } from "@/lib/jobs/approvalLabel";
 import s from "../mini.module.css";
 
 const POLL_MS = 3000;
@@ -42,6 +43,7 @@ export function JobSheet({ initial, workerName, recordHref }: { initial: Job; wo
           <span className={s.jobNo}>#{jobNo(job.id)}</span>
         </div>
         <div className={s.title}>{job.title || "Job not identified yet"}</div>
+        {approvalLine(job.approval) && <p className={s.empty}>{approvalLine(job.approval)}</p>}
 
         <div className={s.block}>
           <Cell label="Site" value={site ? `${site.city}, ${site.state}` : "—"} />

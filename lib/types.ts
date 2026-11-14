@@ -131,6 +131,27 @@ export interface JobIdentity {
   source: "gemini" | "fallback";
 }
 
+/**
+ * Supervisor sign-off on the plan, by iMessage. "approved" and "changes" both unlock step 1
+ * ("changes" = approved with a note the worker hears first). "rejected" holds the job.
+ * The note is added to the job; it never rewrites the checked steps.
+ */
+export type ApprovalStatus = "waiting" | "approved" | "changes" | "rejected";
+
+export interface PlanApproval {
+  status: ApprovalStatus;
+  supervisorPhone: string;
+  supervisorName?: string;
+  /** How the plan reached the supervisor: card, plain text, or not at all (worker must forward it). */
+  delivery: "card" | "text" | "none";
+  sentAt: string;
+  decidedAt?: string;
+  /** The supervisor's words when they asked for changes or said hold off. */
+  note?: string;
+  /** True once the agent has read the decision (and note) to the worker. */
+  told?: boolean;
+}
+
 export type StepStatus = "pending" | "seen" | "worker_confirmed" | "not_yet";
 
 export interface StepResult {
@@ -176,6 +197,8 @@ export interface Job {
   /** ElevenLabs conversation ids seen, for resume and dedup. */
   callIds: string[];
   recordId?: string;
+  /** Supervisor sign-off on the plan (absent when no supervisor is on file). */
+  approval?: PlanApproval;
   stoppedReason?: string;
   /** The agent's last spoken line, for the live job view. Set by the voice tool wrapper. */
   lastSay?: { text: string; tool: VoiceToolName; at: string };
@@ -322,6 +345,8 @@ export interface RecordEntry {
   };
   minutes: number;
   summary?: string; // Gemini record summary (optional)
+  /** Who signed off on the plan, when, and any note they added. */
+  approval?: { by: string; at: string; status: ApprovalStatus; note?: string };
 }
 
 export interface WorkRecord {

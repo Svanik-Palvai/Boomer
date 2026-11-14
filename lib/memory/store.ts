@@ -44,8 +44,14 @@ export function contextFor(job: Job, worker: Worker, past: RecordEntry[] = []): 
     .slice(0, 5)
     .map((e) => `- ${e.date.slice(0, 10)}: ${e.title} in ${e.city}, ${e.state} (${e.outcome}, ${e.counts.done}/${e.counts.total} steps)`)
     .join("\n");
+  const a = job.approval;
+  const boss = a ? (a.supervisorName ?? "the supervisor") : "";
   const next =
-    job.status === "plan_ready"
+    job.status === "plan_ready" && a?.status === "waiting"
+      ? `Plan sent to ${boss} for approval; waiting on their reply. Do not read steps. When the worker asks if it's approved, or says let's go, call next_step: it says whether it's still waiting.`
+      : job.status === "plan_ready" && a?.status === "rejected"
+        ? `${boss} said to hold off${a.note ? `: "${a.note}"` : ""}. Do not start. Tell the worker to call them.`
+        : job.status === "plan_ready"
       ? "Plan is ready. Call next_step to read step 1."
       : job.status === "guiding"
         ? `Guiding: step ${Math.min(job.current + 1, job.steps.length)} of ${job.steps.length}. Call repeat_step to read it.`
@@ -55,6 +61,9 @@ export function contextFor(job: Job, worker: Worker, past: RecordEntry[] = []): 
   return [
     `Worker: ${worker.name}, home ${worker.home.city}, ${worker.home.state} (NEC ${worker.home.necEdition}). ${talkProfile(worker.experience)}`,
     `Job ${job.id}: ${job.title ?? "not identified yet"}. Status: ${STATUS_LABEL[job.status]}. ${next}`,
+    a && a.status !== "waiting"
+      ? `Supervisor: ${boss} ${a.status === "rejected" ? "said hold off" : "approved the plan"}${a.note ? `, note: "${a.note}"` : ""}.`
+      : "",
     job.site
       ? `Site: ${job.site.city}, ${job.site.state} (NEC ${job.site.necEdition})${job.siteConfirmed ? "" : " - confirm the town out loud"}.`
       : "Site: unknown yet.",
