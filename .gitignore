@@ -1,3 +1,37 @@
+# ===== GhostWell: never commit sponsor data or keys (CoStar agreement) =====
+# secrets
+.env
+.env.*
+!.env.example
+
+# CoStar kit and anything derived from it
+costar-hackathon-kit/
+costar-hackathon-kit.zip
+ghostwell-private/
+hero_candidates.csv
+near_wells.csv
+*.jsonl
+
+# Matterport / Vexcel pulls (scans, panoramas, meshes, orthos)
+data/
+cache/
+matterport_cache/
+vexcel_cache/
+*.obj
+*.ply
+*.las
+*.laz
+*.dxf
+*.tif
+*.tiff
+
+# frontend
+node_modules/
+.next/
+.DS_Store
+
+# ===== end GhostWell =====
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
