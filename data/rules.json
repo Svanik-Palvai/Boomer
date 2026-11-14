@@ -1,18 +1,38 @@
 [
   {
-    "id": "placeholder-1",
+    "id": "nj-island-provision",
     "jurisdiction": "NJ",
     "edition": "2023",
-    "necSection": "TBD",
-    "topic": "PLACEHOLDER: replace with a verified difference",
-    "summary": "PLACEHOLDER",
-    "sourceUrl": "https://www.nj.gov/dca/codes/codreg/current.shtml",
-    "caveat": "Not verified. Do not show as fact.",
-    "verified": false,
-    "appliesTo": ["kitchen countertop receptacle"],
+    "necSection": "210.52(C)(2)",
+    "topic": "Island / peninsula provision",
+    "summary": "The 2023 model NEC removes the area-based outlet count. If no outlet is installed, provision for a future outlet is required.",
+    "sourceUrl": "https://www.nfpa.org/news-blogs-and-articles/blogs/2023/01/18/kitchen-island-and-peninsula-receptacle-outlets-and-the-nec",
+    "caveat": "Verified model-edition change, not a determination for existing work. Confirm NJ amendments, rehabilitation rules, permit edition and project scope with the local official. Not a wall-countertop replacement requirement.",
+    "verified": true,
+    "appliesTo": ["kitchen island receptacle", "kitchen peninsula receptacle"],
     "addsSteps": [
-      { "text": "PLACEHOLDER new step", "arStepId": "ar-1" },
-      { "text": "PLACEHOLDER second new step", "arStepId": "ar-2" }
+      {
+        "text": "Ask the local reviewer to confirm the island outlet or future provision.",
+        "arStepId": "island-provision"
+      }
+    ]
+  },
+  {
+    "id": "nj-island-location",
+    "jurisdiction": "NJ",
+    "edition": "2023",
+    "necSection": "210.52(C)(3)",
+    "topic": "Island / peninsula location",
+    "summary": "The 2023 model NEC removes the below-counter location option for outlets serving island or peninsula surfaces.",
+    "sourceUrl": "https://www.nfpa.org/news-blogs-and-articles/blogs/2023/01/18/kitchen-island-and-peninsula-receptacle-outlets-and-the-nec",
+    "caveat": "Verified model-edition change, not a determination for existing work. Confirm NJ amendments, rehabilitation rules, permit edition and project scope with the local official. Not a wall-countertop replacement requirement.",
+    "verified": true,
+    "appliesTo": ["kitchen island receptacle", "kitchen peninsula receptacle"],
+    "addsSteps": [
+      {
+        "text": "Have the local reviewer confirm the proposed outlet location serving the island surface.",
+        "arStepId": "island-location"
+      }
     ]
   }
 ]

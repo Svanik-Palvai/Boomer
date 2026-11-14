@@ -1,4 +1,20 @@
 [
-  { "id": "ar-1", "label": "PLACEHOLDER step 1", "x": 0.5, "y": 0.4, "w": 0.2, "h": 0.15, "arrow": "down" },
-  { "id": "ar-2", "label": "PLACEHOLDER step 2", "x": 0.5, "y": 0.6, "w": 0.2, "h": 0.15, "arrow": "up" }
+  {
+    "id": "island-provision",
+    "label": "Review island provision",
+    "x": 0.5,
+    "y": 0.5,
+    "w": 0.55,
+    "h": 0.35,
+    "arrow": "down"
+  },
+  {
+    "id": "island-location",
+    "label": "Review surface outlet location",
+    "x": 0.5,
+    "y": 0.3,
+    "w": 0.6,
+    "h": 0.22,
+    "arrow": "down"
+  }
 ]
