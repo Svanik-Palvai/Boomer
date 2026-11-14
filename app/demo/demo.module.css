@@ -426,3 +426,6 @@
     font-size: 12px;
   }
 }
+.monitor .primary:focus-visible {
+  outline-color: #f1ebdd;
+}

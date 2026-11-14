@@ -691,3 +691,9 @@
 .staticTracks a {
   font-size: 13px;
 }
+.agents button:focus-visible {
+  outline-color: #f4c430;
+}
+.tracks button:focus-visible {
+  outline-color: #171914;
+}
