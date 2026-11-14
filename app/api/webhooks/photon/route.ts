@@ -1,14 +1,14 @@
 // OWNER: Zohaib. Inbound texts from Photon 2.0 (Standard Webhooks). Not in the core flow:
-// the text goes into the worker's job memory, and "record" gets their work record link back.
+// the text goes into the worker's job memory, then the recorder agent (lib/agents/recorder.ts) reads that memory and replies.
 // Photon dashboard → Webhooks → Add a destination: this URL, event "message.received" (or *). Put the whsec_ secret in PHOTON_WEBHOOK_SECRET.
 // Local testing: with no PHOTON_WEBHOOK_SECRET set, POST { "data": { "id": "...", "sentBy": { "handle": "+1..." }, "content": { "type": "text", "text": "record" } } }.
 import { NextResponse } from "next/server";
+import { recorderReply } from "@/lib/agents/recorder";
 import { firstTimeSeen } from "@/lib/db";
 import { resolveJob } from "@/lib/jobs/resolve";
 import { remember } from "@/lib/memory/store";
 import { verifyPhotonWebhook } from "@/lib/photon/client";
 import { sendText } from "@/lib/photon/send";
-import { absolute, pages } from "@/lib/routes";
 
 interface PhotonMessage {
   id?: string;
@@ -33,8 +33,10 @@ export async function POST(req: Request) {
   const r = await resolveJob({ callerPhone: m.sentBy.handle, create: false });
   if (!r) return new Response(null, { status: 204 });
   await remember(r.job.id, { channel: "imessage", agent: "recorder", speaker: "worker", text: m.content.text });
-  if (/\brecord\b/i.test(m.content.text)) {
-    await sendText(r.worker.phone, `Your Boomer work record: ${absolute(pages.workRecord(r.worker.id))}`, `boomer-reply:${eventId}`);
+  const reply = await recorderReply(r.job, r.worker, m.content.text);
+  if (reply) {
+    await sendText(r.worker.phone, reply, `boomer-reply:${eventId}`);
+    await remember(r.job.id, { channel: "imessage", agent: "recorder", speaker: "agent", text: reply });
   }
-  return NextResponse.json({ ok: true, jobId: r.job.id });
+  return NextResponse.json({ ok: true, jobId: r.job.id, replied: !!reply });
 }

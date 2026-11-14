@@ -30,6 +30,8 @@ export const api = {
   voiceWebhook: () => "/api/webhooks/voice", // [Zohaib] ElevenLabs post-call
   voiceInit: () => "/api/webhooks/voice/init", // [Zohaib] ElevenLabs conversation-initiation
   photonWebhook: () => "/api/webhooks/photon", // [Zohaib] inbound iMessage
+  ogJob: (jobId: string) => `/api/og/job/${jobId}`, // [Zohaib] GET link-preview card image for a job record
+  ogRecord: (workerId: string) => `/api/og/record/${workerId}`, // [Zohaib] GET link-preview card image for a work record
 } as const;
 
 export const absolute = (path: string) => `${APP_URL}${path}`;
