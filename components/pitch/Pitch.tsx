@@ -293,8 +293,7 @@ export default function Pitch() {
               <br />A lesson for the next.
             </h2>
             <p>
-              Turn consented job footage into a useful, reviewed
-              demonstration—with chapters, captions and labeled freeze frames.
+              Give the next electrician more than a transcript. The pipeline assembles consented footage and call audio into an editable lesson draft—with chapters, captions, corrections and labeled freeze frames.
             </p>
             <Link href="/lessons" className={s.textLink}>
               Explore the lesson library ↗
@@ -304,8 +303,8 @@ export default function Pitch() {
             <ol className={s.lessonFlow}>
               {[
                 "Capture with consent",
-                "Edit from real evidence",
-                "Electrician review",
+                "Generate a draft from real evidence",
+                "Edit, render & electrician review",
                 "Worker permission",
                 "Publish the reviewed version",
               ].map((step, i) => (

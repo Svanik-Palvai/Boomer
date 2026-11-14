@@ -24,3 +24,6 @@ Jurisdiction facts are read directly from data/towns.json. The official adopted-
 pages were rechecked on 2026-11-14: Philadelphia lists NEC 2020, NJ DCA lists NEC
 2023 (adoption Aug 17, 2026). The pitch retains project/transition caveats, does not
 claim a countertop GFCI difference, and links the NJ licensing authority.
+
+## Field photography
+- `electrician-field.jpg`: Fatih Yurtman, “Electrician by Fuse Box,” Pexels photo 17842832. https://www.pexels.com/photo/electrician-by-fuse-box-17842832/ — Pexels license https://www.pexels.com/license/ . Downloaded at 1600px. Editorial illustration only; not Boomer footage or a customer endorsement.

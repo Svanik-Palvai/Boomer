@@ -3,8 +3,7 @@
 import { useEffect, useRef, useState, type RefObject } from "react";
 import { jurisdictions } from "./content";
 import s from "./scenes.module.css";
-import Wordmark from "./Wordmark";
-import HeroEvidence from "./HeroEvidence";
+import FieldHero from "./FieldHero";
 
 const clamp = (n: number) => Math.min(1, Math.max(0, n));
 const segment = (p: number, a: number, b: number) => clamp((p - a) / (b - a));
@@ -105,131 +104,7 @@ function useScene(kind: "intro" | "border" | "record") {
   return { ref: ref as RefObject<HTMLElement>, motion, phase };
 }
 
-const capabilities = [
-  ["01", "Know the place.", "Local references, in the job."],
-  ["02", "Do the work.", "A guide that sees what you see."],
-  ["03", "Take it with you.", "A record owned by the worker."],
-];
-const introCaptions = [
-  ["", ""],
-  [
-    "One worker. One place to start.",
-    "Local knowledge. Hands-free guidance. A work record that travels.",
-  ],
-  [
-    "Your next job shouldn’t mean starting over.",
-    "Bring the jurisdiction’s sources into the same conversation.",
-  ],
-  [
-    "Hands on the tools. Boomer on the call.",
-    "Look, guide, check—and explain a visible correction.",
-  ],
-  [
-    "The job ends. Your experience stays.",
-    "Keep the observations and corrections in a portable work record.",
-  ],
-];
-export function OpeningScene() {
-  const { ref, motion, phase } = useScene("intro");
-  return (
-    <section
-      ref={ref}
-      id="problem"
-      data-section
-      data-motion={motion}
-      data-phase={phase}
-      className={`${s.scene} ${s.intro}`}
-      aria-label="The Boomer story"
-    >
-      <div className={s.stage} data-intro-stage>
-        <div className={s.stageMeta}>
-          <span>HACKPRINCETON / 2026</span>
-          <span>BUILT FOR THE PEOPLE WHO BUILD EVERYTHING</span>
-        </div>
-        <div className={s.introTitle}>
-          <p>AI is moving other industries at lightspeed.</p>
-          <div className={s.wordmark} aria-hidden="true">
-            <Wordmark /><span>↗</span>
-          </div>
-          <h1>
-            Who’s building for the people
-            <br />
-            who build everything?
-          </h1>
-          <p className={s.positioning}>
-            Your job. In view. In context.
-          </p>
-        </div>
-        <div className={s.chaos} aria-hidden="true">
-          <HeroEvidence />
-
-        </div>
-        <div className={s.system} aria-hidden="true">
-          <svg
-            viewBox="0 0 1000 600"
-            preserveAspectRatio="none"
-            className={s.wires}
-          >
-            <path
-              className={s.leftWire}
-              pathLength="1000"
-              d="M500 210 C500 295 180 270 180 385"
-            />
-            <path
-              className={s.middleWire}
-              pathLength="1000"
-              d="M500 210 V385"
-            />
-            <path
-              className={s.rightWire}
-              pathLength="1000"
-              d="M500 210 C500 295 820 270 820 385"
-            />
-          </svg>
-          <div className={s.hub}>
-            <span>BOOMER ↗</span>
-            <div className={s.hubSymbol}>
-              B<span>↗</span>
-            </div>
-            <small>WORKER FIRST.</small>
-          </div>
-          <div className={s.branches}>
-            {capabilities.map(([n, title, copy], i) => (
-              <div key={n} className={s.branch} data-index={i}>
-                <span>{n}</span>
-                <b>{title}</b>
-                <small>{copy}</small>
-              </div>
-            ))}
-          </div>
-        </div>
-        <div className={s.caption} aria-live="off">
-          {phase > 0 && <h2>{introCaptions[phase][0]}</h2>}
-          <p>{introCaptions[phase][1]}</p>
-        </div>
-        <div className={s.scrollNote}>
-          <span>STARTING WITH ELECTRICIANS.</span>
-          <span>
-            {!motion
-              ? "LOCAL KNOWLEDGE. WORK THAT TRAVELS."
-              : phase === 0
-                ? "CAMERA + LOCAL SOURCES + JOB STATE → SCROLL ↓"
-                : `THE STORY / 0${phase} OF 04`}
-          </span>
-        </div>
-      </div>
-      <div className={s.staticCapabilities}>
-        {capabilities.map(([n, title, copy]) => (
-          <div key={n}>
-            <span>{n}</span>
-            <h2>{title}</h2>
-            <p>{copy}</p>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
-}
+export function OpeningScene() { return <FieldHero />; }
 
 export function BorderScene() {
   const { ref, motion, phase } = useScene("border");
