@@ -32,7 +32,7 @@ async function load(caseId: string): Promise<Case> {
 }
 
 function freshState(c: Case, profile: TalkProfile): GuideState {
-  const steps = buildGuidePlan(c.job, c.checks);
+  const steps = buildGuidePlan(c.job, c.checks, undefined, profile);
   return {
     status: "plan_ready",
     profile,

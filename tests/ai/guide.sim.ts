@@ -4,6 +4,8 @@ import { DEMO_CASE_ID } from "@/lib/mock/demoCase";
 import { startGuide, checkCurrent, repeatStep, whyStep, goBack, finishGuide, resetGuide, stopGuide } from "@/lib/agents/guide";
 import { putFrame } from "@/lib/ai/frames";
 import { contextFor } from "@/lib/memory/store";
+import { currentStep } from "@/lib/agents/guide";
+const currentStepLine = async () => (await currentStep(DEMO_CASE_ID)).say;
 
 const id = DEMO_CASE_ID;
 let fails = 0;
@@ -59,7 +61,13 @@ async function main() {
   expect(!!fin.record && fin.record.totals.corrected >= 1, "record counts correction");
   console.log("\n--- context ---\n" + (await contextFor(id, "field")).slice(0, 1500));
 
-  await resetGuide(id); await startGuide(id, "journeyman"); const s = await stopGuide(id); say("stop", s);
+  await resetGuide(id);
+  const j = await startGuide(id, "journeyman"); say("journeyman", j);
+  expect((j.step?.total ?? 99) < 10, "journeyman plan is shorter");
+  await checkCurrent(id, true); await checkCurrent(id, true);
+  putFrame(id, "mock:pass"); const jr = await currentStepLine(); console.log("[journeyman step 3]", jr);
+  expect(/normal install/.test(jr), "standard steps collapsed");
+  const s = await stopGuide(id); say("stop", s);
   expect(s.status === "stopped", "stop works");
   console.log(fails ? `\n${fails} FAILED` : "\nALL PASSED");
 }

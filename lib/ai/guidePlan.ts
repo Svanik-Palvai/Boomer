@@ -1,5 +1,5 @@
 // OWNER: Sunny (AI)
-import type { Check, GuideStep, Job, Rule } from "@/lib/types";
+import type { Check, GuideStep, Job, Rule, TalkProfile } from "@/lib/types";
 import rulesData from "@/data/rules.json";
 import { applicableRules } from "@/lib/ai/buildPlan";
 
@@ -13,7 +13,7 @@ import { applicableRules } from "@/lib/ai/buildPlan";
  * spoken confirmation for things the camera can't judge (breaker, tester reading).
  */
 
-type T = Omit<GuideStep, "id" | "order" | "tag">;
+type T = Omit<GuideStep, "id" | "order" | "tag"> & { short?: string };
 
 const BREAKER: T = {
   text: "Turn off the breaker for this circuit. Tell me when it's off.",
@@ -35,6 +35,7 @@ const GFCI: T[] = [
   TESTER,
   {
     text: "Take off the faceplate and pull the old device out of the box so the wires are visible.",
+    short: "pull the old device",
     reason: "You need to see every wire before you disconnect anything.",
     check: {
       mode: "vision",
@@ -43,6 +44,7 @@ const GFCI: T[] = [
   },
   {
     text: "Turn the new GFCI over and find the terminals marked LINE and the ones marked LOAD. Hold the back up to the camera.",
+    short: "find LINE and LOAD on the new GFCI",
     reason: "Power from the panel must land on LINE. Wires on LOAD leave the outlet without protection.",
     check: {
       mode: "vision",
@@ -51,6 +53,7 @@ const GFCI: T[] = [
   },
   {
     text: "Land the incoming hot and neutral on the LINE terminals: black on brass, white on silver. Show me when they're tight.",
+    short: "land the incoming wires on LINE",
     reason: "LINE is where the power comes in. That's what makes the GFCI protect the outlet.",
     check: {
       mode: "vision",
@@ -60,6 +63,7 @@ const GFCI: T[] = [
   },
   {
     text: "Connect the bare ground wire to the green screw.",
+    short: "ground to the green screw",
     reason: "The ground gives fault current a path back to the panel.",
     check: { mode: "vision", question: "Is a bare or green wire attached to the green screw on the device?" },
   },
@@ -80,11 +84,13 @@ const SWITCH: T[] = [
   TESTER,
   {
     text: "Take off the cover plate and pull the old switch out so the wires are visible.",
+    short: "pull the old switch",
     reason: "You need to see every wire before you disconnect anything.",
     check: { mode: "vision", question: "Is a switch pulled out of a wall box with its wires visible?" },
   },
   {
     text: "Move the wires to the same screws on the new switch, and the ground to the green screw.",
+    short: "move the wires and ground over",
     reason: "Matching terminals keeps the circuit wired the way it was.",
     check: { mode: "vision", question: "Are wires attached to the side screws of a switch, with one on the green screw?" },
   },
@@ -112,7 +118,12 @@ function mountIndex(t: T[]): number {
   return i === -1 ? t.length : i;
 }
 
-export function buildGuidePlan(job: Job, checks: Check[] = [], rules: Rule[] = rulesData as Rule[]): GuideStep[] {
+export function buildGuidePlan(
+  job: Job,
+  checks: Check[] = [],
+  rules: Rule[] = rulesData as Rule[],
+  profile: TalkProfile = "new_electrician",
+): GuideStep[] {
   const template = templateFor(job);
   const home = job.home.city || job.home.state;
 
@@ -129,10 +140,45 @@ export function buildGuidePlan(job: Job, checks: Check[] = [], rules: Rule[] = r
     );
 
   const at = mountIndex(template);
-  const ordered = [
+  let ordered: (T & { tag: GuideStep["tag"]; ruleId?: string; sourceUrl?: string })[] = [
     ...template.slice(0, at).map((s) => ({ ...s, tag: "standard" as const })),
     ...newHere.map((s) => ({ ...s, tag: "new_here" as const })),
     ...template.slice(at).map((s) => ({ ...s, tag: "standard" as const })),
   ];
-  return ordered.map((s, i) => ({ ...s, id: `g${i + 1}`, order: i + 1 }));
+  if (profile === "journeyman") ordered = collapseStandard(ordered);
+  return ordered.map(({ short: _short, ...s }, i) => ({ ...s, id: `g${i + 1}`, order: i + 1 }));
+}
+
+/**
+ * Journeyman profile: a run of standard, camera-checked steps (not hard gates) becomes one
+ * "do your normal install" step. Its check keeps the step that matters most: the LINE/LOAD
+ * question if it is in the run, otherwise the last step's. New here steps stay in full.
+ */
+function collapseStandard<S extends T & { tag: GuideStep["tag"] }>(steps: S[]): S[] {
+  const out: S[] = [];
+  let run: S[] = [];
+  const flush = () => {
+    if (run.length <= 1) {
+      out.push(...run);
+    } else {
+      const key = run.find((s) => /\bLINE\b/.test(s.check.question)) ?? run[run.length - 1];
+      const list = run.map((s) => s.short ?? s.text.toLowerCase().replace(/\.$/, ""));
+      out.push({
+        ...key,
+        text: `Do your normal install: ${list.join(", then ")}. Tell me when it's wired.`,
+        reason: run.map((s) => s.reason).join(" "),
+        short: undefined,
+      });
+    }
+    run = [];
+  };
+  for (const s of steps) {
+    if (s.tag === "standard" && !s.hardGate && s.check.mode === "vision" && !/\bmount\b/i.test(s.text)) run.push(s);
+    else {
+      flush();
+      out.push(s);
+    }
+  }
+  flush();
+  return out;
 }

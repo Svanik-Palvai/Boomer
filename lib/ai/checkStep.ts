@@ -49,7 +49,7 @@ export async function checkStep(step: GuideStep, frames: Frame[]): Promise<StepC
   if (!images.length) return done({ result: "unclear", say: CANT_TELL, source: "no_frame" });
 
   try {
-    const res = await withTimeout(
+    const request = (noThinking: boolean) =>
       gemini().models.generateContent({
         model: VISION_MODEL,
         contents: [
@@ -64,7 +64,7 @@ export async function checkStep(step: GuideStep, frames: Frame[]): Promise<StepC
         config: {
           temperature: 0,
           maxOutputTokens: 200,
-          thinkingConfig: { thinkingBudget: 0 },
+          ...(noThinking ? { thinkingConfig: { thinkingBudget: 0 } } : {}),
           responseMimeType: "application/json",
           responseSchema: {
             type: Type.OBJECT,
@@ -76,9 +76,16 @@ export async function checkStep(step: GuideStep, frames: Frame[]): Promise<StepC
             required: ["answer", "seen"],
           },
         },
-      }),
-      CHECK_TIMEOUT_MS,
-    );
+      });
+    // Turning thinking off keeps checks under ~3 s. Some models reject that setting,
+    // so on that specific error retry once with the model's default.
+    let res;
+    try {
+      res = await withTimeout(request(true), CHECK_TIMEOUT_MS);
+    } catch (err) {
+      if (!/thinking/i.test(errorText(err))) throw err;
+      res = await withTimeout(request(false), CHECK_TIMEOUT_MS);
+    }
     const r = JSON.parse(res.text ?? "{}") as { answer?: string; seen?: string; fix?: string };
     const seen = r.seen?.trim();
     if (r.answer === "yes") return done({ result: "pass", say: "Looks right.", seen, frameAt: newest.at, source: "gemini" });
