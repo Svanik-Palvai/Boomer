@@ -1,3 +1,27 @@
-.mark { display: inline-block; white-space: nowrap; }
-.firstO { position: relative; display: inline-block; }
-.firstO svg { position: absolute; width: .65em; height: .34em; left: 50%; top: -.17em; transform: translateX(-50%) rotate(-9deg); fill: #f4c430; stroke: currentColor; stroke-width: 5; stroke-linejoin: round; }
+.mark {
+  display: inline-block;
+  white-space: nowrap;
+  color: inherit;
+}
+.firstO {
+  position: relative;
+  display: inline-block;
+}
+/* The brim sits on the crown of the O and covers its top edge, like the brand mark. */
+.hat {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% - 0.27em);
+  width: 0.66em;
+  height: auto;
+  transform: translateX(-50%);
+  overflow: visible;
+  pointer-events: none;
+}
+.hat path {
+  fill: var(--hat, #f4c430);
+  stroke: var(--hat-gap, #141511);
+  stroke-width: 3.5;
+  stroke-linejoin: round;
+  paint-order: stroke;
+}

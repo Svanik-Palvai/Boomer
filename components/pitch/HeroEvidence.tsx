@@ -1,61 +1,118 @@
-import s from "./scenes.module.css";
+import h from "./hassles.module.css";
 
-/** Illustrative inputs an electrician may gather before a job; no live data. */
+/**
+ * The everyday hassles an electrician carries into a job, drawn as the objects they arrive on.
+ * Illustrative only: no real people, inspectors, licenses or live data.
+ * On scroll each card is pulled into the Boomer hub (offsets measured in ScrollScenes).
+ */
 export default function HeroEvidence() {
-  return <>
-    <div className={`${s.evidence} ${s.circuit}`}>
-      <span>FIELD SCHEMATIC / CONCEPT</span>
-      <svg viewBox="0 0 220 90" aria-hidden="true"><g fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 25H70V65H145V25H208M12 65H45V25H120V65H208"/><rect x="82" y="16" width="26" height="18"/><circle cx="158" cy="25" r="10"/><path d="M158 15V35M148 25H168"/></g></svg>
-      <small>WIRING PLAN / CIRCUIT PATH</small>
-    </div>
-    <div className={`${s.evidence} ${s.vision}`}>
-      <span>CAMERA / PART IDENTIFICATION</span>
-      <div className={s.visionFrame}><div className={s.terminal}>LINE<br/><small>VISIBLE LABEL</small></div><i/><b>01</b></div>
-      <small>IMAGE EVIDENCE → STEP CHECK</small>
-    </div>
-    <div className={`${s.evidence} ${s.voiceInterface}`}>
-      <span>FIELD CALL / VOICE GUIDANCE</span>
-      <div className={s.wave}>{[12,25,18,37,48,29,16,35,52,30,19,40,23,12,27,16].map((height,i)=><i key={i} style={{height}}/>)}</div>
-      <b>“Let’s check that connection.”</b>
-      <small>HANDS FREE WHILE THE JOB IS OPEN</small>
-    </div>
-    <div className={`${s.evidence} ${s.recordSlip}`}>
-      <span>JOB NOTES / WORK HISTORY</span>
-      <b>PRINCETON / GFCI</b>
-      <div><span>Location</span><strong>CONFIRMED</strong></div>
-      <div><span>Step check</span><strong>OBSERVED</strong></div>
-      <div><span>Job record</span><strong>SAVED ↗</strong></div>
-      <small>KEEP THE DETAILS TOGETHER</small>
-    </div>
-    <div className={`${s.evidence} ${s.codeSheet}`}>
-      <span>CODEBOOK / LOCAL EDITION</span>
-      <b>REFERENCE<br/>BEFORE THE WORK</b>
-      <p>Edition · amendments<br/>Source · section</p>
-      <small>CHECK THE JURISDICTION</small>
-    </div>
-    <div className={`${s.evidence} ${s.permit}`}>
-      <span>PERMIT INTAKE</span>
-      <b>JOB SCOPE</b>
-      <p>Residential alteration<br/>Permit office / contact</p>
-      <small>CONFIRM WHAT APPLIES</small>
-    </div>
-    <div className={`${s.evidence} ${s.inspection}`}>
-      <span>INSPECTION NOTES</span>
-      <b>ROUGH-IN</b>
-      <p>Schedule · checklist<br/>Corrections · sign-off</p>
-      <small>LOCAL PROCESS</small>
-    </div>
-    <div className={`${s.evidence} ${s.siteMap}`}>
-      <span>SITE / LOCATION</span>
-      <div aria-hidden="true">⌖</div>
-      <b>NEW TOWN.<br/>NEW CONTEXT.</b>
-      <small>VERIFY BEFORE APPLYING RULES</small>
-    </div>
-    <div className={`${s.evidence} ${s.materials}`}>
-      <span>JOB PREP / MATERIALS</span>
-      <b>PARTS + TOOLS</b>
-      <p>Device · wire · tester<br/>Match the plan to the site</p>
-      <small>READY BEFORE THE CALL</small>
-    </div>
-  </>;
+  return (
+    <>
+      {/* Code edition change */}
+      <div className={`${h.card} ${h.book}`} data-hassle>
+        <span className={h.label}>Electrical code</span>
+        <b className={h.bookYear}>2023</b>
+        <span className={h.bookEdition}>Edition</span>
+        <span className={h.bookOld}>2020 edition</span>
+        <p className={h.pain}>New edition. What changed?</p>
+      </div>
+
+      {/* Failed inspection */}
+      <div className={`${h.card} ${h.tag}`} data-hassle>
+        <i className={h.grommet} />
+        <span className={h.label}>Correction notice</span>
+        <b className={h.tagStamp}>Rejected</b>
+        <dl className={h.tagRows}>
+          <dt>Item</dt>
+          <dd>GFCI · line/load reversed</dd>
+          <dt>Action</dt>
+          <dd>Correct, call for re-inspection</dd>
+        </dl>
+        <p className={h.pain}>Failed inspection. Come back.</p>
+      </div>
+
+      {/* Customer callback */}
+      <div className={`${h.card} ${h.phone}`} data-hassle>
+        <div className={h.notice}>
+          <div className={h.noticeHead}>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1Z" />
+            </svg>
+            <span>Missed call (2)</span>
+            <time>7:42 AM</time>
+          </div>
+          <b>Customer · kitchen job</b>
+          <p>“The new outlet won’t reset. Can someone come back out today?”</p>
+        </div>
+        <p className={h.pain}>Callback. Unpaid trip.</p>
+      </div>
+
+      {/* Paper hours */}
+      <div className={`${h.card} ${h.hours}`} data-hassle>
+        <span className={h.label}>Weekly hours</span>
+        <ul className={h.hoursRows}>
+          <li><span>Mon</span><em>8</em></li>
+          <li><span>Tue</span><em>9½</em></li>
+          <li><span>Wed</span><em>8</em></li>
+          <li><span>Thu</span><em className={h.smudge}>10?</em></li>
+        </ul>
+        <p className={h.pain}>Your experience lives on paper.</p>
+      </div>
+
+      {/* License across a state line */}
+      <div className={`${h.card} ${h.license}`} data-hassle>
+        <div className={h.licenseHead}>Electrician license</div>
+        <div className={h.licenseBody}>
+          <i className={h.portrait} />
+          <dl>
+            <dt>Issued</dt>
+            <dd>Home state</dd>
+            <dt>Working in</dt>
+            <dd>New Jersey</dd>
+          </dl>
+        </div>
+        <span className={h.licenseStamp}>Out of state?</span>
+        <p className={h.pain}>New state. Does it carry over?</p>
+      </div>
+
+      {/* Apprentice asking for help */}
+      <div className={`${h.card} ${h.chat}`} data-hassle>
+        <span className={h.label}>Apprentice · 1st year</span>
+        <div className={h.photo} aria-hidden="true">
+          <svg viewBox="0 0 160 80">
+            <path d="M0 52C30 30 46 70 80 44s52-18 80 6" />
+            <path d="M0 34c26 14 52-20 82 4s48 12 78-8" />
+            <path d="M10 80c18-30 50-26 66-58" />
+          </svg>
+        </div>
+        <span className={h.bubble}>is this right??</span>
+        <small className={h.delivered}>Delivered · no reply</small>
+        <p className={h.pain}>Your boss is on another job.</p>
+      </div>
+
+      {/* Permit office */}
+      <div className={`${h.card} ${h.permit}`} data-hassle>
+        <div className={h.permitHead}>Permit application · electrical</div>
+        <div className={h.field}><span>Job address</span><i /></div>
+        <div className={h.field}><span>Scope of work</span><i /></div>
+        <div className={h.field}><span>Which office?</span><i /></div>
+        <span className={h.permitStamp}>Pending</span>
+        <p className={h.pain}>Which form? Who signs off?</p>
+      </div>
+
+      {/* Unlabeled panel */}
+      <div className={`${h.card} ${h.panel}`} data-hassle>
+        <span className={h.label}>Panel directory</span>
+        <ol className={h.circuits}>
+          <li><span>1</span><em>Kit ctr</em></li>
+          <li><span>2</span><em>???</em></li>
+          <li><span>3</span><em>Dryer</em></li>
+          <li><span>4</span><em className={h.blank} /></li>
+          <li><span>5</span><em>Bath?</em></li>
+          <li><span>6</span><em>??</em></li>
+        </ol>
+        <p className={h.pain}>Nothing’s labeled.</p>
+      </div>
+    </>
+  );
 }

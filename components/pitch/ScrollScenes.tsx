@@ -79,36 +79,45 @@ function useScene(kind: "intro" | "border" | "record") {
     const schedule = () => {
       if (!frame) frame = requestAnimationFrame(draw);
     };
+    // Each hassle card gets its own vector to the hub so it lands in the hub when gathered.
+    // offsetLeft/Top ignore transforms, so measuring mid-animation is safe.
+    const measure = () => {
+      const el = ref.current;
+      if (kind !== "intro" || !el) return;
+      const stage = el.querySelector<HTMLElement>("[data-stage]");
+      if (!stage) return;
+      const hubX = stage.clientWidth * 0.5;
+      const hubY = stage.clientHeight * 0.25;
+      el.querySelectorAll<HTMLElement>("[data-hassle]").forEach((card) => {
+        const cx = card.offsetLeft + card.offsetWidth / 2;
+        const cy = card.offsetTop + card.offsetHeight / 2;
+        card.style.setProperty("--tx", `${Math.round(hubX - cx)}px`);
+        card.style.setProperty("--ty", `${Math.round(hubY - cy)}px`);
+      });
+    };
+    const onResize = () => {
+      measure();
+      schedule();
+    };
     const configure = () => {
       setMotion(media.matches);
+      requestAnimationFrame(measure);
       schedule();
     };
     media.addEventListener("change", configure);
     addEventListener("scroll", schedule, { passive: true });
-    addEventListener("resize", schedule);
+    addEventListener("resize", onResize);
     configure();
     return () => {
       media.removeEventListener("change", configure);
       removeEventListener("scroll", schedule);
-      removeEventListener("resize", schedule);
+      removeEventListener("resize", onResize);
       cancelAnimationFrame(frame);
     };
   }, [kind]);
   return { ref: ref as RefObject<HTMLElement>, motion, phase };
 }
 
-const friction = [
-  ["01 / LOCAL CODE", "A different edition.", "Which rules apply here?"],
-  ["02 / LICENSE", "Another state line.", "What does my credential cover?"],
-  ["03 / PERMIT OFFICE", "Another phone call.", "Who can confirm the scope?"],
-  ["04 / THE JOB", "Hands full. Eyes down.", "No time to hunt through tabs."],
-  ["05 / EXPERIENCE", "Years on the tools.", "A record that doesn’t follow."],
-  [
-    "06 / NEXT EMPLOYER",
-    "Start explaining again.",
-    "Show the work you’ve done.",
-  ],
-];
 const capabilities = [
   ["01", "Know the place.", "Local references, in the job."],
   ["02", "Do the work.", "A guide that sees what you see."],
@@ -145,7 +154,7 @@ export function OpeningScene() {
       className={`${s.scene} ${s.intro}`}
       aria-label="The Boomer story"
     >
-      <div className={s.stage}>
+      <div className={s.stage} data-stage>
         <div className={s.stageMeta}>
           <span>HACKPRINCETON / 2026</span>
           <span>BUILT FOR THE PEOPLE WHO BUILD EVERYTHING</span>
@@ -153,7 +162,10 @@ export function OpeningScene() {
         <div className={s.introTitle}>
           <p>AI is moving other industries at lightspeed.</p>
           <div className={s.wordmark} aria-hidden="true">
-            <Wordmark /><span>↗</span>
+            <Wordmark />
+            <svg className={s.wordmarkArrow} viewBox="0 0 100 100">
+              <path d="M6 94 88 12M44 9h47v47" />
+            </svg>
           </div>
           <h1>
             Who’s building for the people
@@ -166,13 +178,6 @@ export function OpeningScene() {
         </div>
         <div className={s.chaos} aria-hidden="true">
           <HeroEvidence />
-          {friction.map(([tag, title, detail], i) => (
-            <div className={`${s.fragment} ${s[`fragment${i}`]}`} key={tag}>
-              <span>{tag}</span>
-              <b>{title}</b>
-              <small>{detail}</small>
-            </div>
-          ))}
         </div>
         <div className={s.system} aria-hidden="true">
           <svg

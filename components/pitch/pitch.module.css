@@ -108,7 +108,11 @@
   text-decoration: none;
   white-space: nowrap;
 }
-.brand span {
+.brand {
+  --hat-gap: var(--black);
+  padding-top: 8px;
+}
+.brand > span:last-child {
   color: var(--yellow);
   margin-left: 5px;
 }
@@ -654,6 +658,10 @@
 .footer > a {
   font-size: 54px;
   text-decoration: none;
+  /* On the yellow footer the hat inverts to black so it stays visible. */
+  --hat: var(--black);
+  --hat-gap: var(--yellow);
+  padding-top: 14px;
 }
 .footer p {
   font-size: 16px;
