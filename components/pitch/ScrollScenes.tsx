@@ -79,39 +79,18 @@ function useScene(kind: "intro" | "border" | "record") {
     const schedule = () => {
       if (!frame) frame = requestAnimationFrame(draw);
     };
-    // Each hassle card gets its own vector to the hub so it lands in the hub when gathered.
-    // offsetLeft/Top ignore transforms, so measuring mid-animation is safe.
-    const measure = () => {
-      const el = ref.current;
-      if (kind !== "intro" || !el) return;
-      const stage = el.querySelector<HTMLElement>("[data-stage]");
-      if (!stage) return;
-      const hubX = stage.clientWidth * 0.5;
-      const hubY = stage.clientHeight * 0.25;
-      el.querySelectorAll<HTMLElement>("[data-hassle]").forEach((card) => {
-        const cx = card.offsetLeft + card.offsetWidth / 2;
-        const cy = card.offsetTop + card.offsetHeight / 2;
-        card.style.setProperty("--tx", `${Math.round(hubX - cx)}px`);
-        card.style.setProperty("--ty", `${Math.round(hubY - cy)}px`);
-      });
-    };
-    const onResize = () => {
-      measure();
-      schedule();
-    };
     const configure = () => {
       setMotion(media.matches);
-      requestAnimationFrame(measure);
       schedule();
     };
     media.addEventListener("change", configure);
     addEventListener("scroll", schedule, { passive: true });
-    addEventListener("resize", onResize);
+    addEventListener("resize", schedule);
     configure();
     return () => {
       media.removeEventListener("change", configure);
       removeEventListener("scroll", schedule);
-      removeEventListener("resize", onResize);
+      removeEventListener("resize", schedule);
       cancelAnimationFrame(frame);
     };
   }, [kind]);
@@ -154,7 +133,7 @@ export function OpeningScene() {
       className={`${s.scene} ${s.intro}`}
       aria-label="The Boomer story"
     >
-      <div className={s.stage} data-stage>
+      <div className={s.stage}>
         <div className={s.stageMeta}>
           <span>HACKPRINCETON / 2026</span>
           <span>BUILT FOR THE PEOPLE WHO BUILD EVERYTHING</span>
@@ -162,10 +141,7 @@ export function OpeningScene() {
         <div className={s.introTitle}>
           <p>AI is moving other industries at lightspeed.</p>
           <div className={s.wordmark} aria-hidden="true">
-            <Wordmark />
-            <svg className={s.wordmarkArrow} viewBox="0 0 100 100">
-              <path d="M6 94 88 12M44 9h47v47" />
-            </svg>
+            <Wordmark /><span>↗</span>
           </div>
           <h1>
             Who’s building for the people
@@ -178,6 +154,7 @@ export function OpeningScene() {
         </div>
         <div className={s.chaos} aria-hidden="true">
           <HeroEvidence />
+
         </div>
         <div className={s.system} aria-hidden="true">
           <svg
