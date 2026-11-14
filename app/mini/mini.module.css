@@ -1,0 +1,121 @@
+.frame {
+  min-height: 100dvh;
+  background: var(--steel);
+  color: var(--ink);
+}
+
+.meta { font-size: var(--fs-small); color: var(--ink-2); }
+.question {
+  font-size: var(--fs-display);
+  line-height: 1.1;
+  margin: 6px 0 10px;
+}
+.job { color: var(--ink-2); }
+.section { margin-top: 24px; }
+.section > * + * { margin-top: 10px; }
+
+/* Ruled step rows, like a panel directory. */
+.rows { list-style: none; margin: 10px 0 0; padding: 0; }
+.row {
+  display: grid;
+  grid-template-columns: 32px 1fr auto;
+  gap: 12px;
+  align-items: start;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.row:first-child { border-top: 1px solid var(--rule); }
+.rowRemoved .stepText { text-decoration: line-through; color: var(--ink-2); }
+.check {
+  appearance: none;
+  width: 28px;
+  height: 28px;
+  margin: 0;
+  border: 2px solid var(--field-border);
+  border-radius: 6px;
+  background: var(--steel-raised);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+.check:checked { background: var(--ground-green); border-color: var(--ground-green); }
+.check:checked::after {
+  content: "";
+  width: 12px;
+  height: 7px;
+  border: solid var(--steel-raised);
+  border-width: 0 0 3px 3px;
+  transform: translateY(-2px) rotate(-45deg);
+}
+.stepNum { font-weight: 700; margin-right: 6px; }
+.stepText { font-size: var(--fs-step); line-height: 1.3; }
+.stepMeta { font-size: var(--fs-small); color: var(--ink-2); margin-top: 4px; }
+.edited { font-size: var(--fs-small); color: var(--ink-2); margin-top: 4px; }
+.iconBtn {
+  display: inline-grid;
+  place-items: center;
+  width: var(--tap);
+  height: var(--tap);
+  margin: -8px -8px 0 0;
+  border: 0;
+  border-radius: 12px;
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.fold {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: var(--tap);
+  padding: 12px 0;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid var(--rule);
+  font-size: var(--fs-body);
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+}
+.foldHint { display: block; font-weight: 400; font-size: var(--fs-small); color: var(--ink-2); }
+
+.footnote { font-size: var(--fs-small); color: var(--ink-2); margin-top: 28px; }
+
+.done > * + * { margin-top: 14px; }
+.doneLine { font-size: var(--fs-step); }
+.changeList { margin: 0; padding-left: 1.2em; }
+.changeList li + li { margin-top: 6px; }
+
+/* Manager card */
+.summary { margin-top: 18px; }
+.summary > * + * { margin-top: 10px; }
+.confirmLine { display: flex; flex-direction: column; gap: 4px; }
+.addedList { list-style: none; margin: 0; padding: 0 0 0 22px; color: var(--ink-2); }
+.addedList li { font-size: var(--fs-small); }
+.approved {
+  background: var(--ground-green) !important;
+  color: var(--steel-raised) !important;
+}
+.progress { margin-top: 22px; }
+.progressHead { font-size: var(--fs-h2); font-weight: 700; }
+.progressRow {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 12px;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.tick {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  border: 2px solid var(--field-border);
+  color: var(--steel-raised);
+}
+.tickDone { background: var(--ground-green); border-color: var(--ground-green); }
+.tickNow { border-color: var(--ink); }

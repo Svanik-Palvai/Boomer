@@ -1,17 +1,201 @@
-/* Shared styles. Lane-specific styles go in a CSS module next to the page. */
+/*
+ * Shared design tokens ("Labeled panel").
+ * Each color has one job:
+ *   tape-yellow  = New here (and the focus ring)
+ *   tape-white   = a printed sign-off record
+ *   ground-green = confirmed / approved / done
+ *   hot-red      = rejected / errors
+ * Lane-specific styles go in a CSS module next to the page and use these tokens.
+ */
+:root {
+  color-scheme: dark;
+  --steel: #2e353d;
+  --steel-raised: #3a424b;
+  --rule: #5a646f;
+  --field-border: #8f99a4;
+  --ink: #f4f2ec;
+  --ink-2: #bac1c8;
+  --on-tape: #141414;
+  --tape-yellow: #ffd400;
+  --tape-white: #f4f2ec;
+  --tape-white-edge: transparent;
+  --ground-green: #3dbe6b;
+  --hot-red: #ff8073;
+
+  --fs-small: 17px;
+  --fs-body: 20px;
+  --fs-step: 22px;
+  --fs-h2: 24px;
+  --fs-h1: 32px;
+  --fs-display: 32px;
+
+  --radius-button: 14px;
+  --radius-sheet: 20px;
+  --radius-tape: 3px;
+  --gutter: 16px;
+  --tap: 48px;
+  --tap-primary: 64px;
+  --focus: var(--tape-yellow);
+}
+
+/* iMessage cards: follow the phone's light/dark setting. Light is the default. */
+.surface-card {
+  color-scheme: light;
+  --steel: #e9ebee;
+  --steel-raised: #ffffff;
+  --rule: #c9ced4;
+  --field-border: #737c86;
+  --ink: #15191e;
+  --ink-2: #4a525b;
+  --tape-white: #ffffff;
+  --tape-white-edge: #c9ced4;
+  --ground-green: #17793f;
+  --hot-red: #c8312a;
+  --fs-body: 18px;
+  --fs-step: 19px;
+  --fs-display: 34px;
+  --focus: #15191e; /* yellow is too faint on the light card */
+}
+@media (prefers-color-scheme: dark) {
+  .surface-card {
+    color-scheme: dark;
+    --steel: #2e353d;
+    --steel-raised: #3a424b;
+    --rule: #5a646f;
+    --field-border: #8f99a4;
+    --ink: #f4f2ec;
+    --ink-2: #bac1c8;
+    --tape-white: #f4f2ec;
+    --tape-white-edge: transparent;
+    --ground-green: #3dbe6b;
+    --hot-red: #ff8073;
+    --focus: var(--tape-yellow);
+  }
+}
+
 * { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, sans-serif;
-  background: #0f1115;
-  color: #f2f2f2;
+  font-family: var(--font-body), system-ui, -apple-system, sans-serif;
+  font-size: var(--fs-body);
+  line-height: 1.4;
+  background: var(--steel);
+  color: var(--ink);
+  caret-color: var(--tape-yellow);
+  -webkit-font-smoothing: antialiased;
 }
-main { max-width: 480px; margin: 0 auto; padding: 16px; }
-a { color: #7cb7ff; }
+::selection { background: var(--tape-yellow); color: var(--on-tape); }
+
+main {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: var(--gutter) var(--gutter) calc(var(--tap-primary) + 120px); /* room for the action bar */
+}
+
+h1, h2, h3 { line-height: 1.15; font-weight: 700; text-wrap: balance; margin: 0; }
+h1 { font-size: var(--fs-h1); }
+h2 { font-size: var(--fs-h2); }
+p { margin: 0; max-width: 65ch; }
+
+a {
+  color: var(--ink);
+  text-decoration-color: var(--ink-2);
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 1px;
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+button, input, select, textarea { font: inherit; color: inherit; }
+
+input[type="text"], input[type="search"], textarea, select {
+  width: 100%;
+  min-height: 56px;
+  padding: 12px 14px;
+  font-size: var(--fs-body); /* 16px+ keeps iOS from zooming */
+  background: var(--steel-raised);
+  border: 1px solid var(--field-border);
+  border-radius: 12px;
+}
+textarea { min-height: 120px; resize: vertical; }
+input::placeholder, textarea::placeholder { color: var(--ink-2); opacity: 1; }
+label { display: block; }
+
+/* Primary action. Shared: Aniketh's guide and location picker use it too. */
 .btn {
-  display: block; width: 100%; padding: 16px; font-size: 18px;
-  border: 0; border-radius: 12px; background: #2f6fed; color: white; text-align: center;
-  text-decoration: none; margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  min-height: var(--tap-primary);
+  padding: 12px 20px;
+  margin-top: 12px;
+  font-size: var(--fs-body);
+  font-weight: 700;
+  border: 0;
+  border-radius: var(--radius-button);
+  background: var(--ink);
+  color: var(--steel);
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 80ms ease-out;
 }
-.card { background: #1a1d24; border-radius: 12px; padding: 12px 14px; margin: 8px 0; }
-.tag-new { color: #ffb020; font-weight: 600; }
+.btn:active:not(:disabled) { transform: translateY(1px); }
+.btn:disabled, .btn[aria-disabled="true"] {
+  background: var(--steel-raised);
+  color: var(--ink-2);
+  cursor: not-allowed;
+}
+
+/* Quiet secondary action: text, but still a full-size target. */
+.btn-quiet {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: var(--tap);
+  padding: 8px 12px;
+  background: none;
+  border: 0;
+  color: var(--ink);
+  font-size: var(--fs-body);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: var(--ink-2);
+  text-underline-offset: 0.2em;
+  cursor: pointer;
+}
+
+/* Raised panel. Shared: used by the location picker and the guide. */
+.card {
+  background: var(--steel-raised);
+  border-radius: var(--radius-button);
+  padding: 16px 18px;
+  margin: 12px 0;
+}
+.card > * + * { margin-top: 8px; }
+
+.tag-new {
+  display: inline-block;
+  background: var(--tape-yellow);
+  color: var(--on-tape);
+  font-weight: 700;
+  padding: 0.1em 0.5em;
+  border-radius: var(--radius-tape);
+}
+
+.num { font-variant-numeric: tabular-nums; }
+.muted { color: var(--ink-2); }
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+* { scrollbar-width: thin; scrollbar-color: var(--rule) transparent; }
