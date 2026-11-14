@@ -32,7 +32,11 @@ In the dedicated project only:
 
 1. `scripts/lessons/schema.sql` has been applied to the dedicated project. It creates three server-only tables with RLS enabled and no anon/authenticated grants, and one private media bucket. This is a bootstrap script, not a Supabase migration-history entry. For a fresh project, apply it before using the APIs.
 2. Confirm the bucket is private, has no public object policies, and accepts the script's allowed media types. Source parts are capped at 25 MiB each by the API; the private bucket has a 50 MiB object limit and render bitrate/duration are bounded to fit it. Never change it to public to fix preview access.
-3. Enable email OTP/magic-link sign-in. Add local and deployed `/lessons/workspace` redirect URLs to Auth settings. Verify email delivery and sign-in in that project.
+3. Enable email OTP/magic-link sign-in. The currently authorized dashboard account can run SQL but Auth URL settings are read-only; the project owner must add the following exact redirect URLs in Authentication → URL Configuration (do not allow arbitrary domains):
+   - `http://localhost:3000/lessons/workspace`
+   - `https://boomer-hackprinceton.vercel.app/lessons/workspace`
+   - `https://boomer-hackprinceton-4rkqs8lw1-anikethmalipeddi-8851s-projects.vercel.app/lessons/workspace`
+   Verify email delivery and sign-in in that project. New preview deployments need their own redirect entry. The preview has dedicated lesson URL/server/public-key variables configured; production lesson configuration is intentionally pending the rollout.
 4. Sign in as reviewer and worker. The workspace displays each account UUID. Reviewer explicitly links the existing worker ID to the correct UUID. There is no automatic ownership based on phone number and no account reassignment endpoint.
 5. Enable ElevenLabs post-call transcription webhooks with timestamps, conversation ID, call start time/duration and the same `job_id` mapping as the existing integration. Confirm provider recording retention/consent and that the worker account can retrieve conversation audio. Original audio is fetched by the laptop worker, not exposed through the browser.
 6. Ensure Zohaib's job persistence is durable across Vercel instances. Source snapshots persist in lesson storage after capture starts, but the existing `lib/db` job/worker backend is still process-local on main. Reusing demo-2041 after a reset is rejected instead of mixing distinct recordings into an old lesson; create a new job ID for a new recording.
