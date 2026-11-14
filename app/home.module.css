@@ -1,0 +1,21 @@
+/* OWNER: Andy. Home. */
+.lede { margin-top: 8px; color: var(--ink-2); }
+.list { list-style: none; margin: 28px 0 0; padding: 0; border-top: 1px solid var(--rule); }
+.item {
+  display: grid;
+  gap: 2px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--rule);
+  text-decoration: none;
+}
+.item:hover .name { text-decoration-color: var(--ink); }
+.name {
+  font-size: var(--fs-step);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: var(--ink-2);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+.use { font-size: var(--fs-small); color: var(--ink-2); }
+.fine { margin-top: 28px; font-size: var(--fs-small); color: var(--ink-2); }
