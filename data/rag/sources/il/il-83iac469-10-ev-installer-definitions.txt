@@ -1,0 +1,168 @@
+TITLE 83: PUBLIC UTILITIES
+
+CHAPTER I: ILLINOIS COMMERCE COMMISSION
+SUBCHAPTER c: ELECTRIC UTILITIES
+
+PART 469
+CERTIFICATION FOR THE INSTALLATION, MAINTENANCE OR REPAIR OF ELECTRIC VEHICLE CHARGING STATIONS
+
+SECTION 469.10 DEFINITIONS
+
+Section 469.10 Definitions
+
+Terms defined in Section 16-128A of the Public Utilities Act
+[220 ILCS 5/16-128A] shall have the same meaning for purposes of this Part as
+they have under Section 16-128A of the Public Utilities Act, unless further
+defined in this Part. The following terms, when used in this Part, shall have
+the meaning ascribed to them in this Section.
+
+"Act" means the Public
+Utilities Act [220 ILCS 5].
+
+"Applicant" means a
+person or entity that files an application with the Illinois Commerce
+Commission (Commission) requesting certification pursuant to Section 16-128A of
+the Act to install, maintain or repair electric vehicle charging stations.
+
+"Best's financial size
+category" refers to a numerical value that A.M. Best Company or its
+successor assigns to an insurance company based on the amount of that insurance
+company's policyholders' surplus and reserve funds.
+
+"Best's rating" refers
+to a rating from A.M. Best Company or its successor that provides an overall
+opinion of an insurance company's ability to meet its obligations to
+policyholders.
+
+"Certificate holder" or
+"Commission-certified IMR" means a person or entity that has received
+certification pursuant to this Part. 
+
+"Commercial general liability
+insurance" means insurance that covers suits against the insured for
+personal injury and property damages.
+
+"Commercial purposes"
+means use by any person of an electric vehicle charging station not located on
+his or her own premises. 
+
+"Directly supervised"
+means that there is a qualified person on-site available for consultation and
+review of the installation, maintenance or repair work of electric vehicle
+charging stations performed by apprentices.
+
+"DOL certification of
+satisfactory completion" means that person has received a nationally
+recognized and portable Certificate of Completion from a United States
+Department of Labor (DOL) registered apprenticeship program.
+
+"DOL-registered electrician
+apprenticeship program" means an electrician apprenticeship training
+program that is certified by the DOL. 
+
+"Electric utility" means
+a corporation, company, limited liability company, association, joint stock
+company or association, firm, partnership or individual, their lessees,
+trustees, or receivers appointed by any court whatsoever that owns, controls,
+operates or manages, within Illinois, directly or indirectly, for public use,
+any plant, equipment or property used or to be used for or in connection with,
+or owns or controls any franchise, license, permit or right to engage in the
+production, storage, transmission, sale, delivery or furnishing of heat, cold,
+power, electricity; or a public utility, as defined in Section 3-105 of the
+Act, that has a franchise, license, permit or right to furnish or sell
+electricity to retail customers within a service area. [220 ILCS 5/3-105
+and 16-102]
+
+"Electric vehicle" means
+a battery-powered electric vehicle operated solely by electricity or a
+plug-in hybrid electric vehicle that operates on electricity and gasoline and
+has a battery that can be recharged from an external source. [20 ILCS
+627/10]
+
+"Electric vehicle charging
+station" means any facility or equipment that is used to charge a
+battery or other energy storage device of an electric vehicle. [220 ILCS
+5/16-128A(d)] 
+
+"Entity" means an
+organization, institution or being that has its own existence for legal or tax
+purposes and is involved in the business of installing, maintaining or
+repairing electric vehicle charging stations.
+
+"IMR" or
+"IMRs" means electric vehicle charging station installers,
+maintainers or repairers.
+
+"Install",
+"installing" or "installation" means the major activities
+and actions required to connect, in accordance with applicable building and
+electrical codes, the conductors, connectors and all associated fittings,
+devices, power outlets or apparatuses mounted at the premises that are directly
+involved in delivering energy from the premises' electrical wiring to the
+electric vehicle charging station. 
+
+"Maintain",
+"maintaining" or "maintenance" means the major activities
+and actions required to keep in an appropriate, safe condition and operation
+the conductors, connectors and all associated fittings, devices, power outlets
+or apparatuses mounted at the premises that are directly involved in delivering
+energy from the premises' electrical wiring to the electric vehicle charging
+station. 
+
+"NEC" means the National
+Electrical Code adopted by the National Fire Protection Association, Inc., of 1
+Batterymarch Park, Quincy, MA 02169 (NFPA 70E), effective August 25, 2010.
+
+"Premises and operations
+insurance" coverage pays for bodily injury or property damage that occurs
+on an entity's premises or as a result of an entity's business operations.
+
+"Products and completed
+operations insurance" coverage pays for bodily injury and property damage
+that occurs away from an entity's business premises and is caused by the
+entity's products or completed work.
+
+"Qualified person" means
+a person who performs installation, maintenance or repair of electric vehicle
+charging stations and who has either satisfactorily completed at least five
+installations of an electric vehicle charging station or has completed at least
+one of the following programs requiring lab or field work and received a
+certification of satisfactory completion: an apprenticeship as a journeyman
+electrician from a United States Department of Labor Registered Electrician
+Apprenticeship and Training Program or an Underwriters Laboratories (UL)
+electric vehicle charging station installation certification program.
+
+"Repair" or
+"repairing" means the major activities and actions required to
+restore to a safe, sound condition and operation the conductors, connectors and
+all associated fittings, devices, power outlets or apparatuses mounted at the
+premises that are directly involved in delivering energy from the premises'
+electrical wiring to the electric vehicle charging station. 
+
+"Retail customer" means 
+
+a single entity using electric
+power or energy at a single premises and that either is receiving or is
+eligible to receive tariffed services from an electric utility or that is
+served by a municipal system or electric cooperative; or
+
+an entity that, on
+December 16, 1997, was receiving electric service from a public utility and was
+engaged in the practice of resale and redistribution of such electricity within
+a building prior to January 2, 1957, or was providing lighting services to
+tenants in a multi-occupancy building, but only to the extent such resale,
+redistribution or lighting service is authorized by the electric utility's
+tariffs that were on file with the Commission on December 16, 1997. [220
+ILCS 5/16-102]. For purposes of this Part, a "retail
+customer" includes that retail customer's employees, officers, and agents.
+[220 ILCS 5/16-128A(d)]
+
+"Self-installer"
+means an individual who leases or purchases an electric vehicle charging
+station for his or her own personal use and installs an electric vehicle
+charging station on his or her own premises without the assistance of any other
+person. [220 ILCS 5/16-128A(d)]
+
+"Surplus Line Association of
+Illinois" is an organization of Illinois surplus line producers as defined
+in Section 445.1 of the Illinois Insurance Code [215 ILCS 5/445.1].

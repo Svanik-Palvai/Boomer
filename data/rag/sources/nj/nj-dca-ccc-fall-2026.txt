@@ -1,0 +1,1187 @@
+
+
+===== Page 1 =====
+                                                                            .
+Construction Code
+Communicator
+
+
+
+
+
+
+
+
+
+
+State of New Jersey                                                                                   Department of Community Affairs
+Mikie Sherrill, Governor                                                                         Jacquelyn A. Suárez, Commissioner
+Volume 38, Number 3                                                                                                                       Fall 2026
+
+
+
+                                 Adoption of 2024 National Model Codes
+
+ It’s official; the 2024 I-Codes, 2024 National Standard Plumbing Code, and 2023 NFPA 70 were adopted as of August
+ 17,   2026.   Also   adopted   were   the   updates   to   N.J.A.C.   5:23           -3.4,   Responsibilities,   and   N.J.A.C.   5:23-6,   the
+ Rehabilitation Subcode.
+
+ The   amendments   to   these   codes   are   available   at   the   Uniform   Construction   Code   (UCC)   webpage   at
+ https://www.nj.gov/dca/codes/codreg/ucc.shtml              .
+
+ New  Jersey  editions  of  the  International  Building  Code  (IBC),  International  Residential  Code  (IRC),  and  National
+ Standard Plumbing Code (NSPC) are being processed for publication and are expected to be available                                     by the end of
+ the year. As a reminder, the New Jersey editions of these publications are comprised of the base text of the Code, as
+ amended by the relevant subcode of the UCC.
+
+ Links      to      the      relevant      base      codes      are      available      on      the      Department’s      website      at
+ https://www.nj.gov/dca/codes/codreg/current.shtml.
+
+
+ Source: Marie Daniels
+          Code Development Unit
+          (609) 984-7609
+
+
+                                                             (Continued on next page)
+
+                                                                     In This Issue
+2024/2023 Code Adoption Web Links                                        2     Grace Period for Model Codes                                            2
+
+2024 IBC and ASCE 7-22                                                   15    Not All Fire-Retardant-Treated Wood Is Created Equal!                   13
+
+                                                                         6     Outdoor outlets, AC units, Ground Fault Protection,                     16
+2024 IBC Errata: ASME A18.1                                                    and the Rehab Subcode
+
+2024 IRC Door Closers                                                   13     Revised UCC Technical Forms                                             4
+
+Adoption of 2024 National Model Codes                                    1     Significant Changes to the 2024 IBC and IRC                             7
+
+Adult Changing Stations: 2024 IBC                                        12    Spec Sheets for Replacements                                            6
+
+Fees and Processes for Annual Pool Bonding                               5
+and Backflow Certificates                                                      Tyco Fire Sprinklers Recall: Sprinklers that Can Fail in a Fire         18
+
+Garden State Balcony Solar Act and the UCC                               5     UCC Summary of Rule Changes – Summer 2026                               3
+
+Generators Located Outdoors: Residential Setbacks                        15
+
+
+
+         Division of Codes and Standards, P.O. Box 802, Trenton, New Jersey 08625-0802   www.nj.gov/dca/divisions/codes
+
+
+
+
+===== Page 2 =====
+Page 2                                                        ------------------------------------------------Construction Code Communicator
+
+
+                                          Grace Period for Model Codes
+
+As you  know,  the  2024  I-Codes,  2024  National  Standard  Plumbing  Code,  and  2023  NFPA  70  were  adopted  as  of
+August 17,  2026.  With  this  adoption  comes  a six-month  grace  period  for the  previous  model  code.  This  means  that
+starting from August 17, 2026, applicants may submit a complete permit application, including all prior approvals, to be
+reviewed under  the  code  in  force  immediately  preceding  the  subcode  revision.  Provided  the  application  is  complete,
+the construction  official  and  applicable  subcode  officials  should  perform  the  plan  review  and  issue  construction
+permit(s) based  on  the  code in  force  immediately  prior  to the  operative date of  the  subcode  revision.  The  last  day  to
+submit an application using the previous codes is February 17, 2027.
+
+Therefore, if a complete permit application was submitted on or between August 17, 2026, and February 17, 2027, the
+project would  be  permitted  to be  reviewed  under  the  old  codes  (2021/2020).  The  application  should  explicitly  state
+which codes  were  utilized  for  the  design  of  the  project. If  the code  edition  is  not  explicitly  stated,  officials  should  ask
+which edition was used.
+
+For completeness,  the  application  must  include  the  items  listed  at  N.J.A.C.  5:23-2.15,  Construction  permits  —
+application. Please note that N.J.A.C.  5:23-2.15(a) includes  all elements  that are required in order to submit  a permit
+application; N.J.A.C. 5:23-2.15(b) provides for further requirements on an application for a permit when the information
+becomes available,  no  later  than  the  commencement  of  work.  This  means  that  any  of  the  information  listed  in  (b)
+would not be required in order to consider a permit application complete.
+
+Also note that prototype plan releases based on the previously adopted edition of the codes remain valid until the end
+of the grace period. February     17, 2027, would thus   be the last day to apply for a permit with the released    prototype.
+
+
+Source: Marie Daniels
+          Code Development Unit
+          (609) 984-7609
+
+
+                                   2024/2023 Code Adoption Web Links
+
+They’re finally here!  The 2024 I-Codes, the 2024 National Standard Plumbing Code (NSPC), and the 2023 NFPA 70
+(National Electrical Code - NEC) were adopted August 17th, 2026. The amendments to these codes can be found by
+visiting the Uniform Construction Code (UCC) webpage at https://www.nj.gov/dca/codes/codreg/ucc.shtml.
+
+New Jersey (NJ) editions of the International Building Code (IBC), International Residential Code (IRC) and NSPC are
+currently  being  processed  for  publishing.  Note  that  these  editions  are  purely  the  base  code  modified  by  their
+applicable subcode in the UCC.  For example, the NJ edition of the 2024 IBC is the base code modified by the building
+subcode at N.J.A.C. 5:23-3.14.
+
+For all codes and until the NJ editions are published, please utilize the links provided for by their organizations.
+
+
+N.J.A.C. 5:23-3.14, Building Subcode
+          • IBC/2024 – https://codes.iccsafe.org/content/IBC2021P2
+          • IFC/2024 (throughout) - https://codes.iccsafe.org/content/IFC2024V2.1
+          • A117.1-2017 (Ch 11) – https://codes.iccsafe.org/content/ICCA117.12017P7
+          • ASME A17.1-2019 (Ch 30) - https://www.asme.org/codes-standards (no code book link)
+          • ISPSC/2024 (Ch 31) - https://codes.iccsafe.org/content/ISPSC2024V2.0
+
+N.J.A.C. 5:23-3.15, Plumbing Subcode
+          • NSPC/2024 – https://epubs.iapmo.org/NSPC/NJ2024/
+
+
+
+                                                              (Continued on next page)
+
+===== Page 3 =====
+ Volume 38    Number 3    Fall 2026                                                                                              ----Page 3
+
+
+                                                     (2024/2023 Code Adoption Web Links)
+
+N.J.A.C. 5:23-3.16, Electrical Subcode
+         • NEC/2023 (NFPA 70) – https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70
+                   -    Access to 2023 edition of NFPA 70 (requires the setup of a Login/Password)
+
+N.J.A.C. 5:23-3.18, Energy Subcode
+         • IECC/2024 – https://codes.iccsafe.org/content/IECC2021P2
+         • ASHRAE 90.1-2022 - https://www.ashrae.org/technical-resources/standards-and-guidelines/read-only-
+         versions-of-ashrae-standards
+                   -    Scroll to “Standard 90.1-2022”
+
+N.J.A.C. 5:23-3.20, Mechanical Subcode
+         • IMC/2024 - https://codes.iccsafe.org/content/IMC2024V3.0
+
+N.J.A.C. 5:23-3.21 – One- and Two-Family Dwelling Subcode
+         • IRC/2024 - https://codes.iccsafe.org/content/NJRC2024V1.0
+         • ISPSC/2024 - https://codes.iccsafe.org/content/ISPSC2024V2.0
+
+N.J.A.C. 5:23, Fuel Gas Subcode
+         • IFGC/2024 - https://codes.iccsafe.org/content/IFGC2024V2.0
+
+
+Source: Ian Rayfield
+         Code Development Unit
+         (609) 984-7609
+
+
+
+                 UCC Summary of Rule Changes – Summer 2026 Update
+
+August 17, 2026, New Jersey Register
+
+N.J.A.C. 5:23-3.14,      3.15, 3.16,  3.17, 3.18,  3.20, 3.21, and 3.22 –           Subcodes      – This adoption updates the building
+subcode, plumbing subcode, electrical subcode, fire protection subcode, energy subcode, mechanical subcode, one-
+and two-family dwelling subcode and fuel gas subcode within the Uniform Construction Code to the applicable 2024
+International Code Council model codes, 2024 National  Standard Plumbing Code, and the 2023  National Electrical
+Code.
+         → for more information, please see “Oct 20, 2025” row at
+         https://www.nj.gov/dca/codes/codreg/rule_proposals_adoptions.shtml
+
+N.J.A.C. 5:23-2.18, 2.34, 2.35, 3.4, 3.8, 5.3, 6.2, 6.3A, 6.4, 6.5, 6.6, 6.7, 6.8, 6.9, 6.12A, 6.13A, 6.14A, 6.15A, 6.16A,
+6.17A,  6.18A,  6.19A,  6.20A,  6.21A,  6.22A,  6.23A,  6.24A,  6.25A,  6.26A,  6.28A,  6.31,  and  6.32                   –  Rehabilitation
+Subcode,  Responsibilities,  and  Rest  of  UCC                 –  This  adoption  updates  the  rehabilitation  subcode,  subcode
+responsibilities, and other UCC items to coincide with the adoption of the latest cycle of model codes.
+         → for more information, please see “Oct 20, 2025” row at
+         https://www.nj.gov/dca/codes/codreg/rule_proposals_adoptions.shtml
+
+N.J.A.C. 5:23-2.15, 2.15A, 2.16, and 4.4 – Administration and Enforcement; Process and Enforcing Agencies; Duties;
+Powers;  Procedures       –  This adoption amends         Subchapters 2  and 4 of the Uniform Construction Code to  recognize
+master  hearth  specialists,  address  internal  inconsistencies  within  the  single-family  dwelling  permitting  process,
+incorporate  an  omitted  provision  from  P.L.  2022,  c.139,  and  assign  a  number  to  the  form  submitted  pursuant  to
+N.J.A.C. 5:23-4.4.
+         → for more information, please see “Sep 02, 2025” row at
+         https://www.nj.gov/dca/codes/codreg/rule_proposals_adoptions.shtml
+
+
+                                                           (Continued on next page)
+
+
+===== Page 4 =====
+Page 4                                                         ------------------------------------------------Construction Code Communicator
+
+
+                                              (UCC Summary of Rule Changes – Summer 2026 Update)
+
+Bulletins
+
+     •    01-2, Temporary Certificates of Occupancy – Revised
+     •    09-1, Permit Requirements for LP-Gas Systems – Revised
+     •    11-2, Fire Alarm Transmission Channels and Managed Facilities Voice Networks – Withdrawn
+     •    11-3,   Antifreeze  in  New  Residential  and  Commercial  Fire  Sprinkler  Systems                       - NFPA  13,  13D  or  13R          –
+          Withdrawn
+
+          Currently issued UCC Bulletins can be found on the following webpage:
+          ➔    https://www.nj.gov/dca/codes/resources/bulletins.shtml
+
+
+Source: Ian Rayfield
+          Code Development Unit
+          (609) 984-7609
+
+
+
+                                          Revised UCC Technical Forms
+
+Technical  Assistants,  Subcode  Officials,              and  Construction  Officials  should  be  aware  that  the   department,  in
+consultation  with  the  applicable  subcode  committees,  revised  subcode  technical  section  forms  in  December  2025
+(note: the revision date appears in the bottom              -left corner after the U      niform Construction       Code (UCC) form number).
+Most  notably,  the  electrical  subcode  technical  form  F120  was  revised.  Form  F120  now  combines  lighting  fixtures,
+receptacles, and switches into one item, “Devices,” to save space on the form. New items such as EV Chargers                                        and
+PV Systems, which have become commonplace, have been added.
+
+Municipalities  may  continue  using  old  stock  until  the  existing  supply  runs  out.  Once  old  stock  has  been  depleted,
+construction offices must print the December 2025 revised form. All forms are available on the Department’s website.
+Additionally,  all  forms  listed  on  a  municipality's  website  for  applicants  to  download  or  print  should  be  the  current
+version (12/25).
+
+Most importantly, a municipality cannot reject a permit application using the re                    vised forms and ask applicants to submit
+previous versions. Technical  assistants and  officials  are reminded that they may use  only the UCC  forms found in
+N.J.A.C. 5:23-4.5(b). As per N.J.A.C. 5:23            -4.5(b)4, “No forms other than those established by the Commissioner shall
+be  required  of  the  public  in  connection  with  the  administration  and  enforcement  of  the  State  Uniform  Construction
+Code. The municipal enforcing agency may use additional forms for its own internal processing and recordkeeping.”
+
+
+Source: Michael Szwed
+          Office of Regulatory Affairs
+          (609) 984-7672
+
+
+
+
+
+
+     The Construction Code Communicator is an online publication of the New Jersey Department of Community Affairs’
+     Division of Codes and Standards. It is ty     pically published four times a year.
+
+     Copies may be read or downloaded from the division’s website at:             www.nj.gov/dca/divisions/codes       .
+
+     Please direct any comments or suggestions to the NJDCA, Division of Codes and Standards, Attention: Code
+     Development Unit, PO Box 802, Trenton, NJ 08625             -0802 or codeassist@dca.nj.gov       .
+
+
+
+===== Page 5 =====
+ Volume 38    Number 3    Fall 2026                                                                                              ----Page 5
+
+
+
+                          Garden State Balcony Solar Act and the UCC
+
+This article is to provide additional clarification on the Uniform Construction Code (UCC) impacts of Senate Bill 2368,
+also known as the Garden State Balcony Solar Act, which was signed into law on September 1st, 2026, as P.L.2026,
+c.82.
+
+The law defines a “portable solar generation device” as a moveable photovoltaic generation device and associated
+equipment:  (1)  has  a  maximum  power  output  of  not  more  than  1,200  watts;  (2)  is  designed  to  be  connected  to  a
+building’s electrical system through a standard 120-volt alternating current outlet; (3) is located on the customer’s side
+of the electrical meter and is intended primarily to offset part of the customer’s electricity consumption; (4) is listed or
+certified in accordance with Underwriters Laboratories Standard No. 3700, the “Outline of Investigation for Interactive
+Plug-in Photovoltaic Equipment and Systems,” or a comparable standard, or a combination of standards that together
+address plug-in photovoltaic safety and grid-parallel by a nationally recognized testing laboratory; and (5) includes a
+device or feature that prevents the portable solar generation device from exporting power to the electrical distribution
+system during a power outage.
+
+The law states that the plug-in device must comply with the applicable installation provisions of the product listing and,
+when necessary, the applicable installation provisions of the electrical subcode, the National Electrical Code/NFPA 70.
+Because  the  law  covers  the  listing/labeling  portion  of  the  electrical  subcode,  the  plug-in  device  would  be  covered
+under the code. The law further notes that devices that have a maximum power output to the receptacle outlet of 400
+watts  or  less  shall  be  exempt  from  any  provision  in  the  product  listing,  National  Electrical  Code,  or  State  Uniform
+Construction Code that would require alterations to the building’s premises, wiring, or electrical panels.
+
+Furthermore, the law notes that no municipality shall require a permit, application, fee, license, or other approval for
+the placement or use of a portable solar generation device. The provisions of this subsection shall not be construed to
+exempt  any  building  modification,  electrical  work,  or  other  alteration  from  the  applicable  provisions  of  the  National
+Electrical Code, the State Uniform Construction Code adopted pursuant to the “State Uniform Construction Code Act,”
+P.L.1975, c.217 (C.52:27D-119 et seq.), or any
+municipal permit or inspection requirements.
+
+Accordingly, the Department maintains that the language of the law prohibits requiring a permit for the placement or
+use of the portable solar generation device; however, it does not mean a permit is not required for any associated
+building  modification.  With  this  being  the  case,  if  a  building  modification  is  undertaken  for  the  device,  such  as  the
+relocation or addition of an electrical receptacle on a balcony, any UCC permit that would normally be taken out for
+such work would still be required.
+
+For a more in-depth view of the law, please see the link to P.L.2026, c.82 below.
+
+https://pub.njleg.state.nj.us/Bills/2026/S2500/2368_R3.PDF
+
+
+Source: Ian Rayfield
+         Code Development Unit
+         (609) 984-7609
+
+
+
+                              Fees and Processes for Annual Pool Bonding
+                                                and Backflow Certificates
+
+The Office of Regulatory Affairs has received numerous questions about the fees and processes for issuing an annual
+Certificate  of  Compliance  (COC)  under  N.J.A.C.  5:23-2.23(l),  specifically  for  annual  pool  bonding  and  testable
+backflow preventers. First, note that a construction permit (F100) or technical section (F-120 or F-130) is NOT required
+to be submitted to the local enforcing agency (LEA) for the issuance of a COC.
+
+                                                            (Continued on next page)
+
+
+===== Page 6 =====
+Page 6                                                         ------------------------------------------------Construction Code Communicator
+
+
+                                      (Fees and Processes for Annual Pool Bonding and Backflow Certificates)
+
+As per N.J.A.C. 5:23-4.5(b)4, the municipal enforcing agency may use additional forms for its own internal processing
+and recordkeeping. If an LEA wishes to collect a technical section to meet this section, that is allowed, but it is not
+required to be sealed by a licensed contractor, and a minimum fee or state training surcharge fee is not allowed. A
+technical  section  and  construction  permit  (F          -100)  must  be  signed  and/or  sealed  by  a  licensed  contractor  only  if
+permittable  work  is  being  performed  to  obtain  the  appropriate  COC;  at  that  time,  a  cost  of  construction  would  be
+provided, and the applicable technical se            ction fees and the state training surcharge would apply.                 In addition, N.J.A.C.
+5:23-4.18(f)6 states that a municipality may not charge for the                   COC, but may establish a flat fee per N.J.A.C. 5:23-
+4.18(k) for the annual bonding inspections with a reduced flat fee for each additional pool, spa, or hot tub located at
+the  site. N.J.A.C.  5:23-4.18(g)4  allows  the  municipality  to  establish  a  flat  fee  for  the  annual  retesting  of  backflow
+preventers, subject to the provisions.
+
+
+Source: Michael Szwed
+          Office of Regulatory Affairs
+          (609) 984-7672
+
+
+
+                                         Spec Sheets for Replacements
+
+Minor  work  requires  notification  to  the  local  enforcement  office,  preferably  in  writing,  before  you  begin  the  work  or
+replacement. So, you notify the local and then replace the boiler, water heater, or HVAC unit, etc.; then submit your
+application, either in person or electronically, and wait for notification to pay for your permit. But instead, the Township
+tells  you  they  need  two  copies  of  the  replacement  unit  specs  that  were  missing  during                  plan  review.  Plan  review?!
+Minor work does not include plan review, and what exactly are you looking for in the specs? BTU load? That is on the
+chimney verification form. Clearances? How are you going to verify clearances from your code official’s office? Also,
+per the 2021 International Residential Code NJ Edition Section G2408.1 and the 2021 International Fuel Gas Code
+Section 305.1, “Manufacturer’s installation instructions shall be available on the job site at the time of inspection,” so
+any clearance questions would be addressed on site.
+
+All code enforcement offices are responsible for maintaining files and materials for prescribed amounts of time, per
+N.J.A.C.  5:23-2.16A,  and  record  retention  costs  a  lot  of  money.  So  now  you  have  to  store  these  unnecessary
+documents for a minimum of ten years, in most cases, causing the Township or office to allocate funds for these specs
+that are required to be on site for the inspection. But hey, it’s your money! Spend or waste it as you see fit, I guess.
+
+
+Source: Anthony Menafro
+          Code Assistance Unit
+          (609) 984-7609
+
+
+
+                                           2024 IBC Errata: ASME A18.1
+
+Well, it looks like the 2024 International Building Code NJ edition has its first known errata. In Chapter 35, Reference
+Standards, the NJ edition had a publishing error that listed ASME A18.1 as the 2015 edition. The correct edition is the
+2023 version.
+
+This has since been corrected on the ICC website, which is where the link on the DCA Codes and Regulations page
+takes  you.  However,  anyone  who  purchased  a  hard  copy  of  the  book  will  see  the  incorrect  2015  edition  listed  in
+Chapter 35.
+
+
+Source: Adam Matthews
+             Code Assistance Unit
+             609-984-7609
+
+===== Page 7 =====
+ Volume 38    Number 3    Fall 2026                                                                                                  ----Page 7
+
+
+
+                         Significant Changes to the 2024 IBC and IRC
+
+The  purpose  of  this  article  is  to  familiarize  code  officials,  design  professionals,  contractors,  and  homeowners  with
+many of the important changes in the 2024 International Building Code                       (IBC)   and the 2024 International Residential
+Code (IRC). This article discusses only a portion of the code changes. When using the IBC and IRC, note that the
+solid  vertical  lines  in  the  margins  indicate  a  technical  change  from  the  requirements  of  the  2021  edition.  Deletion
+indicators in the form of an arrow are provided in the margin where an entire section, paragraph, exception, or table
+has been deleted, or an item in a list of items or a row of a table has been deleted. A single asterisk [*] placed in the
+margin indicates that text or a table has been relocated within the code. A double asterisk [**] placed in the margin
+indicates that the text or table immediately following has been relocated there from elsewhere in the code. For those
+using the digital format, the blue text indicates a technical change from the requirements of the 2021 edition and red
+text indicates NJ amendments.
+
+Significant Changes to the 2024 IBC:
+
+Definitions
+
+     •    High-Rise Building: This definition now includes occupiable roofs in the parameters to determine whether a
+          building is considered a high-rise. The language in this definition references a “floor that is more than 75 feet
+          above the  lowest level  of fire department vehicle access.” Occupants and combustible furnishings on roofs
+          make  ground-based  firefighting  more  difficult  and  limit  firefighters'  ability  to  perform  rescue  operations.  As
+          such,  their  inclusion  in  the  determination  of  a  high-rise  provides  additional  safety  provisions  in  these
+          circumstances.
+     •    Incapable  of      Self-Preservation:        Describes  persons  who,  because  of  age,  physical  limitations,  mental
+          limitations,  chemical  dependency,  or  medical  treatment, cannot  respond  as  an  individual  to an emergency.
+          The movement of all persons (occupants, residents and staff) to an exit in more than 13 minutes.
+     •    Limited    Verbal  or     Physical     Assistance:       Describes  persons  who,  because  of  age,  physical  limitations,
+          cognitive  limitations,  treatment  or  chemical  dependency,  may  not  independently  recognize,  respond  or
+          evacuate  without  limited  verbal  or  physical  assistance  during  an  emergency.  Limited  verbal  assistance
+          includes  prompting,  giving  and  repeating  instructions.  Limited  physical  assistance  includes  assistance  with
+          transfers  to  walking  aids  or  mobility  devices  and  assistance  with  egress.  The  movement  of  all  persons
+          (occupants, residents, and staff) to an exit  in more than 3 minutes, but not more than 13  minutes. NJ has
+          deleted  “Incapable  of  Self-Preservation"  and  instead  used  the  definitions  “Evacuation,  Impractical”  and
+          “Evacuation, Slow.” As the model codes have evolved over the years, these terms have caused considerable
+          confusion among code users. However, the deleted definitions had an assigned time limit. This time limit will
+          now be added to the end of the definitions above, as shown.
+     •    Occupiable Roof: The new term “occupiable roof” replaces the former “occupied roof” designation to clarify
+          that  the  applicable  provisions  are  triggered  by  the  roof's  intended  use,  rather  than  by  whether  the  roof  is
+          actually  occupied  at  a  given  time.  The  term  “occupiable”  does  not  apply  to  roofs  accessed  solely  for
+          maintenance,  including  maintenance  of  the  building  or  rooftop                 equipment  such  as  mechanical  systems.
+          Introduced in the 2024 edition, this definition aligns with the code’s existing definition of “occupiable space.”
+          Therefore,  a  roof  designed  for  human  occupancy  is  considered  “occupiable”  and  subject  to  the  applicable
+          code requirements.
+     •    Temporary Event: A single use during the service life of a public-occupancy temporary structure at a given
+          location that includes its installation, inspection, use and occupancy, and dismantling.
+
+
+
+                                                             (Continued on next page)
+
+
+===== Page 8 =====
+Page 8                                                        ------------------------------------------------Construction Code Communicator
+
+
+                                                   (Significant changes to the 2024 IBC and IRC)
+
+     •    Temporary Structure: Any building or structure erected for a period of 180 days or less to support temporary
+          events.  Temporary  structures  include  a  range  of  structure  types  (public-occupancy  temporary  structures,
+          temporary  special  event  structures,  tents,  umbrellas  and  other  membrane  structures,  relocatable  buildings,
+          temporary  bleachers,  etc.)  for  a  range  of  purposes  (storage,  equipment  protection,  dining,  workspace,
+          assembly, etc.).
+
+          These new definitions clarify requirements in the new Section 3103, which sets forth requirements for public-
+          occupancy  temporary  structures.  The  general  public  or  public  events  use  these  structures,  and  occupants
+          expect  similar  levels  of  reliability  and  safety  as  offered  by  permanent  construction.  These  terms  apply  to
+          structures in service for no longer than one year and include adjustments that reduce certain environmental
+          load requirements based on their temporary nature while recognizing the consistent level of risk.
+
+Sections, Tables, and Appendices
+
+     •    306.2  Moderate-Hazard           Factory     Industrial,  Group  F-1.         Due  to  the  anticipated  hazards,  several  uses
+          associated with the manufacture of lithium-ion and lithium-metal batteries have been added to the list of Group
+          F-1  occupancies.  In  addition,  facilities  used  for  the  manufacture  or  packaging  of  alcoholic  beverages  are
+          classified as Group F-1, rather than Group F-2, only when the beverages have an alcohol content greater than
+          20 percent. Beverages up to and including 20 percent will be classified as                       Group F-2. A similar change has
+          been added to Group S-1 and S-2 when storing the above contents.
+     •    503.1.4.1  Enclosures         Over    Occupiable       Roof    Areas.     New  Exception  2  allows  other  rooftop  structures,
+          including barriers, guards, parapets, bulkheads, and mechanical equipment screens, that may be located on
+          the roof but are not specifically exempted by Exception 1. This allowance applies where the building qualifies
+          as  a  high-rise  building.  It's  recognized  that  the  roof  deck  would  be  located  at  a  height  greater  than  that
+          available for fire department access from the building’s exterior.
+     •    Table 903.2.13 Additional Required Protection Systems. Table 903.2.13, along with the correlated section,
+          has been deleted. This amendment was added to the IBC with the 2000 adoption of the code to address the
+          increased area allowance for these occupancies. To date, there have been limited issues with the increased
+          area  allowances  for  these  occupancies;  therefore,  the  Department  is  deleting  these  added  fire  sprinkler
+          requirements, which cause undue confusion.
+     •    903 Additional Automatic Sprinkler Systems. The Department added requirements for lithium-ion or lithium
+          metal  batteries  (Li  batteries)  throughout.  This  includes  Li  battery  research  and  development  or  testing  in
+          Group B occupancies, manufacturing in Group F-1 occupancies, and storage in Group M and S occupancies.
+          At  Section  903.3.1.1.3, the design  of automatic sprinkler systems for  areas containing Li  battery storage is
+          required to  be based  on a series  of fire tests rather  than relying solely  on the  prescriptive requirements  of
+          NFPA 13. Testing shall be conducted or witnessed and reported by an approved testing laboratory.
+     •    907  Fire  alarm  and        Detection     Systems.       Similar  to  Section  903,  new  requirements  address  Li  battery
+          research and development or testing in Group B occupancies, manufacturing in Group F occupancies, and
+          storage in Group M and S occupancies.
+     •    907.2.1  Group  A.       This  section  provides  2  new  exceptions  that  address  the  uniqueness  of  a  Group  A-5
+          outdoor  bleacher     -type  occupanc     y.  Without  these  exceptions,  these  outdoor  bleacher             -type  facilities  would
+          require the same type of manual pull stations and occupant notification that is required for an indoor facility
+          with any other Group A classification.
+     •    912 Fire Department         Connections. This section adds additional requirements at 912.5.1                     -912.5.4 to meet the
+          requirements found in NFPA 14 Standard for the Installation of Standpipes and Hose Systems.
+
+
+
+
+
+                                                              (Continued on next page)
+
+===== Page 9 =====
+ Volume 38    Number 3    Fall 2026                                                                                                 ----Page 9
+
+
+                                                  (Significant Changes to the 2024 IBC and IRC)
+
+     •    915  Carbon      Monoxide       Detection.     The  structure  of  this  section  was  modified  for  clarity,  and  “All  other
+          occupancies” was added to the model code at Section 915.2.6. We will discuss the other changes related to
+          detection equipment in a future CCC article.
+     •    917.2 Group E Occupancies. This section requires a risk analysis before constructing a Group E occupancy
+          to determine whether a mass notification system is needed.
+     •    Table 1006.3.3 & 1006.3.4. These two single-exit tables now indicate which one to use when an occupied roof
+          is  considered.  A  new  footnote  (c)  in Table  1006.3.4(1) states:  “This  table  is  for  occupiable roofs  accessed
+          through  and  serving  individual  dwelling  units  in  Group  R-2  occupancies.  For  Group  R-2  occupancies  with
+          occupiable roofs that are not access through and serving individual units, use Table 1006.3.4(2).”
+     •    Table  1010.2.4. New        Table  1010.2.4      was  added  to  clarify  where  manual  bolts,  automatic  flush  bolts,  and
+          constant-latching bolts may be used on the inactive leaf of a pair of doors. As part of this change, Chapter 2
+          now includes four new definitions to distinguish these bolt types from dead bolts.
+     •    1011.5.5.1  Nosing       Projection      Size.  A  new  exception  applies  to  stairways  with  open  risers,  allowing  the
+          maximum nosing projection dimension to exceed 1 ¼ inches.
+     •    1110.4 Adult Changing Stations. This new section now requires adult changing stations in certain locations.
+          Please refer to the full article regarding this topic on page 12 of this Communicator.
+     •    1112.6 Designations. Where provided, signs identifying permanent  interior and exterior rooms and spaces
+          must be accessible. The signage must include visual characters, raised characters, and braille in accordance
+          with  the  requirements  of     Chapter  7     of  ICC  A117.1.  This  language  was  previously  included  in  Appendix E;
+          however, it has now been incorporated into the body of the Code.
+     •    1604.5.2  Photovoltaic  (PV)         Panel    Systems.     This  section  explains  how  to  assign        Risk  Categories  (RC)  to
+          photovoltaic (PV) systems under the 2024 IBC. Ground-mounted PV systems are generally RC I because their
+          failure  poses  a  low  risk  to  people,  while  elevated  PV structures  are  generally  RC  II  because  they  pose  a
+          hazard  similar  to  typical  buildings.  Roof-mounted  PV systems  usually  take  the  same  Risk  Category  as  the
+          building they are attached to, and PV systems with energy storage serving essential facilities may be RC IV.
+          Finally, elevated PV structures over parking for emergency-service vehicles must be RC IV if their failure could
+          prevent those vehicles from being used.
+     •    1608 Snow       Loads. The  2024  IBC now references  ASCE 7-22, which  generally increased snow  loads and
+          reduced the number of case studies. The 2021 IBC referenced ASCE 7-16.
+     •    1609 Wind Loads. As with snow loads, some wind speeds have changed due to the new reference standard
+          ASCE 7-22.
+     •    1609.5  Tornado        Loads.    ASCE  7-22  requirements  for  tornado  loads  apply  to  Risk  Category  III  and  IV
+          buildings only sited in the tornado-prone region, which is roughly defined in IBC Figure 1609.5 as the area of
+          the US east of the Continental Divide.
+     •    1807.2.5 Guards on Retaining Walls.               This is a significant change in the 2024 IBC; however, NJ is deleting
+          this new section. Guards for retaining walls are historically addressed by the municipal engineer and occur
+          during the planning phase of a building. This solidifies that guards for retaining walls are outside the scope of
+          the Uniform Construction Code.
+     •    3001.2 Elevator       Emergency Communication                Systems. This requirement was first introduced in the 2018
+          IBC but was later removed from the Uniform Construction Code because few manufacturers could supply the
+          required equipment. Since then, availability has increased significantly, and manufacturers can now provide
+          the systems needed to support this important life             -safety feature for individuals who are deaf, hard of hearing,
+          or speech impaired. Technical details of the required communication system are no longer addressed in the
+          IBC   since  they  are  all  now  set  forth  in  ASME  A17.1-2022/CSA  B44-22,                  Safety  Code  for  Elevators  and
+          Escalators.
+
+
+                                                             (Continued on next page)
+
+
+===== Page 10 =====
+Page 10                                                        ------------------------------------------------Construction Code Communicator
+
+
+                                                   (Significant Changes to the 2024 IBC and IRC)
+
+     •    3006.2.1 Rated Corridors. NJ is no longer going to delete this section. This section was first included in the
+          2018 IBC. It required a smoke          -proof elevator lobby or other means to keep smoke from entering the elevator
+          shaft  in  all  buildings  where  the  elevator  doors  opened  into  a  rated  corridor.  At  that  time,  the  Department
+          deleted the section because few cost             -prohibitive options were available to comply with these requirements.
+          However,  product  availability  has  increased,  and  the  section  allows  a  “smoke                -protective  curtain  assembly,”
+          which is a defined term within the IBC.
+     •    Appendix P Sleeping Lofts.             New Appendix P,  Sleeping lofts, is adopted as part of the                    Building   Subcode,
+          which allows sleeping lofts in dwelling and sleeping units within R occupancies. The appendix would support
+          more efficient and affordable multifamily housing by adding usable sleeping space within the existing building
+          footprint, particularly in small units. It may also encourage the reuse and alteration of existing housing rather
+          than demolition and new construction.
+
+
+Significant Changes to the 2024 IRC              :
+
+     •    Chapter 3 Reorganization. The chapter has been reorganized to make it easier to us                              e by grouping related
+          topics. It now progresses from structural and passive fire                -resistance topics to active fire protection, required
+          dwelling spaces, means of egress, accessibility and elevators, and finally home safety and energy systems.
+          The reorganization provides a clearer, more logical sequence for the chapter’s expanded sections.
+     •    Table  R301.2  Climatic  and          Geographic        Criteria.   NJ  has  deleted  the  last  sentence  of  footnote  b,  which
+          stated, “The jurisdiction shall fill in the frost line depth column wit             h the minimum depth of footing below finish
+          grade.” Certain municipalities were misinterpreting this section as allowing them to establish their own frost
+          line  depths.  However,  New  Jersey  has  only  two  designated  frost  line  depths:  36  inches  for  Northern  New
+          Jersey (NNJ) and 30 inches for Southern New Jersey (SNJ).
+     •    R301.2.3 Snow Loads. The 2024 IRC now references ASCE 7                         -22, which generally increased snow loads and
+          reduced the number of case studies. The 2021 IBC referenced ASCE 7                        -16.
+     •    R302.1  Exterior       Walls.    Section  R302.1  regulates  placement  of  buildings  relative  to  property  lines  and
+          establishes requirements for fire-resistant exterior walls, openings, and projections. For townhouses, the IRC
+          requires a fire-rated party wall between units, but when multiple units occupy a single lot, there may be no
+          actual lot line between them. The 2024 IRC clarifies this situation by requiring an imaginary lot line between
+          townhouse units when no actual lot line exists, particularly where units are staggered. In addition, wh                         en a new
+          dwelling  or  townhouse  is  built  on  the  same  lot  as  an  existing  one,  an  imaginary  property  line  must  be
+          positioned so that the existing building complies with the required fire separation and protection requirements
+          of Section R302.1.
+     •    R302.3.6 Shared Accessory Rooms. The new requirements establish fire- and smoke-separation provisions
+          for  shared  accessory  rooms,  similar  to  those  already  required  for  garages  in  the  IRC.  New  Table  R302.6
+          specifies the required separation from dwellings, attic spaces, other shared rooms, and habitable spaces. New
+          subsections include opening protection and penetration requirements.
+     •    R302.5.1 Opening Protection. This section addresses opening protection between a garage and the dwelling
+          unit. There is no change at the national level; however, New Jersey is removing its existing amendment that
+          deleted the requirements for self-latching and self-closing doors. As a result, doors between the garage and
+          dwelling unit must now be both self-latching and self-closing.
+     •    R302.13 Fire Protection of           Floors. This section includes a new exception where fire protection of floors is
+          not  required  for  wood  floor  assemblies  less  than  600  sq.  ft.  within  detached  accessory  structures  with  no
+          habitable space above them.
+
+
+
+
+                                                              (Continued on next page)
+
+===== Page 11 =====
+ Volume 38    Number 3    Fall 2026                                                                                                  ----Page 11
+
+
+                                                   (Significant Changes to the 2024 IBC and IRC)
+
+     •    R306.2.1 Elevation Requirements. In flood hazard areas including A Zones (not Coastal A Zones), there is a
+          new  condition  that  permits  the  floor  of  smaller  detached  accessory  structures  and  detached  garages  t                   o  be
+          below  the  design  flood  elevation.  Limitations  include:  used  only  for  parking  or  storage;  anchored  to  resist
+          flotation, collapse, or lateral movement; one story and not larger than 600 sq.ft.; equipped with flood openings;
+          and constructed with materials that meet FEMA TB                -2.
+     •    R309.1 Townhouse Automatic Fire Sprinkler Systems. Townhouse projects for which a construction permit
+          or  development  application  was  submitted  after  July  10th,  2024,  are  now  required  to  be  protected  by  an
+          automatic sprinkler system in accordance with P2904 or NFPA 13D.
+     •    R310.3.1 Installation Near Cooking Appliances. This section on smoke alarms has been revised to require
+          smoke alarms to be installed not less than 10 feet horizontally from a permanently installed cooking appliance.
+          A  new  exception  permits  smoke  alarms  to  be  installed  not  less  than  6  feet  from  cooking  appliances.  This
+          exception  recognizes  that  tiny  homes  and  small  accessory  dwelling  units  may  require  smoke  alarms  to  be
+          located  closer  to  cooking  appliances  in  order  to  comply  with  the  mandatory  locations  specified  in  Section
+          R310.3.
+     •    R315.1  Sleeping        Lofts.   The  code  now  includes  a  new  definition  and  provisions  for  sleeping  lofts.  Key
+          provisions state that the area must not exceed 70 sq. ft., the ceiling height must not exceed 7 feet, and it must
+          include a permanent means of egress. The new provisions allow flexibility of design for the means of egress
+          while maintaining a reasonable minimum standard of safety for these spaces.
+     •    R320  Handrails. The  2024 IRC  introduces a  new  Section R320, Handrails,  which consolidates all handrail
+          requirements into a single location. This new section moves requirements previously in the stairway and ramp
+          provisions. Establishing a dedicated section for handrails allows other sections of the IRC to reference Section
+          R320 rather than maintaining similar requirements with slightly different language throughout the code. The
+          new sentence at the end of Section R320.5 establishes a maximum limitation of a ¼-inch gap that may occur
+          between the end of a handrail and the adjacent surface when the handrail is returned toward a wall.
+     •    R330.4 Locations. This section establishes new opening protection requirements for energy storage systems
+          installed in enclosed utility closets, basements, storage spaces, or utility spaces within dwelling units.
+     •    R330.8 Protection from Impact. This section establishes prescriptive vehicle impact protection requirements
+          for energy storage systems. It introduces a new Figure R330.8.1, which illustrates the required clearances and
+          spacing when using either curbstops or bollards.
+     •    R405  Foundation         Drainage.      NJ  has  deleted  the  amendment  that  previously  deleted  Section  R405  and
+          replaced it  with IBC Section 1805 requirements for damp-proofing, waterproofing, and foundation drainage.
+          One notable change is a new exception to the foundation drainage requirements for foundations installed on
+          well-drained  ground  or  sand-and-gravel  mixture  soils  classified  as  Group  I  soils  in  accordance  with  Table
+          R401.4.1(2).
+     •    R502.11 Floor Framing Supporting Guards. The new Section addresses the structural support required for
+          guards,  ensuring  that  the  outward  and  downward  forces  on  a  guard  are  properly  transferred  into  the  floor
+          framing. It prohibits I-joists and trusses from being used as edge framing for guards unless the guard loads
+          are  specifically  considered  in  their  design.  The  section  provides  prescriptive  options  for  conventional  and
+          timber edge framing, including minimum framing sizes, roll bracing, and enhanced floor-sheathing connections
+          to prevent the floor edge from rotating.
+     •    R506.3.3 Vapor Retarder. The 2021 IRC increased the vapor retarder requirement for on ground concrete
+          floors to 10 mil and required Class A materials, based in part on ACI 302.1R. However, ACI 302.1R does not
+          specify an ASTM E1745 vapor retarder class, so the 2021 IRC went beyond the guide’s recommendations.
+          The 2024 IRC rolls back these changes, returning Section R506.3.3 to the same requirements found in the
+          2018 IRC, which is 6-mil.
+
+
+                                                             (Continued on next page)
+
+
+===== Page 12 =====
+Page 12                                                       ------------------------------------------------Construction Code Communicator
+
+
+                                                  (Significant Changes to the 2024 IBC and IRC)
+
+     •    R507.9.1.5 Ledger Flashing. The IRC has long required deck ledgers to be flashed, but it did not provide any
+          specific requirements for how the flashing was to be installed. This new section provides prescriptive flashing
+          methods, along with exceptions.
+     •    R702.7  Vapor      Retarders.      New  Exception  5  permits  omitting  a  vapor  retarder  in  Climate  Zones  4             –8  when
+          continuous insulation is installed with an R          -value greater than 4.5 in Climate Zone 4 and 6.5 in Climate Zone
+          5, in accordance with  new Table R702.7(5). However, footnote a.  limits the interior cavity  insulation to  R                          -5
+          unless an approved design is provided.
+     •    R703.3.1 Siding       Clearance at      Wall and     Adjacent     Surfaces. A new section requires vinyl siding to maintain
+          a clearance of not less than ½ inch from adjacent surfaces, such as decks, roofs, slabs, and foundations. It
+          also requires a minimum clearance of 6 inches from the ground, unless the manufacturer specifies otherwise.
+     •    Appendices.       This subcode adopts two new appendices. BL Hemp                     -Lime    (Hempcrete) Construction and BN
+          Extended Plate Wall Construction.
+
+
+Source: Adam Matthews
+          Code Assistance Unit
+          (609) 984-7609
+
+
+
+                                     Adult Changing Stations: 2024 IBC
+
+The 2024 International Building Code (IBC) introduces a new accessibility requirement that facility owners and code
+officials should be aware of: “adult changing stations.” While changing tables for infants and toddlers have become
+standard in many public restrooms, adults with disabilities who require assistance have had far fewer dignifi                          ed options,
+which are often limited to a restroom floor. Section 1110.4, Adult changing stations, addresses this gap by establishing
+the scoping requirements for where adult changing stations are required.
+
+Where Required
+
+According to Section 1110.4 of the 2024 IBC, not fewer than one adult changing station must now be provided in four
+categories of occupancies:
+
+     1.   Assembly  and  mercantile             occupancies  where  family/assisted-use  toilet  or  bathing  rooms  are  already
+          required under Section 1110.2.1;
+     2.   Group B occupancies offering education above the 12th grade, where an aggregate of 12 or more male and
+          female water closets serve classrooms and lecture halls;
+     3.   Group E occupancies, where an assembly-purpose room or space requires an aggregate of six or more male
+          and female water closets; and
+     4.   Highway rest stops and service plazas. More specifically, facilities accessible only from the highway, not
+          private businesses located nearby.
+
+Location and Design Requirements
+
+     •    Adult  changing  stations  must  be  located  in  toilet  rooms               with  only  one  water  closet  and  one  lavatory
+          (family/assisted-use rooms qualify).
+     •    The accessible route cannot require passing through a security checkpoint.
+     •    Travel distance is limited to 2,000 feet, and the station must be within two stories above or below the occupied
+          story, which is a longer allowance than the family/assisted-use toilet room standard, to limit how many large
+          stations must be installed.
+     •    Where voluntarily provided (even if not required), stations must still meet these same accessibility stan                       dards.
+
+
+                                                             (Continued on next page)
+
+===== Page 13 =====
+ Volume 38    Number 3    Fall 2026                                                                                               ----Page 13
+
+
+                                                       (Adult Changing Stations: 2024 IBC)
+
+Where to Find the Technical Requirements
+
+In case you missed it, the technical requirements (size, structural capacity, clearances) are NOT in the ICC A117.1                              -
+2017  standard  as  commonly  referenced.  Instead,  they  were  added  via  Supplement  1  to  A117.1                    -2017,  approved  in
+December 2023, which created a new “Section 613 ADULT CHANGING STATIONS” in the standard.
+
+
+Source: Keith Makai
+          Code Assistance Unit
+          (609) 984-7609
+
+
+
+                                                2024 IRC Door Closers
+
+This article explains that, under the 2024 International Residential Code (IRC), openings between a dwelling unit and
+an attached garage must be self         -latching and equipped with a self        -closing or automatic-closing device, as required by
+Section R302.5.1, Opening Protection.
+
+For background, this requirement was first established in the 2012 IRC, which New Jersey did not adopt. When New
+Jersey adopted the 2015 IRC, Section R302.5.1 was amended to delete the portion of the last sentence that required
+the opening to be “equipped with a self-closing device.” At the time, the Department determined that installing self-
+closing devices was prohibitively expensive and that the benefits did not outweigh the cost of compliance.
+
+However,  Section  R302.5.1  does  not  specify  a  testing  standard  or  particular  type  of  closing  device.  During  the
+Department’s review, we found that spring hinges can provide an affordable option where a surface                          -mounted closer is
+not used. In addition, the 2024 IRC added requirements for self-closing doors serving garages or rooms containing
+energy storage systems due to the increased fire hazards associated with these systems.
+
+Recognizing that garages, even those without energy storage systems, are increasingly being used to house electric
+vehicles and electric bicycles, the Department determined that applying the self-closing requirement consistently to all
+attached garages provides an appropriate level of protection and is a reasonable and affordable requirement for new
+construction.
+
+Inspectors  are  only  required  to  verify  that  the  door  closes  and  latches  without  intervention.  There  are  no  specific
+closing-speed or pounds-of-force requirements to enforce.
+
+So, yes, you can say that the Department is officially             closing the door on its previous amendment found in Section
+5:23-3.21(c)3ix.
+
+
+Source: Adam Matthews
+          Code Assistance Unit
+          609-984-7609
+
+
+
+                  Not All Fire-Retardant-Treated Wood Is Created Equal!
+
+The  Code  Assistance  Unit  has  recently  received  numerous  calls  about  using  fire               -retardant-treated  (FRT)  wood  to
+construct projections, such as exterior decks, on both one- and two-family homes regulated by the 2024 International
+Residential Code (IRC) and buildings regulated by the 2024 International Building Code (IBC). Although this article
+cites IRC code sections, note that the requirements for FRT are mirrored in IBC Section 2303.2.
+
+                                                            (Continued on next page)
+
+
+===== Page 14 =====
+Page 14                                                      ------------------------------------------------Construction Code Communicator
+
+
+                                              (Not All Fire-Retardant-Treated Wood is Created Equal)
+
+The  IRC  Section  R302,  Fire  resistance  rated  construction,  and  the  associated  Tabl                   e  R302.1(1),  Exterior  walls,
+requires projections, such as decks, with a fire separation distance of 2 feet to less than 5 feet to be constructed with a
+“1-hour fire rating on the underside [of framing members], constructed of heavy timber, or constructed of fire-retardant-
+treated wood.” Section R302.15, Fire-retardant-treated wood, provides the applicable testing, manufacturing process,
+labeling,  and  moisture  exposure  requirements  if  a  homeowner/architect  chooses  to  use  FRT  wood  to  satisfy  the
+requirements of Table R302.1(1).
+
+Section R302.15, Fire-retardant-treated wood, identifies FRT wood as “any wood product that, when impregnated with
+chemicals by a pressure process or other means during manufacture shall have, when tested to ASTM E84 or UL723,
+a listed flame spread index of 25 or less. In addition, the ASTM E84 or UL723 test shall be continued for an additional
+20-min period, and the flame front shall not progress more than 10.5 feet beyond the center line of burners at any time
+during the test.” Additionally, Section R302.15.1 requires fire-retardant-treated wood to be impregnated with chemicals
+by a pressure process under pressures of not less than 50 psig. As an alternative, Section R302.15.2, Other means
+during manufacture, allows for other treatment methods; however, the other treatment methods                             MUST be part of the
+manufacturing   process.         Paints,   coatings,   stains,   or   other   surface   treatments   applied   outside   of   the
+manufacturing process are not approved methods of protection.
+
+Section R302.15.4, Labeling, requires FRT wood to be provided with a label that identifies all the following:
+
+     1.   Identification mark of approved agency in accordance with Section 1705.5 of IBC.
+     2.   Identification of treating manufacturer
+     3.   Name of fire-retardant treatment
+     4.   Species of treated wood
+     5.   Flame spread and smoke-developed index
+     6.   Method of drying after treatment
+     7.   Conformance to applicable standards in accordance with Section R302.15.5 through Section R302.15.10
+     8.   FRTW exposed to weather, or a damp or wet location, the words “No increase in the listed classification when
+          subjected to the Standard Rain Test” (ASTM D2898)
+
+Of the required labeling listed above, code officials shall take note of items #7 and #8. Item #7 requires “conformance
+with applicable standards in accordance with Section R302.15.5 through Section R302.15.10. IRC Section R302.15.8,
+Exposure to weather, requires fire-retardant-treated wood exposed to weather or damp or wet locations to be identified
+as “EXTERIOR” to indicate no  increase in the  listed flame spread  index when                       subjected to ASTM D2898. Item #8
+requires that FRT wood exposed to weather or a damp or wet location shall be labeled with “No increase in the listed
+classification when subjected to the Standard Rain Test” (ASTM D2898). This label statement indicates that FRT wood
+will maintain its fire-retardant properties when exposed to moisture.
+
+
+When FRT wood is used inside a building, Section R302.15.9, Interior applications, requires that the FRT wood                                   not
+exceed 28 percent moisture content when tested per ASTM D32                     01 procedures at 92 percent humidity. That said, FRT
+at  all  exterior  locations  and  when  used  in  interior  locations  that  may  be  subject  to  humidity  levels  greater  than  92
+percent at any time are to be constructed of “Exterior” FRT wood.                     Once again, paints, coatings, stains, or other
+surface treatments applied outside the manufacturer's process are not acceptable methods of protection.
+
+
+Source: Ken Breese
+          Code Assistance Unit
+          (609) 984-7609
+
+
+
+
+
+
+
+
+
+
+===== Page 15 =====
+ Volume 38    Number 3    Fall 2026                                                                                              ----Page 15
+
+
+
+                                              2024 IBC and ASCE 7-22
+
+One of the most significant changes to the 2024 International Building Code (IBC) is the new corresponding ASCE 7-
+22  reference  standard.      For  background,  earlier  editions  of  ASCE  7  used  ground  snow  load  maps  based  on  older
+National  Weather  Service  data  collected  from  1952–1992.  These  maps  remained  largely  unchanged  from  1995
+through 2016 and included numerous “Case Study” areas where insufficient data required engineers to perform their
+own snow-load analyses. Note that the 2021 IBC referenced ASCE 7-16.
+
+The  2024  IBC  adopts  the  ASCE         7-22  snow  load  maps  and  references  ASCE  7-22  for  snow-load  design.  The  free
+ASCE Hazard Tool, which is also referenced in Bulletin 19-1, can be used to determine the applicable ground snow
+load based on location and risk category.
+
+ASCE  7-22  updates  the  snow  load  provisions  using  additional  snow  data,  updated  calculation  methods,  strength                      -
+design-based values, and improved mapping. These updates provide more consistent ground snow loads, reduce the
+number  of  Case  Study  areas,  particularly  in  mountainous  regi           ons,  and  help  address  differences  in  design  values
+across state boundaries.
+
+It is worth noting that the updated snow loads may be higher in some areas. The ASCE Hazard Tool can also be used
+to determine wind speeds, although the changes to wind speeds are generally less significant.
+
+
+Source: Adam Matthews
+         Code Assistance Unit
+         609-984-7609
+
+
+
+                  Generators Located Outdoors: Residential Setbacks
+
+All the requirements for this article can be found in National Fire Protection Association (NFPA) 37                       -2018. However, I
+believe  it’s  important  to  find  the  code  path  from  each  applicable  subcode  to  the  respective  reference  standard
+because, in this case, you won’t find a direct link to NFPA 37-2018 in the 2021 International Residential Code (IRC).
+
+The path from the IRC to NFPA 37-2018 is challenging, but nevertheless, the path does exist. Neither the 2021 IRC
+mechanical system requirements of chapters 12-24, nor the IRC fuel gas requirements of chapter 24 contain specific
+requirements for generators, but this is not a dead end. Both the mechanical section at Section M1301.1 and the fuel
+gas  section  at  Section  G2401.1  provide  similar  blanket  statements  that  appliances,  equipment,  systems,  etc.,  not
+specifically covered by the respective chapters, shall comply with the applicable provisions of the 2021 International
+Fuel Gas Code (IFGC) and/or the 2021 International Mechanical Code (IMC). IFGC Section 616 and IMC Section 915
+both reference NFPA 37-2018 for engine- and gas turbine-powered equipment.
+
+Now on to the requirements of NFPA 37-2018: “The Standard for the Installation and Use of Stationary Engines and
+Gas Turbines:  NFPA 37-2018 at Section 4.1.4.1 requires that an engine and its housing (enclosure) be located at
+least  5  feet  from  openings  and  at  least  5  feet  from  structures  with  combustible  walls.  Section  4.1.4.1  does  not
+distinguish between operable and fixed windows/openings. Therefore, a generator must be kept at least 5 feet from all
+openings regardless of the opening’s operability. The only exception to this                    rule is found at Section 4.1.4.1.1. This
+section permits clearances of less than 5ft if all portions of a structure (including openings) that are closer than 5 feet
+to the engine enclosure have a fire resistance rating of at least 1hr. Finally, the reduction permitted at Section 4.1.4.1.2
+for full-scale fire tests applies to combustible structures only and does not apply to openings.
+
+      The discipline responsible for plan review and inspection of the setbacks can be found at N.J.A.C. 5:23-3.4:
+
+
+
+
+                                                            (Continued on next page)
+
+
+===== Page 16 =====
+Page 16                                                        ------------------------------------------------Construction Code Communicator
+
+
+                                                    (Generators Located Outdoors: Residential   )
+
+
+                                         Code                                  Plan Review                      Final Inspection
+            New Construction             2021 IFGC Section 616                 Fire                             Fire
+
+
+                                         2021 IMC Section 915                  Fire                             Fire
+
+
+          Direct Replacement &           2021 IFGC Section 616                 Mechanical                       Mechanical
+            New Installation for
+            Existing Dwellings           2021 IMC Section 915                  Mechanical                       Mechanical
+
+
+
+
+Source: Keith Thedinga
+          Code Assistance Unit
+          (609) 984-7609
+
+
+
+                         Outdoor outlets, AC units, Ground Fault Protection,
+                                                    and the Rehab Subcode
+
+Since the adoption of the 2023 Nat           ional Electrical Code (NFPA 70), as adopted under N.J.A.C. 5:23                     -3.16, on August
+17, 2026, both the Office of Regulatory Affairs and the Code Assistance Unit have received countless calls regarding
+enforcement of Article 210.8(F), Outdoor outlets.             This particularly pertains to Exception No. 2 and its expiration, which
+required GFCI protection for the outlet supplying listed HVAC equipment. This exception was added to the 2020 NEC,
+carried over to the 2023 NEC, and then expired on September 1, 2026. NFPA did                           not extend this exception, at least at
+the time this article was printed.
+
+NEC Article 210.8 requires that a listed Class A GFCI shall provide protection in accordance with 210.8(A) through (F).
+The GFCI shall be  installed  in  a readily accessible  location. This charging text verifies that a Class A ground fault
+protection  device  SHALL  be  provided  for  ALL  receptacle  outlets,  outlets,  or  branch  circuits  as  necessary  in
+accordance with 210.8(A) through (F). For this Communicator, we are focused on Article 210.                              8(F), Exception No. 2.
+For context, the entire section states:
+
+          (F) Outdoor Outlets.
+
+          For  dwellings,  all  outdoor  outlets,  other  than  those  covered  in  210.8(A),  Exception  No.  1,  including  outlets
+          installed  in  the  following  locations,  and  supplied  by  single        -phase  branch  circuits  rated  150  volts  or  less  to
+          ground, 50 amperes or less, shall be provided with GFCI protection:
+
+                    (1) Garages that have floors located at or below grade level
+                    (2) Accessory buildings
+                    (3) Boathouses
+
+          If equipment supplied by an outlet c          overed under the requirements of this section is replaced, the outlet shall
+          be supplied with GFCI protection.
+
+          Exception  No.  1:       GFCI  protection  shall  not  be  required  on  lighting  outlets  other  than  those  covered  in
+          210.8(C).
+
+          Exception No. 2: GFCI protection shall not be required for listed HVAC equipment. This exception shall
+          expire September 1, 2026.
+
+                                                              (Continued on next page)
+
+===== Page 17 =====
+ Volume 38    Number 3    Fall 2026                                                                                                      ----Page 17
+
+
+                                    (Outdoor outlets, AC units, Ground Fault Protection,   and the Rehab Subcode    )
+
+Let’s first dissect the section as applied to listed            HVAC equipment installed outdoors: when the equipment’s outlet is
+supplied by a single      -phase branch circuit rated 150 volts or less to ground and 50 amps or less, it shall be provided
+with  GFCI  protection.  Article  210.18,  in  short,  states  the  rating  of  a  branch  circuit  is  determined  by  the  size  of  the
+overcurrent protection device, not the equipment rating nor the conductor size. As stated in the charging text of Article
+210.8, a listed Class A ground fault protection device is required;                 no other Class GFCI meets the requirement.
+
+This  article  only  applies  to  newly  installed,  not  replaced  outdoor  HVAC  equipment  in  either  new  dwellings,  new
+additions to dwellings, or new never          -existing equipment installed in existing dwellings.
+
+It  seems  possible  subcode  officials  and  inspectors  develop  amnesia  whenever  a  new  adoption  to  the  code  comes
+along, especially when applied to rehab projects. Before you all get upset, let me explain. N.J.A.C 5:23                             -6.1(a)1 states:
+
+          The  provisions  of  the  other  subcodes  of  the  Uniform  Co              nstruction  Code  do  not  apply  to  work  in  existing
+          buildings, changing the use of an existing building or work in an existing building related to an addition                             unless
+          the provisions of this subcode specifically reference them and make them applicable                           .
+
+What that means is Subchapter 6 is the starting point for all work in existing buildings, and Subchapter 3 subcodes do
+not apply unless directed “specifically by reference” in Subchapter 6, aka Rehab. Inspectors cannot simply open the
+NEC and point to Article 210         .8(F) on an HVAC replacement to tell the applicant they must comply.
+
+So, if rehab applies and is our compliance starting point, how can we cite Article 210.8(F) for new installations in an
+existing dwelling? Easy: when using the rehab subcode, the first thing to determine is the scope of work and which
+rehab category the work falls under, as defined in N.J.A.C. 5:23                     -6.3 Definitions. In this case, “the installation of any
+additional equipment or fixtures” determines that newly installed HVAC equipment is an                            alteration by definition.
+
+     •    N.J.A.C.  5:23-6.1(d)4  Alteration  work  must  also  comply  with  materials  and  methods  that  are  set  forth  in
+          N.J.A.C. 5:23-6.8.
+
+     •    N.J.A.C.  5:23-6.1(d)7  Certain  alterations  create  what  are  defined  to  be  new  building  elements.  There  is  a
+          specific listing of those items that are to be treated as newly created building elements, which can be found in
+          N.J.A.C. 5:23-6.9. The elements on that list are required to conform to certain specific sections of the other
+          subcodes of the Uniform Construction Code. The sections with which each newly constructed element must
+          comply are listed in N.J.A.C. 5:23-6.9. Any alteration which creates one of the elements listed in that section
+          must comply with the specific requirements listed in N.J.A.C. 5:23-6.9.
+
+     •    N.J.A.C.     5:23-6.9(c)2      Newly   installed   (not   replacing   an   existing   device)   heating,   air   conditioning   or
+          refrigeration equipment likely to require examination, adjustment, servicing or maintenance shall conform with
+          the  requirements  at  N.J.A.C.  5:23-6.8,  Materials  and  methods, and,  in  addition,  shall  conform  with  Section
+          210.63(A)  Heating,  Air  Conditioning,  and  Refrigeration  Equipment  Outlet  and,  if  newly  installed  in  an  attic,
+          underfloor space, utility room or basement, 210.70 Lighting Outlets Required, as applicable, of the electrical
+          subcode.
+
+Now that we have a path of enforcement, we can look at N.J.A.C. 5:23-6.8, Methods and materials, and can determine
+that Article 210.8(F) is not deleted and is part of our scope of work, as we are installing a new, never-before-installed
+outlet for outdoor HVAC equipment therefore, Class A ground fault protection shall be required.
+
+But  wait...  the  methods  and  materials  section  doesn’t  delete  Article  210.8(F),  and  N.J.A.C.  5:23-6.1(c)4  also  says
+renovation work must comply with N.J.A.C. 5:23-6.8, Methods and Materials, so I can still cite Article 210.8(F) for the
+replacement of an outdoor HVAC unit! How about that, Regulatory Affairs and Code Assistance? You are wrong; I win
+this time!
+
+
+
+
+
+                                                               (Continued on next page)
+
+
+===== Page 18 =====
+Page 18                                                         ------------------------------------------------Construction Code Communicator
+
+
+                                    (Outdoor outlets, AC units, Ground Fault Protection,   and the Rehab Subcode    )
+
+Well,  there,  licensed  code  official,  you  are  forgetting  something.  According  to  N.J.A.C.  5:23                     -6.8(a),  the   following
+requirements shall be met for materials and installation methods for all items that are part of the applicant's proposed
+project for all categories of work other than repair as defined in N.J.A.C. 5:23                    -6.3. Do you see the underlined part that
+says requirements shall be met for all items that are part of the applicant's pr                    oposed part of work? When the applicant
+is  simply  replacing  the  HVAC  equipment,  they  are  neither  newly  installing,  replacing,  nor  renovating  the  "outlet”
+supplying the HVAC equipment; therefore, Article 210.8(F) still does not apply.
+
+But  wait,  DCA:  they  replaced  the  outdoor  disconnect  and  whip  with  new,  clean,  shiny  stuff,  so  they  renovated!
+Respectfully, Mr./Mrs. Code official, I would categorize that work as meeting the definition of Repair under N.J.A.C.
+5:23-6.3, which reads: "means the restoration to                a good or sound condition of materials, systems and/or components
+that  are  worn,  deteriorated  or  broken  using  materials  or  components  identical  to  or  closely  similar  to  the  existing."
+Also, repairs are not required to comply with Methods and materials section 6.8.
+
+Again, the applicant is not specifically directed anywhere in the rehab subcode that, when replacing, renovating, or
+repairing the outlet, they are required to comply with NEC Article 210.8(F).                      Lastly, per N.J.A.C. 5:23-6.4(c) and 6.5(c),
+repairs and renovations did not make the work less code-compliant than it was before the permit application or start of
+work. Let's stop requiring contractors and homeowners to install items that rehab does not require and driving up costs
+that are not justified by code.
+
+
+Source: Mike Szwed
+          Office of Regulatory Affairs
+          (609) 984-7609
+
+
+
+             Tyco Fire Sprinklers Recall: Sprinklers that Can Fail in a Fire
+
+Although identifying buildings affected by the recall will fall mostly within the purview of fire officials                         licensed through
+the Division of Fire Safety (DFS), fire protection subcode officials should still be aware of this recall. Replacing these
+sprinklers  qualifies  as  renovation  work  as  defined  at  N.J.A.C.  5:23              -6.3;  this  renovation  work  would  be  considered
+ordinary maintenance under N.J.A.C. 5:23-2.7 and would therefore not require a permit. However, a DFS-certified fire
+protection contractor is still required to perform the sprinkler work. Additionally, as always, the fire protection subcode
+official must notify the fire official of any planned sprinkler work that will impair the sprinkler system for an extended
+period so the fire official can implement a fire watch before the impairment.
+
+More about the recall as found on the U.S. Consumer Product Safety Commission website:
+
+          “Washington,  D.C.        – The  U.S.  Consumer  Product  Safety  Commission  (CPSC)  and  Tyco  Fire  Products  LP
+          (Tyco Fire) are alerting the public again about serious, potentially fatal fire                  -safety hazards posed by the failure
+          to  replace  previously       recalled  Central  Sprinkler  fire  sprinkler  heads  that  may  still  be  installed  in  homes,
+          residential facilities, and commercial buildings across the United States.
+
+The affected sprinklers, manufactured from the  mid-1970s to June 2001, were originally recalled in July 2001. The
+recall was subsequently modified in May 2003 and closed on August 31, 2007, after millions of sprinkler heads were
+replaced. Minerals, salts, and other contaminants in water can degrade the rubber O                           -ring seals, which may cause the
+sprinkler  heads  to  fail  to  activate  during  a  fire.  Despite  a  multi-year  remediation  effort  and  National  Fire  Protection
+Association standards requiring annual, 5-year, and 20-year inspections, testing, and maintenance of fire suppression
+systems, many unremediated recalled sprinklers may remain in service, potentially posing hazards to consumers.
+
+On  July  13,  2025,  a  fire  occurred  at  an  assisted  living  facility  in  Fall  River,  MA.  The  fire  claimed  the  lives  of  ten
+residents  and  injured  dozens  more.  The  facility  had  not  replaced  dozens  of  recalled  sprinkler  heads,  despite
+identification  during  a  prior  fire-safety  inspection.  The  fire  underscores  the  need  to  remind  facilities  of  the  dangers
+posed by unremediated sprinklers and encourage remediation wherever recalled units are still in use.
+
+
+                                                               (Continued on next page)
+
+===== Page 19 =====
+ Volume 38    Number 3    Fall 2026                                                                                                      ----Page 19
+
+
+                                            (Tyco Fire Sprinklers Recall: Sprinklers that Can Fail in a Fire)
+
+CPSC and Tyco Fire are strongly urging all consumers, businesses, property managers, and governmental entities to
+take the following steps:
+
+
+     •    Inspect all building fire sprinklers immediately to determine whether any units are subject to the recall.
+     •    Replace all recalled sprinklers using a qualified fire            -protection professional.
+     •    Review  historical  maintenance  records  to  confirm  whether  recalled  units  were  previously  identified  and
+          removed.
+     •    Alert   building   managers,   HOAs,   facility   administrators,   schools,   hospitals,   nursing   homes,   and   any
+          organization responsible for older structures or vulnerable populations.
+
+This campaign reflects CPSC and               Tyco Fire's ongoing commitment to ensuring fire safety and protecting the public
+from hazardous recalled products.
+
+For further information, please visit        www.tyco-fire.com/Central-Sprinkler-O-Ring-Notice.
+
+
+Source: Keith Thedinga
+          Code Assistance Unit
+          (609) 984-7609
+
+
+
+
+
+
+
+
+
+     New Jersey Department of Community Affairs                                                                                    BULK RATE
+     Division of Codes and Standards                                                                                              US POSTAGE
+
+     101 South Broad Street                                                                                                           PAID
+     P.O. Box 802                                                                                                                 PERMIT NO.
+     Trenton, NJ 08625-0802                                                                                                          XXXXX
+
+
+                                                       FIRST-CLASS MAIL
+
+
+
+
+
+
+
+                                                                         Mail to:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

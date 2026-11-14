@@ -1,0 +1,2843 @@
+
+
+===== Page 1 =====
+                               METERING INSTALLATION REQUIREMENTS
+                                     Table of Contents - Section 300
+PARAGRAPH                                                                                    PAGE
+300.0   METERING AND SERVICE ENTRANCE EQUIPMENT ……………………………………………………………                          1
+    300.1       GENERAL …………………………….………………………………………………………………………                                  1
+    300.2       METERED AND UNMETERED CONDUCTORS …………………………………………………………                          1
+    300.3       SEALING OF METERS AND METERING EQUIPMENT ……………….….……………………………                    1
+    300.4       UNACCEPTABLE EQUIPMENT IN SEALED AREAS .………………………………………………….                     2
+301.0   METER LOCATION REQUIREMENTS .………………………….………………………………………………….                             3
+    301.1       METER AND SERVICE LOCATIONS .…………………………………………………………………….                         3
+    301.2       PLANNING AND GROUPING FOR ADDITIONAL METERS ……………………………………………                    3
+    301.3       METER LOCATIONS – RESIDENTIAL ……………………………………………………………………                         3
+    301.3-1     METER LOCATIONS - FACTORY-BUILT BUILDINGS/HOMES .………………………………………                 3
+    301.3-2     RESIDENTIAL SERVICE - SINGLE DWELLING METER LOCATIONS ………………………………               4
+    301.4       METER LOCATIONS - RESIDENTIAL MULTI-FAMILY BUILDINGS .…………………………………              5
+    301.5       METER LOCATIONS - COMMERCIAL AND INDUSTRIAL .……………………………………………                   5
+    301.6       UNACCEPTABLE METER LOCATIONS .…………………………………………………………………                          5
+    301.7       WORKING SPACE (600 volts or less) .……………………………………………………………………                    6
+    301.8       BARRICADE/BARRIER POSTS .…………………………………………………………………………                            9
+    301.8-1     BARRIER POSTS FOR EQUIPMENT WITHOUT DOORS ............................................................... 10
+    301.8-2     BARRIER POSTS FOR EQUIPMENT WITH ONLY ONE DOOR ..................................................... 10
+    301.8-3     BARRIER POSTS FOR EQUIPMENT WITH MORE THAN ONE DOOR ......................................... 12
+    301.9       METER ROOM REQUIREMENTS …………………………………………………………………………                             13
+    301.9-1     UNACCEPTABLE EQUIPMENT IN METER ROOMS .…………………………………………………..                     17
+    301.9-2     METER ROOM VENTILATION .…………………………………………………………………………….                           17
+    301.10      LOCK BOX LOCATION .…………………………………………………………………………………….                             17
+    301.11      RESIDENTIAL ELECTRIC METER CLOSET REQUIREMENTS ……………...………………………                 18
+    301.11-1    RESIDENTIAL ELECTRIC METER CLOSET REQUIREMENTS ………………………………………                   19
+    301.12      MAIN SWITCH LOCATION …………………………………………………………………………………                             20
+    301.13      METER AND MAIN SWITCH SEQUENCE ..………………………………………………………………20
+    301.14      TYPICAL SEMI-FLUSH INSTALLATION .…………………………………………………………………                       20
+    301.15      ELECTRIC METER SEPARATION BETWEEN, GAS METER, AND FUEL SOURCES ................... 21
+    301.15-1    ELECTRIC, WATER AND GAS METER SEPARATION ……………...…………………………………                   21
+    301.15-2    ESTABLISHING GAS CLEARANCES DURING CONSTRUCTION …………………………………… 22
+    301.15-3    REQUIRED SEPARATION FROM FUEL SOURCES ……………………………………………………                       23
+    301.16      ROLL-UP DOORS ……………………………………………………………………………………………                                24
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 ELECTRIC SERVICE REQUIREMENTS                                300
+        REVISION                                                                              PAGE
+        05/15/2024                           METERING                                          A
+
+===== Page 2 =====
+PARAGRAPH                                                                                     PAGE
+302.0   SPECIAL CONSIDERATIONS …………………………………………………………………………………………                                 25
+    302.1       METER AND SERVICE LOCATION LABELING IDENTIFICATION BY
+                CUSTOMER ………………………………………………………………................................................ 25
+    302.1-1     SERVICE IDENTIFICATION .……………………………………………………………………………….                           26
+    302.2       METER HEIGHT .…………………………………………………………………………………………….                                26
+    302.3       MAIN SWITCH .……………………………………………………………………………………………….                                26
+    302.3-1     MULTIPLE SERVICE DISCONNECTS (Two to Six) .…………………………………………………….                  27
+    302.4       FOREIGN DEVICES IN SEALABLE CABINETS …………………………………………………………                       28
+    302.5       METER SOCKET ENCLOSURES …………………………………………………………………………                              28
+    302.6       PROPER INSTALLATION OF COUPLINGS AND GUTTERS .…………………………………………                    28
+    302.7       TERMINATIONS OR LUGS FURNISHED BY APS (Underground) ……………………………………                28
+    302.8       SECURED IN PLACE (S.E.S.) .…………………………………………………………………………….                         28
+    302.9       REQUIRED APPROVAL FOR METERING IN SERVICE EQUIPMENT ………………………………                  28
+    302.10      EUSERC - ELECTRIC UTILITY SERVICE EQUIPMENT REQUIREMENTS COMMITTEE .……….          29
+    302.11      SERVICE ENTRANCE SECTION …………………………………………………………………......….                        29
+    302.12      OVERHEAD RISER AND BUS DUCT RISER REQUIREMENTS .…………………………………….                   29
+    302.13       (RESERVED) ……………..............................................................................................…………….29
+    302.14      METER TYPES USED ON APS SYSTEM .……………………………………………………………….                         29
+303.0   SELF-CONTAINED METERING .………………………….………………………………………………………….                               30
+    303.1       EQUIPMENT FURNISHED AND INSTALLED BY APS - STANDARD OFFER
+                CUSTOMERS ONLY .……………………………………………………………………………………….                                30
+    303.2       EQUIPMENT FURNISHED AND INSTALLED BY THE CUSTOMER …………………………………                   30
+    303.3       SELF-CONTAINED SOCKET RATINGS ………………………………………………………………….                          30
+    303.4       SOCKET ENCLOSURES ..………………………………………………………………………………….                              30
+    303.5       METER SOCKET CLOSING DEVICES .…………………………………………………………………..                         30
+    303.6       SAFETY TEST BLOCKS ……………………………………………………………………………………                               31
+    303.6-1     SINGLE-PHASE SAFETY TEST BLOCK INSTALLATIONS ……………………………………………                    31
+    303.6-2     THREE-PHASE SAFETY TEST BLOCK INSTALLATIONS …………………………………………….                    31
+    303.7       HIGH LEG LOCATION (3ø 4W DELTA SERVICE) ………………………………………………………                     31
+    303.8       CONNECTION DIAGRAM FOR SELF CONTAINED METER SOCKETS - DWG #G1 .……………..            32
+    303.9       TYPICAL MULTI METERING ARRANGEMENTS - DWG#G2 …………………………………………                     33
+    303.10      TYPICAL UNDERGROUND SERVICE TERMINATIONS ARRANGEMENTS - DWG #G3 …………              34
+    303.11      SAFETY-SOCKET BOX WITH TEST BY-PASS FACILITIES FOR MULTIPLE SELF-CONTAINED
+                METER INSTALLATION -DWG #G4 ……………………………………………………………….……..                         35
+    303.12      MULTI METERING AND SERVICE FOR SPEC BUILDINGS ………………………………................        36
+    303.13      MOBILE HOME & TEMPORARY METER PEDESTAL - 1Ø 3 WIRE 120/240 VOLT SERVICE ..….      37
+    303.14      120 VOLTS 1Ø 2 WIRE - METERING PEDESTAL………….................……………………………….         38
+
+
+
+
+
+
+
+
+
+
+
+                                 ELECTRIC SERVICE REQUIREMENTS                                 300
+        REVISION                                                                              PAGE
+        05/15/2023                           METERING                                           B
+
+===== Page 3 =====
+
+
+===== Page 4 =====
+300.0        METERING AND SERVICE ENTRANCE EQUIPMENT
+________________________________________________________________________________________________
+
+300.1        GENERAL
+             All meter and service equipment installations shall comply with the service requirements of APS and with
+             rules and regulations of the inspection authorities having jurisdiction. All meter sockets and enclosures shall
+             be listed and approved by a recognized testing lab.
+            If any question arises for which you cannot find the answer in the following pages, it is suggested that you call
+             APS for further information. See Pages “B” and “C” in the front of this manual for telephone numbers and
+             addresses of local APS offices.
+             Whenever any electrical wiring for service connection is installed whether regulated by inspection authorities
+             or not, provision shall be made for the installation of metering equipment. It shall comply with these service
+             requirements except when existing metering equipment, in the opinion of APS, is satisfactory and adequate
+             to register all current to be supplied.
+             Whenever one meter registers the electricity supplied to two or more single family residential occupancies, it
+             will be considered a non-residential installation for the purpose of these requirements.
+             When a Customer does his own wiring, he will be considered the electrical contractor for the purpose
+             of these requirements.
+________________________________________________________________________________________________
+
+300.2        METERED AND UNMETERED CONDUCTORS
+             Line side (unmetered) and load side (metered) conductors shall not occupy the same raceway or
+             enclosure. Exception: Meter socket and current transformer enclosures.
+________________________________________________________________________________________________
+
+300.3        SEALING OF METERS AND METERING EQUIPMENT
+             All meters, meter facilities and all points of access to unmetered wiring on the Customer’s premise
+             shall be sealed by APS. All cabinets, conduit fittings and equipment enclosures containing unmetered
+             conductors shall be made sealable by the Customer before service will be energized. The breaking of
+             seals and tampering with meters or unmetered wiring by unauthorized persons is prohibited and
+             subject to penalty of the law. (See Section 100, Paragraph 100.17).
+             Stud and wing-nut assembly, or sealing screws shall be used for sealing all removable panels and covers to
+             compartments used for routing or terminating unmetered conductors.
+             When a stud and wing-nut assembly is used for sealing, the stud shall be 1/4” x 20 (minimum). The stud and
+             wing nut shall each be drilled .0635” (minimum) for sealing purposes.
+             All sealing screws shall be drilled .0635” (minimum) for sealing purposes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                              ELECTRIC SERVICE REQUIREMENTS                                                        300.0
+           REVISION                                                                                                                PAGE
+           05/10/2021                                          METERING                                                               1
+
+===== Page 5 =====
+300.4     UNACCEPTABLE EQUIPMENT IN SEALED AREA
+
+
+
+        APS  AND  INDUSTRY    POLICY  SPELLS   OUT  THAT  NO  "CUSTOMER"    RELATED   EQUIPMENT
+        BE  ALLOWED    IN THE  SEALABLE   (METERING)   AREA  OF  ANY  SERVICE   ENTRANCE    GEAR.
+        ALL  SUCH   EQUIPMENT     SHALL   BE  INSTALLED   IN THE  NON-SELED     PORTION   OF  THE
+        SERVICE      ENTRANCE       EQUIPMENT.      EXAMPLE:      LOAD     CONTROL      CURRENT
+        TRANSFORMERS       MUST   BE  IN THE  NON-SEALED     AREA   OF  THE  SERVICE   ENTRANCE
+        GEAR.
+
+
+
+                                                        CUSTOMER
+                                                          PANEL
+
+                                                  CUSTOMER CT's
+
+
+                  METER
+              COMPARTMENT
+                 SEALABLE
+
+
+
+
+
+                                     120 / 240
+                                    VOLT UG
+                                    SERVICE
+                                      PULL
+                                    SECTION
+                                    SEALABLE
+
+
+
+                                        ACCEPTABLE CUSTOMER
+                                          EQUIPMENT LOCATION
+
+
+
+
+
+
+
+
+                                                               3/4"    2-1/2"
+
+
+
+                     1-1/4"
+
+
+
+                       * CURRENT TRANSFORMER DIMENSIONS
+                       * THESE ARE GENERAL DIMENSIONS OF CURRENT
+                       TRANSFORMERS AVAILABLE WITH EXISTING DEMAND
+                       CONTROLLERS. THERE MAY BE NEW UNITS IN THE FUTURE
+                       THAT WILL NOT CONFORM TO THESE DIMENSIONS.
+
+                                          TYPICAL 100 - 200 AMP
+                                 ALL IN ONE METER CAN - RESIDENTIAL
+
+
+
+
+                                     ELECTRIC SERVICE REQUIREMENTS                                      300.4
+         REVISION                                                                                       PAGE
+         05/10/2021                               METERING                                                2
+
+===== Page 6 =====
+301.0        METER LOCATION REQUIREMENTS
+________________________________________________________________________________________________
+
+301.1        METER AND SERVICE LOCATIONS
+             APS reserves the right to determine all meter and service locations. Only authorized APS personnel
+             shall determine these locations. See Section 100, Paragraph 102.20 and Section 200, Paragraph 200.0.
+________________________________________________________________________________________________
+
+301.2        PLANNING AND GROUPING FOR ADDITIONAL METERS
+             Occasionally there is a need to locate and install additional service and metering equipment after the
+             originally planned electric service for a building is installed and energized.
+             The additional meters must be grouped with those already in services, and be installed in accordance with
+             the established meter location plan for the building.
+             The added service equipment must be located and installed in conformance with applicable codes, laws, and
+             ordinances of the inspection authority having jurisdiction, and with the requirements of this Service
+             Requirements Manual.
+________________________________________________________________________________________________
+
+301.3        METER LOCATIONS - RESIDENTIAL
+             For single family residential buildings, meters and metering equipment shall be installed:
+             a. Outdoors and mounted on or recessed in an exterior building wall, but not under a carport, breezeway,
+                patio, porch, or in any area that can be enclosed, or
+             b. Outdoors in a meter pedestal or service entrance section, but not under a carport, breezeway, patio,
+                porch, or in any area that can be enclosed, or
+             c. In a room within the building, approved by APS, for the location of electric meters, and with access only by
+                a door opening to the outside of the building. See Paragraph 301.9 for meter room requirements.
+            In addition, the meter area must be readily accessible (See Section 100, Paragraph 102.20) without requiring
+             passage through restricted private areas, gates or fences. See next page for acceptable meter locations for
+             single family residences. The meter and main switch shall be installed next to each other on the same
+             wall. See Paragraph 301.13.
+             NOTE: See Section 500, Paragraph 506.6-1 for requirements for mobile home pedestals.
+________________________________________________________________________________________________
+
+301.3-1      METER LOCATIONS - FACTORY-BUILT BUILDINGS/HOMES
+             Factory-built buildings and homes (FBBs) shall meet the following requirements before meters and metering
+             equipment can be mounted on the building:
+            1.  FBBs shall be secured on a permanent foundation (Type E) per HUD Permanent Foundations Guide for
+                Manufactured Housing - December 1996 and requirements of the authority having jurisdiction.
+             2. The trailer tongue, axles and wheels shall be removed.
+             3. The meter panel shall meet all APS requirements.
+             4. Service entrance equipment attached to FBB’s shall be completely installed by the manufacturer of the
+                structure.
+             5. Meter location shall be per Paragraphs 301.3 or 301.5.
+             6. For overhead applications refer to Section 400.
+             7. For underground applications refer to Section 500.
+             NOTE: If the above requirements #1 - #3 are not met, a meter pedestal shall be required.
+
+
+
+
+
+
+
+
+                                              ELECTRIC SERVICE REQUIREMENTS                                                         301.0
+            REVISION                                                                                                               PAGE
+           05/10/2021                          METER LOCATION REQUIREMENTS                                                            3
+
+===== Page 7 =====
+ 301.3-2    RESIDENTIAL SERVICE - SINGLE DWELLING METER LOCATIONS
+           APS RESERVES THE RIGHT TO DETERMINE ALL METER AND SERVICE LOCATIONS.
+
+             1.THE   METER    AND   MAIN   SWITCH    SHALL   BE  ACCESSIBLE     FOR   READING    AND   MAINTENANCE
+               WITHOUT PASSING THROUGH RESTRICTED AREAS, GATES, OR FENCES.
+             2.ALL   METER   AND   MAIN   SWITCHES     SHALL   BE  LOCATED    THREE    FEET   MINIMUM    TO  SIX  FEET
+               MAXIMUM     ON  THE  FRONT    CORNER    OF  A RESIDENCE,     NEAREST    TO  THE  POINT   OF  AVAILABLE
+               SERVICE,   AS  DETERMINED     BY APS ON   AN  EXTERIOR    WALL   OR ALTERNATE LOCATION        (SUBJECT
+               TO  LOCAL   INSPECTION    AUTHORITY),    BUT  NOT  UNDER   A CARPORT,    BREEZEWAY,     PATIO,  PORCH,
+               OR OTHER AREA THAT CAN BE ENCLOSED WITH BUILDING EXPANSION OR FENCE.
+             3.THE   ELECTRIC    METER   AND   MAIN  SWITCH    "MAY  BE"  INSTALLED    AT AN  ALTERNATE     LOCATION
+               NOT   ATTACHED    TO  A DWELLING    TO  ENSURE    ACCESSIBILITY.    (SUBJECT   TO  LOCAL   INSPECTION
+               AUTHORITY APPROVAL)
+             4.IF OVERHEAD SERVICE IS AVAILABLE IN THE REAR OF THE PROPERTY (ALLEY OR EASEMENT)
+               THE POINT OF ATTACHMENT MAY BE ON THE REAR OF THE RESIDENCE. THE METER & MAIN
+               DISCONNECT SHALL BE LOCATED PER ITEMS #1 & #2 ABOVE. IT IS THE CUSTOMER'S
+               RESPONSIBILITY TO INSTALL CONDUIT AND WIRING BETWEEN THE METER LOCATION AND THE
+               POINT OF ATTACHMENT. THE CONDUIT SHALL BE LOCATED ON THE EXTERIOR OF BUILDING IN
+               ITS ENTIRETY.
+            5. WHEN REMODELING EXISTING RESIDENCES, CHECK WITH LOCAL APS OFFICE.
+            6. SERVICE ENTRANCE EQUIPMENT SHALL BE UTILIZED FOR ITS INTENDED PURPOSE.
+
+                               REAR        ACCEPTABLE METER LOCATIONS                REAR
+
+                         PROPERTY LINE                                          PROPERTY LINE
+
+
+
+
+
+                                                     FENCE
+     FENCE
+
+                                                              FENCE                                        FENCE
+                   3' MIN.
+                   6' MAX.
+
+
+
+                           GARAGE/CARPORT
+                                                           SES/METER
+                                   FRONT                   FENCE
+                              PROPERTY LINE
+
+                    STREET                                        STREET          ALTERNATE
+                                                                                   LOCATION
+                                                                                  6' X 6' AREA
+
+            METER LOCATION - BUILDING MOUNTED                METER LOCATION - SERVICE PEDESTAL NOTE: 3'
+                 SERVICE ENTRANCE SECTION                     MINIMUM CLEARANCE REQUIRED AROUND ALL
+                                                                    SIDES OF THE SERVICE PEDESTAL.
+
+
+301.4      METER LOCATIONS - RESIDENTIAL MULTI-FAMILY BUILDINGS
+          1.   Meters and metering equipment shall be installed:
+               a. Outdoors and mounted on or recessed in an exterior building wall with vehicle access (see ESRM
+                  103.8), or
+               b.  In a room within the building, approved by APS for the location of electric meters, and with access
+                  only by a door opening to the outside of the building.  See Paragraph 301.9 for meter room
+                  requirements.
+
+                                        ELECTRIC SERVICE REQUIREMENTS                                          301.3-2
+           REVISION                                                                                             PAGE
+           11/15/2025                             METER LOCATION                                                  4
+
+===== Page 8 =====
+301.4        METER LOCATIONS - RESIDENTIAL MULTI-FAMILY BUILDINGS (CONTINUED)
+
+             2.    Meters and metering equipment shall not be installed within any residential occupancy.
+             3.    Before meters can be installed in multiple residential panels, each individual meter socket must be
+                   permanently and clearly identified. See Meter Identification, Paragraph 302.1.  Permanently affixed
+                   identification tags are also required on all apartment/condo doors and buildings.
+________________________________________________________________________________________________
+
+301.5        METER LOCATIONS - COMMERCIAL AND INDUSTRIAL
+             1.    Location of metering to be approved by the Electric Meter Shop prior to construction.
+             2.    For single occupancy non-residential and industrial buildings, meters and metering equipment shall be
+                   installed:
+                   a.  Outdoors and mounted on an exterior wall with vehicle access (see ESRM 103.8), or
+                   b.  Within a meter room inside the building on the first floor (see Definitions, Section 100, Paragraph
+                       102.12) and with access only by a door opening to the outside of the building with vehicle access.
+                       See Paragraph 301.9 for meter room requirements.
+             3.    For multiple occupancy buildings meters and metering equipment shall be located per above Number 2a
+                   or 2b, and shall be grouped in one readily accessible central location, accessible to all occupants.  Meter
+                   sockets must be permanently and clearly identified.  See Meter Identification, Paragraph 302.1.
+             4.    In large multiple occupancy buildings, extensive shopping centers or buildings, APS may, at it’s option,
+                   establish more than one meter location for groups of individual meter facilities. Consult APS prior to
+                   construction for approval of service plans.
+             5.    Service stations - the meter location shall be located such that it is a minimum of twenty (20) feet clear of
+                   any gas pump and ten (10) feet clear of any gas storage tank fill spout and/or vent.
+________________________________________________________________________________________________
+
+301.6        UNACCEPTABLE METER LOCATIONS
+             For reasons of public safety, maintenance of service equipment, and reliability of metering, meters shall not
+             be installed in any of the following locations:
+             1.    Inside any building, unless located within an acceptable meter room. See Paragraph 301.9.
+             2.    In any location not readily accessible. See Section 100, Paragraph 102.20.
+             3.    In any substation or transformer vault.
+             4.    In any location which may be hazardous to personnel.
+             5.    On any surface subject to excessive vibration.
+             6.    In or accessed through any rest, bath, shower, powder, or toilet room.
+             7.    In any elevated area.
+             8.    In any location not providing a clear and continuously unobstructed working space extending a minimum
+                   of three (3) feet from the face of the meter panel, and having a width to permit ready access to the
+                   complete metering installation. See Working Space, Paragraph 301.7.
+             9.    In any location where moisture, fumes, or dust may interfere with the operation of the meter, or materially
+                   damage it.
+             10.   In any location giving less than three feet clearance to any property line, or with less than three feet
+                   clearance to any sidewalk, alley or driveway giving access to non-residential or industrial property.
+             11.   In any basement or depressed area.
+             12.   Within carport or patio areas which are or can become enclosed, when served Overhead or
+                   Underground.
+             13.   Mounted on APS poles.
+             14.   In a room containing mechanical equipment.
+             15.   In any elevator shaft or hatchway.
+             16.   Mounted on any trees.
+             17.   In any unsanitary areas in reference to farm animals and products.
+             18.   In a plenum or any portion of a return or supply air ducting system.
+             19.   In a drive-thru area (ex: fast food restaurants, drug stores, banks, etc.).
+             20.   In any location not providing adequate APS vehicle access when required (see ESRM 103.8).
+             NOTE:  If an existing meter panel has had the meter removed for more than 6 months and the panel is in an
+             unacceptable location, the customer is required to move the panel to a location that complies with all
+             applicable ESRM requirements prior to APS reconnecting the service.
+
+
+
+
+                                                ELECTRIC SERVICE REQUIREMENTS                                                            301.4
+            REVISION                                                                                                                     PAGE
+            11/15/2025                                      METER LOCATION                                                                 5
+
+===== Page 9 =====
+    301.7      WORKING SPACE (600 VOLTS OR LESS)
+
+               NOTES:
+
+              1.  TO PERMIT   ACCESS    TO THE  METERING    INSTALLATIONS     AND  PROVIDE   SAFETY   FOR  PERSONNEL,
+                  A WORKING    AND  STANDING    SPACE   ENTIRELY   ON  THE  PROPERTY     OF  THE  CUSTOMER     SHALL  BE
+                  PROVIDED IN FRONT OF ALL METERING EQUIPMENT.
+
+               2. WORKSPACE     SHALL   BE  CLEAR  OF  OBSTRUCTIONS,     INCLUDING    A/C UNITS  AND   PIPING  SYSTEMS
+                  AND  SHALL   HAVE   A SLOPE    TO  PROVIDE   DRAINAGE    AWAY    FROM   THE  METERING     EQUIPMENT.
+                  MAXIMUM SLOPE ALLOWED        IS 1 INCH  IN 3 FEET.  THERE  SHALL   BE 10" MINIMUM HORIZONTAL AND
+                  9" MINIMUM    VERTICAL    CLEARANCES      FROM   THE   CENTER    OF  THE   METER    SOCKET    TO  ANY
+                  OBSTRUCTION.     WHEN   THE  PANEL   WIDTH   IS LESS THAN   36", THE CLEAR   WORKING    SPACE   SHALL
+                  BE 18" MINIMUM   HORIZONTALLY     FROM   THE   CENTER   OF  PANEL.   IN ALL CASES   THE  HORIZONTAL
+                  CLEARANCE     SHALL  BE  THE  GREATER    OF  EITHER   THE  10" MINIMUM   FROM   THE  CENTER    OF  THE
+                  METER SOCKET TO ANY OBSTRUCTION OR 18" MINIMUM FROM CENTER OF PANEL CLEARANCE.
+
+               3. REFER   TO   TABLE   301.7  FOR   MINIMUM    WORKSPACE      DIMENSIONS     DICTATED    BY  THE   FIELD
+                  CONDITIONS.    SOURCE:    NEC  ARTICLE   110.26(A)(1).  SEE  NEC  ARTICLE   100 FOR   DEFINITIONS   OF
+                  "GROUNDED," "EXPOSED," AND "LIVE PARTS."
+
+                              10"      OBSTRUCTION
+NEAREST CORNER OR             MIN.     ABOVE METER
+OTHER OBSTRUCTION                            CENTER
+
+                                             OF METER
+                                             SOCKET
+
+                                             9" MIN.
+
+
+        78" MIN.                                                                                    CLEAR
+       WORKING               18"           48" MIN. TO 75" MAX                                     WORKING
+        SPACE                MIN.   18"                                                             SPACE
+        HEIGHT                      MIN.       CENTER OF                           78" MIN.
+                         CLEAR                 PANEL                               WORKING
+                        WORKING                                                    SPACE
+                         SPACE       36" to 48" MIN.                               HEIGHT
+                  36"              (NOTES 2 & 3)                                                   36" to 48"
+                 MIN.                                                                                 MIN.
+                                                                                                 (NOTES 2 & 3)
+                        FIGURE 1                                                                   FIGURE 2
+               SURFACE OR SEMI-FLUSH                                                    WORKING SPACE - SIDE VIEW
+                 METER INSTALLATIONS
+
+
+                                             TABLE 301.7 MINIMUM WORKING SPACE
+                                                           (600 VOLTS OR LESS)
+                                                          Service Voltage Phase to Ground
+                                              TYPE      0-150Vac            151-600Vac
+                                                 1          36"                 36"
+                                                 2          36"                 42"
+                                                 3          36"                 48"
+
+              TYPE 1: ONE SIDE HAS EXPOSED/ENCLOSED LIVE PARTS AND THE OTHER SIDE HAS NO
+              EXPOSED/ENCLOSED LIVE OR GROUNDED PARTS.  (ESSENTIALLY, "OPEN AIR")
+
+              TYPE 2: ONE SIDE HAS EXPOSED/ENCLOSED LIVE PARTS AND THE OTHER SIDE HAS GROUNDED
+              PARTS. (CONCRETE, BRICK, OR TILE WALLS SHALL BE CONSIDERED AS GROUNDED.)
+
+              TYPE 3: BOTH SIDES HAVE EXPOSED/ENCLOSED LIVE PARTS.
+
+                                           ELECTRIC SERVICE REQUIREMENTS                                         301.7
+              REVISION                              METER LOCATION                                              PAGE
+              09/02/2026                       MINIMUM WORKING SPACE                                              6
+
+===== Page 10 =====
+301.7     WORKING SPACE AND CLEARING REQUIREMENTS
+
+
+
+
+                                  WORKING SPACE AND CLEARANCE REQUIREMENTS
+                                              (TOP VIEW OF SWITCHBOARD)
+
+
+                                                       INDOOR S.E.S.
+
+
+
+
+
+
+
+
+
+
+                         36"                       MINIMUM REQUIRED
+                        MIN.                         WORKING SPACE
+
+                                                       KEEP CLEAR
+
+
+
+
+
+
+                                                LENGTH OF SWITCHBOARD
+
+
+
+
+
+
+                                     OUTDOOR S.E.S. ENCLOSED BY SCREEN WALL
+                       BUILDING WALL
+
+
+
+
+
+         SCREEN WALL             11" MIN.
+
+                                                    NOTE:
+                                                    HINGED DOOR WHEN OPEN
+                                                    MAY NOT BLOCK EXIT ROUTE.
+                                                    WHEN DOORS ARE IN MAXIMUM
+                                                    OPEN POSITIONS EXIT SHALL
+                                                    BE 36" MINIMUM.
+
+                                 36" MIN.                                                      36" MIN.36" MIN.
+
+
+                                          PROPERTY LINE WALL OR OBSTRUCTION
+
+
+
+
+                   NOTE:  Refer  to ESRM   301.8 for additional outdoor SES  working  space,
+                   clearance and escape route requirements.
+
+
+
+
+
+                                     ELECTRIC SERVICE REQUIREMENTS                                         301.7
+         REVISION                              METER LOCATION                                             PAGE
+         01/27/2022                       MINIMUM WORKING SPACE                                             7
+
+===== Page 11 =====
+301.7     WORKING SPACE - MULTIPLE SERVICE ENTRANCE SECTIONS
+
+
+                                MULTIPLE SERVICE ENTRANCE SECTIONS
+
+
+         FIGURE 1 - METER STAGGERED
+
+                                 APS     METER              CUSTOMER
+                                PULL       & CT              BREAKER
+                               SECTION   SECTION             SECTIONS
+
+
+                                                              FRONT
+                                                                               7' MIN.
+                                        FRONT
+
+                                     CUSTOMER               METER        APS
+                                      BREAKER                & CT        PULL
+                                      SECTIONS             SECTION     SECTION
+
+
+
+                 NOTES
+                 1.     SERVICE    ENTRANCE    SECTIONS   THAT   FACE   EACH  OTHER    WITH
+                        STAGGERED     METER LOCATIONS SHALL HAVE A MINIMUM        WORKING
+                        SPACE OF 7 FEET BETWEEN SERVICE ENTRANCE SECTIONS.
+                 2.      TWO EXIT PATHS SHALL BE PROVIDED.
+
+
+         FIGURE 2 - METERS FACE - TO - FACE
+
+
+                                  APS        METER            CUSTOMER
+                                  PULL        & CT             BREAKER
+                                SECTION     SECTION            SECTIONS
+
+
+                                                                FRONT
+                                                                               9' MIN.
+                                                                 FRONT
+
+                                  APS        METER             CUSTOMER
+                                 PULL         & CT              BREAKER
+                               SECTION      SECTION             SECTIONS
+
+
+                 NOTES
+                 1.     SERVICE    ENTRANCE     SECTIONS    THAT  FACE   EACH    OTHER   WITH
+                        FACE-TO-FACE    METER   LOCATIONS   SHALL  HAVE  A MINIMUM   WORKING
+                        SPACE OF 9 FEET BETWEEN SERVICE ENTRANCE SECTIONS.
+                 2.      TWO EXIT PATHS SHALL BE PROVIDED.
+
+
+
+
+
+
+
+
+
+
+
+
+                                    ELECTRIC SERVICE REQUIREMENTS                                     301.7
+         REVISION      METER LOCATION / MULTIPLE SERVICE ENTRANCE SECTIONS                           PAGE
+         05/10/2021                     MINIMUM WORKING SPACE                                          8
+
+===== Page 12 =====
+   301.8     BARRICADE / BARRIER POSTS
+
+              THE CUSTOMER SHALL FURNISH, INSTALL AND MAINTAIN PERMANENT BARRICADES/BARRIER
+             POST(S) TO PROVIDE CLEARANCES AS SPECIFIED IN ESRM, SECTION 304.5-1, WHERE THE
+              WORKING SPACE IS EXPOSED TO VEHICLES OR HAZARDOUS CONDITIONS. APS SHALL SPECIFY
+              WHEN REMOVABLE POST(S) CAN BE USED.  VEHICULAR TRAFFIC OR HAZARDOUS CONDITIONS
+             INCLUDE BUT ARE NOT LIMITED TO MOTORIZED VEHICLES, PALLET JACKS, HAND CARTS, ETC.,
+              THAT COULD PHYSICALLY ENTER THE WORKING SPACE OR ESCAPE ROUTE.
+             POSTS SHALL BE A MINIMUM 4" (4.5" OUTSIDE DIAMETER) GALVANIZED SCHEDULE 40 PIPE, OR 4"
+              (4.5:" OUTSIDE DIAMETER) GALVANIZED RIGID METAL CONDUIT.
+
+          REMOVABLE POST                                                        FIXED POST
+
+            4-1/2"                                                        A                          A
+
+
+
+
+
+                                                                        CONCRETE
+                                                                        FILLED IN
+             34"               32"                                      FIELD
+
+                                                                             4-1/2"
+           50"
+        57"                           FINAL GRADE
+                                                                                                          36"
+
+
+                                                                         FINAL                               6'
+                               21"                                      GRADE
+
+
+              2"
+
+
+
+                         DETAIL A                                                                         36"
+                2"
+
+                             4"
+
+
+                                  25"                                           2"
+
+
+                                                                                              9" MIN.
+                                                                                    SECTION A-A
+          5-1/2"               2"MIN. CONCRETE                                      BARRIER POST DETAIL
+                               ENCASEMENT
+                  10" MIN.     (INCL. BOTTOM)              CONSTRUCTION NOTES:
+                                                           1.  USE ADDITIONAL BARRIER CENTER POST AS
+ 6-1/2" X 3/4"               7/8" HOLE IN POST                 REQUIRED TO PREVENT TRAFFIC PENETRATIONS TO
+  STEEL PIN                  AND SLEEVE                        SES.
+  WITH 1/2"                                                2.  CAUTION MUST BE TAKEN INSTALLING
+   HOLE IN                                                      POSTS SO THAT POSTS DO NOT MAKE CONTACT
+   END TO                                                       WITH CONDUIT SYSTEM.
+ACCEPT LOCK                      1/2" HOLE                 3.  STEEL BOLLARD SHALL NOT BE IN CONTACT WITH
+                                                              THE SOIL.
+                                                           4.  CALL ARIZONA811 FOR BLUE STAKING AT 811, TO
+                  DETAIL A                                    GET ALL UTILITIES MARKED PRIOR TO EXCAVATION.
+
+                                         ELECTRIC SERVICE REQUIREMENTS                                          301.8
+             REVISION                                                                                           PAGE
+            01/27/2022                       BARRICADE / BARRIER POSTS                                            9
+
+===== Page 13 =====
+
+
+===== Page 14 =====
+
+
+===== Page 15 =====
+
+
+===== Page 16 =====
+301.9        METER ROOM REQUIREMENTS
+             A meter room is a permanent, accessible, illuminated, ventilated room (per NEC section 100), provided by the
+             customer for the exclusive use and location of the Customer’s electric service and metering equipment, and
+             for the installation of an APS meter or meters. The one exception to exclusive use will allow the installation of
+             communication equipment provided space requirements for the electric installation is not impaired. Meter
+             rooms shall be provided with a doorway opening to the outside of the building with a kick down doorstop and
+             panic hardware. Meter room shall not provide access to interior of building. Meter room location and design to
+             be approved by APS. For safety’s sake, meter rooms are not to be used for storerooms.
+             Meter rooms may be locked provided independent access is given to APS. The Customer’s key will not be
+             accepted for retention by APS for entry; therefore, locking shall be accomplished only by one of the following
+             methods:
+             1.  Customer may provide and install a device that will allow one pad lock for the Customer and one pad lock
+                 for APS on the door, or.
+             2.  The Customer may place a meter room door key in an APS acceptable lockbox installed on or near the
+                 door. The meter room key shall not unlock any other door on the premises.
+             See Paragraph 301.10 for lock box location. Notify APS prior to the design stage for meter room requirements
+             and locations in high rise buildings. (See definitions Section 100—High Rise Building).
+             See additional requirements referencing section 301 such as (301.4, 301.5 AND 301.6).
+
+
+
+
+
+
+
+
+                                                   NO DOORS IN THIS AREA OF
+                                              METER ROOM FOR APS ENTRY/EXIT
+
+
+
+
+
+
+
+                                    S.E.S.
+
+                                   FRONT
+
+                              METER ROOM                                                        S.E.S.
+                                                                                                FRONT
+
+                                                                                           METER ROOM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                               ELECTRIC SERVICE REQUIREMENTS                                                         301.9
+            REVISION                                      METER LOCATIONS                                                           PAGE
+           05/10/2021                      ELECTRIC METER ROOM REQUIREMENTS                                                           13
+
+===== Page 17 =====
+301.9     ELECTRIC METER ROOM REQUIREMENTS (CONT'D)
+
+
+                                            TOP VIEW
+
+
+
+
+                                                                               INTERIOR OF
+                                                                               BUILDING
+
+                                36"                                              OUTSIDE WALL OF BUILDING
+                                MIN.         ACCESS TO BE FROM                     LOCKBOX
+                                            EXTERIOR OF BUILDING
+       INTERIOR OF                           *(DOOR TO OPEN OUT)
+       BUILDING
+                           TELEPHONE
+
+        OUTSIDE WALL OF
+        BUILDING
+
+
+          NOTE:ADDITIONAL CLEARANCES MAY BE REQUIRED BY THE LOCAL INSPECTION AGENCY
+             THE FOLLOWING ALTERNATIVE TO A METER ROOM IS ACCEPTABLE TO APS IF
+             THE S.E.S. DOES NOT HAVE ANY REMOVABLE REAR PANELS. CHECK WITH THE
+             LOCAL AGENCY FOR ACCEPTABILITY.
+
+
+
+
+
+
+
+
+
+
+
+
+                                     11" MIN.
+                                     15" MAX.
+                                                         10" MIN.
+
+        OUTSIDE WALL OF                                                   OUTSIDE WALL OF
+             BUILDING                                                         BUILDING
+                     1" MIN.                                       LOCKBOX
+
+
+         1.  SEE REQUIREMENTS FOR LOCKING DOORS. (PARAGRAPH 301.10)
+
+          2.  36" CONCRETE PAD REQUIRED IN FRONT OF METERING.
+
+          3.  SES METER DOORS MUST OPEN 90° (OR MORE) WITH METER AND TEST SWITCH INSTALLED.
+             ALSO, EXTERIOR DOORS MUST BE
+             EQUIPPED WITH A DEVICE TO HOLD THE DOOR IN THE 90° (OR MORE) POSITION.
+
+          4.  CARE MUST BE EXERCISED TO DESIGN THE ENCLOSED SUCH THAT NEITHER THE ROOF NOR
+             THE DOOR FRAME WILL INTERFERE WITH THE CLEARANCES OR THE INSTALLATION AND
+             MAINTENANCE OF THE METERING EQUIPMENT.
+
+          5.  WITH EXTERIOR METER DOORS IN OPEN 90° LOCKED POSITION, A 36" EXIT WAY IS REQUIRED
+             BETWEEN DOOR EDGE AND CLOSEST OBJECT.
+
+          6.  THIS ENCLOSURE IS APPROVED FOR COMMERCIAL LOCATIONS.
+
+
+
+
+                                     ELECTRIC SERVICE REQUIREMENTS                                        301.9
+         REVISION                             METER LOCATIONS                                             PAGE
+         05/10/2021                ELECTRIC METER ROOM REQUIREMENTS                                        14
+
+===== Page 18 =====
+301.9     METER ROOM REQUIREMENTS
+
+                                  NATIONAL ELECTRICAL CODE REQUIREMENTS
+
+               ACCESS COVERS
+
+                   ELECTRIC                                                               WORK SPACE
+                  EQUIPMENT                                                  ELECTRIC
+                                                                            EQUIPMENT
+                                                ACCESS COVERS
+
+
+                 WORK SPACE
+                            ENTRANCE
+
+
+          AT LEAST   ONE  ENTRANCE    IS REQUIRED    TO PROVIDE   ACCESS    TO  THE  WORKING
+         SPACE   AROUND   ELECTRIC   EQUIPMENT.   THE  INSTALLATION   SHOWN    IN THE SKETCH
+         ON  THE  RIGHT  WOULD    NOT  BE ACCEPTABLE    IF THE  ELECTRIC   EQUIPMENT    WAS  A
+         SWITCHBOARD OR PANELBOARD OVER 6' WIDE AND RATED 1200A OR MORE.
+
+                                                  OVER 6'
+
+                       ACCESS               SWITCHBOARD OR                  ACCESS
+                       PANEL                 CONTROL PANEL                  PANEL
+                                             1200A OR MORE.
+
+
+
+AT LEAST 24" WIDE                                                                         AT LEAST 24" WIDE
+6-1/2' HIGH                                    WORK SPACE                                 6-1/2' HIGH
+
+
+         FOR SWITCHBOARDS AND CONTROL PANELS RATED 1200A OR MORE AND OVER 6'
+          WIDE, THERE SHALL BE ONE ENTRANCE NOT LESS THAN 24" WIDE AND 6-1/2'
+         HIGH AT EACH END.
+
+
+                                 ACCESS
+                                 PANELS        WORK SPACE
+
+
+
+                                                                 SWITCHBOARD OR                  NOT
+                        WORK SPACE                                CONTROL PANEL              ACCEPTABLE
+                                                                  1200A OR MORE.
+
+
+
+                                               WORK SPACE
+                           ENTRANCE
+
+
+
+
+
+
+
+
+
+
+                                    ELECTRIC SERVICE REQUIREMENTS                                     301.9
+         REVISION                           METER LOCATIONS                                           PAGE
+         05/15/2026                    METER ROOM REQUIREMENTS                                         15
+
+===== Page 19 =====
+301.9     METER ROOM REQUIREMENTS
+
+                            NATIONAL ELECTRICAL CODE REQUIREMENTS
+
+
+
+                      EXCEPTION #1: WHERE THE EQUIPMENT LOCATION PERMITS A
+                      CONTINUOUS AND UNOBSTRUCTED WAY OF EXIT TRAVEL.
+
+                                                                ALTERNATE
+                                                                 ENTRANCE
+                                                                 LOCATION
+
+
+
+
+
+                           SWITCHBOARD OR                                       ONLY ONE
+               OVER 6'      CONTROL PANEL                                       ENTRANCE
+                            1200A OR MORE.                                      REQUIRED
+                                                 CONTINUOUS AND
+                                               UNOBSTRUCTED WAY
+                                                  OF EXIT TRAVEL
+
+
+                                                                 ALTERNATE
+                                                                 ENTRANCE
+                                                                  LOCATION
+                      EXCEPTION #1: WHERE THE EQUIPMENT LOCATION PERMITS A
+                      CONTINUOUS AND UNOBSTRUCTED WAY OF EXIT TRAVEL.
+
+
+
+
+
+
+
+                         EXCEPTION #2: WHERE THE WORK SPACE REQUIRED BY
+                         SECTION 110-16(A) IS DOUBLED.
+
+
+
+                                                 OVER 6'
+
+                       ACCESS              SWITCHBOARD OR                  ACCESS
+                       PANEL                CONTROL PANEL                   PANEL
+                                            1200A OR MORE.
+
+
+
+
+
+                                         DOUBLE WORK SPACE
+
+
+                            ONLY ONE
+                           ENTRANCE
+                            REQUIRED
+
+                         EXCEPTION #2: WHERE THE WORK SPACE REQUIRED BY
+                         SECTION 110-16(A) IS DOUBLED.
+
+
+
+                                   ELECTRIC SERVICE REQUIREMENTS                                     301.9
+         REVISION                           METER LOCATIONS                                          PAGE
+         05/15/2026                   METER ROOM REQUIREMENTS                                         16
+
+===== Page 20 =====
+301.9-1     UNACCEPTABLE EQUIPMENT IN METER ROOMS
+            Equipment not permitted within the electric meter room includes, but is not limited to following:
+            1.  Gas equipment – including piping.
+            2.  Water heaters/boilers – including piping.
+            3.  Mechanical equipment – including motor/generator sets.
+            4.  Batteries and battery charging equipment.
+            5.  Fire risers.
+________________________________________________________________________________________________
+
+301.9-2     METER ROOM VENTILATION
+            Meter room shall have at least two 10” X 10” air vents. Vent locations shall be designed to provide maximum
+            separation, with one vent located high and the other vent located low.
+            Meter room containing any electrical equipment that produces heat such as a dry type transformer shall
+            require the room air temperature to be maintained at maximum of 95º F.
+________________________________________________________________________________________________
+
+301.10      LOCK BOX LOCATION
+            The customer may place a meter room door key in an APS acceptable lock box installed on or within 36” of
+            the door. The minimum height shall be 36” and the maximum height 60”. The meter room key shall not unlock
+            any other door on the premises.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            ELECTRIC SERVICE REQUIREMENTS                                                    301.9-1
+           REVISION                                    METER LOCATIONS                                                        PAGE
+           05/10/2021              METER ROOMS/LOCK BOXES/METER ENCLOSURES                                                      17
+
+===== Page 21 =====
+   301.11    RESIDENTIAL ELECTRIC METER CLOSET REQUIREMENTS - SELF CONTAINED
+
+
+
+
+
+
+                                                           10" MIN. FROM NEAREST CORNER
+                                                            OF OTHER CONSTRUCTION.
+    11" MIN. AND 15" MAX.
+    CLEARANCE FROM FRONT OF METER
+    PANEL TO INSIDE OF CLOSET DOOR.
+
+
+
+                                                                                     24" MAX. AND 9" MIN. TO ANY
+                                                                                     OVERHEAD OBSTRUCTION.
+   NO LOCKING DEVICES ON THE
+   ENCLOSURE DOOR.
+
+                                                                                      75" MAX. AND 36"
+                                                               T                      MIN.
+                                                              TV
+
+
+DOOR MUST OPEN A MIN. OF 90°
+AND BE EQUIPPED WITH A DEVICE                       36" MIN.
+TO HOLD THE DOOR IN THE OPEN                                                    36" MIN. WORK SPACE FROM
+POSITION.                                                                       FRONT OF METER PANEL AND 78"
+                                                                                FROM GROUND TO TOP OF
+                                                                                ENCLOSURE. SEE NOTE 4.
+
+                                                                                                     FOUNDATION
+                                                                                   10" MIN.
+             NOTES:
+             1.  THIS ENCLOSURE IS APPROVED FOR:
+                  A. SINGLE FAMILY SELF-CONTAINED USE ONLY.
+                  B. COMMUNICATION EQUIPMENT
+                  C. CATV                                                                       11" MIN.
+             2.  THIS ENCLOSURE IS NOT APPROVED FOR:                                            15" MAX.
+                  A. GAS SERVICE OR PIPING                   OUTSIDE WALL OF
+                  B. WATER SERVICE OR PIPING                 RESIDENCE                   36" MIN.
+                  C. STORAGE OF ANY KIND
+
+             3.  THE STRUCTURE FOUNDATION SHALL NOT
+                EXTEND INTO OR UNDER THE METER CLOSET.
+             4.  CLEAR AND LEVEL WORK SPACE SHALL BE PROVIDED
+                PER PARAGRAPH 301.6, NOTES 8, 9, 10 AND 301.7.
+
+             5.  METER CLOSET DOOR SHALL BE IDENTIFIED WITH A                             36" MIN.
+                PERMANENT TAG SHOWING "ELECTRIC METER",
+                MANUFACTURE PER 302.1
+             6.  POCKET DOORS ARE ACCEPTABLE.
+
+
+
+
+
+
+
+
+
+
+                                         ELECTRIC SERVICE REQUIREMENTS                                         301.11
+            REVISION                                                                                           PAGE
+            05/10/2021          RECESSED RESIDENTIAL METERING REQUIREMENTS                                       18
+
+===== Page 22 =====
+301.11-1   RESIDENTIAL ELECTRIC METER CLOSET REQUIREMENTS - 400 AMPS & LARGER
+
+
+
+
+
+                                               10" MIN.
+
+
+
+
+                                             24" MIN.
+
+          4"                                           4"
+        MIN.                                          MIN.
+
+
+
+
+                                                                            FOUNDATION
+
+
+
+                                                   75" MAX.
+                                                    36" MIN.                             10" MAX.
+
+                                                                                         15" MIN.    10" MIN.
+
+                                                                  OUTSIDE WALL OF
+                                                                  RESIDENCE
+                                                                                         36" MIN.
+
+
+
+
+
+
+                             36" MIN.                                                          36" MIN.
+
+          NOTES:
+          1) DOOR
+                A) MUST BE THE WIDTH AND HEIGHT OF THE CLOSET
+                B) OPEN 90° WITH DEVICE TO HOLD DOOR IN OPEN POSITION
+                C) HANDLE CAN NOT BE LOCKABLE
+          2) THIS ENCLOSURE APPROVED FOR:
+                A) SINGLE FAMILY
+                B) COMMUNICATIONS EQUIPMENT
+                C) CATV
+          3) THIS ENCLOSURE NOT APPROVED FOR:
+                A) GAS PIPING
+                B) WATER SERVICE OR PIPING
+                C) STORAGE OF ANY KIND
+          4) THE STRUCTURE FOUNDATION SHALL NOT EXTEND INTO
+              OR UNDER THE METER CLOSET.
+          5) CLEAR AND LEVEL WORK SPACE PER 301.6 NOTES 8, 9, 10,
+              AND 301.7.
+          6) METER CLOSET DOOR SHALL BE IDENTIFIED WITH A
+              PERMANENT TAG SHOWING "ELECTRIC METER"
+              MANUFACTURE PER 302.1
+
+
+
+
+
+
+                                       ELECTRIC SERVICE REQUIREMENTS                                           301.11-1
+          REVISION                                                                                              PAGE
+          05/10/2021          RECESSED RESIDENTIAL METERING REQUIREMENTS                                          19
+
+===== Page 23 =====
+301.12      MAIN SWITCH LOCATION
+            The meter and service main switch shall be installed on the same wall adjacent to each other and accessible
+            from the same working area. Exception Fire Pump disconnects may be located at the fire pump control panel.
+            (See Paragraph 302.3 Main Switch).
+________________________________________________________________________________________________
+
+301.13      METER AND MAIN SWITCH SEQUENCE
+            Meters and metering equipment for services of 0 - 600 volts shall be located ahead, or on the supply side, of
+            the customer’s main service entrance switch. Exception to this sequence is permissible only when required
+            by electrical codes.
+            When a single set of service entrance conductors supply a multi-meter installation, numbering from two to six
+            meters, a main switch for each meter shall be located on the load side of each meter.
+            For multi-meter installations, numbering seven or more meters connected to a single set of service entrance
+            conductors, NEC 230-71 requires the installation of a main service switch located on the supply side of the
+            group of meters (Its access door shall be under APS lock and seal). In these instances, an individual main
+            switch must also be installed on the load side of each meter.
+            APS shall not allow a main service disconnect ahead of less than seven meters in or on a separate
+            enclosure or switchboard.
+________________________________________________________________________________________________
+
+301.14      TYPICAL SEMI-FLUSH INSTALLATION
+
+
+
+
+
+
+
+
+
+                                           MAIN/                    PLASTER RING
+                                      DISTRIBUTION
+                                         SECTION
+
+
+
+
+
+                         PULL
+                       SECTION
+                      SEALABLE                                                                                      BUILDING
+                         FROM                                                                                         WALL
+                        FRONT
+
+
+                                                                      FINISH GRADE
+
+
+
+                                                                                        24"                       SEE NOTE 1
+
+
+
+
+
+                  NOTES:
+
+                  1. SEE SECTION 500 FOR UNDERGROUND CONDUIT AND RISER REQUIREMENTS.
+
+                   2. SEE SECTION 1100, DRAWING 301 FOR METER CAN REQUIREMENTS.
+
+
+
+
+                                            ELECTRIC SERVICE REQUIREMENTS                                                     301.12
+           REVISION                                                                                                           PAGE
+           05/10/2021                               MAIN SWITCH LOCATION                                                        20
+
+===== Page 24 =====
+301.15      ELECTRIC METER SEPARATION BETWEEN WATER, GAS METER, AND FUEL SOURCES
+
+
+
+
+                                                    FIGURE 1
+
+                                         AREA INSIDE OF BOX TO REMAIN
+                                              CLEAR OF ALL ELECTRICAL
+                                     EQUIPMENT. AREA  EXTENDS THE FULL
+                                         WIDTH OF GAS METER ASSEMBLY
+
+
+
+
+
+
+                                                                                                                 AREA INSIDE OF BOX
+                                                                                                                 TO REMAIN CLEAR
+       C L                                                                                                       OF ALL ELECTRICAL
+                                                                                                                 EQUIPMENT. AREA
+                                                                                                                 EXTENDS THE FULL
+                                                                                                                 WIDTH OF THE GAS
+                                                                                                                 METER ASSEMBLY
+                                                      36 INCH
+                                              RADIAL CLEARANCE                           90 ''
+   48 '' MIN                                  FROM VENTING SIDE
+   75 '' MAX                                     OF REGULATOR
+
+                                   MIN36''
+                                            R
+                                                                         STUB-OUT                  GAS
+                                                      GAS
+
+
+
+
+
+
+                                  FRONT VIEW                                                    SIDE VIEW
+
+
+
+301.15-1    ELECTRIC, WATER AND GAS METER SEPARATION (FIGURE 1)
+            1.  Size and dimensions of panels will vary.
+             2. Working clearance shall be a minimum of 36 inches wide in front of meter panel.  If electric   panels extend
+                wider that the 36 inch minimum, the working clearance shall be the width of the entire assembly. Working
+                space shall extend out from the face of the electric meter panel a minimum of 36 inches.  See paragraph
+                301.7 for additional workspace requirements.
+             3. Area directly above gas meter shall remain clear of any electrical equipment            .
+             4. For conduit system and riser requirements, refer to Section 500.
+             5. For Trenching Requirements, refer to Section 600.
+             6. Gas piping (above grade) may be located below electric panel(s), but shall not include any couplings in
+                that area.
+             7. APS prohibits water valves or hose bibs to be located within the 36 inch by 36 inch safe work area in front
+                of the electric panels. This is to prevent any grounded surfaces in the work area and to ensure the
+                standing surfaces remain safe and dry.
+             8. Drain pipes or soffits are prohibited above the meter enclosures to ensure the work area standing surfaces
+                remain safe and dry.
+
+
+
+
+
+
+                                              ELECTRIC SERVICE REQUIREMENTS                                                       301.15
+           REVISION                                        MAIN LOCATION                                                          PAGE
+           05/10/2021                      ELECTRIC AND GAS METER SEPARATION                                                        21
+
+===== Page 25 =====
+301.15      ELECTRIC METER SEPARATION BETWEEN WATER, GAS METER, AND FUEL SOURCES
+
+
+                                                    FIGURE 2
+
+                                           AREA INSIDE OF BOX TO REMAIN
+                                                 CLEAR OF ALL ELECTRICAL
+                                        EQUIPMENT. AREA EXTENDS THE FULL
+                                           WIDTH OF GAS METER ASSEMBLY
+
+
+
+
+
+
+
+
+
+          C L                                                                                                            C L
+
+
+
+
+
+
+
+     48 '' MIN                                                                                                         48 '' MIN
+     75 '' MAX                                                                                                         75 '' MAX
+
+
+
+                                                                               GAS
+                                                                           STUB-OUT
+
+
+                                                       VALVE
+
+
+                           24 '' MIN               48 '' MIN                18 '' MIN
+                                                SEE NOTE 4
+
+
+
+
+301.15-2    ESTABLISHING GAS CLEARANCES DURING CONSTRUCTION (FIGURE 2)
+            1.  Measure the minimum horizontal separation from the edge of the electric meter panel to the closest point
+                of the gas service (if known), or from the electrical UG riser pre-construction  “Stub-Up” to the gas service
+                “Stub-Out” on the house (Preferred Method).
+            2.  Size and dimensions of panels will vary.
+            3.  See paragraph 301.15-1 for additional requirements.
+            4.  48 inch dimension is required based upon typical gas meter dimensions and layout. The intent is to
+                maintain a 36 inch radial clearance (see figure 1 in 301.15-1) from the venting side of the regulator to the
+                closest corner of the electric panel.  If the location does not provide 48 inches, contact the gas company to
+                explore options for maintaining the 36 inch radial clearance that is required.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                             ELECTRIC SERVICE REQUIREMENTS                                                      301.15
+           REVISION                                       MAIN LOCATION                                                         PAGE
+           05/10/2021                     ELECTRIC AND GAS METER SEPARATION                                                       22
+
+===== Page 26 =====
+301.15      ELECTRIC METER SEPARATION BETWEEN WATER, GAS METER, AND FUEL SOURCES
+                                                            FIGURE 3
+
+                                        C                                     PERMANENT OR PORTABLE GENERATOR
+                                          L                                          (COULD BE FILLED ON-SITE)
+                                                                                                 NOTE 2
+
+                                     48 '' MIN
+                                     75 '' MAX
+                                                                                     10 FT MIN
+                                                                                                                           VENT
+        APS                                                    20 FT MIN
+ PAD-MOUNTED
+     FACILITY                                                                                                            MY
+                                                                                                                        FUEL
+         APS                                                                                                        COMPANY
+          50                                                                                                 PERMANENT FUEL TANK
+                                                                                                                    (FILLED ON-SITE)
+
+                                                                                                                           VENT
+
+                                                                                           PORTABLE FUEL TANK                 PROPANE
+         NOTES:                                                                                (FILLED ON-SITE)
+                                                                                                                                   GAS
+         1.   THE 10' CLEARANCE SHALL BE BETWEEN THE ELECTRICAL
+                PANEL WORKING SPACE AND THE PERMANENT/PORTABLE
+                GENERATOR OR FUEL TANKS.
+          2.  GENERATOR SHALL NOT OBSTRUCT EQUIPMENT ACCESS.
+
+301.15-3                                                 FIGURE 4
+
+                                                                        C L
+
+
+
+                                                                    48 '' MIN
+                                                                    75 '' MAX
+
+                                                                                                          5 FT MIN
+
+         APS                                              20 FT MIN                                                              VENT
+
+   PAD-MOUNTED
+      FACILITY
+                                                                                                PORTABLE FUEL TANK      PROPANE
+          APS                                                                                    (FILLED OFF-SITE ONLY)      GAS
+
+           50
+
+
+       A minimum 20-foot separation / clearance is required between APS electrical facilities in outdoor locations
+       where fire or explosion hazards may exist and the following:.
+         GASOLINE                                                   DIESEL FUEL
+         COMPRESSED NATURAL GAS (CNG)                               LIQUEFIED NATURAL GAS (LNG)
+         LIQUEFIED PETROLEUM GAS (LPG)                             HYDROGEN IN A GASEOUS FORM (GH2)
+         HYDROGEN IN A LIQUID FORM (LH2)
+       If the minimum 20-foot separation cannot be maintained, a fire barrier / fire wall shall be installed between the
+       pad-mounted facility and the generator.
+       The fire barrier / fire wall shall have a minimum 2-hour fire rating. The fire wall height shall extend at least
+       1-foot above the line of sight between any point on the top of the pad-mounted facility and any point on the
+       top of the generator. The fire wall shall also extend at least 2-feet horizontally beyond the line of sight
+       between any point of the pad-mounted facility and any point of the generator.  A minimum of 3-feet separation
+       shall be maintained between the fire wall and side of APS pad-mounted facility except from the side of certain
+       facilities (e.g., automatic transfer switch, supervisory switches) containing control features where a 6-foot
+       separation shall be maintained. See FIGURES 5 AND 6 for illustration.
+
+
+                                             ELECTRIC SERVICE REQUIREMENTS                                                      301.15
+           REVISION                                       MAIN LOCATION                                                          PAGE
+           01/27/2022                      ELECTRIC AND GAS METER SEPARATION                                                       23
+
+===== Page 27 =====
+
+
+===== Page 28 =====
+
+
+===== Page 29 =====
+302.1        METER AND SERVICE LOCATION LABELING IDENTIFICATION BY CUSTOMER (CONTINUED)
+
+            EXAMPLE - 123 N MAIN ST BUILDING 1 SES 1 OF 3
+
+
+
+
+
+
+
+
+                                123 N. MAIN ST.
+                                BUILDING 1
+                                SES 1 OF 3
+
+
+                                                                                                    SUITE 101
+
+
+
+
+
+
+
+
+                                                                                                    SUITE 102
+
+
+
+
+
+
+
+                                                                                                    SUITE 103
+
+
+
+
+________________________________________________________________________________________________
+
+302.1-1      SERVICE IDENTIFICATION
+             All equipment shall be permanently labeled for the specific voltage and current being served.
+________________________________________________________________________________________________
+
+302.2        METER HEIGHT
+             The requirements for meter height, which is the vertical distance between the center line of the meter and the
+             standing surface, shall be as follows:
+            1.  When meters are located in a meter room or enclosed cabinet. 36" min. 75" max.
+             2. When meters are wall, semi-flush, pedestal, or surface mounted outdoors, but not located in a meter room
+                or enclosed cabinet. 48" min. 75" max.
+________________________________________________________________________________________________
+
+302.3        MAIN SWITCH
+            For each meter installed on a service, the contractor/customer, in compliance with applicable codes, shall
+             furnish and install a fusible switch, a circuit breaker, or other approved disconnecting means which shall
+             control all of and only the energy registered by that meter. The disconnecting means, where permitted by
+             thegoverning code or ordinance, may consist of a group of fusible switches or circuit breakers. These fuses
+             or circuit breakers must be lockable and designed to interrupt and withstand the available fault current. (See
+             Paragraph 301.13 Main Switch Locations).
+
+            In cases where residential all-in-one meter panels are installed with multiple positions for main disconnects,
+             APS requires all positions to be filled with disconnects that are designed to interrupt and withstand the
+             available fault current.
+
+
+
+
+
+
+
+
+
+                                              ELECTRIC SERVICE REQUIREMENTS                                                        302.0
+           REVISION                                                                                                                PAGE
+           05/15/2023                               SPECIAL CONSIDERATIONS                                                           26
+
+===== Page 30 =====
+_______________________________________________________________________________________________
+
+302.3-1      MULTIPLE SERVICE DISCONNECTS (TWO TO SIX):
+             Code and Standards:              NEC - Article 230.90(A), Exception No. 3
+                                              UL 891 - Table 26 and Section8.8.1.6.13
+               Using the Codes and Standards: NEC and UL 891 establish the rules for multiple service disconnects in
+               dead-front switchboard. The following requirements shall be met:
+
+                       1.   Client provides calculations showing that the load does not exceed the sum of the ratings of
+                             service disconnects.
+                       2.   If the sum of the service disconnects does not exceed the service rating, then the installation is
+                             code compliant.
+                       3.   However, if the sum of the service disconnects exceeds the service rating, then Exception No. 3
+                             in NEC 230.90 (A) can be used. To apply this exception, provide calculations showing a value
+                             below the service rating by utilizing the diversity factors from UL 891 Table 26 shown below.
+
+               Note: Exceeding the current rating of the SES after applying the factors in Table 26 of UL 891 will result in a
+               violation of NEC110.3(B).
+
+               Exception: A UL891 switchboard that has been listed, and marked as "Solar Ready" would                                have a
+               dedicated disconnect for a photovoltaic back-feed.  In this case the disconnect can be excluded from the
+               sum of disconnects.  A permanent warning  label shall be affixed by the manufacturer next to the
+                       disconnect indicating its purpose and that no loads are to be connected.
+
+               Application Examples:
+
+                                   §     Specification: 600A SES, with (6) 200A service disconnects
+                                         The sum of the disconnects is 1200A. Apply the 70% factor from Table 26.
+                                                  (1200A X .7 = 840A > 600 A) - NOT APPROVED!
+
+
+                                   §     Specification: 600A SES, with (2) 200A & (4) 100A service disconnects
+                                         The sum of the disconnects is 800A. Apply the 70% factor from Table 26.
+                                                      (800A X .7 = 560A < 600A) - APPROVED!
+
+
+                                                Diversity Factors from UL 891, Table 26
+
+                                              # Service Disconnects                Factor (%)
+                                                        1                             100
+                                                      2 - 3                            80
+                                                      4 - 6                            70
+
+
+                                  §      P reserving Utility Service Integrity:  A separate but related issue arises in
+                                         cases where a fusible disconnect configuration can physically accommodate a
+                                         larger fuse ampacity than originally calculated using table 26. Mandating that
+                                         the fusible disconnect configuration does not have the ability to accommodate
+                                         a larger fuse ampacity will ensure that the potential for future load additions
+                                         are limited to the rating of the utility equipment and SES.
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                  ELECTRIC SERVICE REQUIREMENTS                                                           302.3-1
+              REVISION                                                                                                                     PAGE
+              01/27/2022                                SPECIAL CONSIDERATIONS                                                               27
+
+===== Page 31 =====
+302.4        FOREIGN DEVICES IN SEALABLE CABINETS
+             No devices by the Customer shall be installed in or attached to the meter, meter socket, meter cabinet or the
+             metering compartment and pull section area of a service entrance section. Emergency power transfer switches,
+             energy devices, over-current devices, etc., shall be located on the load side and exterior to these metering
+             components.
+________________________________________________________________________________________________
+
+302.5        METER SOCKET ENCLOSURES
+             All socket enclosures shall be of the ring type. The meter socket shall be securely mounted so that its meter
+             jaws are in true horizontal and vertical planes, and will support the meter without tilt in any direction. Gutter
+             connectors (of the Chase nipple-sleeve type) shall not be used on unfused gutters.
+             Meter enclosures and pull sections shall not be used as junction boxes, raceways, or wireways.
+________________________________________________________________________________________________
+
+302.6        PROPER INSTALLATION OF COUPLINGS AND GUTTERS
+             When entering or leaving service entrance enclosure, an approved method shall be used. Burning of holes in
+             the enclosure or the welding of couplings or fittings in lieu of an approved hub is not permitted or acceptable.
+________________________________________________________________________________________________
+
+302.7        TERMINATIONS OR LUGS FURNISHED BY APS (Underground)
+             APS shall furnish and install compression terminations for connecting APS service conductors to the bus bar in
+             service entrance sections, 400 amp wall hung cabinets and pull boxes with cable terminating facilities when
+             served from underground. See EUSERC DWG #347 in Section 1100 for termination bolt requirements. 200
+             amps and less - use mechanical terminals supplied by the customer               .
+________________________________________________________________________________________________
+
+302.8        SECURED IN PLACE (S.E.S.)
+             All service entrance sections shall be securely fastened to the surface on which it is mounted. Wooden plugs
+             driven into holes in masonry, concrete, plaster, or similar material shall not be used.
+________________________________________________________________________________________________
+
+302.9        REQUIRED APPROVAL FOR METERING IN SERVICE EQUIPMENT
+             Customer shall select from the pre-approved list for all single-phase residential self-contained services.  If it is on
+             the pre-approved list, then it is approved for that type of residential service only.  If it is not on the list, then it is
+             not approved to be used in APS service territory for self-contained services.  Commercial sites require meter
+             enclosures with EUSERC approved test blocks/bypass provisions for all self-contained services 200 Amps and
+             below.  All commercial sites above 200 Amps are required to have EUSERC approved CT rated meter
+             enclosures.  The following meter enclosures shall be submitted through an APS Representative for review and
+             approval prior to manufacturing of the equipment: residential multi-meter packs not listed on the APS
+             pre-approved list; residential CT rated enclosures; and all commercial meter enclosures.  Customer shall
+             coordinate through the APS Control Desk @ APS Contact Map for new service or service upgrades (also see
+             ESRM 200.2-1 and 200.2-2).
+             Drawing submittal shall include: engineering and manufacturer one-lines showing location of neutral to ground
+             bond link and neutral disconnecting means, switchboard manufacturer (name), EUSERC page references that
+             are applicable, ampacity of switchboard, physical dimensions, voltage, phase, bus bracing (AIC rating), how
+             many service disconnects (which all are required to have padlockable provisions), accurate address (street and
+             number), etc.
+             In addition to the above equipment submittal requirements, a separate application is required for review and
+             approval when this equipment includes any connections or provisions for any existing or proposed inverters or
+             generators.  Contact an APS Representative and review the guides and resources available @ APS
+             Interconnection page.  Begin the APS Interconnection Application Process @ APS PowerClerk login.  Refer to
+             ESRM 104.11 – 104.12-2 for additional information on backup generation.
+
+
+
+
+
+
+
+                                               ELECTRIC SERVICE REQUIREMENTS                                                         302.4
+            REVISION                                                                                                                 PAGE
+           01/27/2022                                SPECIAL CONSIDERATIONS                                                            28
+
+===== Page 32 =====
+302.10       EUSERC - ELECTRIC UTILITY SERVICE EQUIPMENT REQUIREMENTS COMMITTEE
+             Switchboard service sections and bus duct risers approved for use in the area served by APS are built to the
+             standards developed by the Electric Utility Service Equipment Requirements Committee, and are available to
+             the customer through electric wholesale distributors (See Section 1100).
+________________________________________________________________________________________________
+
+302.11       SERVICE  ENTRANCE SECTION
+             A standard service entrance section is a free-standing piece of equipment which contains bussing for the
+             termination of service entrance conductors, bussing for the connection and mounting of current transformers,
+             panels for the installation of the test switch and meter socket, a service main disconnect switch or breaker,
+             and in many cases, distribution feeder breakers or switches.
+             The standard service entrance section is usually built to serve the Customer with heavy electrical supply
+             needs, and is available with service main switch or breaker ratings from 200 amperes through 3000 amperes.
+            For sections above 3000 amperes consult APS.
+             Standards for service entrance section have also been developed for self-contained meters, both residential
+             and non-residential, and with either standard duty or heavy-duty sockets. This equipment is built on special
+             order to meet the needs of the Customer’s service.
+________________________________________________________________________________________________
+
+302.12       OVERHEAD RISER AND BUS DUCT RISER REQUIREMENTS
+             Maximum number of conductors per phase shall be two (2); all service entrance conductor requirements
+             exceeding 2-750 MCM conductors per phase shall be bus bar construction. All bus bar cabinets shall be
+             constructed in accordance with Electric Utility Service Equipment Requirements (EUSERC). For address of
+            Electric Meter Section, see Paragraph 302.9. For bus-way service head requirements, see EUSERC DWG.
+             349 in Section 1100. (See also Section 400, paragraph 400.3).  The customer shall submit drawings and
+             information to APS for review and approval in accordance with the submittal requirements described in ESRM
+             302.9.
+________________________________________________________________________________________________
+
+302.13        (RESERVED)
+
+
+
+________________________________________________________________________________________________
+
+302.14       METER TYPES USED ON APS SYSTEM
+             Direct Access meters shall have a visual kWh display and must have a physical interface to enable site
+             interrogation of all stored meter data. All meters installed must support the Customer’s APS rate tariff            .
+             FORM NUMBERS                                  DESCRIPTION
+                      1S                                   Single phase, 2 wire, Self-contained
+                      2S                                   Single phase, 3 wire, Self-contained
+                      3S                                   Single phase, 2 wire, 5 terminal, Transformer rated
+                      5S*                                  Single phase, 3 wire, 6 terminal, Transformer rated
+                      5S                                   Three phase, 3 wire, 8 terminal, Transformer rated
+                      6S                                   Three phase, 4 wire Wye, 2 1/2 element, Transformer rated
+                      8S                                   Three phase, 4 wire Delta, Transformer rated
+                      9S                                   Three phase, 4 wire Wye, 13 terminal, Transformer rated
+                      12S                                  Network, Three phase, 3 wire, 5 terminal, Self-contained
+                      14S                                  Three phase, 4 wire Wye, 2 1/2 element, Self-contained
+                      15S                                  Three phase, 4 wire Delta, Self-contained
+                      16S                                  Three phase, 4 wire Wye, 3 element, Self-contained
+                            * = 5S for new installations - 4S for Maintenance Only
+
+
+
+
+
+
+
+
+                                              ELECTRIC SERVICE REQUIREMENTS                                                       302.10
+           REVISION                                                                                                                PAGE
+           03/06/2022                               SPECIAL CONSIDERATIONS                                                           29
+
+===== Page 33 =====
+
+
+===== Page 34 =====
+303.6-1      SINGLE-PHASE SAFETY TEST BLOCK INSTALLATIONS
+             All single-phase non-residential services with self-contained meter installations shall require safety test blocks
+             be furnished by the Customer. Reference Section 1100, Drawings 304,305 and 306                    .
+             Locations that do not have safety test blocks are subject to service interruptions for meter maintenance
+             without prior notification.
+
+             Locations where safety test blocks are not required:
+             1.   House meters on residential apartment complexes that serve non-essential loads.
+             2.   Non-computerized sign boards.
+             3.    Sprinkler controls.
+             4.    Single-phase temporary construction services (when 400Amps are needed a CT-Current Transformer
+               *  rated panel will be required).
+             5.   Parking lot lighting services.
+             6.   Barns.
+             7.   Domestic wells serving individual or multifamily water supply so long as they are not a water company.
+             8.   Residential hobby shops.
+             9.    CATV rectifiers and dryers.
+             10.   Gas Company cathodic protection sites.
+             11.  Non-computerized gates to residential communities.
+             12.   Generating Facility (GF) Production Metering (see 303.6-3 for additional details).
+
+             * When a single phase socket (typically within a multi-pack) at a multi-family residential complex is designated
+             as a "house meter", it will be intended to serve the common area's power needs. The house meter is not
+             intended to serve essential loads (e.g. sales offices, pool equipment, security, common laundry facilities),
+             thus not requiring safety test blocks.
+
+________________________________________________________________________________________________
+
+303.6-2      THREE-PHASE SAFETY TEST BLOCK INSTALLATIONS
+             Safety test blocks shall be required on all three-phase self-contained installations except for
+             Generating Facility (GF) Production Metering as noted in section 303.6-3.
+________________________________________________________________________________________________
+
+303.6-3      GENERATING FACILITY (GF) PRODUCTION METERING APPLICATIONS
+             Safety Test Blocks are not required to be installed at Customer Installed Production Metering specified in
+             Section 9.0 (“Metering Requirements”) of the APS document entitled “Interconnection Requirements for
+             Distributed Generation” for Customer Owned Generation (Reference section 104.11).  The Customer shall
+             install an isolation device(s) (i.e. Utility Disconnect) on the Line side of the Production Meter to isolate/remove
+             all voltage and current from the meter.  This isolation device shall meet all the requirements of Section 8.2 of
+             the APS document entitled “Interconnection Requirements for Distributed Generation.” (Reference Section
+             104.12.2). Refer to the APS interconnection requirements as well as several guides, tools, and sample
+             diagrams for distributed generation that are available on the APS website at aps.com/dg.
+________________________________________________________________________________________________
+
+303.7        HIGH LEG LOCATION (3ø 4W DELTA SERVICE)
+             Self-contained Meter Sockets: wiring to self-contained meter sockets, whether individual sockets or in multiple
+             meter panel boards, shall have the power phase or “high leg” to ground, in the right hand socket terminals.
+             Identification of “high leg” shall be by an outer finish that is orange in color or permanent tagging. This
+             identification shall be placed at all points where a connection is made or will be made, including leads where
+             service will be connected. Refer to 304.3 for CT rated equipment.
+
+
+
+
+
+
+                                               ELECTRIC SERVICE REQUIREMENTS                                                         303.6-1
+            REVISION                                SELF CONTAINED METERING                                                          PAGE
+           05/15/2026                       SELF TEST BLOCKS/HIGH LEG LOCATION                                                         31
+
+===== Page 35 =====
+
+
+===== Page 36 =====
+303.9     INSTALLATION GUIDE DRAWING TYPICAL MULTI-METERING ARRANGMENTS - DWG #G2
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        TBF     TBF     TBF     TBF
+
+
+
+                                  FIG. 1                             FIG. 2
+                              COMMERCIAL                         RESIDENTIAL
+
+
+
+
+
+
+
+
+
+                                 FIG. 3
+                             RESIDENTIAL                             FIG. 4
+                                                                 RESIDENTIAL
+                                        OVERHEAD INSTALLATIONS
+
+
+
+
+
+
+                                   TBF    TBF           TBF   TBF
+
+
+
+
+
+
+
+                                                 FIG. 6
+                                             COMMERCIAL
+
+
+
+              FIG. 5                  UNDERGROUND INSTALLATIONS                         FIG. 7
+          RESIDENTIAL                                                               RESIDENTIAL
+
+       TBF = TEST BLOCK FACILITIES
+
+
+
+                                             EUSERC DWG #G2
+
+
+
+
+
+
+
+
+
+                                    ELECTRIC SERVICE REQUIREMENTS                                      303.9
+         REVISION                      INSTALLATION GUIDE DRAWING                                      PAGE
+         05/10/2021           TYPICAL MULTI-METER ARRANGEMENT - DWG #2                                   33
+
+===== Page 37 =====
+303.10    INSTALLATION GUIDE DRAWING TYPICAL UNDERGROUND SERVICE TERMINATION
+          ARRANGMENTS - DWG #G3
+
+              CUSTOMER'S SERVICE                                   MAIN DISCONNECT
+            ENTRANCE CONDUCTORS                                    SWITCH
+
+
+
+
+
+
+
+
+
+                                                                        TBF
+                                                           HOUSE
+                                                           METER
+ CABLE PULLING             BARRIER         CABLE PULLING         TEST BYPASS FACILITIES        BARRIER
+
+ SECTION SEE                               SECTION SEE            (HOUSE METER ONLY)
+ DWG 343.                                  DWG 343.
+
+
+
+         FIG. 1  TYPICAL COMBINATION SERVICE TERMINATION ENCLOSURE
+                AND METER SOCKET PANELS FOR MULTI-UNIT RESIDENTIAL USE.
+
+
+
+                     MAIN
+                 DISCONNECT
+               COMPARTMENT
+
+                                                                        SEALABLE GUTTER
+
+
+                                        BARRIER
+
+                                                                                                      TEST
+                                                                     TBF         TBF        TBF       BYPASS
+                                                       CABLE                                          FACILITIES
+                                                      PULLING
+                                                   SECTION SEE                                       BARRIER
+                                                      DWG 343.
+                                                                            CUSTOMER'S
+                               TEST                                        DISTRIBUTIONS
+                             BYPASS                                           SECTION
+         TEST BYPASS        FACILITIES
+           FACILITIES
+       ENCLOSURE PER
+       DWGS. 304 & 305.
+
+                          INCOMING UNDERGROUND
+                          SERVICE CABLE
+
+
+
+         FIG. 2  TYPICAL SERVICE TERMINATION ENCLOSURE
+                COMBINATION METER SOCKET PANEL
+                          COMMERCIAL USE.
+                                            EUSERC DWG #G3
+
+
+
+
+                                    ELECTRIC SERVICE REQUIREMENTS                                     303.10
+         REVISION                     INSTALLATION GUIDE DRAWING                                      PAGE
+         05/10/2021              TYPICAL UNDERGROUND SERVICE TERMINATION ARRANGEMENT - DWG #334
+
+===== Page 38 =====
+303.11    SAFETY - SOCKET BOX WITH TEST BY-PASS FACILITIES FOR MULTIPLE SELF-CONTAINED METER
+          INSTALLATIONS 0 - 200 AMPS, 0 - 600 VOLTS
+
+                       REMOVED                  CLOSED                CLOSED           LOCATION
+                                        LINE RACEWAY (SEALABLE)                        OPTIMAL
+                                                                                       TOP OR BOTTOM.
+
+
+
+    NOTE #5
+                                                                                    8-1/2" MIN.
+
+
+
+    NOTE #14
+                                              NOTE #4
+
+
+    NOTE #6                                                                           10" MIN.
+
+                         MAIN                       MAIN
+    OPTIONAL
+
+                                                                                            SIDE VIEW
+                        11" MIN.         FRONT VIEW       MAIN SWITCH COMPARTMENT TO
+                        NOTE #3                           BE AT END OPPOSITE OF THE LINE
+                                                          RACEWAY.
+
+
+                                                 EUSERC DWG #G4
+                                     ALL DIMENSIONS SHOWN ARE IN INCHES
+
+         1.  INSTALLATIONS MOUNTED IN A GANGED ARRAY.THIS DEVICE MAY BE USED FOR MULTIPLE NON-RESIDENTIAL AND INDUSTRIAL METER
+
+          2. ORTEST-BYPASS BUSSED TO BLOCKS A LINE WITH RACEWAY RIGID  INSULATINGAND ALSO WIRED BARRIERS OR BUSSED SHALL BE TO INSTALLED THE METER AND SOCKET WIRED
+             CONFORMTHEN TO  THETO  EUSERCMAIN SWITCH DRAWING BY  THE312  MANUFACTURER.REQUIREMENTS  WITHBLOCKS PHYSICAL AND BARRIERS ARRANGEMENT SHALL
+             LOAD, LINE LOAD FROM LEFT TO RIGHT.CONFORMING TO DRAWINGS 304 AND 305. CONNECTIONS SEQUENCE IS LINE-LOAD, LINE
+
+          3.  MINIMUM ACCESS OPENING TO TEST-BYPASS BLOCK SHALL BE 11' X 10”.
+          4. THREE INCHES MINIMUM CLEARANCE REQUIRED FOR UTILITY TEST PURPOSES.
+          5. NON-REMOVABLEALL SECTION COVERS WHEN SHALL METER BE  ISINDEPENDENTLY IN PLACE. METER REMOVABLE. SOCKET  UPPERSHALL  BECOVER MOUNTED SHALL  ONBE
+             PERMANENTLY LABELED: “DO NOT BREAK SEAL. NO FUSES INSIDE”.SUPPORT AND ATTACHED TO PANEL. TEST BY-PASS COVER SHALL BE SEALABLE AND
+
+          6. WHEN    A NEUTRAL    IS REQUIRED     FOR  METERING     OR  TESTING,   AN  INSULATED    NEUTRAL
+             COVERTERMINAL, PANEL. MOUNTED THE TERMINAL ON EITHER SHALL SIDE, BE  SHALLREADILY BE ACCESSIBLE PROVIDED  BEHINDWHEN THE EACH COVER TEST-BYPASS PANEL IS
+             REMOVED     AND   SHALL   BE   INDIVIDUALLY    CONNECTED      TO  THE   NEUTRAL    BUS   WITH   A
+             MINIMUM OF NO. 8 COPPER WIRE.
+          7. FORCOPPER WIRE. 3Ø, 4 WIRE. CONNECT 7TH JAW TO BODY  OF  NEUTRAL    LUG  WITH   NO. 12  MINIMUM
+
+          8. FOR 3Ø, 4 WIRE DELTA, IDENTIFY THE RIGHT HAND TEST-BYPASS BLOCK.
+          9. FORCENTER 3Ø,  3TEST-BYPASS WIRE, INSTALL BLOCK BUS  ANDTO CONNECT CONNECT LINE 5TH  ANDJAW  LOADTO THIS POLES BUS  USINGTOGETHER NO. 12 AT MINIMUM TOP OF
+             COPPER WIRE.
+         10. FOR 1Ø. 3 WIRE, OMIT CENTER TEST-BYPASS BLOCK.
+         11. FORTO BODY OF NEUTRAL LUG WITH NO. 12 MINIMUM COPPER WIRE. 1Ø, 3 WIRE, 120/208 VOLTS, OMIT CENTER TEST-BYPASS BLOCK. CONNECT 5TH JAW
+
+         12. PERMANENT      LINE-LOAD    LABELS   ON   INSIDE  BACK    OF  ENCLOSURE      IN  ¾”  (MIN.) HIGH
+             BLOCK LETTERS.
+         13. FOR 101 - 200 AMPSMINIMUM DEPTH SHALL BE 4 ½” INCHES FOR   0   -  100  AMPS    AND    6  INCHES
+
+         14. SEE   EUSERC    DRAWING    343  FOR   PULL   BOX   DETAILS   WHEN    USED   ON  UNDERGROUND
+             SERVICE
+
+                                      ELECTRIC SERVICE REQUIREMENTS                                        303.11
+         REVISION          SAFETY - SOCKET BOX WITH TEST BY-PASS FACILITIES FOR MULTIPLEPAGE
+         05/10/2021          SELF-CONTAINED METER INSTALLATIONS 0 - 200 AMPS, 0 - 600 VOLTS                  35
+
+===== Page 39 =====
+303.12    MULTIPLE METERING & SERVICE FOR SPEC. BLDGS. - 1200 AMP MAX
+
+
+
+
+
+
+           PULL BOX (SEE NOTE 3)                GROUND/BOUND COMPARTMENT
+
+
+                                                                  GUTTER
+                                                             (SIZED PER NEC)
+
+
+
+
+                               N
+
+                                      10" MIN.            10" MIN.             10" MIN.
+
+
+                                                 TBF                  TBF                  TBF
+                    SEE NOTE 1
+
+
+                                                 MAIN                 MAIN                 MAIN
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                          TBF = TEST BLOCK FACILITIES
+
+
+
+          NOTES:
+          1. THIS AREA OF PULL BOX FOR APS SERVICE CONDUCTORS. PULL BOX AND GUTTER COVERS
+             TO BE SEALABLE.
+          2. A MINIMUM OF ONE (1) METER MUST BE INSTALLED AT THE TIME SERVICE IS ENERGIZED.
+          3. PULL BOX TO BE ACCORDING TO EUSERC DWG. 343.
+          4. CUSTOMER      SHALL   INSTALL   EACH    SET  OF   SERVICE    CONDUCTORS      FROM    PULL   BOX
+             THROUGH GUTTER TO EACH METER. SIZE TO BE PER NEC REQUIREMENTS.
+          5. SEE SECTION 700 FOR GROUNDING AND BONDING REQUIREMENTS
+          6. SEE EUSERC DWGS. 304, 305 AND G4 FOR METER CAN REQUIREMENTS.
+          7. MAIN DISCONNECT REQUIRED TO BE ADJACENT TO THE METER (SEE PARAGRAPH 301.13).
+             OPTIONAL FACTORY INSTALLED MAIN IS SHOWN.
+
+
+
+
+
+
+
+
+
+                                     ELECTRIC SERVICE REQUIREMENTS                                        303.12
+         REVISION             MULTIPLE METERING & SERVICE FOR SPEC. BLDG                                  PAGE
+         05/10/2021                              1200 AMP MAX                                               36
+
+===== Page 40 =====
+      303.13       MOBILE HOME AND TEMPORARY METER PEDESTAL - 1Ø 3W 120/240 VOLT
+
+
+
+                                                                                THIS  IS  A  LIST  OF   MATERIAL    FOR   A  NORMAL     METER
+                                                                                PEDESTAL    INSTALLATION.   IT IS NOT   INTENDED   TO   BE ALL
+                                                                                INCLUSIVE  BUT  GIVES   THE  MORE   COMMON    REQUIREMENTS.
+                                         1                                      ALL    EQUIPMENT       SHALL     COMPLY       WITH     EUSERC
+                                                                                REQUIREMENTS     (SEE SECTION   1100, DWG.  307) AND  SECTION
+                                                                                500, PARAGRAPH 506.6-1, 2.
+                                                                                1.) METER   SOCKET,    BREAKER    COMPARTMENT       AND   PULL
+                                                                                   SECTION    MUST    BE  RAIN   TIGHT   EQUIPMENT.     METER
+                                         2                                         SOCKET    JAWS   OR  CLIPS  SHALL   BE  FREE   OF  FOREIGN
+                                                                                   MATERIAL (MUD, PAINT, PLASTER, ETC.). RINGLESS METER
+ NEUTRAL BUS                             3                                         SOCKETS ARE NOT ACCEPTABLE.
+                                          4                                     2.) BREAKER COMPARTMENT.
+                                                                                3.) PEDESTAL   BOND   LUG. MAY   BE A  BOND   SCREW   IN SOME
+                                                                                   MODELS.
+                  5                                                             4.) CUSTOMER'S NEUTRAL LANDING BLOCK.
+                                            48" MIN.
+                                                                                5.) SERVICE  TERMINATION    LUGS   SHALL  BE  TWIN  #2 TO  #350
+                                                                                   MCM   ALUMINUM    BODIED    PRESSURE    TYPE   FOR  IN  AND
+                                 5           6                                     OUT CONNECTION OF THE SERVICE CONDUCTORS.
+                                           7                                    6.) THE  GROUND     WIRE    (#4  BARE   COPPER)     SHALL   BE
+                                                                                   CONTINUOUS FROM THE NEUTRAL LANDING BLOCK IN THE
+                                                                                   BREAKER    COMPARTMENT      TO  A GROUNDING     ELECTRODE
+                                                                                   SYSTEM    IN COMPLIANCE     WITH  NEC   (CHECK   WITH  AHJ).
+                                   9                  10                           THE  GROUND WIRE MUST BE PROPERLY         SUPPORTED     AND
+                                          8                                        ATTACHED    TO  THE   OUTSIDE   OF  THE  PEDESTAL    AT  24"
+                                                                                   INTERVALS. WHEN ATTACHING       THE GROUND     WIRE TO THE
+                                                        GRADE                      PEDESTAL,    THE  METHOD    OF  ATTACHMENT      SHALL   NOT
+                                                                                   RESULT    IN  SHARP    PROJECTIONS,      SUCH   AS   METAL
+                                                                                   SCREWS     INTO   THE   WIREWAY    BELOW     THE  NEUTRAL
+24" MIN.18" MIN.                                                                   LANDING    BLOCK.    SEE   ILLUSTRATION     AT   LEFT   FOR
+                                                                                   PREFERRED      METHOD     OF   INSTALLING    THE   GROUND
+                                                           APPROVED                ELECTRODE CONDUCTOR.
+                                                          GROUNDING             7.) ACCESS   TO   UTILITY   PULL   SECTION    SHALL   NOT   BE
+                                                          ELECTRODE                BLOCKED    IN  ANY   MANNER.    PULL   SECTION   SHALL   BE
+                                                                                   SEALABLE.    NO  CUSTOMER      WIRING   OR  EQUIPMENT     IS
+                                                                                   ALLOWED IN THIS AREA.
+                                                                                8.) POURED   CONCRETE     SLAB  SHALL  BE  24" X  24" MINIMUM
+                                                                                   SIZE AND HAVE A 3 1/2" MINIMUM THICKNESS.
+
+   9.) PROVIDE  AND  INSTALL   2 1/2" CONDUIT(S)  WITH  24" SWEEP(S).   CONDUIT   TO  EXTEND   A MINIMUM   OF  1" AND  A MAXIMUM    OF  2" ABOVE   THE
+      CONCRETE    SLAB.  CONDUIT   SYSTEM   SHALL   BE CUSTOMER     INSTALLED   PER  APS  SPECIFICATIONS    TO A  LOCATION   DETERMINED    BY  AN  APS
+      REPRESENTATIVE.
+   10)   APPROVED    GROUND    ELECTRODE    CLAMP   SHALL  BE  BURIED,  FLUSH  OR  SOMEHOW     PROTECTED    FROM   PHYSICAL   DAMAGE.   CLAMP   SHALL
+      BE DESIGNED FOR UNDERGROUND USE. GROUND ROD SHALL NOT BE INSTALLED IN OR BENEATH THE CONCRETE SLAB.
+
+
+   GENERAL NOTES:
+     1. METER LOCATION TO BE SPECIFIED BY AN APS                              6.  SERVICE CABLE PULL AND TERMINATION SECTION SHALL BE
+        REPRESENTATIVE.                                                           COVERED WITH A SEALABLE, REMOVABLE PANEL, EXTENDING
+     2. PEDESTAL SHALL BE UL LISTED (AS EQUIPMENT SUITABLE                        FROM AT LEAST 2” TO 6” ABOVE THE CONCRETE PAD AND
+        FOR USE AS SERVICE EQUIPMENT) AND EUSERC APPROVED.                        WHEN REMOVED GIVE FULL ACCESS TO THE SERVICE
+        THAT PORTION OF PEDESTAL BURIED IN CONCRETE AND                           TERMINATION LUGS.
+        EARTH SHALL BE COATED WITH AN APPROVED CORROSION                      7.  THE PEDESTAL AT GRADE LINE SHALL HAVE A MINIMUM
+        RESISTANT MATERIAL SUCH AS ZINC, CADMIUM, OR ENAMEL                       CROSS-SECTIONAL DIMENSION OF 4” X 8”. THE FIXED PANEL
+        TO WITHSTAND DETERIORATION.                                               FOR THE FINAL GRADE AND CONCRETE POURS SHALL
+     3. PEDESTAL AND METER SHALL HAVE A MINIMUM RATING OF                         EXTEND 2” TO 6” ABOVE GRADE AND A MINIMUM OF 18” BELOW
+        100 AMPS.                                                                 GRADE. THE PEDESTAL SHALL EXTEND 24” BELOW GRADE.
+     4. PEDESTAL AND POWER OUTLET SECTION SHALL BE RATED                      8.  THE CUSTOMER SHALL BE RESPONSIBLE FOR THE FINAL
+        10,000 AIC MINIMUM.                                                       GRADE OF THE UTILITY ISLAND AND THE INCLUDED METER
+                                                                                  PEDESTAL.
+     5. THE SOCKET SHALL BE FACTORY-WIRED WITH THE                            9.  MINIMUM METER HEIGHT SHALL BE 48”.
+        CONDUCTORS IN A SEPARATE OR BARRIERED WIREWAY
+        FROM THE SERVICE TERMINATION LUGS TO THE METER                        10. SEE   SECTION   500,  PAGES    15, 16  AND   17  FOR   FURTHER
+        SOCKET. THE CONDUCTORS WHICH EXTEND TO THE METER                          REQUIREMENTS.
+        SOCKET SHALL BE CONNECTED AT THE SERVICE
+        TERMINATION LUGS INDEPENDENT OF THE CONNECTIONS
+        FOR THE SERVICE LATERAL CONDUCTORS.
+
+
+
+                                                     ELECTRIC SERVICE REQUIREMENTS                                                         303.13
+                  REVISION                              MOBILE HOME AND TEMPORARY                                                          PAGE
+                  05/10/2021                       METER PEDESTAL - 1Ø 3W 120/240 VOLT                                                       37
+
+===== Page 41 =====
+       303.14       120 VOLT 1Ø 2 WIRE METER PEDESTAL
+
+
+             THE TOTAL AMPACITY OF THE BREAKERS                              THIS  IS A LIST OF  MATERIAL   FOR  A  NORMAL   METER    PEDESTAL
+             IS NOT TO EXCEED 30 AMP, WITH NO                                   INSTALLATION.   IT IS NOT INTENDED   TO  BE ALL  INCLUSIVE  BUT
+             MORE THAN TWO BREAKERS                                              GIVES  THE MORE   COMMON     REQUIREMENTS.     ALL EQUIPMENT
+                                                                                 SHALL  COMPLY   WITH  EUSERC   REQUIREMENTS      (SEE SECTION
+                                                                                1100, DWG. 307) AND SECTION 500, PARAGRAPH 506.6-1, 2.
+                                                   1                         1.) METER    SOCKET,     BREAKER     COMPARTMENT       AND    PULL
+                                                                                 SECTION   MUST  BE  RAIN  TIGHT  EQUIPMENT.    METER   SOCKET
+                                                                                 JAWS  OR  CLIPS SHALL  BE  FREE  OF  FOREIGN   MATERIAL  (MUD,
+                                                                                PAINT,  PLASTER,   ETC.). RINGLESS  METER   SOCKETS    ARE  NOT
+                 NEUTRAL BUS                          2                          ACCEPTABLE.
+                                                                             2.) BREAKER COMPARTMENT.
+                    LOAD                      4       3                      3.) PEDESTAL    BOND   LUG.  MAY   BE  A  BOND   SCREW    IN SOME
+                    WIRES                                                       MODELS.
+                                                                             4.) CUSTOMER'S NEUTRAL LANDING BLOCK.
+                                                       48" MIN.              5.) LOAD  CONDUCTORS      SHALL  NOT   BE  RUN  THROUGH     UTILITY
+                            5                                                    SERVICE  CABLE   PULL  AND  TERMINATION    SECTION.  METALLIC
+                                                        6                        CONDUIT   SHALL  BE  WRAPPED    OR  COATED   PER  PARAGRAPH
+                                                                                 4.1-4 IN SECTION 500.
+                                                        7                    6.) THE   GROUND      WIRE    (#4  BARE     COPPER)     SHALL    BE
+                                                                                 CONTINUOUS    FROM    THE  NEUTRAL    LANDING   BLOCK   IN THE
+                                                                                BREAKER     COMPARTMENT       TO  A  GROUNDING      ELECTRODE
+                                                                                 SYSTEM   IN COMPLIANCE     WITH  NEC  (CHECK   WITH  AHJ). THE
+                                                9       8       10               GROUND     WIRE   MUST    BE   PROPERLY     SUPPORTED      AND
+                                                                                 ATTACHED    TO   THE   OUTSIDE   OF   THE   PEDESTAL    AT  24"
+                   GRADE                                                        INTERVALS.    WHEN   ATTACHING    THE  GROUND     WIRE  TO  THE
+           24" MIN.                                             GRADE           PEDESTAL,     THE   METHOD     OF  ATTACHMENT      SHALL    NOT
+                       18" MIN.                                                 RESULT    IN SHARP   PROJECTIONS,    SUCH   AS METAL   SCREWS
+                                                                                INTO  THE  WIREWAY     BELOW   THE  NEUTRAL    LANDING   BLOCK.
+TO CUSTOMER                                                                      SEE  ILLUSTRATION    AT  LEFT  FOR  PREFERRED     METHOD    OF
+                                                                                INSTALLING THE GROUND ELECTRODE CONDUCTOR.
+      LOAD                              APPROVED                             7.) ACCESS TO UTILITY PULL SECTION SHALL NOT BE BLOCKED IN
+                                        GROUNDING                                ANY   MANNER.    PULL   SECTION    SHALL   BE  SEALABLE.    NO
+                                        ELECTRODE                                CUSTOMER     WIRING   OR  EQUIPMENT     IS  ALLOWED    IN  THIS
+                                                                                 AREA.
+                                                                             8.) POURED   CONCRETE     SLAB  SHALL  BE  24" X 24" MINIMUM   SIZE
+                                                                                 AND HAVE A 3 1/2" MINIMUM THICKNESS.
+
+    9.) PROVIDE  AND  INSTALL   2 1/2" CONDUIT(S)  WITH  24" SWEEP(S).  CONSULT    AN  APS REPRESENTATIVE      TO DETERMINE    IF SERVICE   WILL BE
+       RADIAL  OR  CASCADED.    CONDUIT   TO  EXTEND   A MINIMUM   OF  1" AND  A MAXIMUM    OF 2" ABOVE   THE  CONCRETE    SLAB.  CONDUIT   SYSTEM
+       SHALL BE CUSTOMER INSTALLED PER APS SPECIFICATIONS TO A LOCATION DETERMINED BY AN APS REPRESENTATIVE.
+    10)   APPROVED    GROUND     ELECTRODE    CLAMP   SHALL   BE BURIED,   FLUSH  OR   SOMEHOW     PROTECTED    FROM   PHYSICAL    DAMAGE.   CLAMP
+       SHALL BE DESIGNED FOR UNDERGROUND USE. GROUND ROD SHALL NOT BE INSTALLED IN OR BENEATH THE CONCRETE SLAB.
+
+
+
+     GENERAL NOTES:
+    1. METER LOCATION TO BE SPECIFIED BY AN APS REPRESENTATIVE.               6.  SERVICE   CABLE   PULL   AND   TERMINATION    SECTION    SHALL   BE
+    2. PEDESTAL    SHALL   BE UL  LISTED  (AS EQUIPMENT     SUITABLE   FOR        COVERED    WITH   A SEALABLE,    REMOVABLE     PANEL,   EXTENDING
+       USE   AS  SERVICE   EQUIPMENT)    AND   EUSERC   APPROVED.     THAT        FROM  AT  LEAST  2” TO  6” ABOVE  THE  CONCRETE    PAD  AND  WHEN
+       PORTION   OF  PEDESTAL   BURIED   IN CONCRETE    AND  EARTH   SHALL        REMOVED    GIVE   FULL  ACCESS    TO  THE  SERVICE    TERMINATION
+       BE   COATED     WITH   AN   APPROVED      CORROSION     RESISTANT          LUGS.
+       MATERIAL   SUCH   AS  ZINC, CADMIUM,   OR  ENAMEL   TO  WITHSTAND      7.  THE   PEDESTAL     AT  GRADE    LINE   SHALL    HAVE   A  MINIMUM
+       DETERIORATION.                                                             CROSS-SECTIONAL     DIMENSION    OF 4” X 8”. THE FIXED  PANEL  FOR
+    3.   PEDESTAL   AND  METER   SHALL   HAVE  A MINIMUM   RATING   OF  100       THE    FINAL     GRADE     AND     CONCRETE       POURS      SHALL
+        AMPS.                                                                     EXTEND   2” TO  6” ABOVE  GRADE    AND  A MINIMUM   OF  18” BELOW
+                                                                                  GRADE. THE PEDESTAL SHALL EXTEND 24” BELOW GRADE.
+    4. PEDESTAL    AND  POWER   OUTLET   SECTION   SHALL  BE RATED   10,000   8.  THE  CUSTOMER    SHALL   BE RESPONSIBLE     FOR  THE  FINAL GRADE
+        AIC MINIMUM.                                                              OF THE UTILITY ISLAND AND THE INCLUDED METER PEDESTAL.
+    5. THE SOCKET    SHALL  BE FACTORY-WIRED WITH THE CONDUCTORS              9.  MINIMUM METER HEIGHT SHALL BE 48”.
+       IN  A SEPARATE    OR  BARRIERED    WIREWAY     FROM   THE  SERVICE
+       TERMINATION    LUGS   TO  THE  METER   SOCKET.  THE  CONDUCTORS
+        WHICH  EXTEND    TO THE  METER    SOCKET   SHALL  BE  CONNECTED
+        AT  THE  SERVICE    TERMINATION    LUGS   INDEPENDENT      OF  THE
+       CONNECTIONS FOR THE SERVICE LATERAL CONDUCTORS.
+
+
+
+
+                                                      ELECTRIC SERVICE REQUIREMENTS                                                         303.14
+                   REVISION                                      120 VOLT 1Ø 2 WIRE                                                         PAGE
+                   05/10/2021                                     METER PEDESTAL                                                              38
+
+===== Page 42 =====
+
+
+===== Page 43 =====
+
+
+===== Page 44 =====
+
+
+===== Page 45 =====
+304.5-2   OUTDOOR SERVICE ENTRANCE PADS
+
+
+
+
+
+                                ALTERNATE ESCAPE ROUTE
+
+
+                                                            11" MIN. (ESRM 1100
+                    HINGES                                   EUSERC DWG. 354)
+                   ON RIGHT                                        A MIN. 42" HIGH RAILING SHALL BE REQUIRED
+                                                                   IN ANY SITUATION WHERE THE SES IS
+                                                                   12" OR MORE ABOVE THE GRADE IN FRONT
+                                                                   OF & BELOW THE SES PAD. A STEP OR
+                                                                   STEPS SHALL BE PROVIDED FOR ANY SITUATION
+                                                                   WHERE FINISH GRADE IN FRONT OF THE SES
+                                                                   PAD EXCEEDS 12".
+
+                                                                    6" MIN.
+                                                                 FROM FENCE
+
+
+
+
+
+
+
+
+
+                                             REQUIRED 90°
+                                               LOCKING
+                                              MECHANISM
+
+
+                                                  MINIMUM 7'
+                                                  REQUIRED
+
+                                           MINIMUM 4'
+                                           REQUIRED
+
+
+
+
+
+
+
+
+
+
+
+                     DETAIL 3
+
+
+                                                                          NOTES :
+
+                                                                          1) OPENING TO STEPS TO BE
+                                                                              MINIMUM 3' WIDE
+                                                                          2) IF STEPS ARE PLACED DIRECTLY
+                                                                              IN FRONT OF SES PAD THE 4' LANDING
+                                                                              AREA WILL STILL BE REQUIRED.
+                                                                          3) HANDRAIL ACCORDING TO AHJ.
+
+
+
+
+
+                                      ELECTRIC SERVICE REQUIREMENTS                                        304.5-2
+         REVISION                                                                                           PAGE
+         01/27/2022             OUTDOOR SERVICE ENTRANCE SECTION PADS                                        42
+
+===== Page 46 =====
+304.5-3    OUTDOOR SERVICE ENTRANCE PADS IN REMOTE LOCATIONS WITH NO ACCESS TO WATER
+
+THIS ILLUSTRATION DEPICTS A PAD MOUNTED
+PEDESTAL BUT THE REQUIREMENTS SHALL
+APPLY TO ALL FREE STANDING SES'S.
+
+PRECAST FLAT PAD, FIBERCRETE OR
+CONCRETE, SHALL BE USED IN AREAS WHEN
+POUR-IN-PLACE PADS ARE NOT FEASIBLE DUE
+TO NO ACCESS TO WATER.   FOAM FILLED TYPE                                                               Hinges on
+PADS ARE NOT ALLOWED.                                  Equal on both sides                                right
+
+PAD AREAS SHALL BE FLAT WITH 95%                         (1" MINIMUM)
+COMPACTION RATING PRIOR TO SETTING
+PRECAST PAD.
+
+PRECAST PAD SHOWN IS:
+CONCAST FIBERCRETE FLAT PAD FC-36-72-4
+INFO@CONCASTINC.COM                                                                            MINIMUM
+                                                     Not to scale.                                 3'
+                                                    1" MIN. on the                            REQUIRED
+FLAT PAD NOTES :                                  backside of cabinet
+                                                 Cut APS conduit
+1.  SAND SLURRY CEMENT (1 PART                    window
+   PORTLAND CEMENT : 8 PARTS SAND)                                                                            Cut customer
+   BACKFILL OPENING(S) IN PRECAST                                                                             conduit
+   PAD TO PREVENT RODENT                                                                                      window
+   INTRUSION. 150 PSI MINIMUM WHEN                                                         MINIMUM
+   FULLY CURED.                                                                                3'                        4"
+                                                                                          REQUIRED
+2.  INSET PAD INTO LEVEL SOIL BY 1"-2",                 Center the equipment
+    WHERE POSSIBLE.                                     on the pad so the side        72"                      36"
+3.  SECURE EQUIPMENT SECTION TO                         dimensions match.                                      MIN.
+    PAD.
+            NOTES:                                                                 DETAIL 4
+
+
+            1. AN  ACCEPTABLE     PERSONNEL     ESCAPE    ROUTE   SHALL   BE  PROVIDED    IN FRONT   OF  THE
+               SES PER 304.5-1 “DETAIL 2”.
+
+            2. THERE    SHALL  NOT   BE MORE    THAN  2" PER  1 FT  GRADE   AWAY    FROM   SES  PAD  ALONG
+               THE    ROUTE     OF   ESCAPE     (SEE   304.5  “DETAIL    1”), UNLESS     AN   ALTERNATIVE
+               ACCEPTABLE ESCAPE ROUTE IS PROVIDED. (SEE 304.5-2 “DETAIL 3”).
+
+            3. ABSOLUTELY      NO  OBSTRUCTIONS       SHALL   BE  ALLOWED     IN THE   PROVIDED     “SAFETY
+               ESCAPE    ROUTE”,    INCLUDING    BUT   NOT   LIMITED   TO:  SHRUBS,    TREES,   ROCKS,   OR
+               GRAVEL     IN  EXCESS    OF   1.5” DIAMETER.    ADDITIONALLY,     NO   FENCING    SHALL    BE
+               ALLOWED     IN FRONT   OF  THE  SES  WITHIN   THE  ESCAPE   ROUTE    UNLESS   AN  OPERABLE
+               GATE   IS  PROVIDED    WHICH   OPENS    TO  THE   FULL  WIDTH   OF  THE   SES  (GATE   SHALL
+               OPEN    OUTWARDS      AND  AWAY    FROM   SES),  OR   UNLESS   AN   “ALTERNATIVE”    ESCAPE
+               ROUTE       HAS     BEEN     PROVIDED.       (SEE    ADDITIONAL       DETAILS     PROVIDED
+               IN 304.5-2 “DETAIL 3”).
+
+            4.  BARRIER POSTS SHALL BE INSTALLED AS DESCRIBED IN ESRM, SECTION 301.8.
+               THE OUTSIDE EDGE OF THE BARRIER POSTS SHALL BE NO CLOSER THAN 6" FROM
+               OPEN SES DOORS.
+
+            5. SEE 301.8 FOR ADDITIONAL BARRIER INFORMATION.
+
+            6. "PADS"   SHALL   MEAN    "FIBERCRETE    OR   CONCRETE     PADS"   FOR   PAD-MOUNTED       SES
+               CABINETS.
+
+                                        ELECTRIC SERVICE REQUIREMENTS                                         304.5-3
+          REVISION                                                                                             PAGE
+          01/27/2022              OUTDOOR SERVICE ENTRANCE SECTION PADS                                         43
+
+===== Page 47 =====
+304.6     INDOOR SERVICE ENTRANCE SECTION HOUSEKEEPING PADS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   75" MAX.
+                    METER
+                   HEIGHT
+
+                                                                ON
+
+                                                                 OFF
+                                                  ON
+                                                                ON
+                                                   OFF           OFF
+
+
+
+                                                                ON
+
+                                                                 OFF
+
+
+
+
+                      HOUSE-KEEPING PAD
+                          2-1/2" MAXIMUM
+                           (SEE NOTES)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          NOTES:
+
+          1. IF CUSTOMER PREFERS TO INSTALL, HOUSEKEEPING PAD SHALL BE NO MORE THAN
+             2-1/2 INCHES THICK, AND SHALL NOT EXTEND MORE THAN 1 INCH BEYOND THE FRONT
+             EDGE OF THE SERVICE ENTRANCE SECTION.  DO NOT USE 2" X 4" AS FORM FOR
+             CONCRETE PAD.
+
+          2. PAD MATERIAL TO BE RATED 3000 LB. AT 28 DAY MINIMUM.
+
+          3. SEE SECTION 300, PARAGRAPH 301.9 FOR METER ROOM REQUIREMENTS.
+
+          4. PAD IS NOT AN APS REQUIREMENT AND SHALL BE FOR INDOOR USE ONLY.
+
+          5. THE METER ROOM'S CONCRETE FLOOR OR, IF PREFERRED, THE CUSTOMERS
+             HOUSEKEEPING PAD WHERE THE SES IS SECURED TO, SHALL REMAIN LEVEL AND
+             FLUSH THROUGHOUT THE ENTIRELY OF THE SES FOOTPRINT.  THERE SHALL BE NO
+             VAULT, BASIN, DEPRESSION, OR OPEN CONDUIT WINDOW ALLOWED IN THE
+             CONCRETE PAD UNDER THE SES.
+
+
+                                     ELECTRIC SERVICE REQUIREMENTS                                        304.6
+         REVISION                                                                                         PAGE
+         11/15/2022     INDOOR SERVICE ENTRANCE SECTION HOUSEKEEPING PADS                                  44
+
+===== Page 48 =====
+305.0        INSTALLATION REQUIREMENTS FOR THE TOTALIZED METERING OF ELECTRIC LOADS
+             Totalized metering is the measurement for billing purposes at the appropriate rate, through one meter, of the
+             simultaneous demands and energy of a Customer who receives this electric service at more than one
+             delivery point. The Customer must qualify under APS “Conditions Governing the Totalized Metering of
+             Electric Loads”, and must receive prior approval from APS Totalizing Committee. The Customer will then be
+             notified in writing, by the Design Project Leader, that totalized metering has been approved and may be
+             implemented.
+             After determination by APS that totalized metering will be permitted, a meeting will be held with the Customer
+             (or his representative), the APS Customer Service Representative, and a representative from the APS
+             Electric Meter Shop. This is for the purpose of discussing conduit routing and general installation details.
+             Following the meeting, the Customer shall submit an installation plan, showing all details, to the Design
+             Project Leader. The Electric Meter Shop is responsible for the final approval of the plan. Installation of
+             totalized metering facilities shall not begin prior to final approval.
+________________________________________________________________________________________________
+
+305.1        GENERAL RULES FOR TOTALIZED METERING INSTALLATIONS
+             1.  Totalized metering compartment and service entrance equipment locations shall meet APS specifications
+                 for meter locations, meter rooms, and other applicable requirements.
+             2.  Totalized metering compartment shall be in accordance with Electric Meter Shop specifications. Customer
+                 shall provide and install totalizing cabinet. See Section 300, Paragraph 305.2 for requirements.
+             3.  Customer shall provide and install all totalized metering conduit. Conduits shall be installed in accordance
+                 with the current National Electrical Code requirements. All conduit installations shall be 1 inch conduit.
+             4.  Totalized metering conduits shall originate in the individual service entrance section’s CT compartments
+                 and shall terminate in the totalized metering compartment. Exact location of conduit entries shall be
+                 specified by the Electric Meter Shop.
+             5.  Conduit shall be rigid steel when installed outdoor, underground, or in locations exposing it to possible
+                 mechanical damage. EXCEPTION: Schedule 40 PVC conduit may be used in underground
+                 installations that have a minimum of 24 inches of cover over conduit, or DB 120 conduit may be
+                 used if encased in concrete per paragraph 502.8 in Section 500, and there is a minimum of 24
+                 inches of cover over conduit. Conduit may be EMT when installed overhead indoors in an
+                 approved location. Plastic conduit is not acceptable.
+             6.  Steel conduit, bends, and accessory parts installed underground shall be factory coated or wrapped with
+                 an approved PVC tape (overlapped a minimum of 1/2 the tape width thereby providing a minimum
+                 thickness of 40 mils) suitable for direct burial. See Section 500, Paragraph 501.4 for coating requirements.
+             7.  A pull box with a sealable cover shall be installed for each 270° of conduit bends. In no case shall pull
+                 boxes be more than 500 feet apart. Pull boxes shall normally be 6" x 18" x 18". If installed outdoors or
+                 below grade, pull boxes shall be watertight and approved for the purpose. All pull boxes shall be
+                 accessible after job completion. Pull box locations shall be approved by Electric Meter Shop. The conduit
+                 system shall be a clean, usable system at the time APS installs conductors.
+             8.  Flat-strap or true-tape to be supplied and installed by Customer.
+             9.  Customer wiring shall not be allowed in S.E.S. metering compartments, totalized metering conduits and
+                 pull boxes, or totalized metering compartment.
+                 Because each installation is different, the above general rules may not be all inclusive. Each installation
+                 must be designed and approved on an individual basis; therefore, additional requirements may be
+                 necessary.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                ELECTRIC SERVICE REQUIREMENTS                                                           305.0
+            REVISION                          INSTALLATION REQUIREMENT FOR THE                                                          PAGE
+            05/15/2026                     TOTALIZED METERING OF ELECTRIC LOADS                                                           45
+
+===== Page 49 =====
+305.2     INDOOR TOTALIZING/COMBINING CABINET
+
+
+
+
+
+
+
+
+                                            SEAL
+
+                                                                    PLYWOOD BACKING
+
+
+
+                                               36"                         C/L OF CABINET
+
+
+
+                                                                     HEIGHT
+                                                                     48" MIN.
+                           30"                          15"          75" MAX
+
+
+
+
+                                                                             FLOOR
+
+
+
+
+
+
+
+          NOTES:
+
+          1. CABINET TO BE MADE WITH A MINIMUM OF 12 GAUGE STEEL.
+
+          2. CABINET DIMENSIONS SHOWN ARE MINIMUMS.
+
+          3. CABINET TO BE PAINTED TO SAME SPECS AND COLOR AS SERVICE ENTRANCE
+             SECTION.
+
+          4. COVER/DOOR TO BE DEMOUNTABLE AND REVERSIBLE.
+
+          5. COVER/DOOR TO BE SEALABLE.
+
+          6. 3/4" MINIMUM PLYWOOD TO BE INSTALLED ON BACK INSIDE WALL OF CABINET. SIZE
+             TO BE 24" X 24". (SEE ABOVE)
+
+          7. CABINET TO BE BONDED TO SERVICE ENTRANCE SECTION WITH MINIMUM OF #8
+             COPPER WIRE.
+
+          8. CABINET TO BE SOLIDLY ANCHORED TO THE WALL.
+
+          9. APS METER SHOP TO DETERMINE SIZE OF CONDUIT AND POINT OF ENTRY INTO
+             SERVICE SECTIONS.
+
+          10. DOOR TO BE HINGED.
+
+
+
+
+
+
+
+
+                                      ELECTRIC SERVICE REQUIREMENTS                                         305.2
+         REVISION                                                                                          PAGE
+         05/10/2021              INDOOR TOTALIZATING / COMBINING CABINET                                     46
+
+===== Page 50 =====
+305.2-1   APS OUTDOOR TOTALIZING/COMBINING CABINET
+
+
+
+            26"
+                                                         INNER DOOR
+
+                                                                                       PLYWOOD
+                                                          HASP                         BACKING
+
+                                          36"
+                                                      HEIGHT
+                                     15"              48" MIN.
+            30"                                       75" MAX.        11"     15"
+                              11"
+                                                            FLOOR
+
+                          30"                            TYPE 3R            26"
+                                                       OVERHANG                5"
+
+                        HINGE                             PADLOCK                     24" X 24" PLYWOOD
+
+               36"                         INTERNAL DEAD FRONT
+                                           HINGED SEALABLE AND                         12 POSITION
+                                           REVERSIBLE                                 GROUND BAR
+
+                                     STEEL BASE FRAME
+               30"                   TO BE BOLTED TO BOTTOM
+                                     OF ENCLOSURE
+                                     AND FINISHED FLOOR.
+
+                     FRONT VIEW                                         SIDE VIEW
+
+                        NOTE:
+                          30" X 36" X 26" OUTDOOR TYPE 3R REMOVABLE
+                          REVERSIBLE AND SEALABLE DEAD FRONT COVER.
+                          STEEL REQUIRED TO BE PAINTED GRAY ENAMEL.
+
+          NOTES:
+         1.  CABINET TO BE MADE WITH A MINIMUM OF 16 GAUGE STEEL.
+          2. CABINET DIMENSIONS SHOWN ARE MINIMUMS.
+          3. CABINET   TO  BE  PAINTED   TO  SAME   SPECS    AND  COLOR    AS  SERVICE   ENTRANCE
+             SECTION.
+          4. INNER DOOR TO BE DEMOUNTABLE AND REVERSIBLE.
+          5. INNER DOOR TO BE SEALABLE.
+          6. REQUIRED.OUTER DOOR TO BE PAD    LOCKABLE.    PROVISION     FOR   TWO   PADLOCKS      IS
+
+          7. 3/4"TO BE 24" X 24". (SEE ABOVE) MINIMUM PLYWOOD TO BE INSTALLED ON BACK INSIDE WALL OF CABINET. SIZE
+
+          8. CABINET   TO  BE  BONDED    TO  SERVICE   ENTRANCE    SECTION    WITH  MINIMUM   OF  #8
+             COPPER WIRE.
+          9. METERINGCABINET TO SECTIONS, BE SOLIDLY OR ANCHORED TO A SEPARATE ON AN EXTERIOR STRUCTURE WALL PER ADJACENT SECTION TO  THE300,
+             PARAGRAPH 306.0 ADJACENT TO THE METERING SECTIONS.
+         10. SERVICE ENTRANCE SECTIONS.APS METER SHOP TO DETERMINE SIZE OF CONDUIT AND POINT OF ENTRY INTO
+
+         11. BOTH DOORS ARE TO BE HINGED.
+         12. CABINET TO BE WEATHERPROOF.
+         13. CABINET REQUIRED TO BE ON STAND.
+
+                                      ELECTRIC SERVICE REQUIREMENTS                                        305.2
+         REVISION                                                                                          PAGE
+         05/10/2021            OUTDOOR TOTALIZATION / COMBINING CABINET                                     47
+
+===== Page 51 =====
+
+
+===== Page 52 =====
+
+
+===== Page 53 =====
+306.1     EQUIPMENT NOT SECURED TO A PERMITTED STRUCTURE
+
+
+ EQUIPMENT NOT SECURED TO A PERMITTED STRUCTURE SHALL BE SECURED AS FOLLOWS:
+
+ 1.    H-FRAME SHALL BE BUILT PER THE STANDARD SET FORTH IN THE APS ESRM, SECTION 300, PARAGRAPH
+       306.0, (SUBJECT TO APS FIELD INSPECTION) OR,
+
+ 2.    A STRUCTURAL ENGINEER LICENSED IN THE STATE OF ARIZONA SHALL:
+
+       a.  PREPARE AND SEAL DRAWINGS AND DESIGN CALCULATIONS DEMONSTRATING THE STRUCTURAL
+            INTEGRITY FOR THE NON-PERMITTED STRUCTURE(S) WITH ATTACHED SERVICE EQUIPMENT RESISTS THE
+            CUMULATIVE EFFECTS OF APPLICABLE STATIC LOADS (E.G., DEAD WEIGHT) AND DYNAMIC LOADS (E.G.,
+            WIND PRESSURE, SEISMIC INDUCED MOTIONS).  THE SERVICE EQUIPMENT SHALL BE SECURED TO
+            STRUCTURES IN ACCORDANCE WITH THE SERVICE EQUIPMENT LISTINGS REQUIREMENTS, AND
+
+       b. PERFORM A STRUCTURAL INSPECTION AND PROVIDE SIGNED LETTER VERIFYING THE INSTALLATION
+           COMPLIES WITH THE ENGINEERING DOCUMENTS, AND
+
+       c. SUBMIT DRAWINGS, DESIGN CALCULATIONS AND LETTER TO APS REPRESENTATIVE FOR RECORD
+           PURPOSES.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       ELECTRIC SERVICE REQUIREMENTS                                          306.1
+          REVISION                          EQUIPMENT NOT SECURED                                             PAGE
+         07/09/2025                        TO A PERMITTED STRUCTURE                                             50
+
+===== Page 54 =====
+   307.0     JOB SITE POWER (TEMPORARY METER IN PERMANENT POSITION)
+
+
+
+
+
+                                      20 GA STEEL FRAMING STUD
+                                                   4"
+
+
+                                      14"
+
+                                       6"          4"
+
+                                                                  TOP VIEW
+
+                                                                  TOP VIEW
+
+
+                                                                    13 3/8"
+
+
+                                                                                   20 GAUGE STEEL BACKING
+                                        SIDE VIEW                  FRONT VIEW      PLATE OVER LAMINATED WIRE,
+                                                                                   VAPOR BARRIER.
+PROVIDE A MIN. OF 4' OF #6 BARE                                                    METER PANEL ASSEMBLY TO BE
+COPPER WIRE ATTACHED TO SES                                                        SQUARE TO AND PERMANENTLY
+GROUND BUS FOR CONNECTION TO THE                                                   ATTACHED TO 2 X 4 STEEL STUD
+JOB SITE POWER ADAPTOR  BY APS                                                     FRAMING WHEN ERECTED. NO
+PERSONNEL.                                                                         ADJUSTMENTS TO DEVICE SHALL BE
+
+                                                                                   ALLOWED AFTER PERMANENT WALL
+                                    2/3                                            IS IN PLACE. ANY ADJUSTMENTS
+                                                                                   AFTER THE FACT WILL RESULT IN
+ ATTACH RISER STRAP TO BRACE.                             UFER                     REFUSAL OF PERMANENT METER
+MUST BE VISIBLE FOR                                                                SET.
+INSPECTION.                                                                       THROUGH BOLTS TO BE 1/4"
+                                                                                  X 2 1/4" WITH FLAT
+                                    1/3                                           WASHERS. 2 BOLTS PER LEG
+                                                                                  REQUIRED.
+                                                                                      PRESSURE TREATED
+                     FINISHED GRADE                                                   MATERIAL IN CONTACT
+                                                                                      WITH AND ANCHORED
+    ONLY RIGID METALLIC RISER                                                         TO STEM WALL.
+    SHALL BE PERMITTED IF
+    SEMI-FLUSH OR RECESSED .                  STEM                    STEM
+    NO BENDS OR OFFSETS                       WALL                    WALL
+    ABOVE GRADE.
+
+
+
+
+
+                                      #4 GROUNDING ELECTRODE CONDUCTOR
+                                      (UFER) TO BE MADE UP IN SES.
+
+
+
+
+
+
+
+
+
+
+                                        ELECTRIC SERVICE REQUIREMENTS                                        307.0
+            REVISION                 *JOB SITE POWER* TEMPORARY METER IN                                    PAGE
+            07/09/2025       PERMANENT POSITION - RESIDENTIAL APPLICATION ONLY                                51

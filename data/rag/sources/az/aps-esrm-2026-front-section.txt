@@ -1,0 +1,298 @@
+
+
+===== Page 1 =====
+Electric
+        Service
+                Requirements
+                   Manual
+
+
+
+
+
+
+
+
+
+
+
+
+May 2026
+
+
+
+
+
+
+
+
+
+
+
+                                                       Arizona Public Service ESRM complies with, Federal, State,
+                                                       County, and other applicable regulatory requirements, as well
+                                                       as conform with industry best practices and guidance, to protect
+                                                       worker and public safety.  The APS ESRM requirements comply
+                                                       with mandatory OSHA (Occupational Safety and Health
+                                                       Administration), ACC (Arizona Corporation Commission), NESC
+                                                       (National Electrical Safety Code), NEC (National Electrical
+                                                       Code) regulatory requirements and conform with applicable
+                                                       EUSERC (Electric Utility Service Entrance Requirements
+                                                       Committee) guidance.
+
+
+
+
+===== Page 2 =====
+ Introduction
+
+
+
+
+ Purpose
+
+ The Arizona Public Service Company “2026 Electric Service Requirements Manual” is provided as a
+ reference for customers and contractors doing work in the APS service area.  However, since business or
+ industry changes may warrant frequent revisions, please visit the online manual at: aps.com/esrm for the
+ most up to date version.
+
+
+ Applicability
+
+ These specifications and requirements are issued for your guidance and assistance in the installation of safe
+ and adequate wiring and electric service equipment so that the customer may enjoy the full benefit of his/her
+ electric energy.
+
+ These “Electric Service Requirements” cancel and supersede all previous APS specifications for Single-Phase
+ and Three-Phase Electric Installations and Amendments.
+
+ These service requirements are subject to amendments as required, through developments and progress of
+ the electrical industry, to protect the mutual interests of the customer and APS.
+
+
+ Disclaimer
+
+ "Reprinted with the permission of Arizona Public Service Company, all rights reserved. This information is
+ provided for general information only and is not intended to apply to any specific situation. The reader is
+ cautioned to consult with his/her own technical advisor in regard to the application of this material to the
+ reader’s use and situation. APS disclaims any responsibility for reliance upon these materials. The reader
+ assumes all risk of use or application of this information when applied to his/her particular circumstances."
+
+
+ Service Entrance Equipment Inspections
+
+ On new installations, or where changes necessitate relocating or replacing the electric meter, an APS
+ Inspection and Approval is required before the service can become energized.  This is in addition to the
+ inspection required by the local authority.  It is our desire that the APS inspection is accomplished in a timely
+ manner, preventing unnecessary delays to the completion of the project.  Neither the inspection of the work
+ or equipment, or the lack of the inspection shall relieve the Customer from the responsibility to comply with
+ APS specifications.
+
+ In order for the APS inspection to be accomplished in this manner, it is necessary for the contractor doing the
+ work to initiate contact with the APS Customer Project Manager.  This should be done at least twice during the
+ course of the project.  The first contact should occur initially as soon as the service entrance equipment is on
+ site.  The APS inspector will then make his inspection and recommendations immediately.  The second contact
+ should occur immediately after all the changes recommended by the APS inspector have been completed.
+
+ It is important that both of these contacts are made early enough in the project to assure that there is ample
+ time left for the contractor to make modifications, if necessary, and to schedule a re-inspection of the
+ equipment.  If the inspections are not scheduled early enough there is a good chance the job will be delayed."
+
+
+ Customer Construction Contacts
+
+ To schedule an inspection appointment, or if there are any questions regarding Service Requirements, please
+ call the APS Customer Project Representative for your project area.  Refer to Customer Construction Contacts
+ website for a list of phone numbers.
+
+
+
+
+
+===== Page 3 =====
+How To Use This Manual
+
+The APS Electric Service Requirements Manual (ESRM) has been formatted to provide easy access to specific
+information required to meet APS service requirements for multiple types of electric service installations.  It details
+the design criteria, equipment requirements and construction methods necessary for the safe and efficient
+connection to APS’s energy delivery system.
+
+Please see below for a short description of each section of the ESRM. It is highly recommended to consult the ESRM
+prior to the design of a new installation or prior to beginning an upgrade to existing facilities.  In addition to the
+ESRM, consulting with an APS Construction Project Representative is invaluable in the correct application of these
+requirements.
+
+Section 100 – General Information.  In this section of the ESRM you will find helpful information that details safe
+working clearances around APS energized lines and equipment, definitions of applicable terms used in the ESRM,
+and several items that require special considerations. Some of these special considerations include motor starting
+criteria, signal distortion requirements, the Harmonic Study policy and information on the interconnection of
+generation facilities.
+
+Section 200 – Application for Service. In this section of the ESRM you will find information that details the required
+information and sequence of events for your project, as well as the available electric service voltages and
+limitations for each.
+
+Section 300 – Metering Installation Requirements.  In this section of the ESRM you will find information that details
+requirements for determining the location and working clearance around service equipment containing APS
+incoming service lines and electric meters.
+
+Section 400 – Overhead Services. In this section of the ESRM you will find information that details how to design
+and install equipment that will require APS to provide overhead wiring to the customer service equipment.
+
+Section 500 – Underground Services. In this section of the ESRM you will find information that details how to
+design and install equipment that will connect the customer service equipment to APS via an underground conduit
+and wiring system.
+
+Section 600 – Trenching. In this section of the ESRM you will find information that details how to design and install
+the required trench containing the underground conduit system, including the required separation from other
+underground facilities.
+
+Section 700 – Grounding and Bonding. In this section of the ESRM you will find information that details the ground
+electrode system requirements for service equipment connecting to APS facilities.  In addition, this section also
+provides important guidance on additional grounding/bonding requirements typically enforced by the local AHJ.
+
+Section 800 – Short Circuit Protection. In this section of the ESRM you will find information that details the level of
+short-circuit protection and physical bracing requirements the service equipment is required to meet in order to
+connect to the APS energy delivery system.
+
+Section 900 – Irrigation Pumping. In this section of the ESRM you will find information that details additional
+requirements specifically for electric services providing water pumping or irrigation.
+
+Section 1000 – High Voltage Metering. In this section of the ESRM you will find information that details additional
+requirements specifically for locations requiring service at voltage levels above 600 volts.
+
+
+
+===== Page 4 =====
+Section 1100 – Manufacturing. In this section of the ESRM you will find information that details the specific
+metering equipment design criteria for any service equipment connected to the APS energy delivery system.
+
+Section 1200 – Special Applications. In this section of the ESRM you will find information that details how to design
+and install service equipment that controls traffic signals, intersections, highway lighting and un-metered electric
+services.
+
+Section 1300 – High Rise Applications. In this section of the ESRM you will find information that details additional
+requirements on the design and installation of service and metering equipment for multi-floor residential
+applications having four or more floors above ground level.
+
+Section 1400 – Clearances. In this section of the ESRM you will find information that details the vehicular access
+requirements for APS electric facilities located on customer property. The required access dimensions are in
+addition to the electrical clearance standards.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===== Page 5 =====
+  Table of Contents
+
+
+
+
+                              General Information ............................................................................ Section 100
+
+                              Application for Service ......................................................................... Section 200
+
+                              Metering Installation Requirements .................................................... Section 300
+
+                              Overhead Service Requirements .......................................................... Section 400
+
+                              Underground Service Requirements .................................................... Section 500
+
+                              Trenching Requirements ...................................................................... Section 600
+
+                              Grounding and Bonding ....................................................................... Section 700
+
+                              Short Circuit Protection ....................................................................... Section 800
+
+                              Irrigation Pumping .............................................................................. Section 900
+
+                              Medium Voltage Metering and Service Equipment ............................. Section 1000
+
+                              Manufacturing Requirements............................................................. Section 1100
+
+                              Special Applications ........................................................................... Section 1200
+
+                              High Rise Metering and Equipment .................................................... Section 1300
+
+                              Clearances ......................................................................................... Section 1400
+
+
+                                   NOTE:      See front of each Section for detailed listing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

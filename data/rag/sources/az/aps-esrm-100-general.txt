@@ -1,0 +1,1155 @@
+
+
+===== Page 1 =====
+
+
+===== Page 2 =====
+PARAGRAPH                                                                           PAGE
+   102.17     NOMINAL VOLTAGE………………………………………………………………………………………                          9
+   102.18     POINT OF ATTACHMENT ……………………………………………………………………………….                       9
+
+   102.19     POINT OF DELIVERY ……………………………………………………………………………….……                       9
+   102.20     READILY ACCESSIBLE ……………………………………………………………………….…………                     10
+   102.21     RECOGNIZED TESTING LABORATORY …………………………………………………….………..                10
+   102.22     SELF-CONTAINED METERS …………………………………………………………………….….…..                  10
+
+   102.23     SELF-CONTAINED METER SOCKETS …………………………………………………………..……                 10
+   102.24     SERVICE ENTRANCE………………………………………………………………………...…………..                    10
+   102.25     SERVICE ENTRANCE SECTION ……………………………………………………………………….                   10
+   102.26     SERVICE DROP……………………………………………………………………………………………                         10
+
+   102.27     SERVICE ENTRANCE CONDUCTORS OVERHEAD SYSTEM …………………………………….             10
+   102.28     SERVICE ENTRANCE CONDUCTORS - UNDERGROUND SYSTEM …………………….………           10
+   102.29     SWITCHBOARD………………………………………………………………………………….............                 10
+   102.30     SWITCHGEAR................................................................................................................................  11
+
+   102.31     TEMPORARY SERVICE………………………………………………………………………………….                       11
+   102.32     THIRD PARTY……………………………………………………………………………………………..                        11
+   102.33     VENTILATED ………………………………………………………………………………………………                         11
+   102.34     TOTALIZED METERING…………………………………………………………………………………..                     11
+103.0    ELECTRICAL TERMS …………………………………………………………………………………………….                        11
+   103.1      WATTS………………………………………………………………………………………………………                            11
+   103.2      KILOWATT (kw) ……………………………………………………………………………………………                       11
+
+   103.3      KILOWATT-HOUR (kwh)………………………………………………………………………………….                     11
+   103.4      HORSEPOWER (hp)………………………………………………………………………………………                        11
+   103.5      VOLTAGE (E) ……………………………………………………………………………………………..                       11
+   103.6      CURRENT (I)……………………………………………………………………………………………….                        11
+
+   103.7      AMPACITY ………………………………………….……………………………………………………..                        11
+   103.8      APS VEHICLE ACCESS .………………………….……………………………………………………..                   12
+104.0    SPECIAL CONSIDERATIONS…………………………………………………………………………………..                      12
+   104.1      RESPONSIBILITY: USE OF SERVICE OR APPARATUS…………………………………………….           12
+   104.2      LINE DISTURBANCES…………………………………………………………………………………….                      12
+
+   104.3      MOTOR STARTING ……………………………………………………………………………………….                       12
+   104.4      SERVICE INTERRUPTIONS……………………………………………………………………………...                   13
+   104.5      POLYPHASE MOTOR PROTECTION …………………………………………………………………..                  13
+
+   104.6      COMPUTER PROTECTION ……………………………………………………………………………...                    13
+   104.7      SIGNAL DISTORTION……………………………………………………………………………………..                     13
+   104.7-1    HARMONIC STUDY POLICY……………………………………………………………………………..                    14
+
+                             ELECTRIC SERVICE REQUIREMENTS                           100
+       REVISION                                                                     PAGE
+       11/15/2025                   TABLE OF CONTENTS                                B
+
+===== Page 3 =====
+PARAGRAPH                                                                             PAGE
+   104.8      AIR CONDITIONING - REMOTE (SPLIT) SYSTEMS …………………………………………………             15
+   104.9      CONTROL CIRCUITS …………………………………………………………………………………….                        15
+   104.10     SPECIAL CASE TESTING ……………………………………………………………………………….                      15
+
+   104.11     CUSTOMER GENERATION ……………………………………………………………………………..                       15
+   104.11-1   EMERGENCY OR STANDBY GENERATORS…………………………………………………………                     16
+   104.11-2   INTERCONNECTED GENERATORS……………………………………………………………………                       17
+
+   104.12     PROTECTION AND ISOLATION REQUIREMENTS FOR MULTIPLE UTILITY SERVICES
+              TO A CUSTOMER FACILITY …………………………………………………………………….….…..                   18
+   104.12-1   INTERLOCKS ………………………………………………………………………………….…………..                         19
+
+   104.12-2   ISOLATION DEVICES ……………………………………………………………………….………..….                     19
+   105.0      SPECIAL WORK REQUEST FOR THIRD PARTIES …………………………………………………                19
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                              ELECTRIC SERVICE REQUIREMENTS                            100
+       REVISION                                                                       PAGE
+       11/15/2025                   TABLE OF CONTENTS                                  C
+
+===== Page 4 =====
+
+
+===== Page 5 =====
+100.8         REQUESTS FOR INFORMATION
+             APS representatives will explain requirements and give advice with regard to the installation of electric service.
+             By calling APS before any installation is started, service plans may be coordinated, preventing costly changes
+             and resulting in more rapid completion of the job.
+
+
+100.9         INSPECTION APPROVAL AND PERMITS
+             On new installations, or where changes necessitate relocating or replacing APS meters, or when an installation
+             has been disconnected by APS or the Fire Department because of fire or other damage, APS shall not ener-
+             gize or restore service until the wiring has been approved and proper notification given to APS by the
+             inspection authorities where such inspection is required.
+             In areas where local inspection is not required, the service entrance including grounding and bonding shall be in
+             accordance with APS requirements and the National Electrical Code. The above equipment shall be inspected
+             and approved by an APS representative prior to service being energized.
+             APS SHALL NOT BE UNDER ANY OBLIGATION TO INSPECT THE WIRING OR APPLIANCES OF THE
+             CUSTOMER. WHERE APS HAS REASON TO BELIEVE THAT THE WIRING OR APPLIANCES ARE UN-
+             SAFE, AND DO NOT COMPLY WITH THE NATIONAL ELECTRICAL CODE, LOCAL OR COUNTY CODES
+             OR ORDINANCES, APS MAY REFUSE OR DISCONTINUE ELECTRIC SERVICE UNLESS REQUIRED
+             CHANGES HAVE BEEN MADE.
+
+
+100.10       IDENTIFICATION OF JOB SITE
+             The customer shall furnish to APS an exact street number corresponding to the job location. In the case of mo-
+             bile home or recreation vehicle subdivisions, the space or lot number must also be furnished. This street/space
+             number shall also be posted in a conspicuous location at the job site to assist APS personnel in performing their
+             work as scheduled to meet the service date for the customer. The customer shall also install a permanent ad-
+             dress number/space when the job is completed. To avoid delays in setting a meter and energizing a service, the
+             address must agree with the address on the electrical permit and subsequent final clearance.
+
+
+100.11       DESIGN OF CUSTOMER’S EQUIPMENT
+             The provision for adequate electrical capacity must be made by the customer. As a public utility, APS cannot
+             design, plan, install or maintain the customer’s wiring, electrical equipment or other customer owned facilities.
+             Compliance with the National Electrical Code or local municipal or county codes assures only that the installa-
+             tion will conform to recognized minimum safe practices. An electrical engineer and/or a qualified electrical con-
+             tractor should aid the customer in determining that his electrical installation will have adequate capacity for fu-
+             ture use.
+
+
+100.12       BEFORE YOU DIG
+             To comply with state law and OSHA, you must check with Blue Stake and other utilities who are not Blue Stake
+             participants, but who may have underground facilities in your excavation area. You can save time, money and
+             avoid hazards, prevent interruption of utility service and eliminate construction delays by getting underground
+             utilities staked out in your excavation area prior to any digging.
+             APS is a participant in the Blue Stake Center. Call 602-263-1100 in Maricopa County or your local APS office in
+             other areas, at least two (2) working days before you dig.
+
+
+
+
+
+
+
+
+
+
+
+
+                                                ELECTRIC SERVICE REQUIREMENTS                                                                100.8
+            REVISION                                                                                                                                                        PAGE
+            02/20/2019                                       GENERAL INFORMATION                                                                 2
+
+
+
+
+===== Page 6 =====
+100.13       ATTACHMENTS ON APS POLES
+             APS forbids all unauthorized attachments, including posters, fences and signs, to its poles, equipment or
+             property. APS will remove all such unauthorized attachments or installations without notice and may prosecute
+             any such trespass.
+
+
+100.14       IDENTIFICATION OF EMPLOYEES
+             APS employees authorized to visit a Customer’s premises are furnished with an identification which they will
+             show upon request. This is done to protect the Customer from unauthorized persons representing APS.
+
+
+100.15       PROTECTION OF APS EQUIPMENT
+             It is understood that any of the APS equipment located on the Customer’s premises shall be adequately pro-
+             tected against damage. The Customer is responsible for any damage or loss resulting from improper protec-
+             tion or loss resulting from improper protection or neglect.
+
+
+100.16       DE-ENERGIZING THE SERVICE ENTRANCE
+             No person other than authorized employees of APS may break seals, move, relocate or replace meters and
+             other equipment owned by APS. If de-energizing is needed, contact your local APS office to make arrange-
+             ments. In other than an emergency situation, three (3) days advance notice is required to de-energize a ser-
+             vice. There may be a charge to accomplish the above.
+
+
+100.17       ENERGY THEFT
+             Under no circumstances shall devices or attachments be connected to APS facilities in such manner as to
+             permit the use of unmetered energy, except in emergencies when authorized and done only by authorized
+             APS employees. Under Arizona law, tampering with the property of a utility and theft of electricity having a val-
+             ue of more than $100 are felonies punishable by a fine of up to $150,000 and/or imprisonment.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                    ELECTRIC SERVICE REQUIREMENTS                                                            100.13
+            REVISION                                                                                                                                                       PAGE
+            02/20/2019                                       GENERAL INFORMATION                                                                  3
+
+
+
+
+===== Page 7 =====
+100.18       WORKING SAFE NEAR APS FACILITIES
+               When a party plans to do construction or repair work where personnel or equipment will be used under or near
+               APS electric transmission or distribution facilities, that party must obtain from APS a “Special Work Permit”
+               designating the limits of the safe working area. APS facilities or equipment will not be disconnected or re-
+               energized without the issuance of a Special Work Permit and clearance for third parties; nor if the net result of
+               the construction causes APS to be in violation of any code.
+
+
+
+
+              TABLE A:  MINIMUM APPROACH DISTANCE BETWEEN POWER LINES AND CRANES AND DERRICKS
+
+                               POWER LINE VOLTAGE                          MINIMUM APPROACH DISTANCE FOR CRANE OR
+                                                                                                    DERRICK, LOAD, AND LOAD LINE
+
+           Up to 50,000 volts                                                                                                 10 feet
+
+           Over 50,000 volts up to 200,000 volts                                                                   15 feet
+
+           Over 200,000 volts up to 350,000 volts                                                                 20 feet
+
+           Over 350,000 volts up to 500,000                                                                         25 feet
+
+               *Cranes & Derricks must maintain 20 foot clearance up to 350kV, and 50 feet above 350kV. If this clearance
+               cannot be maintained, contact the APS Public Safety Department for assistance @ 602-250-3418
+
+
+              TABLE B:  MINIMUM APPROACH DISTANCE BETWEEN ENERGIZED LINE/EQUPIMENT AND PEOPLE,
+                                                 MATERICALS, AND NON-CRANE EQUIPMENT
+
+                            ENERGIZED LINE VOLTAGE                                     MINIMUM APPROACH DISTANCE
+
+           Up to 50,000 volts                                                                                                 10 feet
+
+           Over 50,000 volts up to 69,000 volts                                                                     11 feet
+
+           Over 69,000 volts up to 115,000 volts                                                                   13 feet
+
+           Over 115,000 volts up to 161,000 volts                                                                 14 feet
+
+           Over 161,000 volts up to 230,000 volts                                                                 16 feet
+
+           Over 230,000 volts up to 345,000 volts                                                                 20 feet
+
+           Over 345,000 volts up to 500,000 volts                                                                 25 feet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        ELECTRIC SERVICE REQUIREMENTS                                                                       100.18
+              REVISION                                                                                                                                                       PAGE
+              02/20/2019                                       GENERAL INFORMATION                                                                               4
+                                                       WORKING SAFE NEAR APS FACILITIES
+
+
+
+===== Page 8 =====
+100.18       WORKING SAFE NEAR APS FACILITIES (Cont’d)
+
+
+                      APS PROCEDURE FOR DISCONNECTING AND RE-ENERGIZING POWER LINES
+
+
+ YOU, as the Requesting Party:                                                       APS Representative:
+
+ 1  Contact APS before beginning work near APS                                       1   Receive the call requesting a Special Work Per-
+      facilities (lines, transformers, etc.) for de-                                      mit to de-energize APS facilities.
+      energizing such facilities.
+
+ 2  Arrange to have your authorized representative                                   2    Assign a number to the request and arrange for a
+      meet an APS representative at the job site.                                         date and time for an on-site meeting with an au-
+                                                                                          thorized representative of requesting parties.
+
+ 3    Sign a Request for Special Work Permit at the job                              3   Prepare a Special Work Permit Form #357-00B.
+      site.                                                                               Also, obtain signature of requesting party, sign
+                                                                                          for APS, and distribute copies as listed.
+
+ 4   After completion of work, for re-energizing those                               4    De-energize the requested facilities, making sure
+      facilities, request a Release of Special Work Per-                                  the requesting party is aware of safe working
+      mit from APS.                                                                       area.
+
+ 5  Arrange to have your authorized representative                                   5   Receive the call from the requesting party after
+      meet an APS representative at the job site.                                         completion of the work, to re-energize APS facili-
+                                                                                          ties.
+
+ 6   Sign a Release of Special Work Permit at the job                                6   Arrange for an on-the-job site meeting with the
+      site.                                                                               requesting party’s authorized representative.
+
+
+                                                                                     7 Re-energize APS facilities that were de-
+                                                                                          energized under the Special Work Permit.
+
+
+                                                                                     8  Prepare the Release of Special Work Permit
+ If you have a question, please contact your Local APS                                    Form #357-00C, obtain signature of the request-
+ office, or call Phoenix @ 602-250-3418, APS Public                                       ing party, sign for APS, and distribute copies as
+ Safety Services                                                                          listed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                    ELECTRIC SERVICE REQUIREMENTS                                                                100.18
+            REVISION                                                                                                                                                        PAGE
+            02/20/2019                                          GENERAL INFORMATION                                                                  5
+                                                   WORKING SAFE NEAR APS FACILITIES
+
+
+
+===== Page 9 =====
+                                                            ELECTRIC SERVICE REQUIREMENTS                                                                             100.18
+               REVISION                                                                                                                                                      PAGE
+               02/20/2019                                          GENERAL INFORMATION                                                                                     6
+                                                          WORKING SAFE NEAR APS FACILITIES
+
+
+
+===== Page 10 =====
+                                                            ELECTRIC SERVICE REQUIREMENTS                                                                             100.18
+               REVISION                                                                                                                                                      PAGE
+               02/20/2019                                          GENERAL INFORMATION                                                                                     7
+                                                          WORKING SAFE NEAR APS FACILITIES
+
+
+
+===== Page 11 =====
+101.0       ABBREVIATIONS
+            AHJ          —   Authority Having Jurisdiction
+            ANSI         —   American National Standards Institute
+            APS          —   Arizona Public Servic
+            EUSERC       —   Electric Utility Service Equipment Requirements Committee
+            IAEI         —   International Association of Electrical Inspectors
+            IEEE         —   Institute of Electrical & Electronic Engineers
+            NEC          —   National Electrical Code (NFPA No. 70)
+            NECA         —   National Electrical Contractors Association
+            NEMA         —   National Electrical Manufacturers Association
+            NESC         —   National Electrical Safety Code
+            NFPA         —   National Fire Protection Association
+            OSHA         —   Occupational Safety and Health Act
+            U.L.         —   Underwriters Laboratories, Inc.
+            Note:      When reference is made to any of the above codes, standards or regulations, it shall refer to the
+                       latest revision of same.
+________________________________________________________________________________________________
+
+102.0       DEFINITIONS - FOR THE PURPOSE OF THIS MANUAL
+________________________________________________________________________________________________
+
+102.1       AGENT
+            One who is authorized to act for another under a contract or relation of agency, either for Arizona Public
+            Service Company, APS, or the Customer         .
+________________________________________________________________________________________________
+
+102.2       APPLICANT
+            The property owner, lessee, sub-lessee, their authorized agents and/or contractors applying for electric
+            service from APS.
+________________________________________________________________________________________________
+
+102.3       APPROVED
+            Acceptable to the Authority Having Jurisdiction (AHJ) over the matter        .
+________________________________________________________________________________________________
+
+102.4       BASEMENT
+            As defined for the purposes of this manual is the floor(s) located below ground level.
+________________________________________________________________________________________________
+
+102.5       BUILDING
+            A structure which stands alone or which is cut off from adjoining structures by fire walls with all openings
+            therein protected by approved fire doors.
+________________________________________________________________________________________________
+
+102.6       CLEARANCE
+            Approval of the electrical installation by the inspection authority.
+________________________________________________________________________________________________
+
+102.7       DISTRIBUTED GENERATION/GENERATOR
+            Any type of electrical generator or generating facility not owned or operated by APS that
+              (a) has the capability of being operated in electrical parallel with APS distribution system, or
+              (b) can feed a customer load that can also be fed by APS electrical system.
+________________________________________________________________________________________________
+
+102.8       APS
+            Arizona Public Service Company
+
+
+                                            ELECTRIC SERVICE REQUIREMENTS                                                     101.0
+           REVISION                                 GENERAL INFORMATION                                                       PAGE
+           01/27/2022                            ABBREVIATIONS/DEFINITIONS                                                       8
+
+===== Page 12 =====
+102.9       CONTRACTOR
+            Any person, company, or corporation acting under contractual agreements for either the Customer or APS.
+________________________________________________________________________________________________
+
+102.10      CURRENT TRANSFORMER METERING - DEFINED
+            When Customer loads are 201 amperes and above, current transformers are connected directly to the
+            service entrance conductors to ratio the primary current down to a secondary current which can be accurately
+            registered on the meter. (Example: A 400 to 5 amp. C. T. has a ratio of 80 to 1. The reading on the KW and
+            KWHR scales is then multiplied by the ratio value of 80, indicated as X 80 on the face of the meter, to give
+            the actual load in KWs or KWHs.
+________________________________________________________________________________________________
+
+102.11      CUSTOMER
+            The property owner, lessee, sub-lessee, their authorized agents and/or contractors receiving electric service
+            from APS.
+________________________________________________________________________________________________
+
+102.12      FIRST FLOOR
+            As defined for the purposes of this manual is the floor that is closest to the elevation of ground level and
+            above ground level.
+________________________________________________________________________________________________
+
+102.13      HIGH RISE BUILDING
+            A building with four floors or more above ground level.
+________________________________________________________________________________________________
+
+102.14      METER
+            The equipment required including mounting facilities, instrument transformers, protective devices and me-ters
+            to measure the electric demand and/or consumption requirements of the Customer              .
+________________________________________________________________________________________________
+
+102.15      METER ROOM
+            Meter rooms are defined as illuminated and ventilated rooms containing electric meters and electric service
+            equipment. See Section 300 for regulations and restrictions of meter rooms.
+________________________________________________________________________________________________
+
+102.16      MULTIPLE METER CENTER
+            A multiple metering unit where two or more customers are metered at a common location.
+________________________________________________________________________________________________
+
+102.17      NOMINAL VOLTAGE
+            Designation of the value of the normal effective difference in potential between any two appropriate
+            conductors of the circuit.
+________________________________________________________________________________________________
+
+102.18      POINT OF ATTACHMENT
+            The location at which restraining or anchoring contact is made on a building or structure to support APS
+            wires.
+________________________________________________________________________________________________
+
+102.19      POINT OF DELIVERY
+            APS ownership of equipment ends at point when APS facilities are connected to customer facilities.
+102.19-1    For UG primary metering APS ownership ends at the last cable termination point.
+102.19-2    For OH primary metering APS ownership ends at the last pole the primary metering is installed.
+
+
+                                            ELECTRIC SERVICE REQUIREMENTS                                                     102.9
+           REVISION                                 GENERAL INFORMATION                                                      PAGE
+           02/20/2019                         DEFINITIONS/ELECTRICAL TERMS                                                      9
+
+===== Page 13 =====
+102.19-3    For radial UG secondary service the APS ownership ends at the wire termination on the meter section.
+102.19-4    For radial OH secondary service the APS ownership ends at the conductor connection at the top of the
+            weather head.
+102.19-5    Customer owns and maintains the underground conduit riser.
+________________________________________________________________________________________________
+
+102.20      READILY ACCESSIBLE
+            Capable of being reached quickly and conveniently during all reasonable hours of operation, maintenance,
+            inspection, testing or reading, without requiring climbing over or removing obstacles, obtaining special
+            per-mission, keys or security clearances. Indoor meter locations require access from the exterior of the
+            building.
+________________________________________________________________________________________________
+
+102.21      RECOGNIZED TESTING LABORATORY
+            An electrical component testing laboratory nationally recognized: Example: UL, ETL, etc.
+________________________________________________________________________________________________
+
+102.22      SELF-CONTAINED METERS
+            A self-contained meter is one which is capable of carrying the total current and voltage of the electric service
+            supplied to the customer. This type of meter is connected directly to the service entrance conductors when it
+            is plugged into the meter sockets.
+________________________________________________________________________________________________
+
+102.23      SELF-CONTAINED METER SOCKETS
+            Sockets for use with self-contained meters are available in two approved ratings. When connected to properly
+            sized service entrance conductors, the approved standard-duty socket has a nominal capacity of 100
+            amperes, and the approved heavy-duty socket has a nominal capacity of 200 amperes. (See Section 300).
+________________________________________________________________________________________________
+
+102.24      SERVICE ENTRANCE
+            Customer’s service equipment together with APS metering equipment.
+________________________________________________________________________________________________
+
+102.25      SERVICE ENTRANCE SECTION
+            A factory built floor standing service entrance.
+________________________________________________________________________________________________
+
+102.26      SERVICE DROP
+            The overhead service conductors between APS secondary distribution system and the point of attachment to
+            the building or other structure.
+________________________________________________________________________________________________
+
+102.27      SERVICE ENTRANCE CONDUCTORS OVERHEAD SYSTEM
+            The conductors between the terminals of the service equipment and the point of connection with the service
+            drop (Installed by Customer).
+________________________________________________________________________________________________
+
+102.28      SERVICE ENTRANCE CONDUCTORS - UNDERGROUND SYSTEM
+            The conductors between the terminals of the service equipment and the point of connection to the service
+            lateral or transformer (Installed by APS).
+________________________________________________________________________________________________
+
+102.29      SWITCHBOARD
+            A service entrance rated for applications 600V and less.
+________________________________________________________________________________________________
+
+
+                                            ELECTRIC SERVICE REQUIREMENTS                                                  102.19-3
+           REVISION                                GENERAL INFORMATION                                                      PAGE
+           01/27/2022                        DEFINITIONS/ELECTRICAL TERMS                                                     10
+
+===== Page 14 =====
+102.30      SWITCHGEAR
+            A service entrance rated for applications greater than 600V.
+________________________________________________________________________________________________
+
+102.31      TEMPORARY SERVICE
+            A temporary service is intended to be used for 12 months or less only for non-recurring service of a transitory
+            character.  APS shall determine whether the Customer’s proposed installation is of a temporary nature.
+________________________________________________________________________________________________
+
+102.32      THIRD PARTY
+            Persons or Companies other than APS or its employee.
+________________________________________________________________________________________________
+
+102.33      VENTILATED
+            Provided with a means to permit circulation of air sufficient to remove an excess of heat. (NEC Article 100).
+________________________________________________________________________________________________
+
+102.34      TOTALIZED METERING
+            Totalized Metering is the measurement of kw and kwh through one meter for billing purposes when multiple
+            service entrance sections exist at a single premise.
+________________________________________________________________________________________________
+
+103.0       ELECTRICAL TERMS
+________________________________________________________________________________________________
+
+103.1       WATTS
+            Lamps and heating appliances are rated in watts to indicate the power which they will use. A 100 watt lamp in
+            10 hours will use 1000 watt-hours or 1 kilowatt hour (kwh) of energy. Likewise a 1000 watt flat iron in 2 hours
+            will use 2000 watt-hours or 2 kilowatt hours (kwh) of energy.
+________________________________________________________________________________________________
+
+103.2       KILOWATT (kw)
+            1000 watts.
+________________________________________________________________________________________________
+
+103.3       KILOWATT-HOUR (kwh)
+            A quantity of electrical energy - equal to 1000 watts used continuously for one hour, or 100 watts used
+            con-tinuously for ten hours, or equivalent.
+________________________________________________________________________________________________
+
+103.4       HORSEPOWER (hp)
+            Motors are rated in horsepower, which is the mechanical output. Basically, 1 horsepower output requires
+            approximately 1000 watts considering motor efficiency.
+________________________________________________________________________________________________
+
+103.5       VOLTAGE (E)
+            Potential measured in volts.
+________________________________________________________________________________________________
+
+103.6       CURRENT (I)
+            The rate of flow of electricity measured in amperes.
+________________________________________________________________________________________________
+
+103.7       AMPACITY
+            Current-carrying capacity expressed in amperes.
+
+                                           ELECTRIC SERVICE REQUIREMENTS                                                   102.29
+           REVISION                                GENERAL INFORMATION                                                     PAGE
+           01/27/2022                       DEFINITIONS / ELECTRICAL TERMS                                                   11
+
+===== Page 15 =====
+103.8        APS VEHICLE ACCESS
+
+             A minimum 8 feet vertical and 11 feet horizontal clearance of drivable vehicle access is required from the
+             public street to service point. Note, the APS vehicle access requirement is not required for single family
+             residential dwellings.
+________________________________________________________________________________________________
+
+104.0        SPECIAL CONSIDERATIONS
+________________________________________________________________________________________________
+
+104.1        RESPONSIBILITY: USE OF SERVICE OR APPARATUS
+             APS and the customer assume all responsibility on their respective sides of the point of delivery for the
+             elec-tric service supplied and taken, as well as for any apparatus used in connection therewith.  Customer
+             shall maintain SES equipment, inclusive of underground riser (UG), breakers, and switches.
+             Customer and APS each shall save the other harmless from and against all claims for injury or damage to
+             persons or property occasioned by or in any way resulting from the electric service or the use thereof on their
+             respective sides of the point of delivery. APS shall, however, have the right to suspend or terminate service in
+             the event APS should learn of service use by Customer under hazardous conditions.
+________________________________________________________________________________________________
+
+104.2        LINE DISTURBANCES
+             The operation of large flashing signs, welders, and furnaces, dielectric and induction heaters, reciprocating
+             compressors and similar apparatus having intermittent flow of large currents sometimes interferes with other
+             users of the electric service. The Customer shall consult APS in each case in order that the character of
+             electric service that will be supplied, the corrective equipment needed, and other special precautions that
+             must be taken, will be mutually known factors before planning to use such apparatus.
+             Radio and television transmitters, x-rays and similar equipment may be affected by normal disturbances on
+             APS lines. The Customer should consult APS regarding proper type of service for this equipment.
+________________________________________________________________________________________________
+
+104.3        MOTOR STARTING
+             The starting currents drawn from the source of supply by each rated size of alternating current motor (such
+             values of currents to be determined by test or based on published data by the manufacturer) shall not exceed
+             the allowable locked rotor current value for alternating current motors as given in the latest edition of the
+             National Electric Code. Correction shall be allowed to adjust these current values so that they compensate for
+             the difference between the terminal voltage and the rated voltage when applicable.
+             If the starting current of a motor exceeds the value given in the NEC, or creates undesirable service
+             conditions, the Customer shall install, at his expense, a suitable reduced voltage or increment starting device
+             to limit such starting current to the required values listed.
+             The values defined in the National Electrical Code apply only to motor types and nominal system voltages not
+             exceeding those values quoted in these specifications. For types exceeding these quoted values and other
+             information, consult with APS.
+             In some areas 208 and 240 volt motors larger than 25 HP and 480 volts motors larger than 75 HP shall be
+             equipped with reduced voltage or increment starting devices to limit the starting currents. CHECK WITH APS.
+             The above-quoted specification may be modified to allow the use of across-the-line starting devices for larger
+             motors by specific APS approval. Starters must conform to latest National Electric Manufacturer’s Association
+             Standards and installation must be in accordance with the National Electrical Code. Magnetic contactors in
+             full voltage motor starters must have a coil capable of sealing in the contactor at 75% rated volt-age.
+             Customers installing motors 7.5HP or larger to a single phase system (i.e. 120/240V, 1Ø, 3W) shall check
+             with APS prior to installation.  This is in all cases whether the motor is being supplied single phase voltage or
+             three phase voltage through a single phase to three phase conversion device. APS may need to perform a
+             Motor Flicker Study and Fuse Coordination Study to determine the impact on the APS System.  Customer will
+             be asked to provide motor nameplate information (voltage, max output, motor code, FLA and power factor)
+             and conversion device information if one is used.  NOTE:  a Motor Flicker Study and Fuse Coordination Study
+             may be required by APS for three phase motors 25HP or larger connecting to any three phase system (i.e.
+             208Y/120V, 3Ø, 4W).
+
+
+
+                                                ELECTRIC SERVICE REQUIREMENTS                                                           104.0
+            REVISION                                    GENERAL INFORMATION                                                             PAGE
+            11/15/2025                                SPECIAL CONSIDERATIONS                                                              12
+
+===== Page 16 =====
+________________________________________________________________________________________________
+
+104.4          SERVICE INTERRUPTIONS
+             Arizona Public Service Company cannot guarantee uninterrupted service, and it is not APS policy to pay for
+             damages that result from such interruptions, single phase conditions, or voltage fluctuations on our system
+             occasioned by any cause beyond the reasonable care and control of APS.
+             The APS distribution and transmission system is designed to minimize potential problems but, as pointed out
+             above, malfunctions and other external forces do cause occasional system failures. In these instances, may
+             we suggest that compliance with the National Electrical Code, sound electrical engineer and prudent use of
+             properly sized, installed and maintained protective devices will protect your equipment.
+             For detailed information on how to protect your electrical equipment, contact an electrical contractor,
+             equipment manufacturer, pump company, an electrical engineer, or your local APS office.
+________________________________________________________________________________________________
+
+104.5         POLYPHASE MOTOR PROTECTION
+             The following protective devices are required and/or strongly recommended by APS and shall be installed
+             and maintained by the Customer:
+             1.  Three element running overload protection shall be required on all motors; i.e., one overload element in
+                 each phase in the starter or equivalent protection devices. (per NEC).
+             2.  All motor controllers shall be arranged so that in event of sustained loss in voltage, the motor will be
+                 dis-connected from the line, unless it is equipped for automatic starting after such failure. Where
+                 continuous operation of motorized equipment is essential, motor controllers shall provide for motors to
+                 operate through a transient no voltage condition lasting for 1/2 second. Consult with APS where problems
+                 of this nature may be encountered.
+             The recommended devices listed below are strongly suggested to markedly reduce the possibility of
+             damage to your polyphase equipment.
+             3.  Low voltage protection is recommended on all polyphase motors.
+             4.  Phase reversal protection is recommended in all polyphase motors for elevators, cranes and well-pump
+                 motors.
+             5.  Phase failure protection is recommended on all polyphase motor circuits.
+             PLEASE NOTE: Some manufacturers supply a different device for each type of protection, while other
+             may offer a single device that provides complete protection.
+________________________________________________________________________________________________
+
+104.6         COMPUTER PROTECTION
+             Electronic computers are sensitive to momentary voltage fluctuations oftentimes referred to
+             as “blips” or “spikes.” These may be created within the Customer’s service through motor starts or other
+             electric load turn-ons. This may also occur external to the Customer’s service as a result of routine APS
+             switching or fault clearance.
+             APS cannot assure a Customer that the electric service will be free of momentary voltage fluctuations. If this
+             is a Customer concern, it is recommended that the Customer provide an interface between the electric
+             service to the computer and the computer to screen out unwanted voltage fluctuations.
+________________________________________________________________________________________________
+
+104.7         SIGNAL DISTORTION
+             In general, the operation of any electrical device or system should not cause excessive distortion of the utility
+             voltage waveform or result in excessive injection of harmonic currents into the utility system to the detriment
+             of APS, its customers, or other electric utilities. APS requires that all installations comply with IEEE 519
+             guidelines. APS reserves the rights to test the equipment to ensure compliance to these guidelines. Even
+             though equipment may be found to be in compliance with these guidelines, if it can be shown that said
+             equipment is the source of problems for other customers, for APS, or for other utilities within the
+             interconnected power system, APS reserves the right to require remedial action be taken by the owner.
+
+===== Page 17 =====
+________________________________________________________________________________________________
+
+104.7-1      HARMONIC STUDY POLICY
+             In the event Customer installs or causes to be installed Variable Frequency Drives (VFD), APS will require
+              Customer to provide a harmonic study for any system with 750 HP aggregate or greater of motors.  Any
+              aggregate system less than 750 HP and greater than 100 HP, which utilizes less than 18 pulse rectifiers, will
+              also be required to perform a harmonic study.  The purpose of the harmonic study is to ensure the VFD
+              created harmonic currents are not amplified by resonance conditions caused by capacitors switching or
+              system load conditions.
+              The Customer shall, in accordance with Section 5.6 of Service Schedule 1, exercise reasonable care to
+              ensure that the electrical characteristics of its load, such as deviation from sine wave form (a minimum
+              standard is IEEE 519) or unusual short interval fluctuations in demand, shall not impair service to other
+              Customers or interfere with operation of telephone, television, or other communication facilities.  In the event
+              APS determines the source of the problem to be Customer related (i.e. electrical equipment) it is the
+              Customer’s responsibility to remedy the issue satisfactory to APS.  In addition, Customer must also meet at a
+             minimum IEEE 519, Section 104.7.1 of the APS ESRM and Section 8.4(C) of the APS Interconnection
+             Requirements.
+              APS will provide the following information to the Customer once the Customer provides a detailed one-line of
+              their system:
+               1.  Short Circuit duty and Thevenin impedance of each possible system configuration which could supply
+                    the Customer’s VFD.  This will include the feeder impedance from the Customer’s location to
+                    the 69/12 kV substation bus or transformer.
+                2.  Substation transformer winding configuration, its impedance and any parallel transformers with their
+                    specifications.
+                3.  Parallel feeder information, any other non-linear loads associated with the feeders from the substation
+                    and any other significant VFDs or non-linear loads for parallel feeders.
+                4.  Impedance of each feeder section, between each significant node.
+                5.  Capacitor location(s), size(s) and connection(s).
+                6.  Regulator bank location(s), size(s) and connection(s).
+                7.  Secondary service transformer(s), kVA rating(s), voltage(s) and impedance(s).
+                8.  Service conductor type, estimated length and impedance.
+              Customer shall provide a completed harmonic study to APS with the following information:
+               1.  System conditions (assumptions) along with loading at start up including full load and at steady state.
+                2.  Any expected load growth and unbalance assumptions.
+                3.  THD levels in accordance with IEEE 519 for all assumptions (best and worst case at all load conditions).
+                4.  Various combinations of shunt capacitors on line and various load levels of the associated feeders.
+                5.  All resonances in the system up to 49th harmonic.
+
+              APS will determine if the study meets APS requirements and will either accept the study or require additional
+              analyses.  APS will inform the Customer in writing the status of the Customer provided harmonic study af-ter
+              APS review.  APS may also request clarifying information from the Customer regarding the approach, scope,
+              and/or assumptions regarding the Customer provided harmonic studies.  Lastly, the customer may be
+             required to reconfigure its system should APS make changes to the configuration of its System.
+
+===== Page 18 =====
+________________________________________________________________________________________________
+
+104.8        AIR CONDITIONING - REMOTE (SPLIT) SYSTEMS
+             Blower motors larger than 1/3 HP         in the furnace of the air handler shall not be connected to 120 volts. If the
+             blower cannot be connected for 240 volt operation, either the compressor or blower shall be time delayed to
+             prevent them from starting simultaneously.
+________________________________________________________________________________________________
+
+104.9        CONTROL CIRCUITS
+             On three phase four wire Delta circuits, no control devices or single phase loads shall be connected to the
+             power (wild) leg.
+________________________________________________________________________________________________
+
+104.10       SPECIAL CASE TESTING
+             On installations where there is no county or municipal inspection authority, APS reserves the right to require
+             that the customer’s service entrance equipment be tested for insulation breakdown prior to it being
+             ener-gized. This test is to assure that the service entrance equipment is free of all shorts or grounds.
+             Service equipment rated at 400 amperes or more shall withstand for a period of one minute without
+             break-down, the application of a 60-hertz alternating potential of 1000 volts plus twice the rated
+             phase-to-phase voltage of the device. This test shall be performed between all phases to ground and phase
+             to phase.
+             A certified “hi-pot test” may be performed and a certificate issued to APS or a hi-pot test performed in the
+             presence of qualified APS personnel.
+________________________________________________________________________________________________
+
+104.11       CUSTOMER GENERATION
+             Customer generation, for the purpose of this section, is defined as any type of distributed generator or
+             generating facility not owned or operated by APS, which has the potential (a) for feeding a customer load,
+             where this load can also be fed by, or connected to, the APS power system, or (b) for electrically paralleling,
+             or feeding power back into the APS power system.
+             The term “Customer”, as used in this section, shall be construed to also include any independent party or
+             entity that either invests in, or owns or operates a distributed generator or generating facility.
+             Customer generators include induction and synchronous electrical generators and any type of electrical
+             inverter capable of producing A/C power. An Emergency or Standby Generation System is designed so as
+             never to electrically interconnect or operate in electrical parallel with APS system.  An Interconnected
+             Generation System is defined as any generator or generation system that can parallel, or has the potential to
+             be paralleled via design or normal operator control, either momentarily or on a continuous basis, with the APS
+             system.
+
+             Refer to the APS Interconnection Requirements as well as several guides, tools, and sample diagrams for
+             distributed generation that are available on the APS website at aps.com/dg.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                               ELECTRIC SERVICE REQUIREMENTS                                                          104.8
+            REVISION                                   GENERAL INFORMATION                                                            PAGE
+            07/09/2025                               SPECIAL CONSIDERATIONS                                                             15
+
+===== Page 19 =====
+________________________________________________________________________________________________
+
+104.11-1     EMERGENCY OR STANDBY GENERATORS
+             Emergency or Standby generators used to supply part of or all the Customer’s load during an emergency
+             power outage shall be connected to the Customer’s wiring through a double throw, break-before-make
+             transfer switch specifically designed and installed for that purpose and listed to UL1008.
+
+             Synchronous generators normally come equipped with a neutral to ground bonding jumper from the factory.
+             For both three-phase four-wire and single-phase three-wire systems with neutral to ground bonds at each
+             source, the transfer switch shall switch the neutral connection forming a separately derived system. The
+             generator neutral shall not be floating. This requirement will remove the electrical shock hazard associated
+             with disconnecting the neutral to ground link in the SES during a planned outage.
+
+               Three pole transfer switches shall be required for the following systems that do not utilize a neutral:
+               1. Three-phase three-wire
+               2. Ungrounded
+               3. Low Impedance
+               4. High Impedance
+
+             The transfer switch shall be of a fail-safe mechanical throw over design which will under no circumstances
+             allow the generator to electrically interconnect or parallel with the APS system.
+
+             The transfer switch shall always disconnect the Customer’s critical load from the APS power system prior to
+             connecting it to the generator. Conversely, the transfer switch shall also disconnect the load from the
+             generator prior to reconnecting it back to the APS System. These requirements shall apply to both actual
+             emergency operation as well as to testing the generator. All transfer switches must be inspected and
+             approved by the jurisdictional electrical agency.
+
+             Customers installing a manual or automatic transfer switch will be required to provide the following
+             information to APS:
+               (a) Documentation from the manufacturer indicating that the transfer switch is open transition
+                   (break-before-make), listed to UL 1008 (Standard for Transfer Switch Equipment), and the
+                   AIC rating of the transfer switch.
+               (b) One-line diagram of the system.
+             NOTE:  Customer to ensure that the transfer switch and associated equipment is installed and labeled in
+             accordance with the NEC and all applicable requirements of the local Authority Having Jurisdiction.
+             Portable generators are not designed nor intended to be connected to a building’s permanent wiring system,
+             and shall not be connected to any such wiring unless a permanent and approved transfer switch is used.
+             Failure to use a transfer switch can result in backfeed into the APS system - the generator voltage can
+             backfeed through the APS transformer and be stepped up to a very high voltage.  This can pose a potentially
+             fatal shock hazard to anyone working on the power lines.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                ELECTRIC SERVICE REQUIREMENTS                                                          104.11-1
+            REVISION                                    GENERAL INFORMATION                                                              PAGE
+            07/09/2025                                SPECIAL CONSIDERATIONS                                                               16
+
+===== Page 20 =====
+104.11-1     EMERGENCY OR STANDBY GENERATORS (CONTINUED)
+
+
+             Placards/Warning Labels:
+             Emergency or Standby Generators that operate in an open transition mode by means of an automatic
+             transfer switch as described herein are required to include a warning sign with the following information
+             located at the SES:
+
+                                                                     WARNING
+                   1.   AN EMERGENCY/STANDBY GENERATOR IS LOCATED ON THE PROPERTY.
+                    2.  REMOVAL/LOSS OF UTILITY POWER WILL INITIATE GENERATOR START UP.
+                    3.  AUTOMATIC TRANSFER SWITCH (ATS) SHALL PREVENT GENERATOR FROM
+                        BACKFEEDING THE ELECTRIC SERVICE.
+
+             All labels shall consist of a permanently attached weatherproof/UV resistant placard, letters shall be engraved
+             or embossed/raised, and letters will be a minimum of 1/4 inch tall.  Labels shall be securely attached to the
+             applicable equipment as long as the attachment means does not violate the UL Listing of the equipment.
+             Labels shall be made of (a) aluminum, brass or other approved corrosive resistant metal, or (b) a high-density
+             polyethylene material 55 mils thick comprised of a 35 mil black polyethylene base film capped (co-extruded)
+             with a 20 mil color polyethylene.  Labels should follow the ANSI Z535.1 -2011 color codes when applicable.
+________________________________________________________________________________________________
+
+104.11-2     INTERCONNECTED GENERATORS
+             Interconnected generators encompass any type of Customer generator or generating facility that can
+             electrically parallel with, or potentially backfeed into the APS system. Additionally, any generator system
+             using a “closed transition” type transfer switch, multi breaker transfer scheme, or an electrical inverter that
+             can be configured or programmed to operate in a “utility interactive mode” constitute a potential backfeed
+             source to the APS system, and are classified as an interconnected generator.
+
+             APS has specific Interconnection Requirements that shall to be complied with for all interconnected
+             generators. These include a visible open disconnect meeting certain requirements to isolate the Customer’s
+             system from the APS system, as well as protective relaying, metering, special rate schedules, and other
+             safety and information requirements. Customer rack-out breakers do not meet the visible open requirements
+             for alternate power source. The Customer will also be responsible for having the generation system protective
+             schemes tested by a qualified testing/calibration company. Qualified APS personnel will need to inspect the
+             system and the Customer will need to sign an Interconnection Agreement with APS. Each proposal for an
+             interconnected generator will be reviewed by APS on a case by case basis. APS does not extend “blanket
+             approval” to any specific type of generator or generator scheme since each project review is site specific.
+
+             A line (supply) side tap constitutes a new service as defined by the National Electrical Code (NEC), and is
+             subject to all applicable NEC requirements and/or requirements adopted by the Authority Having Jurisdiction.
+             Any line side tap shall be made without any modifications to any factory installed and/or factory listed
+             equipment or components, unless such tap is expressly authorized by the manufacturer and/or listing agency,
+             and performed in strict accordance with the manufacturer’s directions and specifications.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                               ELECTRIC SERVICE REQUIREMENTS                                                       104.11-1
+            REVISION                                  GENERAL INFORMATION                                                           PAGE
+           05/15/2026                               SPECIAL CONSIDERATIONS                                                            17
+
+===== Page 21 =====
+104.11-2    INTERCONNECTED GENERATORS (CONTINUED)
+
+            Anyone contemplating installing an interconnected generator should contact their local APS office for further
+            details.  A copy of the APS Interconnection Requirements for Distributed Generation and supplementary
+            information can be accessed by visiting www.aps.com/dg.
+
+            PLACARDS / WARNING LABELS:
+            Interconnected Generators are required to include a warning sign with the following information located at the
+            SES:
+                                                                 WARNING
+                 1.   AN INTERCONNECTED GENERATOR IS LOCATED ON THE PROPERTY.
+                  2.  REMOVAL/LOSS OF UTILITY POWER WILL INITIATE GENERATOR START UP.
+                  3.  FOLLOW PROPER LOCK-OUT / TAG-OUT PROCEDURES TO ENSURE
+                      GENERATOR SYSTEM UTILITY DISCONNECT IS OPEN PRIOR TO
+                      PERFORMING WORK ON THIS DEVICE.
+
+
+            All labels shall consist of a permanently attached weatherproof/UV resistant placard, letters shall be engraved
+            or embossed/raised, and letters will be a minimum of 1/4 inch tall.  Labels shall be securely attached to the
+            applicable equipment as long as the attachment means does not violate the UL Listing of the equipment.
+            Labels shall be made of (a) aluminum, brass or other approved corrosive resistant metal, or (b) a light density
+            polyethylene material 55 mils thick comprised of a 35 mil black polyethylene base film capped (co-extruded)
+            with a 20 mil color polyethylene.  Labels should follow the ANSI Z535.1 - 2011 color codes when applicable.
+________________________________________________________________________________________________
+
+104.12      PROTECTION AND ISOLATION REQUIREMENTS FOR MULTIPLE UTILITY SERVICES TO A
+            CUSTOMER FACILITY
+            In instances when APS serves a customer facility from two or more separate electrical sources (services), it is
+            necessary to ensure that:
+            (a) The APS sources are not under any circumstances paralleled or in any way electrically connected
+                to-gether by the customer through the customer’s equipment. Paralleling of APS sources by the customer
+                can lead to the following conditions: fault current exceeding the fault duty rating of affected equipment;
+                circulating currents in both the APS feeders and the customer’s equipment due to voltage difference
+                and/or phase imbalance between the sources; and reduced reliability of APS service in that a fault on one
+                feeder will affect the other(s).
+            (b) Suitable isolation devices are incorporated into each of the customer’s service entrance sections for the
+                purpose of ensuring that each APS service, including the metering compartment, can be isolated from all
+                other APS sources feeding the facility that can present a potential back-feed source to APS personnel.
+________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                             ELECTRIC SERVICE REQUIREMENTS                                                    104.11-2
+           REVISION                                 GENERAL INFORMATION                                                         PAGE
+           05/15/2026                              SPECIAL CONSIDERATIONS                                                        18
+
+===== Page 22 =====
+104.12-1     INTERLOCKS
+              To ensure that two or more APS sources are never paralleled or electrically connected together by the
+             customer within the customer’s facility, customer shall install suitable interlocks between the associated
+             switches or breakers in all customer facility circuit arrangements that constitute, or could constitute, a transfer
+             scheme between the utility power sources (e.g. “Main-Tie-Main” or “Main-Tie-Tie-Main”). The interlock
+             scheme(s) shall prevent the simultaneous closing of all of the breakers in any such switch or breaker
+             arrangement, and ensure that any load transfer between the utility power sources is always accomplished in
+             an open-transition (“break-before-make”) transfer mode.
+             In the event that manually-operated switches are used to effect a transfer between APS sources, and it is not
+             physically possible to key - or otherwise interlock these switches, then the customer may, subject to prior
+              APS approval, utilize written operating procedures along with suitable operational controls to effect a transfer
+             of load between the sources. The customer will be responsible for establishing, maintaining and using written
+             operating procedure(s) that govern the operation of all affected switches. The procedure(s) shall ensure that
+              these switches will always be operated in such a manner to ensure an “open-transition” transfer between the
+             utility power sources. In addition, such switches will remain locked by means of secure padlocks under the
+             customer’s operational control. Suitable placards will be installed at each affected switch, identifying the
+             switch and cautioning that it is only to be operated in strict accordance with established written operating
+             procedure(s).
+             Note that the requirements specified in this section do not apply to a network service or other paralleling
+             arrangement that is under APS’ operating jurisdiction and that has been specifically designed and installed to
+             allow for paralleling of APS sources.
+________________________________________________________________________________________________
+
+104.12-2     ISOLATION DEVICES
+              To protect APS personnel from potential electrical backfeed when it is necessary to electrically isolate
+              APS-owned equipment on any given service to a customer facility that is supplied by two or more utility
+             sources, the customer shall install and maintain a suitable isolation device(s) on each of the service entrance
+             section main buses. The isolation device shall meet all the requirements specified in Section 8.2 of the APS
+             document entitled “Interconnection Requirements for Distributed Generation” including grounding
+             requirements and the establishment of an “Operating Agreement” for systems with a line voltage over 500 V.
+              A copy of this document can be accessed by visiting www.aps.com/dg.
+              A customer facility receiving utility service under 500 V, and utilizing only a double-throw transfer switch to
+             effect the transfer of load between the utility sources and between any separately sourced circuits within the
+             customer facility, is exempt from the requirements of this section, provided that the transfer switch: (a) is of a
+              true double-throw, break-before-make, fail-safe mechanical throw-over design, which will not under any
+             circumstances allow the utility sources to be paralleled; (b) is listed to UL1008; and (c) is not comprised of a
+             multi-breaker scheme, irrespective of any interlocking scheme used between the breakers.
+             Note that for any APS service to a customer facility at a voltage above 500V, irrespective of the number of
+             services to the facility, or the type of transfer scheme(s) used, the customer is required to provide a suitable
+             isolation device in accordance with drawing numbers 401/APS-1 and 401/APS-2 specified in Section 1100 of
+              this manual.
+________________________________________________________________________________________________
+
+104.12-3     NON-INTERCONNECTED GENERATION SYSTEMS
+
+                APS requires OSHA/NRTL/UL listing for transfer equipment between APS utility source and backup on-site
+               generator(s). OSHA/NRTL/UL purview for transfer equipment are UL 98, UL1008 or UL1008A.
+
+               There are systems where the OSHA/NRTL/UL transfer listings for transfer equipment are not
+               available or practical.  Such is the case with main-tie-main or main-tie-tie-main systems. For these
+               systems, APS has a four-step solution as outlined below:
+             1.  Key interlocks for manual systems or programmed controllers for automated systems.
+             2.  Hard Wired Circuit Breaker Interlocks
+             3.  Utility Disconnect installed in accordance with Section 8.2 of the APS Interconnection Requirements
+              4. Test Script (provided by the Customer for review and acceptance by APS) and a Witness Test (refer to
+                 Section 14 of the APS Interconnection Requirements for more information/details).
+
+             NOTE:  Refer to APS Interconnection Requirements, Section 13 for additional information.
+
+
+                                                 ELECTRIC SERVICE REQUIREMENTS                                                           104.12-2
+            REVISION                                     GENERAL INFORMATION                                                              PAGE
+            05/15/2026                                 SPECIAL CONSIDERATIONS                                                               19

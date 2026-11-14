@@ -1,0 +1,190 @@
+
+
+===== Page 1 =====
+
+
+===== Page 2 =====
+1.  BACKGROUND
+    The Electrical Work Guidance Document provides useful information to assist
+    designers, building owners and industry stakeholders in understanding the filing
+    requirements and processes associated with the three different types of Electrical Work.
+
+    This guidance outlines:
+    -   Permit requirements
+    -   Plan review and inspection triggers
+    -   Documentation standards
+    -   Special permissions (CCD1)
+    -   Process schematics
+
+
+2.  INTRODUCTION TO LOCAL LAW 128 OF 2024
+    The New York City Council adopted Local Law 128 of 2024, which enacts the New York
+    City Electrical Code. Effective December 21, 2025, the law introduces a formal                definition
+    of Electrical Work and mandates compliance for all           filings submitted on or after December
+    21, 2025.
+
+    To support implementation, the NYC Department of Buildings (DOB) issued Buildings
+    Bulletin 2025-008 and this accompanying Electrical Work Guidance Document. Code
+    sections referenced in this guide are to Local Law 128 of 2024 unless specified.
+
+
+3.  CATEGORIES OF ELECTRICAL WORK
+   There are three categories of electrical work filing schemes under the 2025 New York
+   City Electrical Code which are selected by the applicant based on the type of electrical
+   work being performed:
+    -   Minor Electrical Work (see 28-101.5 and 28-116.2.4 Exemption)
+        o   Requires a permit
+        o   Does not require DOB inspection or plan review
+    -   Electrical Work (see 28-101.5 and 28-116.2.4)
+        o   Requires a permit and DOB electrical inspection
+        o   Does not require plan review
+    -   Electrical Work including Special Installations (see EC Section 110.2 (B))
+        o   Requires a  DOB electrical plan review, permit, and DOB inspection
+
+
+
+
+
+
+                                                                                                     1 | p a g e
+
+===== Page 3 =====
+4.  ELECTRICAL PLAN REVIEW: SUBMISSION REQUIREMENTS
+    Electrical work that triggers plan review in accordance with EC Section 110.2(B) of the
+    2025 NYC Electrical Code must include the following:
+    A.  General Requirements:
+        1.  All documents must be submitted electronically to the EPR Unit at
+            elecplanreview@buildings.nyc.gov
+        2.  Submissions must be prepared and signed by a New York State Licensed and
+            Registered Professional Engineer, New York State Licensed and Registered
+            Architect, or an individual who is licensed to practice the profession of engineering
+            under the law of any state or foreign jurisdiction. A filing fee of $650.00 must be
+            paid for each submission.
+
+    B.  Required Drawings and Documentation:
+        All submissions must include a one-line diagram, a plan view, and, if required , an
+        equipment room layout and be in accordance with and include the following
+        requirements, as appliable, pursuant to 1RCNY §4000-01 (b)(1):
+        1.  All drawings must be clear, legible, and use standard notations.
+        2.  Installations that are not all new must clearly mark what is new and what is existing.
+            In addition, all new work must be encircled by a ‘bubble’ or ‘cloud’ on the drawings.
+        3.  For residential installations, the calculations justifying a de-rating of the neutral must
+            be submitted.
+        4.  The plan view must be drawn to scale, showing the point of service entrance into
+            the building. If the building sets back from the property line, the underground
+            service feeder must be shown, including wire and raceway sizes.
+        5.  The arrangement of service equipment and its proximity to the point of service
+            entrance must be shown, including the manner in which service will be extended to
+            the service equipment. If the switchboard is free standing, the clearance around the
+            switchboard must be shown.
+        6.  The location of the main switchboard and/or distribution panels in relation to the
+            service equipment must be shown.
+        7.  The location of the electric service room with respect to the surrounding areas must
+            be shown.
+        8.  The means of egress from the switchboard room and where it leads to must be
+            shown. The legal exit(s) to which egress door(s) lead must also be shown.
+
+
+
+
+
+
+                                                                                                        2 | p a g e
+
+===== Page 4 =====
+9.  When there is more than one service location within a building, drawings must
+    contain a notation indicating that signs are posted at the entrance door of each
+    switchboard room showing the location of all the other switchboard rooms. The
+    location and wording of the signs must be specified.
+10. If the existing service equipment and/or point of service entrance is to be
+    discontinued, the drawings must so state.
+11. If existing service equipment is to remain in conjunction with new service equipment
+    and is to be supplied by the same service entrance, the drawing must indicate the
+    make and size of the existing service equipment, and the type and size of the fuses
+    in the existing equipment.
+12. The drawing must show grouping of service equipment at the point of service
+    entrance.
+13. The drawing must show a method of cooling, with or without fresh air circulation  , to
+    prevent temperature rise in the room, when the service equipment totals 2000 KVA
+    or larger (this may be in the form of a note on the drawing).
+14. The drawing must show the available short circuit current at the point of service
+    entrance and at the point of change in the interrupting rating of the overcurrent
+    protection. Where used, series ratings must be indicated.
+15. A statement confirming that all fuses and/or circuit breakers have been coordinated
+    for selective short circuit overcurrent protection must be on the drawing.
+16. A one-line diagram must be submitted indicating the service equipment and the
+    distribution equipment up to the second level overcurrent protection, showing all
+    overcurrent devices and electrical equipment with their ampere rating, make and
+    type, interrupting current ratings and wire sizes. Frame and trip sizes for circuit
+    breakers must be indicated.
+17. Drawings must indicate that transformers are properly grounded. Service and
+    distribution equipment proposed for future installation must be marked on the
+    drawings as “future.”
+18. All voltages must be clearly shown on the drawings, which must include voltages
+    pertaining to all of the equipment overcurrent protection up to and including the
+    second level protection.
+19. When a generator (or other non-utility source) is part of a 1000 KVA submission
+    and the generator itself is rated below 1000 KVA, a one-line diagram must be
+    submitted showing how the generator is connected to the normal service. The
+    drawings must include the grounding of the generator frame and neutral bonding if
+
+
+
+
+
+                                                                                                 3 | p a g e
+
+===== Page 5 =====
+            needed (four pole transfer device). If the generator is rated 1000 KVA or larger, a
+            room layout must be submitted along with a one-line diagram.
+
+    C.  Selective Coordination Report:
+        A selective coordination report prepared by a professional engineer must be filed with
+        the Department prior to electrical inspection. Such engineer may be different from the
+        applicant. The report must show selective coordination was achieved, including but                    not
+        limited to time-current curves (TCCs) and short circuit calculations. A summary of
+        findings must also be included to ensure compliance with applicable codes and
+        standards.
+
+    D.  Documenting Deviations from the Approved Drawings:
+        Where installation of equipment differs from the original approved drawings, amended
+        drawings showing the as-built condition must be filed with the             EPR Unit at
+        elecplanreview@buildings.nyc.gov prior to electrical inspection.
+
+    E.  Additional Documentation:
+        The DOB may request additional documentation when so deemed appropriate.
+
+
+5. SPECIAL PERMISSION (CCD1)
+    Special permission under the 2025 New York City Electrical Code may be granted in
+    accordance with Section 28-103.3 of the Administrative Code and Section 90.4 of the
+    Electrical Code. Requests for special permission must be made electronically and comply
+    with the following:
+    -   Demonstrate practical difficulty and provide supporting documentation.
+    -   Include proposed equally safe alternative methods.
+    -   A fee as specified for a variation in the amount of $1000.00 as specified in 1RCNY
+        101-03.
+
+
+6. PROCESS SCHEMATICS FOR ELECTRICAL WORK
+   New York City laws require that one or more permits be obtained before starting
+   construction work. The process schematics below illustrate DOB's Electrical work
+   application filing and approval sequence and the necessary steps to obtain an electrical
+   permit.
+
+
+
+
+
+
+
+
+                                                                                                       4 | p a g e
+
+===== Page 6 =====
+
+
+===== Page 7 =====
+
+
+===== Page 8 =====

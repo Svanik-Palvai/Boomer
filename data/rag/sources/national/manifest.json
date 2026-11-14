@@ -1,0 +1,407 @@
+[
+  {
+    "id": "nfpa-nec-enforcement-maps",
+    "title": "NEC enforcement maps (Where is the NEC in effect?)",
+    "jurisdiction": "US",
+    "level": "national",
+    "docType": "adoption_table",
+    "publisher": "NFPA",
+    "url": "https://www.nfpa.org/education-and-research/electrical/nec-enforcement-maps",
+    "retrievedAt": "2026-11-14",
+    "file": null,
+    "textFile": null,
+    "copyright": "third_party_link_only",
+    "keyFacts": [
+      "As of 2026-08-03: 2026 NEC in effect in 6 states, 2023 in 20, 2020 in 15, 2017 in 3, 2008 in 2",
+      "2026 NEC issued 2025-08-20; effective for adoption 2025-09-09",
+      "Arizona: local adoption only; Mississippi and Missouri: local incorporation by reference only",
+      "Nevada: 2017 (7/1/2018) via Nevada State Public Works Division",
+      "2025 California Electrical Code based on 2023 NEC; Chicago 2018 code based on 2017 NEC"
+    ],
+    "notes": "State table parsed from page-embedded data; facts only."
+  },
+  {
+    "id": "or-bcd-electrical",
+    "title": "Oregon BCD electrical codes page",
+    "jurisdiction": "OR",
+    "level": "state",
+    "docType": "code_adoption_page",
+    "publisher": "Oregon Building Codes Division",
+    "url": "https://www.oregon.gov/bcd/codes-stand/pages/electrical.aspx",
+    "retrievedAt": "2026-11-14",
+    "file": null,
+    "textFile": null,
+    "copyright": "government_public",
+    "keyFacts": [
+      "2026 OESC based on 2026 NEC, effective 2026-10-01"
+    ],
+    "notes": "Not downloaded."
+  },
+  {
+    "id": "wa-lni-electrical-rules",
+    "title": "WA L&I electrical laws, rules and policies",
+    "jurisdiction": "WA",
+    "level": "state",
+    "docType": "code_adoption_page",
+    "publisher": "Washington L&I",
+    "url": "https://lni.wa.gov/licensing-permits/electrical/laws-rules-policies",
+    "retrievedAt": "2026-11-14",
+    "file": null,
+    "textFile": null,
+    "copyright": "government_public",
+    "keyFacts": [
+      "2023 NEC current",
+      "2026 NEC expected to replace it 2026-12-31 (CR-103 expected Nov 17)"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "mt-bcb-current-codes",
+    "title": "Montana Building Codes Bureau current codes",
+    "jurisdiction": "MT",
+    "level": "state",
+    "docType": "code_adoption_page",
+    "publisher": "Montana DLI",
+    "url": "https://bsd.dli.mt.gov/building-codes-permits/current-codes",
+    "retrievedAt": "2026-11-14",
+    "file": null,
+    "textFile": null,
+    "copyright": "government_public",
+    "keyFacts": [
+      "NEC 2023 effective 2026-09-26"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "tdlr-2026-nec-adoption",
+    "title": "TDLR Commission adopts rules (16 TAC 73.100, 2026 NEC)",
+    "jurisdiction": "TX",
+    "level": "state",
+    "docType": "rulemaking_notice",
+    "publisher": "Texas Department of Licensing and Regulation",
+    "url": "https://www.tdlr.texas.gov/news/rulemaking/2026/09/01/commission-adopts-rules-12/",
+    "retrievedAt": "2026-11-14",
+    "file": null,
+    "textFile": null,
+    "copyright": "government_public",
+    "keyFacts": [
+      "2026 NEC adopted as Texas electrical code effective 2026-09-01",
+      "Limited exception to GFCI requirements for certain outdoor outlets"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "mn-dli-2026-nec-faq",
+    "title": "2026 National Electrical Code - FAQ (Revised Oct. 5, 2026)",
+    "jurisdiction": "MN",
+    "level": "state",
+    "docType": "code_change_guidance",
+    "publisher": "Minnesota Department of Labor and Industry",
+    "url": "https://www.dli.mn.gov/sites/default/files/pdf/NECFAQ26.pdf",
+    "retrievedAt": "2026-11-14",
+    "file": null,
+    "textFile": "docs/mn-dli-2026-nec-faq.txt",
+    "copyright": "government_public",
+    "keyFacts": [
+      "230.85 deleted; dwelling service disconnect must be outdoors per 230.70",
+      "210.8(F) Class C SPGFCI exception for listed HVAC",
+      "SPD scope 215.18/230.67 incl. replacement equipment, In >= 10 kA",
+      "210.52 receptacles not within 24 in. beneath/adjacent to countertops",
+      "680.26 perimeter bonding 3 ft"
+    ],
+    "notes": "Includes Minnesota-specific enforcement positions; not national.",
+    "sha256": "6089112a01a0c87afad463e939c4a5c9547c6be4f656d210621f55611e731cd2",
+    "original": {
+      "format": "pdf",
+      "url": "https://www.dli.mn.gov/sites/default/files/pdf/NECFAQ26.pdf",
+      "bytes": 365836,
+      "sha256": "6089112a01a0c87afad463e939c4a5c9547c6be4f656d210621f55611e731cd2",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "iaei-2020-residential-changes",
+    "title": "Residential Changes for the 2020 NEC (Keith Lofland, 2020-04-24)",
+    "jurisdiction": "US",
+    "level": "national",
+    "docType": "code_change_summary",
+    "publisher": "IAEI Magazine",
+    "url": "https://iaeimagazine.org/standards/residential-changes-for-the-2020-nec/",
+    "retrievedAt": "2026-11-14",
+    "file": null,
+    "textFile": null,
+    "copyright": "third_party_link_only",
+    "keyFacts": [
+      "230.85 new emergency disconnect",
+      "230.67 new dwelling SPD",
+      "210.8 GFCI 125-250V, all basements, outdoor outlets (210.8(F))",
+      "210.52(C)(2) island receptacles by area"
+    ],
+    "notes": "Own-words summaries in nec-edition-changes.json."
+  },
+  {
+    "id": "iaei-2023-major-changes",
+    "title": "Powering Forward: Major Changes in the 2023 NEC (Laura Hildreth, 2025-07-01)",
+    "jurisdiction": "US",
+    "level": "national",
+    "docType": "code_change_summary",
+    "publisher": "IAEI Magazine",
+    "url": "https://iaeimagazine.org/standards/powering-forward-major-changes-in-the-2023-nec/",
+    "retrievedAt": "2026-11-14",
+    "file": null,
+    "textFile": null,
+    "copyright": "third_party_link_only",
+    "keyFacts": [
+      "230.67 SPD expanded, 10 kA",
+      "210.12 AFCI reorganized/expanded",
+      "210.52(C) island receptacle optional with future provision",
+      "Definitions consolidated in Article 100"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "nera-members-map",
+    "title": "NERA members map and data feed",
+    "jurisdiction": "US",
+    "level": "multi-state",
+    "docType": "reciprocity_group",
+    "publisher": "National Electrical Reciprocal Alliance",
+    "url": "https://nerastates.org/members-map/",
+    "retrievedAt": "2026-11-14",
+    "file": null,
+    "textFile": null,
+    "copyright": "third_party_link_only",
+    "keyFacts": [
+      "19 member states: AK AR CO IA ID ME MN MT NC ND NE NH NM OK SD TX VT WI WY",
+      "Established 2009 as Multi-State Reciprocal Electrical Licensing Group"
+    ],
+    "notes": "Association of state agencies; treated as link-only."
+  },
+  {
+    "id": "sd-dlr-reciprocal-agreements",
+    "title": "South Dakota Electrical Commission reciprocal agreements",
+    "jurisdiction": "SD",
+    "level": "state",
+    "docType": "reciprocity_list",
+    "publisher": "SD Dept. of Labor and Regulation",
+    "url": "https://dlr.sd.gov/electrical/reciprocal_agreements.aspx",
+    "retrievedAt": "2026-11-14",
+    "file": null,
+    "textFile": null,
+    "copyright": "government_public",
+    "keyFacts": [
+      "14 reciprocal states (see licensing JSON)",
+      "ME, VT, WI are NERA states without SD agreements"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "ne-sed-reciprocity",
+    "title": "Nebraska State Electrical Division reciprocity",
+    "jurisdiction": "NE",
+    "level": "state",
+    "docType": "reciprocity_list",
+    "publisher": "Nebraska State Electrical Division",
+    "url": "https://electrical.nebraska.gov/node/44",
+    "retrievedAt": "2026-11-14",
+    "file": null,
+    "textFile": null,
+    "copyright": "government_public",
+    "keyFacts": [
+      "Journeyman reciprocity with 13 states"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "mn-dli-reciprocity",
+    "title": "Minnesota electrical license reciprocity",
+    "jurisdiction": "MN",
+    "level": "state",
+    "docType": "reciprocity_list",
+    "publisher": "Minnesota DLI",
+    "url": "https://www.dli.mn.gov/workers/electrician-or-electrical-installer/electrical-license-reciprocity",
+    "retrievedAt": "2026-11-14",
+    "file": null,
+    "textFile": null,
+    "copyright": "government_public",
+    "keyFacts": [
+      "Journeyworker: AK AR CO IA MT NE ND SD WY",
+      "Master: IA NE ND SD"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "tdlr-iowa-reciprocity-2026",
+    "title": "Texas expands electrician reciprocity with Iowa (2026-02-06)",
+    "jurisdiction": "TX",
+    "level": "state",
+    "docType": "reciprocity_list",
+    "publisher": "TDLR",
+    "url": "https://www.tdlr.texas.gov/news/2026/02/06/texas-expands-electrician-reciprocity-with-iowa-to-support-skilled-workforce-and-economic-growth/",
+    "retrievedAt": "2026-11-14",
+    "file": null,
+    "textFile": null,
+    "copyright": "government_public",
+    "keyFacts": [
+      "Master: AR IA LA NE NC",
+      "Journeyman: AR AK ID IA MT NE NM OK SD WY"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "mt-dli-licensing-comparison-2026",
+    "title": "MT DLI Licensing Task Force memo: electrical/plumbing state-by-state comparison (2026-07-01)",
+    "jurisdiction": "MT",
+    "level": "state",
+    "docType": "licensing_comparison",
+    "publisher": "Montana DLI",
+    "url": "https://esd.dli.mt.gov/_docs/II.a.iii-ELE-PLU-State-by-state-Comparison.pdf",
+    "retrievedAt": "2026-11-14",
+    "file": null,
+    "textFile": null,
+    "copyright": "government_public",
+    "keyFacts": [
+      "Journeyman typically 8000 hrs / 4 yrs + 576 hrs instruction across ND, SD, WY, ID, OR, WA",
+      "ND/SD offer Class B; ID/OR/WA have residential licenses"
+    ],
+    "notes": "Read but not stored in corpus (neighbor-state detail; can be added)."
+  },
+  {
+    "id": "servicetitan-license-reqs",
+    "title": "Electrician License Requirements for All 50 States",
+    "jurisdiction": "US",
+    "level": "national",
+    "docType": "licensing_summary",
+    "publisher": "ServiceTitan (blog)",
+    "url": "https://servicetitan.com/blog/electrician-license-requirements",
+    "retrievedAt": "2026-11-14",
+    "file": null,
+    "textFile": null,
+    "copyright": "third_party_link_only",
+    "keyFacts": [
+      "Published 2021-08-25; used as secondary baseline for state vs local licensing"
+    ],
+    "notes": "Dated; some agency names stale (e.g., Idaho). Rows relying on it are marked low-medium confidence."
+  },
+  {
+    "id": "census-geocoder-api-doc",
+    "title": "Census Geocoding Services API documentation",
+    "jurisdiction": "US",
+    "level": "national",
+    "docType": "api_doc",
+    "publisher": "US Census Bureau",
+    "url": "https://geocoding.geo.census.gov/geocoder/Geocoding_Services_API.html",
+    "retrievedAt": "2026-11-14",
+    "file": null,
+    "textFile": null,
+    "copyright": "government_public",
+    "keyFacts": [
+      "coordinates search returns geographies incl. Incorporated Places and Counties",
+      "batch limit 10,000"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "fcc-area-api",
+    "title": "FCC Area API",
+    "jurisdiction": "US",
+    "level": "national",
+    "docType": "api",
+    "publisher": "FCC",
+    "url": "https://geo.fcc.gov/api/census/",
+    "retrievedAt": "2026-11-14",
+    "file": null,
+    "textFile": null,
+    "copyright": "government_public",
+    "keyFacts": [
+      "Free; returns block/county/state FIPS for lat/lon"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "tigerweb",
+    "title": "TIGERweb tigerWMS_Current MapServer",
+    "jurisdiction": "US",
+    "level": "national",
+    "docType": "api",
+    "publisher": "US Census Bureau",
+    "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Current/MapServer",
+    "retrievedAt": "2026-11-14",
+    "file": null,
+    "textFile": null,
+    "copyright": "government_public",
+    "keyFacts": [
+      "Layer 28 Incorporated Places, 30 CDPs, 82 Counties"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "census-gazetteer",
+    "title": "Census Gazetteer Files",
+    "jurisdiction": "US",
+    "level": "national",
+    "docType": "dataset",
+    "publisher": "US Census Bureau",
+    "url": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
+    "retrievedAt": "2026-11-14",
+    "file": null,
+    "textFile": null,
+    "copyright": "government_public",
+    "keyFacts": [
+      "2026 vintage available"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "census-gus-2022",
+    "title": "2022 Census of Governments Government Units Listing",
+    "jurisdiction": "US",
+    "level": "national",
+    "docType": "dataset",
+    "publisher": "US Census Bureau",
+    "url": "https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html",
+    "retrievedAt": "2026-11-14",
+    "file": null,
+    "textFile": null,
+    "copyright": "government_public",
+    "keyFacts": [
+      "ZIP listing of governments"
+    ],
+    "notes": "Fields not verified."
+  },
+  {
+    "id": "dc-dob-2017-codes",
+    "title": "2017 DC Energy Code (lists DC construction code components)",
+    "jurisdiction": "DC",
+    "level": "state",
+    "docType": "code_adoption_reference",
+    "publisher": "DC Department of Buildings",
+    "url": "https://dob.dc.gov/sites/default/files/dc/sites/dob/publication/attachments/2017%20DC%20Energy%20Code.pdf",
+    "retrievedAt": "2026-11-14",
+    "file": null,
+    "textFile": null,
+    "copyright": "government_public",
+    "keyFacts": [
+      "2017 DC Electrical Code = 2014 NEC as amended by 12C DCMR; codes effective 2020-05-29 (per search excerpt)"
+    ],
+    "notes": "Read via search excerpt only; low confidence."
+  },
+  {
+    "id": "ecm-top-changes-2026",
+    "title": "Top 25 Changes to the 2026 NEC",
+    "jurisdiction": "US",
+    "level": "national",
+    "docType": "code_change_summary",
+    "publisher": "EC&M",
+    "url": "https://ecmweb.com/national-electrical-code/article/55330438/top-25-changes-to-the-2026-national-electrical-code",
+    "retrievedAt": "2026-11-14",
+    "file": null,
+    "textFile": null,
+    "copyright": "third_party_link_only",
+    "keyFacts": [
+      "2026 NEC continues structural reorganization (completion targeted for 2029 edition, per search excerpts)"
+    ],
+    "notes": "Not opened; link for further reading."
+  }
+]

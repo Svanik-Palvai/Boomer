@@ -1,0 +1,520 @@
+
+
+===== Page 1 =====
+                                                                                                                                    Reference Code(s):
+
+                                                                                                                                2020 NEC: 230.6,       230.7,
+                                                                                                                                      230.70, and 230.85
+                                                                                                                                      2021 IRC: E3601.8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                       FAQ:
+  Does my project require installation of an emergency disconnect?
+
+
+
+
+  Background:
+  Per section       230.85    of the 2020 National Electric Code       (NEC), one- and two- family dwelling units shall have an
+  emergency disconnect installed in a readily accessible outdoor location,    and  means shall be provided for
+  disconnecting all ungrounded conductors that supply or pass through the building or structure.
+
+  This requirement has been incorporated into Section E3601.8 of the International Residential Code   (IRC), with an
+  exemption for rowhouses/townhouses.
+
+  This FAQ is intended to clarify when an emergency disconnect is required for new construction and alteration
+  projects and to provide guidance on compliant installation configurations. The document addresses the following
+  key questions:
+
+       1.   Does my project require the installation of an emergency disconnect?
+       2.   If required, what is the typical installation scenario?
+       3.   For projects served by underground conductors with service equipment located on the opposite side of the
+           property, what are the emergency disconnect requirements and code-      compliant configuration options?
+
+  Answers:
+       1.)  The requirement to install an      emergency disconnect is triggered by      all new service installations and        existing
+           service   upgrades.  An existing service upgrade is for example, replacing a 100-    amp service with a 200-amp
+           service.  This does not apply to     rowhouses or townhomes (by definition a townhome must be three or more
+           attached buildings) up to three stories in height. All other dwelling units require an emergency disconnect
+           with an existing service upgrade or new service installation.      One-family dwellings, not attached, and two-
+           family dwellings   that are attached, commonly referred to as twins, require an emergency disconnect.
+
+           Below are diagrams showing the layout of a one-       and two-family dwelling of any height, that would require
+           an     emergency disconnect       with an existing service upgrade or new service installation:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  PB_037_FAQ                                                                                                                                                                                                                                                     Page 1 of 6
+
+
+
+
+===== Page 2 =====
+                                                                                                                                                       Reference Code(s):
+
+                                                                                                                                                  2020 NEC: 230.6,       230.7,
+                                                                                                                                                        230.70, and 230.85
+                                                                                                                                                         2021 IRC: E3601.8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        2.)  Typical existing services are supplied by service drop conductors or underground service conductors, both
+             owned by the electric utility, with the meter being located on the exterior of the structure and      a service
+             supplied panelboard   (commonly referred to as an electrical service panel) located on the interior.  In some
+             cases, the meter may be located on the interior, therefore below are code compliant configurations for all
+             scenarios where an emergency disconnect is required:
+
+
+
+                     Typical Scenario #1: Meter Located on Exterior of Structure   with Service Drop Conductor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     Typical Scenario #2: Meter Located on Interior of Structure with Service Drop Conductor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  PB_037_FAQ                                                                                                                                                                                                                                                     Page 2 of 6
+
+
+
+
+===== Page 3 =====
+                                                                                                                                                                                    Reference Code(s):
+
+                                                                                                                                                                              2020 NEC: 230.6,       230.7,
+                                                                                                                                                                                     230.70, and 230.85
+                                                                                                                                                                                      2021 IRC: E3601.8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Typical Scenario #3: Meter Located on Exterior of Structure with Underground Service Conductor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  Typical Scenario #4: Meter Located on Interior of Structure with Underground Service Conductor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   PB_037_FAQ                                                                                                                                                                                                                                                     Page 3 of 6
+
+
+
+
+===== Page 4 =====
+                                                                                                                                         Reference Code(s):
+
+                                                                                                                                     2020 NEC: 230.6,       230.7,
+                                                                                                                                           230.70, and 230.85
+                                                                                                                                           2021 IRC: E3601.8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       3.)  In several areas throughout the City, it is common for the service conductors from the utility provider to be
+            located underground, and in some cases entering the structure through the basement floor. In these
+            locations, meters may be present inside rather than outside the structure, which further complicates
+            complying with the     requirement. However, there are multiple code compliant configurations that make it
+            possible to satisfy the    requirements of the NEC, whether the meter is being moved to the exterior wall or
+            remaining on the interior of the building or structure.
+
+            There are several important notes to consider:
+            •     NEC Section 230.70(A)(1) states that means shall be provided to disconnect all ungrounded conductors
+                 in a building or structure from the service conductor(s), installed  at a readily accessible location either
+                 outside of a building or structure or inside nearest the     point of entrance of the service conductors.
+            •   NEC Sections   230.6(1) &   230.6(2) state that conductors encased in at least two inches of concrete,
+                 either beneath a building or structure, or within a raceway inside a building or structure               , are considered
+                 to be “outside” the  building or structure.
+            •    NEC Section 230.7 requires that  service conductors cannot share a raceway, cable, or enclosure with
+                 feeder or branch-circuit (fused/protected) conductors.
+            •    While these configurations are code compliant, they may in some cases be technically infeasible,  which
+                 would require the submission of a variance to the Board of Building Standards.
+
+            Please see below drawing     of an existing service to be upgraded  followed by four different code compliant
+            configurations.
+
+
+
+                             Existing Service to be Upgraded (e.g., 100-       amp to 200-      amp) or Replaced:
+            Electrical Meter and Service         Supplied     Panelboard   Located at Interior/ Rear of Building, Serviced by
+                                                         Underground Service Conductors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  PB_037_FAQ                                                                                                                                                                                                                                                     Page 4 of 6
+
+
+
+
+===== Page 5 =====
+                                                                                                                                                                   Reference Code(s):
+
+                                                                                                                                                              2020 NEC: 230.6,       230.7,
+                                                                                                                                                                     230.70, and 230.85
+                                                                                                                                                                     2021 IRC: E3601.8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                         Code Compliant Configuration #1:
+           Emergency Disconnect (Installed in accordance with list item #1 in NEC 230.85 or E3601.8 list item #1)
+                                                          and Electrical Meter Located on Exterior Wall
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                         Code Compliant Configuration #2:
+           Emergency Disconnect (Installed in accordance with list item #1 in NEC230. 85 or E3601.8   list item #1)
+                                                   Located on Exterior Wall with Interior Electrical Meter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  PB_037_FAQ                                                                                                                                                                                                                                                     Page 5 of 6
+
+
+
+
+===== Page 6 =====
+                                                                                                                                                                          Reference Code(s):
+
+                                                                                                                                                                    2020 NEC: 230.6,       230.7,
+                                                                                                                                                                            230.70, and 230.85
+                                                                                                                                                                            2021 IRC: E3601.8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                            Code       Compliant Configuration #3:
+           Emergency Disconnect (Installed in accordance with list item #3 in NEC 230.85 or E3601.8 list item #3 )
+                                                            and       Electrical Meter Located on Exterior Wall
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                            Code Compliant Configuration #4:
+            Emergency Disconnect (Installed in accordance with list item #3 in NEC230.85 or E3601.8 list item #3)
+                                                      Located on Exterior Wall with Interior Electrical Meter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Additional Questions?  Call 311 or (215) 686-       8686 (if outside Philadelphia) or submit an online form via http://www.phila.gov/li/get- help.
+
+  Disclaimer: This interpretation, policy or code application is intended to provide guidance to staff for consistency of review and is subject to change without
+  notice. Application of this interpretation, policy or code application to specific projects may vary. There may be other ways to comply with the Code. If so, you
+  are not required to use this method. You may want to investigate other options or consult with a professional identifying an equally code-      compliant solution.
+
+  PB_037_FAQ                                                                                                                                                                                                                                                     Page 6 of 6
+
+

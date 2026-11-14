@@ -1,0 +1,1221 @@
+
+
+===== Page 1 =====
+                    BUILDING CONSTRUCTION CODE CHANGE PROPOSAL
+                          Amendment to 2023 National Electrical Code (NEC)
+                                                     Article 100
+
+Submitted by:  National Electrical Code Committee
+
+ARTICLE 100     Definitions
+
+Building.A structure that stands alone or that is separated from adjoining structures by fire
+walls.  Fire walls shall be as defined by the International Building Code. For purposes of
+compliance with this code, a townhouse dwelling unit shall be considered a building if the
+townhouse dwellings units are separated from adjoining townhouse dwelling units by either fire
+walls or by double walls or  common walls that do not serve as gravity load bearing walls.  For the
+purposes of this definition, see the International Residential Code for double wall and common
+wall provisions for townhouses.
+
+Elevator Disconnect Room or Closet.
+An enclosed room or closet, with full-height door, located     outside the hoistway, intended to be
+accessed with or without full bodily entry that is dedicated to electrical and/or mechanical
+equipment used directly in connection with the elevator      when the elevator controller is located in
+the hoistway.  The elevator disconnect required in 620.51(A), and the other elevator related
+disconnects, overcurrent devices, lighting, receptacles, etc.  required by 620.22, 620.23, and
+620.25     shall be located in this room or closet.  In other than one-        and two-family dwellings, and
+unless special permission is granted, the room or closet shall be located on the same level as
+the controller, within 50 feet of travel distance from the hoistway, shall be accessed directly from
+the corridor, and shall be accessible to qualified persons only.  A label shall be provided at the
+elevator controller location identifying the location of the elevator disconnect room or closet      .  In
+one-       and two-family dwellings only, an elevator disconnect room or closet shall not be required
+where the disconnecting means is located outside the hoistway in a readily accessible location
+and accessible to qualified persons only by being lockable in both the open and closed position
+and       labeled in accordance with 110.22(A).  The provisions for locking shall remain in place with
+or without the lock installed.  The other disconnects, overcurrent devices, lighting, and
+receptacles required by 620.22, 620.23, and 620.25 shall be located adjacent to the disconnect
+required in 620.51(A).
+
+Justification:
+
+Building.              The definition of Building when referenced by the NEC has been expanded to include
+townhouse   dwelling units when separated by double walls or common walls that do not serve as
+gravity load bearing walls.  This provides clarity related to townhouses with respect to NEC
+compliance.
+
+Elevator Disconnect Room or Closet.  A new definition has been added for Elevator
+Disconnect Room or Closet to define the dedicated space that is required to contain the elevator
+disconnects when the elevator controller is located in the hoistway. MRL (Machine Room Less)
+elevators typically have the elevator controller located in the hoistway.  The code requires that
+disconnecting means for the elevator and related equipment be located outside the hoistway in a
+readily accessible location that is accessible to qualified persons only.  This   new definition of this
+location defined as a room or closet with a full height door is necessary to avoid confusion as to
+
+===== Page 2 =====
+ an acceptable space that meets the various code sections related to these disconnects,
+ including but not limited to NEC 620.51(C)(1), 620.22, 620.23, 620.25, 100, and 110.26.
+ It is also important that the location of the room or closet is near the hoistway on the same level
+ as the controller to allow quick access to the disconnects by first responders and elevator
+ personnel in the event of an emergency.  This is further emphasized by the requirement for a
+ label indicating the location of the room or closet.  In one-       and two-family dwellings    only, the
+ room or closet is optional.  However, if the room or closet is not provided, the disconnect must
+ still   be located outside the hoistway in a readily accessible location that is accessible to qualified
+ persons only by being lockable in both the open and closed position and labeled   as to its
+ purpose.  The other disconnects, overcurrent devices, lighting, and receptacles required by
+ 620.22, 620.23, and 620.25 shall be located adjacent to the disconnect required in 620.51(A).
+
+
+
+ Cost Impact: Minimal  cost impact.
+
+
+ Approved in previous 2018        Code Adoption process:                               YES               NO
+
+ ACTION TAKEN:
+ 2024 Code Committee                                                                     Date:  01/10/2025
+     Approved as submitted               Modified and approved               Denied           No action taken
+ Development Advisory Board (DAB) Subcommittee                                           Date:  03/13/2025
+     Approved as submitted               Modified and approved               Denied          No action taken
+ Development Advisory Board (DAB)                                                        Date:  04/22/2025
+     Approved as submitted               Modified and approved               Denied          No action taken
+ Transportation, Infrastructure and Planning Subcommittee                                Date:  05/21/2025
+     Approved as submitted               Modified and approved               Denied          No action taken
+ City Council Action                                                                     Date:  06/18/2025
+     Approved as submitted               Modified and approved              Denied           No action taken
+             Adopted by City of Phoenix Ordinance G-7397 effective August 1, 2025
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===== Page 3 =====
+                   BUILDING CONSTRUCTION CODE CHANGE PROPOSAL
+                         Amendment to 2023 National Electrical Code (NEC)
+                                         Section 210.52(C)(2) and (3)
+
+Submitted by:  Home Builders Association of Central Arizona
+
+210.52(C)(2) Island and Peninsular Countertops and Work Surfaces.
+Receptacle outlets, if installed to serve an island or peninsular countertop or work surface, shall
+be installed in accordance with 210.52(C)(3). If a receptacle outlet is not provided to serve an
+island or peninsular countertop or work surface, provisions shall be provided at the island or
+peninsula for future addition of a receptacle outlet to serve the island or peninsular countertop or
+work surface.
+At least one receptacle shall be installed at each island and peninsular countertop space with a
+long dimension of 600 mm (24 in.) or greater and a short dimension of 300 mm (12 in.) or
+greater. A peninsular countertop is measured from the connected perpendicular wall.
+
+210.52(C)(3)Receptacle Outlet Location.
+Receptacle outlets shall be located in one or more of the following:
+    (1) On or above, but not more than 500              mm (20 in.) above, a countertop or work surface
+    (2) In a countertop using receptacle   outlet assemblies listed for use in countertops
+    (3) In a work surface using receptacle outlet assemblies listed for use in work surfaces or
+         listed for use in countertops
+Receptacle outlets rendered not readily accessible by appliances fastened in place, appliance
+garages, sinks, or rangetops as covered in   210.52(C)(1), Exception     No. 1, or appliances
+occupying assigned spaces shall not be considered as these required outlets.
+Exception: To comply with the following conditions (1) and (2), receptacle outlets shall be
+permitted to be mounted not more than 300 mm (12 in.) below the countertop or work surface.
+Receptacles mounted below a countertop or work surface in accordance with this exception shall
+not be located where the countertop or work surface extends more than 150 mm (6 in.) beyond
+its support base.
+    (1) Construction for the physically impaired
+    (2) On island and peninsular countertops or work surface where the surface is flat across its
+         entire surface (no backsplashes, dividers, etc.) and there are no means to mount a
+         receptacle within 500 mm (20 in.) above the countertop or work surface, such as an
+         overhead cabinet
+Informational Note No. 1: See     406.5(E) for installation of receptacles in countertops
+and       406.5(F) for installation of receptacles in work surfaces. See     380.10     for installation of
+multioutlet assemblies.
+Informational Note No. 2: See     Informative   Annex J and ANSI/ICC A117.1-2009,    Standard on
+Accessible and Usable Buildings and Facilities, for additional information.
+
+
+
+Justification:
+There is inadequate justification to prohibit receptacles below the countertop or work surface. It
+is important to remember that the NEC is a minimum code, and its requirements should reflect
+that. Data from the U.S. Consumer Protection Safety Commission was presented as support for
+this change. However, the incidents recorded by the CPSC does not specifically indicate that
+
+===== Page 4 =====
+ receptacles below the countertops of islands and peninsulas  were the cause. There is also no
+ proof that the changes made to the 2023 NEC will be beneficial.
+ The ultimate responsibility during the use of electrical appliances falls upon the user. To that
+ end, appliance manufacturers have taken measures to address the concern. Manufacturers of
+ cooking appliances already include multiple warnings in their instruction manuals. Below are
+ examples from a single instruction manual of one appliance.
+ -  “Close supervision is necessary when any appliance is used by or near children.”
+ -  “Do not let cord hang over edge of table or counter or touch hot surfaces.”
+ -  “Use deep fryer only on a clean, dry, level, stable, and heat -resistant surface, away from
+   countertop edge.”
+ -  “Close supervision is necessary when any appliance is used by or near children. Hot oil can
+   cause serious and painful burns.”
+ Most notably, manufacturers have already addressed the issue through innovations, such as
+ magnetic cords that are designed to detach easily from the appliance if pulled. This design
+ feature would prove effective in all circumstances, including all of the existing receptacles
+ located below the countertop.
+ Surprisingly, the proposed change does not actually prohibit all receptacles from being installed
+ below a countertop on an island or peninsula, and therefore, will have limited effect. There are
+ two reasons for this. First, only receptacles installed “to serve” an island or peninsular countertop
+ or work surface would need to be installed in the areas specified by 210.52(C)(4). Convenience
+ receptacles (at the standard height of 18 inches above finished floor) installed in an island or
+ peninsula do not serve the countertop or work surface, and therefore, would be allowed.
+ Secondly, this provision is located under Part III. of article 210 titled Required Outlets (beginning
+ at Section 210.50). Because this section only applies to required outlets, additional outlets would
+ be allowed below the countertop as usual.
+ The reason given during the panel meeting for the new requirement under 210.52(C)(2) was that
+ it would be too difficult to install a receptacle in an island or peninsula on a slab-on-grade floor
+ after the home was completed. However, over a third of all new single-family homes are built
+ over either a basement or a crawl space (source: https://eyeonhousing.org/2021/08/65-of     -new -
+ single-family   -homes -used-slab      -foundationin-2020/). In these cases, it would be possible to
+ access the island or peninsula from below if a future receptacle were to be installed. Requiring
+ all homes to meet the proposed text is too restrictive. There is also concern about how
+ inspectors may enforce this provision differently. “Provisions shall be provided” is a very open
+ requirement and        can lead to differing guidance from no additional work needed (such as when
+ there is access from below) to providing a powered circuit terminating in an electrical box.
+ Requirements that are open to interpretation can be enforced much more strictly than those that
+ clearly state what is intended—adding unnecessary costs to the homeowner.
+ This is yet another major change to the NEC with possible unintended consequences; adopting it
+ can conceivably result in problems requiring future changes. These constant changes lead to
+ confusion among all users of the code.
+
+
+
+ Cost Impact:
+
+
+ Staff Committee Rationale for Recommendation:
+ The NEC Committee recommended this proposed amendment to be denied    as it does not
+ address the additional safety hazard associated with the documented cases of children being
+ burned by pulling the appliance cord that is plugged into a receptacle located below the counter.
+ The intent of NEC 210.52 (and much of the electrical code) is to provide receptacle outlets
+ located to preclude the need for extension cords.  The code has long required at least one
+ receptacle outlet, (located below the respective countertop), to serve island or peninsular
+
+
+
+===== Page 5 =====
+ countertops.  However, due to numerous instances of burn injuries as a result of spilling hot
+ contents of countertop cooking appliances on children that pulled the appliance cord; the 2023
+ NEC was revised to no longer allow receptacle outlets to be located     below the countertop.
+ An amendment is proposed by the NEC Committee to address concerns with extension cords by
+ requiring at least one receptacle at island and peninsula spaces.
+
+
+
+ Approved in previous 2018        Code Adoption process:                               YES              NO
+
+ ACTION TAKEN:
+ 2024 Code Committee                                                                     Date: 2/11/2025
+     Approved as submitted               Modified and approved              Denied           No action taken
+ Development Advisory Board (DAB) Subcommittee                                           Date:  03/13/2025
+     Approved as submitted               Modified and approved              Denied           No action taken
+ Development Advisory Board (DAB)                                                       Date:  04/22/2025
+     Approved as submitted               Modified and approved              Denied           No action taken
+ Transportation, Infrastructure and Planning Subcommittee                               Date:  05/21/2025
+     Approved as submitted               Modified and approved              Denied           No action taken
+ City Council Action                                                                    Date:  06/18/2025
+     Approved as submitted               Modified and approved              Denied           No action taken
+             Adopted by City of Phoenix Ordinance G-7397 effective August 1, 2025
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===== Page 6 =====
+                    BUILDING CONSTRUCTION CODE CHANGE PROPOSAL
+                          Amendment to 2023 National Electrical Code (NEC)
+                                               Section 210.52(G)(1)
+
+ Submitted by:  National Electrical Code Committee
+
+ ARTICLE 210 Branch Circuits
+
+ 210.52(G)(1) Garages. In each attached garage and in each detached garage with electric
+ power, at least one receptacle outlet shall be installed in each vehicle bay at not less than
+ (18) inches and not more than 1.7 m (5 ½ ft.) above the floor.
+
+
+
+ Justification:
+ 2024 IRC section G2408.2 (305.3) Elevation of ignition source. This section states that
+ equipment and appliances having an ignition source shall be elevated such that the source of the
+ ignition is not less than 18 inches (457 mm) above the floor in hazardous locations and public
+ garages, private garages, repair garages, motor fuel dispensing facilities and parking garages.
+
+ Many private/dwelling garages are utilized to work on vehicles or other equipment that contain
+ volatile fuels or other liquids and gases. Other jurisdictions around the United States have
+ amended this section of NEC article 210.52 to address this situation. The receptacles outlets, if
+ installed below the 18 inches, could possibly become an ignition source which could cause fire,
+ property damage, injury, or death if these volatile liquids or gases are present.
+
+
+ Cost Impact: No cost impact. Receptacle outlets are required in the dwelling garages as per the
+ NEC. All wiring and associated electrical equipment do not change from the NEC standard
+ requirement.
+
+
+ Approved in previous 2018        Code Adoption process:                          YES              NO
+
+ ACTION TAKEN:
+ 2024 Code Committee                                                                Date: 11/21/2024
+     Approved as submitted            Modified and approved             Denied          No action taken
+ Development Advisory Board (DAB) Subcommittee                                      Date: 03/13/2025
+     Approved as submitted            Modified and approved             Denied          No action taken
+ Development Advisory Board (DAB)                                                  Date:  04/22/2025
+     Approved as submitted             Modified and approved            Denied          No action taken
+ Transportation, Infrastructure and Planning Subcommittee                          Date:  05/21/2025
+     Approved as submitted            Modified and approved             Denied          No action taken
+ City Council Action                                                               Date:  06/18/2025
+     Approved as submitted            Modified and approved             Denied          No action taken
+             Adopted by City of Phoenix Ordinance G-7397 effective August 1, 2025
+
+
+===== Page 7 =====
+                    BUILDING CONSTRUCTION CODE CHANGE PROPOSAL
+                          Amendment to 2023 National Electrical Code (NEC)
+                                                  Section 215.25
+
+ Submitted by:  National Electrical Code Committee
+
+ ARTICLE 215 Feeders
+
+ 215.25 Feeder Circuits in Attached Single    -Family Dwellings (Townhouses)  .
+ Dwelling Unit Feeders.Feeder circuits in each dwelling    unit of attached one-family dwellings
+ (townhouses) shall supply only loads within that dwelling unit or loads associated with that
+ dwelling unit.  Feeders serving adjoining townhouse dwelling units shall not pass through, above,
+ below, or be attached to other townhouse dwelling units.  This applies regardless of ownership of
+ the individual townhouse units.
+
+
+
+ Justification:
+ Matching the intent of 210.25 for branch circuits with dwelling units, a new section was added to
+ 215.25 for feeders serving attached one-family dwellings (townhouses).  This new section
+ clarifies that since the townhouse dwelling unit includes all spaces from foundation to roof, that
+ feeders that do not serve   an individual townhouse unit shall not pass through, above, below, or
+ be attached to   that unit.  Townhouses can be sold as individual units. This section ensures that
+ any work requiring access to the feeder does not require entry into another owner’s unit.
+
+
+ Cost Impact: No cost impact. Feeders are not permitted to enter another person’s property.
+
+
+ Approved in previous 2018        Code Adoption process:                          YES             NO
+
+ ACTION TAKEN:
+ 2024 Code Committee                                                                Date: 12/20/2024
+     Approved as submitted            Modified and approved             Denied          No action taken
+ Development Advisory Board (DAB) Subcommittee                                     Date:  03/13/2025
+     Approved as submitted            Modified and approved             Denied          No action taken
+ Development Advisory Board (DAB)                                                  Date:  04/22/2025
+     Approved as submitted            Modified and approved             Denied          No action taken
+ Transportation, Infrastructure and Planning Subcommittee                          Date:  05/21/2025
+     Approved as submitted            Modified and approved             Denied         No action taken
+ City Council Action                                                               Date:  06/18/2025
+     Approved as submitted            Modified and approved             Denied         No action taken
+             Adopted by City of Phoenix Ordinance G-7397 effective August 1, 2025
+
+
+===== Page 8 =====
+                    BUILDING CONSTRUCTION CODE CHANGE PROPOSAL
+                          Amendment to 2023 National Electrical Code (NEC)
+                                               Section 250.118(4)
+
+ Submitted by:  National Electrical Code Committee
+
+ ARTICLE 250 Grounding and Bonding
+
+ 250.118 Types of Equipment Grounding Conductors.                 The equipment grounding conductor
+ run with or enclosing the circuit conductors shall be one or more or a combination of the
+ following:
+
+ (4) Electrical metallic tubing with an additional equipment grounding conductor     .
+
+
+ Justification:
+ This amendment requires that specific wiring methods include an individual equipment-
+ grounding     conductor.  This amendment is more restrictive than the NEC, but provides for a
+ higher degree of equipment grounding safety.  The intent of the amendment is to supplement the
+ low impedance path to ground and to attain reasonable compliance with requirements for the
+ performance of the fault current path.
+
+
+ Cost Impact: Minor increase. Cost due to additional grounding conductor.
+
+
+ Approved in previous 2018        Code Adoption process:                        YES              NO
+
+ ACTION TAKEN:
+ 2024 Code Committee                                                              Date: 11/21/2024
+     Approved as submitted            Modified and approved            Denied         No action taken
+ Development Advisory Board (DAB) Subcommittee                                    Date:  03/13/2025
+     Approved as submitted            Modified and approved            Denied         No action taken
+ Development Advisory Board (DAB)                                                 Date:  04/22/2025
+     Approved as submitted            Modified and approved            Denied         No action taken
+ Transportation, Infrastructure and Planning Subcommittee                         Date:  05/21/2025
+     Approved as submitted            Modified and approved            Denied         No action taken
+ City Council Action                                                              Date:  06/18/2025
+     Approved as submitted            Modified and approved           Denied          No action taken
+            Adopted by City of Phoenix Ordinance G-7397 effective August 1, 2025
+
+
+===== Page 9 =====
+                   BUILDING CONSTRUCTION CODE CHANGE PROPOSAL
+                         Amendment to 2023 National Electrical Code (NEC)
+                                                  Section 310.12
+
+Submitted by:  National Electrical Code Committee
+
+ARTICLE 310 Conductors for General Wiring
+
+310.12 120/240-Volt,         Single-Phase Dwelling Services and Feeders.   For one-family dwellings
+and the individual dwelling units of two-family and multifamily dwellings, service and feeder
+conductors supplied by a single-phase, 120/240-volt system shall be permitted to be sized in
+accordance with 310.12(A) through (D).
+
+For one-family dwellings and the individual dwelling units of two-family and multifamily dwellings,
+single-phase feeder conductors consisting of two ungrounded conductors and the neutral
+conductor from a 208Y/120 volt system shall be permitted to be sized in accordance with
+310.12(A) through (C).
+
+(A) Services.  For a service rated 100 amperes through 400 amperes, the service conductors
+supplying the entire load associated with a one-family dwelling, or the service conductors
+supplying the entire load associated with an individual dwelling unit in a two-family or multifamily
+dwelling, shall be permitted to have an ampacity not less than 83 percent of the service rating. If
+no adjustment or correction factors are required, Table 310.12(A) shall be permitted to be
+applied.
+
+(B) Feeders.  For a feeder rated 100 amperes through 400 amperes, the feeder conductors
+supplying the entire load associated with a one-family dwelling, or the feeder conductors
+supplying the entire load associated with an individual dwelling unit in a two-family or mul   tifamily
+dwelling, shall be permitted to have an ampacity not less than 83 percent of the feeder rating. If
+no adjustment or correction factors are required, Table 310.12(A) shall be permitted to be
+applied.
+
+(C) Feeder Ampacities.  In no case shall a feeder for an individual dwelling unit be required to
+have an ampacity greater than that specified in 310.12(A) or (B).
+
+(D) Grounded Conductors.Grounded conductors shall be permitted to be sized smaller than
+the ungrounded conductors, if the requirements of 220.61 and 230.42 for service conductors or
+the requirements of 215.2 and 220.61 for feeder conductors are met.
+
+Where correction or adjustment factors are required by 310.15(B) or (C), they shall be permitted
+to be applied to the ampacity associated with the temperature rating of the conductor.
+
+Informational Note No. 1: See 240.6(A) for standard ampere ratings for fuses and inverse time
+circuit breakers.
+
+Informational Note No. 2: See Informative Annex D, Example D7.
+
+
+
+
+===== Page 10 =====
+ Justification:
+ Conductor ampacity is required by the code to be selected per the ampacity tables and adjusted
+ for conditions that cause heating of the conductor.  The ampacity of a conductor is affected by
+ heat, including both the heat generated by current flowing in the conductor, and other adjacent
+ conductors, and from the ambient temperature surrounding the conductors.
+
+ The ampacities in Table 310.16 are based on three current-carrying conductors in a
+ raceway or cable and an ambient temperature of 86°F.
+
+ The code requires that if there are more than three current-carrying conductors, that the
+ allowable ampacity be adjusted by the factors listed in Table 310.15(C)(1  ).  This is due to the
+ additional heating effects of having more current-carrying conductors in the same raceway or
+ cable.  Similarly, the code requires the ampacity to be adjusted if the ambient temperature is
+ greater than the 86° F that Table 310.16 is based upon.  The ampacity must be adjusted
+ by the factors listed in Table 310.15(B)(1)(1  ).  This is because the higher ambient temperature
+ reduces the ampacity of the conductor as well as hinders the dissipation of heat from the
+ conductor.
+
+ The 2017 NEC added 208Y/120-volt single-phase 3-wire systems to Section 310.15(B)(7).  This
+ presented     an unsafe installation.
+
+ Consider the electrical characteristics of a single-phase 120/240V system, which has two
+ ungrounded conductors and a neutral conductor.  The ungrounded conductors are 180 degrees
+ out of phase with each other.  Therefore, for a balanced load, the neutral current would be zero
+ and for an unbalanced load the neutral current will be a small value based on the unbalance.
+ This system essentially represents two current-carrying conductors since the neutral current is
+ negligible.
+
+ However, in a 208Y/120-volt single-phase  system, with two ungrounded conductors and a
+ neutral conductor, the ungrounded conductors are 120 degrees out of phase with each other.
+ This results in neutral current that is the same as the phase current for a balanced load and
+ almost as large as the phase current for an unbalanced load.  Therefore, this system represents
+ three current-carrying conductors.
+
+ Prior to the 2017 edition, NEC 310.15(B)(7), (now 2023 NEC 310.12), has historically only been
+ applicable to 120/240-volt single phase dwelling services and feeders.  This is due to considering
+ only two current-carrying conductors and allowing an increase in ampacity in those conductors
+ due to less heat being generated by the conductors.  However, since 208V single-phase
+ systems must be considered three current-carrying conductors, the ampacities in Table 310.16
+ must be used and 310.12   should not apply.  Allowing the use of this ampacity adjustment on
+ 208Y/120-volt systems will result in conductors being undersized based on the load and the
+ overcurrent device intended to protect them.  This will be an unsafe installation  that could result
+ in fire.
+
+ This amendment removes 208Y/120-volt systems from the code section.  NEC 310.12          is
+ only applicable to 120/240V single-phase dwellings.
+
+
+
+ Cost Impact: Minor increase.
+
+
+
+
+
+===== Page 11 =====
+ Approved in previous 2018 Code Adoption process:                                       YES                  NO
+
+ ACTION TAKEN:
+ 2024 Code Committee                                                                      Date: 11/21/2024
+     Approved as submitted               Modified and approved               Denied           No action taken
+ Development Advisory Board (DAB) Subcommittee                                           Date:  03/13/2025
+     Approved as submitted               Modified and approved               Denied           No action taken
+ Development Advisory Board (DAB)                                                        Date:  04/22/2025
+     Approved as submitted               Modified and approved               Denied           No action taken
+ Transportation, Infrastructure and Planning Subcommittee                                Date:  05/21/2025
+     Approved as submitted               Modified and approved               Denied           No action taken
+ City Council Action                                                                     Date:  06/18/2025
+     Approved as submitted               Modified and approved               Denied           No action taken
+             Adopted by City of Phoenix Ordinance G-7397 effective August 1, 2025
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===== Page 12 =====
+                   BUILDING CONSTRUCTION CODE CHANGE PROPOSAL
+                         Amendment to 2023 National Electrical Code (NEC)
+                                      Section 312.5(C) Exception No. 2
+
+Submitted by:  National Electrical Code Committee
+
+ARTICLE 312       Cabinets, Cutout Boxes, and Meter Socket Enclosures
+
+312.5(C   ) Cables.
+
+Exception No. 2: For one-        and two-family dwellings, cables with entirely nonmetallic sheaths
+shall be permitted to enter the back of a surface-mounted enclosure through one or more
+nonflexible raceways not more than 3 inches in diameter, and not less than 3 inches and not
+more than 24 inches in length, provided all of the following conditions are met:
+    1.   Each cable is fastened within 8 inches, measured along the sheath of the outer end of
+         the raceway.
+    2.   The raceway extends directly into an enclosed wall space.
+    3.   A fitting is provided on each end of the raceway to protect the cable(s) from abrasion.
+    4.   The raceway is sealed or plugged using approved means so as to   prevent access to the
+         enclosure through the raceway.
+    5.   The cable sheath is continuous through the raceway and extends into the enclosure
+         beyond the fitting not less than 2 inches.
+    6.   The raceway, if greater than 12 inches, is fastened at its outer end in accordance with the
+         applicable article.
+    7.   The raceway shall be permitted to be filled to 60 percent of its total cross-sectional area,
+         and 310.15(B)(3)(a) adjustment factors need not apply to this condition.
+
+Exception No. 2  3: Single conductors and multiconductor cables shall be permitted to enter
+enclosures in accordance with 392.46(A) or (B).
+
+
+Justification:
+The intent of NEC 312.5(C) is to secure the cables and protect them from abrasion.
+The method described in the code is to secure each cable separately to the panel enclosure.
+The exception to the code allows multiple NM cables to be installed in a conduit sleeve
+connected to the top of the panel and stubbed into the ceiling space of an interior room (such as
+an unfinished basement).  Securement happens within 12 inches of the point the NM cables
+emerge from the other end of the sleeve.
+
+The standard practice in the Phoenix area of installing a short conduit sleeve from the back of an
+exterior mounted panel enclosure into the wall cavity of one-         or two-family dwellings and
+installing multiple type NM cables through the sleeve complies with   the intent of NEC 312.5(C)
+and its exception.  The cables are required to be secured within 8 inches of emerging from the
+sleeve in the wall cavity, the sleeve is required to be sealed on the outside and inside, the cable
+sheath is continuous within the raceway and for a minimum of 2 inches upon entering the
+enclosure, and the sleeve is required to have fittings installed to prevent abrasion of the cables.
+
+
+Cost Impact: No cost impact.
+
+===== Page 13 =====
+ Approved in previous 2018        Code Adoption process:                                YES               NO
+
+ ACTION TAKEN:
+ 2024 Code Committee                                                                      Date: 12/16/2024
+      Approved as submitted              Modified and approved               Denied           No action taken
+ Development Advisory Board (DAB) Subcommittee                                            Date:  03/13/2025
+      Approved as submitted              Modified and approved               Denied           No action taken
+ Development Advisory Board (DAB)                                                         Date:  04/22/2025
+      Approved as submitted              Modified and approved               Denied           No action taken
+ Transportation, Infrastructure and Planning Subcommittee                                Date:  05/21/2025
+      Approved as submitted              Modified and approved               Denied           No action taken
+ City Council Action                                                                      Date:  06/18/2025
+      Approved as submitted              Modified and approved               Denied           No action taken
+              Adopted by City of Phoenix Ordinance G-7397 effective August 1, 2025
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===== Page 14 =====
+                    BUILDING CONSTRUCTION CODE CHANGE PROPOSAL
+                          Amendment to 2023 National Electrical Code (NEC)
+                                                   Section 334.10
+
+Submitted by:  National Electrical Code Committee
+
+ARTICLE 334 Nonmetallic-Sheathed Cable :  Types NM and NMC
+
+Part II. Installation
+
+334.10 Uses Permitted.  Type NM and Type NMC cables shall be permitted to be used in the
+following, except as prohibited in 334.12:
+
+    (1) One-      and two-family dwellings and their attached or detached garages, and their storage
+         buildings.
+
+    (2) Dwelling units in mMulti-family dwellings  and their detached garages permitted     to be of
+         Types III, IV, and V construction.
+
+    (3) Other structures permitted to be of Types III, IV, and V construction.  Cables shall be
+         concealed within walls, floors, or ceilings that provide a thermal barrier of material that
+         has at least a 15-minute finish rating as identified in listings of fire-rated ass
+
+    (4)
+    (3) Cable   trays in dwellings in accordance with 334.10(1) or in dwelling         units, in accordance
+         with 334.10(2), structures permitted     to be Types III, IV, or V where the cables are
+         identified for the use.
+
+    (5)
+    (4) Dwelling units in   Types I and II construction     where   installed within raceways permitted to
+         be installed in Types I and II construction.
+
+
+Justification:
+The use of Nonmetallic-Sheathed cable in commercial buildings has not typically been permitted
+in the Phoenix metropolitan area as well as many surrounding cities. Nonmetallic-Sheathed
+cable (NM) is traditionally used in dwelling units, whereas a stouter wiring method enclosed
+within raceways is traditionally used in commercial buildings.
+
+The code restrictions of the NEC, with respect to allowing type NM cable in a commercial
+building, would tend to make the installation impractical in most cases, (i.e. NM cable would not
+be allowed underground or in drop ceilings), and at best the resulting installation  would likely be
+a mixture of several different wiring methods, (each with their own requirements). This type of
+mixture would actually tend to make the installation more complex, creating a larger hurdle to
+providing a code compliant installation.
+
+Concerns also exist that Nonmetallic-Sheathed Cable would be more subject to damage, such
+as nicks in the insulation, etc. The integrity of the insulation is critical to the safety of the
+electrical installation. In dwelling units, the NEC requires AFCI (Arc-Fault Circuit Interrupter)
+
+===== Page 15 =====
+ protection for most circuits since a nick in the insulation, such as from a nail for hanging a
+ picture, can cause an arcing fault which may not be cleared by a normal circuit breaker before a
+ fire starts.
+
+ The AFCI breaker was developed specifically to detect and clear arcing faults; however, the NEC
+ does not require AFCI protection in most non-dwelling occupancies.
+
+ It is therefore the general consensus of the electrical section, and supported in general by the
+ Electrical Focus Group, (made up of members of the local electrical engineering community and
+ others members of the industry), that the use of Nonmetallic-Sheathed Cable should be
+ restricted to dwellings, as described within this document, to provide a higher degree of electrical
+ safety in other occupancies.
+
+
+
+ Cost Impact:
+ Additional cost due to the cost difference between an installation consisting of Nonmetallic-
+ Sheathed Cable and an installation  consisting of another wiring method, depending on the wiring
+ method chosen.
+
+
+ Approved in previous 2018        Code Adoption process:                               YES              NO
+
+ ACTION TAKEN:
+ 2024 Code Committee                                                                     Date: 12/16/2024
+     Approved as submitted              Modified and approved               Denied           No action taken
+ Development Advisory Board (DAB) Subcommittee                                          Date:  03/13/2025
+     Approved as submitted              Modified and approved               Denied           No action taken
+ Development Advisory Board (DAB)                                                       Date:  04/22/2025
+     Approved as submitted               Modified and approved              Denied           No action taken
+ Transportation, Infrastructure and Planning Subcommittee                               Date:  05/21/2025
+     Approved as submitted              Modified and approved               Denied           No action taken
+ City Council Action                                                                    Date:  06/18/2025
+     Approved as submitted              Modified and approved               Denied           No action taken
+             Adopted by City of Phoenix Ordinance G-7397 effective August 1, 2025
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===== Page 16 =====
+                    BUILDING CONSTRUCTION CODE CHANGE PROPOSAL
+                          Amendment to 2023 National Electrical Code (NEC)
+                                                Section 620.6(B)
+
+ Submitted by:  National Electrical Code Committee
+
+ ARTICLE 620 Elevators, Dumbwaiters, Escalators, Moving Walks, Platform Lifts, and
+ Stairway Chairlifts
+
+ 620.6   Ground-Fault Circuit          -Interrupter Protection for Personnel.
+
+ (B)  Machine Rooms, Control Spaces, Machinery Spaces, Control Rooms, Elevator
+ Disconnect Rooms or Closets,  and Truss Interiors.  All 125-volt, single-phase, 15-                  and 20-
+ ampere receptacles installed in machine rooms, control spaces, machinery spaces, control
+ rooms, elevator disconnect rooms or closets, and truss interiors shall have listed Class A
+ ground-fault circuit         -interrupter protection for personnel.
+
+
+
+ Justification:
+ A new definition has been added for Elevator Disconnect Room or Closet to define the space
+ that is required to contain the elevator disconnects, overcurrent devices, and related lighting and
+ receptacles when the elevator controller is located in the hoistway.  This amendment adds
+ references to the elevator disconnect room or closet.
+
+
+ Cost Impact: Minor increase.
+
+
+ Approved in previous 2018        Code Adoption process:                         YES             NO
+
+ ACTION TAKEN:
+ 2024 Code Committee                                                               Date: 01/10/2025
+     Approved as submitted            Modified and approved            Denied          No action taken
+ Development Advisory Board (DAB) Subcommittee                                     Date:  03/13/2025
+     Approved as submitted            Modified and approved            Denied          No action taken
+ Development Advisory Board (DAB)                                                 Date:  04/22/2025
+     Approved as submitted            Modified and approved            Denied          No action taken
+ Transportation, Infrastructure and Planning Subcommittee                         Date:  05/21/2025
+     Approved as submitted            Modified and approved            Denied         No action taken
+ City Council Action                                                              Date:  06/18/2025
+     Approved as submitted            Modified and approved            Denied         No action taken
+            Adopted by City of Phoenix Ordinance G-7397 effective August 1, 2025
+
+
+===== Page 17 =====
+                   BUILDING CONSTRUCTION CODE CHANGE PROPOSAL
+                         Amendment to 2023 National Electrical Code (NEC)
+                                                  Section 620.22
+
+Submitted by:  National Electrical Code Committee
+
+ARTICLE 620 Elevators, Dumbwaiters, Escalators, Moving Walks, Platform Lifts, and
+Stairway Chairlifts
+
+620.22     Branch Circuits for Car Lighting, Receptacle(s), Ventilation, Heating, and Air-
+Conditioning.
+
+(A) Car Light Receptacles, Auxiliary Lighting, and Ventilation.
+A separate branch circuit shall supply the car lights. The car lights branch circuit shall be
+permitted to supply receptacles (alarm devices, emergency responder radio coverage (ERRC),
+car ventilation purification systems, monitoring devices not part of the control system), auxiliary
+lighting power source, car emergency signaling, communications devices (including their
+associated charging circuits), and ventilation on each elevator car or inside the operation
+controller. The overcurrent device protecting the branch circuit shall be located in the elevator
+machine room, control room, machinery space, or control space. Where there is no machine
+room, control room, machinery space, or control space outside the hoistway, the overcurrent
+device shall be located outside the hoistway in an elevator disconnect room or closet and
+accessible to qualified persons only.
+
+Required lighting shall not be connected to the load side of a ground-fault circuit interrupter.
+
+(B) Air-Conditioning and Heating Source.
+
+A separate branch circuit shall supply the air-conditioning and heating units on each elevator car.
+The overcurrent device protecting the branch circuit shall be located in the elevator machine
+room, control room, machinery space, or control space. Where there is no machine room, control
+room, machinery space, or control space outside the hoistway, the overcurrent device shall be
+located outside the hoistway in an elevator disconnect room or closet  and accessible only to
+qualified persons.
+
+
+
+Justification:
+A new definition has been added for Elevator Disconnect Room or Closet to define the space
+that is required to contain the elevator disconnects, overcurrent devices, and related lighting and
+receptacles when the elevator controller is located in the hoistway.  This amendment adds
+references to the elevator disconnect room or closet.
+
+
+Cost Impact: Minor increase.
+
+
+Approved in previous 2018        Code Adoption process:                           YES              NO
+
+
+===== Page 18 =====
+ ACTION TAKEN:
+ 2024 Code Committee                                                                      Date: 01/10/2025
+      Approved as submitted              Modified and approved               Denied           No action taken
+ Development Advisory Board (DAB) Subcommittee                                            Date:  03/13/2025
+      Approved as submitted              Modified and approved               Denied           No action taken
+ Development Advisory Board (DAB)                                                         Date:  04/22/2025
+      Approved as submitted              Modified and approved               Denied           No action taken
+ Transportation, Infrastructure and Planning Subcommittee                                Date:  05/21/2025
+      Approved as submitted              Modified and approved               Denied           No action taken
+ City Council Action                                                                      Date:  06/18/2025
+      Approved as submitted              Modified and approved               Denied           No action taken
+              Adopted by City of Phoenix Ordinance G-7397 effective August 1, 2025
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===== Page 19 =====
+                   BUILDING CONSTRUCTION CODE CHANGE PROPOSAL
+                         Amendment to 2023 National Electrical Code (NEC)
+                                                 Section 620.23
+
+Submitted by:  National Electrical Code Committee
+
+ARTICLE 620 Elevators, Dumbwaiters, Escalators, Moving Walks, Platform Lifts, and
+Stairway Chairlifts
+
+620.23     Branch Circuits for Machine Room,  Control Room/Machinery Space,  Control
+Space, Elevator Disconnect Room or Closet,  or Truss Interior Lighting and Receptacle(s).
+
+(A)  Separate Branch Circuits.
+The branch   circuits supplying the lighting for machine rooms, control rooms, machinery
+spaces, control spaces, e levator disconnect room s or closets, or truss interiors, where
+required, shall be separate from the branch   circuits supplying the receptacles in those places.
+These circuits shall supply no other loads.
+
+Required lighting shall not be connected to the load side of a ground-fault circuit interrupter.
+
+(B)  Lighting Switch.
+The machine room, control  room/machinery space, or control space,   or elevator disconnect room
+or closet lighting switch shall be located at the point of entry.
+
+(C)  Duplex Receptacle.
+At least one 125-volt, single-phase, 15-                  or 20-ampere duplex receptacle shall be provided in
+each machine room, control room and machinery space, control space, elevator disconnect
+room or closet, and in truss interiors where required.
+
+
+
+Justification:
+A new definition has been added for Elevator Disconnect Room or Closet to define the space
+that is required to contain the elevator disconnects, overcurrent devices, and related lighting and
+receptacles when the elevator controller is located in the hoistway.  This amendment adds
+references to the elevator disconnect room or closet.
+
+
+Cost Impact: Minor increase.
+
+
+Approved in previous 2018        Code Adoption process:                          YES             NO
+
+ACTION TAKEN:
+2024 Code Committee                                                                Date: 01/10/2025
+    Approved as submitted            Modified and approved             Denied          No action taken
+Development Advisory Board (DAB) Subcommittee                                     Date:  03/13/2025
+    Approved as submitted            Modified and approved             Denied          No action taken
+Development Advisory Board (DAB)                                                  Date:  04/22/2025
+
+===== Page 20 =====
+      Approved as submitted                  Modified and approved                  Denied            No action taken
+ Transportation, Infrastructure and Planning Subcommittee                                        Date:  05/21/2025
+      Approved as submitted                 Modified and approved                   Denied            No action taken
+ City Council Action                                                                             Date:  06/18/2025
+      Approved as submitted                 Modified and approved                  Denied             No action taken
+               Adopted by City of Phoenix Ordinance G-7397 effective August 1, 2025
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===== Page 21 =====
+                     BUILDING CONSTRUCTION CODE CHANGE PROPOSAL
+                          Amendment to 2023 National Electrical Code (NEC)
+                                                Section 620.25(B)
+
+ Submitted by:  National Electrical Code Committee
+
+ ARTICLE 620 Elevators, Dumbwaiters, Escalators, Moving Walks, Platform Lifts, and
+ Stairway Chairlifts
+
+ 620.25     Branch Circuits for Other Utilization Equipment.
+
+ (B) Overcurrent Devices.
+ The overcurrent devices protecting the branch circuit(s) shall be located in the elevator machine
+ room, control room, machinery space, or control space. Where there is no machine room, control
+ room, machinery space, or control space outside the hoistway, or for escalator and moving walk
+ applications, the overcurrent device shall be located outside the hoistway in an elevator
+ disconnect room or closet and accessible only to qualified persons.
+
+
+
+ Justification:
+ A new definition has been added for Elevator Disconnect Room or Closet to define the space
+ that is required to contain the elevator disconnects, overcurrent devices, and related lighting and
+ receptacles when the elevator controller is located in the hoistway.  This amendment adds
+ references to the elevator disconnect room or closet.
+
+
+ Cost Impact: Minor increase.
+
+
+ Approved in previous 201       8 Code Adoption process:                         YES                NO
+
+ ACTION TAKEN:
+ 2024 Code Committee                                                               Date: 01/10/2025
+     Approved as submitted            Modified and approved            Denied          No action taken
+ Development Advisory Board (DAB) Subcommittee                                     Date:  03/13/2025
+     Approved as submitted            Modified and approved            Denied          No action taken
+ Development Advisory Board (DAB)                                                 Date:  04/22/2025
+     Approved as submitted            Modified and approved            Denied          No action taken
+ Transportation, Infrastructure and Planning Subcommittee                         Date:  05/21/2025
+     Approved as submitted            Modified and approved            Denied         No action taken
+ City Council Action                                                              Date:  06/18/2025
+     Approved as submitted            Modified and approved            Denied         No action taken
+            Adopted by City of Phoenix Ordinance G-7397 effective August 1, 2025
+
+
+===== Page 22 =====
+                     BUILDING CONSTRUCTION CODE CHANGE PROPOSAL
+                         Amendment to 2023 National Electrical Code (NEC)
+                                              Section 620.51(C)(1)
+
+Submitted by:  National Electrical Code Committee
+
+ARTICLE 620 Elevators, Dumbwaiters, Escalators, Moving Walks, Platform Lifts, and
+Stairway Chairlifts
+
+620.51(C) Location.
+
+The disconnecting means shall be located where it is readily accessible to qualified persons.
+
+(1) On Elevators Without Generator Field Control.
+On elevators without generator field control, the disconnecting means shall be located within
+sight of the motor controller. Where the motor controller is located in the elevator hoistway, the
+disconnecting means required by 620.51(A) shall be located outside the hoistway in an elevator
+disconnect room or closet and accessible to qualified persons only. An additional fused or non-
+fused, enclosed, externally operable motor-circuit switch that is lockable open in accordance with
+110.25 to disconnect all ungrounded main power-supply conductors shall be located within sight
+of the motor controller. The additional switch shall be a listed device and shall comply with
+620.91(C).
+
+Driving machines or motion and operation controllers not within sight of the disconnecting means
+shall be provided with a manually operated switch installed in the control circuit to prevent
+starting. The manually operated switch(es) shall be installed adjacent to this equipment.
+
+Where the driving machine of an electric elevator or the hydraulic machine of a hydraulic
+elevator is located in a remote machine room or remote machinery space, a single means for
+disconnecting all ungrounded main power-supply conductors shall be provided       and be lockable
+open in accordance with 110.25.
+
+
+
+Justification:
+A new definition has been added for Elevator Disconnect Room or Closet to define the space
+that is required to contain the elevator disconnects, overcurrent devices, and related lighting and
+receptacles when the elevator controller is located in the hoistway.  This amendment adds
+references to the elevator disconnect room or closet.
+
+
+Cost Impact: Minor increase.
+
+
+Approved in previous 201       8 Code Adoption process:                           YES                 NO
+
+ACTION TAKEN:
+2024 Code Committee                                                                 Date: 01/10/2025
+    Approved as submitted            Modified and approved              Denied          No action taken
+
+===== Page 23 =====
+ Development Advisory Board (DAB) Subcommittee                                              Date:  03/13/2025
+     Approved as submitted                Modified and approved                Denied           No action taken
+ Development Advisory Board (DAB)                                                           Date:  04/22/2025
+     Approved as submitted                Modified and approved                Denied           No action taken
+ Transportation, Infrastructure and Planning Subcommittee                                   Date: 05/21/2025
+     Approved as submitted                Modified and approved                Denied           No action taken
+ City Council Action                                                                        Date:  06/18/2025
+     Approved as submitted                Modified and approved                Denied           No action taken
+              Adopted by City of Phoenix Ordinance G-7397 effective August 1, 2025
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

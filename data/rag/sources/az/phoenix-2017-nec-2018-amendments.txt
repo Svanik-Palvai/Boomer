@@ -1,0 +1,418 @@
+
+
+===== Page 1 =====
+                              PHOENIX BUILDING CONSTRUCTION CODE
+                          Amendment to 2017 National Electrical Code (NEC)
+                                              Section 210.52(G)(1)
+
+ Submitted by:  2018   National Electrical Code Committee
+
+ ARTICLE 210 Branch Circuits
+
+ 210.52(G)(1) Garages. In each attached garage and in each detached garage with electric
+ power, at least one receptacle outlet shall be installed in each vehicle bay and       at not less than
+ (18) inches and not more than 1.7 m (5 ½ ft.) above the floor.
+
+
+ Reasons:
+ 2018         IRC section G2408.2 (305.3) Elevation of ignition source. This section states that
+ equipment and appliances having an ignition source shall be elevated such that the source of the
+ ignition is not less than 18 inches (457 mm) above the floor in hazardous locations and public
+ garages, private garages, repair garages, motor fuel dispensing facilities and parking garages.
+
+ Many private/dwelling garages are utilized to work on vehicles or other equipment that contain
+ volatile fuels or other liquids and gases.  Other jurisdictions around the United States have
+ amended this section of NEC article 210.52 to address this situation.   The receptacles outlets, if
+ installed below the 18 inches, could possibly become an ignition source which could cause fire,
+ property damage, injury, or death if these volatile liquids or gases are present.
+
+
+ Cost Impact:  No cost impact.
+ Receptacle outlets are required in the dwelling garages as per the NEC.  All wiring and
+ associated electrical equipment do not change from the NEC standard requirement.
+
+
+ Approved in previous 2012       Code Adoption process:                         YES            NO
+
+ ACTION TAKEN:
+ 2018 Code Committee                                                                Date:  December 14, 2017
+     Approved as submitted            Modified and approved             Denied          No action taken
+ Development Advisory Board (DAB) Technical Subcommittee                           Date:  January 11, 2018
+     Approved as submitted            Modified and approved             Denied          No action taken
+ Development Advisory Board (DAB)                                                  Date:  January 18, 2018
+     Approved as submitted            Modified and approved             Denied          No action taken
+ Downtown, Aviation, Economy, and Innovation Subcommittee                          Date:  May 2, 2018
+     Approved as submitted            Modified and approved             Denied         No action taken
+ City Council Action                                                               Date:  June 6, 2018
+     Approved as submitted            Modified and approved             Denied         No action taken
+               Adopted by City of Phoenix Ordinance G-6463 effective July 6, 2018
+
+
+===== Page 2 =====
+                            PHOENIX BUILDING CONSTRUCTION    CODE
+                         Amendment to 2017 National Electrical Code (NEC)
+                                             Section 210.8(A)(11)
+
+Submitted by:  2018         National Electrical Code Committee
+ARTICLE 210 Branch Circuits
+210.8 Ground-Fault Circuit-Interrupter Protection for Personnel.
+
+(A)  Dwelling Units.  All 125-      volt, single-phase, 15- and 20-     ampere receptacles installed in the
+locations specified in 210.8(A)(1) through (1011)         shall have ground-fault circuit interrupter
+protection for personnel.
+
+(11)      Other indoor damp and          wet locations
+
+
+Reasons:
+Added safety in damp locations indoors.
+NEC Article 100 defines Damp Location as follows:  Locations protected from weather and not
+subject to saturation with water or other liquids but subject to moderate degrees of moisture.
+Examples of such locations include partially protected locations under canopies, marquees,
+roofed open porches, and like locations, and interior locations subject to moderate degrees of
+moisture, such as some basements, some barns, and some cold-  storage warehouses.
+Additionally, NEC Section 406.9(A) requires that a receptacle located in any damp location is
+installed in a weatherproof enclosure.
+Since receptacles located in an outdoor damp location require GFCI protection, logically,
+receptacles located in an indoor damp location should also be provided with the same GFCI
+protection.
+
+
+Cost Impact:  Minimal cost impact.
+
+
+Approved in previous 201       2 Code Adoption process:                        YES            NO
+This amendment was approved in previous code adoptions.  It has subsequently been evaluated
+by the committee for applicability to the 2017 NEC and carried forward as presented.
+
+ACTION TAKEN:
+2018 Code Committee                                                               Date:  December 14, 2017
+    Approved as submitted            Modified and approved             Denied          No action taken
+Development Advisory Board (DAB) Technical Subcommittee                           Date:  January 11, 2018
+    Approved as submitted            Modified and approved            Denied          No action taken
+Development Advisory Board (DAB)                                                  Date:  January 18, 2018
+    Approved as submitted            Modified and approved            Denied          No action taken
+Downtown, Aviation, Economy, and Innovation Subcommittee                          Date:  May 2, 2018
+    Approved as submitted            Modified and approved            Denied          No action taken
+City Council Action                                                               Date:  June 6, 2018
+    Approved as submitted            Modified and approved            Denied          No action taken
+             Adopted by City of Phoenix Ordinance G-6463 effective July 6, 2018
+
+===== Page 3 =====
+                              PHOENIX BUILDING CONSTRUCTION CODE
+                          Amendment to 2017 National Electrical Code (NEC)
+                                               Section 210.8(B)(6)
+
+ Submitted by:  2018 National Electrical Code Committee
+ ARTICLE 210 Branch Circuits
+ 210.8 Ground-Fault Circuit-Interrupter Protection for Personnel.
+ (B)  Other Than Dwelling Units.  All single-phase receptacles rated 150 volts to ground         or less,
+ 50 amperes or less and three-    phase receptacles rated 150 volts to ground or less, 100 amperes
+ or less installed in the following locations shall have ground-fault circuit-interrupter protection for
+ personnel.
+
+ (6)  Indoor damp and        wet locations
+
+
+ Reasons:
+ Added safety in damp locations indoors.
+ NEC Article 100 defines Damp Location as follows:  Locations protected from weather and not
+ subject to saturation with water or other liquids but subject to moderate degrees of moisture.
+ Examples of such locations include partially protected locations under canopies, marquees,
+ roofed open porches, and like locations, and interior locations subject to moderate degrees of
+ moisture, such as some basements, some barns, and some cold-  storage warehouses.
+ Additionally, NEC Section 406.9(A) requires that a receptacle located in any damp location is
+ installed in a weatherproof enclosure.
+ Since receptacles located in an outdoor damp location require GFCI protection, logically,
+ receptacles located in an indoor damp location should also be provided with the same GFCI
+ protection.
+
+
+ Cost Impact:  Minimal cost impact.
+
+
+ Approved in previous 2012       Code Adoption process:                         YES            NO
+ This amendment was approved in previous code adoptions.  It has subsequently been evaluated
+ by the committee for applicability to the 2017          NEC and carried forward as presented.
+
+ ACTION TAKEN:
+ 2018 Code Committee                                                                Date:  December 14, 2017
+     Approved as submitted             Modified and approved            Denied          No action taken
+ Development Advisory Board (DAB) Technical Subcommittee                            Date:  January 11, 2018
+     Approved as submitted             Modified and approved            Denied          No action taken
+ Development Advisory Board (DAB)                                                   Date:  January 18, 2018
+     Approved as submitted             Modified and approved            Denied          No action taken
+ Downtown, Aviation, Economy, and Innovation Subcommittee                           Date:  May 2, 2018
+     Approved as submitted             Modified and approved            Denied          No action taken
+ City Council Formal                                                                Date:  June 6, 2018
+     Approved as submitted             Modified and approved            Denied          No action taken
+              Adopted by City of Phoenix Ordinance G-6463 effective July 6, 2018
+
+
+===== Page 4 =====
+                             PHOENIX BUILDING CONSTRUCTION    CODE
+                          Amendment to 2017 National Electrical Code (NEC)
+                                               Section 250.118(4)
+
+ Submitted by:  2018   National Electrical Code       Committee
+
+ ARTICLE 250        Grounding and Bonding
+
+ 250.118 Types of E quipment Grounding Conductors. The equipment grounding conductor
+ run with or enclosing the circuit conductors shall be one or more or a combination of the
+ following:
+
+ (4)  Electrical metallic tubing with an additional equipment grounding conductor .
+
+
+ Reasons:
+ This amendment requires that specific wiring methods include an individual equipment -
+ grounding conductor.  This amendment is more restrictive than the NEC, but provides for a
+ higher degree of equipment grounding safety.  The intent of the amendment is to supplement the
+ low impedance path to ground and to attain reasonable compliance with requirements for the
+ performance of the fault current path.
+
+
+ Cost Impact:  Minimal cost impact.
+ Cost due to additional grounding conductor.
+
+
+ Approved in previous 2012 Code Adoption process:                              YES            NO
+
+ This amendment was approved in previous code adoptions.  It has subsequently been evaluated
+ by the committee for applicability to the 2017        NEC and carried forward as presented.
+
+ ACTION TAKEN:
+ 2018 Code Committee                                                              Date:  December 14, 2017
+     Approved as submitted            Modified and approved            Denied         No action taken
+ Development Advisory Board (DAB) Technical Subcommittee                          Date:  January 11, 2018
+     Approved as submitted            Modified and approved            Denied         No action taken
+ Development Advisory Board (DAB)                                                 Date:  January 18, 2018
+     Approved as submitted            Modified and approved            Denied         No action taken
+ Downtown, Aviation, Economy, and Innovation Subcommittee                         Date:  May 2, 2018
+     Approved as submitted            Modified and approved            Denied         No action taken
+ City Council Action                                                              Date:  June 6, 2018
+     Approved as submitted            Modified and approved           Denied          No action taken
+              Adopted by City of Phoenix Ordinance G-6463 effective July 6, 2018
+
+
+===== Page 5 =====
+                              PHOENIX BUILDING CONSTRUCTION    CODE
+                           Amendment to 2017 National Electrical Code (NEC)
+                                                   Section 334.10
+
+Submitted by:  2018         National Electrical Code Committee
+
+ARTICLE 334        Nonmetallic-Sheathed Cable; Types NM, NMC and NMS
+
+Part II. Installation
+
+334.10 Uses P ermitted.
+Type NM, Type NMC, and Type NMS cables shall be permitted to be used in the following,
+except as prohibited in 334.12:
+
+(1)   One-     and two-  family dwellings and their attached or detached garages, and their
+     storage buildings.
+
+(2)   Multi-family dwellings permitted to be of Types III, IV, and V construction  .
+
+(3)   Other dwelling unit accessory buildings and structures permitted to be of Types III,
+     IV, and V construction.  Cables shall be concealed within walls, floors, or ceilings that
+     provide a thermal barrier of material that has at least a 15-     minute finish rating as identified in
+     listings of fire-rated assemblies.  in accordance with 334.10(1) and (2).
+
+(4)   Cable trays in dwelling    structures, in accordance with 334.10(1) and (2), permitted to
+     be Types III, IV, or V where the cables are identified for the use.
+
+(5)   Types I and II construction,     in accordance with 334.10(1) and (2), where installed
+     within raceways permitted to be installed in Types I and II construction.
+
+
+Reasons:
+The use of Nonmetallic-Sheathed cable in commercial buildings has not typically been permitted
+in the Phoenix metropolitan area as well as many surrounding cities.  Nonmetallic-Sheathed
+cable (NM) is traditionally used in dwelling units, whereas a stouter wiring method enclosed
+within raceways is traditionally used in commercial buildings.
+
+The code restrictions of the NEC, with respect to allowing type NM cable in a commercial
+building, would tend to make the installation impractical in most cases, (i.e. NM cable would not
+be allowed underground or in drop ceilings), and at best the resulting installation would likely be
+a mixture of several different wiring methods, (each with their own requirements).  This type of
+mixture would actually tend to make the installation more complex, creating a larger hurdle to
+providing a code compliant installation.
+
+Concerns also exist that Nonmetallic-Sheathed Cable would be more subject to damage, such
+as nicks in the insulation, etc.  The integrity of the insulation is critical to the   safety of the
+electrical installation.  In dwelling units, the NEC requires AFCI (Arc-Fault Circuit Interrupter)
+protection for most circuits since a nick in the insulation, such as from a nail for hanging a
+
+===== Page 6 =====
+ picture, can cause an arcing fault which may not be cleared by a normal circuit breaker before a
+ fire starts.
+
+ The AFCI breaker was developed specifically to detect and clear arcing faults; however, the NEC
+ does not require AFCI protection in most non-        dwelling occupancies.
+
+ It is therefore the general consensus of the electrical section, and supported in general by the
+ Electrical Focus Group, (made up of members of the local electrical engineering community and
+ others members of the industry), that the use of Nonmetallic-Sheathed Cable should be
+ restricted to dwellings, as described within this document, to provide a higher degree of electrical
+ safety in other occupancies.
+
+
+ Cost Impact:
+ Additional cost due to the cost difference between an installation consisting of Nonmetallic-
+ Sheathed Cable and an installation consisting of another wiring method, depending on the wiring
+ method chosen.
+
+
+ Approved in previous 2012 Code Adoption process:                                   YES             NO
+
+ This amendment was approved in previous code adoptions.  It has subsequently been evaluated
+ by the committee for applicability to the 2017        NEC and carried forward as presented.
+
+ ACTION TAKEN:
+ 2018 Code Committee                                                                    Date:  December 14, 2017
+     Approved as submitted              Modified and approved              Denied           No action taken
+ Development Advisory Board (DAB) Technical Subcommittee                               Date:  January 11, 2018
+     Approved as submitted              Modified and approved              Denied           No action taken
+ Development Advisory Board (DAB)                                                      Date:  January 18, 2018
+     Approved as submitted              Modified and approved              Denied           No action taken
+ Downtown, Aviation, Economy, and Innovation Subcommittee                              Date:  May 2, 2018
+     Approved as submitted              Modified and approved              Denied           No action taken
+ City Council Action                                                                   Date:  June 6, 2018
+     Approved as submitted              Modified and approved              Denied           No action taken
+               Adopted by City of Phoenix Ordinance G-6463 effective July 6, 2018
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===== Page 7 =====
+                             PHOENIX BUILDING CONSTRUCTION    CODE
+                          Amendment to 2017 National Electrical Code (NEC)
+                                               Section 310.15(B)(7)
+
+Submitted by:  2018 National Electrical Code Committee
+
+ARTICLE 310        Conductors for General Wiring
+
+310.15(B)(7) 120/240-Volt, Single-Phase Dwelling Services and F eeders.   For one-family
+dwellings and the individual dwelling units of two-  family and multifamily dwellings, service and
+feeder conductors supplied by a single-  phase, 120/240-      volt system shall be permitted to be
+sized in accordance with 310.15(B)(7)(1) through (4).
+
+For one-family dwellings and the individual dwelling units of two-  family and multifamily dwellings,
+single-phase feeder conductors consisting of 2 ungrounded conductors and the neutral
+conductor from a 208Y/120-volt system shall be permitted to be sized in accordance with
+310.15(B)(7)(1) through (3).
+
+(1) For a service rated 100 through 400 amperes, the service conductors supplying the entire
+    load associated with a one-    family dwelling, or the service conductors supplying the entire
+    load associated with an individual dwelling unit in a two-  family or multifamily dwelling, shall
+    be permitted to have an ampacity not less than 83 percent of the service rating.
+(2) For a feeder rated 100 through 400 amperes, the feeder conductors supplying the entire load
+    associated with a one-family dwelling, or the feeder conductors supplying the entire load
+    associated with an individual dwelling unit in a two-  family or multifamily dwelling, shall be
+    permitted to have an ampacity not less than 83 percent of the feeder rating.
+(3) In no case shall a feeder for an individual dwelling unit be required to have an ampacity
+    greater than that specified in 310.15(B)(7)(1) or (2).
+(4) Grounded conductors shall be permitted to be sized smaller than the ungrounded
+    conductors, if the requirements of 220.61 and 230.42 for service conductors or the
+    requirements of 215.2 and 220.61 for feeder conductors are met.
+
+Where correction or adjustment factors are required by 310.15(B)(2) or (3), they shall be
+permitted to be applied to the ampacity associated with the temperature rating of the conductor.
+
+   Informational Note No. 1:  The service or feeder ratings addressed by this section are based
+                                    on the standard ampacity ratings from 240.6(A).
+
+   Informational Note No. 2:   See Example D7 in Annex D.
+
+
+Reasons:
+Conductor ampacity is required by the code to be selected per the ampacity tables and adjusted
+for conditions that cause heating of the conductor.  The ampacity of a conductor is affected by
+heat, including both the heat generated by current flowing in the conductor, and other adjacent
+conductors, and from the ambient temperature surrounding the conductors.
+
+The ampacities in Table 310.15(B)(16) are based on three current-carrying conductors in a
+raceway or cable and          an ambient temperature of 86°F.
+
+The code requires that if there are more than three current-carrying conductors, that the
+allowable ampacity be adjusted by the factors listed in Table 310.15(B)(3)(a).  This is due to the
+
+===== Page 8 =====
+ additional heating effects of having more current-carrying conductors in the same raceway or
+ cable.  Similarly, the code requires the ampacity to  be adjusted if the ambient temperature is
+ greater than the 86° F that Table 310.15(B)(16) is based upon.  The ampacity must be adjusted
+ by the factors listed in Table 310.15(B)(2)(a).  This is because the higher ambient temperature
+ reduces the ampacity of the conductor as well as hinders the dissipation            of heat from the
+ conductor.
+
+ The 2017 NEC added 208Y/120-      volt single-phase 3-   wire systems to Section 310.15(B)(7).  This
+ presents an unsafe installation.
+
+ Consider the electrical characteristics of a single -phase 120/240V system, which has two
+ ungrounded conductors and a neutral conductor.  The ungrounded conductors are 180 degrees
+ out of phase with each other.  Therefore, for a balanced load, the n  eutral current would be zero
+ and for an unbalanced load the neutral current will be a       small value     based     on the unbalance.
+ This system essentially represents two current-carrying conductors since the neutral current is
+ negligible.
+
+ However, in a 208Y/120-      volt single-phase system, with two ungrounded conductors and a
+ neutral conductor, the ungrounded conductors are 120 degrees out of phase with each other.
+ This results in neutral current that is the same as the phase current for a balanced load and
+ almost as large as the phase current for an unbalanced load.  Therefore, this system represents
+ three current-carrying conductors.
+
+ Prior to the 2017 edition, NEC 310.15(B)(7) has historically only been applicable   to 120/240-volt
+ single phase dwelling services and feeders.  This is due to considering only two current-carrying
+ conductors and allowing an increase in ampacity in those conductors due to less heat being
+ generated by the conductors.  However, since 208V single-  phase systems must be considered
+ three current-carrying conductors, the ampacities in Table 310.15(B)(16) must be used and
+ 310.15(B)(7) should not apply.  Allowing the use of this ampacity adjustment on 208Y/120    -volt
+ systems   will result in conductors being undersized based on the load and the overcurrent device
+ intended to protect them.  This will be an unsafe installation that could result in fire.
+
+ This amendment removes 208Y/120-volt systems from the code section.  NEC 310.15(B)(7) is
+ only applicable to 120/240V single-     phase dwellings.
+
+
+ Cost Impact:  No cost impact.
+ Neutral.  Previous code cycles did not permit 310.15(B)(7) to apply to 208Y/120-      volt systems.
+
+
+ Approved in previous 2012 Code Adoption process:                                  YES              NO
+
+ ACTION TAKEN:
+ 2018 Code Committee                                                                   Date:  December 14, 2017
+     Approved as submitted              Modified and approved              Denied           No action taken
+ Development Advisory Board (DAB) Technical Subcommittee                               Date:  January 11, 2018
+     Approved as submitted              Modified and approved              Denied          No action taken
+ Development Advisory Board (DAB)                                                      Date:  January 18, 2018
+     Approved as submitted              Modified and approved              Denied          No action taken
+ Downtown, Aviation, Economy, and Innovation Subcommittee                              Date:  May 2, 2018
+     Approved as submitted              Modified and approved              Denied          No action taken
+ City Council Action                                                                   Date:  June 6, 2018
+     Approved as submitted              Modified and approved              Denied          No action taken
+               Adopted by City of Phoenix Ordinance G-6463 effective July 6, 2018
+
+
+

@@ -1,0 +1,506 @@
+
+
+===== Page 1 =====
+2021 Code Implementation
+          Electrical
+
+
+===== Page 2 =====
+                                                         Agenda
+
+
+
+•    Implementation
+
+•     Understanding Applicability of the NEC
+
+•     Changes to the 2021
+
+•    What’s Coming in L&I
+
+
+SUBMIT YOUR QUESTIONS/ CONCERNS TO Q&A
+
+===== Page 3 =====
+                                Code Adoption
+
+
+
+
+
+
+    2021 I-Codes                                                            Mandatory
+Adopted By the State                 6-   month                            application of
+   (Est Sept 2025)                  transition                                I-Codes
+                                                                         (Est March 2026)
+
+
+                                     •    Applications
+                                        filed may apply
+                                        the 2018 or I-
+                                        Codes.
+
+===== Page 4 =====
+                               Pa Uniform Construction Code (UCC)
+
+
+
+
+●      Building Code governing design, construction, alteration, and maintenance of buildings throughout Pennsylvania.
+
+
+
+●      Established and amended under the Pa Construction Code Act (PCCA).
+
+
+
+●      Current regulation requires adoption of triennial International Codes 4.5 years after publication.
+
+
+      ○     Code is further modified by Pa laws and by Review & Advisory Council Review/ Recommendation Process.
+
+
+      ○     Philadelphia was permitted early adoption of 2018 commercial codes and hasn’t experienced full effect of 3-year
+          adoption cycle.
+
+
+
+●     Code may be further modified by local jurisdiction if changes meet or exceed PA UCC provisions.
+
+
+      o     Reviewed, approved and posted by Pa DLI
+
+
+      o     Requires City Ordinance
+
+
+      o     Certain sections cannot be changed through this municipal change process (i.e. Provision adopted through
+          legislation, accessibility, elevator/boilers)
+
+===== Page 5 =====
+                           Pa Uniform Construction Code (UCC)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Review & Advisory Council Site                 Full Adoption Timeline                    Final Report
+includes complete info on regulatory           2024 adoption timeline will be            View full report of amendments to the
+process, including minutes of                  posted here, with public                  2021 I-Codes to be adopted through PA
+meetings.                                      comment period of unchanged               DLI regulation.
+                                               sections in 2025.
+
+===== Page 6 =====
+                                                        Implementation
+
+
+•    Once State adopts the 2021 I-Codes, a Code Bulletin will be published regarding implementation.
+
+•     Anticipate State adoption in Sept 2025 but this is wholly dependent on their timeline.
+
+•    For larger projects, the Building Permit controls expiration.
+
+
+      o     An Electrical Permit will remain active as long as the Building Permit remains active.
+
+
+      o    See Code Bulletin A-2001: Construction Permit Expiration for Projects
+
+•     Permit Application Extensions - will only authorize one extension for RFI. More stringent rules on pick-  up.
+
+===== Page 7 =====
+                                        Guidance Documents
+
+
+Assistance in Understanding Changes
+•     Publish list of changes, by Code, as they
+   will be applied in Philadelphia.
+
+===== Page 8 =====
+Future Information Sessions
+
+===== Page 9 =====
+                                                   2021 Code Questions
+
+
+
+Answers to your questions                                                                                Code Corner
+
+
+•    Request that L&I     issue an interpretation on a   specific
+   code section. This form, linked   in our newsletter,  can
+   also be used   for 2021          code issues / concerns.
+
+•    Look out for future newsletters or trainings for public
+   response.
+
+Note:  Continue to use www.phila.gov/get-help for direct
+responses   to code questions.
+
+===== Page 10 =====
+                                       Published Consolidated Code
+
+
+Electronic Access to Consolidated Codes
+• All Building Construction and Occupancy Sub-Codes, except
+  Admin Code, will be published to ICC’s website.
+• Free access to read-  only version. Paid subscription provides
+  additional functionality.
+• An integrated PDF of each code will be available on L&I
+  website.
+• Integrated codes will be published as completed by ICC. Very
+  limited pool will be available by July 13.
+• Public can continue to access free versions of I-Codes and the
+  Philadelphia Code, which identifies all local and state changes
+  to I-Codes.
+
+===== Page 11 =====
+Applicability of NEC under the UCC
+
+===== Page 12 =====
+                          What Code Applies to Electrical Work
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Part 8- Electrical                                                                    Ch 27 references NEC , with minimal NEC, as referenced in
+                                                          supplemental provisions                                    the IEBC
+
+===== Page 13 =====
+What Code Applies to Electrical Work?
+
+===== Page 14 =====
+                                        Why Is This Important?
+
+
+There are electrical code amendments to the PA UCC that apply to the dwellings regulated under the Residential
+Code that DO NOT apply to buildings regulated under the Building (AKA Commercial) Code:
+
+-Emergency Disconnect
+
+-Receptacles for Islands and Peninsular Countertops
+
+-Foyer Receptacles
+
+
+
+===== Page 15 =====
+What Building Code applies to my residential project?
+
+===== Page 16 =====
+
+
+===== Page 17 =====
+                             Top Changes
+
+(Source: NEC 2020 Analysis of Changes, ICC Significant Changes to IRC)
+
+===== Page 18 =====
+                                        Emergency Disconnects
+
+An emergency disconnecting means (which could include the service disconnecting means) for a one-or two-family
+dwelling is now required to be installed and located on the outside of the structure.
+
+===== Page 19 =====
+                                                                       IRC: E3601.8
+
+
+
+
+E3601.         8 Emergency disconnects. For one- and      two-family detached dwelling units, all                 The Residential Code has been amended
+service  conductors  shall  terminate      in  disconnecting  means  having  a  short-circuit                     under the PA UCC to only require for one and
+current rating equal to or greater than   the available fault current, installed in a   readily                   two family detached dwellings.
+accessible outdoor location. If more than   one disconnect is provided, they shall be
+grouped.   Each disconnect shall be one of     the following:
+1. Service disconnects marked as follows: EMERGENCY DISCONNECT,                                                   In Philadelphia, this means that this
+SERVICE DISCONNECT.                                                                                               requirement shall not apply to rowhomes or
+2. Meter disconnect switches that have a   short-circuit current rating equal to or                               townhouses up to 3 stories in height.
+greater than   the available fault current and      all metal housings and      service
+enclosures are grounded   in accordance with Section E3908.         7 and      bonded   in
+accordance with Section 3609.          A meter disconnect switch shall be capable of                              It will be required for completely detached
+interrupting the load served and      shall be marked as follows: EMERGENCY
+DISCONNECT, METER DISCONNECT, NOT SERVICE EQUIPMENT.                                                              buildings, twin homes, duplexes, and
+3. Other listed disconnect switches or circuit breakers on the supply side of     each                            rowhomes more than 3 stories in height.
+service disconnect that are suitable for use as service equipment and      marked as
+follows: EMERGENCY DISCONNECT, NOT SERVICE EQUIPMENT.
+Markings shall comply with Section E3404.         12.     [230.       82     (3), 230.       85]                  Guidance on applicability based on building
+                                                                                                                  type alterations will follow.
+
+===== Page 20 =====
+                                                     Surge Protection
+                                                          230.67 (E-3606.5)
+New requirement has been added to require surge protection on all services at dwelling units.
+
+This new SPD requirement aligns with the recognized need for surge protection to protect sensitive electronics systems
+found in most appliances and equipment used in today’s modern dwelling units.
+
+===== Page 21 =====
+                                             Bathroom Branch Circuits
+                                                            210.11 (E3703.4 )
+Clarifies that only the required bathroom receptacle outlets or those serving a countertop need to be on the dedicated
+20-    amp bathroom circuit. The 20-amp circuit is intended to serve the required receptacle outlet within 36 inches of the
+lavatory basin in accordance with Section E3901.6. If servicing a single bathroom, other bathroom receptacle outlets
+are permitted but not required to be on the same circuit.
+
+===== Page 22 =====
+                                                Garage Branch Circuits
+                                                            210.11 (E3703.5 )
+The new language in the 2021 code specifies that only the required receptacle outlets need to be supplied by this
+dedicated 20-amp circuit. Section E3109.9 requires a receptacle outlet in each vehicle bay and not greater than 5 feet
+6 inches above the floor. Section E3703.5 now permits optional receptacle outlets in the garage, for example the
+outlet serving the garage door opener, to be on a general purpose 15- or 20-     amp circuit.
+
+===== Page 23 =====
+  Receptacles for Island and Peninsular Countertops 210.52(C)(2)
+The number of receptacle outlets required for peninsular and island countertops in kitchens is determined by the area
+of the countertop surface.
+
+===== Page 24 =====
+                                                        R-E3901.4.2
+
+
+
+E3901.4.2 Island countertop spaces. At least one                                  The Residential Code has been amended
+receptacle outlet shall be installed at each island                               under the PA UCC to retain the 2018 language
+countertop space with a long dimension of 24 inches (610                          for island countertop spaces.
+mm) or greater and a short dimension of 12 inches (305
+mm) or greater. [210.52(C)(2)]                                                    Only one outlet will be required for islands in
+                                                                                  single-family dwellings up to 3 stories in
+                                                                                  height.
+
+                                                                                  Kitchens in single-family dwellings more than
+                                                                                  3 stories, duplexes, and multi-family dwellings
+                                                                                  must comply with the new requirement in
+                                                                                  NEC-20.
+
+===== Page 25 =====
+                                                    Foyer Receptacles
+
+
+210.52(H)                                                                                Carryover Provision/ No Change
+
+Foyers that are not part of a hallway in accordance with             Section             The Residential Code has been amended
+E3901.10    and that have an area that is greater than 60 square                         under the PA UCC to retain the 2015
+feet (5.57 m2) shall have a receptacle(s) located in each wall                           language. Foyers require a min of 1
+space that is 3 feet (914 mm) or more in width. Doorways,                                receptacle and a receptacle on each wall
+door-side windows that extend to the floor, and similar                                  that is 6’ or more in width.
+openings shall not be considered as wall space.
+R-E3901.11 Foyers. Foyers that are not part of a hallway in                              Buildings that are not regulated under the
+accordance with Section E3901.10 and that have an area that is                           IRC require a receptacle for every wall 3’ or
+greater than 60 ft2 (5.57 m2) shall have a receptacle(s) located                         more, with no minimum.
+
+in each wall space that is 6 feet (1829 mm) or more in width,
+but a minimum of one receptacle. Doorways, door-side
+windows that extend to the floor, and similar openings shall not
+be considered as wall space. [210.52(H)]
+
+===== Page 26 =====
+                                    GFCI Protection- Measurement
+
+
+•    Revision removes “door” and “doorway” as items the supply cord of an appliance connected to the receptacle must
+   not pass through in order to         satisfy measurement requirements for GFCI protection.
+
+
+
+.
+
+===== Page 27 =====
+                                  GFCI Protection for Dwelling Units
+                                                         210.8(A), R-E3902
+
+
+•    Ground-       fault circuit-interrupter (GFCI) protection is required for up to 250-volt receptacles in the areas previously
+   identified as requiring GFCI protection for 125-volt receptacles. The 20-amp limitation has been removed. This
+   includes:
+
+     •Bathrooms, Garages and Accessory Buildings, Outdoors, Crawl Spaces, Basements, Kitchens, Sinks, Boathouses,
+     Bathtubs and Shower Stalls, Laundry Areas, Indoor Damp and Wet Locations
+
+
+•    The requirement for GFCI protection in unfinished basement areas has been expanded to include all basement
+   areas.
+
+•    Damp or wet indoor areas not included in other code sections are also required to have GFCI protection. This will
+   require interpretation and guidance.
+
+===== Page 28 =====
+                                       GFCI Protection for Dwellings
+                                                        210.8 (A), R-E3902
+
+
+•    Ground-       fault circuit-interrupter (GFCI) protection is required for up to 250-volt receptacles in dwellings in the
+   areas previously identified as requiring GFCI protection for 125-volt receptacles. The 20-amp limitation has been
+   removed. This includes:
+
+     •Bathrooms, Garages and Accessory Buildings, Outdoors, Crawl Spaces, Basements, Kitchens, Sinks,
+     Boathouses, Bathtubs and Shower Stalls, Laundry Areas, Indoor Damp and Wet Locations
+
+
+•    The requirement for GFCI protection in unfinished basement areas has been expanded to include all basement
+   areas.
+
+•    Damp or wet indoor areas not included in other code sections are also required to have GFCI protection. This will
+   require interpretation and guidance.
+
+===== Page 29 =====
+GFCI Protection
+   210.8, R-E3902
+
+===== Page 30 =====
+                             GFCI Protection-Outdoor Outlets
+
+ All outdoor outlets for dwellings, not just receptacles, require GFCI protection (with exceptions).
+
+===== Page 31 =====
+                        GFCI Protection- HVAC Incompatibility
+
+
+
+
+HVAC equipment, particularly those with variable speed
+compressors or power conversion equipment, experienced
+frequent tripping of GFCI breakers, making the equipment
+effectively inoperable.
+
+NFPA Issued Temporary Interim Amendment (TIA) 20-19
+postponing the enforcement of the GFCI requirement for HVAC
+equipment until September 1, 2026. This is to allow time for
+manufacturers and standards orgs to address compatibility
+issues.
+
+L&I will extend this TIA to buildings regulated by the Residential
+Code.
+
+===== Page 32 =====
+                                 Tamper-Resistant Receptacles
+
+
+Added: garages/structures accessory to dwellings, multi-family common areas, hotel/motel guest common areas,
+assisted living facilities.
+
+===== Page 33 =====
+                                Residential Lighting Control-    Energy Code
+
+R404.       1   (N1104.         1);      R404.       2   (N1104.         2);      R404.       3   (N1104.         3)
+
+High-efficacy lighting:  Section   404.1   Increases requirement for high-efficacy lighting fixtures   (excluding kitchen   appliances) from
+90     to 100%       .
+
+Exterior lighting power:   Section 404.1.1    adds requirements for exterior lighting serving multi-    family buildings three stories or
+less. The exterior lighting loads are subject to the limits as commercial buildings when connected to building electrical panel.
+Requirements are set forth in    Section   C405.       5.
+
+Interior  Lighting  Controls:     Section  404.       2    adds  requirements  for  dimmers,  occupant  sensors,   or  other  controls  for  permanent
+lighting  fixtures  with  exclusions  for  bathrooms,   hallways,   and  security  lighting.  This  is  aligned    with  existing  provisions  for
+commercial lighting controls
+
+Exterior  Lighting  Controls.  Section    404.3    introduces  daylighting  controls  for  residential  buildings.  Code  Proposal  RE149-       19
+proponent  states  the  increase  in  construction  cost  is  minimal.   PA  UCC  Action:     The  RAC  voted  to  retain  2018  language  and
+exclude all new lighting provisions     of Section   R404.        The definition of high-  efficacy will       be updated under the PA UCC.
+
+These provisions   were amended   out of the Pa UCC;          however, a   Phila ordinance was introduced is to adopt as per the 2021          IECC/
+IRC. This impacts on residential, including      multi-    family, up      to 3   stories in height.
+
+===== Page 34 =====
+                                       Air-   Sealed Electrical Boxes- Energy Code
+
+Electrical and communication outlet boxes installed in the building thermal envelope
+must be sealed, tested and marked for compliance with the referenced standards.
+
+Alternative materials may be submitted to the BBS for consideration.
+
+
+
+
+           N1102.4.6 (R402.4.6) Electrical and communication outlet boxes
+           (air-sealed boxes).
+           Electrical     and      communication outlet   boxes installed in the building thermal
+           envelope    shall      be  sealed  to  limit  air       leakage  between  conditioned     and
+           unconditioned  spaces.  Electrical     and  communication  outlet  boxes  shall      be
+           tested in accordance with NEMA       OS 4, Requirements for Air-Sealed Boxes for
+           Electrical  and        Communication   Applications, and shall     have an air leakage rate
+           of  not  greater  than  2.0  cubic  feet  per  minute  (0.944         L/s)  at  a  pressure
+           differential  of  1.57      psf  (75      Pa).   Electrical     and  communication  outlet boxes
+           shall      be  marked  “NEMA  OS  4”  or  “OS  4”  in  accordance  with  NEMA     OS
+           4.  Electrical     and  communication  outlet  boxes  shall      be  installed  per  the
+           manufacturer’s instructions and      with    any supplied components required to
+           achieve compliance with NEMA       OS 4.
+
+===== Page 35 =====
+                                                     Resources
+L&I:
+Submit topics of concern through our recommendations form.
+
+Submit questions on current codes/ processes through www.phila.gov/li/get-  help.
+
+Track legislative changes and content updates through our newsletter.
+
+Attend future info sessions.
+
+ICC
+www.iccsafe.org
+Access public information, become a member, or subscribe to digital codes.
+
+===== Page 36 =====
+                                                  What’s Coming
+
+
+•     Web User Interface Upgrade-   Fall 2025
+
+•     Automatic Resolution of Certain Holds-      Fall 2025
+
+•     License Withholding for Unpaid LVNs/ SVNS: July 2025
+      •    Permits are next phase
+      •    See Contractor Look Up for outstanding fines
+
+•     GC can add subs to trade permits. Will still require electrical contractor approval. Winter 2026
+
+•    Contractor can view any violations from eCLIPSE Home Page.
+
+•    New EV Cert Requirements
+
+===== Page 37 =====
+                                                      EV Certification
+
+
+A new law    requires that all electrical contractors installing, upgrading, or repairing electric vehicle chargers hold a valid
+certification through the Electric Vehicle Infrastructure Training Program (EVITP).
+
+About EVITP
+EVITP is a 20-hour training course focused on the proper installation of electric vehicle supply equipment. The course is
+available both online and in person to qualified electricians.
+
+Licensing and Permitting Timeline
+·    March 2026: Electrical contractors may begin amending their licenses to add EVITP certification.
+·    July 2026: Electrical permits for EV charger installation or repair will only be issued to contractors whose licenses
+include a valid EVITP certification -    or an approved equivalent.
+
+Equivalent Training Programs
+The law permits certification through alternative training programs, provided they are pre-approved by the
+Department’s Training Division. For details about the approval criteria for equivalent training programs, visit
+the website.

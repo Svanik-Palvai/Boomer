@@ -1,0 +1,247 @@
+2026 NEC FAQ 1 
+ 
+2026 National Electrical Code – FAQ (Revised Oct. 5, 2026) 
+1. Section 110.3(B) Installation and Use. A sentence was added to the requirement specifying that a 
+manufacturer’s installation instructions must result in an installation and use that complies with the 
+code. This change addresses recurring issues where instructions have suggested or implied 
+configurations that conflict with code rules—such as improper GFCI protection. This clarification 
+reinforces that compliance with the NEC cannot be overridden by manufacturer guidance. 
+ 
+2. Section 110.16 Arc-Flash Hazard Marking.  Sections 110.16(A) and (B) were combined, and the previous 
+generic “Warning—Arc Flash Hazard” requirement along with the 1000-amp threshold were removed. 2. 
+Section 110.16 Arc-Flash Hazard Marking. Marking and labeling requirements are limited to installations 
+for “other than dwelling units”. The department’s position is to not require the 110.16 label for dwelling 
+unit accessory structures and other similar structures used at residential property where an owner could 
+occupy the property as a residence consistent with the way the department has enforced the 110.24 
+marking in the past.  
+ 
+Temporary services are not exempt from the section 110.16 labeling requirement even if located on 
+residential property. Due to the potential proximity of the transformer and the extended duration that a 
+temporary service may remain in use during construction, labeling is required. 
+ 
+Labels must now provide actionable information, including:  
+• Nominal System Voltage (Example: 480V, 208V, etc.) 
+• Arc Flash Boundary (The distance at which a person could receive a second-degree burn if an arc 
+flash occurs) 
+• Available incident energy OR minimum required PPE level (Incident energy expressed in cal/cm² OR 
+the PPE category per NFPA 70E tables) 
+• Date the assessment was completed 
+ 
+For many installations, the minimum required arc flash boundary and level of PPE protection can be 
+determined using the table method found in NFPA 70E Table 130.7(C)(15)(a). This table provides a 
+simplified approach for calculating PPE requirements based on equipment type, voltage, and available 
+fault current, ensuring compliance without the need for a full incident energy analysis. 
+https://www.nfpa.org/codes-and-standards/nfpa-70e-standard-development/70e 
+        In summary, the table method can’t be used when: 
+a. Available fault current exceeds the limit in the table 
+Example: For a panelboard 240/120 V, if the available bolted fault current is greater than the 
+table's maximum value, you cannot use the table. 
+
+
+2026 NEC FAQ 2 
+b. The clearing time of the overcurrent protection device (OCPD) exceeds the table’s maximum 
+clearing time 
+If the OCPD is slow, mis-coordinated, or not documented, you cannot use the table. 
+c. The equipment type doesn’t match what the table is designed for 
+The tables only apply to specific equipment categories: 
+1. Panelboards 
+2. Motor control centers 
+3. Switchboards 
+4. Switchgear 
+5. Disconnects, etc. 
+**If the equipment isn’t listed, the table method doesn’t apply. 
+d. The equipment is in a condition not considered “properly installed and maintained.” 
+If the equipment is old, damaged, dirty, corroded, modified, undocumented, or maintenance 
+history is unknown, you cannot use the table. 
+ 
+3. Section 210.8(A)(2) Garages.  A new list item (2) has been added to NEC 210.8(A) to separate “garages” 
+from item (3), which now applies to “accessory buildings not intended as habitable rooms and limited to 
+storage, work, and similar areas.” Additionally, the phrase “that have a floor located at or below grade 
+level” has been removed because elevation does not eliminate the shock hazard. For purposes of 
+applying GFCI requirements, if a garage contains habitable spaces—such as a finished room in or above 
+the garage—it does not require GFCI protection for those habitable areas, like that of an accessory 
+building in item (3). 
+4.   Section 210.8(F) Dwelling outdoor outlets. A new exception was added to allow Class C GFCI protection 
+for listed HVAC equipment after September 1, 2026. If a Class C SPGFCI is provided, the disconnect 
+serving the HVAC equipment is now required to be marked with a warning that “Class C SPGFCI 
+protection is provided for an HVAC unit”. Due to the statutory language in Minnesota Statute 
+326B.38(4), the department will not enforce GFCI protection when and existing HVAC unit or disconnect 
+is replaced, provided the replacement involves existing readily accessible electrical equipment and the 
+existing feeder or branch circuit has not been altered or extended.  
+210.8(F) is not applicable to:  
+• Outdoor outlets that are not readily accessible such as submersible well pumps, sewer lift 
+pumps, load management controllers, surge protection devices, or similar equipment.  
+• Outdoor lighting outlets 
+5.   Section 210.12(E) Branch circuit wiring extensions, modifications, or replacements.  In list item (2), the 
+words “or switch” were added as another option for providing AFCI protection for branch-circuit wiring 
+that has been modified, replaced, or extended. This means a listed Outlet Branch-Circuit AFCI (OBCAFCI) 
+can now be installed at the first receptacle outlet or switch of the existing branch circuit, offering more 
+flexibility for compliance when extending or altering circuits. 
+6.   Section 210.52(A)(2) Receptacle wall space receptacles. In Subdivision (A)(2), Wall Space, list item (1) 
+was revised to exclude any fixed cabinet from the wall space measurement. Previously, only fixed 
+cabinets without countertops or similar work surfaces were excluded. This change simplifies the rule by 
+
+2026 NEC FAQ 3 
+removing ambiguity and ensures that all fixed cabinets are excluded when determining required 
+receptacle outlet placement. 
+7.   Sections 210.52(A)(5) and 210.52(C)(4). Were revised to address prohibited locations for receptacle 
+outlets associated with countertops and work surfaces. Under this change, receptacle outlets can’t be 
+located 24 inches beneath or adjacent to the countertops or work surface. This clarification ensures 
+outlets remain accessible and safe. A new exception permits hardwired receptacle outlets installed in 
+drawers below countertops and work surfaces, providing flexibility while maintaining compliance. The 
+language in 210.52(C)(4) specifies that a receptacle cannot be installed on adjacent walls extending from 
+base cabinets within 24 inches. For consistent interpretation, the 24-inch measurement will be taken 
+from the nearest surface edge of the countertop or work surface extending below as covered in (A)(5).     
+8.   Sections 215.18 and 230.67 Surge protection. In the 2023 NEC, new language was added—similar to 
+Section 230.67—to require surge protection devices (SPDs) for both feeders and outside feeders. The 
+purpose of this protection is to limit damage to electronic devices and equipment, which can be 
+rendered inoperable by a surge. The areas where surge protection is required have been expanded and 
+now include new installations as well as replacement distribution equipment located in: 
+1. Dwelling units  
+2. Dormitories  
+3. Guest rooms and guest suites of hotels, motels and dormitories   
+4. Areas of nursing homes and limited-care facilities used exclusively as patient sleeping rooms 
+5. Areas designed for use exclusively as sleeping quarters in fire stations, police stations, 
+ambulance stations, rescue stations, ranger stations, and similar locations  
+ 
+The Type 1 or Type 2 SPD must be installed in or adjacent to the distribution equipment connected to 
+the load side of the feeder that contains branch circuit overcurrent protective device(s). In addition, the 
+SPD shall have a nominal discharge current rating (In) of not less than 10kA.  
+ 
+Below are specific conditions determined to meet the intent of the section. For other types of 
+installations, please consult with your local inspector.  
+Residential Pole-Mounted Service Disconnects or Panelboards: Surge protection is required under NEC 
+230.67. However, Exception (B) allows the SPD to be installed in the first downstream feeder panel 
+within the dwelling unit. This also applies when a service disconnect (without a panelboard) is mounted 
+directly on the dwelling—the SPD may be located in the feeder supplied panelboard downstream.  
+ 
+Service Panelboards with Extended Busbars (Service/Feeder Combo Panels): These panels, commonly 
+called "farm panels" or "farm feed-through panels," act as both service and feeder equipment. When 
+mounted on the dwelling, they require surge protection in all cases, in accordance with NEC 230.67 and 
+215.18.  
+ 
+SPD Placement Based on Panelboard Location: Surge protection installed at the exterior service or 
+feeder supplied panelboard mounted on the dwelling, additional downstream SPDs may or may not be 
+necessary under the following conditions:  
+ 
+
+2026 NEC FAQ 4 
+• No additional SPD is required if the downstream distribution equipment is located nearest point 
+of entry.  
+• Additional SPD is required if the panelboard is located further inside the structure away from 
+the distribution equipment.  
+• Any additional feeder panelboards located in adjacent room or area away from the main 
+distribution equipment would require an SPD. An example would be a mechanical room 
+panelboard with an SPD supplying an attached garage or upper addition panelboard.  
+ 
+Single-Equipment Disconnects (e.g., for A/C or Hot Tubs): SPDs are not required for disconnects serving 
+only one piece of equipment. However, if the disconnect also provides overcurrent protection and 
+supplies additional loads (e.g., a convenience receptacle alongside a hot tub), it now functions as a 
+feeder supplied panelboard—and surge protection becomes necessary.  
+9.   Section 225.31 and 225.41 Outside feeder disconnecting means.  Sections 225.31 and 225.41 were 
+updated to clarify requirements for the location of feeder disconnecting means serving buildings or 
+structures. When the disconnecting means is installed outside the building, it must be in a readily 
+accessible location and located on the building or within sight of the building, as defined in 110.29.  
+If the disconnecting means is located inside the building, it must still be installed at the nearest point of 
+entrance of the feeder conductors into that building.  
+ 
+Note: When a building or structure is supplied by multiple feeders of the same characteristic (for 
+example, same voltage and phase) permitted by section 225.30(B), the feeder disconnecting means 
+supplying the building or structure must be grouped at the load end of the feeders. The grouped 
+disconnects shall have a grounding electrode system installed that complies with 250.32(B)(1).  
+ 
+10. Section 230.70 Service Disconnect. The section was modified to incorporate the language from the 
+deleted Section 230.85, Emergency Disconnect, requiring the service disconnect for one- and two-family 
+dwellings to be located outside. Under 230.70(A)(1), the service disconnecting means for one- and two-
+family dwellings must be installed in a readily accessible outdoor location either on or within sight of the 
+dwelling unit. Section 230.70(A)(2) addresses other than one- and two-family dwellings, requiring the 
+service disconnecting means to be installed in a readily accessible location either outside the building or 
+inside nearest the point of entrance of the service conductors. These changes ensure emergency 
+accessibility and consistency across dwelling types. Utility-provided disconnects will no longer be 
+accepted as the emergency disconnect unless they comply with Section 230.70. In most cases, these 
+disconnects are not considered the service disconnect and are not located within sight (visible and 
+within 50 feet). 
+ 
+11. Section 250.64(C)(2) Grounding electrode splicing.  The requirement has been revised to allow the 
+splicing of grounding electrode conductors using listed grounding and bonding equipment, provided the 
+splice is made at an accessible location. Splicing by exothermic welding and irreversible compression-
+type connectors remain permitted for both accessible and non-accessible locations.  
+ 
+
+2026 NEC FAQ 5 
+12. Section 300.4(C) Conductor limitations.  New language was added for damaged conductors and wiring 
+methods.  Conductors and wiring methods that have become unsuitable due to damage—such as 
+overheating, fire, corrosion, or water—must be replaced. See the related NEMA documents for 
+guidance: NEMA GD 1 2019 for water damaged electrical equipment and wiring, and NEMA GD 2 2021 
+for fire or heat damaged electrical equipment and wiring.   
+ 
+13. Section 314.27(B)(2) Ceiling-suspended (Paddle) fan outlet box requirements. The revised language 
+clarifies required locations for ceiling outlet boxes intended for ceiling-suspended (paddle) fans. Ceiling 
+outlet boxes mounted centrally in the ceilings of dwelling living and sleeping areas, in locations that are 
+typical for fan installation, and in locations indicated by the designer or building owner for fan 
+installation, must meet one of the following requirements for fan support. This ensures that outlet 
+boxes in these designated areas are properly rated and capable of supporting the weight and load of a 
+ceiling-suspended fan. The outlet box is required to meet one of the following:  
+ 
+1. Be listed for the support of ceiling-suspended (paddle) fans. 
+2. Be installed to allow direct access through the box to structural framing capable of supporting 
+a ceiling-suspended (paddle) fan without removing the box. 
+ 
+14. Section 334.10 exception to (3) -Exception for NM Cable Thermal Barrier. An exception has been added 
+to permit non-habitable grade-level storage garages and storage buildings less than 1500 square feet to 
+use NM cable without the 15-minute thermal barrier. The thermal barrier requirement exists primarily 
+to allow occupants time to exit a building during a fire without inhaling toxic fumes from the cable 
+jacket. However, these small, grade-level detached garages and storage buildings typically have minimal 
+electrical provisions and are small enough that occupants can exit within seconds, making the thermal 
+barrier unnecessary. The square footage is based on the entire building area, not the individual storage 
+units or any separate addition to a larger existing structure. 
+ 
+15.  Section 513.8 Underground Classification at Aircraft hangers. The revised text removes the 
+requirement to classify underground installations at aircraft hangars as Class I, Division 1. This change 
+aligns with the provisions in Section 514.8, which govern underground wiring at motor fuel dispensing 
+facilities. By eliminating this classification, the NEC reduces unnecessary restrictions while maintaining 
+safety standards consistent with similar hazardous locations. However, the requirement will mandate 
+that a boundary seal be provided on both ends of the raceway where the conduit emerges from grade, 
+ensuring containment of vapors. 
+ 
+16. Section 514.11 Emergency Disconnect for Fuel Dispensing Areas. The revised updates extracted 
+language from NFPA 30A 6.7.4 and added clarification to include receptacles located over or adjacent to 
+motor fuel dispensing devices within hazardous classified locations. The emergency electrical 
+disconnect, among other sources outlined in 514.11, must now also disconnect any receptacles 
+positioned over or adjacent to the dispenser in the event of an incident—such as a fuel leak or spill—to 
+prevent electrical equipment from becoming an ignition source. This change enhances safety by 
+ensuring all potential ignition sources near the dispenser are de-energized during emergencies.  
+ 
+
+2026 NEC FAQ 6 
+17. Section 547.44(C) Equipotential Plane Construction Requirements. Text was added to include specific 
+requirements for the construction of the equipotential plane, addressing a gap in previous NEC editions 
+where no installation details were provided. Previously, Article 547 only contained an Informational 
+Note referencing the ASEA/ASABE EP473.2001(R2015) standard. The new language ensures consistency 
+throughout the NEC by providing detailed instructions on how the equipotential plane is to be 
+constructed and bonded to the electrical system. Recognized construction methods include the use of 
+structural reinforcing steel, unencapsulated welded wire, and copper grid, while also addressing 
+considerations for non-conductive surfaces to ensure proper bonding and safety in agricultural and 
+similar environments. Similar requirements were added to Articles 555 and 682. 
+ 
+18. Section 680.26 Equipotential bonding at a swimming pool. The height requirement for the perimeter 
+surface has been increased from 2 feet to 3 feet below the maximum water level. This change addresses 
+the increased risk of swimmers entering or exiting the pool, as well as individuals who may be in 
+simultaneous contact with both the perimeter surface and the pool water. Additionally, the bonding 
+requirements for non-conductive and conductive perimeter surfaces have been revised.  In most cases, 
+a single #8 AWG conductor will no longer be permitted. 
+ 
+Section 695.7(A)(1) Fire pump supply conductors. The language in 695.7(A)(1) was revised and 
+relocated from 695.6 to remove the reference to 230.6, as the reference was redundant. Section 230.6 
+already applies generally throughout the Code to determine when conductors are considered outside a 
+building, so retaining it within 695.7(A)(1) was unnecessary. 
+ 
+Additionally, revisions to 695.7(A)(2) clarify protection requirements when fire pump feeder conductors 
+must be routed through the interior of a building. The Code now expands the minimum required 
+concrete encasement from 2 inches to 5 inches, unless an alternative protection method is documented 
+and approved by a licensed professional engineer. 
+ 
+Note: Fire pump feeder conductors installed in a manner that qualifies as outside the building—such as 
+being located below a 2-inch concrete slab in accordance with the criteria of 230.6—are not required to 
+meet the 5‑inch encasement provisions of 695.7(A)(2). 
+ 

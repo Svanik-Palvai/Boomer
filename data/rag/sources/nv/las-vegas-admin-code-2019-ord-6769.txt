@@ -1,0 +1,2859 @@
+
+
+===== Page 1 =====
+          CITY OF LAS VEGAS
+ADMINISTRATIVE CODE, 2019 EDITION
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===== Page 2 =====
+                                                       Table of Contents
+
+CHAPTER 1: TITLE, SCOPE AND GENERAL
+  Section 101 – Title, Purpose and Scope  ............................................................................... 1
+  Section 102 – Application to Existing Buildings and Building Service Equipment  .................. 2
+  Section 103 – Definitions  ...................................................................................................... 5
+  Section 104 – Conflicting Provisions  ................................................................................... 10
+  Section 105 – Alternate Materials, Methods of Design and Methods of Construction  .......... 10
+  Section 106 – Modification  .................................................................................................. 11
+  Section 107 – Tests  ............................................................................................................ 11
+CHAPTER 2: ORGANIZATION AND ENFORCEMENT
+  Section 201 – Authority  ....................................................................................................... 12
+  Section 202 – Powers and Duties of Building Official  .......................................................... 12
+  Section 203 – Unsafe Buildings, Structures or Building Service Equipment  ........................ 16
+  Section 204 – Board of Appeals  .......................................................................................... 17
+  Section 205 – Violations  ...................................................................................................... 19
+CHAPTER 3: PERMITS AND INSPECTIONS
+  Section 301 – Permits  ......................................................................................................... 20
+  Section 302 – Application for Permit .................................................................................... 32
+  Section 303 – Permits Issuance  .......................................................................................... 34
+  Section 304 – Fees  ............................................................................................................. 37
+  Section 305 – Inspections  ................................................................................................... 41
+  Section 306 – Contractors’ Responsibilities  ......................................................................... 46
+  Section 307 – Connection to Utilities  ................................................................................... 48
+  Section 308 – Certificate of Occupancy  ............................................................................... 48
+CHAPTER 4: SEWER CONNECTION
+  Section 401 – Fees for Sewer Connection  .......................................................................... 52
+  Section 402 – Sewer Trunk Extensions and Oversizing Refunding Agreements  ................. 52
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                    i
+
+===== Page 3 =====
+                                         CITY OF LAS VEGAS
+
+                            ADMINISTRATIVE CODE, 2019 EDITION
+
+
+                                                 Chapter 1
+
+                                   TITLE, SCOPE AND GENERAL
+
+SECTION 101 – TITLE, PURPOSE AND SCOPE
+
+101.1 Title. This document shall be known as the City of Las Vegas Administrative Code,
+2019 Edition; may be cited as such; and will be referred to herein as “this Code.”
+
+101.2   Purpose.      The  purpose  of  this  Code  is  to  provide  for  the  administration  and
+enforcement of the technical codes adopted by this jurisdiction.
+
+The purpose of the technical codes is to establish the minimum requirements to safeguard
+the public health, safety, and general welfare through structural strength, means of egress
+facilities,  stability,  sanitation,  adequate  light  and  ventilation,  energy  conservation  and
+safety to life and property from fire and other hazards attributed to the built environment
+and to provide      a reasonable  level of safety to firefighters and emergency responders
+during emergency operations.
+
+101.3 Copyright Acknowledgment. Portions of this Chapter have been reproduced with
+permission  from  the  2018  Edition  of  the  International  Building  Code  and  subsequent
+supplements, copyrighted, and owned by the International Code Council, Inc.
+
+101.4 Scope. The provisions of this Code shall serve as the administrative, organizational
+and enforcement rules and regulations for the technical codes,                  which shall apply to      and
+regulate the site preparation, grading,          construction, alteration, relocation, enlargement,
+replacement, repair, equipment, use and occupancy, location, maintenance, removal and
+demolition  of  every  building    ,  structure,  signs,   amusement,       transportation  system,  and
+building  service  equipment       ,  or  any  appurtenances  connected  or  attached  to  such
+buildings and structures.
+
+        Exception: This Chapter does not apply to the following:
+
+        (A) Facilities or installations within the jurisdiction which are            owned and operated
+        by a jurisdiction which invokes pre        -emptive power such as the State of Nevada or
+        the federal government.
+
+        (B)  Buildings, structures, or service equipment and installations directly used in
+        utility   generation   or   distribution   which   are   i    nstalled   on   properly   recorded
+        easements belonging to water, gas, power, telephone, or other utility companies
+        which  are  preemptively  regulated  and  governed  by  the  Nevada  Public  Service
+        Commission,  State  of Nevada  charter,  or  other  public franchise. This  do                 es  not
+
+
+
+
+===== Page 4 =====
+        include site preparation, grading, block walls, fences or habitable public areas such
+        as offices, meeting rooms, and service counters.
+
+101.5 General. Certain provisions of this Code may be parallel or similar to provisions of
+the current adopted International Building Code, International Residential Code, Uniform
+Plumbing  Code,  Uniform  Mechanical  Code,  National  Electrical  Code,  International
+Existing  Building  Code  and  International  Energy  Conservation  Code  or  other  similar
+codes adopted by the City. The provisions of this Code and the provisions of the other
+referenced codes shall be applied to the extent possible. The Building Official shall have
+the sole discretion, in the interest of convenience for the City or the public, to apply the
+provisions    herein  or  corresponding  administrative  provisions  in  any  of  the  above
+referenced Codes. In the event of any conflict in administrative provisions, the provisions
+of  Section  104  of  this     Administrative     Code  shall  govern,  unless  otherwise  deemed
+appropriate by the Building Official. Unless otherwise specified, the term                    “Department”
+refers to the City’s Building and Safety Department, or such other department as from
+time to time may be charged with the enforcement of the codes referred to in this Section,
+and the term “Director” refers to the director of the applicable department.
+
+All administrative items relating to Fire Prevention plan review, permits, and inspections
+shall comply with the currently adopted International Fire Code, any additional reference
+standards and ordinances adopted by the City’s Fire Code Official.
+
+SECTION 102 – APPLICATION TO EXISTING BUILDINGS AND BUILDING SERVICE
+EQUIPMENT
+
+102.1   General.     Buildings,  structures  and  their  building  service  equipment  to  which
+additions,  alterations     or  repairs  are  made  shall  comply  with  all  requirements  of  the
+International Existing Building Code         , except as provided in this code        .
+
+102.2 Existing Installations. Buildings and service equipment lawfully in existence at
+the time of the adoption of the current technical codes that were in compliance with the
+codes in effect at the time of construction continue to be in compliance unless altered by
+new construction, demolition, modification, or other codes or statutes.
+
+102.3   Existing Occupancy. Buildings in  existence at  the time of the adoption of the
+Building  Code  may  have  their  existing  use  or  occupancy  continued  if  the  use  or
+occupancy was in conformance with the codes in effect at the time of original construction
+or occupancy and provided continued use is not dangerous to life, health and safety.
+
+Whenever, it is determined that an existing building has not been issued a Certificate of
+Occupancy, the Building Official may require that the following steps be taken in order to
+determine a minimal level of compliance with the appropriate technical codes:
+
+1.  A permit application for a certificate of occupancy shall include the following:
+
+    a.  A plot plan drawn to scale;
+
+
+
+                                                                                                              2
+
+===== Page 5 =====
+    b.  A floor plan drawn to scale;
+
+    c.  A code analysis applicable to the code of origin as prepared by a registered design
+        professional.
+
+2.  Written  notice  to  the  owner,  representative,  or  tenant  identifying  deficiencies  in
+    compliance with the applicable codes in effect at the time the building was constructed
+    and  requiring  actions  may  be  taken  within  a  specified  time  to  address  such
+    deficiencies as approved by the Building Official. Additional plans, documentation, and
+    permits may be required as determined to be necessary by the Building Official to
+    address any code discrepancies with the code of origin.
+
+3.  In addition, the Building Official may also require that the use or occupancy of the
+    building be ceased pending the correction of deficiencies, but only where the Building
+    Official  determines  that  the  immediate  danger  to  the  public  so  requires.                   Upon
+    correction of the deficiencies, to the satisfaction of the Building Official, a Certificate
+    of Occupancy shall be issued.
+
+102.4   Maintenance.        Buildings,  structures,  pools,  spas,  signs,           and  building  service
+equipment, existing and new, and parts thereof shall be maintained in a safe and sanitary
+condition.   Devices  or  safeguards  which  are  required  by  the  technical  codes  shall  be
+maintained in conformance with the technical code under which installed. The owner or
+owner’s  designated  agent  shall  be  responsible  for  the  maintenance  of  buildings,
+structures  and  their  building  service  equipment.            To  determine  compliance  with  this
+section, the Building Official may cause a structure to be re-inspected.
+
+102.5   Moved  Buildings.         Buildings,  structures  and  their  building  service  equipment
+moved into or within the City shall comply with the provisions of the technical codes for
+new buildings or structures and their building service equipment.
+
+102.6 Temporary Structures. The Building Official is authorized to issue a permit for
+temporary structures and temporary uses.                Such permits shall be limited as to time of
+service  as  determined  by  the  Building  Official  up  to  and  including  180  days  or  as
+prescribed  by  the  City  of  Las  Vegas  City  Council  approval.              The  Building  Official  is
+authorized to grant extensions for demonstrated cause.
+
+Temporary  structures  and  uses  shall  comply  with  the  requirements  for  Temporary
+Structures and Uses in the adopted technical codes.
+
+Permits  for  structures     constructed  to  provide  safeguards  during  construction such  as
+pedestrian  walkways,  covered  walkways,  railings,  barriers,  or  fences  used  for  the
+protection of the public during permitted construction may, when approved by the Building
+Official,  continue  in  existence  until  such  time  as  related  construction  is  completed  or
+protection is not required.
+
+
+
+
+                                                                                                               3
+
+===== Page 6 =====
+Temporary structures shall be completely removed upon the expiration of the time limit
+stated in the permit.
+
+The Building Official is authorized to terminate such permit for a temporary structure or
+use and to order the temporary structure or use to be discontinued.
+
+102.7    Historic   Buildings.        Repairs,   alterations   and   additions   necessary   for   the
+preservation, restoration, rehabilitation or          continued use of a building, structure, or its
+building service equipment may be made without conforming to the requirements of the
+technical codes when authorized by the Building Official, provided:
+
+1.  The  building  or  structure  has  been  designated  by  official  action  of  the  legally
+    constituted   authority   of   the   City   as   having   special   historical   or   architectural
+    significance.
+
+2.  Unsafe conditions as described in this Code are corrected.
+
+3.  The restored building or structure and its building service equipment will be no more
+    hazardous based on life safety, fire safety and sanitation than the existing building.
+
+102.8   Professional  Office  Conversions.               Owners  of  single  family  residential  units
+located within an area zoned by the Department of Planning for office use may be eligible
+to  convert  the  residence  to  a  commercial  office  without  having  to  meet  all  of  the
+requirements for a change of occupancy as dictated by the International Existing Building
+Code. To be eligible, the following criteria must be met:
+
+1.  The building must have a building area of 2500 square feet or less, calculated using
+    the definition of “building area” contained in Chapter 2 of the International Building
+    Code, but not inclusive of parking garage or carport areas. All conversions larger than
+    2500  square  feet  shall  conform  to  the  new  construction  requirements  for  a  B
+    Occupancy.
+
+2.  No exterior wall of the building shall be closer than 5 feet from a lot line.
+
+3.  No part of the roof eaves or overhangs shall be closer than 36” from a lot line.
+
+4.  The aggregate area of window, door, wall and vent openings in exterior wall located
+    within 10 feet of a lot line shall not exceed 25% of the facing wall area.
+
+5.  All exterior walls of the building within 10 feet of a lot line              shall have their exterior
+    surfaces, excluding decorative trim, covered with a minimum of 2-coat stucco, brick,
+    brick or stone veneer, concrete masonry units or other non-combustible sheathing
+    material or fire protection methods as approved by the Building Official. These walls
+    shall have their interior wall surfaces coated with a minimum of ½” gypsum board or
+    gypsum panel.
+
+
+
+                                                                                                               4
+
+===== Page 7 =====
+6.  All of the requirements of the International Existing Building Code must be satisfied
+    for  accessibility,  including  accessible  exterior  routes  from  parking  spaces  to  the
+    interior  of  the  office  building.  All  interior  spaces  that  will  serve  the  public  must  be
+    provided  with  an  ICC/ANSI  117.1  accessible  interior  route  per  the  International
+    Building Code including common circulation areas, hallways and doorways.                         At least
+    one   fully  accessible  restroom  must  be  provided,  and  must  be  connected  to  the
+    accessible interior route. . Second story conversions of 2-story homes may be allowed
+    by the Building Official with full compliance of the accessibility standards.
+
+7.  All new work performed within the building must meet all of the requirements of the
+    currently adopted technical codes.
+
+
+SECTION 103 – DEFINITIONS
+
+For the purpose of this Code, certain terms, phrases, words and their derivatives shall be
+construed as specified in this section. Where terms are not defined, they shall have their
+ordinarily accepted meanings within the context with which they are used. Words used in
+the singular include the plural and the plural the singular. Words used in the masculine
+gender include the feminine and the feminine the masculine.
+
+ADDITION is an extension or increase in floor area or height of a building or structure.
+
+ALTER or ALTERATION is any construction or renovation to an existing structure other
+than repair or addition.
+
+APPROVED, as to materials, types of construction, equipment and systems, refers to
+approval by the Building Official as the result of investigation and tests conducted by the
+Building Official, or by reason of accepted principles or tests by recognized authorities,
+technical or scientific organizations.
+
+APPROVED  AGENCY              is  an  established  and  recognized  agency            or  person    regularly
+engaged  in  conducting  tests  or furnishing  inspections  services,  when  the agency  has
+been approved by the Building Official.
+
+APPROVED  CONSTRUCTION  DOCUMENTS                            are  construction  documents  that  have
+been reviewed and accepted for permit by the Building Official pursuant to this Chapter.
+
+APPROVED  FABRICATOR/MANUFACTURER                             means  a  company  that  constructs  or
+assembles standardized build          ing components into assemblies in an approved manner
+based  on  submittal  of  specified  documentation  and  successful  periodic  evaluation  for
+conformance  to  standard  operating  procedures  and  tests  such  that  the  company  is
+approved by the Building Official.
+
+
+
+
+
+                                                                                                             5
+
+===== Page 8 =====
+APPROVED PRODUCTS are products that are included on product listings from testing
+and listing agencies approved by the Building Official.
+
+APPROVED SPECIAL INSPECTOR is a special inspector who has been approved and
+listed by the Building Official pursuant to this Chapter.
+
+ARCHITECT   OR   ENGINEER   OF   RECORD                      means   the   Registered   Architect   or
+Registered Engineer is responsible for the coordination, continuity, and compatibility of
+each collaborating design professionals work (when retained by the Architect or Engineer
+of Record).
+
+BUILDING       is  a  structure  used  or  intended  for  supporting  or  sheltering  any           use  or
+occupancy.
+
+BUILDING  CODE is the International Building Code and the International Residential
+Code as promulgated by the International Code Council, as adopted by this jurisdiction.
+The  term  Building  Code  includes  any technical codes  and reference                  documents      and
+codes that have been adopted          formally or by reference.
+
+BUILDING, EXISTING is a building erected prior to the adoption of this Code, or one for
+which a legal unexpired building permit has been issued               by the department.
+
+BUILDING   OFFICIAL            means   the   designated   official   who   is   charged   with   the
+administration and enforcement of this Chapter and the technical guidelines. Within this
+Chapter, the term     “Building Official” may mean such employees who are appointed and
+authorized  by  the  Building  Of       ficial  pursuant  to  NRS  278.570(2)  to  assist  in  the
+performance of the duties of his position.
+
+BUILDING  SERVICE EQUIPMENT                   refers  to  the plumbing, mechanical,  electrical and
+elevator equipment including piping, wiring, fixtures and other accessories which                   provide
+potable water, sanitation, lighting, heating, ventilation, cooling, refrigeration, fire            -fighting
+and transportation facilities essential to the occupancy of the building or structure for its
+designated use and occupancy.
+
+CODE ENFORCEMENT AGENCY                     is the City’s Departments of Building and Safety and
+Planning Code Enforcement Division.
+
+CONSTRUCTION DOCUMENTS Written, graphic, and pictorial documents prepared or
+assembled for describing the design, location and physical characteristics of the elements
+of a project necessary for obtaining a building permit.
+
+CONSTRUCTION TRAILER or CONSTRUCTION OFFICES are intended to serve as
+temporary, on-site office and meeting space for contractors, subcontractors and other
+project representatives during, and related          to, the actual construction of a project. Con-
+struction trailers or construction offices do not include sales offices.
+
+
+
+
+                                                                                                            6
+
+===== Page 9 =====
+CORRECTION refers to changes made to construction documents during the plan review
+process, prior to the issuance of a permit.
+
+DANGEROUS BUILDING CODE is the Uniform Code for the Abatement of Dangerous
+Buildings promulgated by the International Code Council or its predecessor, as adopted
+by this jurisdiction.
+
+DEPARTMENT means the City of Las Vegas Department of Building & Safety.
+
+DEFERRED SUBMITTALS means those portions of the construction documents that are
+not submitted at the time of permit application and that are to be submitted to the Building
+Official within a specified time period. Deferral of any document must have prior approval
+of  the  Building  Official.  The  responsible  design  professional  shall  list  the  deferred
+submittals  on  the  construction  documents          and  complete  the  department’s  deferred
+submittal request form at the time of permit application for review by the Building Official.
+
+DESIGN  PROFESSIONAL              is  an  individual  who  is  licensed  by  the  State  of  Nevada
+pursuant to NRS Chapters 623, 623A, or 625.
+
+ELECTRICAL CODE is the National Electrical Code promulgated by the National Fire
+Protection Association, as adopted by this jurisdiction.
+
+FEE   SCHEDULE,   ADOPTED   FEE   SCHEDULE,                      or   CURRENT   ADOPTED   FEE
+SCHEDULE means one or more fee schedules or tables that are adopted in connection
+with Section 304 of this Code.
+
+FENCE means a structure of material such as wrought iron, wire, chain link, decorative
+metal, wood, screen, vinyl, plastic, etc…erected for purposes of enclosure, division of
+property or decoration.
+
+JURISDICTION, as used in this chapter, is the area within the incorporated boundaries
+of the City of Las Vegas.
+
+LISTED and LISTING are terms referring to equipment and materials which are shown in
+a list published by an approved testing agency qualified and equipped for experimental
+testing and maintaining an adequate periodic inspection of current productions and whose
+listing states that the equipment complies with recognized safety standards. .
+
+MANUFACTURED HOME as defined by NRS (NRS 489.113 “Manufactured home”)
+
+MECHANICAL CODE is the Uniform Mechanical Code promulgated by the International
+Association of Plumbing and Mechanical Officials, as adopted by this jurisdiction.
+
+MOBILE HOME as defined by NRS (NRS 489.120 “Mobile home”)
+
+MODULAR BUILDING as defined by NRS (NRS 461.143 “Modular building”)
+
+
+
+                                                                                                        7
+
+===== Page 10 =====
+NATIONALLY   RECOGNIZED   BODY                       is   an   organization   that   evaluates   testing
+laboratories and inspection agencies as well as fabrication and manufacturing facilities
+that produce products and services in accordance with the technical codes. A listing or
+report is published which details the products and services evaluated and any conditions
+or limitations placed on their use. The listing or report is subject to acceptance by the
+Building Official.
+
+OCCUPANCY          means the purpose for which a building, or           part thereof, is used or intended
+to be used. The term        “occupancy    ” as used in this Chapter shall include the building, or
+part thereof, housing the intended use.
+
+OCCUPANT         means the person who resides in and/or has primary use of a building or a
+portion of a building.
+
+OWNER is any person, agent, firm or              legal entity  having a legal or equitable interest in
+the property.
+
+OWNER/BUILDER            as defined in NRS 624.031(5)         .
+
+PERMIT      is   an   official   document   issued   by   the   Building        Department       authorizing
+performance of      a specified activity.
+
+PERSON       is  a  natural  person,  heirs,  executors,  administrators,  or  assigns,  and  also
+includes a firm, partnership or corporation, their successors or assigns, or the agent of
+any of the aforesaid.
+
+PLUMBING CODE            is the  Uniform Plumbin       g Code as promulgated by the International
+Association of Plumbing and Mechanical Officials, as adopted by this jurisdiction.
+
+QUALITY ASSURANCE AGENCY (QAA)                        means an approved organization that is in the
+business  of  providing  inspection,  testing  and             reporting  services  for  the  types  of
+construction and construction work that are regulated in the technical codes.
+
+QUALITY ASSURANCE AGREEMENT                         means an agre      ement between an owner           , or a
+design professional acting on behalf of that owner, and an approved Qua                      lity Assurance
+Agency  listing  the  types  of  construction  and  construction  work  required  to  be  verified
+through a special inspection process.
+
+REFERENCE CODES              are those codes or standards adopted by reference in either the
+Building Codes or Technical Codes.
+
+REPAIR is the reconstruction or renewal of any part of an existing building, structure or
+building service equipment for the purpose of its maintenance.
+
+REVIEWED  AND  ACCEPTED                  when  stamped  on  the  construction  documents  by  the
+
+
+
+                                                                                                              8
+
+===== Page 11 =====
+Building Official means the documents have been reviewed for conformance to applicable
+codes and regulations and are accepted for permit.
+
+REVISION      means  changes  made  to  the  approved  construction  documents  after  they
+have been reviewed, accepted, and permit issued by the Building Official.
+
+SALES TRAILER are those trailers which are intended to serve as temporary, office
+and sales space for customer sales during the construction of a project.
+
+SHALL means mandatory.
+
+STANDARD PLANS refer to construction documents for a dwelling,                       other buildings, or
+structures from which two or more are to be built without substantial modifications, as
+determined by the Building Official.
+
+STRUCTURE is that which is built or constructed, an edifice or building of any kind, or
+any piece of work artificially built up or composed of parts joined together in some definite
+manner.
+
+TECHNICAL  CODES            refer  to  those  codes  adopted  by  this  jurisdiction  containing  the
+provisions for design, construction, alteration, addition, repair, removal, demolition, use,
+location, occupancy and maintenance of buildings and structures and building service
+equipment herein defined, including but not limited to the adopted codes for plumbing,
+mechanical, electrical, energy conservation, etc. The technical codes definition includes
+those adopted codes by definition and any adopted reference documents or codes.
+
+TECHNICAL OFFICERS refer to those individuals employed by the Building and Safety
+Department  for  the  purposes  of  plans  examination,  plans  examination  supervisor,
+inspectors, inspection supervisors, managers and other department employees or those
+otherwise assigned or designated by the Building Official to enforce the provisions of this
+Code and the technical codes.
+
+VALUATION or VALUE, as applied to a building and its building service equipment, shall
+be the estimated cost to replace, newly construct, or remodel the building and its building
+service equipment in kind, based on current replacement, remodel, or new construction
+costs.
+
+WALL means a structure of stone, brick, masonry, concrete or other similar permanent
+material erected for purposes of enclosure, division of property or decoration.
+
+
+SECTION 104 – CONFLICTING PROVISIONS
+
+104.1   GENERAL.        When  conflicting  provisions  or  requirements  occur  between  this
+Administrative Code, the technical codes and other codes or laws; the most restrictive
+shall govern.
+
+
+
+                                                                                                          9
+
+===== Page 12 =====
+When   conflicts   occur   between   the   adopted   technical   codes   governed   by   these
+administrative provisions, those provisions providing the greater safety to life shall govern.
+In other conflicts where sanitation, life safety, or fire safety are not involved, the most
+restrictive provision shall govern.
+
+Where  in  a  specific  case  different  sections  of  the  technical  codes  specify  different
+materials,  methods  of  construction  or  other  requirements,  the  most  restrictive  shall
+govern.    When  there  is  a  conflict  between  a  general  requirement  and  a  specific
+requirement, the specific requirement shall be applicable.
+
+104.2 REFERENCED CODES AND STANDARDS. Where the extent of the reference to
+another code or standard includes subject matter that is within the scope of the adopted
+technical codes governed by these provisions, the requirements and/or provisions of this
+and the adopted technical codes governed by these provisions shall take precedence
+over the provision in the referenced code or standard.
+
+104.3 OTHER LAWS. The provisions of this Code and the adopted technical codes shall
+not be deemed to nullify any provisions of local, state or federal law.
+
+104.4   PARTIAL  INVALIDITY.           In  the  event  any  part  or  provision  of  this  Code  or  the
+adopted technical codes is held to be illegal or void, this shall not have the effect of making
+void or illegal any of the other parts or provisions of this Code or adopted technical codes.
+
+SECTION 105 – ALTERNATE MATERIALS, METHODS OF DESIGN AND METHODS
+OF CONSTRUCTION
+
+The provisions of the technical codes are not intended to prevent the use of any material,
+method of design or method of construction not specifically prescribed by the technical
+codes provided an alternate has been approved and its use authorized by the Building
+Official.
+
+The Building Official may approve an alternate, provided the Building Official finds that
+the proposed design is satisfactory and complies with the intent of the provisions of the
+technical codes and that the material, method or work offered is, for the purpose intended,
+at least the equivalent of that prescribed in the technical codes in suitability, strength,
+effectiveness, fire resistance, durability, performance, safety, sanitation, accessibility, and
+energy  efficiency.     Compliance  with  the  specific  performance-based  provision  of  the
+adopted technical codes, in lieu of the specific requirements of those codes may also be
+permitted as an alternative material, method of design or method of construction.
+
+The  Building  Official  shall  require  that  sufficient  evidence  or  proof  be  submitted  to
+substantiate the claims that may be made regarding the use of an alternative material,
+design method or method of construction. The details of an action granting approval of
+an alternate shall be recorded and entered into the files of the department.
+
+
+
+
+                                                                                                            10
+
+===== Page 13 =====
+Alternates are project-specific; approval of an alternate for one project does not constitute
+approval  of  the  alternate  for  any  other  project.          Approval  of  an  alternate  is  not  a
+modification of the adopted codes and standards.
+
+SECTION 106 – MODIFICATION
+
+Wherever  there  are  practical  difficulties  involved  in  carrying  out  the  provisions  of  the
+technical codes, the Building Official may allow modifications on an individual case-by-
+case  basis  where       strict  compliance      of  the  technical  codes       is  impractical  and     the
+modification is in conformity with the intent and purpose of the technical codes, and that
+such modification does not lessen health, life safety and fire safety requirements or any
+degree of structural integrity. The details of actions granting modifications, including any
+conditions of approval, shall be recorded and entered in the files of the department.
+
+SECTION 107 – TESTS
+
+Whenever there is insufficient evidence of compliance with the provisions of the technical
+codes or evidence that materials or construction do not conform to the requirements of
+the technical codes or in order to substantiate claims for alternative materials or methods
+of design and construction, the Building Official shall have the authority to require tests
+as evidence of compliance to be made at no expense to the jurisdiction. All costs of the
+required tests shall be paid by the owner or the owner’s authorized representative.
+
+Test methods shall be as specified by the technical codes or by other recognized test
+standards. In the absence of recognized and accepted test methods, the Building Official
+shall determine test procedures. Should the results of the tests exceed the expertise of
+the Building Official, the Building Official may require the owner or owner’s representative
+to pay the cost of a third-party selected by the Building Official to conduct an independent
+review of the test results.
+
+Tests shall be made by an approved agency. Reports of such tests shall be retained by
+the Building Official for the period required for the retention of public records.
+
+
+
+
+                                                Chapter 2
+
+                             ORGANIZATION AND ENFORCEMENT
+
+SECTION 201 – AUTHORITY
+
+201.1 Creation of the Enforcement Agency. The department of Building & Safety is
+hereby created and the official in charge thereof shall be known as the Building Official.
+
+201.2 General. Whenever the term or title “administrative authority,” “responsible official,”
+
+
+
+                                                                                                            11
+
+===== Page 14 =====
+“Building Official,” “chief inspector,” “code enforcement officer,”               “code official,” or other
+similar designation is used herein or in any of the technical codes, it shall be construed
+to mean the Building Official of the Building and Safety Department.
+
+SECTION 202 – POWERS AND DUTIES OF BUILDING OFFICIAL
+
+202.1 General. The Building Official is hereby authorized and directed to enforce all the
+provisions  of  this  Code  and  the  referenced  technical  codes.             For  such  purposes,  the
+Building Official shall have the powers of a law enforcement officer. The Building Official
+shall have the sole power and discretionary authority to render interpretations, to modify
+or to suspend portions of this Code and the referenced technical codes and to adopt and
+enforce   additional   rules,   regulations   and   guidelines,   policies   and   procedures
+supplemental  to  this  Code  and  the  referenced  technical  codes  as  may  be  deemed
+necessary  to  clarify  and  apply  the  provisions  of  this  Code  and  the  adopted  technical
+codes.
+
+202.2 Deputies. In accordance with prescribed procedures and with the approval of the
+appointing authority, the Building Official may appoint such number of technical officers
+and other employees as shall be authorized from time to time to carry out the functions
+of the Building Official.
+
+202.3   Right  of  Entry. When  necessary  to  make  an  inspection  to  enforce  any  of  the
+provisions of this Code and the technical codes, or when the Building Official, designated
+technical officers, or other employees has reasonable cause to believe that there exists
+in any structure, building or upon a premises a condition which is contrary to or in violation
+of  this  Code  which  makes  the  structure,  building  or  premises  unsafe,  dangerous  or
+hazardous, the Building Official, designated technical officers, or other employees may
+enter the building or premises at reasonable times to inspect or to perform the duties
+imposed by this Code, provided that if such structure, building or premises is occupied,
+that  credentials  be  presented  to  the  occupant  and  entry  requested.              If  such  structure,
+building or premises is unoccupied, the Building Official or designees shall first make a
+reasonable effort to locate the owner or other persons having charge or control of the
+structure, building or premises and request entry.              Should entry be refused, the Building
+Official shall have recourse to the r         emedies provided by law to secure entry including
+obtaining a warrant for entry and inspection           .
+
+202.4 Identification. The Building Official or other officers representing the department
+in an official status shall carry proper identification in the         performance of their duties.
+
+202.5 Stop Work Orders. Whenever the Building Official finds that any work is being
+done contrary to the provisions of this Code, the technical codes, or other pertinent laws
+or  ordinances  implemented  through  the  enforcement  of  this  Code  or  is  dangerous  or
+unsafe, the Building Official is authorized to order the work stopped by notice in writing
+served on persons engaged in the doing or causing such work to be done, and such
+persons shall forthwith stop the work until authorized by the Building Official to proceed
+with the work. Any person who continues any work or authorizes the continuation of any
+
+
+
+                                                                                                             12
+
+===== Page 15 =====
+work in or about the structure after having been served with a stop work order, except
+such work as that person has been directed by the Building Official to perform to remove
+a violation or unsafe condition, shall be subject to penalties as prescribed by law.
+
+202.6 Use and Occupancy. No building or structure shall be used or occupied and no
+change in the existing occupancy classification of a building or structure or portion thereof
+shall  be  made  until  the  Building  Official  has  approved  the  building  or  structure  for
+occupancy, either by means of a Certificate of Occupancy or Temporary Certificate of
+Occupancy,  or  by  the  approval  of  a final  inspection. The  issuance  of  a  Certificate  of
+Occupancy,  Temporary  Certificate  of  Occupancy  or  a  final  inspection  shall  not  be
+construed  as  an  approval  of  a  violation  of  the  provisions  of  this  Code,  the  adopted
+technical codes, reference codes or any ordinances or requirements of this jurisdiction.
+
+202.7 Changes in Use. Changes in the character or use of a building shall not be made
+except as specified in the International Existing Building Code, as adopted and amended
+by  the  City,  or  through  the  issuance  of  proper  building  or  technical  permits  and  the
+approval of a Certificate of Occupancy, Temporary Certificate of Occupancy or a final
+inspection by the Building Official.
+
+202.8 Occupancy Violations. When a building, structure, premises or building service
+equipment therein regulated by this Code and the technical codes is being used contrary
+to the provisions of such codes or in a dangerous or unsafe manner, the Building Official
+may order such use discontinued by legal notice as allowed by law, served on any person
+causing such use to be continued. Such person shall discontinue the use within the time
+prescribed by the Building Official after receipt of such notice.                Such person shall also
+make the structure, building, premises or building service equipment or portion thereof;
+comply with the requirements of such codes within the time prescribed by the Building
+Official. The Building Official may revoke or suspend the Certificate of Occupancy for a
+building occupancy in violation of this Code and/or the technical codes
+
+202.9 Authority to Disconnect Utilities. The Building Official shall have the authority to
+require  or  authorize  the  disconnection  of  any  utility  service  or  energy  supplied  to  the
+building, structure or building service equipment therein regulated by this Code or by the
+technical  codes,  in  case(s)        of  emergency(ies),  where  such  building,  structure  or
+equipment is an eminent hazard to life or property. The Building Official shall, whenever
+possible,   notify  the  serving  utility,  the  owner     and  the  occupant  of  the  building,  of  the
+decision to disconnect prior to taking such action, and shall notify by acceptable legal
+process, such utility, owner and occupant of such disconnection immediately thereafter.
+Such disconnection is also authorized in cases where a building or structure has been
+constructed, remodeled, repaired, energized or occupied in violation of this Code or any
+of the technical codes.
+
+Upon demand, the owner and/or occupant shall be granted an opportunity for an informal
+hearing before the Building Official
+
+202.10 Authority to Condemn Building Service Equipment. When the Building Official
+
+
+
+                                                                                                            13
+
+===== Page 16 =====
+determines that building service equipment regulated in the technical codes has become
+hazardous to life, health or property, or has become insanitary, the Building Official shall
+order by acceptable legal means that such equipment either be removed or restored to a
+safe  or  sanitary  condition,  as  appropriate.         The   notice  itself  shall  fix  a  time  limit  for
+compliance with such order. Defective building service equipment shall not be maintained
+after receiving such notice.
+
+When such equipment or installation is to be disconnected, a notice by acceptable legal
+process, of such disconnection and causes therefore shall be given be given within 24
+hours  to  the  serving  utility,  the  owner  and  occupant  of  such  building,  structure  or
+premises.
+
+When any building service equipment is maintained in violation of the technical codes
+and in violation of a notice issued pursuant to the provisions of this section, the Building
+Official shall institute appropriate action to prevent, restrain, correct or abate the violation.
+
+202.11 Connection after Order to Disconnect.                    Persons shall not make connections
+from  an  energy,  fuel  or     power  supply  nor  supply  energy  or  fuel  to  building  service
+equipment which has been disconnected or ordered to be disconnected by the Building
+Official or the use of which has been ordered to be discontinued by the Building Official
+until the Building Official authorizes the reconnection and use of such equipment.
+
+202.12    Liability.   The  Building  Official,  members  of  the  Board  of  Appeals,  technical
+officers, or other employees charged with the enforcement of this Code and the technical
+codes, acting in good faith and without malice in the discharge of his duties, shall not
+thereby be rendered personally liable for damages that may accrue to persons or property
+as a result of an act or omission in the discharge of the assigned duties. A suit brought
+against the Building Official or employee because of such act or omission performed by
+the Building Official or employee in the enforcement of the provisions of such codes or
+other pertinent laws or ordinances implemented through the enforcement of this Code or
+enforced by the code enforcement agency shall be defended by this jurisdiction until final
+termination  of  such  proceedings,  and  any  judgment  resulting  there  from,  shall  be
+assumed by this jurisdiction.
+
+This Code shall not be construed to relieve from or lessen the responsibility of any person
+owning, operating or controlling a building, structure or building service equipment therein
+for damages to persons or property caused by defects, nor shall the code enforcement
+agency  or  its  parent  jurisdiction  be  held  as  assuming  such  liability  by  reason  of  the
+inspection authorized by this Code or permits or certificates issued under this Code.
+
+202.13 Cooperation of Other Officials and Officers. The Building Official may request,
+and shall receive, the assistance and cooperation of other officials of this jurisdiction so
+far as is required in the discharge of the duties required by this Code or other pertinent
+laws or ordinances.
+
+
+
+
+
+                                                                                                            14
+
+===== Page 17 =====
+202.14 Substantial Compliance Standard. In the enforcement of the specific provisions
+of this Chapter and the technical codes, the Building Official authorized to grant minor
+variations from the strict application of the specific code provisions where, in the opinion
+of the Building Official, the work is in substantial compliance with the intent of the adopted
+codes and standards and these minor variations are warranted with no detriment to public
+safety.
+
+202.15 Contracting For Services. The Building Official may contract for plan review,
+engineering, permit-related and inspection services in accordance with                       the purchasing
+procedures of this jurisdiction pursuant to NRS 278.575.
+
+202.16    Peer  Review.        The  Building  Official  may  require  the  owner  or  the  design
+professional acting as the owner’s agent to engage an approved peer reviewer for plan
+review and engineering services purposes.
+
+202.17    Alternative  Plan  Review           or  Inspection  Services.          The  Building  Official  is
+authorized to establish programs to allow for           alternative plan review or inspection services
+to supplement those services provided             by the Building Official    , his technical officers, and
+other employees.       The requirements for qualific        ation and continued participation         shall be
+specified in guidelin    es authorized by the Building Official.
+
+202.18 Guarantee or Warranty.             The Building Official reviews and approves construction
+drawings and conducts periodic inspections of work in progress t                o verify that the approved
+plans and work inspected at specific points in time are in substantial compliance with the
+adopted technical codes.         The Building Official does not conduct continuous inspections
+of  work  in  progress.      Accordingly,  reviews,  approval        s  and  inspections  performed  by
+Building  Official  pursuant  to  this  code  do  not  create  any  guarantee  or  warranty  that
+buildings, structures, or service equipment have been constructed in total accordance
+with all the applicable provisions of the technical co           des.
+
+202.19    Emergency  Provision.           In  the  event  of  a  national,  state,  or  local  emergency
+declaration , the Building Official may suspend, waive, or augment the provision of this
+code and the technical codes as needed during the periods of emergency to                          protect the
+public.
+
+SECTION  203         –  UNSAFE  BUILDINGS,  STRUCTURES  OR  BUILDING  SERVICE
+EQUIPMENT
+
+Buildings  or  structures  regulated  by  this  Code  and  the  technical  codes  which  are
+structurally inadequate or have inadequate egress, or which constitute a fire ha                      zard, or
+are  otherwise  dangerous  to  human  life  are,  for  the  purposes  of  this  section,  unsafe
+buildings.   The  Building  Official  may  require  any  reports,  tests,  engineering  studies  or
+other documentation        as deemed necessary to determine the adequacy of the sa                    fety of a
+building  or  structure.     The  requirements  of  the  Uniform  Code  for  the  Abatement  of
+Dangerous  Buildings  as  adopted  and  amended  shall  also  be  used  to  determine  the
+adequacy  of  the  safety  of  a  building  or  structure.  Any  engineering,  testing,  studies,
+
+
+
+                                                                                                              15
+
+===== Page 18 =====
+reports, etc. required by the Uniform Code of the Abatement of the Dangerous Buildings
+or by the Building Official shall be done at no expense to the department or jurisdiction.
+Costs of any engineering, testing, studies, reports, etc. shall be paid by the owner or the
+owner’s representative. Should the evaluation of such engineering, tests, studies, reports,
+etc. exceed the expertise of the Building Official, the Building Official may require the
+owner or owner’s authorized representative to pay the cost of a third-party or peer review
+selected by the Building Official to conduct an independent review of the results.
+
+Building service equipment regulated by such codes, which constitutes a fire, electrical,
+or health hazard, or an unsanitary condition, or is otherwise dangerous to human life, for
+the purpose  of  this section,  is unsafe.        Use of  buildings,  structures  or building  service
+equipment  constituting  a  hazard  to  safety,  health  or  public  welfare  by  reason  of
+inadequate  maintenance, dilapidation,  obsolescence, fire  hazard, disaster,  damage  or
+abandonment is, for the purpose of this section, an unsafe use.
+
+Parapet  walls,  cornices,  spires,  towers,  tanks,  statuary  and  other  appendages  or
+structural members, which are supported by, attached to, or a part of a building which are
+in  a deteriorated  condition  or otherwise  unable  to  sustain  the design  loads  which  are
+specified in the Building Code are hereby designated as unsafe building appendages.
+
+Unsafe buildings, structures or appendages and building service equipment are hereby
+declared to be public nuisances and shall be abated by repair, rehabilitation, demolition
+or  removal  in  accordance  with  the  procedures  set  forth  in  the  Uniform  Code  for  the
+Abatement of Dangerous Buildings or such alternate procedure as may be adopted by
+this jurisdiction. As an  alternative,  the  Building  Official        may  institute  other appropriate
+action to prevent, restrain, correct or abate the violation.
+
+SECTION 204 – BOARD OF APPEALS
+
+204.1 Board of Appeals. The Board of Appeals is created to hear and decide appeals of
+determinations made by the Building Official or the Fire Marshal relative to the application
+and interpretation of the technical codes. The Board of Appeals is authorized to hear
+appeals relating to this Chapter and the technical codes, and to review proposed alternate
+materials and methods of construction when the matter is referred to the Board by the
+Building Official. Members of the Board of Appeals shall be appointed by the Las Vegas
+City Council and, except as provided in the following sentence, shall serve a term of four
+years, or until their successors are appointed. With regard to the initial board membership,
+four  members  shall  be  appointed  to  three-year  terms  and  the  remainder  to  four-year
+terms.   No member may  serve  more  than two  consecutive  full  terms.                  If  a person  was
+appointed to fill an unexpired term of more than two years, the person shall be deemed
+to have served a full term in filling that unexpired term. Members may be removed from
+office at any time by a majority vote of the City Council. Members shall serve without
+compensation. No member shall sit in judgment regarding any matter concerning which
+the member has a direct financial interest.
+
+204.2 Members. The members of the Board of Appeals shall be qualified by training and
+
+
+
+                                                                                                            16
+
+===== Page 19 =====
+experience  to  decide  matters  pertaining  to  building  construction  and  building  service
+equipment, including matters pertaining to fire protection systems and hazards of fire,
+explosion and other hazardous conditions. The members shall not be employees of the
+City  of  Las  Vegas,  although  the  Building  Official  and  Fire  Marshal  shall  serve  in  an
+advisory capacity as ex-officio, non-voting members as well as any technical officers the
+Building Official and/or Fire Marshall deem appropriate. The voting members of the Board
+of Appeals shall consist of the following:
+
+1.  Two general contractors – one commercial and one residential;
+
+2.  One electrical contractor or electrical engineer;
+
+3.  One mechanical or plumbing contractor or engineer;
+
+4.  One fire protection system contractor or engineer;
+
+5.  One lay member;
+
+6.  One architect registered by the State of Nevada;
+
+7.  One civil or structural engineer registered by the State of Nevada
+
+204.3 Procedures. The Board of Appeals may adopt rules and procedures for conducting
+its  hearings  and  investigations.  A  person  (the  appellant)  who  wishes  to  appeal  a
+determination of the Building Official or Fire Marshal to the Board of Appeals shall submit
+a written request for appeal to the Building Official or Fire Marshal, as applicable. The
+Building Official or Fire Marshal, as applicable, shall provide the appellant a copy of the
+guidelines  for  preparing  an  appeal  and  a  copy  of  any  Board-adopted  rules  and
+procedures. The appellant is responsible to prepare the written appeal in compliance with
+the  guidelines.    In  order  to  provide  for  timely  hearing  and  resolution  of  appeals,  the
+Building  Official  or  Fire  Marshal  shall  schedule  a  hearing  before  the  Board  upon  a
+determination of the Building Official or Fire Marshal that a written appeal is in substantial
+compliance with the Board guidelines for preparing an appeal. In addition to information
+and evidence submitted by the appellant, information and evidence may be submitted in
+support of the determination by the Building Official or Fire Marshal. The Board shall issue
+a written decision based on the evidence presented at the hearing. The decision shall be
+signed by the chairman of the Board and shall be filed with the Building Official or Fire
+Marshal, as applicable. A copy of the Board decision shall be delivered to the appellant
+by legally acceptable means.
+
+204.4 Limitation and Scope of Authority. The Board of Appeals shall not have authority
+relative to the interpretation of the administrative provisions of this Chapter or the adopted
+administrative provisions of the technical codes, nor shall the Board be empowered to
+waive any requirements of this Chapter or the technical codes.
+
+204.5 Tests. The appellant shall, at the appellant’s expense, cause to be performed and
+
+
+
+                                                                                                            17
+
+===== Page 20 =====
+produced any tests or research necessary to support appellant’s claims before the Board
+of Appeals and any tests or research as may be required by the Board in its investigation
+of claims of the appellant.
+
+
+204.6 Liability. No member of the Board of Appeals shall be personally liable for any
+damage that may accrue to persons or property as a result of any good faith act or any
+good faith act omission in the discharge of the duties specified herein. Any suit brought
+against the Board or any member thereof resulting from such act or omission performed,
+or  not  performed,  by  a  member  of  the  Board  acting  in  an  official  capacity  in  the
+performance of Board duties as specified in this Chapter shall be considered an act of the
+City and shall be subject to all applicable immunities and rights conferred by law upon the
+City, as well as subject to applicable City liability self-insurance or insurance coverage.
+
+204.7 Fees. In connection with any appeal under this Section 204, the appellant shall pay
+the applicable fees as set forth in the Fee Tables adopted under Section 304 of this Code,
+as adopted by the City.
+
+204.8 Appeals under the Fire Code. The Board of Appeals may function as the Board
+of Appeals under Section 108 of the International Fire Code (IFC), as adopted by the City.
+When functioning as such, the Board of Appeals shall follow and be subject to the rules
+and procedures that govern under, or have been adopted pursuant to, the IFC. Appeals
+taken under the IFC shall be subject to all applicable rules, limitations, procedures and
+fees that have been adopted under the IFC.
+
+SECTION 205 – VIOLATIONS
+
+205.1 VIOLATIONS. It shall be unlawful for a person, firm or other legal entity to erect,
+construct, enlarge, alter, repair, move, improve, remove, convert or demolish, equip, use,
+occupy  or maintain any  building,  structure  or building  service  equipment, or cause  or
+permit the same to be done in violation of this Code and the technical codes.
+
+205.2   NOTICE  OF  VIOLATION.            The  Building  Official     authorized  to  serve  a  notice  of
+violation, notice of correction, or a notice and order on the person responsible for the
+erection, construction, alteration, extension, repair, moving, demolition or occupancy of a
+building or structure in violation of the provisions of the adopted or referenced technical
+codes,  the  Uniform  Code  for  the  Abatement  of  Dangerous  Buildings,  International
+Property Maintenance Code, Uniform Housing Code or in violation of a detailed statement
+or a plan approved thereunder or in violation of a permit or certificate issued under the
+provisions  of  this  Code,  or  adopted  technical  codes.              Such  order  shall  direct  the
+discontinuance of the illegal action or condition and the abatement of the violation.
+
+205.3 PROSECUTION OF VIOLATION. If the notice of violation is not complied within
+the time prescribed by such notice, the Building Official is authorized to request the legal
+counsel of the jurisdiction to institute the appropriate proceeding at law or in equity to
+restrain, correct, or abate such violation, or to require the removal or termination of the
+
+
+
+                                                                                                            18
+
+===== Page 21 =====
+unlawful occupancy of the building or structure in violation of the provisions of this Code
+or the adopted technical or of the order or direction made pursuant thereto.
+
+
+205.4 VIOLATION PENALTIES. Any person who violates a provision or fails to comply
+with any of the requirements of this Code or the adopted technical codes or who erects,
+constructs, alters, demolishes, alters or repairs a building or structure in violation of the
+approved construction or demolition documents or directive of the Building Official or of a
+permit  or  certificate issued under        the  provisions  of  this  Code  shall  be  subject  to  the
+penalties as prescribed by law.
+
+
+
+
+                                                 Chapter 3
+
+                                   PERMITS AND INSPECTIONS
+
+SECTION 301 – PERMITS
+
+301.1   Permits  Required.        Except    as  otherwise  specified  in  this  section,  no  owner  or
+authorized agent shall cause any new building, structure, building service equipment or
+onsite improvement regulated by this Code or any of the technical codes to be erected,
+constructed,   enlarged,   altered,   repaired,   moved,   improved,   removed,   converted,
+demolished, change the occupancy of any existing building or structure or erect, install,
+enlarge, alter, repair remove, convert or replace any existing electrical, gas, mecha                    nical,
+or plumbing system, which the installation of is regulated by this Code or cause any such
+work described above to be done unless a separate, appropriate permit for each building,
+structure, building service equipment or onsite improvement has first                  been obtained from
+the Building Official.
+
+        Exception: Emergency repairs of b             uilding service equipment        may be repaired or
+        replaced without a permit        which is serving an occupied portion of the building              and
+        may be operated temporarily if a request for               a permit and an       inspection of that
+        replacement equipment has been filed with the Building Official not more than                         1
+        business day after such replacement work was completed and before any portion
+        of the building service equipment is concealed.
+
+Required permits and permit exemptions applicable to special events shall be as specified
+in the policy document titled      “Special Events Permits        ” developed and administered by the
+Building Official and the Fire Marshall.
+
+If work is commenced before a necessary and appropriate                    permit for the work has been
+obtained, the Building Official is authorized to charge an additional fee in the amount of
+the building permit fee on a graduated scale with double fees as a minimum depending
+on  the  number  of  offen    ses.  If technical  officer(s)    is(are)  required  to  inspect a  site, an
+
+
+
+                                                                                                             19
+
+===== Page 22 =====
+investigation  fee    shall  be  charged  in  addition  to  the additional graduated permit fees.
+Additional fees for compliance or investigations by other departments or agencies may
+apply. The graduated scale shall be as follows:
+
+        1st offense – Double Permit Fees plus an Investigation Fee
+
+        2nd offense – Up to Triple Permit Fees plus an Investigation Fee, the department
+        may send a notice of complaint to Nevada State Contractor’s board
+
+        3rd and subsequent offenses – Up to Quadruple Permit Fees plus an Investigation
+        fee, the department        may send notice of complaint to Nevada State Contractor’s
+        Board and refer the work without permit violation to Code Enforcement for citation
+        for further remedy.
+
+301.2 Licensing and Contractor              Requirements. Building permits shall not be issued
+for building work required to be performed by a licensed contractor under NRS Chapter
+624 unless the general contractor or applicant is appropriately licensed by the State of
+Nevada and has the appropriate business license issued or recognized by the City.                            A
+general contractor or design professional licensed by the State of Nevada to whom a
+permit is issued shall be responsible for all work authorized for the project and shall post
+at the job site a list of    all subcontractors doing work on the job with their names, their
+State  subcontractor’s  license  numbers  and  classifications  and  their  business  license
+numbers.     Mechanical,  electrical  and  plumbing  subcontractors  shall  register  with  the
+Department  when  all  p      ermits  have  been       obtained    by  the  general  contractor       prior  to
+scheduling  of  inspections      .  Contractor  and  subcontractors  shall  meet  all  applicable
+qualifications  and  requirements  described  in  the  technical  codes.               Applications  for  all
+building  permits  shall  in    clude  the  design  professional’s  and/or  contractor’s  license
+number, monetary limits, and licensed subcontractors and monetary limits.
+
+        NOTE: Additional licensing requirements concerning plumbing work are contained
+        in this chapter. Additional licensing requ        irements concerning mechanical work are
+        contained in    this chapter.
+
+
+301.4 Work Exempt from Permit.              Permits shall not be required for the following:
+
+        301.4.1 Building Permits Exemptions:
+
+        1.       Construction work on property owned by the United States or on property
+                 owned by any other governmental entity, to the extent exempted by State
+                 law.
+
+        2.       Amusement  devices  and  structures,  including  merry-go-rounds,  Ferris
+                 wheels,  rotating  conveyances,  slides  and  similar  devices,  and  any  other
+                 accessory structure consi       sting of a cover or roof whose use is necessary
+                 for  the  operation  of  any  such  device  or  structure  when  such  device  or
+
+
+
+                                                                                                             20
+
+===== Page 23 =====
+                 structure  is  used  for  less  than  30  days.        A  storage  building  or  detached
+                 structure that is not an integral part of an amusement device or structure
+                 does  not  qualify  as  an  exempt  accessory  structure  for  purposes  of  this
+                 paragraph. The exemption contained in this paragraph does not apply to
+                 any electrical, mechanical or plumbing work that is to be done in connection
+                 with amusement devices or structures that are to be used on a site.
+
+        3.       Oil derricks.
+
+        4.       Cases, counters, and partitions that do not exceed 5 feet 9 inches in height
+                 and not containing electrical branch circuits.
+
+        5.       Privately owned water tanks supported directly upon grade if the capacity
+                 does not exceed 5,000 gallons and the ratio of height to diameter or width
+                 does not exceed two to one.
+
+        6.       Platforms, walks, driveways, and similar exterior flatwork not more than 30
+                 inches above grade and not over any basement or story below, and are not
+                 part of an accessible route.
+
+        7.       Painting,  papering,  cabinets,  countertops,            and  similar  finish  work,      floor
+                 covering, except for trim and decorative work             .
+
+        8.       Temporary motion picture, television and theater stage sets and scenery.
+
+        9.       Window awnings supported by an exterior wall of a one-family or two-family
+                 dwelling,  or  an  accessory  structure,  when  projecting  not  more  than  54
+                 inches.
+
+        10.      Residential  television  or  radio  antennas  whose  height  design  does  not
+                 exceed 10 feet above the height of the tallest structure on the property, and
+                 so located that the distance to the nearest property line is equal to or greater
+                 than the total height of the antenna mast.
+
+        11.      Construction directly relating to the delivery of a utility service, built by a
+                 public  utility  company  operating  under  the  control  of  the  Public Utilities
+                 Commission. This exemption applies only to buildings, structures, or service
+                 equipment  that  is  directly  used  in  utility  generation or  distribution and  is
+                 installed on properly registered easements belonging to water, gas, power,
+                 telephone, or other utility companies governed under the State of Nevada
+                 Public Utilities Commission, another State agency, or a public franchise.
+                 This exemption does not apply to office buildings, grading, occupied support
+                 buildings and general site development.
+
+        12.      Any  portable  unit  refrigerating  system  (cooling  only)  as  defined  in  the
+                 Mechanical Code.
+
+
+
+                                                                                                              21
+
+===== Page 24 =====
+        13.      Any  wall,  including  a  retaining  wall,  that  is not  over 30  inches in height,
+                 measured from the low finished grade to the grade on the opposite side.
+                 This exemption does not apply to:
+
+                 a.      Any wall that supports a surcharge;
+
+                 b.      Any wall that retains flammable liquids; or
+
+                 c.      Any wall of combined materials that exceeds 30 inches in height.
+
+        14.      One-story detached single family residential accessory buildings used as
+                 tool and storage sheds, playhouses, and similar uses, provided the floor
+                 area does not exceed 200 square feet This exemption does not eliminate
+                 applicable zoning codes requirements.
+
+        15.      Temporary  grandstands,  bleachers,  viewing  platforms,  and  similar  uses
+                 mounted  on,  or  attached  to,  motor  vehicles  or  trailers  (including  stairs,
+                 ramps and similar access features serving such motor vehicles or trainers)
+                 used in conjunction with special events. Where deemed appropriate by the
+                 Building  Official,  reference  shall  be  made  to  the         policy  document  titled
+                 “Special Events Permits” developed by the Building Official.
+
+        16.      Tents and canopies erected for a period of 180 days or less.
+
+                         NOTE:      This  exemption      does  not  eliminate  applicable  fire  codes
+                         requirements.
+
+        17.      Temporary fences erected for a period of time as approved by the Building
+                 Official or 180 days as directed.
+
+        18.      On-ground storable pool as defined in the International Swimming Pool and
+                 Spa Code which is accessory to a single family dwelling and in which the
+                 pool walls are entirely above the adjacent grade.
+
+        19.      Portable spas, accessory to a single family residence with all heating and
+                 circulating  equipment  integral  to  the  manufacturing  product  and  entirely
+                 above the adjacent grade.
+
+        20.      Project  offices    including  construction  trailers      and  related  storage  sheds
+                 used for the purpose of the construction on an active construction project.
+
+        21.      Travel  trailers  and  recreational  vehicles,  or  other  axled  vehicles  as
+                 permitted or licensed by the State of Nevada.
+
+        22.      Livestock shade structures open on a minimum of three sides and not more
+
+
+
+                                                                                                            22
+
+===== Page 25 =====
+                 than 1,500 square feet in area.
+
+        23.      Non-motorized outdoor playground equipment.
+
+        24.      Storage racks and/or shelving less than or equal to 8 feet in height.
+
+        25.      Minor repair of interior or exterior stucco/lath/drywall, provided:
+
+                 a.  No framing needs replacement or repair; and
+
+                 b.  For stucco, the repaired area not exceed 32 square feet in area; and
+
+                 c.  The area of repair is not a fire-resistance rated assembly comprised of
+                     more than one layer of drywall on each side or any special material(s)
+                     necessary to maintain the required fire-resistance rating of the assembly
+                     (i.e. fire-stopping of penetrations.)
+
+        26.      Replacement of roof covering materials, other than tile roofing, provided no
+                 structural components are repaired or replaced and provided no more than
+                 64 square feet of roof sheathing is replaced.
+
+        27.      Repair or replacement of components of listed appliances.
+
+        28.      Replacement of exterior or interior doors, hinges, hardware and decorative
+                 trim related to such doors,  provided the following conditions are met:
+
+                 a.  The replacement door is of the same size and type.
+
+                 b.  The replacement door does not require any modification to existing wall
+                     framing.
+
+                 c.  The existing door is not a component of a fire-resistive rated construction
+                     element.
+
+        29.      Replacement of exterior or interior window glazing, provided the following
+                 conditions are met:
+
+                 a.  The  replacement  window          glazing  is  of  the  same  size  and  type  and
+                     thickness.
+
+                 b.  The replacement window does not require any modification to existing
+                     wall framing.
+
+                 c.  The  existing  glazing  is  not  a  component  of  a  fire-resistive  rated
+                     construction element.
+
+
+
+
+                                                                                                             23
+
+===== Page 26 =====
+30.     Installation of insulation on existing single-family residences                  where other
+        permits are not required;
+
+31.     Fencing not over 7 feet high except for those fences within the front setback
+        of a single family dwelling and those that are not a part of a pool or spa
+        barrier;
+
+32.     Temporary construction fences erected for the duration of the construction
+        or demolition activity. Such fences shall be removed upon completion of the
+        activity.
+
+33.     Minor  demolition       of  unpermitted     work    when  the  work  is      restored  to  the
+        previously permitted condition.
+
+34.     Repair of less than 32 square feet of stone or brick veneer when the damage
+        is less than 6 feet above adjacent grade.
+
+35.     Repair of block walls 6 feet in height or less and the repair is no greater in
+        length than 20 linear feet, provided there is no damage to existing footing.
+
+36.     Work required to render a building or structure stable following damage from
+        fire, wind, water, vehicle impact, or other causes and to clear the site of
+        damaged materials to allow inspection to ascertain the scope of required
+        repairs, when authorized by the Building Official.
+
+301.4.2 Grading Permit Exemptions:
+
+1.      Grading associated with agriculture within districts approved for agriculture.
+
+2.      Excavation for construction of a structure permitted under this code.
+
+3.      Excavation for Cemetery graves.
+
+4.      Earthwork   or   grading   for   refuse   disposal   sites   controlled   by   other
+        regulations.
+
+5.      Excavations for wells, septic systems, or trenches for utilities.
+
+6.      Mining, quarrying, excavation, processing or stockpiling rock, sand, gravel,
+        aggregate or clay controlled by other regulatory agencies  provided such
+        operations  do  not  affect  the  lateral  support  of,  or  significantly  increase
+        stresses in soil on adjoining properties.
+
+7.      Exploratory  excavations  performed  under  the  direction  of  a  registered
+        design professional.
+
+
+
+
+                                                                                                      24
+
+===== Page 27 =====
+        301.4.3 Plumbing Exemptions.
+
+          1.  The stopping of leaks in drain, soils, waste or vent pipe, provided, however,
+              that should any concealed trap, drainpipe, soil, waste or vent pipe become
+              defective and it becomes necessary to remove and replace the same with
+              new material, the same shall be considered as new work and a permit shall
+              be procured and inspection made as provided in this Chapter.
+
+          2.  The clearing of stoppages or the repairing of leaks in pipes, valves, or fixtures,
+              or for the removal and reinstallation of water closets, provided such repairs
+              do  not  involve  or  require  the  replacement  or  rearrangement  of  concealed
+              piping.
+
+          3.  Lift stations, septic tanks, and package plants regulated by the appropriate
+              serving sanitation utility.
+
+          4.  Automatic  fire  sprinkler  systems  not  part  of  or  connected  to  the  domestic
+              water system where appropriate permits from the Fire Department have been
+              obtained.
+
+          5.  Flammable or combustible pre-fabricated liquid storage tanks buried or above
+              ground which are regulated and inspected by the Fire Department and/or the
+              State of Nevada.
+
+          6.  Replacement of plumbing fixtures in the same location with a similar fixture
+              and materials provided no work is done other than the replacement of the
+              fixture, the tail piece and/or the trap and provided the work does not penetrate
+              fire-resistive rated construction, including a fire-resistive rated concrete slab.
+
+        301.4.4 Electrical Permit Exemptions.
+
+        1.       Portable  motors  or  other  portable  appliances             that  are  cord  and  plug
+                 connected, and permitted by the National Electrical Code.
+
+        2.       Temporary exterior holiday decorative lighting that is in compliance with all
+                 Municipal Code requirements.
+
+        3.       Repair or replacement of current-carrying parts of any switch, contactor or
+                 control device.
+
+        4.       Replacement of receptacles, but not the outlet box.
+
+        5.       Repair or replacement of any over current device of the required capacity
+                 in the same location.
+
+        6.       Repair or replacement of electrodes or transformers of the same size and
+
+
+
+                                                                                                            25
+
+===== Page 28 =====
+                                                       capacity for signs or gas tube systems.
+
+                                              7.       The wiring for temporary theater, motion picture, or television stage sets.
+
+                                              8.       Wiring  outside  of  buildings  installed  by  licensed  and  franchised  cable
+                                                       television, telephone, or buried cable installers.
+
+                                              9.       Power-limited wiring of 50 volts or less in or associated with single-family
+                                                       dwellings.
+
+                                              10.      Exposed surface-mounted power-limited wiring, low voltage devices, and
+                                                       data links.
+
+                                              11.      Replacement of luminaires, not to exceed the weight limits defined in Article
+                                                       314 of the National Electrical Code.
+
+                                              12.      Replacement of Variable Frequency Drive (VFD) units up to 50 HP or 100
+                                                       amperes and not part of a smoke control system.
+
+                                              13.      Power limited class 2 & 3 wiring not part of a fire warning system, control
+                                                       wiring for emergency power systems, or smoke control systems.
+
+                                              14.      The  repair  or  replacement  of  fixed  motors,  transformers  or  other  fixed
+                                                       approved appliances of the same type and rating in the same location.
+
+                                              15.      The  installation,  alteration  or  repair  of  electrical  wiring,  apparatus  or
+                                                       equipment  for  the  generation,  transmission,  distribution  or  metering  of
+                                                       electrical  energy  or  in  the  operation  of  signals  or  the  transmission  of
+                                                       intelligence by a public utility in the exercise of its function as a serving utility
+
+                                              301.4.5 Sign Permit Exemptions.
+
+                                              1.   Mobile or portable signs regulated by other codes.
+
+                                              2.   The changing of advertising copy or message on painted or printed sign theater
+                                                   marquees and similar signs specifically designed for use of replaceable copy.
+
+                                              3.   Maintenance activities related to signage to include only painting, repainting,
+                                                   exact replacement with approved flashers, lamps, bulbs, ballasts, neon tubing,
+                                                   starters,  neon  transformers,  wire  or  computer  components,  cleaning  or
+                                                   changing the copy unless a structural change is made.
+
+                                              4.   Memorial signs or tablets, names of buildings, and date of erection when cut
+                                                   into   any   masonry   surface   or   when   constructed   of   bronze   or   other
+                                                   noncombustible materials.
+
+
+
+
+                                                                                                                                                    26
+
+===== Page 29 =====
+                                             5.  Temporary signs for on-premises which are 300 square feet or less in area.
+
+                                             6.  Construction signs of 32 square feet or less.
+
+                                             7.  Temporary signs and lighting used for holiday decorations.
+
+                                             8.  Political signs.
+
+                                             9.  Public signs or notices, or any sign relating to an emergency.
+
+                                             10. Adhered Vinyl Signage.
+
+                                             301.4.6 Mechanical Permit Exemptions.
+
+                                             1.  Any closed system of steam, hot or chilled water piping within any heating or
+                                                 cooling equipment regulated by the Mechanical Code.
+
+                                                     EXCEPTION:        A building permit shall be required when seismic supports
+                                                     are required to be installed as part of the system.
+
+                                             2.  Replacement of any component part of assembly of an appliance which does
+                                                 not alter its original approval and complies with other applicable requirements
+                                                 of the technical codes.
+
+                                             3.  The repair or replacement of fixed motors or fixed approved appliances of the
+                                                 same type and rating in the same location.
+
+                                                     NOTE: Exemption from the permit requirements of this Code shall not be
+                                                     deemed to authorize any work to be done in violation of the provisions of
+                                                     the  technical  codes  or  any  other  City  ordinances  or other  department
+                                                     regulations.
+
+                                    301.5    Manufactured        Home  or  Modular  Building            Permits.    Manufactured  Housing
+                                    Installations are under the jurisdiction of the State of Nevada. The units shall bear a seal
+                                    from a recognized approval agency.
+
+                                         1.  Installation and Permit Requirements.
+
+                                             a.  Installation of manufactured housing shall be approved by, and comply with,
+                                                 the State of Nevada Division of Manufactured Housing Regulations and the
+                                                 Manufacturer’s Installation Instructions and Standards.
+
+                                             b.  A manufactured home may be located on a permanent foundation approved by
+                                                 the  Building  Official.  Submittal  requirements  for  the  permanent  foundation
+                                                 systems shall be the same as those required for site built construction.
+
+
+
+
+                                                                                                                                              27
+
+===== Page 30 =====
+        c.  All  building,  zoning,  public  works  and  other  applicable  approvals  shall  be
+            obtained prior to the issuance of a Manufactured Housing Permit
+
+
+
+
+    2.  Temporary Residential Use During Construction. Nothing in this Code or the
+        technical codes shall be deemed to prohibit any owner of a lot or parcel of land
+        from parking his own manufactured home or recreational vehicle thereon and living
+        therein. Before placing or parking the manufactured home or recreational vehicle,
+        the owner must:
+
+        a.      Obtain a building permit for a permanent residence to be located on the
+                same lot and for the owner’s use;
+
+        b.      Obtain a permit for the temporary placement of the manufactured home or
+                recreational vehicle; and
+
+        c.      Provide the proper sanitary facilities in the manner required by the Southern
+                Nevada Health District.
+
+        The period of occupancy may not exceed one year after the permit for temporary
+        placement is issued or the term of construction whichever is sooner. Upon written
+        request,  the Building  Official  may  grant  a  single  extension  of  time  of up  to  six
+        months.
+
+3.  Temporary Placement for Contractor/Security Purposes. Nothing in this Code or
+    the technical codes shall be deemed to prohibit the temporary placement of a modular
+    building for the use of a contractor engaged in construction work on the same parcel
+    of  land.   In  addition,  a    modular  building      may  be  temporarily  placed  upon  any
+    commercially  zoned  lot  or  parcel  of  land  to  be  used  for  security  purposes  when
+    approved by the Building Official. Any placement of a temporary modular building for
+    the purpose of living there shall be subject to the requirements concerning installation,
+    permitting,  and  time  limits  as  set forth  above. Any  such          modular building       shall be
+    properly installed and maintained in accordance with this subsection.
+
+4.  Temporary  Placement           for  Commercial  Operation.            Nothing  in  this   code  or    the
+    technical codes shall be deemed to prohibit a commercial operation from temporarily
+    operating within a manufactured building. The period of occupancy may not exceed
+    one year from the date of approval. The Building Official may, upon written request,
+    grant a single six-month extension, provided that a valid building permit is in force at
+    the time the extension.      Any such manufactured building shall be properly installed and
+    maintained in accordance with this          subsection.
+
+5.  Enforcement.
+
+    a.  Whenever the Building Official or his designee finds that a manufactured home or
+
+
+                                                                                                           28
+
+===== Page 31 =====
+        modular  building      has  remained  on  the  permit  holder’s  property  for  a  period  in
+        excess of the limits specified above, he may issue a                n acceptable legal notice to
+        comply to the property owner. The notice and order shall state the estimated cost
+        of removal, and provide that if the manufactured home                  or modular building is not
+        removed within (30) days from the date of notice.
+
+    b.  Any permit holder who believes that no violation described above has occurred
+        may, within 15 days after the date of the notice and order, apply in writing to the
+        Department  for  a  hearing.        The  Department  shall  forthwith  set  a  date  for  said
+        hearing, with at least five days written notice to the requesting party. The hearing
+        shall be conducted by the Building Official or his designee.
+
+    c.  The compliance order shall be stayed from the date a timely hearing request is
+        received by the Department until a decision is rendered by the Department, and
+        by the City Council in the event of a timely appeal of the Department’s decision.
+
+    d.  After the requested hearing, the Building Official may rescind, modify or affirm the
+        order of compliance.
+
+    e.  Within ten days after the date the Department’s decision is rendered, the permit
+        holder may, if dissatisfied, appeal to the City Council by filing a written notice of
+        appeal with the Department
+
+    f.  Upon   receipt   of   an   application   from   the   person   required   to   remove   the
+        manufactured  home         or  modular  building      and  an  agreement  by  such  person  to
+        comply with the order if allowed additional time, the Building Official or his designee
+        may, at his discretion, grant an extension of time, not to exceed an additional one
+        hundred and eighty (180) days, within which to remove the manufactured home or
+        modular building. The Building Official or his designee’s authority to extend time is
+        limited to the removal of the manufactured home or modular building and shall not
+        in any way affect the time to appeal the notice and order.
+
+    g.  After receipt of a notice and order to comply, the             property owner must, within the
+        time  limits  specified  above,  either  cause  the  manufactured  home                  or  modular
+        building   to  be  removed  or  pay  over  to  the       appropriate  department  the  cost  of
+        removal  after  said     manufactured  home         or  modular  building      is  removed  by  the
+        appropriate department. The Building Official or his designee may proceed by such
+        mode  as  is  deemed  convenient  to  cause  the  manufactured  home                     or  modular
+        building to be removed.        The Building Official      or his designee may, in accordance
+        with City contracting procedures, hire a private contractor to remove manufactured
+        home or modular building        .
+
+301.6 Building Relocation.
+
+    1.  In order to move any building or structure to or from a location within the City, a
+        permit must be obtained in advance. The application for a permit must describe
+
+
+
+                                                                                                             29
+
+===== Page 32 =====
+        the proposed new location for the building or structure. After a permit is issued, but
+        before  the  building  or  structure  is  moved,  the  applicant  must  schedule an
+        inspection of the building that is to be moved and the site from which it is being
+        moved. Field inspections may include, without limitation, the following items:
+
+            a.   Visible structural integrity of the structure.
+
+            b.   Required or proposed means of egress.
+
+            c.   Electrical wiring and grounding.
+
+            d.   Plumbing and gas line location, and compliance with applicable codes.
+
+            e.   Site safety, including the capping of lines, disconnection of electrical power,
+                 filling of holes, and removal of other potential hazards.
+
+        The  moving  of  buildings  shall  be         subject  to  the  requirements  (and  the  prior
+        approval, if applicable) of the Traffic Engineering Division of the Department of
+        Public Works, the Nevada Department of Transportation, and any other agency
+        having jurisdiction.
+
+    2.  With regard to any structure proposed to be moved to a location within the City,
+        whether it is proposed to be moved from another location within the City or from a
+        location outside the City, the application for a moving permit shall be accompanied
+        by an application for a building permit, including the submittal of plans of the type
+        and extent that would be required for the initial erection of that structure and comply
+        with current codes. The Department is authorized to require letters from design
+        professionals verifying structural integrity and compliance with the International
+        Energy Conservation Code. The review and approval of  those plans shall also
+        include and be subject to review and verification by the Department of Planning,
+        and the  Land  Development  Division  that  the  proposed  location  of  the building,
+        whether permanent or temporary, is permissible and appropriate under applicable
+        zoning and development regulations.
+
+301.7 Demolition Permits. A separate permit is required for each building, address or
+suite  at  which  demolition  is  to occur.      In  order  to  obtain  ERU  fixture  credits,  a      sewer
+investigation is required with the issuance of a demolition permit.
+
+            Exception:      A  demolition  permit  is  not  required  for  partial  demolition  work
+            performed in conjunction with remodeling, alteration, or repair of a structure for
+            which plans have been reviewed, approved, and a permit has been issued by
+            the Building Department for the proposed work. The demolition work must be
+            within the area of the scope of the new work.
+
+301.8 Change of Occupancy. A permit application for a change of occupancy when no
+work is required to be performed shall include the following:
+
+
+
+                                                                                                            30
+
+===== Page 33 =====
+    1.  A plot plan drawn to scale;
+
+    2.  A floor plan drawn to scale;
+
+    3.  A code analysis prepared by a State of Nevada registered design professional or
+        licensed contractor;
+
+The normal hourly plan examination fee shall be assessed for examination of the above
+listed documents.
+
+SECTION 302 – APPLICATION FOR PERMIT
+
+302.1 Application. To obtain a permit, the applicant shall submit an application for that
+purpose. Each application shall:
+
+    1.  Identify and describe the work to be covered by that permit.
+
+    2.  Describe the land on which the proposed work is to be done by legal description,
+        street address or similar description that will readily identify and definitely locate
+        the proposed building or work.
+
+    3.  Indicate the use or occupancy for which the proposed work is intended.
+
+    4.  Be accompanied by plans, diagrams, calculations and specifications, and other
+        data as required in this section.
+
+    5.  State the valuation of any new building or structure or any addition, remodeling or
+        alteration to an existing building.
+
+    6.  Be signed by the applicant, or by the applicant’s authorized agent.
+
+    7.  Give such other data and information as may be required by the Building Official.
+
+302.2 Submittal Documents. Plans, specifications, engineering calculations, diagrams,
+soil  investigation  reports,  special  inspection  and  structural  observation  programs  and
+other data shall constitute the submittal documents  and shall be submitted with each
+application for a permit. When such plans are not prepared by an architect or engineer,
+the  Building  Official  may  require  the  applicant  submitting  such  plans  or  other  data  to
+demonstrate that state law does not require that the plans be prepared by a                         State of
+Nevada   registered   design   professional.           The   Building   Official   may   require   plans,
+calculations    and  specifications  to  be  prepared  and  designed  by              a  State  of  Nevada
+registered design professional
+
+Documents submitted to Building Official for review are required to be stamped or sealed
+in compliance with applicable Nevada State law. Contractors shall provide the following
+
+
+
+                                                                                                            31
+
+===== Page 34 =====
+information on their plans and documents:
+
+
+
+1.  The signature of the licensee
+
+2.  The date of signing
+
+3.  The company or corporation they represent.
+
+4.  Contractor’s State license number
+
+        EXEMPTION:          The   Building   Official   may   waive   the   submission   of   plans,
+        calculations, construction inspection requirements and other data if it is found that
+        the nature of the work applied for is such that reviewing of plans is not necessary
+        to obtain compliance with this code or the technical codes.
+
+302.3 Information on Plans and Specifications. The plans and specifications shall be
+of sufficient clarity to indicate the location, nature and extent of the work proposed and to
+show in detail that the work will conform to the provisions of the technical codes and all
+relevant laws, ordinances, rules and regulations. Electronic submittals will be accepted
+per   State   of   Nevada   approved   guidelines   and   technological   capabilities   of                 the
+Department.
+
+302.4 Architect or Engineer of Record. When it is required that documents be prepared
+by an architect or engineer, the Building Official may require the owner to designate on
+the building permit application the architect or engineer of record. If the circumstances
+require, the owner may designate a substitute architect or engineer of record who shall
+perform all the duties required of the original architect or engineer of record. The Building
+Official shall be notified in writing by the owner if the architect or engineer of record is
+changed or is unable to continue to perform the duties.
+
+The architect or engineer of record shall be responsible for reviewing and coordinating all
+submittal documents prepared by others, including deferred submittal items, for continuity
+and compatibility with the design of the building.
+
+302.5   Deferred submittals. For the purposes of this section, deferred submittals are
+defined as those portions of the design which are not submitted at the time of application
+and which are to be submitted to the Building Official within a specified period.
+
+Deferral  of  any  submittal  items  shall  have  prior  approval  of  the  Building  Official.            The
+architect or engineer of record shall list the deferred submittals on the plans and shall
+submit the deferred submittal documents for review by the Building Official.
+
+Submittal documents for deferred submittal items shall be submitted to the architect or
+engineer of record who shall review them and forward them to the Building Official with a
+
+
+
+                                                                                                             32
+
+===== Page 35 =====
+notation indicating that the deferred submittal documents have been reviewed and that
+they have been found to be in general conformance with the design of the building. The
+deferred submittal items shall not be installed until their design and submittal documents
+have been approved by the Building Official.
+302.6 Inspection and Observation Program. When the special inspection required by
+Chapter 17 of the International Building Code, the architect or engineer of record shall
+prepare  an  inspection  program  which  shall  be  submitted  to  the  Building  Official  for
+approval prior to issuance of the building permit. The inspection program shall designate
+the portions of the work to have special inspection, the name or names of the individuals
+or firms who are to perform the special inspections and indicate the duties of the special
+inspectors.
+
+The special inspector shall be employed by the owner, the engineer or architect of record,
+or agent of the owner, but not the contractor or any other person responsible for the work.
+
+When structural observation is required by Chapter 17 of the International Building Code,
+the inspection program shall name the individuals or firms who are to perform structural
+observation and describe the stages of construction at which structural observation is to
+occur.
+
+SECTION 303 – PERMITS ISSUANCE
+
+303.1 Issuance. The application, plans, specifications, calculations and other data filed
+by an applicant for permit shall be reviewed by the Building Official. Such plans may be
+reviewed by other departments of this jurisdiction to verify compliance with any applicable
+laws under their jurisdiction. If the Building Official finds that the work described in an
+application for a permit and the plans, specifications, and other data filed conforms to the
+requirements  of  this      code  and  the  technical  codes  and  other  pertinent  laws  and
+ordinances, and that the fees specified in Section 304 have been paid, the Building Official
+shall issue a permit.
+
+When the permit is issued where plans are required, the Building Official shall approve in
+writing or stamp the plans and specifications as “Reviewed for Code Compliance,”                            or
+provide approval in a similar format in a digital media. Such plans and specification shall
+not be changed, modified or altered without authorization from the Building Official, and
+all work regulated by this Code shall be done in accordance with the plans.
+
+        303.1.1 Phased Design and Construction. The Building Official may authorize
+        projects to be constructed using a phased design and construction approach for
+        construction.     Final  authorization  of  projects  to  be  constructed  using  a  phased
+        design and construction approach shall be determined by the Building Official.
+
+        The  applicant  shall  furnish  all  information  as  may  be  required  by            the  Building
+        Official, including the following:
+
+        1.  Description of the project of the entire project to be constructed.
+
+
+
+                                                                                                            33
+
+===== Page 36 =====
+        2.  Descriptions of the land by parcel(s) on which the project is to be built;
+
+        3.  Proposed  phases  of  the  work  that  encompass  the  entire  proposed  project,
+            including percentage of work performed under each phase of the construction;
+
+        4.  The name of the person who will be responsible for coordinating the phased
+            design   agreement,   phased   design   permit   applications,   phased   design
+            revisions, correspondence, and meetings between the applicant’s organization
+            and the Department.
+
+        The  Plan  review  fee  associated  with  project  utilizing  a  phased  design  and
+        construction approach shall be assessed a 15% surcharge in addition to the plan
+        review  fees.     The  Building  Official  may  establish  guidelines  to  address  fees
+        associated with phased construction projects.
+
+        303.1.2 Plan Review in the Case of Code Updates. Plan reviews approved under
+        a particular edition of the technical codes are valid upon issuance of the required
+        permit(s). Where a permit expires in accordance with Section 303.4, the Building
+        Official may require the plans and technical documents to be updated to the current
+        adopted technical codes. Standard plan and phased projects may be issued under
+        the previous code edition where approved plans and permits have been issued
+        under the previous code and the standard plan or phased project is not suspending
+        or  abandoned  for  a  period  of  180  days.          The  Building  Official  is  authorized  to
+        establish specific rules regarding continuation of standard plans or phased projects
+        as necessary.
+
+303.2 Retention of Plans. Upon permit issuance, plans, specifications, and calculations,
+or other documentation        shall be retained by the Building Official for a period             determined
+by  the  City  Clerk  in  accordance  with       the  required  retention  schedule       ;  and  one  set  of
+approved plans, specifications, and calculations             or other documentation        shall be returned
+to the applicant and shall be kept on the site of the building or work at all times during
+which the work authorized thereby is in progress.
+
+303.3 Validity of Permit.        The issuance of a permit shall not be construed to be a permit
+for, or an approval of,     any violation of any of the provisions of this           code or the technical
+codes, or of any other ordinance of the jurisdiction.             Permits presuming to give authority
+to violate or cancel the provisions of this        code of other ordinances of the jurisdiction shall
+not be valid.
+
+The issuance of a permit based on plans, specifications and other data shall not prevent
+the  Building  Official  from  thereafter  requiring  the  correction  of  errors  in  said  plans,
+specifications and other data, or from preventing building operations being carried on
+thereunder when in violation of these codes or of any other ordinances of this jurisdiction.
+
+303.4   Expiration.      Every  permit  issued  by  the  Building  Official  with  respect  to  work
+
+
+
+                                                                                                             34
+
+===== Page 37 =====
+governed by the technical codes shall expire by limitation and become null and void if the
+building or work authorized by such permit is not commenced within 180 days from the
+date of issuance of such permit, as documented by a passed or partial-passed inspection.
+Each passed or partial-passed inspection will extend a permit by a period of 180 days.
+Major projects requiring quality assurance inspections may qualify as a passed inspection
+as determined by the Building Official.
+
+Any permittee holding an unexpired permit may apply for an extension of the time within
+which to commence work under that permit when the permittee is unable to commence
+work  within  the  time  required  by  this  Section  for  good  and  satisfactory  reasons.             The
+Building Official may extend the time for action by the permittee for a period not exceeding
+180 days upon written request by the permittee showing that circumstances beyond the
+control of the permittee have prevented action from being taken. An administrative fee as
+specified in the Adopted Fee Schedule will be charged for permit extensions. The Building
+Official may extend a permit more than once, at his or her sole discretion.
+
+In  order  to  renew  action  on  a  permit  after  expiration,  the  permittee  shall  request  the
+renewal in writing. Permits that have not expired but the expiration is eminent and the
+contractor has requested an extension of time may be renewed in accordance with the
+provisions of this section. The written request to renew shall include a justification for the
+extension and proposed timeline for completion of the project. An administrative fee in
+accordance with the Department’s Adopted Fee Schedule will be charged for each permit
+issued for the project that does not have a passed final inspection.
+
+Permits that have expired may be renewed after a request has been submitted for renewal
+with a justification and schedule for completion of the project as follows:
+
+1.  If the request occurs more than 180 days or less than 1 year from the issuance date
+    or  last  valid  inspection.      The  renewal  fee       shall   be  ½  of  the  original      building
+    inspection/permit fees plus an administrative fee in accordance with the Department’s
+    Adopted Fee Schedule.
+
+2.  If the permit renewal request occurs 1 year or more from the issuance date of the
+    permit  or  last  valid  inspection,  the  renewal  fee  shall  be              the   current   building
+    inspection/permit fees plus an administrative fee in accordance with the Department’s
+    Adopted Fee Schedule.
+
+3.  Permit renewal fees for final inspections only shall be assessed in accordance with
+    the department’s Adopted Fee Schedule, plus the administrative fee, not to exceed
+    the current building inspection/permit fee for the building or structure.
+
+Large projects that are determined by the Building Official to require extensive information
+and  research  to  determine  the  renewal  of  the  associated  permits  shall  be  charged  a
+“Research and Processing Fee,” in accordance with the Adopted Fee Schedule of the
+Department in addition to the renewal fees above. The determination of the need for this
+fee will be based upon size, cost, and complexity of the project.
+
+
+
+                                                                                                           35
+
+===== Page 38 =====
+Projects that have not progressed for a period of 2 years or more may require, at the
+discretion  of  the  Building  Official,  additional  evaluation  and  consideration  prior  to  the
+issuance of any permit to commence work. The additional evaluation may include, but is
+not  limited  to,  a  structural investigation  and analysis by  a  State  of  Nevada registered
+design  professional for the  integrity  of  the  structural components of the  building  in  its
+current state, destructive testing of certain concrete or masonry work associated with the
+building, soil compaction testing for settlement, evaluation of steel structural elements
+both within the existing structure and stored on-site, evaluation of mechanical, electrical
+and   plumbing   systems   by   appropriately             licensed   professionals,   and   any   other
+investigations and reports that the Building Official deems necessary to ensure the safety
+of the anticipated completion of the building. The owner shall pay all costs incurred to the
+Building and Safety Department in reviewing the required evaluations, investigations and
+reports.
+
+303.5   Suspension  or  Revocation.             The  Building  Official  may,  in  writing,  suspend  or
+revoke a permit issued under the provisions of this Code and the technical codes when
+the permit is issued in error or on basis of incorrect information supplied, or in violation of
+any ordinance or regulation or the provisions of these codes.
+
+A permit may be revoked when the work authorized by such permit is determined to be
+unsafe by the Building Official.
+
+
+SECTION 304 – FEES
+
+304.1 General. Fees shall be assessed in accordance with the provisions of this Section
+and the    Fee   Schedule adopted in connection with this Code, as amended by the City
+Council  from  time  to  time.      Entities   which  by  law  are  exempt  from         obtaining  building
+permits are not exempt from:
+
+1.  Any applicable impact fees, or fees for services provided, or any other development-
+    related fee, except to the extent provided by law;
+
+2.  Sewer connection fees.
+
+    304.1.1 Fee-Related Definitions For the purposes of this Section:
+
+    1.  “New construction” refers to new construction, remodels and additions relating to
+        the occupancies that are listed in Table No. 3-A, as adopted in connection with this
+        Administrative Code.
+
+    2.  “Included examination time,” means the amount of time (measured in hours and
+        fractions thereof) that the Building Official has estimated as necessary to compete
+        the  required  review  of  plans  by  Building  and  Safety  staff  for  compliance  with
+        applicable codes relating to the issuance of a building permit (plan examination).
+
+
+
+                                                                                                             36
+
+===== Page 39 =====
+        The plan examination fees that have been set with respect to any particular type
+        of project are deemed to entitle the applicant of that particular project to a level of
+        service  from  the  Building  and  Safety  Department  which  reflects  the                “included
+        examination time.” The estimated hours of plan examination time are represented
+        in the base plan check fee (calculated as the product of that number of hours and
+        applicable hourly rate).
+
+    3.  “Extraordinary examination time,” means the time necessary to conduct plan check
+        that is in excess of the “included examination time” for that project.
+
+    4.  “Included  inspection  time,”       means  the  time  (measured  in  hours  and             fractions
+        thereof)  that  the  Building  Official  has  estimated  as  necessary  to complete  the
+        required inspections of the on-site construction work for completion of the project
+        to a final Certificate of Occupancy or completion. The fees that have been set with
+        respect to any particular type of permit are deemed to entitle the applicant, of that
+        particular project to a level and service from the Building and Safety Department
+        which reflects the “included inspection time.” The estimated hours and minutes of
+        building inspection time are represented in the base fee (calculated as the produ                    ct
+        of that number of hours and the applicable hourly rate).
+
+    5.  “Extraordinary inspection time,” means the time necessary to inspect a project that
+        is in excess of the “included inspection time” for that project.
+
+304.2 Plan Examination Fees. The plans examination fee for each type of permit shall
+be provided as set forth in the Current Adopted Fee Schedule.
+
+        304.2.1 General Requirements
+
+        1.  No separate plan examination fee shall be charged for permits for electrical,
+            mechanical  or  plumbing  work  when  all              work  is  described  on  the  permit
+            application  and  provided  on  the  construction  documents  submitted.                   When
+            separate  permits  by  trade  area  are  requested,  plan  examination  fees  for
+            electrical, mechanical and plumbing work for each permit shall be as set forth
+            in the Current Adopted Fee Schedule.
+
+        2.  The plan examination fee for grading work shall be as set forth in the current
+            adopted Fee Schedule.
+
+        3.  If two or more buildings are to be built from a single model building plan without
+            substantial modifications, as determined by the Building Official, and the model
+            building  plan  is  submitted  by  a  building  contractor  while  the  Building  Code
+            under which the plans were approved by the Building Official are in effect, the
+            plan examination fees for each model building plan shall be charged per the
+            Current  Adopted  Fee  Schedule,  plus  an  administrative  fee  in  the  amount
+            specified in the Adopted Fee Schedule.
+
+        4.  Where plans are incomplete or are changed so as to require additional plan
+
+
+                                                                                                            37
+
+===== Page 40 =====
+            examination, an additional plan examination fee shall be charged at the rate
+            shown in the current adopted Fee Schedule. Additional plans examination fees
+            may be applied to each subsequent review after the second review as set forth
+            in the Current Adopted Fee Schedule.
+
+        5.  Where a permit has been issued, and subsequently the permittee requests a
+            change  in  the  plan  which  would  require  the  preparation  of  new  permit
+            documentation, along with any addition plan examination fees, an additional
+            administrative fee shall be charged in the amount as specified in the Adopted
+            Fee Schedule.
+
+        304.2.2    Expiration  of  Plan  Examination.          Applications  for  which  no  permit  is
+        issued within 180 days following the date of the most recently conducted technical
+        review shall expire by limitation, and plans and other data submitted for review
+        may thereafter be returned to the applicant or destroyed by the Building Official.
+        The Building Official may extend the time for action by the applicant for a period of
+        180  days  upon  written  request  by  the  applicant  showing  that  circumstances
+        beyond  the  control  of  the  applicant  have  prevent  action  from  being  taken.             An
+        application may only be extended once if this Code or any other pertinent laws or
+        ordinances  have  been  amended  subsequent  to  the  date  of  application.                     An
+        administrative fee and any other outstanding fees from the original submittal shall
+        be assessed in accordance with the Current Adopted Fee Schedule.
+
+        304.2.3 Substantial Redesign. Should a project be resubmitted that has been
+        substantially redesigned, the project may be charged a new full plan examination
+        fee. A partial plans exam fee may be assessed to a substantial redesign, where
+        the Building Official determines a full plan review fee is not warranted. Project may
+        be required to pay extraordinary examination time should the review exceed the
+        included examination time.
+
+304.3 Permit Fees. The fee for each permit shall be provided as set forth in the Current
+Adopted Fee Schedule.
+
+304.4 Investigation Fees: Work without a Permit
+
+        304.4.1 Investigation. Whenever work for which a permit is required by this Code
+        has been commenced without first obtaining a permit, a special investigation shall
+        be made before a permit may be issued for such work.
+
+        304.4.2 Fee. An investigation fee, in addition to the permit fee, shall be collected
+        whether or not a permit is then or subsequently issued. The investigation fee shall
+        be equal to the amount of the permit fee required by this Code. The minimum
+        investigation fee shall be the same as the minimum fee set forth in the Current
+        Adopted Fee Schedule. The payment of such investigation fee shall not exempt
+        an applicant from compliance with all other provisions of either this Code or the
+        technical codes nor from the penalty prescribed by law. Additional building permits
+
+
+
+                                                                                                          38
+
+===== Page 41 =====
+        as outlined in Section 301.1 of this Administrative Code may be imposed by the
+        Building Official.
+
+
+304.5 Fee Refunds
+
+        304.5.1 Fee Refunds. The Building Official may authorize refunding of a fee which
+        was erroneously paid. The Building Official may authorize the refunding of any fee
+        paid upon written request filed by the original permittee or designer not later than
+        180 days after the date of payment, except as described below. Administrative
+        fees and zoning plan check fees collected on behalf of the Planning Department
+        shall not be refunded.
+
+        304.5.2 Plan Examination Fees. The Building Official may authorize the refunding
+        of  not  more  than  80  percent  of  the  plan  examination  fee  paid  when  no  plan
+        examination time has been expended on the application. The Building Official shall
+        not authorize the refunding of any plan examination fee when any examination
+        time has been expended.
+
+        304.5.3 Permit Fees. The Building Official may authorize refunding of not more
+        than 80 percent of any permit fee paid when no work has been done or before any
+        inspection time has been expended under a permit issued in accordance with this
+        Code and when the request for a refund is received within 180 days of the payment
+        of any permit fees. The Building Official shall not authorize the refunding of any fee
+        paid when work has been performed or any inspection time has been expended.
+
+304.6 Fee Increases. Unless otherwise determined by future action of the City Council,
+and  as  authorized  by  NRS  354.59891, all  fees  set  forth  in the            Current   Adopted     Fee
+Schedule may be increased annually by a multiplier equal to the percentage increase in
+the Western Urban Non-Seasonally Adjusted Consumer Price Index, as published by the
+United States Department of Labor. Any determination to increase fees shall be within
+the discretion of the Building Official, taking into account Department needs, as well as
+fund-related and statutory considerations. The Building Official will establish a process
+for providing notice of any fee increase to individuals or groups representative of those
+who are subject to the payment of fees.
+
+304.7 Interpretation of Fee Tables. The Fee Schedule referred to herein is composed
+of Fee Tables 3-A through 3-H, which are attached to this Code and incorporated herein.
+In connection with certain items of work or construction (or combinations of such items),
+it may be necessary to consult more than one fee table in order to determine the amounts
+of all applicable fees. The determination of which fee table or fee tables apply in any
+particular case shall be within the discretion of the Building Official or his designee.
+
+SECTION 305 – INSPECTIONS
+
+305.1 Inspections. Construction or work for which a permit is required shall be subject
+to inspection by the Building Official and the construction or work shall remain accessible
+
+
+                                                                                                          39
+
+===== Page 42 =====
+and exposed for inspection purposes until approved by the Building Official. In addition,
+certain types of construction shall have inspection(s) as specified by Chapter 17 of the
+International Building Code. Approval as a result of an inspection shall not be construed
+to be an approval of a violation of the provisions of this Chapter or of other codes or
+regulations of the City of Las Vegas. Inspections purporting to give authority to violate or
+waive the provisions of this Chapter or of other codes or regulations of the City of Las
+Vegas shall not be valid.
+
+305.2 Inspection Access. It shall be the duty of the permit applicant to provide access
+to and means for proper inspection of the work. The permit applicant shall cause the work
+to be exposed for inspection purposes until approved by the Building Official. The Building
+& Safety Department and the City of Las Vegas shall not be liable for expenses incurred
+by the removal or replacement of any material required to allow inspection.
+
+305.3 Permit and  Approved Plans.               Work for which a permit is required shall not be
+commenced  until  the  permit  applicant  has  made  available  an  approved  permit  and
+approved construction documents on the premises and in such a position as to allow the
+Building Official convenient access and use.              These items shall be maintained in such
+location by  the  permit  applicant  until  final  approval  has  been  granted by  the  Building
+Official.
+
+305.4   Approval  Required.         All  work  for  which  a  permit  is  required  shall  not  be  done
+beyond  the  stage  indicated  in  each  successive  inspection  without  first  obtaining  the
+approval of the Building Official. The Building Official, upon notification, shall make the
+requested inspections and shall either indicate that portion of the work is satisfactory as
+completed or shall notify the permit holder or his agent wherein the work fails to comply
+with this Chapter. Any portions which do not comply shall be corrected and such portions
+shall not be covered or concealed until authorized by the Building Official. If the same
+inspection in a permit is resulted as failed for a correction not made based on the initial
+inspection,  an  inspection  re-fee       may  apply     as  set  forth  in  the   Current    Adopted     Fee
+Schedule. There shall be a final inspection and approval on all work before occupancy
+and use.
+
+305.5 Required Inspections. All work regulated by this Code and the technical codes
+must be inspected and approved before being covered or concealed, and finished work
+must be inspected and approved before occupancy.                  The absence of such indication shall
+not  be  deemed  to  waive  any  inspection  requirement.              Upon  notification,      the  Building
+Official shall make inspections         resulting in either    approval or failure to comply with this
+code or the technical codes, and          shall notify the permit holder or      their agent.
+
+        305.5.1 Building inspections shall include, but are not limited to the following:
+
+        1.  Foundation inspection. Inspected after excavations for footing are complete
+            and required reinforcing steel is in place. For concrete foundations, required
+            forms shall be in place prior to inspection. All materials for the foundation shall
+            be  on  the  job,  except  when  concrete  is  ready-mixed  in  accordance  with
+
+
+
+                                                                                                            40
+
+===== Page 43 =====
+            approved nationally recognized standards, the concrete need not be on the job.
+            When the foundation is to be constructed of approved treated wood, additional
+            inspections  may  be  required  by  the  Building  Official.          When  required,  a  pad
+            certification prepared by a registered design professional shall be submitted to
+            the Building Official at the time of foundation inspection.
+
+
+        2.  Concrete slab or under-floor inspection. Inspected after                     in-slab or under-
+            floor reinforcing steel, building service equipment, conduit, piping accessories,
+            necessary soil preparation,         and other ancillary equipment items are in place
+            but  before  any  concrete  is  placed  or  floor  sheathing  installed,  including  the
+            subfloor.
+
+        3.  Rough  Electrical, Plumbing,  and  Mechanical  Inspection. Inspected  after
+            walls  and  floor  and  roof/ceiling  construction  is  in  place,  rough  electrical
+            including  wiring,     boxes,  and  other  related  devices,  plumbing  top  out,  and
+            mechanical ductwork prior to the frame inspection.
+
+        4.  Frame inspection. Inspected after the floor, framing, fire blocking and bracing
+            are in place and all pipes, chimneys and vents are complete and the rough
+            electrical, plumbing, and heating wires, pipes, and ducts are installed.
+
+        5.  Lath, Gypsum board and Gypsum panel product inspection. Lath, gypsum
+            board,  and  Gypsum  panel  product  inspection  shall  be  made  after  lathing,
+            gypsum board, and gypsum panel products interior and exterior, are in place,
+            but  before  any  plastering  is  applied  or  gypsum  board  and  gypsum  panel
+            product joints and fasteners are taped and finished.
+
+                 Exception: Gypsum board and gypsum panel products that are not part of
+                 a fire-resistance-rated assembly or a shear assembly.
+
+        6.  Final Electrical, Plumbing, and Mechanical Inspection. Inspected after all
+            receptacle outlets, switches, switchgear, fixtures and equipment, plumbing and
+            mechanical equipment/fixtures are installed.
+
+        7.  Final inspection. Inspected after finish grading, final electrical, plumbing, and
+            mechanical  inspections  are  approved,              and  the  building  is  completed           in
+            compliance  with  all  technical  codes  and  approved  plans,                  and  ready  for
+            occupancy.
+
+        The Building Official may require additional inspections to ensure compliance with
+        the technical codes.
+
+        305.5.2 Required Pool/Spa Inspections shall include, but are not limited to the
+        following:
+
+
+
+
+                                                                                                            41
+
+===== Page 44 =====
+                305.5.2.1 Concrete Construction. The Building Official, upon receipt of an
+                inspection request, shall perform the following inspections of pools and spas
+                constructed of concrete:
+
+                1.   First  Inspection.     To  be  performed  when  excavation  and  reinforcing
+                     steel are complete with required shell bonding, piping, electrical conduit
+                     and light shells installed and stubbed out. Piping shall have a pressure
+                     test in accordance with the Pool Code.
+
+                2.   Pre-Plaster  Inspection. To be           performed when all underground and
+                     rough inspections are approved, bonding is complete, plumbing is com-
+                     plete and the final plumbing inspection is approved. All electrical equip-
+                     ment shall be installed and conductors terminated. Dead fronts are to be
+                     labeled and access barrier complete. Additionally, for private pools and
+                     spas, all safety requirements (alarms or secondary barrier) are complete
+                     and operational.
+
+                3.   Final Inspection. To be performed when the pool and site drainage are
+                     complete. All electrical shall be complete and the GFCI accessible and
+                     operational. The pool/spa shall not be used until an approved final in-
+                     spection has been completed.
+
+                305.5.2.2 Manufactured Pools and Spas shall include, but are not limited
+                to the following:
+
+                1.   First Inspection. To be performed when excavation is complete with
+                     pool in place and bonding and access barrier complete. All plumbing
+                     piping shall be installed, including gas piping. Piping shall have a pres-
+                     sure  test  in  accordance  with  the  Pool  Code.  Additionally,  for  private
+                     pools and spas, all safety requirements (alarms or secondary barrier)
+                     are complete and operational.
+
+                2.   Pre-Deck Inspection. To be performed when soil is prepared for deck.
+                     Reinforcement, if required by an approved listing agency report, shall be
+                     installed  and bonded. Plumbing  and electrical  equipment  shall be  in-
+                     stalled, with all piping and conduit complete, conductors terminated and
+                     dead fronts labeled.
+
+                3.   Final  Inspection.     To be performed when pool and site drainage are
+                     complete. All electrical shall be complete and the GFCI is accessible and
+                     operational. The pool/spa shall not be used until an approved final in-
+                     spection has been completed.
+
+        305.5.2.3 Required Electrical Inspections shall include, but are not limited to the
+        following:
+
+
+
+
+                                                                                                           42
+
+===== Page 45 =====
+        1.  UFER (Concrete-Encased Electrode) Inspection: To be performed before
+            building foundation inspection and prior to foundation being poured.
+
+        2.  Underground Electrical Inspection: To be performed before the building con-
+            crete slab or under-floor inspection. Inspection to be performed after all in-slab
+            or underfloor building service equipment items are in place but before any con-
+            crete is poured or floor sheathing is installed, including the subfloor.
+
+        3.  Rough Electrical Inspection: To be performed before the building framing in-
+            spection and after the initial installation of the electrical equipment and conduit
+            or wiring.
+
+        4.  Final Electrical Inspection: A final electrical inspection is required when the
+            work is completed, but prior to use or occupancy.
+
+        The Building Official may require additional inspections to ensure compliance with
+        the technical codes.
+
+        305.5.2.4 Required Plumbing Inspections shall include, but are not limited to the
+        following:
+
+        1.  Underground Plumbing Inspection: To be performed before the building con-
+            crete slab or under-floor inspection. Inspection to be performed after trenches
+            are excavated, bedded, piping installed, and before backfill is put in place.
+
+        2.  Rough Plumbing          Inspection: To be performed before the building framing
+            inspection and after walls and floor and roof/ceiling construction prior to the
+            installation of wall or ceiling membranes.
+
+        3.  Final Plumbing Inspection: A plumbing electrical inspection is required when
+            the work is completed.
+
+        The Building Official may require additional inspections to ensure compliance with
+        the technical codes.
+
+        305.5.2.5 Required Mechanical Inspections shall include, but are not limited to
+        the following:
+
+        1.  Underground Mechanical Inspection: To be performed before the building
+            concrete  slab  or  under-floor  inspection.  Inspection  to  be  performed  after
+            trenches are excavated, bedded, piping installed, and before backfill is put in
+            place.
+
+        2.  Rough Mechanical Inspection: To be performed before the building framing
+            inspection and after walls and floor and roof/ceiling construction prior to the
+            installation of wall or ceiling membranes.
+
+
+
+                                                                                                           43
+
+===== Page 46 =====
+        3.  Final Mechanical Inspection: A final mechanical inspection is required when
+            the work is completed.
+
+        The Building Official may require additional inspections to ensure compliance with
+        the technical codes.
+
+
+305.6   Other Inspections.
+
+
+1.  General.    In addition to the inspections required elsewhere in this Chapter, certain
+    types  of  work  shall  have  special         inspections.     The  special  inspections  shall  be
+    conducted by the Building Official or by an approved Quality Assurance Agency, as
+    directed by the Building Official.
+
+2.  Special  inspections  by  an  Approved  Agency.                 When  special  inspections  by  an
+    Approved Agency are required, the owner or the design professional acting as the
+    owner’s agent shall employ an Approved Agency. The Approved Agency shall provide
+    special  inspections  in  accordance  with  the  special  inspection  agreement  and  as
+    required by the technical codes. No changes of the Approved Agency shall be made
+    without approval of the Building Official. Project designated by the Building Official as
+    requiring special inspection by an Approved Agency shall not be issued a permit until
+    the special inspection agreement is executed by the owner, or design professional.
+    The Approved Agency shall notify the Building Official of commencement of special
+    inspection activities by filing of a Project Startup & Notification form.
+
+3.  Special Inspection by Other Than an Approved Agency. Upon approval by the
+    Building  Official,  others  persons may  provide  special  inspection(s)  in  the following
+    cases:
+
+    a.  Steel Fabrication in non-approved facilities may be authorized through a FAB-S
+        Agency.     FAB-S  is  a  Clark  County  approval  category  for  a                structural  steel
+        fabricator/manufacturer  facility  under  either  auditing  or  inspection.             The  FAB-S
+        Agency is not required to be an Approved Agency.
+
+    b.  Where   the   required  special   inspection   is   to  be   performed  by   the   design
+        professional  responsible  for  the  construction  documents  as  approved  by  the
+        Building Official pursuant to this Chapter; or
+
+    c.  Where,  in  the  opinion  of  the  Building  Official,  the  nature  of  the  work  requires
+        inspection by a person having certain technical knowledge and skill to inspect and
+        test a specialized type of work for which the Approved Agency may not be qualified
+        or authorized to inspect. In such cases, the Building Official may approve other
+        persons to perform the required special inspection.
+
+
+
+
+                                                                                                            44
+
+===== Page 47 =====
+4.  Failure to Perform Special Inspections. If the Building Official determines that an
+    approved special inspector is failing to properly perform special inspection services,
+    or  that  an  unapproved  special  inspector  performed,  or  is  performing,  special
+    inspection services, the Building Official may order a re-inspection of the work by an
+    approved  special  inspector.        The  Building  Official  may  order  an  evaluation  of  the
+    construction  and  a  recommendation  of  the  required  special  inspections  by  the
+    registered design professional responsible for the work for which special inspection is
+    required, and/or may order the work to be stopped. When work is stopped, work may
+    resume upon written agreement between the Quality Control Manager of the Quality
+    Assurance Agency, the owner, the contractor, and the Building Official.
+
+    If the Building Official determines that the owner has made changes to the Approved
+    Agency without prior approval after the work has commenced, the Building Official
+    may order the work to be stopped. Work may resume upon submittal of a compliance
+    report or evidence that the work completed prior to the agency change complies with
+    the approved construction documents.
+
+
+5.  Subcontracted  Inspection.            The  Approved  Agency  designated  on  the  special
+    inspection agreement may subcontract special inspection services to other approved
+    agencies. The Approved Agency is responsible for overall coordination and issuance
+    of the final report. The Approved Agency and the subcontracted agency shall notify
+    the  Building  Official  in  writing.   The  written  notification  shall  identify  the  Approved
+    Agency,  the  subcontracted  agency,  and  the  division  of  scope  of  work  prior  to
+    commencement of the work. The engineering manager of the Approved Agency shall
+    provide a written declaration that they are in responsible charge of all subcontracted
+    special inspections. The Approved Agency is responsible for notifying the Building
+    Official in writing of any changes in the designated subcontracted agencies.
+
+6.  Special  Inspection  Requests.           Special  inspections  requests  shall  be  coordinated
+    between the designated Approved Agency and the contractor. The permit applicant is
+    responsible  to  establish  and       maintain    communication  with  the  special  inspectors
+    throughout  the  construction  process.         The  permit  applicant  shall  provide  sufficient
+    notice to the Approved Agency to schedule special inspection services. Construction
+    is  subject   to  stop  work  for  failure  to  establish  and  maintain  the  required  special
+    inspection process. The permit applicant shall verify that the Approved Agency has
+    the most current set of approved construction documents.
+
+7.  Special Inspection Agreement. The Approved Agency shall submit a final report to
+    the  Building  Official    stating   all  work   requiring   special  inspection  was  inspected,
+    reported, and found to be incompliance with the approved construction documents
+    and the technical codes. Final reports shall not be submitted to the Building Official
+    until all non-compliances have been cleared or exceptions taken and documented as
+    being  acceptable  to  the  Building  Official.      Final  reports  shall  include  all  inspection,
+    testing, and related engineer-signed reports. Final reports must be reviewed by and
+    be stamped or sealed in accordance with applicable Nevada state law. The stamp and
+
+
+
+                                                                                                           45
+
+===== Page 48 =====
+    original  signature  shall  be  on  a  cover  letter  which  certifies  the  required  special
+    inspections   were   completed,   or   exceptions   taken   and   documented   as   being
+    acceptable to the Building Official.
+
+8.  Maintenance of Records. Approved agencies shall maintain records of all inspection
+    reports,   laboratory   test   results,   and   other   documents   generated   during   the
+    performance of inspections, material testing, and other related activities on a project.
+    Those records shall be maintained by the approved agencies for a period specified by
+    the applicable referenced standards, but not less than two years from the date the
+    final reports were documented as approved.
+
+
+SECTION 306 – CONTRACTORS’ RESPONSIBILITIES
+
+306.1 Contractors’ Responsibilities. Each contractor to whom a permit is issued pur-
+suant to this Chapter shall have the following responsibilities:
+
+1.  Quality Control Agreement. A quality control agreement between the Building Offi-
+    cial and the Contractor may be required on permits. When required the general con-
+    tractor shall designate a prime agency to provide quality control and document the
+    results for the Building Official.
+
+2.   Duties. Each contractor possessing an appropriate and valid master or qualified in-
+    dividual certification, or employing an individual who possesses either the master or
+    qualified individual certification, shall, at all times, be responsible for the proper super-
+    vision and inspection of the work and to perform the work in compliance with the ap-
+    proved construction documents and technical codes.
+
+3.  Competent Employees. No person shall engage in the installation, alteration, or con-
+    struction of any work, devices, fixtures, appliances or equipment inside or outside of
+    any building without possessing the appropriate category of business license and pos-
+    sessing or employing an individual with the appropriate master or qualified person
+    certification as required by this section and issued or approved by City of Las Vegas.
+    The contractor is responsible to hire competent employees to perform all work.
+
+         a.  Master or Qualified Employees. The contractor is responsible to employ at
+             least one master or qualified individual of the appropriate category to perform
+             the duties of a master or qualified individual for permits involving electrical,
+             plumbing,  wood       framing  or  mechanical  work.  Upon  written  request  by  the
+             Building  Official,  the     contractor  shall  provide  a  written  listing  of  master
+             plumber(s),  master        electrician(s),  plumbing  qualified  individuals,  electrical
+             qualified individuals, mechanical qualified individuals, wood framing qualified
+             individuals and other employees with their respective certification qualification
+             control numbers and issuing agency, by each job or permit in effect.
+
+
+
+
+
+                                                                                                            46
+
+===== Page 49 =====
+         b.  Supervision On-site. For every building construction job site, at which there
+             is plumbing, electrical or wood framing work or mechanical work of residential
+             or light frame construction being performed under a permitted scope of work,
+             the contractor shall have one or more of the following persons present during
+             work hours in a supervisory capacity for the permitted work:
+
+
+
+
+
+            i. Plumbing Work
+
+                    1.  A master plumber or plumbing qualified individual; or,
+
+                    2.  A journeyman plumber.
+
+           ii. Electrical Work
+
+                    1.  A master electrician or electrical qualified individual; or,
+
+                    2.  A journeyman electrician.
+
+           iii.  Mechanical Work
+
+                    1.  A mechanical qualified individual; or,
+
+                    2.  A journeyman HVAC mechanic.
+
+          iv.   Wood Framing Work
+
+                    1.  A journeyman wood framer
+
+
+
+SECTION 307 – CONNECTION TO UTILITIES
+
+307.1 Energy Connections. Persons shall not make connections from an energy source,
+fuel or power to building service equipment which is regulated by the technical codes and
+for which a permit is required by this Code, until approved by the Building Official.
+
+307.2   Temporary  Connections.            The  Building  Official  may  authorize  the         temporary
+connection of the building service equipment to the source of energy, fuel or power for
+the purpose of testing building service equipment, or for use under a temporary Certificate
+of Occupancy.
+
+307.3 Construction Power.           The Building Official may       authorize temporary construction
+power.
+
+
+                                                                                                          47
+
+===== Page 50 =====
+307.4   Revocation  of  Temporary  Connection  or  Construction  Power.                          Temporary
+connections of construction power may be revoked, upon written notice, for the use of
+temporary construction power for permanent occupancy, and may be revoked with or
+without notice for tampering with the electrical service panel in violation of the National
+Electrical Code and utility company requirements, or in the event work is suspended or
+abandoned as described in Subsection 303.4.
+
+SECTION 308 – CERTIFICATE OF OCCUPANCY
+
+308.1 Use or Occupancy. Except as otherwise provided in this section, no building or
+structure  shall  be  used  or  occupied,  and  no  change  in  the  existing  occupancy
+classification of a building or structure or portion thereof shall be made, until the Building
+Official has issued a Certificate of Occupancy therefor as provided herein. Issuance of a
+Certificate  of  Occupancy  shall  not  be  construed  as  an  approval  of  a  violation  of  the
+provisions of this Code or of other ordinances or codes adopted by this jurisdiction.
+
+308.2 Certificate Issued.        After the Building Official inspects a building or structure and
+finds no violations of the provisions of this Code or other laws which are enforced by the
+code  enforcement  agency,          and  after  receiving  verification  from  the  sewage  disposal
+authority and the water purveyor that all off           -site and on-site sewer and water facilities
+necessary  for  the  permitted  use  or  occupancy  have  been  placed  in  service  by  the
+authority having jurisdiction     , respectively,    the Building Official shall issue a Certificate of
+Occupancy which shall contain the following:
+
+    1.  The building permit number.
+
+    2.  The address of the building or structure.
+
+    3.  The name and address of the owner.
+
+    4.  A description of that portion of the building, or tenant name, for which the certificate
+        is issued.
+
+    5.  The edition of the code under which the permit was issued.
+
+    6.  The type of construction of the building or structure.
+
+    7.  The use and occupancy in accordance with the code in effect at the time that the
+        certificate was issued.
+
+    8.  The occupancy load of the building or structure.
+
+    9.  The area of building or structure.
+
+    10. A  statement  that  the  described  portion  of  the  building  or  structure  has  been
+
+
+
+                                                                                                             48
+
+===== Page 51 =====
+        inspected for compliance with the requirements of this Code for the group and
+        division for which the proposed occupancy is classified
+
+    11. Date of issuance.
+
+    12. The name and signature of the Building Official.
+
+    13. Any special stipulations or conditions required by the Building Official.
+A Final Inspection shall be considered to be equivalent to the Certificate of Occupancy
+for any building classified in occupancy group U.
+
+Where it has been determined that the current use or occupancy of an existing building
+has changed to a more hazardous use or occupancy of an existing building has changed
+to a more hazardous use or occupancy from the original construction, the Building Official
+may  require  that  a  new  Certificate of Occupancy  be obtained  in  accordance  with  the
+applicable provisions of this Code as determined by the Building Official.
+
+Based  upon  the  provisions  of  this  section,  the  use  of  the  building  by  the  present
+occupancy may continue while the above activities are performed when approved by the
+Building Official. However, any immediate danger to public safety that is identified upon
+the  property  may  require  a  cessation  of  use  or  occupancy  of  the  property  until  such
+deficiency is corrected.
+
+308.3 Certificate of Occupancy for Existing Buildings.
+
+    308.3.1  Where  Permit(s)  Has           Been  Issued.       For  the  purposes  of  this  Code  and
+    associated  technical  codes  whenever  an  existing  building  is  determined  to  have
+    received  a  building  permit  but  never  been  issued  a  Certificate  of  Occupancy  the
+    following  shall  be  required  to  determine  a  minimal  level  of  compliance  with  the
+    appropriate codes:
+
+    1.  A site investigation shall be performed by an appropriate inspector to review the
+        compliance of the building with the codes in effect at the time the building was
+        constructed.
+
+    2.  Any deficiencies in code compliance will be identified by the inspector by
+        appropriate legal notice and provided to owner/representative/tenant of the
+        building within a specified time to correct such deficiencies as approved by the
+        Building Official.
+
+    3.  Upon correction of the deficiencies a Certificate of Occupancy will be issued.
+
+    308.3.2 Where No Permit Record Is Available. Buildings for which no record of a
+    permit  can  be  provided  by  either  the  owner  or  found  in  the  Building  Department
+    records, the following shall apply:
+
+
+
+
+                                                                                                             49
+
+===== Page 52 =====
+    1.  An application for a Certificate of Occupancy shall be submitted by the property
+        owner that includes:
+
+        a.   The date of the original construction of the building;
+
+        b.   Code analysis.
+
+        c.   Site plan;
+        d.   The proposed use of the building at the time of original construction;
+
+        e.   The current use of the building and portions thereof;
+
+        f.   A dimensioned floor plan, drawn to an appropriate scale with sufficient detail to
+             indicate the size and use of all portions of the building.
+
+    2.  The performance of a site investigation by an appropriate inspector to review the
+        building’s compliance with applicable codes in effect at the time the building was
+        constructed.     Such  inspection  shall  be  primarily  focused  upon  life safety  issues
+        such as, but not all inclusive, fire exiting; handicapped accessibility; emergency
+        lighting;  proper  identification  of  building  address,  exposed  electrical  fixtures,
+        outlets,  connections,  etc.;  fire  alarms  and  suppression  systems  (if  applicable);
+        ventilation, heating, cooling, and plumbing, etc.
+
+    3.  As  a  result  of  the  site  investigation  further  inspection  may  be  required  by  the
+        inspector for electrical wiring and plumbing within the existing walls necessitating
+        removal  of  existing  wall  coverings  in  locations  specified  by  the  inspector  to
+        determine the adequacy of those installations.
+
+    4.  An  appropriate  legal       notice  to  the  owner,  representative,  or  tenant  identifying
+        deficiencies  in  compliance  with  the  applicable  codes  in  effect  at  the  time  the
+        building was constructed and requiring actions be taken within a specified time to
+        address such deficiencies as approved by the Building Official.
+
+    5.  Upon correction of the deficiencies a Certificate of Occupancy will be issued.
+
+308.4    Certificate  of  Completion.           The  Building  Official  may  issue  a  Certificate  of
+Completion for those projects that have successfully completed all required inspections
+but which do not necessarily require occupancy or permission to occupy, or which in the
+opinion of the Building Official do not need a new Certificate of Occupancy.
+
+308.5 Temporary Certificate of Occupancy. If the Building Official finds that no sub-
+stantial hazard will result from occupancy of any building or portion thereof, the Building
+Official may issue a Temporary Certificate of Occupancy (TCO) for the use of a portion
+or portions of a building or structure prior to the completion of the entire building or struc-
+ture.
+
+
+
+
+                                                                                                               50
+
+===== Page 53 =====
+        308.5.1 Fee for Temporary Certificate of Use of Occupancy. The fee for issu-
+        ance of a Temporary Certificate of Occupancy (TCO) shall be $250 or the fee as
+        set forth in the Current Adopted Fee Schedule. If additional inspection(s) are re-
+        quired prior to the issuance of the temporary certificate, all costs of such inspec-
+        tion(s) shall be paid by the applicant at the rate specified in the Current Adopted
+        Fee Schedule.
+
+
+308.6 Posting. The Certificate of Occupancy shall be posted in a conspicuous place on
+the premises and shall not be removed except by the Building Official.
+
+308.6 Suspension or Revocation. The Building Official may, by appropriate legal notice,
+suspend  or  revoke  a  Certificate  of  Occupancy  or  temporary  Certificate  of  Oc             cupancy
+issued under the provisions of this Code when the certificate is issued in error, or on the
+basis of incorrect information, or when it is determined that the building or structure or
+portion thereof is in violation of an ordinance, regulation or pr           ovisions of this Code.      The
+Building Official with proper cause may require the building, structure, or portion thereof
+to be vacated.
+
+308.7 Utilities. Upon revocation of a Certificate of Occupancy or temporary Certificate of
+Occupancy, the Building Official may order the disconnection or discontinuance of utility
+services upon at least 3 days appropriate legal notice to the owner and occupant.
+
+                                                Chapter 4
+
+                                       SEWER CONNECTION
+
+SECTION 401 – FEES FOR SEWER CONNECTION (See the Las Vegas Municipal Code
+for Schedule of Fees.)
+
+Fees for  sewer  connection  shall  be due  at  the  time of  issuance of building  permit  or
+occupancy change. An application for occupancy change shall include the deposit for any
+additional fees that are required to be paid. Credit for existing sewer shall be applied to
+the  new  sewer  fees  based  on  previous  type  of  occupancy  and  only  when  the  new
+occupancy requires an additional fee. One percent (1%) of the sewer connection fee may
+be collected by the Building Enterprise Fund to cover the administration of the sewer
+connection  program.        The  Building  Official  may  authorize  the  refunding  of  sewer
+connection fees which are erroneously paid or collected. All applications for refunds must
+be  filed  in  writing  by  the  original  permittee  not  later  than  180  days  after  the  date  of
+payment, unless authorized by the City Manager or designee. All refunds are subject to
+an administrative fee to cover the processing of permits and refund applications.                       The
+administrative fee shall be as outlined in the Adopted Fee Schedule.
+
+SECTION  402        –  SEWER  TRUNK  EXTENSIONS  AND  OVERSIZING  REFUNDING
+AGREEMENTS
+
+1.  Sewer trunk extensions and oversizing necessary to serve real property within the City
+
+
+                                                                                                          51
+
+===== Page 54 =====
+which is incapable of being served by existing sewer trunks may be installed pursuant
+to  refunding  agreements,  at  the  discretion  of  the  Director  of  Public  Works,  in
+accordance with the following procedures:
+
+        a.  An  applicant  for  a      “sewer  extension”       refunding  agreement  will  file        an
+            application  with  the  Department  of  Public  Works,  accompanied  by  an
+            approved design of the proposed installation.
+
+        b.  When   a       “sewer   oversizing”       refunding   agreement   is   required,   the
+            Department  of  Public  Works  shall  designate  the  sizing  for  the  proposed
+            trunk extension; the depth at which it shall be installed; the number, location
+            and type of appurtenances to be included therein; and the location of the
+            area from which the refund therefore will be derived. Two designs shall be
+            prepared for the project, an oversizing design and a base design meeting
+            the capacity needs of the development. Both designs shall have matching
+            pipe crown elevations.
+
+        c.  Upon receipt of approved design plans, the applicant shall submit to the
+            Department of Public Works at least three (3) written bids (sealed) from
+            licensed  sewer  contractors  for  the  construction  of  the  proposed  sewer
+            extension  in  accordance  with  the  approved  plans  therefore;  provided,
+            however, that the Director of Public Works, at his discretion and upon good
+            cause shown, may waive the requirement of those written bids.
+
+        d.  Sewer  refunding  agreements  are  based  on  the  lowest  responsible  bid.
+            Oversizing  costs  are  based  on  the  lowest  cost  differential  between  the
+            oversizing  design  bid  and  the  base  design  bid.           Reimbursable  extension
+            costs  are  based  on  the  lowest  bid  minus  the  oversizing  costs.                 Costs
+            involving  rock  or  hard  material  excavation  shall  not  be  included  in  the
+            original  refunding  agreements.         If  the  developer  encounters  rock  or  hard
+            material  excavation,  the  developer  shall  notify  Off-site  Inspection  and
+            Testing  who  will  document  the  amount  of  hard  material  excavation
+            encountered. The developer may request an amendment to the agreement
+            based  on  the  amount  of  hard  material  excavation  encountered.                     As  a
+            prerequisite  for  City  consideration  for  payment  for  rock  or  hard  material
+            excavation, notification will be provided to the City prior to commencement
+            of work.
+
+        e.  Any sewer trunk extension and appurtenant installation under a refunding
+            agreement   shall  conform  to  Design  and  Construction  Standards  for
+            Wastewater  Collection  Systems  then  in  force  in  the  City,  and  shall  be
+            subject to the acceptance by the City prior to the use thereof.
+
+        f.  “As  built”   plans  of  said  installation  shall  be  filed  with  the  Department  of
+            Public Works upon the completion of construction of any such sewer trunk
+            extension. Recovery of extension costs shall apply only to that portion of
+
+
+
+                                                                                                         52
+
+===== Page 55 =====
+                the  extended  sewer  trunk  in  excess  of  two hundred  (200)  feet  from  its
+                connection  to  the  existing  sewer  trunk  (the “trunk  extension  subject  to
+                refunding”) and terminating at the nearest point of the development. The
+                amount recoverable thereunder shall be as specified in the agreement but
+                not  to  exceed  ninety-five  (95%)  of  the  amount,  based  on  the  lowest
+                acceptable bid, actually expended by the applicant, after any appropriate
+                adjustment  in  cost,  in  the  construction  of  the  trunk  extension  subject  to
+                refunding; provided, however, that the cost resulting from any oversizing of
+                such extended sewer trunk at the request of the City shall be pursuant to
+                separate agreement and shall be paid after the acceptance by the City of
+                such extended sewer trunks, or as specified in the agreement.
+
+2.  Unless  otherwise  provided  by  agreement,  refunds  pursuant  to  each  refunding
+    agreement shall be made by the City on or before the anniversary date of the refunding
+    agreement in each year on the basis of and shall be limited to $125.00 for each sewer
+    connection fee received during the preceding 12 months from properties adjacent to
+    the limits of the extension agreement. The right to any refund thereunder shall expire
+    on the tenth anniversary of the execution of such agreement.                   In no event shall the
+    aggregate  refund  to  be  made  under  any  such  refunding  agreement  ever  exceed
+    ninety-five percent (95%) of the costs expended by the applicant in connection with
+    the installation of the trunk extension subject to refunding.
+
+3.  Unless otherwise specified by agreement, refunds associated with sewer extensions
+    and reimbursements associated with oversizing shall be made to the applicant.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                           53

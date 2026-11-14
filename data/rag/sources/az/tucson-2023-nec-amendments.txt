@@ -1,0 +1,111 @@
+
+
+===== Page 1 =====
+                                                       Exhibit H
+
+                    City of Tucson Amendments to the              2023 National Electric Code
+
+  Section 210.5 Identification for branch circuits.             REVISE Section by DELETING Section                 (C)(1)
+  and REPLACING it with the following:
+
+  (C)(1) Circuit conductors. Branch circuits shall be identified by color coding that conforms to the
+  following color-coding.
+
+     Volts            Phase           System            Phase A           Phase B           Phase C           Grounded
+                                                                                                              Conductor
+  120 / 208           3              WYE               Black             Red                Blue              White
+  277 / 480           3              WYE               Brown             Orange             Yellow            Grey
+  120 / 240           3              DELTA             Black             Orange             Red               White
+
+  Exception No. 1: The above color coding is not required in residential occupancies.
+
+  Exception No. 2: Industrial occupancies holding an Annual Permit per IBC Section 105.1.1 may use
+  their own coding system.
+
+  Exception No. 3: Additions to an existing electrical system, where an acceptable                  color-coding
+  system exists, the existing      color-coding system shall be continued.
+
+  Section 210.11(C) Dwelling units.           REVISE Section by ADDING Item (5) to read:
+  (5) Dishwasher and garbage disposer branch circuits-dwelling units. In residential occupancies,
+  dishwasher and garbage disposer may be on the same 20-amp branch circuit.
+
+  Section 215.12 Identification for Feeders. REVISE Section by DELETING Section (C)(1) and
+  REPLACING it with the following:
+
+  (C)(1) Circuit conductors. Branch circuits shall be identified by color coding that conforms to the
+  following color-coding.
+
+ Volts               Phase           System            Phase A             Phase B           Phase C           Grounded
+                                                                                                               Conductor
+ 120 / 208           3               WYE               Black               Red               Blue              White
+ 277 / 480           3               WYE               Brown               Orange            Yellow            Grey
+ 120 / 240           3               DELTA             Black               Orange            Red               White
+
+  Exception No. 1: The above color coding is not required in residential occupancies.
+
+  Exception No. 2: Industrial occupancies holding an Annual Permit per IBC Section 105.1.1 may use
+  their own coding system.
+
+  Exception No. 3: Additions to an existing electrical system, where an acceptable color-coding
+  system exists, the existing color-coding system shall be continued.
+
+
+20 23 National Electrical Code Amendments                                                                             Page 1 of 2
+
+===== Page 2 =====
+  Section 225.31 (B) Location. REVISE Section by ADDING the following:
+  Exception No. 5: For freestanding canopies, carports, towers, and similar structures, an individual or
+  multi-wire branch circuit disconnecting means shall be permitted to be located elsewhere on the
+  premises. A bonding conductor sized per Section 250.122 s                  hall be run with the circuit conductors.
+  The disconnecting means shall be located within sight of the structure or shall be capable of being
+  locked in the open position.
+
+  Section 230.70(B) Marking.            REVISE this Section by ADDING the following to the end of the
+  sentence:
+  The markings shall be of sufficient durability to withstand the environment involved. Identifying
+  labels required for disconnecting means shall have engraved or raised letters and be secured by
+  screws or rivets (plastic tape shall not be considered durable              material).
+
+  Section 310.15 Ampacity Tables. REVISE Section by ADDING the following:
+  310.15 (B)(3) Outdoor Ambient Temperature.                    The ambient temperature for application of Tables
+  310.15 (B)(1)(1) and 310.15 (B)(1)(2) for outdoor installations shall be not less than                    45º C (113º F).
+
+  Section 340.10 Uses permitted.            REVISE Section by ADDING new item                  (7) to read:
+  (7) Type UF Cable shall be permitted to be used in mortar joints of adobe construction in
+  occupancies where the use of Nonmetallic Sheathed Cable is permitted by this code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20 23 National Electrical Code Amendments                                                                                Page 2 of 2

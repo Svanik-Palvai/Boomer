@@ -1,0 +1,1503 @@
+
+
+===== Page 1 =====
+       COUNTY OF LOS ANGELES
+   2026        ELECTRICAL  CODE
+
+
+
+
+
+
+
+      Adopting by reference
+ Portions of the 2025        Edition
+
+            CALIFORNIA
+           ELECTRICAL
+                   CODE
+
+
+                      TITLE 27
+          Of the Los Angeles County Code
+
+
+              Effective January 1,  2026
+
+
+              Official Compilation
+
+Edited and Proofread by Building and Safety Division,
+Department of Public Works, County of Los Angeles
+
+
+          Fees are based on the effective date and
+          adjusted annually based  on the Consumer
+          Price Index (CPI) pursuant to Section 107.17.
+
+===== Page 2 =====
+                                             COUNTY OF LOS ANGELES
+                                                         ELECTRICAL CODE
+                                                                    . . . By Way of Explanation
+
+
+
+               The County of Los Angeles Electrical Code applies to all                   Facilities), becoming the Building and Safety Division. In
+            electrical work in the unincorporated portion of Los Angeles                  1985, under a restructure, the Building and Safety Division
+            County, and in all incorporated cities which contract for Los                 of the Department of County Engineer Facilities was
+            Angeles County electrical inspection.                                         supplemented by a newly titled Department of Public Works
+               The County of Los Angeles Electrical Code, Title 27 of the                 and  the functions of the Building and Safety Division was
+            Los Angeles County Code, as amended, comprises the                            transferred under the new entity.
+            administrative requirements for electrical installations.                         The Building and Safety Division, since its establishment
+            Detailed   technical requirements are to be found in the                      in 1933, has utilized the combination inspection system; that
+            California  Electrical Code, 2025 Edition, which has been                     is, one inspector performs all code inspections, i.e. building,
+            adopted as a part of the  County of Los Angeles Electrical                    grading, electrical, plumbing, and mechanical, within a given
+            Code.                                                                         geographical area. This system has resulted in efficient ser-
+               The County of Los  Angeles Electrical Code has been in effect              vice at low cost to the public. Building inspection and related
+            since April 26, 1933. It is under continuous review to keep it in             engineering services are furnished at cost to cities by means of
+            step   with   current   developments,   and   revisions   are    made         a contract arrangement. At present, 8 of the 88 cities in Los
+            periodically in collaboration with organizations representing                 Angeles County avail themselves of these services.
+            electrical inspectors, fire protection officials, and all other                   Electrical permits and information regarding a particular
+            segments of the electrical industry.                                          project may be obtained from the district, branch or city office
+               From 1933 to 1951 Los Angeles County inspection was                        serving the area in which   the work is located. General questions
+            accomplished by the County Department of Building and                         regarding the Electrical Code may be directed to    the local or the
+            Safety. That department was merged into the Department of                     Central Office of the Building and Safety    Division.
+            County Engineer in 1951 (later renamed County Engineer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                   2026 County of Los Angeles         Electrical Code
+
+===== Page 3 =====
+                                                              COUNTY OF LOS ANGELES
+                                                      PUBLIC WORKS
+
+                                                                              Mark Pestrella, Director
+
+                                                                  BUILDING AND SAFETY DIVISION
+
+                                                                  JuanMadrigal, Superintendent of Building
+                                                               , PrincipalEngineerunker B   Jessica
+                                                                  KristinNorman, PrincipalEngineer
+                                                                  ClarkAjwani, PrincipalEngineer
+                                                                   Mostafa Kashe, Chief Electrical    Inspector
+
+                                                                              CENTRAL OFFICE
+
+                                                 (Mon.-Thurs. 7:00 a.m.-5:00 p.m., closed Fridays and legal holidays)
+                                                                        900 S. Fremont Avenue, 3rd Floor
+                                                                            Alhambra, California 91803
+                                                                           Administration (626) 458-6387
+                                                                         Building Section (626) 458-    3173
+                                                                         Electrical Section (626) 458-3180
+                                                                       Mechanical Section (626) 458-3182
+                                                                                FAX: (626) 458-2861
+                                                                INTERNET: www.dpw.lacounty.gov/bsd/content
+
+                                             Permits are issued and inspections are made from district or city offices.
+
+                                                                              DISTRICT OFFICES
+
+             ALTADENA                                                                           SAN GABRIEL VALLEY
+                464W.WoodburyRoad,Suite210                                                         125 S. Baldwin Avenue
+                Altadena,CA 91001                                                                  Arcadia, CA 91007
+                (626) 424-6743                                                                     (626) 574-0941 / FAX (626) 446-4425
+             ANTELOPEVALLEY                                                                     SANTA CLARITA VALLEY
+                335AE.AvenueK-6                                                                    23757 Valencia Boulevard
+                Lancaster, CA 9                3535                                                Valencia, CA 91355
+                (661) 524-2390 / FAX (661) 524-2399                                                (661) 222-2940 / FAX (661) 222-2947
+             CALABASAS                                                                          SOUTHWEST
+                27001AgouraRd,Suite250                                                             1320 W. Imperial Highway
+                Calabasas, CA 91301                                                                Los Angeles, CA 90044
+                (818) 880-4150 / FAX (818) 880-6279                                                (323) 820-6500 / FAX (323) 756-0780
+             EAST LOS ANGELES                                                                   SOUTH WHITTIER
+                4801 E. 3rd Street                                                                 12440ImperialHwy,Suite110
+                Los Angeles, CA 90022                                                              Norwalk,CA 90650
+                (323) 881-7030 / FAX (323) 264-7917                                                (562) 946-1390/FAX (562) 406-3516
+             LA PUENTE                                                                          UNIVERSAL
+                16005 E. Central Avenue                                                            100 Universal City Plaza, 7135 (Trailer)
+                La Puente, CA 91744                                                                Universal City, CA 91608
+                (626) 961-9611 / FAX (626) 961-8166                                                (818) 762-6284 / FAX (818) 623-9829
+             LOMITA
+                24320 S. Narbonne Avenue
+                Lomita, CA 90717
+                (310) 534-3760 / FAX (310) 530-5482
+
+
+
+
+
+
+                                                                       2026 County of Los Angeles         Electrical Code
+
+===== Page 4 =====
+                                                                                CITY OFFICES
+
+        ARTESIA                                                                                 LA MIRADA
+        18747 Clarkdale Avenue                                                                  13700 S. La Mirada Boulevard
+        Artesia, CA 90701                                                                       La Mirada, CA 90638
+        (562) 865-6263 / FAX (562) 865-6240                                                     (562) 943-0131 / FAX (562) 943-3666
+        CERRITOS                                                                                LAWNDALE
+        18125BloomfieldAvenue                                                                   14717 S. Burin Avenue
+        Cerritos, CA 90703                                                                      Lawndale, CA 90260
+        (562)        860-0311 / FAX (562) 916-1242                                              (310) 973-3200 / FAX (310) 970-2183
+        INDUSTRY                                                                                LOMITA
+        15625MayorDaveWay                                                                       24320 S. Narbonne Avenue
+        CityofIndustry, CA 91744                                                                Lomita, CA 90717
+        (626) 333-2211                                                                          (310) 534-3760 / FAX (310) 530-5482
+                                                                                                ROLLING HILLS
+                                                                                                24320 S. Narbonne Avenue
+                                                                                                Lomita, CA 90717
+                                                                                                (310) 534-3760 / FAX (310) 530-5482
+                                                                                                WESTLAKEVILLAGE
+                                                                                                27001AgouraRoad,Suite250
+                                                                                                Calabasas,CA91301
+                                                                                                (818) 880-4150 / FAX (818) 880-                                       6279
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                     2026 County of Los Angeles Electrical             Code
+
+===== Page 5 =====
+                                                                ARTICLE 80 —     GENERAL PROVISIONS
+
+
+                                                                               ARTICLE 80
+                                                                           GENERAL PROVISIONS
+
+
+L     Sec. 80-1. Title. Title 27 of the Los Angeles County Code                        the County of Los Angeles within any incorporated city not                         L
+A     shall be known as the ‘‘Electrical Code,’’  may be cited as                      exercising jurisdiction over such work or use.                                     A
+L     such, and will be referred to herein as ‘‘      this Code.’’                     The provisions of this Code shall not apply to public utilities; or                L
+A                                                                                                                                                                         A
+L     Sec. 80-1.5. California Electrical Code (CEC) Adoption by                        to electrical wiring for street lighting or traffic signals located                L
+A     Reference.  Except as hereinafter changed or modified,                           primarily in a public way; or to mechanical equipment not                          A
+L     Sections  89.102 through 89.114 of Article 89, Article 90,                       specifically regulated in this Code.                                               L
+A     Chapters  1 through 9, and Annexes A, B, C, D, E, F, G, H, I,                                                                                                       A L
+L                                                                                      Where, in any specific case, different sections of this Code
+A     and J of that certain Electrical Code known and designated as                    specify different materials, methods of construction or other                      A
+L     the  2022 California Electrical Code as published by the                         requirements, the most restrictive shall govern. Where there is    a               A L
+A     California  Building Standards Commission are adopted by                         conflict between a general requirement and a specific
+L     reference and  incorporated into this Title 27 of the Los                                                                                                           L
+A     Angeles County Code as if fully set forth below, as Sections                     requirement, the specific requirement shall be applicable.                         A
+L     89.102 through 89.114     of Article 89, Article 90, Chapters 1                  Except as hereinafter changed or modified, the building standards                  L
+A                                                                                                                                                                         A
+L     through 9, and Annexes A, B, C, D, E, F, G, H, I, and J of                       contained in the National Electrical Code of the National         Fire             L
+A     Title 27 of the Los Angeles    County Code.                                      Protection Association, Inc., which are published in the California                A
+L                                                                                      Building Standards Code, are applicable to all occupancy   groups                  L
+A     A copy of the 2022 California Electrical Code, hereinafter                       and uses throughout the County of Los Angeles. Amendments to                       A
+L     referred to as the CEC shall be at all times maintained by the                   the building standards contained in the National Electrical Code,                  L
+A     Chief Electrical Inspector for use and examination by the                        by state agencies, are applicable only to those occupancies or uses                A
+L     public.                                                                                                                                                             L
+A                                                                                      which the state agency making the  amendment is authorized to                      A
+L     Sec. 80-2 . Purpose. The purpose of this Code is to provide                      regulate.                                                                          L
+A     minimum standards to safeguard the public’s safety and                                                                                                              A
+L     welfare  by regulating the design, construction, installation,                   Sec. 80-4. Chief Electrical Inspector. The office of Chief                         L
+A                                                                                      Electrical Inspector exists in the Building and Safety Division of                 A
+L     quality of materials, use, location, operation and maintenance                   the Department of Public Works. The Chief Electrical Inspector                     L
+A     of electrical systems, equipment and appliances as specifically                  shall administer the provisions of this Code under the supervision                 A
+L     set forth\ herein. Consistent with this purpose, the provisions                  and control of the Director of Public Works, acting as the County                  A L
+A     of this Code are intended and always have been intended to
+L     confer a benefit on the community as a whole and are not                         Engineer, and shall be a competent electrical engineer of good                     L
+A     intended to establish  a duty of care toward any particular                      moral character, well versed in approved methods of  electrical                    A
+L                                                                                      construction for safety to life and property, the statutes of the                  L
+A     person.                                                                          State of California relating to electrical work, the ordinances of                 A
+L     This Code shall not be construed to hold the County or any                       the County of Los Angeles relative thereto, and the California                     L
+A                                                                                      Electrical Code as amended from time to time.                                      A
+L     officer, employee or agent thereof responsible for any damage                                                                                                       L
+A     to persons or property by reason of any inspection authorized                    Sec. 80-5. Use of Terms. Whenever the term ‘‘   Chief Electrical                   A
+L     herein or by reason of the issuance or nonissuance of any                        Inspector’’ is used in any section of this Code other than Section                 L
+A     permit authorized herein, and/or for any action or omission in                                                                                                      A
+L     connection   with the application and/or enforcement of this                     80-4, such term shall be     construed to mean the ‘‘ Director of the              L
+A                                                                                      Department of Public Works,’’ acting as the County Engineer of                     A
+L     Code. By adopting the provisions of this Code, the County                        the County of Los Angeles, or an authorized representative.                        L
+A     does not intend to impose on itself, its employees or agents any                                                                                                    A
+L     mandatory   duties of care toward persons and property within                    Sec. 80-6. Public Utilities Exempted. The provisions of this                       L
+A     its jurisdiction so as to provide a basis of civil liability for                 Code shall not apply to any electrical work performed by or for                    A
+L     damages. This section is declaratory of existing law and is not                  any electrical corporation, telephone corporation, telegraph                       L
+A     to be construed   as suggesting that such was not the purpose                    corporation, railroad corporation or street railroad corporation     on            A
+L                                                                                                                                                                         A L
+A     and intent of previous Code adoptions.                                           or with any electrical equipment owned or controlled and
+L     Sec. 80-3. Scope. The provisions of this Code shall apply to                     operated, or used by and for the exclusive benefit of, such                        L
+A                                                                                      corporation    in the conduct of its business as a public utility, or to           A L
+L     the construction, alteration, moving, repair and use of any                      any other work which any such corporation may be entitled    by
+A     electrical wiring on any premises within the unincorporated                      law to perform without payment of any local tax; but all                           A
+L     area    of the County of Los Angeles and to such work or use by                                                                                                     L
+A                                                                                                                                                                         A
+
+
+
+
+                                                                     2026         County of Los Angeles Electrical Code
+
+
+
+
+===== Page 6 =====
+                                                           ARTICLE 80 —     GENERAL PROVISIONS
+
+
+
+
+L    provisions of this Code shall apply insofar as they may                           Consumer Price Index (CPI) for all urban consumers in the Los                       A L
+A    consistently with the above be applicable to all other electrical                 Angeles-Long Beach     -Anaheim, CA areas, as published by the                       L
+L    work performed by or for any such corporation.                                    United States Government Bureau of Labor Statistics, adjust each                    A
+A    The terms ‘‘  electrical corporation,’’  ‘‘telephone corporation,’’               fee by said percentage amount and round off to the nearest  ten                      L
+L                                                                                      (10) cents; however, no adjustment shall decrease any fee     and no                A
+A    ‘‘telegraph corporation,’’  ‘‘railroad corporation,’’ and ‘‘  street              fee shall exceed the reasonable cost of providing services. When                     L
+L    railroad   corporation’’   are herein used as said terms are                      it is determined that the amount reasonably necessary to recover                    A
+A    respectively defined in the Public Utility Code of the State of                                                                                                        L
+L    California; and such terms shall also be deemed to include                        the cost of providing services is in excess of this adjustment, the                 A
+A    similar utilities  which are municipally or governmentally                        Building Official may present fee proposals to  the Board of                         L
+L                                                                                      Supervisors for approval.                                                           A
+A    owned and operated.                                                                                                                                                    L
+L    Sec. 80-7. Governmental Agencies.  The provisions of this                         Sec. 80-11. Definitions.   For the purpose of this Code, certain                    A
+A                                                                                      terms, phrases, words and their derivatives shall be construed as                    L
+L    Code shall cover, govern and control the installation,                            set out in this Section. Words used in the singular include the                     A
+A    alteration,  or repair of any electrical wiring, connection,                      plural and the plural the singular.                                                  L
+L    fixtures, sockets,  appliances,  apparatus, machinery or other                                                                                                        A
+A    electrical devices by or on behalf of the County of Los Angeles                          Electric or Electrical Wiring means the installation or the                   L
+L    or any department or officer thereof, or by or on behalf of any                          alteration of any material, fixture, device, appliance,  or                  A
+A                                                                                                                                                                           L
+L    school district, or any quasipublic or political corporation or                          equipment in or on any building, structure or premises, used                 A
+A    governmental agency or body on said premises not owned by a                              or designed or intended to be used to generate, transmit,                     L
+L    public school district within said unincorporated territory.                             transform or utilize electric energy.                                        A
+A                                                                                                                                                                           L
+L    Sec. 80-8. Validity.   If any section, subsection, sentence, clause                      Hotel  is any building containing six or more rooms                          A
+A    or phrase of this ordinance is, for any reason, held to be                               intended or designed to be used, or which are used, rented,                   L
+L    invalid, such decision shall not affect the validity of the                              or hired out to be occupied, or which are occupied for                       A
+A    remaining portions of this ordinance. The Board of Supervisors                           sleeping purposes by guests.                                                  L
+L                                                                                                                                                                          A
+A    hereby declares that it would have passed the ordinance, and                             Maintenance         Electrician  is an electrician regularly                  L
+L    each section, subsection, clause or phrase thereof, irrespective                         employed and registered in accordance with the provisions                    A
+A    of  the fact that any one or more sections, subsections,                                 of this Code.                                                                 L
+L    sentences, clauses and phrases be declared invalid.                                                                                                                   A
+A                                                                                             Person is an individual human being, a firm, partnership   or                 L
+L    Sec. 80-9. Liability.   The liability and indemnification of the                         corporation, his or their heirs, executors, administrators,                  A
+A    Chief Electrical Inspector and any of his subordinates are                                                                                                             L
+L    governed   by the provisions of Division 3.6 of Title 1 of the                           assigns, officers or agents, the County of Los Angeles, and                  A
+A    Government Code.                                                                         any local agency as defined in Section 53090 of the                           L
+L                                                                                             Government Code, or officer thereof.                                         A
+A    Sec. 80-10. Annual Review of Fees. The fees in this Code                                                                                                               L
+L    shall be reviewed annually by the Director of Public  Works.                             Special   Permission  is the written consent of the Chief                    A
+A                                                                                             Electrical Inspector.                                                         L
+L    Beginning on July 1, 1992, and thereafter on each succeeding                                                                                                          A
+A    July 1, the amount of each fee in this Code shall be adjusted   as                       Tenant  Improvement  (Electrical ) means electrical work                      L
+L    follows: Calculate the percentage movement between March of                              altering or adding to the wiring system of a tenant space.                   A
+A    the previous year and March of the current year in the
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                2026 County of Los Angeles Electrical        Code
+
+
+
+
+===== Page 7 =====
+                                                    ARTICLE 81 —     DUTIES OF CHIEF ELECTRICAL INSPECTOR
+
+
+                                                                                ARTICLE 81
+                                                              DUTIES OF CHIEF ELECTRICAL INSPECTOR
+
+
+L    Sec. 81-1. General.   The Chief Electrical Inspector shall                        Sec. 81-9. Records and Retention of Plans.   The Chief                             L
+A    administer and enforce the provisions of this Code in a manner                    Electrical  Inspector shall keep records of all the essential                      A
+L    consistent with the intent thereof.                                               transactions   of the office of the Chief Electrical Inspector. One                L
+A    Sec. 81-2. Plans and Permits.   The Chief Electrical Inspector                    set of approved plans shall be retained by the Building Official                   A
+L    may require the submission of plans and specifications,                           for a period of not less than 90 days from date of completion                      L
+A                                                                                      of the work covered therein.                                                       A
+L    drawings, descriptions, and diagrams as, in the judgment of the                                                                                                      L
+A    Chief Electrical Inspector, is necessary to show clearly the                      Sec. 81-10. Right of Entry.                                                        A
+L    character, kind and extent of electrical work covered by an                                                                                                          L
+A    application for a permit. When the Chief Electrical Inspector is                  (a) Whenever it is necessary to make an inspection to enforce                      A
+L    satisfied that the plans submitted comply with the provisions of                  any of the provisions of or perform any duty imposed by this                       L
+A    the Code and that the required fees have been paid, then the                      Code or other applicable law, or whenever the Chief Electrical                     A
+L                                                                                      Inspector or an authorized representative has reasonable cause                     L
+A    applicant shall be   issued the appropriate permit.                               to believe that there exists in any building or upon any premises                  A
+L    Approval of a plan and/or the issuance of a permit shall not be                   any condition which makes such building or premises                                L
+A                                                                                                                                                                         A
+L    construed to be an approval of a violation of the provisions of                   hazardous, unsafe or dangerous for any reasons specified in this                   L
+A    this Code or of other laws. Plans or permits presuming to give                    Code or other similar law, the Chief Electrical Inspector or an                    A
+L    authority to violate or cancel the provisions of this Code or of                  authorized  representative hereby is authorized to enter such                      L
+A    other laws are not valid. See Article 82 for requirements                         property   at any reasonable time and to inspect the same and                      A
+L    regarding     plans, permits and fees.                                            perform any duty imposed upon the Chief Electrical Inspector                       L
+A                                                                                                                                                                         A
+L    Sec. 81-3. Fees.  The Chief Electrical Inspector shall collect                    by this Code or other applicable law; provided that:                               L
+A    such fees as are required by this Code and issue receipts                         (1) if such property is occupied, the Chief Electrical Inspector                   A
+L                                                                                                                                                                         L
+A    therefor, copies of which shall be maintained as a record in the                       shall first present proper credentials to the occupant and                    A
+L    office of the Chief Electrical Inspector. The Chief Electrical                         request entry explaining the reasons therefor; and                            L
+A    Inspector shall transfer all fees collected to the proper authority               (2) if such property is unoccupied, the Chief Electrical Inspector                 A
+L    provided   by law to receive such funds.                                               shall first make a reasonable effort to locate the owner  or                  L
+A                                                                                           other persons having charge or control of the property   and                  A
+L    Sec. 81-4. Inspection.    All construction or work for which a                         request entry, explaining the reasons therefor.                               L
+A    permit is required by this Code shall be subject to inspection                                                                                                       A
+L    and approval by the Chief Electrical Inspector. See Article 82                         If such entry cannot be obtained because the owner or other                   L
+A                                                                                           person having charge or control of the property cannot be                     A
+L    for inspection requirements.                                                                                                                                         L
+A    Approval as a result of an inspection shall not be construed to                        found after due diligence, or if entry is refused, the Chief                  A
+L    be an approval of a violation of the provisions of this Code or                        Electrical Inspector or an authorized representative shall                    L
+A                                                                                           have recourse to every remedy provided by law to secure                       A
+L    other laws. Inspections presuming to give authority to violate                         lawful entry and inspect the property.                                        L
+A    or cancel the provisions of this Code or other laws shall not be                                                                                                     A
+L    valid, except insofar as the work therein is lawful.                              (b) Notwithstanding the foregoing, if the Chief Electrical                         L
+A                                                                                      Inspector or an authorized representative has reasonable cause                     A
+L    It shall be the duty of the permit applicant to cause the work to                 to believe that the building or premises is so hazardous, unsafe,                  L
+A    remain accessible and exposed for inspection purposes. Neither                    or dangerous as to require immediate inspection to safeguard                       A
+L    the Chief Electrical Inspector nor the jurisdiction shall be liable                                                                                                  L
+A    for any expense entailed in the removal or replacement of any                     the public health or safety, the Chief Electrical Inspector shall                  A
+L    material required to allow inspection.                                            have the right to immediately enter and inspect such property,                     L
+A                                                                                      and may use any reasonable means required to effect such entry                     A
+L    Sec. 81-5. Reserved.                                                              and make such inspection, whether such property is occupied    or                  L
+A                                                                                      unoccupied and whether or not permission to inspect has been                       A
+L    Sec. 81-8. Investigation.  The Chief Electrical Inspector may                                                                                                        L
+A    investigate any construction or work regulated by this Code,                      obtained. If the property is occupied, the Chief Electrical                        A
+L    and issue such notices and orders as provided in Sections 81-                     Inspector shall first present credentials to the occupant and                      L
+A                                                                                      demand entry, explaining the reasons therefor and    the purpose                   A
+L    11, 81-12 and 81-13.                                                              of the inspection.                                                                 L
+A                                                                                                                                                                         A
+
+
+
+
+                                                                     2026 County of Los Angeles         Electrical Code
+
+
+
+
+
+===== Page 8 =====
+                                            ARTICLE 81 —     DUTIES OF CHIEF ELECTRICAL INSPECTOR
+
+
+L  (c)   ‘‘Authorized representative’’  shall include the officers                   Sec. 81-12. Authority to Disconnect.   The Chief Electrical                       L
+A  named in Section 80-5 of this Code and their authorized                           Inspector is hereby empowered to disconnect or to order in                        A
+L  inspection personnel.                                                             writing the discontinuance of electrical service to wiring, devices               L
+A                                                                                    or materials found to be dangerous and a hazard to life, health and               A
+L  (d) No person shall fail or refuse, after proper demand has                       property until the installation of such wiring device or material                 L
+A  been made upon such person as provided in this subsection, to                     has been made safe as directed by the Chief Electrical Inspector.                 A
+L  promptly permit the Chief Electrical Inspector or an authorized                                                                                                     L
+A  representative to make any inspection provided for by                             Any person, firm, corporation, public utility, political subdivision              A
+L  Subdivision (b) of this subsection. Any person violating this                     or governmental agency ordered to discontinue such electrical                     L
+A  subdivision shall be guilty of a misdemeanor.                                                                                                                       A
+L                                                                                    service shall do so within 24 hours after the receipt  of such                    L
+A  Sec. 81-11. Reinspection.  The Chief Electrical Inspector is                      written notice, and shall not reconnect such service or allow or                  A
+L  hereby authorized and empowered to make, at such times and                        cause the same to be reconnected until notified to do so by the                   L
+A                                                                                    Chief Electrical Inspector. Refusal or failure or neglect to comply               A
+L  as often as in his discretion it may seem necessary, thorough                     with any such notice or order shall be considered by the Chief                    L
+A  reinspection of the installation in or on any building, structure                 Electrical Inspector a violation of this Code. The Chief Electrical               A
+L  or premises of all electrical wiring, electrical devices and                                                                                                        L
+A  electrical material now installed or that may hereafter be                        Inspector may then institute any appropriate action or proceeding                 A
+L  installed.                                                                        to prevent, restrain, correct or abate the refusal to comply with                 L
+A                                                                                    any such notice or order.                                                         A
+L  When the installation of any such wiring, device or material                                                                                                        L
+A  is found to be in violation of this Code, the person, firm,                       Sec. 81-13. Stop Orders.  Whenever any work regulated by this                     A
+L                                                                                    Code is being done contrary to the provisions thereof, or other                   L
+A  corporation or governmental agency owning, using or                               pertinent laws or ordinances, the Chief Electrical Inspector may                  A
+L  operating the same shall be notified in writing and shall                         order the work stopped by notice in writing served on any persons                 L
+A  make the necessary repairs or changes required to place such                                                                                                        A
+L  wiring, device, or material in compliance with this Code and                      engaged in doing or causing such work to be done, and any such                    L
+A  to have such work completed within a period of 10 days after                      persons shall forthwith stop such work until authorized by the                    A
+L                                                                                    Chief Electrical Inspector to proceed with the work.                              L
+A  such notice, or within such other reasonable period specified                                                                                                       A
+L  by the Chief Electrical Inspector in said notice, and shall pay                                                                                                     L
+A  such fees as are required by this Code.                                                                                                                             A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                              2026         County of Los Angeles Electrical    Code
+
+
+
+
+
+===== Page 9 =====
+                                                             ARTICLE 82 —     PERMITS AND INSPECTION
+
+
+                                                                               ARTICLE 82
+                                                                       PERMITS AND INSPECTION
+
+
+L    Sec. 82-1. Permits Required. A person, whether acting as                          (f) The installation of temporary wiring for testing or                     L
+A    principal, servant, agent or employee, shall not do or cause or                        experimental purposes within suitable facilities.                      A
+L    permit to be done any electrical work regulated by this Code                      (g) Replacement of over-current devices of the same type                    L
+A    without first securing a permit from the Chief Electrical                              and the same rating.                                                   A
+L    Inspector authorizing such work                                                   (h) Portable generators, portable motors, appliances, tools,                L
+A                                                                                           power outlets, and other portable equipment connected                  A
+L    Sec. 82-2. Time Limit. Every permit issued by the Building                             by     means of a cord or cable having an attachment plug.             L
+A    Official under the provisions of this Code shall expire by                                                                                                    A
+L    limitation and become null and void if the work authorized by                     (i) Private telephone, intercom, sound and communication                    L
+A                                                                                           systems; provided, however, that the above system(s) do                A
+L    such permit is not commenced within 12 months from the                                 not exceed the value as indicated in (c) and (d) of this               L
+A    date such permit is issued, or the work authorized by such                             section.  A permit shall be obtained for the power                     A
+L    permit is suspended or abandoned for a period of 180   days, or                        supplies  required by the above systems.                               L
+A    the permittee fails to obtain inspection as required by the                                                                                                   A
+L    provisions of Section     82-   14 of this Code for a period of 180                    Notwithstanding the foregoing, all electrical wiring and               L
+A    days.                                                                                  equipment shall comply with Section 83-2 of this Code.                 A
+L                                                                                                                                                                  L
+A    EXCEPTION:  Permits issued to abate violation(s) in                              Sec. 82-4. Application for Electrical Permits. Application                   A
+L    conjunction with a code enforcement action shall expire and                      for an electrical permit shall describe the work to be                       L
+A                                                                                     performed on the form provided, and shall give the location                  A
+L    become   null and void at a date not to exceed 12 months from                    either by street and house number, by lot, block and tract, or               L
+A    the date   of issuance or other date determined by the Building                  similar description that will readily identify and definitely                A
+L    Official.                                                                        locate the proposed work. A separate application shall be                    L
+A                                                                                                                                                                  A
+L    The Building Official may grant one or more extensions of                        required for each building   or structure.                                   L
+A    the time for action by the permittee for a period not exceeding                  EXCEPTION:  Applications for single-family dwellings                         A
+L    180 days from the date of expiration upon written request                                                                                                     L
+A    from  the permittee and payment of a fee in an amount                            may include all accessory buildings such as garages, sheds,                  A
+L    determined by the Building Official, not to exceed 25 percent                    guest houses, and the like that are located on the same lot and              L
+A                                                                                     erected at the same time as the main building.                               A
+L    of the permit fee.                                                                                                                                            L
+A    Once a permit, including any extension(s) thereof, has                           The applicant for electrical permits for work exceeding two                  A
+L                                                                                     hundred dollars ($200) in value shall be a licensed contractor,              L
+A    expired, the permittee shall file a new application as specified                 registered maintenance electrician, homeowner, or authorized                 A
+L    in Section 82-1.                                                                 government representative.                                                   L
+A                                                                                                                                                                  A
+L    Sec. 82-3. Work Requiring a Permit.  No person shall                             The Chief Electrical Inspector may refuse to issue a permit                  L
+A    install,   alter, reconstruct or repair any electrical wiring,                   for temporary or permanent service when there is no apparent                 A
+L    devices,  appliances, apparatus, or equipment, within or on                      legally permitted use for the service. In determining whether                L
+A    any  building, structure or premises without first obtaining a                                                                                                A
+L    permit therefor from the Chief Electrical Inspector, except as                   a  proposed use is legally permitted, the Chief Electrical                   L
+A    follows:                                                                         Inspector  may consider not just the provisions of the                       A
+L                                                                                     Electrical Code but  all applicable statutes, ordinances, rules              L
+A     (a) Minor repair work, such as the replacement of lamps,                        and regulations.                                                             A
+L          switches, receptacle devices, sockets, and the like, or the                                                                                             L
+A                                                                                     (a) Licensed Contractor. A licensed contractor is a person                   A
+L          connection of portable motor and appliances to suitable                    who is engaged in the business of installing or repairing                    L
+A          receptacles which have been permanently installed.                         electrical wiring or equipment or who does, or who holds                     A
+L     (b) The wiring for temporary theater, motion picture or                                                                                                      L
+A          television stage sets.                                                     himself  out as willing to do personally or through his                      A
+L     (c) Electrical wiring, devices, appliances, apparatus, or                       employees any  work or services in connection with the                       L
+A                                                                                     installation, alteration,  or repair of any electrical wiring or             A
+L          equipment   operating  at less than 25 volts and not                       equipment or part thereof, and who possesses an appropriate                  L
+A          capable of supplying   more than 50 watts of energy.                       contractor’s license pursuant to Chapter 9, Division 3 of the                A
+L     (d) Low-energy power, control, and signal circuits that are                                                                                                  L
+A          not an integral part of an appliance and in which the                      Business and Professions Code  of the State of California                    A
+L          power is  limited from a source having a rated output of                   when such license   includes within its    classification                    L
+A                                                                                     limitations the activities set forth on the application  for                 A
+L          not more than 30 volts and 1,000 volt-amperes.                             permit and entitles the licensee to perform personally or                    L
+A     (e) Temporary decorative lighting.                                              through his employees all such activities without personal                   A
+L                                                                                     local qualification or registration.                                         L
+A                                                                                                                                                                  A
+                                                                    2026 County of Los Angeles         Electrical Code
+
+
+
+===== Page 10 =====
+                                                          ARTICLE 82 —     PERMITS AND INSPECTION
+
+
+L      A permit may be issued to a firm, partnership or corporation,                        to the applicant or destroyed by the Chief Electrical Inspector.               A L
+A      any officer or member of which is a licensed contractor, in the                      The Chief Electrical Inspector may grant up to two extensions                  L
+L      event that all construction or work is done under the direct                         not exceeding 180 days per extension beyond the initial one-                   A
+A      personal supervision of such officer or member.                                      year limit upon written request by the applicant showing that                  L
+L                                                                                           circumstances  beyond the control of the applicant have                        A
+A      (b) Registered Maintenance Electrician. A Registered                                 prevented action from being taken and upon payment of an                       L
+L      Maintenance Electrician is a person possessing a valid                                                                                                              A
+A      Certificate  of Registration issued by the Chief Electrical                          extension fee    in an amount determined by the Chief Electrical               L
+L      Inspector.                                                                           Inspector, not to exceed 25 percent of the plan check fee.                     A
+A                                                                                           Once an application, including any extension(s) thereof has                    L
+L      A Certificate of Registration as Maintenance Electrician, upon                                                                                                      A
+A      application therefor, may be issued to any person regularly                          expired, the applicant shall file a new application, resubmit                  L
+L      employing one or more electricians for the purpose of                                plans and specifications and pay a new plan checking or                        A
+A                                                                                           review      fee.                                                               L
+L      installation,  alteration or maintenance of electrical wiring or                                                                                                    A
+A      equipment  on his own premises. The application for such                             Sec. 82-5. Plans.  When required by the Chief Electrical                       L
+L      certificate shall be made in writing by a responsible officer of                     Inspector, the applicant shall submit two sets of plans,                       A
+A      the firm, and shall designate one or more persons as registrant.                     specifications, calculations, and/or reports with the application              L
+L                                                                                           for  the electrical permit. When a plan checking fee or other                  A
+A      A registration  fee shall be paid for each maintenance                                                                                                              L
+L      electrician as set forth in this Code. All such work shall be                        fees are  required by this or any related ordinance or statute,                A
+A      installed and done in accordance with the provisions of this                         such fees shall be collected at the time plans are filed. Unless               L
+L      Code, and such work shall be subject to permits, fees, and                           otherwise   permitted by the Chief Electrical Inspector, all                   A
+A                                                                                           plans, specifications,  calculations, and/or reports shall be                  L
+L      inspection to the same extent as all other similar work for                          prepared and designed by a professional electrical engineer                    A
+A      which such inspection is provided.                                                   registered in the State of California in accordance with the                   L
+L                                                                                                                                                                          A
+A      The firm shall keep a record of all work performed under the                         Professional Engineer’s  Act (California Business and                          L
+L      maintenance certificate, showing the nature and location of the                      Professions Code sections   6700, et seq.), or by a person who is              A
+A      work, and such records shall be made available to the Chief                          qualified to prepare electrical engineering documents and who                  L
+L      Electrical  Inspector.                                                               is exempt from registration pursuant to the provisions of the                  A
+A                                                                                           Professional Engineer’s Act.                                                   L
+L      (c) Homeowner. A homeowner is the owner of a single-                                                                                                                A
+A      family  residence, including common accessory and minor                              Except for plans prepared solely for the purpose of                            L
+L      poultry, animal or agricultural buildings. A permit may be                           demonstrating    compliance with the requirements of Part 6 of                 A
+A                                                                                                                                                                          L
+L      issued to such homeowner for his principal place of residence                        Title 24 of  the California Code of Regulations (California                    A
+A      and appurtenances  thereto, provided that work authorized                            Energy Code) or  except as otherwise permitted by the Chief                    L
+L      under any such   permit shall be done by the person to whom                          Electrical Inspector,  all plans, specifications, calculations,                A
+A      the permit is issued, or by a member of his immediate family.                        and/or reports shall bear the signature and the seal or stamp of               L
+L                                                                                           the person preparing the documents.                                            A
+A      Should any provision of Sections (a), (b) or (c) be violated, the                                                                                                   L
+L      permit shall be subject to immediate cancellation. This permit                       Sec. 82-6. Electrical Permits. The application, plans     and                  A
+A      cancellation is in addition to any other enforcement provisions                      specifications filed as required, shall be checked by the Chief                L
+L                                                                                                                                                                          A
+A      or penalties provided for in this Code.                                              Electrical Inspector, and if found to be in conformity with the                L
+L      (d) Government Representative. A government                                          requirements of this Code and all other laws or ordinances                     A
+A      representative  is a person who is employed by and who has                           applicable thereto, the Chief Electrical Inspector shall, upon                 L
+L                                                                                           receipt of the required fee, issue a permit therefor.                          A
+A      been  authorized by a governmental agency to supervise or                                                                                                           L
+L      control electrical work on the premises of such agency.                              The issuance or granting of a permit or approval of plans and                  A
+A                                                                                           specifications shall not be construed to be a permit for, or an                L
+L      (e) Special Permission. When there appears to the Chief                              approval of, any violation of any of the provisions of this                    A
+A      Electrical Inspector an urgent necessity, an electrical permit                       Code or of any other laws or ordinances. No permit presuming                   L
+L      may be issued to other persons by special permission.                                                                                                               A
+A                                                                                           to give authority to violate or cancel the provisions of this                  L
+L      (f) Expiration of Application. When no permit is issued                              Code or any     other laws or ordinances shall be valid.                       A
+A      within one year following the date of the application therefor,                                                                                                     L
+L      the application shall automatically expire. Plans and                                The issuance of a permit based on plans and specifications                     A
+A      specifications  previously submitted may thereafter be returned                      shall not prevent the Chief Electrical Inspector from thereafter               L
+L
+
+
+
+
+
+
+                                                                 2026 County of Los Angeles Electrical        Code
+
+
+
+
+===== Page 11 =====
+                                                                     ARTICLE 82 —     PERMITS AND INSPECTION
+
+
+L     requiring the correction of errors in said plans and                                             Sec. 82-8. Fees. Except as otherwise provided herein, at the                               L
+A     specifications, or from preventing construction being carried                                    time of filing an application therefor, a fee shall be paid to the                         A
+L     on thereunder when in violation of this Code or of any other                                     Chief Electrical Inspector as set forth in this Section.                                   L
+A     laws and ordinances.                                                                                                                                                                        A
+L                                                                                                      (a) Electrical Permit Fees.                                                                L
+A
+L
+A     PERMITS.
+L
+A     1. For issuing permits, each . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $3         9.99
+L
+A     SYSTEM FEE SCHEDULE.
+L     (Note: The following do not include permit issuing fee.)
+A
+L     New Residential Buildings:
+A     The following fees shall include all wiring and electrical equipment in or on each building, or other electrical equipment
+L     on the same premises constructed at the same time.
+A
+L     2. For new multifamily residential buildings (apartments and condominiums) having three (3) or more living units
+A         not including garages, carports, and other noncommercial automobile storage areas constructed at the same
+L     time, per square foot . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        . . . . . . . . . . . . . . . . . . . . . . . . . . . $0.      11
+A
+L     For garages, carports, and other accessory buildings, used in conjunction with multifamily residential buildings use
+A     BRANCH CIRCUIT FEE OR UNIT FEE SCHEDULE.
+L
+A     3. For new single or two-family residential buildings not including garages, carports and other minor accessory
+L         buildings constructed at the same time, per square foot . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $0.2          2
+A
+L     For garages, carports and other minor accessory buildings constructed at the same time as single or two-family
+A     residential buildings, a fee will not be required. For other types of residential occupancies and alterations, additions
+L     and modifications to existing residential buildings, use BRANCH CIRCUIT FEE OR UNIT FEE SCHEDULE.
+A
+L     4. Private Swimming Pools:
+A
+L     For new private, residential, inground swimming pools for single or multifamily occupancies, including a complete
+A     system of necessary branch circuit wiring, bonding, grounding, underwater lighting, water pumping and other
+L     similar electrical equipment directly related to the operation of a swimming pool, each . . . . . . . . . . . . . . . . . . . . . . . . . . . . $  117.53
+A
+L     For other types of swimming pools, therapeutic whirlpools, spas, hot tubs and alterations to existing swimming
+A     pools, each . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $     79.09
+L
+A     5. Carnivals and Circuses:
+L
+A     Carnivals, circuses or other traveling shows or exhibitions utilizing transportable-type rides, boot hs, displays and
+L     attractions:
+A
+L     For electric generators and electrically driven rides, each . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       . . . . . . . . . . . . . . . . . . . . $56.43
+A
+L     For mechanically driven rides and walk-through attrac tions or displays having electric lighting, each . . . . . . . . . . . . . . . . . . $23.66
+A     For a system of area and booth lighting, each . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     $23.66
+L
+A     For permanently installed rides, booths, displays and attractions, use UNIT FEE SCHEDULE.
+L
+A     6. Temporary Power Service:
+L
+A     For a temporary service power pole or pedestal, including all pole or pedestal mounted receptacle outlets and
+L     appurtenances, each . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $   63.21
+A
+L     For a temporary distribution system and temporary lighting and receptacle outlets for construction sites, decorative
+A     lighting, Christmas tree sales lots, firework stands, sales booths, additional pole, etc., each . . . . . . . . . . . . . . .  . . . . . . . . . . . $   30.99
+L
+A     BRANCH CIRCUIT AND UNIT FEE SCHEDULES.
+L     (Note: 1. The following do not include permit issuing fees;
+A              2. Where appropriate either fee schedule may be used.)
+L
+A
+
+
+
+                                                                              2026 County of Los Angeles         Electrical Code
+
+
+===== Page 12 =====
+                                                                       ARTICLE 82 —     PERMITS AND INSPECTION
+
+
+L       7. Branch Circuit Fees (Alternate to Unit Fees):
+A       Branch circuit fees apply to new branch circuit wiring and the lighting fixtures, switches and receptacles which are
+L       supplied by these branch circuits, including their outlets.
+A
+L       For 15 or 20 ampere 120-volt lighting or general use receptacles:
+A
+L       First 10 branch circuits, each . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    . . . . . . . . . . . . . . . . $   25.10
+A
+L       Each additional branch circuit from 11 to 40 inclusive . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $        20.88
+A       Each additional branch circuit over 40 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    . . 18.        6$6
+L
+A       For 15 or 20 ampere 208 volt to 277 volt lighting, each . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .$    39.55
+L
+A       Exception: An individual multiwire branch circuit supplying one appliance may be counted as one circuit.
+L
+A       Unit Fees (Alternate to Branch Circuit Fees):
+L
+A       8. Receptacle, Switch, Lighting, or Other:
+L       For receptacle, switch, lighting, or other outlets at which current is used or controlled, except services, feeders,
+A
+L       and meters:
+A       First 20, each . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .11                   $3.
+L
+A       Additional outlets, each . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $2.11
+L
+A       (Note: For multi-outlet assemblies, each five feet or fraction thereof may be considered as one outlet.)
+L
+A       9. Lighting Fixtures:
+L       For lighting fixtures, sockets, or other lamp-holding devices:
+A
+L       First 20, each . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      . . $11         3.
+A
+L       Additional fixtures, each . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $2.11
+A
+L       For pole or platform mounted lighting fixtures, each . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $    3.67
+A       For theatrical-type lighting fixtures or assemblies, each . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $           3.67
+L
+A       10. Residential Appliances of Three Horsepower or Less:
+L
+A       For fixed residential appliances or receptacle outlets for same, including wall-mounted electric ovens, counter -mounted
+L       cooking tops, electric ranges, self-contained room, console, or through-wall air conditioners, space heaters, food       -waste
+A       grinders, dishwashers, washing machines, water heaters, clothes dryers, or other motor    -operated appliances, not
+L       exceeding three (3) horsepower (HP) in rating, each . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      . . . . . . . . . . . . . . . . . . . . $1   5.44
+A
+L       Note: For other types of air conditioners and other motor-driven appliances having larger electrical ratings, see
+A       Power Apparatus.
+L
+A       11. Other Appliances of Three Horsepower or Less:
+L
+A       For any appliance installed in a nonresidential occupancy and not exceeding three (3) horsepower (HP),
+L       kilowatt (KW), or kilovolt-  ampere (KVA) in rating, including medical and dental devices, food, beverage,
+A       and ice cream cabinets, illuminated showcases, drinking fountains, vending machines, laundry machines,
+L       or other similar types of equipment, each   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     . . 22.44              $
+A
+L       (Note: 1. As used in the above sentence, ‘‘ nonresidential occupancy’’   includes but is not limited to hotels and motels.
+A                 2. For other types of air conditioners and other motor-driven appliances having larger electrical ratings, see Power
+L
+A                    Apparatus.)
+
+
+
+
+
+
+
+
+
+
+
+                                                                                2026 County of Los Angeles Electrical        Code
+
+
+
+
+===== Page 13 =====
+                                                                         ARTICLE 82 —     PERMITS AND INSPECTION
+
+
+
+L     12. Power Apparatus:
+A     For motors, generators, transformers, rectifiers, synchronous converters, capacitors, industrial heating, air
+L     conditioners and heat pumps, cooking or baking equipment, and other apparatus with a rating as follows:
+A
+L     Rating in horsepower (HP), kilowatts (KW), kilovolt-  amperes (KVA), or kilovolt-amperes-reactive (KVAR):
+A
+L     Rating over 3 and not over 10, each . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       . $28.88
+A
+L     Rating over 10 and not over 50, each . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $     66.76
+A
+L     Rating over 50 and not over 100, each . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     . . . . . . . . . . . . . . . . . . . . . . .$       124.86
+A     Rating over 100, each . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    . . . . . . . . . . . . . . . . . . . . . $206.39
+L
+A     (Note:
+L
+A     1. For equipment or appliances having more than one motor, transformer, heater, etc., the sum of the combined
+L     ratings may be used.
+A
+L     2. These fees include all switches, circuit breakers, contactors, thermostats, relays and other directly related
+A     control equipment.)
+L
+A     13. Busways:
+L     For cable trays, trolley and plug-in type busways, each 100 feet or fraction thereof . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $37.            99
+A
+L     (Note: An additional fee will be required for lighting fixtures, motors and other appliances that are connected
+A     to trolley and plug-in type busways. No fee is required for portable tools.)
+L
+A     14. Signs, Outline Lighting, and Marquees:
+L
+A     For signs, outline lighting systems, or marquees supplied from one branch circuit, each . . . . . . . . . . . . . . . . . . .  . . . . . . . . . .$56.43
+L
+A     For additional branch   circuits within the same sign, outline lighting system, or marquee, each . . . . . . . . . . . . . . . . . . . . . . . .$1   8.66
+L
+A     15. Services, Switchboards, Switchboard Sections, Motor-Control Centers and Panelboards:
+L     For services, switchboards, switchboard sections, motor-control centers and panelboards of 600 volts or less and not
+A     over 399 amperes in rating, each . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $56.43
+L
+A     For services, switchboards, switchboard sections, motor-control centers and panelboards of 600 volts or less
+L     and equal to or greater than 400 amperes up to 1,000 amperes in rating, each . . . . . . . . . . . . . . . . . . . .     . . . . . . . . . . . . . . . . $110.53
+A
+L     For services, switchboards, switchboard sections, motor-control centers and panelboards over 600 volts or over
+A     1,000 amperes in rating, each . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 235.27$
+L
+A     16. Miscellaneous Apparatus, Conduits and Conductors:
+L
+A     For electrical apparatus, conduits and conductors for which a permit is required but for which no fee is herein set
+L     forth . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $94.75
+A
+L     (Note: This fee is not applicable when a fee is paid for one or more services, outlets, fixtures, appliances, power
+A     apparatus, busways, signs or other equipment.)
+L
+A     Other Inspections:
+L
+A     17. For each extra inspection resulting from defective workmanship or materials, each . . . . . . . . . . . . . . . . . . . .      . . . . . . . . .$47.         99
+L     18. For inspection of electrical equipment for which no fee is herein set forth and for emergency inspections
+A
+L     for the time consumed:
+A     For each hour, or fraction thereof . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $158.63
+L
+A     19. For any single hazardous location area, as defined by the provisions of Chapter 5 of the California Electrical
+L     Code, larger than 2,000 sq. ft. or an aggregate area consisting of smaller hazardous location areas totaling over
+A           2,000 sq. ft., a surcharge in addition to any other applicable fees, each . . . . . . . . . . . . . . . . . . . . . . . . . .      . . . . . . . . . . . $317.03
+L
+A
+
+
+                                                                                  2026 County of L        os Angeles Electrical Code
+
+
+
+
+===== Page 14 =====
+                                                             ARTICLE 82 —     PERMITS AND INSPECTION
+
+
+L     20. For investigation and review of test reports from local testing laboratories, or to comply with the requirements
+A            of Section 83-3, alternate material and methods:
+L
+A     Reports for one (1) to ten (10) electrical items, apparatus, machine tools, appliances, or other electrical equipment . . . .. . $366.                     24
+L     For eleven (11) to twenty (20) items . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $732.04
+A
+L     For twenty-one (21) to fif ty (50) items . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . $   1098.28
+A
+L     For more than fifty (50) items . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 1220.58
+A
+L     For high-voltage switchgears, transformers or substations, each . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . .$        732.04
+A     21. For investigation of alternate materials and methods performed by the Chief Electrical Inspector, as required by Section 83-3
+L
+A     For the initial filing fee . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $317.25
+L
+A     For each hour or fraction thereof, in excess of two . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . $158.63
+L
+A     (b) Plan Checking Fee. When required by the Chief Electrical                            (c) Information Required On Plans.
+L     Inspector, plans shall be submitted for enforcement of  any
+A                                                                                             (1) Every plan required by Section 82-8(b) shall be a print or                           L
+L     provisions of this Code. The plan checking fees shall be paid                           other type approved by the Electrical Section of the Building     and                    A
+A     when the plans are submitted for review. With respect to  the                           Safety Division. The information contained on the plans shall be                         L
+L     work described below no wiring shall be installed, nor any                                                                                                                       A
+A     other work for which a permit is required shall be done, until                          drawn to scale in a professional manner, be clearly legible, and                         L
+L     the plans have been approved. Only after the plans have been                            contain the information required in subsection (2)   below.                              A
+A                                                                                             Reasonable symbols satisfactory to the Division shall be   used on                       L
+L     approved may the applicant apply for an electrical permit for                           all plans.                                                                               A
+A     such work.                                                                                                                                                                       L
+L                                                                                             (2) The following is required to be shown on the plans for the                           A
+A     The fee for each plan check shall be equal to seventy percent                           wiring installations described in Section 82.8(b):                                       L
+L     (70%) of the required permit fee as set forth in subsection (a)                                                                                                                  A
+A     of this Section; provided, however, the minimum fee shall be                            A complete plan showing the layout of the proposed electric                              L
+L     158.        63$.                                                                        wiring for each floor, including dimensions of all working                               A
+A                                                                                             spaces, and a legend of all symbols used;                                                L
+L     The fee for each plan check of tenant improvement                                                                                                                                A
+A     installations  requiring review to verify compliance with the                           A complete single line diagram;                                                          L
+L     State’s Electrical Energy Conservation requirements (Title 24)                                                                                                                   A
+A     shall be $19.77            for each 1000 square feet of tenant                          The type, location and capacity of all service equipment, and a                          L
+L                                                                                             dimensioned elevation diagram of the service;                                            A
+A     improvement; provided, however, the minimum fee shall be                                                                                                                         L
+L     $79.54       .                                                                          The size and the length of all service raceways to the manhole,                          A
+A                                                                                             vault or pole of the serving agency or to the service head;                              L
+L     EXCEPTION: This fee shall not apply where a building plan                                                                                                                        A
+A     check fee has been paid under Title 26.                                                 The size of all raceways and the length of all feeder raceways;                          L
+L                                                                                             The dimensions of all pull or junction boxes larger than 4 inches                        A
+A     In addition to the aforementioned fees, the Chief Electrical                                                                                                                     L
+L     Inspector may require additional charges at the rate of $158.         63                (102 mm) trade size;                                                                     A
+A     per hour for review required by complexity of plans, or                                 The number, size and type of all conductors to be installed in                           L
+L     revisions of approved plans or reports, or for services beyond                                                                                                                   A
+A     the first and second plan check due to changes, omissions or                            wiring enclosures;                                                                       L
+L                                                                                             The location of every proposed outlet and switch in all parts of                         A
+A     errors on the part of the applicant. The payment of said fees                                                                                                                    L
+L     shall not  exempt any person from compliance with other                                 the  building or structure, including all fixed showcases, wall                          A
+A     provisions of this Code.                                                                cases, office furnishings and similar wiring;                                            L
+L                                                                                                                                                                                      A
+A     When the Chief Electrical Inspector determines that an                                  The wattage or ampere rating of each outlet for noninductive                             L
+L     identical electrical design is evident in more than one building                        loads and the volt-ampere rating of each unit or transformer for                         A
+A     or structure in a single project, the plan checking fees for the                        electric discharge lighting;                                                             L
+L     design of the first building or structure will be as set forth                                                                                                                   A
+A     above. Plan checking fees for other buildings and structures                            The location, voltage and HP rating of every motor and the KW                            L
+L                                                                                             rating of every generator;                                                               A
+A     with identical  electrical designs in the same project will be                                                                                                                   L
+L     equal to 70 percent (70%) of the plan checking fee for the first                        The type and code letter of every AC motor, unless an alternate                          A
+A     building or structure. Such fees shall be paid at the time an                           specification is otherwise satisfactory to the Chief Electrical                          L
+L     application is made for such identical building or structure.                           Inspector;                                                                               A
+A
+
+
+                                                                    2026 County of Los Angeles Electrical        Code
+
+
+
+===== Page 15 =====
+                                                            ARTICLE 82 —     PERMITS AND INSPECTION
+
+
+L   The location and KVA, or equivalent rating of each                                Sec. 82-9. Cancellation or Surrender of Permit. If no portion                    L
+A   transformer,  capacitor, ballast, converter, frequency changer                    of the work or construction covered by a permit issued by         the            A
+L   and similar  equipment; and the locations and ampere or                           Chief Electrical Inspector under the provisions of this Code has                 L
+A   wattage rating of other appliances of the noninductive type;                      been commenced, the person to whom such permit has been                          A
+L                                                                                     issued may deliver such permit to the Chief Electrical Inspector                 L
+A   Details of panelboard, switchboard and distribution centers,                      with the request that such permit be canceled. The Chief                         A
+L   showing type and arrangement of switches, overcurrent                                                                                                              L
+A   devices, and general control equipment;                                           Electrical Inspector shall thereupon stamp or write on the face                  A
+L                                                                                     of such permit the words ‘‘ Canceled at the request of the                       L
+A   Panelboard, switchboard and motor control center schedules,                       permittee.’’  Thereupon such permit shall be void and of no                      A
+L   showing wattage and amperage, the number of active branch                         effect.                                                                          L
+A   circuits to be installed, and the number of spare branch circuits                                                                                                  A
+L   for future use. This shall include identifying the circuits  to                   Sec. 82-10. Suspension or Revocation of Permit. The Chief                        L
+A                                                                                     Electrical Inspector may suspend or revoke any permit issued                     A
+L   which the outlets are connected and listing the number and                        under the provisions of this Code whenever such permit is                        L
+A   type of outlets;                                                                  issued in error, or is issued on the basis of incorrect information              A
+L                                                                                                                                                                      L
+A   A lighting fixture schedule;                                                      supplied, or has been obtained by falsification or                               A
+L   The existing load, as calculated in accordance with Articles                      misrepresentation, or when work is being done thereunder in                      L
+A                                                                                     violation of this or any other related ordinance or regulation.                  A
+L   210     and 220 of the California Electrical Code or by other                                                                                                      L
+A   methods satisfactory to the Chief Electrical Inspector shall be                   Sec. 82-11. Refund.  In the event that any person shall have                     A
+L   indicated  for existing installations having alterations or                       obtained a permit and no portion of the work or construction                     L
+A   additions made thereto;                                                           covered by such permit shall have been commenced and such                        A
+L                                                                                     permit shall have been canceled or expired without any work                      L
+A   Other additional information as the Chief Electrical Inspector                                                                                                     A
+L   may consider necessary for proper enforcement of this Code.                       having been done as provided for in this Code, the permittee,                    L
+A                                                                                     upon presentation to the Chief Electrical Inspector of a request                 A
+L   (d) Maintenance Electrician Registration Fee. A fee shall   be                    therefor in writing, shall be entitled to a refund in an amount                  L
+A   paid for each Certificate of Registration as Maintenance                          equal to 80 percent of the fee actually paid for such permit.                    A
+L   Electrician. Each registration shall expire on June 30,                                                                                                            L
+A   biennially,  in even-numbered years, and each such certificate                    The Chief Electrical Inspector shall be satisfied as to the right                A
+L                                                                                     of such applicant to such refund, and each such refund shall be                  L
+A   may be renewed on or before that date upon payment of the                         paid as provided by law for the payment of claims against the                    A
+L   renewal fee.                                                                      County. No refund shall be made when a permit has been                           L
+A                                                                                                                                                                      A
+L   Registration and Renewal Fee, each . . . . . . . . . . . . . . . $305.2          6obtained by falsification or misrepresentation and has been                      L
+A   (e) Investigation Fee for Work Without a Permit. Whenever                         revoked for such cause.                                                          A
+L                                                                                                                                                                      L
+A   any work has been commenced without a permit as required by                       Sec. 82-12. Transfer. Permits are not transferable from one                      A
+L   the provisions of Section 82-3 of this Code, a special                            person to another or from one location to another.                               L
+A   investigation shall be made prior to the issuance    of the permit.                                                                                                A
+L   An investigation  fee shall be collected for each permit so                       Sec. 82-13. Exemption from Fees.  The requirements for fees                      L
+A   investigated. The investigation fee shall be equal to and in                      contained in this Code shall not apply when the collection of                    A
+L   addition to the permit fees specified in Section 82-8, but in no                  such fees is contrary to the provisions of any contract to which                 L
+A                                                                                     the County of Los Angeles is a party or is legally prohibited by                 A
+L   event shall the   investigation fee be less than $88.                 87.4        other laws or ordinances. A fee shall not be required for a                      L
+A   EXCEPTION 1: The fee shall be $ when the Chief                  243.94                                                                                             A
+L                                                                                     permit to perform work regulated by this Code for a trailer                      L
+A   Electrical Inspector has determined that the owner-builder of a                   coach exempt from fees in Title 26, entitled ‘‘ Building Code,’’                 A
+L   one family or two family dwelling, accessory building or                          or when a combination permit is issued in compliance with the                    L
+A   accessory  structure had no knowledge that a permit was                           requirements   of Title 26.                                                      A
+L   necessary and had not previously applied for a permit from the                                                                                                     L
+A   Building and Safety Division of the County of Los Angeles.                        Sec. 82-14. Inspection                                                           A
+L                                                                                                                                                                      L
+A   EXCEPTION 2: The foregoing provisions shall not apply  to                         (a) Scope. All  new electrical work, and such portions of                        A
+L   emergency work when it shall be proved to the satisfaction of                     existing  systems as may be affected by new work, or any                         L
+A                                                                                     changes, shall be inspected by the Chief Electrical Inspector to                 A
+L   the Chief Electrical Inspector that such work was urgently                        insure compliance with all the requirements of this Code.                        L
+A   necessary and that it was not practical to obtain a permit                                                                                                         A
+L   therefor before the commencement of the work. In all such                         (b) Advance Notice. It shall be the duty of the person doing  the                L
+A   cases, a permit must be obtained as soon as it is practical to do                 work authorized by the permit to notify the Chief Electrical                     A
+L   so, and if there be an unreasonable delay in obtaining such                       Inspector that said work is ready for inspection. Such                           L
+A   permit,    this exception shall not apply and the investigation fee                                                                                                A
+L                                                                                     notification shall be given not less than 24 hours before the                    L
+A   shall be   charged.                                                               work is to be inspected.                                                         A
+
+
+                                                                   2026 County of Los Angeles         Electrical Code
+
+
+
+===== Page 16 =====
+                                                        ARTICLE 82 —     PERMITS AND INSPECTION
+
+
+L   (c) Permission to Cover Work. It shall be unlawful for any                       and if it is found by the Chief Electrical Inspector to be fully in                    L
+A   person to lath over, seal, cover or conceal any electrical wiring                compliance    with the provisions of this Code and all other laws and                  A
+L                                                                                    ordinances applicable thereto, the Chief Electrical Inspector  shall                   L
+A   or other electrical equipment, for the installation of which  a                  issue, as provided for herein, the certificate of inspection   or                      A
+L   permit is provided herein, until such electric wiring or other                   approval notice authorizing connection of the electrical service and                   L
+A   electrical equipment shall have been inspected and approved                      the energizing of the installation.                                                    A
+L   by     the Chief Electrical Inspector.                                                                                                                                  L
+A                                                                                    Approval as a result of an inspection shall not be construed to be an                  A
+L   (d) Uncovering. Said Chief Electrical Inspector shall have the                   approval of a violation of the provisions of this Code or     of other                 L
+A   authority to remove, or to require the removal of, any                                                                                                                  A
+L   obstruction    which prevents proper inspection of any electrical                laws. Inspections presuming to give authority to violate or cancel                     L
+A   equipment.                                                                       the provisions of this Code or of other laws shall not be valid.                       A
+L                                                                                                                                                                           L
+A   (e) Corrections. All defects shall be corrected within 10 days                   (g) Connection. It shall be unlawful to energize or cause or     permit                A
+L   after inspection and notification or within such other                           to be energized any electrical wiring coming under the      provisions                 L
+A                                                                                    of this Code, until such electrical wiring shall have   been inspected                 A
+L   reasonable  time as is permitted by the Chief Electrical                         and approved by the Chief Electrical Inspector.  Provided, however,                    L
+A   Inspector.                                                                       that temporary permission may be given to   furnish electric current                   A
+L                                                                                                                                                                           L
+A   (f) Approval. Upon the com   pletion of the electrical wiring in                 to, or the use of electric current through any electrical wiring for a                 A
+L   or on any building or structure of any nature, or tent, or                       length of time not exceeding 30 days, or other reasonable period, if                   L
+A   premises,  except as otherwise exempted in this Code, the                        it appears to said Chief Electrical  Inspector that such electrical                    A
+L   person, firm or corporation installing the same shall notify the                 wiring may be used safely for such purpose, and that there exists an                   L
+A   Chief Electrical Inspector, who shall inspect such installation,                 urgent necessity for such use.                                                         A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                2026 County of Los Angeles Electrical        Code
+
+
+===== Page 17 =====
+                                  ARTICLE 83 —     REQUIREMENTS FOR INSTALLATION —     METHODS AND MATERIALS
+
+
+                                                                              ARTICLE 83
+                                                               REQUIREMENTS FOR INSTALLATION —
+                                                                      METHODS AND MATERIALS
+
+L    Sec. 83-1. Installation.  All electrical installation shall be in                  A written application for a modification shall be submitted by               L
+A    conformity with the provisions of this Code, and shall be in                       the owner’s agent together with the filing fee specified  in                 A
+L    conformity with approved standards for safety to life and                          Section 82-8(a), item 21.                                                    L
+A    property. Where no specific type or class of material, or no                       Sec. 83-4. Used Material.  Previously used construction                      A
+L    specific  standards are prescribed by this Code, or by the                                                                                                      L
+A    California   Electrical  Code, conformity with a standard                          materials  shall not be reused in any work without special                   A
+L    designated by the Chief Electrical Inspector shall be prima                        permission.                                                                  L
+A                                                                                                                                                                    A
+L    facie evidence of conformity    with an approved standard for                      Previously used industrial apparatus and processing L
+A    safety to life and property.                                                       equipment may be reinstalled provided it complies with all                   A
+L                                                                                       applicable provisions     of this Code and with prior approval of            L
+A    Sec. 83-2. Materials. All electrical materials, devices,                           the Chief Electrical Inspector.                                              A
+L    appliances    and equipment shall be in conformity with the                                                                                                     L
+A    provision  of this Code, shall comply with nationally                              Sec. 83-5. Existing Installations. No provision of this Code                 A
+L    recognized standards, and shall be certified by a recognized                       shall be deemed to require a change in any portion of                        L
+A    testing laboratory  as acceptable to the Chief Electrical                          electrical systems or any other work regulated by this Code in               A
+L    Inspector.                                                                         or on an existing building or lot when such work was installed               L
+A                                                                                                                                                                    A
+L    Sec. 83-3. Alternate Materials and Methods of                                      and is maintained in accordance with law in effect prior to the              L
+A                                                                                       effective  date of this Code, except when any such electrical                A
+L    Construction and Modifications.                                                    systems  or other work regulated by this Code is determined                  L
+A    (a) Alternate Materials and Methods of Construction. The                           by the Chief  Electrical Inspector to be in fact dangerous,                  A
+L                                                                                       unsafe, or a nuisance, and a menace to life, health or property.             L
+A    provisions of this Code are not intended to prevent the use of                                                                                                  A
+L    any  material, appliance, installation, device, arrangement,                       Sec. 83-6. Additions, Alterations, Renewals and Repairs.                     L
+A    method, design, or method of construction not specifically                         Additions, alterations, renewals and repairs to existing                     A
+L    prescribed by this Code, provided any such alternate has been                                                                                                   L
+A    approved by the Chief Electrical Inspector.                                        installations shall be made in accordance with the provisions                A
+L                                                                                       of this Code.                                                                L
+A    The Chief Electrical Inspector shall have the authority to                                                                                                      A
+L    approve on a case-by-case basis any such alternate that is                         EXCEPTION:  Minor additions, alterations, renewals and                       L
+A    found to be satisfactory and does not lessen provisions for                        repairs to existing installations when approved by the Chief                 A
+L                                                                                       Electrical Inspector may be installed in accordance with the                 L
+A    safety or health required by this Code.                                            law      in effect prior to the effective date of this Code.                 A
+L    Such approval shall be based upon submittal of substantiating                                                                                                   L
+A                                                                                       Sec. 83-7. Electrical Testing Certifications. Electrical                     A
+L    data and including, but not limited to, performance                                testing certifications will be accepted as complying with the                L
+A    characteristics,  measurements, calculations, diagrams,                            requirements of this Code only when such certifications are                  A
+L    equipment and     construction factors, where applicable.                                                                                                       L
+A                                                                                       issued in accordance with this Code and nationally recognized                A
+L    A written application for the use of an alternate material,                        standards  by electrical testing laboratories which have been                L
+A    design, or method of construction shall be submitted by the                        accredited by the Chief Electrical Inspector.                                A
+L    owner or owner’s agent together with the filing fee specified                                                                                                   L
+A    in Section 82-8(a), item 21.                                                       The Chief Electrical Inspector recognizes three types of                     A
+L                                                                                       electrical testing laboratories:                                             L
+A    (b) Modifications. Whenever there are practical difficulties                                                                                                    A
+L    involved in carrying out the provisions of this Code, the Chief                    o Nationally Recognized Testing Laboratories;                                L
+A    Electrical Inspector shall have the authority to grant minor                       o Field Evaluation Organization Laboratories; and                            A
+L                                                                                                                                                                    L
+A    modifications on a case by case basis, provided the Chief                          o Calibration Laboratories.                                                  A
+L    Electrical  Inspector shall first find that a special individual                                                                                                L
+A    reason makes the strict letter of this Code impractical and that                   Sec. 83-8. Accreditation of Electrical Testing Laboratories                  A
+L    the modification is in conformity with the spirit and purpose                                                                                                   L
+A    of this Code and that such modification does not lessen any                        (a) Nationally Recognized Testing Laboratories. A                            A
+L                                                                                       Nationally  Recognized Testing Laboratory (NRTL) L
+A    health,     fire-protection,   or other life-safety related                        accreditation issued by the United States Occupational Safety                A
+L    requirements. The   details of any action granting modifications                   and Health Administration is accepted by the Chief Electrical                L
+A    shall be recorded  and entered in the files of the code                            Inspector as    meeting the accreditation requirements of this               A
+L    enforcement agency.                                                                                                                                             L
+                                                                                        Code for listing and labeling testing laboratories.
+
+
+                                                                    2026 County           of Los Angeles Electrical Code
+
+
+
+===== Page 18 =====
+                              ARTICLE 83 —     REQUIREMENTS FOR INSTALLATION —     METHODS AND MATERIALS
+
+
+L     (b) Field Evaluation Organization Laboratories. Field                         permanent fulltime staff. For each individual project, test reports                 L
+A     Evaluation Organizations laboratories shall be a Nationally                   shall be submitted for approval by the Chief Electrical Inspector                   A
+L     Recognized Testing Laboratory (NRTL) which received its                       and shall bear the professional electrical engineer’s signature as                  L
+A     accreditation from the United States Occupational Safety and                  required by the State of California Regulations.                                    A
+L     Health Administration and must apply to and be approved by                                                                                                        L
+A     the Chief Electrical Inspector to perform field evaluation on                 (c) Calibration Laboratories. Calibration laboratories must   apply                 A
+L                                                                                   to and be approved by the Chief Electrical Inspector.   These                       L
+A     required electrical equipment. These laboratories must have a                 laboratories must have a professional electrical engineer   registered              A
+L     professional electrical engineer registered in California                     in California pursuant to the Professional Engineer’s    Act                        L
+A     pursuant  to the Professional Engineer’s Act (California (California Business and Professions Code section 6700, et seq.) on                                      A
+L     Business and Professions Code section 6700, et seq.) on their                                                                                                     L
+                                                                                    their permanent full-time staff.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                               2026 County of Los Angeles Electrical        Code
+
+
+
+
+===== Page 19 =====
+                                                          ARTICLE 84 —     VIOLATIONS AND PENALTIES
+
+
+                                                                             ARTICLE 84
+                                                                    VIOLATIONS AND PENALTIES
+
+
+L   Sec. 84-1. Violations and Penalties.  Any person, firm or                           Sec. 84-2. Noncompliance Fee. If the Chief Electrical                          L
+A   corporation     violating any of the provisions of this Code shall                  Inspector  in the course of enforcing the provisions of this                   A
+L   be guilty of a misdemeanor, and each such person shall be                           Code or any state law issues an order to a person and that                     L
+A   guilty of a separate offense for each and every day or portion                      person fails   to comply with the order within 15 days following               A
+L   thereof during which any violation of any of the provisions                         the due date for compliance stated in the order, including any                 L
+A   of this Code is committed, continued, or permitted, and upon                        extensions thereof, then the Chief Electrical Inspector shall                  A
+L                                                                                                                                                                      L
+A   conviction of  any such violation, such person shall be                             have the authority to collect a noncompliance fee.                             A
+L   punishable by a fine of  not more than $1000 or by                                  The noncompliance fee shall not be imposed unless the order                    L
+A   imprisonment for not more than six   months, or by both such                        states that a failure to comply within 15 days after the                       A
+L   fine and imprisonment.                                                                                                                                             L
+A                                                                                       compliance    date specified in the order will result in the fee               A
+L   The provisions of this section are in addition to and                               being    imposed. No more than one such fee shall be collected                 L
+A   independent of any other sanctions, penalties or costs which                        for failure  to comply with an order. The amount of the                        A
+L   are or may otherwise be imposed for a violation of any of the                       noncompliance fee shall be $1 per building for Group R, 46.52                  L
+A   provisions of this Code.                                                            Division 3 occupancies and $2 per building for all other .2693                 A
+L                                                                                                                                                                      L
+                                                                                        occupancies, and  shall be in addition to the fees specified
+                                                                                        elsewhere in this Code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                   2026 County of Los Angeles         Electrical Code
+
+
+
+
+===== Page 20 =====
+                                               ARTICLE 85 —     ELECTRIC VEHICLE CHARGING STATIONS
+
+
+                                                                          ARTICLE 85
+                                                         ELECTRIC VEHICLE CHARGING STATIONS
+
+L    Sections:                                                                      written correction notice shall be issued detailing all deficiencies in                L
+A                                                                                   the application and any additional information required to be                          A L
+L    85-1. Scope                                                                    eligible for expedited permit issuance.                                                A
+A    85-2. Definitions                                                              Sec. 85-4. Permits. Upon approval of a permit application by         the               L
+L                                                                                   Building Official, an electrical or building permit, as applicable,                    A
+A    85-3. Application For Permit                                                   will be issued for work described in the application. EVSEs and                        L
+L    85-4. Permits                                                                  their associated electrical equipment rated for less  than four-                       A
+A                                                                                                                                                                          L
+L    85-5. Fees                                                                     hundred (400) amps do not require an electrical plan      check, and a                 A
+A                                                                                   permit for that specific installation may be obtained  over the                        L
+L    85-6. Inspections                                                              counter at a local Building and Safety District Office.                                A
+A                                                                                                                                                                          L
+L    85-7. Electric Vehicle Charging Station System                                 Sec. 85-5. Fees. Permit fees for the installation of electric     vehicle              A
+A    Requirements                                                                   charging stations or EVSEs shall be charged according    to the                        L
+L                                                                                   applicable fees prescribed in Section 82-8 of this Code  and Section                   A
+A    Sec. 85-1. Scope. The provisions of this Article are intended to               107 of the Building Code, as applicable. The electrical permit fee                     L
+L    create an expedited permitting and inspection process for                                                                                                             A
+A    electric   vehicle charging stations and to implement consistent               for EVSEs shall be the same rate as the electrical power equipment                     L
+L                                                                                   in Section 82-8 of this Code.                                                          A
+A    statewide  standards for their timely and cost effective                                                                                                              L
+L    installation.                                                                  Sec. 85-6. Inspections. All construction or work for electric    vehicle               A
+A    Sec. 85-2. Definitions. For the purpose of this Article, words                 charging stations for which a permit is required shall be subject to                   L
+L                                                                                   inspection by the Building Official and such construction      work                    A
+A    and terms used in this Article shall have the meanings set forth               shall remain accessible and exposed for inspection    purposes until                   L
+L    in this Section. Where terms are not defined in this Section and               approved by the Building Official as specified   in Section 81-4.                      A
+A    are defined elsewhere in this Code, or the Building Code, such                                                                                                        L
+L    terms shall have the meanings ascribed to them in such codes.                  Sec. 85-7. Electric Vehicle Charging Station System                                    A
+A    Where terms are not defined through the methods authorized                     Requirements.                                                                          L
+L                                                                                                                                                                          A
+A    by this Section, such terms shall have their ordinary accepted                 (a) General. The design of electric vehicle charging stations   shall                  L
+L    meanings such as the context implies.                                          comply with this Section to qualify for expedited permit   issuance.                   A
+A                                                                                                                                                                          L
+L    ELECTRIC VEHICLE SUPPLY EQUIPMENT (EVSE) or                                    (b) Plug-in Electric Vehicle Infrastructure Permitting                                 A
+A    ELECTRIC VEHICLE CHARGING STATION. Consists                                    Checklist. The permit application for the electric vehicle   charging                  L
+L    of the conductors, including the ungrounded, grounded, and                     stations must comply with the requirements of the plug-in electric                     A
+A    equipment grounding conductors and the electric vehicle                                                                                                               L
+L    connectors, attachment plugs, and all other fittings, devices,                 vehicle infrastructure permitting checklist, which is contained in the                 A
+A                                                                                   most current version of the ‘‘Zero-Emission Vehicles in California:                    L
+L    power  outlets, or apparatus installed specifically for the                    Community Readiness  Guidebook’’  published by the Governor’s                          A
+A    purpose of transferring energy between the premises wiring                     Office of Planning and Research of the State of California and as                      L
+L    and the electric   vehicle.                                                    adopted by the Building Official.                                                      A
+A                                                                                                                                                                          L
+L    Sec. 85-3. Application for Permit. The application for permit                  (c) Minimum Electric Vehicle Charging Station Standards.                               A
+A    shall meet the requirements of Sections 81-2, 82-3, and 82-                  4 The electric vehicle charging station or EVSE shall be identified                      L
+L    and may be submitted in person or electronically through the                                                                                                          A
+A    online submittal system maintained by the Building Official.                   and listed for the application as referenced in the Electrical Code.                   L
+L    Prior to submitting an application for an expedited permit, the                (d) Compliance with Laws. The    electric vehicle charging  station                    A
+A                                                                                                                                                                          L
+L    applicant shall verify that the installation meets all criteria in             or EVSE shall also comply with all other applicable Los  Angeles                       A
+A    Section 85-7. Upon receipt of an incomplete application, a                     County Codes and California Health and Safety Laws.                                    L
+L                                                                                                                                                                          A
+A
+
+
+
+
+
+
+
+
+
+
+                                                                2026 County of Los Angeles Electrical        Code
+
+
+

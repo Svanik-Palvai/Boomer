@@ -1,0 +1,223 @@
+
+
+===== Page 1 =====
+                                                                                                                        Reference Code(s):
+
+                                                                                                          Phila Building, Residential Building,
+                                                                                                                and Existing Building Codes.
+                                                                                                                             NFPA 70 (NEC)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                FAQ:
+                              What Code Applies to Electrical Work?
+
+  Background:
+  Construction within the City of Philadelphia is regulated by the PA Uniform Construction Code (UCC). The
+  UCC adopts the International Code Council code series, including the International Residential Code, the
+  International Building Code, and the International Existing Building Code with certain modifications.
+  NFPA 70 (NEC) is a standard referenced in the Residential, Building, and Existing Building Codes for
+  electrical work.
+  The code describes what must be done and a referenced standard describes how it must be done. A
+  standard is only applicable when explicitly referenced in the code and to the prescribed extent of the
+  reference. Where there is a conflict between the code and a referenced standard, the provisions of the
+  code take precedence.
+  The relationship between codes and standards can be confusing. This may be compounded for electrical
+  work because of sweeping references to NFPA 70 (NEC) in the codes.
+
+
+  Answer:
+  Electrical work is governed by the Building Code, Residential Building Code, and Existing Building Code.
+  NFPA 70 (NEC) is only applied as explicitly referenced in those codes or other adopted codes.  Where a
+  conflict exists between the Building Codes and NFPA 70 (NEC), the provisions of the Building Codes
+  govern.
+  The Building Codes only apply when work is being performed or a building or space is undergoing a
+  change in occupancy classification. The prevailing principles governing existing buildings in the Building
+  Codes are:
+      1.  A building cannot be made less safe by repair or renovation.
+      2.  Repairs may utilize like materials unless an upgrade to current standards is explicitly required by
+          the Building Codes.
+      3.  New work must satisfy the requirements of current standards.
+      4.  Systems, components, and conditions that were legal at the time of installation do not require
+          upgrade unless explicitly required by the Building Codes.
+  The Philadelphia Property Maintenance Code and the Philadelphia Fire Code (Chapter 11 and additional
+  operations and maintenance requirements referenced in the Code) provide minimum safety requirements
+  that apply to all existing buildings, even when no work is being performed.
+  Note: Separate requirements may apply to substantial improvement or damage in the special flood hazard
+  area     and historic buildings.
+
+
+
+  PB_021    _FAQ (February 2024)                                                                                                                                                                                                                          Page 1 of 3
+
+
+
+
+===== Page 2 =====
+                                                                                                                              Reference Code(s):
+
+                                                                                                              Phila Building, Residential Building,
+                                                                                                                     and Existing Building Codes.
+                                                                                                                                  NFPA 70 (NEC)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  The relationship and applicability of codes is as follows:
+
+
+  Residential Buildings- Repairs, Alterations, and New Construction
+  For the purpose of this document, a residential building is a detached one-           and two-  family dwelling or a
+  townhouse not more than three stories in height.
+  All electrical work relating to a residential building     and its accessory structures   is governed by Part VIII of
+  the Philadelphia Residential Code. These chapters are produced and copyrighted by NFPA and based
+  on the referenced edition of NFPA 70 (NEC).  Any work that is not covered by Part VIII must comply with
+  NFPA 70 (NEC).
+  An alteration   or repair is required to meet the provisions of the Residential Code for new materials;
+  however, the remainder of the building is not required to comply with current standards unless explicitly
+  stated.
+
+
+
+
+
+
+
+
+
+
+  Non-Residential Buildings- New Construction
+  All new work on a building (and accessory structures) that is not classified as residential is governed by
+  the Philadelphia Building Code. Chapter 27 of the Building Code references  NFPA 70 (NEC) for the
+  design, construction,   and installation of electrical systems, equipment,  and components.
+
+
+
+
+
+
+
+
+
+
+
+  Non-Residential Buildings- Repairs, Alterations, Additions, and Change in Occupancy
+  The provisions of the Existing Building Code apply to an existing building  , as stated in Chapter 27 of the
+  Building Code. New work must comply with the provisions of the Building Code     but repairs and required
+  upgrades to buildings undergoing alteration or change in occupancy are governed by the provisions of the
+  Existing Building Code. The Existing Building Code recognizes the challenges associated with upgrading older
+  buildings and takes the intent and extent of work into account.
+
+
+
+  PB_021    _FAQ (February 2024)                                                                                                                                                                                                                          Page 2 of 3
+
+
+
+
+===== Page 3 =====
+                                                                                                                                                        Reference Code(s):
+
+                                                                                                                                      Phila Building, Residential Building,
+                                                                                                                                              and Existing Building Codes.
+                                                                                                                                                             NFPA 70 (NEC)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Repairs
+  A repair is non-elective work that is necessary to maintain a system in safe condition or to correct damage,
+  which may include the replacement of systems or components. Repairs may be made using like materials
+  unless otherwise   stated and the remainder of the building is not required to be upgraded.
+
+
+
+
+
+
+
+
+
+
+
+  Alterations
+  An alteration is any elective renovation that is not classified as a repair. The necessity, and not the extent of
+  work, is the distinguishing factor.  Upgrades to the building may be required based on the extent of the work.
+  The Existing Building Code offers multiple paths of compliance and enables the building owner and design
+  professional to select the method that is best suited to their project.
+
+
+
+
+
+
+
+
+
+
+  Change in Occupancy Classification
+  The Existing Building Code includes requirements for buildings or spaces undergoing a change in occupancy
+  that apply even if no work is proposed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Questions? Call 311 or (215) 686-8686 (if outside Philadelphia) or submit an online form via  http://www.phila.gov/li/get-help .
+
+  Disclaimer: This interpretation, policy or code application is intended to provide guidance to staff for consistency of review and is subject to change without notice.
+  Application of this interpretation, policy or code application to specific projects may vary. There may be other ways to comply with the Code. If so, you are not required
+  to use this method. You may want to investigate other options or consult with a professional identifying an equally code compliant solution.
+
+
+
+
+  PB_021    _FAQ (February 2024)                                                                                                                                                                                                                          Page 3 of 3
+
+

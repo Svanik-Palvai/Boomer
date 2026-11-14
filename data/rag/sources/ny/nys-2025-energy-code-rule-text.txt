@@ -1,0 +1,990 @@
+
+
+===== Page 1 =====
+                                                         RULE TEXT
+
+                                                  (Part 1240 –           Energy Code)
+
+
+
+Part 1240 of Title 19 of the Official Compilation of Codes, Rules and Regulations of the State of New
+
+York is repealed.
+
+
+
+Title 19 of the Official Compilation of Codes, Rules and Regulations of the State of New York is amended
+
+by adding a new Part 1240, to read as follows:
+
+
+
+Part 1240. STATE ENERGY CONSERVATION CONSTRUCTION CODE
+
+Section 1240.1 State Energy Conservation Construction Code.
+
+        This Part and the publications incorporated by reference in this Part constitute the State Energy
+
+Conservation Construction Code (the Energy Code) promulgated pursuant to article 11 of the Energy Law.
+
+
+
+Section 1240.2 Definitions.
+
+        For the purposes of this Part, the following words and phrases shall have the following meanings unless
+
+a different meaning is plainly required by the context:
+
+        (a) 2025ECCCNYS           .   The term “2025ECCCNYS” means the publication entitled “202   5Energy
+
+Conservation Construction Code of New York State” (publication date: July 2025)            published by the
+
+International Code Council, Inc.
+
+        (b) 2025ECCCNYS Commercial Provisions           .The term “202   5ECCCNYS Commercial Provisions”
+
+means that part of the 2025ECCCNYS    that is    applicable to “commercialbuildings” as such term is defined
+
+herein.
+
+===== Page 2 =====
+         (c) 2025 ECCCNYS Residential Provisions  .  The term “2025          ECCCNYS Residential Provisions” means
+
+that part of the 2025 ECCCNYS that           is  applicable to “residential buildings” as such term is defined herein .
+
+         (d) ASHRAE 90.1  -2022.  The term “ASHRAE 90.1           -2022” means the publication entitled
+
+“ANSI/ASHRAE/IES Standard 90.1-2022, Energy Standard for Buildings Except Low-Rise Residential
+
+Buildings” (December, 2022 printing) published by American Society of Heating, Refrigerating and Air
+
+Conditioning Engineers, Inc.
+
+         (e) NYS ASHRAE 90.1  -2025.  The term “NYS ASHRAE 90.1              -2025” means the New York State           -specific
+
+version of the publication ASHRAE 90.1-2022 entitled “            NYS ASHRAE 90.1-2025, Energy Standard for
+
+Buildings Except Low-Rise Residential Buildings    ” (publication date: July 2025)   published by the International
+
+Code Council, Inc.
+
+         (f) Commercial building     .  The term “commercial building” includes any building that is not a residential
+
+building (as defined in subdivision [i] of this section).
+
+         (g) Energy Code  .  The term “Energy Code” means the State Energy Conservation Construction Code.
+
+         (h) Historic building  .  The term “historic building” means an existing building or structure      that is any of
+
+the following:
+
+         (1) listed, or certified as eligible for listing, in the National Register of Historic Places or in the New
+
+York State Register of Historic Places.
+
+         (2) designated as historic under an applicable state or   local law; or
+
+         (3) c  ertified as a contributing resource within a National Register-listed, State Register listed, or locally
+
+designated historic district.
+
+         (i) Residential building     .  The term “residential building” includes:
+
+         (1) detached one-and-two-family dwellings and townhouses having not more than three stories above
+
+grade plane;
+
+===== Page 3 =====
+         (2) buildings that are classified in accordance with chapter 3 of the Building Code of New York State     as
+
+Group R-2, R-3 or R-4 andhavingnot more than three stories above grade plane; and
+
+         (3)  factory manufactured homes (as defined in section 372of the Executive Law)             .
+
+         (j) Townhouse or townhouse unit       .The term   s “ townhouse or townhouse unit” means a single  -family
+
+dwelling unit constructed in a group of three or more attached units in which each unit:
+
+         (1) extends from the foundation to roof;
+
+         (2) has open space on at least two sides; and
+
+         (3) has a separate means of egress.
+
+
+
+Section 1240.3 Energy Code provisions applicable to commercial buildings.
+
+         (a) 2025ECCCNYS Commercial Provisions.           Except as otherwise provided in section 1240.5 of this
+
+Part, the construction of all new commercial buildings; all additions to, alterations of, and/or renovations of
+
+existing commercial buildings; and all additions to, alterations of, and/or renovations of building systems in
+
+existing commercial buildings shall comply with the requirements of the 2025ECCCNYS Commercial
+
+Provisions.  The 2025ECCCNYS Commercial Provisions are incorporated herein by reference. Copies of the
+
+2025ECCCNYS (which includes the 2025ECCCNYS Commercial Provisions) may be obtained from the
+
+publisher at the following address:
+
+         International Code Council, Inc.
+
+         200MassachusettsAvenue NW, Suite 250
+
+         Washington, DC 20001
+
+The 2025ECCCNYS is available for public inspection and copyingat:
+
+            New York State Department of State
+
+         One Commerce Plaza, 99 Washington Avenue
+
+===== Page 4 =====
+         Albany, NY 12231-           0001.
+
+         (b) NYS ASHRAE 90.1  -2025.To the extent provided in the 2025ECCCNYS Commercial Provisions,
+
+compliance with the requirements of NYS ASHRAE 90.1-        2025,and the referenced standards incorporated
+
+therein,shall be permitted in lieu of compliance with the 202  5ECCCNYS Commercial Provisions. NYS
+
+ASHRAE 90.1-2025is incorporated herein by reference. Copies of the NYS ASHRAE 90.1          -2025may be
+
+obtained from the publisher at the following address:
+
+         International Code Council, Inc.
+
+         200 Massachusetts Avenue NW, Suite 250
+
+         Washington, DC 20001
+
+NYS ASHRAE 90.1-2025is available for public inspection and copying at         :
+
+            New York S tate Department of State
+
+         One Commerce Plaza, 99 Washington Avenue
+
+         Albany, NY 12231-           0001.
+
+         (c) Referenced standards. The referenced standards listed in chapter 6 of the 2025ECCCNYS
+
+Commercial Provisions are considered to be part of the 2025          ECCCNYS Commercial Provisions, subject to the
+
+provisions and limitations set forth in sections C107.l, C107.1.1, and C107.1.2 of the 2025ECCCNYS
+
+Commercial Provisions.  The following referenced standards are incorporated herein by reference and shall be
+
+considered to be part of the 2025ECCCNYS Commercial Provisions subject to the provisions and limitations
+
+set forth in sections C107.l, C107.1.1, and C107.1.2 of the 2025ECCCNYS Comme     rcial Provisions:
+
+         (1) ASHRAE. The following publications published by American Society of Heating, Refrigerating and
+
+Air-Conditioning Engineers, Inc. are incorporated herein by reference:
+
+         (i) 55     -2020: Thermal Environmental Conditions for Human Occupancy;
+
+         (ii) 62.1—20             22: Ventilation for Acceptable Indoor Air Quality    ;
+
+===== Page 5 =====
+         (iii) 90.1—2022: Energy Standard for Sites and Buildings Except Low                -rise Residential Buildings;
+
+         (iv) 90.4—2022:              Energy Standard for Data Centers  ; and
+
+         (v) ANSI/ASHRAE/ACCA Standard 183—2007 (RA2020): Peak Cooling and Heating Load
+
+Calculations in Buildings Except Low-Rise R    esidential B uildings.
+
+Copies of publications referencedin this paragraph        may be obtained from the publisher at the following
+
+address:
+
+         ASHRAE
+
+         180 Technology Parkway, NW
+
+         Peachtree Corners, GA 30092
+
+Copies of publications referenced in this paragraph are available for public inspection and copying at :
+
+         New York State Department of State
+
+         One Commerce Plaza, 99 Washington Avenue
+
+         Albany, NY 12231-           0001.
+
+         (2) ASTM. The following publications published by ASTM International are incorporated herein by
+
+reference:
+
+             (i) D8052/D8052M     —22: Standard Test Method for Quantification of Air Leakage in Low    -Sloped
+
+Membrane Roof Assemblies;
+
+         (ii) E779—2019:            Standard Test Method for Determining Air Leakage Rate by Fan Pressurization;
+
+             (iii) E1186   —22: Standard Practices for Air Leakage Site Detection in Building Envelopes and Air
+
+Barrier Systems;
+
+             (iv) E1677  —19: Specification for Air Barrier (AB) Material or Assemblies for Low    - rise Framed
+
+Building Walls;
+
+===== Page 6 =====
+             (v) E1827—  22: Standard Test Methods for Determining Airtightness of Building Using an Orifice
+
+Blower Door;
+
+             (vi) E2178—2021a: Standard Test Method for Determining Air Leakage and Calculation of Air
+
+Permeance of Building Materials;
+
+            (vii) E2357—23: Standard Test Method for Determining Air Leakage of Air Barriers Assemblies          ; and
+
+             (viii) E3158—18:    Test Method for Measuring the Air Leakage Rate of a Large or Multizone Building .
+
+Copies of publications referenced in this paragraph may be obtained from the publisher at the following
+
+address:
+
+         ASTM International
+
+         100 Barr Harbor Drive, P.O. Box C700
+
+         West Conshohocken, PA 19428
+
+Copies of publications referenced in this paragraph are available for public inspection and copying at:
+
+         New York State Department of State
+
+         One Commerce Plaza, 99 Washington Avenue
+
+         Albany, NY 12231-0001.
+
+         (3) ICC. The following publications published by International Code Council, Inc. are incorporated
+
+herein by reference:
+
+         (i) 2025 Building Code of New York State      (publication date: July 2025);
+
+         (ii) 2025 Fire Code of New York State (publication date:    July 2025);
+
+         (iii) 2025 Fuel Gas Code of New York State (publication date: July 2025);
+
+         (iv) 2025 Mechanical Code of New York State   (publication date: July 2025);
+
+         (v) 2025 Plumbing Code of New York State (publication date: July 2025);
+
+         (vi) 2025 Property Maintenance Code of New York State (publication date: July 2025   );
+
+===== Page 7 =====
+         (vii) 2025 Residential Code of New York State            (publication date: July 2025); and
+
+         (viii) 2025 Existing Building Code of New York State (publication date: July 2025).
+
+Copies of publications referenced in this paragraph may be obtained from the publisher at the following
+
+address:
+
+         International Code Council, Inc.
+
+         200 Massachusetts Avenue NW, Suite 250
+
+         Washington, DC 20001
+
+Copies of publications referenced in this paragraph are available for public inspection and copying at:
+
+         New York State Department of State
+
+         One Commerce Plaza, 99 Washington Avenue
+
+         Albany, NY 12231-0001.
+
+         (4) NFPA.   The following publication published by National Fire Protection Association is incorporated
+
+hereby by reference:  70- 23 National Electric Code.
+
+Copies of the publication   referenced in this paragraph  may be obtained from the publisher at the following
+
+address:
+
+         National Fire Protection Association
+
+         1 Batterymarch Park
+
+         Quincy, Massachusetts 02169
+
+Copies of the publication   referenced in this paragraph  are  available for public inspection and copying at:
+
+         New York State Department of State
+
+         One Commerce Plaza, 99 Washington Avenue
+
+         Albany, NY 12231-0001.
+
+         (5) RESNET. The following publication published by Residential Energy Services Network         is
+
+incorporated hereby by reference: ANSI/RESNET/ICC 380-2022: Standard for Testing Airtightness of Building,
+
+===== Page 8 =====
+Dwelling Unit and Sleeping Unit Enclosures; Airtightness of Heating and Cooling Air Distribution Systems;
+
+and Airflow of Mechanical Ventilation Systems.
+
+Copies of the  publication  referenced in this paragraph  may be obtained from the publisher at the following
+
+address:
+
+         Residential Energy Services Network
+
+         P.O. Box 4561
+
+         Oceanside, CA 92052
+
+Copies of the publication   referenced in this paragraph  are available for public inspection and copying at:
+
+         New York State Department of State
+
+         One Commerce Plaza, 99 Washington Avenue
+
+         Albany, NY 12231-0001.
+
+
+
+Section 1240.4 Energy Code provisions applicable to residential buildings.
+
+         (a) 2025 ECCCNYS Residential Provisions.            Except as otherwise provided in section 1240.5 of this Part,
+
+the construction of all new residential buildings; all additions to, alterations of, and/or renovations of existing
+
+residential buildings; and all additions to, alterations of, and/or renovations of building systems in existing
+
+residential buildings shall comply with the requirements of the 2025 ECCCNYS Residential Provisions. The
+
+2025 ECCCNYS Residential Provisions are incorporated herein by reference. Copies of the 2025 ECCCNYS
+
+(which includes the 2025 ECCCNYS Residential Provisions) may be obtained from the publisher at the
+
+following address:
+
+         International Code Council, Inc.
+
+         200 Massachusetts Avenue NW, Suite 250
+
+         Washington, DC 20001
+
+===== Page 9 =====
+The 2025ECCCNYS is available for public inspection and copying at          :
+
+            New York State Department of State
+
+         One Commerce Plaza, 99 Washington Avenue
+
+         Albany, NY 12231-            0001.
+
+         (b) Referenced standards.The referenced standards listed in chapter 6 of the 2025ECCCNYS
+
+Residential Provisions are considered to be part of the 2025          ECCCNYS Residential Provisions, subject to the
+
+provisions and limitations set forth in sections Rl07.1, Rl07.1.1, and R107.l.2 of the 2025ECCCNYS
+
+Residential Provisions. The following referenced standards are incorporated herein by reference and shall be
+
+considered to be part of the 2025ECCCNYS R           esidential P rovisions, subject to the provisions and limitations
+
+set forth in sections Rl07.1, R107.1.1, and R107.1.2 of the 2025ECCCNYS R    esidential P  rovisions:
+
+         (1) ACCA. The following publications published by Air Conditioning Contractors of America are
+
+incorporated herein by reference:
+
+          (i) ANSI/ACCA 1 Manual D—2016: Residential Duct Systems;
+
+          (ii) ANSI/ACCA 2 Manual J—2016: Residential Load Calculation;        and
+
+         (iii) ANSI/ACCA 3 Manual S—2023: Residential Equipment Selection.
+
+Copies of publications referenced in this paragraph may be obtained from the publisher at the following
+
+address:
+
+         Air Conditioning Contractors of America
+
+         1330 Braddock Place, Suite 350
+
+         Alexandria, VA 22314
+
+Copies of publications referenced in this paragraph are available for public inspection and copying at:
+
+         New York State Department of State
+
+         One Commerce Plaza, 99 Washington Avenue
+
+===== Page 10 =====
+         Albany, NY 12231-           0001.
+
+         (2)  AISI. The following publication published by American Iron and Steel Institute is incorporated
+
+herein by reference: AISI S250—22: North American Standard for Thermal Transmittance of Building
+
+Envelopes with Cold-  Formed Steel Framing, with Supplement 1, dated        2022.
+
+Copies of the publication   referenced in this paragraph  may be obtained from the publisher at the following
+
+address:
+
+         American Iron and Steel Institute
+
+         25 Massachusetts Avenue, NW, Suite 800
+
+         Washington, DC 20001
+
+Copies of the  publication  referenced in this paragraph  are available for public inspection and copying at:
+
+         New York State Department of State
+
+         One Commerce Plaza, 99 Washington Avenue
+
+         Albany, NY 12231-           0001.
+
+         (3) ANSI. The following publication published by the American National Standards Institute is
+
+incorporated herein by reference: ANSI Z21.20—2005 (R2016): Automatic Gas Ignition Systems and
+
+Components.
+
+Copies of the  publication  referenced in this paragraph  may be obtained from the publisher at the following
+
+address:
+
+         American National Standards Institute
+
+         25 West 43rd Street, 4 th Floor
+
+         New York, NY 10036
+
+Copies of the  publication  referenced in this paragraph  are available for public inspection and copying at:
+
+         New York State Department of State
+
+===== Page 11 =====
+         One Commerce Plaza, 99 Washington Avenue
+
+         Albany, NY 12231-           0001.
+
+         (4) ASHRAE. The following publications published by American Society of Heating, Refrigerating and
+
+Air-Conditioning Engineers, Inc. are incorporated herein by reference:
+
+         (i) ASHRAE—2021: 2021                       ASHRAE Handbook of Fundamentals; and
+
+         (ii) ASHRAE—2017: 2017 ASHRAE Handbook of Fundamentals    .
+
+Copies of publications referenced in this paragraph may be obtained from the publisher at the following
+
+address:
+
+         ASHRAE
+
+         180 Technology Parkway, NW
+
+         Peachtree Corners, GA 30092
+
+Copies of publications referenced in this paragraph are available for public inspection and copying at:
+
+         New York State Department of State
+
+         One Commerce Plaza, 99 Washington Avenue
+
+         Albany, NY 12231-           0001.
+
+               (5) ASTM. The following publications published by ASTM International are incorporated herein by
+
+reference:
+
+         (i) C1363—             19: Standard Test Method for Thermal Performance of Building Materials and Envelope
+
+Assemblies by Means of a Hot Box Apparatus;
+
+         (ii) C1743—19: Standard Practice for Installation and Use of Radiant Barrier Systems (RBS) in
+
+Residential Building Construction;
+
+         (iii) E779—         2019: Standard Test Method for Determining Air Leakage Rate by Fan Pressurization ;
+
+===== Page 12 =====
+         (iv) E1827—22: Standard Test Methods for Determining Airtightness of Building Using an Orifice
+
+Blower Door; and
+
+         (v) E3158—18: Test Method for Measuring the Air Leakage Rate of a Large or Multizone Building.
+
+Copies of publications referenced in this paragraph may be obtained from the publisher at the following
+
+address:
+
+         ASTM International
+
+         100 Barr Harbor Drive, P.O. Box C700
+
+         West Conshohocken, PA 19428
+
+Copies of publications referenced in this paragraph are available for public inspection and copying at:
+
+         New York State Department of State
+
+         One Commerce Plaza, 99 Washington Avenue
+
+         Albany, NY 12231-0001.
+
+         (6) ICC. The following publications published by International Code Council, Inc. are incorporated
+
+herein by reference:
+
+         (i) 2025 Building Code of New York State      (publication date: July 2025);
+
+         (ii) 2025 Fire Code of New York State (publication date:   July 2025);
+
+         (iii) 2025 Fuel Gas Code of New York State (publication date: July 2025);
+
+         (iv) 2025 Mechanical Code of New York State   (publication date: July 2025);
+
+         (v) 2025 Plumbing Code of New York State (publication date: July 2025);
+
+         (vi) 2025 Property Maintenance Code of New York State (publication date: July 2025   );
+
+         (vii) 2025 Residential Code of New York State            (publication date: July 2025); and
+
+         (viii) 2025 Existing Building Code of New York State (publication date: July 2025).
+
+===== Page 13 =====
+Copies of publications referenced in this paragraph may be obtained from the publisher at the following
+
+address:
+
+         International Code Council, Inc.
+
+         200 Massachusetts Avenue NW, Suite 250
+
+         Washington, DC 20001
+
+Copies of publications referenced in this paragraph are available for public inspection and copying at:
+
+         New York State Department of State
+
+         One Commerce Plaza, 99 Washington Avenue
+
+         Albany, NY 12231-0001.
+
+         (7) NFPA.   The following publication published by National Fire Protection Association is incorporated
+
+hereby by reference: 70-23 National Electric Code.
+
+Copies of the  publication  referenced in this paragraph  may be obtained from the publisher at the following
+
+address:
+
+         National Fire Protection Association
+
+         1 Batterymarch Park
+
+         Quincy, Massachusetts 02169
+
+Copies of the  publication  referenced in this paragraph  are available for public inspection and copying at:
+
+         New York State Department of State
+
+         One Commerce Plaza, 99 Washington Avenue
+
+         Albany, NY 12231-0001.
+
+         (8) RESNET. The following publications published by Residential Energy Services Network are
+
+incorporated hereby by reference:
+
+===== Page 14 =====
+         (i)     ANSI/RESNET/ICC 301-2022: Standard for the Calculation and Labeling of the Energy Performance
+
+of Dwelling and Sleeping Units using an Energy Rating Index--includes Addendum A Approved July 28, 2022;
+
+and Addendum B Approved October 12, 2022; and
+
+         (ii) ANSI/RESNET/ICC 380-2022: Standard for Testing Airtightness of Building, Dwelling Unit and
+
+Sleeping Unit Enclosures; Airtightness of Heating and Cooling Air Distribution Systems; and Airflow of
+
+Mechanical Ventilation Systems.
+
+Copies of publications referenced in this paragraph may be obtained from the publisher at the following
+
+address:
+
+         Residential Energy Services Network
+
+         P.O. Box 4561
+
+         Oceanside, CA 92052
+
+Copies of publications referenced in this paragraph are available for public inspection and copying at:
+
+         New York State Department of State
+
+         One Commerce Plaza, 99 Washington Avenue
+
+         Albany, NY 12231-0001.
+
+
+
+Section 1240.5 Exceptions.
+
+         (a) Historic buildings.  Compliance with the provisions of the energy code shall not be required for
+
+character-defining features of historic buildings where a historic building report, prepared in accordance with
+
+the energy code, has been submitted and approved by the building official.
+
+            (b) Other exceptions.  The Energy Code contains exceptions for specific types of work in existing
+
+buildings and for unaltered portions of existing buildings     as adopted by the state fire prevention and building
+
+===== Page 15 =====
+code council provided    that such exceptions shall not prevent the attainment of the compliance goals set forth in
+
+section 410(2)(c) of the  American Recovery and Reinvestment Act of 2009.
+
+
+
+Section 1240.6 Fossil-fuel Equipment and Building Systems.
+
+         (a) Introduction. This section establishes standards for the installation of fossil -fuel equipment and
+
+building systems.
+
+         (b) Purpose. This section implements the provisions of subdivisions six, seven, and eight of section 11-
+
+104 of the Energy Law, as added by Part RR of Chapter 56 of the Laws of 2023.
+
+         (c) Definitions.
+
+         (1) Unless otherwise expressly stated, for the purposes of this section, the following terms shall be
+
+deemed to have the meanings set forth in this subdivision.
+
+         (i) Agricultural building. A building or structure which is designed and constructed to have its primary
+
+purpose to be part of a farm operation as defined in section 301 of the Agriculture and Markets Law, including,
+
+but not limited to, those located on a property that is within either a county adopted state certified agricultural
+
+district or on a property that has an active approval for an agricultural assessment. This definition excludes any
+
+building or structure used in whole or in part as a place of human habitation.
+
+         (ii) Authority having jurisdiction.  Any city, town, village, county, state agency, or other governmental
+
+unit or agency responsible for administration and enforcement of either or both of the Uniform Code and
+
+Energy Code.
+
+         (iii) Car wash  . A commercial building or structure, or portion thereof, containing fixed commercial
+
+equipment for washing vehicles either manually or automatically.
+
+         (iv) Commercial food establishment    . A commercial building or structure, or portion thereof, excluding
+
+dwelling units or sleeping units, where food preparation is performed for consumption by the public either on-
+
+===== Page 16 =====
+site or off-site, including, but not limited to, cooking, baking, boiling, broiling, frying, grilling, drying, roasting,
+
+heating, or reheating.
+
+         (v) Crematorium  . A building or structure, or portion thereof, that uses heat and flame, to reduce human
+
+or animal remains or tissue to ashes and other residue.
+
+         (vi) Critical infrastructure  . A building or structure, or portion thereof, used for or as any one of the
+
+following:
+
+         (a) public mass transit facility used for emergency evacuation;
+
+         (b) public utility facility or other power-   generating station required as emergency backup facility for
+
+Risk Category IV structures, as indicated in Chapter 16 of the 2025BCNYS;
+
+         (c) storage of materials defined in the 2025FCNYS to be a health hazard where such materials would be
+
+a threat to the general public if released;
+
+         (d) aviation control tower, air traffic control center, and emergency aircraft hangar;
+
+         (e) national defense function;
+
+         (f) emergency management facility;
+
+         (g) wastewater treatment facility;
+
+         (h) water treatment and pumping facility; or
+
+         (i) flood control and pumping facility.
+
+         (vii) Electrification ready. A building or structure, or a portion thereof, which contains electrical
+
+systems, infrastructure, and designs that provide sufficient capacity, as determined by the Uniform Code or the
+
+Energy Code, for a future replacement of fossil-fuel equipment and building systems with electric-powered
+
+equipment.
+
+         (viii) Emergency management facility  . A building or structure, or portion thereof, or system used to
+
+provide emergency services to the general public, including, but not limited to, emergency preparedness,
+
+===== Page 17 =====
+communications and operations centers, disaster relief, emergency housing, fire protection, ambulance, rescue,
+
+police, emergency shelters, or other facilities required for emergency response, including the administrative and
+
+support facilities and vehicle storage facilities essential to the operation of such emergency management or
+
+functions, even if not contiguous.
+
+         (ix) Fossil       -fuel equipment and building systems means:
+
+         (a) equipment, as such term is defined in section 11-       102 of the Energy Law, that uses fossil-fuel for
+
+combustion; or
+
+         (b) systems   associated with a building that will be used for or to support the supply, distribution, or
+
+delivery of fossil-fuel for any purpose, other than for use by motor vehicles. This shall not include systems that
+
+support an industrial or commercial process.
+
+         (x) Fuel cell system  . A device or system that uses the chemical energy of a fuel, such as hydrogen, to
+
+produce electricity.
+
+         (xi) Grid  . Grid shall have the same meaning as the term electric plant, as defined in section two of the
+
+public service law, including but not limited to the generation, transmission, and distribution of electricity.
+
+         (xii) Hospital and other medical facility  . A building or structure, or portion thereof, where care
+
+involving medical or surgical procedures, nursing, or psychiatric purposes is performed or provided, which
+
+includes but is not limited to any public or private hospital, clinic, center, medical school, medical training
+
+institution, health care facility, physician’s office, infirmary, dispensary, or ambulatory surgical center.
+
+         (xiii) Laboratory  . A commercial building or structure, or portion thereof, equipped for scientific
+
+experiments, research, teaching, testing, or for the manufacture of drugs or chemicals.
+
+         (xiv) Laundromat    . A building or structure, or portion thereof, used for the commercial, institutional, or
+
+industrial washing of clothing, linens, rags, rugs, or other textiles by either the public or an employee(s) of the
+
+establishment.
+
+===== Page 18 =====
+         (xv) Local electric corporation . An “electric corporation” as that term is defined under section two of
+
+the Public Service Law that has authority under any general or special law or under any charter or franchise to
+
+lay down, erect, or maintain wires, conduits, ducts, or other fixtures in, over, or under the streets, highways, and
+
+public places where the building or development seeking new or expanded electric service is located.
+
+         (xvi    ) Local utility  . A local utility shall mean a local electric corporation or municipal utility.
+
+         (xvii) Manufactured home  . A building as defined in subdivision seven of section six hundred one of the
+
+Executive Law.
+
+         (xviii) Manufacturing facility. A building or structure, or portion thereof, that is used for manufacturing
+
+and industrial processing, including, but not limited to the fabrication or production of tangible products,
+
+chemicals, or materials, including processing that results in a change in the condition of such goods, chemicals,
+
+or material; such as those entities described by any of the North American Industry Classification System,
+
+classification codes 31 through 33, meeting this definition             .
+
+         (xix)   Municipal utility. A “municipality” as that term is defined under section two of the Public Service
+
+Law that has authority under any general or special law to lay down, erect, or maintain wires, conduits, ducts, or
+
+other fixtures in, over, or under the streets, highways, and public places within the municipality where the
+
+building or development seeking new or expanded electric service is located.
+
+         (xx) Substantially complete building permit application. A building permit application that, in the
+
+opinion of the authority having jurisdiction, includes sufficient information and documentation required by the
+
+stricter of either the authority having jurisdiction’s Code Enforcement Program or the requirements set forth in
+
+Part 1203of this Title          , such that the authority having jurisdiction can examine the application and make a
+
+determination as to whether the proposed work is in conformance with the requirements of the Uniform Code
+
+and Energy Code.
+
+===== Page 19 =====
+         (xxi    ) Wastewater treatment facility. A building or structure, or portion thereof, or equipment and
+
+processes required to collect, carry away, pump, and treat domestic and industrial wastes and dispose of the
+
+effluent.
+
+         (xxii) Water treatment and pumping facility  . A building or structure, or portion thereof, used for a public
+
+water system which provides water to the public for human consumption through pipes or other constructed
+
+conveyances, including the collection, treatment, storage, and distribution facilities or equipment. This term
+
+shall also include any water storage facilities and pumping facilities required to maintain water pressure and
+
+flow for fire suppression.
+
+         (2) For this section, the term 2025ECCCNYS shall have the meaning as ascribed to that term in section
+
+1240.2 of this Title. The terms 2025          BCNYS, 2025EBCNYS, 2025FCNYS, 2025                         FGCNYS, 2025MCNYS,
+
+2025PCNYS, 2025PMCNYS, and 2025RCNYS shall have the meanings ascribed to those terms in section
+
+1219.2 of this Title.
+
+         (3) Other terms. Terms used in this section and not defined in paragraphs (1) or (2) of this subdivision
+
+shall have the meanings ascribed to those terms in the 2025ECCCNYS,    the  2025BCNYS, the 2025EBCNYS,
+
+the 2025FCNYS, the 2025FGCNYS, the 2025MCNYS, the 202                              5PCNYS, the 2025PMCNYS, and/or the
+
+2025RCNYS.
+
+         (d) Applicability of the prohibition against installation of fossil-  fuel equipment and building systems in
+
+new buildings.
+
+         (1) General. Except as otherwiseprovided in subdivision (e) of this section, the installation of fossil-       fuel
+
+equipment and building systems in new buildings, including any repair, alteration, addition, relocation, or
+
+change of occupancy or use of such building, shall be prohibited in:
+
+         (i) buildings not more than seven stories above grade plane in height, except for any commercial or
+
+industrial building greater than 100,000square feet in conditioned floor area, for which a substantially complete
+
+===== Page 20 =====
+building permit application for the initial construction of such building is submitted on or after December 31,
+
+2025; and
+
+         (ii) all buildings for which a substantially complete building permit application for the initial
+
+construction of such building is submitted after December 31, 2028.
+
+         (2) The provisions set forth in paragraph (1) of this subdivision shall not be construed as applying to
+
+buildings existing prior to the effective date of the applicable prohibition, including to:
+
+         (i) the repair, alteration, addition, relocation, or change of occupancy or use of such buildings; and
+
+         (ii) the installation or continued use and maintenance of fossil-fuel equipment and building systems,
+
+including as related to cooking equipment, in any such buildings.
+
+         (e) Exemptions.
+
+         (1) Exempt. Notwithstanding the prohibition requirements in subdivision (d) of this section, fossil- fuel
+
+equipment and building systems shall be allowed in the following installations and uses:
+
+         (i) in a manufactured home;
+
+         (ii) in an agricultural building;
+
+         (iii) in a building or part of a building that is used as a critical infrastructure;
+
+         (iv) in a building or part of a building that is used as a hospital or other medical facility; or
+
+         (v) for generation of emergency back-up power or standby power.
+
+         (2) Grid exemption. F ossil-fuel equipment and building systems shall be allowed when a building owner
+
+or applicant provides to the authority having jurisdiction a written determination,      issued by local utility
+
+consistent with the orders or rules of the     New York State  Public Service Commission applicable to such
+
+determinations,indicating that new or expanded electric service cannot be reasonably provided   to such building
+
+by the grid,    as operated by the local utility.
+
+===== Page 21 =====
+         (3) Conditionally exempt. Fossil-fuel equipment and building systems may be installed and used if the
+
+requirements of subparagraphs (i) and (ii) of this paragraph are met.
+
+         (i) type of facility: the fossil fuel equipment and building systems is installed and used in a building or a
+
+part of a buildingthat is used as one of the following:
+
+         (a) car wash;
+
+         (b) commercial food establishment;
+
+         (c) crematorium;
+
+         (d) fuel cell system;
+
+         (e) laboratory;
+
+         (f) laundromat; or
+
+         (g) manufacturing facility.
+
+         (ii) Conditions: the applicant meets all of the following conditions:
+
+         (a) the fossil fuel equipment and building systems allowed pursuant to this exemption shall not include
+
+fossil-fuel equipment and building systems related to lighting; space conditioning, such as heating,
+
+humidification, ventilation, or cooling; and domestic water heating, and
+
+         (b) the fossil fuel equipment and building systems shall be subject to the following limitations, provided
+
+that such limitations do not adversely affect health, safety, security, or fire protection:
+
+         (1) the area or service within a   new building where fossil    -fuel equipment and building systems are
+
+installed shall be electrification ready,except for fossil  -fuel equipment and building systems servicing a
+
+manufacturing facility or industrial process; and
+
+         (2) the building owner or applicant shall demonstrate to the authority having jurisdiction that emissions
+
+from fossil- fuel equipment and building systems are minimized through the use of alternative materials,
+
+equipment, or methods of construction that result in measurable emissions reductions or increased energy
+
+===== Page 22 =====
+efficiency by means such as energy modeling, submittal of environmental product declarations (EPDs) and cut
+
+sheets comparing equipment that meets the minimum requirements against equipment used that exceeds those
+
+minimum requirements, and others depending on the strategy chosen by the applicant.
+
+
+
+
+
+
+

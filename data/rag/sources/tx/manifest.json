@@ -1,0 +1,831 @@
+[
+  {
+    "id": "tdlr-2026-nec-adoption-notice",
+    "title": "TDLR: Commission adopts rules (16 TAC 73.100, 2026 NEC)",
+    "jurisdiction": "TX",
+    "level": "state",
+    "docType": "code_adoption",
+    "publisher": "Texas Department of Licensing and Regulation",
+    "url": "https://www.tdlr.texas.gov/news/rulemaking/2026/09/01/commission-adopts-rules-12/",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "tdlr-2026-nec-adoption-notice.txt",
+    "necEdition": "2026",
+    "effectiveDate": "2026-09-01",
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "Amended 16 TAC 73.100 adopts the 2026 NEC as the state electrical code, with a limited GFCI exception for certain outdoor outlets (notice body).",
+      "Adoption justification published 2026-08-28 Texas Register (51 TexReg 5776); effective 2026-09-01 (notice body)."
+    ],
+    "notes": "",
+    "original": {
+      "format": "html",
+      "url": "https://www.tdlr.texas.gov/news/rulemaking/2026/09/01/commission-adopts-rules-12/",
+      "bytes": 48472,
+      "sha256": "17a8ce3db0bd5ed986990883e93e56fda2de803e9e96e6b53f57a232cf21dbb5",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "texreg-2026-03-20-16tac73-100-proposed",
+    "title": "Texas Register (2026-03-20) proposed amendment to 16 TAC 73.100 - 2026 NEC",
+    "jurisdiction": "TX",
+    "level": "state",
+    "docType": "code_adoption",
+    "publisher": "Texas Secretary of State, Texas Register",
+    "url": "https://www.sos.texas.gov/texreg/archive/March202026/Proposed%20Rules/16.ECONOMIC%20REGULATION.html",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "texreg-2026-03-20-16tac73-100-proposed.txt",
+    "necEdition": "2026",
+    "effectiveDate": "2026-09-01",
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "Occupations Code 1305.101(a)(2) requires TDLR to adopt the most recent NEC as the state electrical code (preamble).",
+      "Proposed 73.100(a): effective 2026-09-01 TDLR adopts the 2026 NEC as approved by NFPA on 2025-09-09, replacing the 2023 NEC (rule text).",
+      "73.100(b): 2026 NEC 210.8(F) outdoor-outlet GFCI Exception No. 2 for listed HVAC equipment is adopted without its 2026-09-01 expiration (rule text).",
+      "History: TX exempted 2020 NEC 210.8(F) for HVAC nuisance tripping; 2023 NEC adopted as published (preamble)."
+    ],
+    "notes": "Proposed text; final adoption confirmed by tdlr-2026-nec-adoption-notice (a final adopted-text copy was not retrieved). Contains one short NEC exception quote inside a government publication.",
+    "original": {
+      "format": "html",
+      "url": "https://www.sos.texas.gov/texreg/archive/March202026/Proposed%20Rules/16.ECONOMIC%20REGULATION.html",
+      "bytes": 12621,
+      "sha256": "ddf53703025f463c16c75cdd93d82865f8b01a4498807fa6112297b0e3f2d4d0",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "tdlr-elec-laws-rules",
+    "title": "TDLR Electricians Laws and Rules index",
+    "jurisdiction": "TX",
+    "level": "state",
+    "docType": "licensing",
+    "publisher": "TDLR",
+    "url": "https://www.tdlr.texas.gov/electricians/laws-rules.htm",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "tdlr-elec-laws-rules.txt",
+    "necEdition": "2026",
+    "effectiveDate": null,
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "Governing law: Texas Occupations Code Ch. 1305 (Electrical Safety and Licensing Act) and Ch. 51; rules 16 TAC Ch. 73 (page table)."
+    ],
+    "notes": "Statute site (statutes.capitol.texas.gov) is a JS app; full text not downloaded.",
+    "original": {
+      "format": "html",
+      "url": "https://www.tdlr.texas.gov/electricians/laws-rules.htm",
+      "bytes": 32851,
+      "sha256": "9866b6d70bae2247c8049b3320506339db343af3d0e6364ef1a1f30709734a9c",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "tdlr-elec-journeyman",
+    "title": "TDLR Apply for a New Journeyman Electrician License",
+    "jurisdiction": "TX",
+    "level": "state",
+    "docType": "licensing",
+    "publisher": "TDLR",
+    "url": "https://www.tdlr.texas.gov/electricians/apply/individuals/journeyman-electrician.htm",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "tdlr-elec-journeyman.txt",
+    "necEdition": null,
+    "effectiveDate": null,
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "With limited exemptions, anyone performing electrical work in Texas must be licensed (Who Must be Licensed).",
+      "Journeyman: 8,000 hours OJT under a Texas-licensed master electrician; may apply/test at 7,000 hours (Experience Qualifications).",
+      "Application by mail, $30 non-refundable; licenses valid one year, renewed annually (Application and Fee)."
+    ],
+    "notes": "",
+    "original": {
+      "format": "html",
+      "url": "https://www.tdlr.texas.gov/electricians/apply/individuals/journeyman-electrician.htm",
+      "bytes": 33375,
+      "sha256": "0fbef794740cfc0b61a1eab39599b65cfc2e317a5b3b1b44333d3dbaee108308",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "tdlr-elec-master",
+    "title": "TDLR Apply for a New Master Electrician License",
+    "jurisdiction": "TX",
+    "level": "state",
+    "docType": "licensing",
+    "publisher": "TDLR",
+    "url": "https://www.tdlr.texas.gov/electricians/apply/individuals/master-electrician.htm",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "tdlr-elec-master.txt",
+    "necEdition": null,
+    "effectiveDate": null,
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "Master: held journeyman license >= 2 years plus 12,000 hours OJT under a Texas master; Journeyman Industrial experience does not qualify (Experience Qualifications).",
+      "Holders of a municipal/regional master license may self-verify OJT for those years (Experience Qualifications).",
+      "Application by mail, $45 fee; annual renewal (Application and Fee)."
+    ],
+    "notes": "",
+    "original": {
+      "format": "html",
+      "url": "https://www.tdlr.texas.gov/electricians/apply/individuals/master-electrician.htm",
+      "bytes": 33919,
+      "sha256": "02ddcf543c82920f0d1f37d60643dbb887a20c1a7c4988fe7a8df7bfbf810655",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "tdlr-elec-wireman",
+    "title": "TDLR Residential Wireman license",
+    "jurisdiction": "TX",
+    "level": "state",
+    "docType": "licensing",
+    "publisher": "TDLR",
+    "url": "https://www.tdlr.texas.gov/electricians/apply/individuals/wireman.htm",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "tdlr-elec-wireman.txt",
+    "necEdition": null,
+    "effectiveDate": null,
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "Residential Wireman: 4,000 hours OJT under a Texas master electrician or residential wireman; $20 application fee (page body)."
+    ],
+    "notes": "",
+    "original": {
+      "format": "html",
+      "url": "https://www.tdlr.texas.gov/electricians/apply/individuals/wireman.htm",
+      "bytes": 33471,
+      "sha256": "be48f3a31d230a3203bf07e94bd95c05683fdf609a04c7c692bd84b55e9e1800",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "tdlr-elec-apprentice",
+    "title": "TDLR Apprentice Electrician license",
+    "jurisdiction": "TX",
+    "level": "state",
+    "docType": "licensing",
+    "publisher": "TDLR",
+    "url": "https://www.tdlr.texas.gov/electricians/apply/individuals/apprentice-electrician.htm",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "tdlr-elec-apprentice.txt",
+    "necEdition": null,
+    "effectiveDate": null,
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "Electrical Apprentice license allows work under general supervision of a master, journeyman or residential wireman; online applicants with no convictions get a temporary license; annual renewal (page body)."
+    ],
+    "notes": "",
+    "original": {
+      "format": "html",
+      "url": "https://www.tdlr.texas.gov/electricians/apply/individuals/apprentice-electrician.htm",
+      "bytes": 31686,
+      "sha256": "7be2592ebae09d3f50fe9521ce5ee2ae09657af27cf4dcfe170e1215e3ed2940",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "tdlr-elec-contractor",
+    "title": "TDLR Apply for a New Electrical Contractor License",
+    "jurisdiction": "TX",
+    "level": "state",
+    "docType": "licensing",
+    "publisher": "TDLR",
+    "url": "https://www.tdlr.texas.gov/electricians/apply/businesses/contractor-elec.htm",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "tdlr-elec-contractor.txt",
+    "necEdition": null,
+    "effectiveDate": null,
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "Contractor must employ a licensed Master Electrician of record (may be the owner); a master may serve only one contractor unless owning >50% of it (Master Electrician of Record).",
+      "Notify TDLR and designate a new master within 30 business days after the master of record leaves (Changing Your Master).",
+      "Liability insurance minimums: $300,000 per occurrence, $600,000 aggregate, $300,000 products/completed operations (Insurance Requirements).",
+      "Workers' comp proof, self-insurance certificate, or election of non-coverage filed with TDI (Worker's Compensation)."
+    ],
+    "notes": "",
+    "original": {
+      "format": "html",
+      "url": "https://www.tdlr.texas.gov/electricians/apply/businesses/contractor-elec.htm",
+      "bytes": 34863,
+      "sha256": "2724dd001eb6553412e06c00b6e9c4fe8d1aca00db5d7e72f310c20fa9a30f26",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "tdlr-elec-out-of-state",
+    "title": "TDLR Transfer Your Out-of-State Electrician License to Texas (reciprocity)",
+    "jurisdiction": "TX",
+    "level": "state",
+    "docType": "licensing",
+    "publisher": "TDLR",
+    "url": "https://www.tdlr.texas.gov/electricians/out-of-state.htm",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "tdlr-elec-out-of-state.txt",
+    "necEdition": null,
+    "effectiveDate": null,
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "Master reciprocity: Alabama, Arkansas (master), Iowa (Class A master), Louisiana (state contractor), Mississippi (state contractor), Nebraska, North Carolina (master or unlimited contractor), Ohio, Tennessee (Electrical Contractor) (Other States Recognized).",
+      "Journeyman reciprocity: Alabama, Alaska, Arkansas, Idaho, Iowa, Nebraska, New Mexico, Oklahoma, South Dakota, Wyoming (Other States Recognized).",
+      "No reciprocity for any other license type; no reciprocity with California or Arizona listed (Other States Recognized).",
+      "Reciprocal master: passed that state's exam, held license >= 1 year, 12,000 h under a master, journeyman >= 2 years (1 year for AL, IA, MS, NE, OH, TN) (Requirements).",
+      "Reciprocal journeyman: passed that state's exam, held license >= 1 year, 8,000 h under a master (Requirements)."
+    ],
+    "notes": "This list (retrieved 2026-11-14) is broader than the national manifest's Feb-2026 note (adds AL, MS, OH, TN for master; Montana not listed for journeyman).",
+    "original": {
+      "format": "html",
+      "url": "https://www.tdlr.texas.gov/electricians/out-of-state.htm",
+      "bytes": 40644,
+      "sha256": "3182d0d47d63a375e05594416de679966b3ccf92c9e9944342e1ae4869945588",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "tdlr-elec-exam",
+    "title": "TDLR Electrician Exam Information",
+    "jurisdiction": "TX",
+    "level": "state",
+    "docType": "licensing",
+    "publisher": "TDLR",
+    "url": "https://www.tdlr.texas.gov/electricians/elecexam.htm",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "tdlr-elec-exam.txt",
+    "necEdition": null,
+    "effectiveDate": null,
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "Since 2025-03-11 the Journeyman exam has two parts: knowledge and calculations (notice).",
+      "Exams by PSI at Texas sites including Houston; applicants have one year from TDLR receipt of application to complete all requirements (Exam Eligibility; Locations)."
+    ],
+    "notes": "",
+    "original": {
+      "format": "html",
+      "url": "https://www.tdlr.texas.gov/electricians/elecexam.htm",
+      "bytes": 38525,
+      "sha256": "b03f7b7f29db4e212a8b0e9b33d3ec3ab101f21a5955fd802a409040d6ef291b",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "tdlr-elec-ce",
+    "title": "TDLR Electrician Continuing Education",
+    "jurisdiction": "TX",
+    "level": "state",
+    "docType": "licensing",
+    "publisher": "TDLR",
+    "url": "https://www.tdlr.texas.gov/electricians/elecce.htm",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "tdlr-elec-ce.txt",
+    "necEdition": null,
+    "effectiveDate": null,
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "4 hours CE before each annual renewal for masters, journeymen, wiremen, maintenance, sign electricians and apprentices; contractors exempt (Do I Need CE).",
+      "CE must cover the NEC, Occupations Code Ch. 1305, 16 TAC Ch. 73, and NFPA 70E safety, from a TDLR-registered provider (Required Coursework)."
+    ],
+    "notes": "",
+    "original": {
+      "format": "html",
+      "url": "https://www.tdlr.texas.gov/electricians/elecce.htm",
+      "bytes": 34092,
+      "sha256": "10a9215735e8ea8a8945809077bbb8d68ea529a68599ad1e542f508c83626f2e",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "tdlr-elec-faq",
+    "title": "TDLR Electricians FAQ",
+    "jurisdiction": "TX",
+    "level": "state",
+    "docType": "licensing",
+    "publisher": "TDLR",
+    "url": "https://www.tdlr.texas.gov/electricians/elecfaq.htm",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "tdlr-elec-faq.txt",
+    "necEdition": null,
+    "effectiveDate": null,
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "A license is required even in unincorporated areas (1.1.3).",
+      "A state license is valid anywhere in Texas; a municipal license only within that city (9.1-9.2).",
+      "Cities may require a city license/fee only if you lack a TDLR license; Sec. 1305.201 limits fees cities charge state licensees but permits building-permit fees; cities may not require a local exam of state licensees (9.3).",
+      "In areas with municipal/regional licensing, report unlicensed work to that local authority first (8.1)."
+    ],
+    "notes": "",
+    "original": {
+      "format": "html",
+      "url": "https://www.tdlr.texas.gov/electricians/elecfaq.htm",
+      "bytes": 58469,
+      "sha256": "b8b78bf93fdb6d26595d0d7a420f0c1643189628f4d05f1aebbd4df05cc6ef51",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "houston-2023-nec-administrative-amendments",
+    "title": "City of Houston Electrical Code - Administrative Code Provisions for the 2023 NEC (Ord. 2023-907)",
+    "jurisdiction": "Houston, TX",
+    "level": "city",
+    "docType": "local_amendment",
+    "publisher": "City of Houston, Houston Public Works / Houston Permitting Center",
+    "url": "https://www.houstonpermittingcenter.org/media/9076/download",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": "houston-2023-nec-administrative-amendments.pdf",
+    "textFile": "houston-2023-nec-administrative-amendments.txt",
+    "necEdition": "2023 (state now 2026)",
+    "effectiveDate": "2024-01-01",
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "Adopted by Ord. 2023-907, passed 2023-10-25, effective 2024-01-01 (cover p.).",
+      "Licensing per this code AND Occ. Code Ch. 1305 / 16 TAC 73, whichever is more restrictive (Sec. 101).",
+      "Permit exemptions include cord-and-plug equipment, like-for-like fixed motor/appliance replacement, temporary decorative lighting <=90 days, OCPD replacement same rating, and wiring <50 V and <=50 W (Sec. 301.2 items 1-13).",
+      "Annual maintenance permit available to building owners employing a full-time (>=36 h/week) electrical employee; expires Sept 30; keep work records 2 years (Sec. 301.4).",
+      "Only a licensed and city-registered electrical contractor may obtain a permit; application signed by the registered master electrician of record (Sec. 302.1).",
+      "Applications inactive after 180 days without permit; permits inactive 180 days after issue unless work started and inspected; expire after 2 years (Secs. 302.1.1, 303.4).",
+      "No concealment before inspection; final inspection required; city aims to inspect within 3 working days of request (Secs. 305.1-305.2).",
+      "No connection to energy source until approved; temporary connections limited to 90 days (Sec. 306).",
+      "City issues no new individual electrician licenses (only contractor); state licensees need no city registration EXCEPT state electrical/sign contractors must hold a city registration (Sec. 401.2).",
+      "Contractor registration requires a valid state contractor license, physical address, and full-time city-registered master; master of record may serve only one contracting business (Secs. 403.1, 403.7, 403.8, 404).",
+      "Carry license/registration documentation on your person while working (Sec. 401.4).",
+      "Local technical rules: meters 5-6 ft to center of dial on exterior; service disconnect handle 4 ft to 6 ft 7 in; electrodes per NEC 250.52(A)(1)-(A)(3) and (A)(7) must be supplemented by a rod electrode; no EMT buried in earth or in slab-on-grade concrete; saw pole >=60 A on 4x4 with 6 AWG service in conduit; no pool equipment/lighting >50 V in new pools; full-cutoff outdoor lighting near residential (Secs. 503-512).",
+      "NEC 240.91(B), 312.5(C) (exceptions adopted) and 645.25 not adopted (Sec. 513)."
+    ],
+    "notes": "Document text in Ch. 5 still cites the 'National Electrical Code, 2020 Edition' in Secs. 502-505/513 (apparent carry-over; strike-through markup may be lost in extraction). State law now makes the 2026 NEC the minimum (effective 2026-09-01); no Houston amendment document keyed to the 2026 NEC was found.",
+    "storedAs": "original+text"
+  },
+  {
+    "id": "houston-2026-nec-effective-notice",
+    "title": "Houston Permitting Center: 2026 National Electrical Code Effective September 1, 2026",
+    "jurisdiction": "Houston, TX",
+    "level": "city",
+    "docType": "code_adoption",
+    "publisher": "City of Houston, Houston Public Works / Houston Permitting Center",
+    "url": "https://www.houstonpermittingcenter.org/news-events/2026-national-electrical-code-effective-september-1-2026",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "houston-2026-nec-effective-notice.txt",
+    "necEdition": "2026",
+    "effectiveDate": "2026-09-01",
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "2026 NEC adopted by Texas, effective 2026-09-01 (notice body).",
+      "Houston reviews all permit applications submitted on/after the state effective date for 2026 NEC compliance (notice body).",
+      "Questions: Electrical Inspections (832) 394-8860 (notice body)."
+    ],
+    "notes": "",
+    "original": {
+      "format": "html",
+      "url": "https://www.houstonpermittingcenter.org/news-events/2026-national-electrical-code-effective-september-1-2026",
+      "bytes": 38562,
+      "sha256": "af352f7a12c38e6694139de0c3da1344404650ceb21b95b2afe7311ef89b0a6b",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "houston-2023-nec-now-effective",
+    "title": "Houston Permitting Center: UPDATE 2023 NEC is NOW Effective",
+    "jurisdiction": "Houston, TX",
+    "level": "city",
+    "docType": "code_adoption",
+    "publisher": "City of Houston, Houston Public Works / Houston Permitting Center",
+    "url": "https://www.houstonpermittingcenter.org/news-events/update-2023-national-electrical-code-now-effective",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "houston-2023-nec-now-effective.txt",
+    "necEdition": "2023",
+    "effectiveDate": "2023-09-01",
+    "status": "superseded",
+    "copyright": "government_public",
+    "keyFacts": [
+      "2023 NEC effective in Texas 2023-09-01; Houston projects after #23084587 reviewed under 2023 NEC (notice body)."
+    ],
+    "notes": "Superseded by 2026 NEC on 2026-09-01.",
+    "original": {
+      "format": "html",
+      "url": "https://www.houstonpermittingcenter.org/news-events/update-2023-national-electrical-code-now-effective",
+      "bytes": 39187,
+      "sha256": "75c388f36c8560b7279d848dfd64f5931e1299032784f2b5e74f329586c4319a",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "houston-code-archive",
+    "title": "Houston Code Archive (codes page)",
+    "jurisdiction": "Houston, TX",
+    "level": "city",
+    "docType": "code_adoption",
+    "publisher": "City of Houston, Houston Public Works / Houston Permitting Center",
+    "url": "https://houstonpermittingcenter.org/help/codes",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "houston-code-archive.txt",
+    "necEdition": "2023",
+    "effectiveDate": null,
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "Houston Construction Code adopted/amended by City Council; latest revision approved 2023-10-25, effective 2024-01-01 (2021 code family) (page body)."
+    ],
+    "notes": "",
+    "original": {
+      "format": "html",
+      "url": "https://houstonpermittingcenter.org/help/codes",
+      "bytes": 44661,
+      "sha256": "006dec24a8792564e32a619e9eaaf5d7787fa825621c957b8fdbbd5be35c9f14",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "houston-code-amendments-page",
+    "title": "Houston Construction Code Amendments (code modernization) page",
+    "jurisdiction": "Houston, TX",
+    "level": "city",
+    "docType": "code_adoption",
+    "publisher": "City of Houston, Houston Public Works / Houston Permitting Center",
+    "url": "https://www.houstonpermittingcenter.org/construction-code-modernization/code-amendment",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "houston-code-amendments-page.txt",
+    "necEdition": "2023",
+    "effectiveDate": null,
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "Task Force Group 4 (MEP) produced the '2023 NEC Administrative Amendments' (TFG-4 section)."
+    ],
+    "notes": "",
+    "original": {
+      "format": "html",
+      "url": "https://www.houstonpermittingcenter.org/construction-code-modernization/code-amendment",
+      "bytes": 60754,
+      "sha256": "ffe3824bb9c0c7a5171b3e49c163a135ad338b0b86bf70bd4fbcdc2921f4a14c",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "houston-building-code-modernization-update-2025-10-13",
+    "title": "Houston Building Code Modernization Update (council committee, 2025-10-13)",
+    "jurisdiction": "Houston, TX",
+    "level": "city",
+    "docType": "other",
+    "publisher": "City of Houston, Houston Public Works / Houston Permitting Center",
+    "url": "https://preflight.houstontx.gov/council/committees/govtops/20251013/Building-Code-Modernization-Update.pdf",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "houston-building-code-modernization-update-2025-10-13.txt",
+    "necEdition": null,
+    "effectiveDate": null,
+    "status": "pending",
+    "copyright": "government_public",
+    "keyFacts": [
+      "2021 code family adopted, effective 2024-01-01 (p.3).",
+      "Next: implement select 2024 code provisions (target 2026) and full 2027 code adoption (target 2028) (p.7)."
+    ],
+    "notes": "Plans only; electrical-specific next steps not stated.",
+    "original": {
+      "format": "pdf",
+      "url": "https://preflight.houstontx.gov/council/committees/govtops/20251013/Building-Code-Modernization-Update.pdf",
+      "bytes": 493744,
+      "sha256": "4e50b7b18369b6bfecd9ac7899d8fe30646f14378c3ab4b87f8b2cb281b4664c",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "houston-tech-memo-nec-low-voltage-poe",
+    "title": "Houston Code Modernization Technical Memo 2: Low Voltage / PoE (2023-07-24)",
+    "jurisdiction": "Houston, TX",
+    "level": "city",
+    "docType": "other",
+    "publisher": "City of Houston, Houston Public Works / Houston Permitting Center",
+    "url": "https://www.houstonpermittingcenter.org/media/9246/download",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "houston-tech-memo-nec-low-voltage-poe.txt",
+    "necEdition": "2023",
+    "effectiveDate": "2023-07-24",
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "Proposal to exempt all Class 2/3 circuits from permits was rejected; Houston keeps the <50 V/<=50 W and sound/phone/thermostat/burglar-alarm exemptions (pp.1-2).",
+      "Memo notes Class 2/3 wiring is exempt from state licensure but not from NEC/permit requirements (p.2)."
+    ],
+    "notes": "",
+    "original": {
+      "format": "pdf",
+      "url": "https://www.houstonpermittingcenter.org/media/9246/download",
+      "bytes": 1966062,
+      "sha256": "085dcf8ba3985b87e205a58300a237e427b951f3244dd941565f9657e243530a",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "houston-master-electrician-registration",
+    "title": "Houston Master Electrician Registration (HPWCODE1057)",
+    "jurisdiction": "Houston, TX",
+    "level": "city",
+    "docType": "licensing",
+    "publisher": "City of Houston, Houston Public Works / Houston Permitting Center",
+    "url": "https://www.houstonpermittingcenter.org/hpwcode1057",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "houston-master-electrician-registration.txt",
+    "necEdition": null,
+    "effectiveDate": null,
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "Anyone wishing to perform electrical work in Houston must register with Electrical Inspections; registration valid 1 year, renewal required (Permit Description; Additional Information).",
+      "Requires copies of Texas master license and Texas contractor license plus notarized form CE-1189 (What You Need).",
+      "Since 2022-04-01 a master of record may hold a city contractor registration for only one business (Conditions)."
+    ],
+    "notes": "",
+    "original": {
+      "format": "html",
+      "url": "https://www.houstonpermittingcenter.org/hpwcode1057",
+      "bytes": 52498,
+      "sha256": "10a1830263534d30d3727487820f8704d00250c4d62cc8c598e3405726723e39",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "houston-electrical-contractor-registration",
+    "title": "Houston Electrical Contractor Registration (HPWCODE1051)",
+    "jurisdiction": "Houston, TX",
+    "level": "city",
+    "docType": "licensing",
+    "publisher": "City of Houston, Houston Public Works / Houston Permitting Center",
+    "url": "https://www.houstonpermittingcenter.org/hpwcode1051",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "houston-electrical-contractor-registration.txt",
+    "necEdition": null,
+    "effectiveDate": null,
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "Master electricians, electrical contractors and appliance installers must register before working in Houston; 1-year validity (Permit Description).",
+      "Register by email (CE-1189), in person at 1002 Washington Ave, or by mail (Apply)."
+    ],
+    "notes": "Note tension with Sec. 401.2 (state-licensed individuals need no city registration) and TDLR FAQ 9.3; in practice registration is required for the contractor and master who pull permits.",
+    "original": {
+      "format": "html",
+      "url": "https://www.houstonpermittingcenter.org/hpwcode1051",
+      "bytes": 51525,
+      "sha256": "5033f6b3a4275f41bc68fef796250e59e43b8c89cf83081b7b8c85df98f9b624",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "houston-circuit-panel-permit",
+    "title": "Houston Circuit Panel Permit (HPWCODE1062)",
+    "jurisdiction": "Houston, TX",
+    "level": "city",
+    "docType": "permit",
+    "publisher": "City of Houston, Houston Public Works / Houston Permitting Center",
+    "url": "https://www.houstonpermittingcenter.org/hpwcode1062",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "houston-circuit-panel-permit.txt",
+    "necEdition": null,
+    "effectiveDate": null,
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "Fee $91.06 or $9.39/panel (greater) + $33.56 admin; plan review and inspection required; valid 180 days (Fees; Additional Information).",
+      "Permits issued only to registered master electricians; apply via iPermits (What You Need; Apply Online)."
+    ],
+    "notes": "",
+    "original": {
+      "format": "html",
+      "url": "https://www.houstonpermittingcenter.org/hpwcode1062",
+      "bytes": 54649,
+      "sha256": "7e0d045bfd86fbdbbd0e137f948880e348b9154f256d5b723f5138f297054053",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "houston-generator-permit",
+    "title": "Houston Generator Permit (HPWCODE1118)",
+    "jurisdiction": "Houston, TX",
+    "level": "city",
+    "docType": "permit",
+    "publisher": "City of Houston, Houston Public Works / Houston Permitting Center",
+    "url": "https://www.houstonpermittingcenter.org/hpwcode1118",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "houston-generator-permit.txt",
+    "necEdition": null,
+    "effectiveDate": null,
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "Standby generator installs need an electrical permit by a registered contractor; kW-based fee + $33.56 admin; plan review and inspection required (page body).",
+      "Guideline CE-1060 Residential Standby Generator Permit & Inspection (Additional Resources)."
+    ],
+    "notes": "",
+    "original": {
+      "format": "html",
+      "url": "https://www.houstonpermittingcenter.org/hpwcode1118",
+      "bytes": 57728,
+      "sha256": "855d61e1b46dcab84967d067173c978dcb168342d6ff88174896eb74e41905d9",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "houston-temporary-cut-in-permit",
+    "title": "Houston Temporary Cut-In Permit (HPWCODE1067)",
+    "jurisdiction": "Houston, TX",
+    "level": "city",
+    "docType": "permit",
+    "publisher": "City of Houston, Houston Public Works / Houston Permitting Center",
+    "url": "https://houstonpermittingcenter.org/hpwcode1067",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "houston-temporary-cut-in-permit.txt",
+    "necEdition": null,
+    "effectiveDate": null,
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "Temporary cut-in gives temporary service before final; $94.00 + $33.56 admin; inspection required (page body)."
+    ],
+    "notes": "",
+    "original": {
+      "format": "html",
+      "url": "https://houstonpermittingcenter.org/hpwcode1067",
+      "bytes": 52342,
+      "sha256": "3f5de4c50f986a0a28f3774327484658582324800d35534dbd6dcc165c1ba21c",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "houston-annual-electrical-maintenance-permit",
+    "title": "Houston Annual Electrical Maintenance Permit (HPWCODE1048)",
+    "jurisdiction": "Houston, TX",
+    "level": "city",
+    "docType": "permit",
+    "publisher": "City of Houston, Houston Public Works / Houston Permitting Center",
+    "url": "https://www.houstonpermittingcenter.org/hpwcode1048",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "houston-annual-electrical-maintenance-permit.txt",
+    "necEdition": null,
+    "effectiveDate": null,
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "Renew in person at Electrical Inspections or by mail with form CE-1241 (page body)."
+    ],
+    "notes": "",
+    "original": {
+      "format": "html",
+      "url": "https://www.houstonpermittingcenter.org/hpwcode1048",
+      "bytes": 46575,
+      "sha256": "a7fecfcf1bf5676f4326bd0766a4598fd0aecaf3811af88d238985cf8ab03fe9",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "houston-ce1057-electrical-permit-application",
+    "title": "Houston CE-1057 Electrical Building Permit Application",
+    "jurisdiction": "Houston, TX",
+    "level": "city",
+    "docType": "permit",
+    "publisher": "City of Houston, Houston Public Works / Houston Permitting Center",
+    "url": "https://www.houstonpermittingcenter.org/media/991/download",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "houston-ce1057-electrical-permit-application.txt",
+    "necEdition": null,
+    "effectiveDate": null,
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "All electrical permit applications in Houston city limits must be submitted via iPermits unless instructed to email (p.1).",
+      "Contractor is responsible for scheduling inspections (p.1).",
+      "Example fees: meter loop & service up to 50 kW $94.00; outlets/fixtures $1.34 each; temporary saw pole $94.00 (p.1)."
+    ],
+    "notes": "",
+    "original": {
+      "format": "pdf",
+      "url": "https://www.houstonpermittingcenter.org/media/991/download",
+      "bytes": 243239,
+      "sha256": "e975409df5ec63027091dc0c4ad562abf812df8395831037322edc32eb8e9fcb",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "houston-inspections-process-2024-11",
+    "title": "Houston Inspections Process presentation (2024-11-19)",
+    "jurisdiction": "Houston, TX",
+    "level": "city",
+    "docType": "inspection",
+    "publisher": "City of Houston, Houston Public Works / Houston Permitting Center",
+    "url": "https://www.houstonpermittingcenter.org/media/10116/download",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": "houston-inspections-process-2024-11.txt",
+    "necEdition": null,
+    "effectiveDate": "2024-11-19",
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [
+      "Master electrician must be TDLR-licensed and registered with City of Houston (licensing slide).",
+      "Scheduling electrical inspections requires a valid license in good standing and a PIN; done on houstonpermittingcenter.org (pp.6-13)."
+    ],
+    "notes": "Slide deck; mostly screenshots.",
+    "original": {
+      "format": "pdf",
+      "url": "https://www.houstonpermittingcenter.org/media/10116/download",
+      "bytes": 4273125,
+      "sha256": "3c0ce8127d944ee73805b54c77535503e99b7e56bc7f728d364248a822e9931b",
+      "stored": false
+    },
+    "storedAs": "text"
+  },
+  {
+    "id": "centerpoint-service-standards",
+    "title": "CenterPoint Energy Houston Electric Service Standards",
+    "jurisdiction": "Houston, TX",
+    "level": "utility",
+    "docType": "utility_requirements",
+    "publisher": "CenterPoint Energy Houston Electric, LLC",
+    "url": "https://www.centerpointenergy.com/en-us/Services/Pages/electric-service-standards.aspx",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": null,
+    "necEdition": null,
+    "effectiveDate": "unknown",
+    "status": "unknown",
+    "copyright": "third_party_link_only",
+    "keyFacts": [],
+    "notes": "Investor-owned utility document; link only. Automated fetch returned 404/HTML, so contents not verified. Search snippet suggested a revision effective 2025-10-22 (unverified)."
+  },
+  {
+    "id": "tx-occupations-code-1305",
+    "title": "Texas Occupations Code Chapter 1305 (Electrical Safety and Licensing Act)",
+    "jurisdiction": "TX",
+    "level": "state",
+    "docType": "licensing",
+    "publisher": "Texas Legislature",
+    "url": "https://statutes.capitol.texas.gov/Docs/OC/htm/OC.1305.htm",
+    "retrievedAt": "2026-11-14T23:00:00Z",
+    "file": null,
+    "textFile": null,
+    "necEdition": null,
+    "effectiveDate": null,
+    "status": "in_force",
+    "copyright": "government_public",
+    "keyFacts": [],
+    "notes": "Public law, but the statutes site is a JavaScript app; text could not be downloaded or read. Key sections: 1305.101 (NEC as state code), 1305.201 (municipal regulation/fees)."
+  }
+]

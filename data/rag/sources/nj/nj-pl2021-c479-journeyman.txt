@@ -1,0 +1,556 @@
+
+
+===== Page 1 =====
+                                                 CHAPTER 479
+
+AN ACT concerning the Board of Examiners of Electrical Contractors, and amending and
+   supplementing various provisions of statutory law.
+
+   BE IT ENACTED by the Senate and General Assembly of the State of New Jersey:
+
+   1.    Section 1 of P.L.1972, c.108 (C.45:1-7) is amended to read as follows:
+
+C.45:1-7  Issuance of certain licenses or certificates of registration.
+   1.    Notwithstanding any of the provisions of Title 45 of the Revised Statutes or of any
+other law to the contrary, all professional or occupational licenses or certificates of registration,
+except such licenses or certificates issued to real estate brokers or salesmen pursuant to chapter
+15 of Title 45, which prior to the effective date of this act were issued for periods not exceeding
+one year and were annually renewable, shall, on and after the effective date of this act, be
+issued for periods of two years and be biennially renewable, except that licenses and business
+permits issued to electrical contractors, and licenses issued to Class A journeymen electricians,
+Class A electrical apprentices, and Class B wiremen pursuant to chapter 5A of Title 45 shall
+be issued for periods of three years and be triennially renewable; provided, however, the boards
+or commissions in charge of the issuance or renewal of such licenses or certificates may, in
+order to stagger the expiration dates thereof, provide that those first issued or renewed after
+the effective date of this act, shall expire and become void on a date fixed by the respective
+boards or commissions, not sooner than six months nor later than 29 months, after the date of
+issue.
+   The fees for the respective licenses and certificates of registration issued pursuant to this
+act  for  periods  of  less or  greater than one  year  shall  be in  amounts  proportionately  less  or
+greater than the fees established by law.
+
+    2.   Section 2 of P.L.1962, c.162 (C.45:5A-2) is amended to read as follows:
+
+C.45:5A-2  Definitions.
+    2.   For the purpose of this act, unless otherwise indicated by the context:
+    (a) "Act" means this act, P.L.1962, c.162 (C.45:5A-1 et seq.) and the rules and regulations
+adopted under it;
+    (b) "Board" means the Board of Examiners of Electrical Contractors created by section 3 of
+this act;
+    (c) "Department" means the Department of Law and Public Safety;
+    (d) "Electrical contractor" means a person who engages in the business of contracting to install,
+erect, repair or alter electrical equipment for the generation, transmission or utilization of electrical
+energy;
+    (e) "Person" means a person, firm, corporation or other legal entity;
+    (f)  "Alarm business" means the sales, installation, servicing or maintenance of burglar alarm,
+fire alarm or electronic security syste       ms, or the monitoring or responding to alarm signals when
+provided  in  conjunction  therewith.    "Alarm  business"  shall  also  include  the  installation,  sales,
+servicing or maintenance of a smoke detection system or a smoke aspiration system in one or two
+family detached residential dwellings, or both; and the type of alarm business that engages in the
+installation,  sales,  servicing  or  maintenance  of  (1)  perimeter  intrusion  protection  systems;  (2)
+unmanned aerial drones used to protect a premise, building, or co                  mplex; and (3) any artificial
+intelligence and evolving technology used for physical security applications consisting of a device
+or  machine,  computer  or  software  used  for  detection,  security,  surveillance,  monitoring  of
+
+
+
+
+
+
+
+===== Page 2 =====
+                                            P.L. 2021, CHAPTER 479
+                                                            2
+
+unauthorized access, or providing a warning of intrusion, which is designed to discourage crime
+or warn of potential threats using unmanned aerial drones, robots or machines.  "Installation," as
+used  in  this  definition,  includes  the  survey  of  a  premises,  the  design  and  preparation  of  the
+specifications for the equipment or system to be installed pursuant to a survey, the installation of
+the equipment or system, or the demonstration of the equipment or system after the installation is
+completed, but does not include any survey, design or preparation of specifications for equipment
+or for a system that is prepared by an engineer licensed pursuant to the provisions of P.L.1938,
+c.342 (C.45:8-27 et seq.), or an architect licensed pursuant to the provisions of chapter 3 of Title
+45 of the Revised Statutes, if the survey, design, or preparation of specifications is part of a design
+for construction of a new building or premises or a renovation of an existing building or premises,
+which renovation includes components other than the installation of a burglar alarm, fire alarm or
+electronic security system, and further does not include the design or preparation of specifications
+for the equipment or system to be installed that are within the practice of professional engineering
+as defined in subsection (b) of section 2 of P.L.1938, c.342 (C.45:8-28);
+    (g) "Burglar alarm" means a security system comprised of an interconnected series of alarm
+devices or components, including systems interconnected with radio frequency signals, or Internet
+protocol and any successor protocols, which emits an audible, visual or electronic signal indicating
+an alarm condition and providing a warning of intrusion, which is designed to discourage crime.
+"Burglar  alarms"  include  but  are  not  limited  to  perimeter  intrusion  protection  systems  and
+perimeter fence intrusion protection systems;
+    (h) "Business firm" means a partnership, corporation or other business entity engaged in the
+alarm business or locksmithing services;
+    (i)  "Committee" means the Fire Alarm, Burglar Alarm, and Locksmith Advisory Committee
+created by section 3 of P.L.1997, c.305 (C.45:5A-23);
+    (j)  "Electronic security system" means a security system comprised of an interconnected series
+of devices or components, or Internet protocol and any successor protocols, including systems with
+audio and video signals, or perimeter intrusion protection systems, or other electronic systems,
+which emits or transmits an audible, visual or electronic signal warning of intrusion and provides
+notification of authorized entry or exit, which is designed to discourage crime.  "Electronic security
+system"  shall  include  access  control  systems,  CCTV  systems,  intercom  systems,  automation
+systems when integrating with security devices, perimeter intrusion protection systems, and other
+electronic monitoring devices;
+    (k) "Fire alarm" means a system comprised of an interconnected series of alarm devices or
+components, and notification appliances, including systems interconnected with radio frequency
+signals, which emits an audible, visual or electronic signal indicating an alarm condition and which
+provides a warning of the presence of gas, smoke or fire, or a notification of emergency evacuation.
+"Fire alarm" does not mean a system whose primary purpose is telecommunications with energy
+control, the monitoring of the interior environment being an incidental feature thereto;
+    (l)  "Licensed locksmith" means a person who is licensed pursuant to the provisions of section
+7 of P.L.1997, c.305 (C.45:5A-27);
+    (m)    "Licensee"  means  a  person  licensed  to             engage  in  the  alarm  business  or  provide
+locksmithing services pursuant to the provisions of section 7 of P.L.1997, c.305 (C.45:5A-27);
+    (n) "Locksmithing services" means the modification, recombination, repair or installation of
+mechanical  locking  devices        and  electronic  security  systems  for  any  type  of  compensation  and
+includes   the   following:   repairing,   rebuilding,   recoding,   servicing,   adjusting,   installing,
+manipulating or bypassing of a mechanical or electronic locking device, for controlled access or
+egress to premises, vehicles, safes, vaults, safe doors, lock boxes, automatic teller machines or
+other devices for safeguarding areas where access is meant to be limited; operating a mechanical
+
+
+
+
+
+
+
+
+===== Page 3 =====
+                                            P.L. 2021, CHAPTER 479
+                                                             3
+
+or electronic locking device, safe or vault by means other than those intended by the manufacturer
+of such locking devices, safes or vaults; or consulting and providing technical advice regarding
+selection  of  hardware  and  locking  systems  of  mechanical  or  electronic  locking  devices  and
+electronic security systems; except that "locksmithing services" shall not include the installation
+of a prefabricated lock set and door knob into a door of a residence;
+    (o) Class  A  journeyman  electrician"  means  a  person  licensed  pursuant  to  P.L.1962,  c.162
+(C.45:5A-1 et seq.) or P.L.2001, c.21 (C.45:5A-11.1 et al.), as a Class A journeyman electrician
+by the board;
+    (p) "Access control system" means a system that provides access to authorized persons and
+may record and report which persons entered or exited a facility or areas within a facility, which
+doors or areas were accessed while persons are within a facility, and the time that such activity
+occurred. "Access control systems" may include the use of keys, access cards, locks, card readers,
+biometric identification devices, recorders, printers and control devices. "Access control systems"
+may be independent systems or may be integrated with other electronic security systems or internet
+protocol and any successor protocols;
+    (q) "Closed circuit television" or "CCTV" means a video security system that may include
+video  cameras,  Internet  protocol  cameras,  monitors,  switches,  camera  enclosures,  controls  and
+other related devices. "Closed circuit television" shall include an independent system or system
+that is integrated with other electronic security systems or Internet protocol and any successor
+protocols;
+    (r)  "Internet protocol and any successor protocol" means a protocol that integrates with any
+electronic security devices in any existing and future data network protocols to carry alarm                       signals
+or video transmission signals or fire alarm signals or any securit               y system now and in the future;
+    (s)  "Intercom  system"  means  an  audio  security  communication  system  containing  control
+circuitry that may include a feature designed to selectively r              elease electronically secured doors or
+capable of viewing an image at the same time;
+    (t)  "Perimeter intrusion protection system" means a device, machine, computer or software
+used  for  detection,  security,  surveillance,  or  monitoring  of  unauthorized  access                 ,  providing  a
+warning of intrusion, which is designed to discourage crime or warn of potential threats using
+unmanned   aerial   drones,   robots,   machines,   computers,   or   software   with   minimal   human
+intervention, and is a type or component of a security system;
+    (u) "Perimeter  fence  intrusion  protection  system"  means  a  perimeter  intrusion  protection
+system that satisfies the requirements established pursuant to section 2 of P.L.2021, c.2 (C.45:5A                        -
+54), and all attached system components or equipment, including but                        not limited to a fence, an
+energizer powered by a commercial storage battery not exceeding 12 volts dc, which produces a
+short  electric  pulsed  charge  upon  contact  with  the  fence,  and  battery  charging  device  used
+exclusively  to  charge  the  battery,  or  utili     zation  of  microwave  energy  or  radio  frequencies  for
+perimeter  intrusion  protection,  and  any  successor  technologies  used  for  perimeter  intrusion
+protection, and is a type or component of a security system;
+    (v) "Smoke aspiration system" means a smoke detect                   ion system that takes samples of the air
+and tests them for presence of smoke;
+    (w) "Smoke detection system" means an electronic system consisting of a control unit, which
+may  be  a  component  of  a  combination  fire  and  burglar  control  panel,  or  one  or  more                  smoke
+aspiration systems, smoke detectors, heat detectors, gas detectors, if required, audible appliances,
+and battery back-up, as utilized in one or two family detached residential dwellings, or both;
+    (x) "Branch circuit wiring" means the circuit conductors between the final overcurrent device
+protecting the circuit and the outlet or outlets;
+
+
+
+
+
+
+
+
+
+
+===== Page 4 =====
+                                          P.L. 2021, CHAPTER 479
+                                                         4
+
+    (y) “Class A electrical apprentice” means an individual licensed pursuant to P.L.2021, c.479
+(C.45:5A-11.7 et al.) who enrolled in an electrical apprenticeship program accredited and approved
+by the United States Department of Labor and who performs electrical work under the supervision
+of a licensed electrical contractor or Class A journeyman electrician;
+    (z) “Class B wireman” means an individual licensed to pursuant to P.L.2021, c.479 (C.45:5A-
+11.7 et al.) who performs electrical work under the supervision of a licensed electrical contractor
+or Class A journeyman electrician.
+
+   3.    Section 3 of P.L.1962, c.162 (C.45:5A-3) is amended to read as follows:
+
+C.45:5A-3  Board of examiners; creation; membership; qualifications; terms; vacancies.
+   3.  a.  There is created a Board of Examiners of Electrical Contractors in the Department of
+Law and Public Safety consisting of nine members, hereinafter referred to as the "board."  The
+members of such board shall be citizens of the State appointed by the Governor, with the advice
+and consent of the Senate.  Members shall be appointed for terms of three years and until the
+appointment and qualification of their successors.  Any vacancy in said board for the unexpired
+portion of a term shall be filled in the manner provided for the original appointment. No more
+than five members of the board shall be members of the same political party.  Three members
+of the board shall be qualified electrical contractors with experience of not less than 10 years
+as an electrical contractor, one shall be a qualified electrical inspector, with experience of not
+less than five years as an electrical inspector, one shall be a Class A journeyman electrician
+employed  in  the  electrical  construction  industry  for  not  less  than five            years,  one  shall  be
+appointed  by  the  Governor  as  recommended  by  the  President  of  the  Senate,  one  shall  be
+appointed by the Governor as recommended by the Speaker of the General Assembly, one shall
+be a public member not associated with the electrical industry, and one shall be a licensed
+professional engineer with experience of not less than five years in the electrical industry.
+   b.    For a period of two years after the enactment of P.L.2021, c.479 (C.45:5A-11.7 et al.), the
+Governor may, if he determines it would be in the public interest, transfer the Board of Examiners
+of Electrical Contractors to another principal department in the Executive branch, which transfer
+shall not be subject to the requirements of the “Executive Reorganization Act,” P.L.1969, c.203
+(C.52:14C-1 et seq.).  Any transfer under this subsection may include the transfer of the records,
+property,  and  personnel  affected  by  the  reorganization,  as  well  as  the  transfer  of  unexpended
+balances of appropriations, or other funds available for use in connection with a function of the
+board, provided that the unexpended balances so transferred may be used only for the purposes for
+which the appropriation was made.
+
+   4.    Section 9 of P.L.1962, c.162 (C.45:5A-9) is amended to read as follows:
+
+C.45:5A-9  Electrical contractors, permit, license required; qualifications; examinations; fees.
+   9.  (a)  On or after July 1, 1963, no person shall advertise, enter into, engage in or work in
+business as an electrical contractor, unless such person has secured a business permit and such
+person or an officer, partner or employee who is or will be actively engaged in the business
+for which a business permit is sought has obtained an electrical contractor’s license from the
+board  in  accordance  with  the  provisions  of  this  act,  and  such  licensee  shall  assume  full
+responsibility  for  inspection  and  supervision  of  all  electrical  work  to  be  performed  by  the
+permittee in  compliance  with  recognized safety  standards.   A  licensed  electrical  contractor
+shall not be entitled to qualify more than one person for a business permit.
+
+
+
+
+
+
+
+
+
+
+===== Page 5 =====
+                                          P.L. 2021, CHAPTER 479
+                                                          5
+
+   Any  single  act  or  transaction  shall  constitute  engaging  in  the  business  of  electrical
+contracting within the meaning of this chapter.
+   (b)   No  person  shall  be  granted  an  electrical  contractor's  license  unless  he  shall  first
+establish  his  qualifications  therefor  and  shall  take  and  pass  the  examination  for  electrical
+contractors.  An applicant for such examination shall have been employed or engaged in the
+business  of  electrical  construction  and  installation  for  a  period  of  not  less  than  five  years
+preceding the time of such application.  During the five-year period the applicant shall spend
+one year as a Class A journeyman electrician                and four years in an electrical apprenticeship
+program accredited and approved by the United States Department of  Labor, with proof of
+passage and successful completion of this program while actively engaged or employed as a
+Class  A  electrical  apprentice.        For  a  period  of  four  years  following  the  effective  date  of
+P.L.2018,  c.155,  each  year  of  employment  in  the  electrical  trade  or  enrollment in  a  formal
+electrical  apprenticeship  program  completed  prior  to  the  effective  date  of  P.L.2018,  c.155,
+shall be accepted by the board in lieu of one year's enrollment in an electrical apprenticeship
+program accredited and approved by the United States Department of Labor, up to a maximum
+total credit of four years.
+   The examination shall be so designed as to establish the competence and qualification of
+the applicant to perform and supervise the various phases of electrical contracting work.  Any
+applicant who shall fail to pass such examination shall not be eligible to retake an examination
+until six months from the date of such failure.
+   (c)   An applicant for an examination for a license as an electrical contractor shall apply to
+the board for permission to take such examination upon forms provided by the board and shall
+provide the board with such information as shall be necessary to establish his qualifications to
+take the examination.  The applicant for an initial examination shall pay a fee to the board of
+$25.00.  An applicant for re-examination shall pay a fee to the board of $15.00.  Such fees
+shall not be refundable.
+
+   5.    Section 3 of P.L.2001, c.21 (C.45:5A-11.1) is amended to read as follows:
+
+C.45:5A-11.1  Registration as qualified journeyman electrician.
+   3.    The board shall license as a Class A journeyman electrician an applicant who:
+   a.    Holds a current valid license to practice electrical contracting by the board; or
+   b.    Has  acquired  sufficient  practical  experience  working  with  tools  in  the  installation,
+alteration or repair of wiring for electric light, heat or power, as determined by the board, and
+has successfully completed an appropriate number of classroom hours of related instruction,
+as determined by the board, which requirement of practical experience shall not include time
+spent in supervising, engineering, estimating and other managerial tasks; or
+   c.    Has demonstrated to the satisfaction of the board that he has met the requirements of
+subsection b. of this section through alternative means.
+
+   6.    Section 4 of P.L.2001, c.21 (C.45:5A-11.2) is amended to read as follows:
+
+C.45:5A-11.2    Application  for  registration  as  qualified  journeyman,  apprentice  electrician;
+fees.
+   4.  a.  On and after the effective date of P.L.2021, c.479 (C.45:5A-11.7 et al.), any person
+desiring to be licensed as a Class A journeyman electrician shall make application to the board
+to be so licensed and shall pay all the fees required in connection therewith, which fees shall
+be established, prescribed or changed by the board to the extent necessary to defray all proper
+
+
+
+
+
+
+
+
+===== Page 6 =====
+                                         P.L. 2021, CHAPTER 479
+                                                         6
+
+expenses  incurred  by  the  board  to  administer  the  provisions            of  P.L.2001,  c.21  (C.45:5A-
+11.1 et al.).  Fees shall not be fixed at a level, however, that will raise amounts in excess of the
+amount estimated to be so required.
+   b.   On  and  after  the  effective  date  of P.L.2021,  c.479         (C.45:5A-11.7  et  al.),   any  person
+desiring to be licensed as a Class A electrical apprentice enrolled in an electrical contractor's
+apprenticeship program accredited and approved by the United States Department of Labor
+shall make an application to the board to be so licensed and shall pay all the fees required in
+connection therewith, which fees shall be established, prescribed or changed by the board to
+the  extent  necessary  to  defray  all  proper  expenses  incurred  by  the  board  to  administer  the
+provisions  of  P.L.2018,  c.155.    Fees  shall  not  be      fixed  at  a  level,  however,  that will raise
+amounts in excess of the amount estimated to be so required.
+
+   7.   Section 5 of P.L.2001, c.25 (C.45:5A-11.3) is amended to read as follows:
+
+C.45:5A-11.3  Register of applications.
+   5.   The board shall keep a record of all applications by individuals seeking licensure as
+Class  A  journeymen  electricians,  Class  A  electrical  apprentices  enrolled  in  an  electrical
+contractor's apprenticeship program accredited and approved by the United States Department
+of Labor, and Class B wiremen. The record shall include the following information: name,
+address, telephone number, the age of the applicant; the date of the application; the place of
+business of the applicant; whether the applicant was accepted or rejected, and in the case of a
+rejection, the reasons for that action; the license number, if issued; the date of action of the
+board; and any other information the board deems necessary.
+
+   8.   Section 6 of P.L.2001, c.21 (C.45:5A-11.4) is amended to read as follows:
+
+C.45:5A-11.4  Continuing education required for license renewal.
+   6.   a.   The board shall require each Class A journeyman electrician, other than a Class A
+journeyman electrician licensed to practice electrical contracting issued by the board, and each
+Class B wireman, as a condition for triennial license renewal pursuant to section 1 of P.L.1972,
+c.108 (C.45:1-7), to complete a 15-hour course of study relating to the most recent edition of
+the National Electrical Code.
+   b.   The  board  shall  approve  all  programs  of  education  for  the 15-hour             course  of  study
+established pursuant to subsection a. of this section and the instructors for those courses.
+
+   9.   Section 8 of P.L.2001, c.21 (C.45:5A-11.6) is amended to read as follows:
+
+C.45:5A-11.6  Renewal cycle for registration.
+   8.   Notwithstanding any other law, rule or regulation to the contrary, the license renewal
+cycle for Class A journeyman electricians, Class A electrical apprentices, and Class B wiremen
+shall be the same as that for licensed electrical contractors.
+
+   10.  Section 18 of P.L.1962, c.162 (C.45:5A-18) is amended to read as follows:
+
+C.45:5A-18  Exempt work or construction.
+   18.  Electrical work or construction which is performed on the following facilities or which
+is  by  or  for  the  following agencies  shall  not  be  included  within  the  business  of  electrical
+contracting so as to require the securing of a business permit under this act:
+
+
+
+
+
+
+
+
+===== Page 7 =====
+                                          P.L. 2021, CHAPTER 479
+                                                         7
+
+   (a)  Minor repair work such as the replacement of lamps and fuses.
+   (b)  The  connection  of  portable  electrical  appliances  to  suitable  permanently  installed
+receptacles.
+   (c)  The testing, servicing or repairing of electrical equipment or apparatus.
+   (d)  Electrical  work in mines,  on  ships,  railway  cars,  elevators,  escalators or  automotive
+equipment.
+   (e)  Municipal  plants  or  any  public  utility  as  defined  in  R.S.48:2-13,  organized  for  the
+purpose  of  constructing,  maintaining  and  operating  works  for  the  generation,  supplying,
+transmission and distribution of electricity for electric light, heat, or power.
+   (f)  A  public  utility  subject  to  regulation, supervision  or  control  by  a  federal  regulatory
+body, or a public utility operating under the authority granted by the State of New Jersey, and
+engaged in the furnishing of communication or signal service, or both, to a public utility, or to
+the public, as an integral part of a communication or signal system, and any agency associated
+or  affiliated  with  any  public  utility  and  engaged  in  research  and  development  in  the
+communications field.
+   (g)  A railway utility in the exercise of its functions as a utility and located in or on buildings
+or premises used exclusively by such an agency.
+   (h)  Commercial radio and television transmission equipment.
+   (i)  Construction by any branch of the federal government.
+   (j)  Any work with a potential of less than 10 volts.
+   (k)  Repair,  manufacturing  and  maintenance  work  on  premises  occupied  by  a  firm  or
+corporation,  and  installation  work  on  premises  occupied  by  a  firm  or  corporation  and
+performed by a regular employee who is a Class A journeyman electrician licensed pursuant
+to section 3 of P.L.2001, c.21 (C.45:5A-11.1).
+   (l)  Installation, repair or maintenance performed by regular employees of the State or of a
+municipality, county, or school district on the premises or property owned or occupied by the
+State, a municipality, county, or school district; provided that a regular employee of the State,
+municipality,  county  or  school  district  performing  this  work  is  a Class  A                  journeyman
+electrician licensed pursuant to section 3 of P.L.2001, c.21 (C.45:5A-11.1), or holds any civil
+service title with a job description which includes electrical work pursuant to the "Civil Service
+Act," N.J.S.11A:1-1 et seq., or regulations adopted pursuant thereto, or any employee of a
+State authority who has completed an apprenticeship training program approved by the United
+States Department of Labor, Bureau of Apprenticeship Training, that deals specifically with
+electrical work, and is of a minimum duration of three years.
+   Any regular employee of the State, or of a municipality, county or school district who has
+submitted his application to the board for licensure as a Class A journeyman electrician shall
+be permitted to continue to perform work pursuant to this subsection until such time as the
+board acts upon his application.  Any applicant whose licensure application is not approved by
+the board shall no longer be permitted to perform electrical work pursuant to this subsection.
+   (m) The  maintaining,  installing  or  connecting  of  automatic  oil,  gas  or  coal  burning
+equipment,  gasoline  or  diesel  oil  dispensing  equipment  and  the  lighting  in  connection
+therewith to a supply of adequate size at the load side of the distribution board.
+   (n)  Work performed by a person on a dwelling that is occupied solely as a residence for
+himself or for a member or members of his immediate family.
+   (o)  (Deleted by amendment, P.L.1997, c.305).
+   (p)  Any work performed by a landscape irrigation contractor which has the potential of not
+more  than  30  volts  involving  the  installation,  servicing,  or  maintenance  of  a  landscape
+irrigation system as this term is defined by section 2 of this amendatory and supplementary
+
+
+
+
+
+
+
+
+===== Page 8 =====
+                                          P.L. 2021, CHAPTER 479
+                                                         8
+
+act.    Nothing  in  this  act  shall  be  deemed  to  exempt  work  covered  by  this  subsection  from
+inspection   required   by   the   "State   Uniform   Construction   Code   Act,"   P.L.1975,   c.217
+(C.52:27D-119 et seq.) or regulations adopted pursuant thereto.
+   (q)  Any  work  performed  by  a  person  certified  pursuant  to  sections  1  through  10  of
+P.L.2001, c.289 (C.52:27D-25n through C.52:27D-25w) that is not branch circuit wiring.  For
+the purposes of this subsection, "branch circuit wiring" means the circuit conductors between
+the final overcurrent device protecting the circuit and one or more outlets.  A certificate holder
+shall be deemed to have engaged in professional misconduct for the purposes of section 8 of
+P.L.1978, c.73 (C.45:1-21) for violating the provisions of this subsection.
+   (r)  Any  work  performed  by  an  alarm  business,  as  that  term  is  defined  by  section  2  of
+P.L.1985,  c.289  (C.45:5A-18.1),  licensed  pursuant to P.L.1997,  c.305  (C.45:5A-23  et  seq.)
+that is not branch circuit wiring.  For the purposes of this subsection, "branch circuit wiring"
+means the circuit conductors between the final overcurrent device protecting the circuit and
+one or more outlets.  A licensee shall be deemed to have engaged in professional misconduct
+for the purposes of section 8 of P.L.1978, c.73 (C.45:1-21) for violating the provisions of this
+subsection.
+   The  board  may  also  exempt  from  the  business  permit  provisions  of  this  act  such  other
+electrical activities of like character which in the board's opinion warrant exclusion from the
+provisions of this act.
+
+C.45:5A-11.7  Temporary license, out-of-State individual; rules, restrictions.
+   11.  a.  Upon payment to the board and submission of an application, the board may issue
+without examination a temporary license to an individual from another state or jurisdiction to
+perform  services  in  New  Jersey  as  a  Class  A  journeyman  electrician,  Class  A  electrical
+apprentice, or a Class B wireman.  However, notwithstanding any other provisions of law to
+the contrary, an individual holding a temporary Class A journeyman electrician license shall
+be permitted to work only under the supervision of a licensed electrical contractor and shall
+not be permitted to supervise electrical work.
+   b.   An  individual  from  another  state  or  jurisdiction  shall  not  be  issued  more  than  one
+temporary license per triennial renewal period.
+   c.   If the amount of time in which the individual from another state or jurisdiction is to
+provide services exceeds 30 days, the individual shall be required to apply to the board for a
+full license and shall be subject to all requirements for the license for which the individual is
+applying.
+
+C.45:5A-11.8  Granting licenses without examination.
+   12.  The  board  may  in  its  discretion  grant licenses without  examination to  applicants so
+licensed in another state or territory of the United States or the District of Columbia; provided
+that equal reciprocity is provided to electrical contractors, Class A journeyman electricians,
+Class A electrical apprentices, and Class B wiremen licensed by the State Board of Examiners
+on Electrical Contractors.
+
+C.45:5A-11.9  Deadline to exchange registration.
+   13.  a.  An individual currently registered as a qualified journeyman electrician shall have
+until the first day of the thirteenth month following enactment of P.L.2021, c.479 (C.45:5A-
+11.7  et  al.) to  exchange  the  current  registration  for  a  license  as  a  Class  A  journeyman
+electrician.  After the first day of the thirteenth month, any individual registered as a qualified
+journeyman electrician shall not be permitted to continue performing work in that capacity
+
+
+
+
+
+
+
+
+===== Page 9 =====
+                                         P.L. 2021, CHAPTER 479
+                                                        9
+
+unless  the  individual  applies  to  the  board  and  receives  a  license  as  a  Class  A  journeyman
+electrician in order to continue performing work as a Class A journeyman electrician                   .
+   b.   An individual currently registered as an electrical apprentice shall have until the first
+day of the thirteenth month following enactment of P.L.2021, c.479                    (C.45:5A-11.7 et al.) to
+exchange their current registration for a license as a Class A electrical apprentice.  After the
+first day of the thirteenth month, any individual registered as an electrical apprentice shall not
+be permitted to continue performing work in that capacity unless the individual applies to the
+board and receives a license as a Class A electrical apprentice in order to continue performing
+work as a Class A electrical apprentice.
+   c.   An individual who currently performs electrical work as the employee of an electrical
+contractor business permit holder and who is not a licensed electrical contractor or registered
+as a qualified journeyman electrician or electrical apprentice shall have until the first day of
+the thirteenth month following enactment of P.L.2021, c.479 (C.45:5A-11.7 et al.) to become
+licensed as a Class B wireman.  After the first day of the thirteenth month, no person shall
+perform electrical work who is not licensed as an electrical contractor, Class A journeyman
+electrician, Class A electrical apprentice, or Class B wireman.
+   d.   The board shall adopt regulations concerning the supervision and scope of the work
+performed by Class A electrical apprentices and Class B wiremen.
+
+   14.  There  is  appropriated  from  the  General  Fund  to  the  Division  of  Consumer  Affairs
+within the Department of Law and Public Safety the sum of $400,000 for the purpose of hiring
+additional staff to support the Board of Examiners of Electrical Contractors in carrying out the
+purposes of P.L.2021,  c.479        (C.45:5A-11.7  et  al.),  including  supporting  investigations  and
+enforcement  action  for  violations  of  the  “Electrical  Contractors  Licensing  Act  of  1962,”
+P.L.1962, c.162, as amended (C.45:5A-1 et seq.).
+
+   15.  This act shall take effect immediately.
+
+   Approved January 18, 2022.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,274 @@
+
+
+===== Page 1 =====
+        Department of Licenses and Inspections
+        Inspections, Safety & Compliance
+
+                                                                   2021 I-Code Local Changes
+
+        The City of Philadelphia is governed by the Pennsylvania Construction Code Act (PCCA), which requires statewide adoption of the Uniform
+        Construction Code (UCC). The UCC incorporates the 2021 I-Codes with certain amendments. The City of Philadelphia may further amend the
+        codes, subject to applicable conditions and limitations.
+
+        The tables below summarize changes to be adopted by the City, including administrative provisions, together with the corresponding ordinance
+        numbers and associated links.
+
+                                                     Administrative Code Local Change
+
+          (Sub-       Code A)              (Bill No. 260393)
+
+          A-203.3.2                         Updates reference to current ISO accreditation standards.
+
+          A-301.1.1             •      Expands excavation permit exemptions to include structures accessory to one- and two-   family dwellings, sign
+                                                 structures, and minor work not posing a threat to adjacent properties.
+                                            •      Corrects PWD stormwater management approval threshold.
+                                            •      Adds building permit requirement for site work in steep slope or Wissahickon Watershed areas to verify limits of
+                                                 disturbance.
+
+          A-301.2.5                         Modifies zoning permit exemptions by removing expired temporary allowances for outdoor entertainment and
+                                           aligning accessory structure references with the Zoning Code.
+
+          A- 302.12                           Adds section on abandonment of work to reflect current practice and create a more appropriate violation category.
+
+          A-305.2                             Modifies prerequisite approvals for building, demolition, and excavation permit issuance:
+                                               1.      Adds requirement for Department of Public Health Dust Control Permit for areas of disturbance ≥ 5,000 sq ft,
+                                                    consistent with DPH regulations.
+                                               2.      Corrects DPH water quality approval requirements for on-     site wells.
+                                            Removes requirement for Commerce Department approval of waterfront structures.
+
+
+
+                                                                                                                                                                                                                                           Page 1of 6
+
+===== Page 2 =====
+         Department of Licenses and Inspections
+         Inspections, Safety & Compliance
+
+
+
+          A-402.8.1                          Establishes a maximum lead time for initial inspection notification to ensure pre-construction review reflects actual
+                                             site conditions at project start.
+
+          A-506 and 601                  Updates referencefor fine provisions to align with corresponding 2021 code sections.
+
+          Building Code                      Local Change
+          (Sub-       Code B)                (Bill No. 260394 )
+
+          B - 307and 408                               Modifies flammable  gas classification and allowances, to support refrigerant changes.
+
+          B-1504.9            (and           Updates the cool roof ordinance to replace references to the discontinued Energy Star Roof Products Program with
+          definitions)                       performance standards established by     the Cool Roof Rating Council (CRRC). Compliance shall be demonstrated
+          (modification of an                using CRRC-rated initial and aged solar reflectance and thermal emittance     values, as specified in  this  Code
+          existing local change)
+
+          B-1705.21                          Establishes a Special Inspection     category for air barrier and duct leakage testing, aligning with the specialized testing
+                                             and certification requirements of the Energy Code.
+
+          IECC                               Local Change
+          Residential Code                   (Bill No. 250644)
+          (IRC section in
+          parentheses, where
+          applicable)
+
+          R401.2.5, R408.1,                  Requires an  additional  energy  packageto improve     efficiency.  The developer/ builder can select from 5 options,
+          R408.2 (N1101.13.5,                allowing for the most economical solution for the project.
+          N1108.1, N1108.2)
+
+          R403.3.5,R403.3.6                  Requires air leakage testing for ducts within the building thermal envelope.
+          (N1003.3.5,N1103.3.6)
+
+          R404.1(N1104.1.)                      Increases   required  percentage of high efficacy lamps from 90% to 100%.
+
+
+
+                                                                                                                                                                                                                                           Page 2of 6
+
+===== Page 3 =====
+        Department of Licenses and Inspections
+        Inspections, Safety & Compliance
+
+
+          R404.1.1                                        Sets limits for exterior lighting loads serving multi- family buildings.
+
+          R404.2 (N1104.2)             Requires rooms with permanently installed lights to be controlled by dimmers or occupancy sensors.
+
+          R404.3 (N1104.3)             Requires automatic shut -off or light-sensing controls for exterior lighting exceeding 30 watts.
+
+          Mechanical Code                   Local Change
+          (Sub-       Code M)                (Bill No. 260391 )
+
+          M-307.2.2.1                       Modifies condensate discharge provisions to align with the Philadelphia Plumbing Code (Section P-314.2.1.1).
+
+          M-1101.2.1                        Adds listing and labelling for  any high probability equipment utilizing Group A2L, A2, A3 and B1 refrigerants.
+
+          Table   M-1103.1                Revises tables to identify:
+                                                 •      Edits to recognize    A2L refrigerants as an independent refrigerant safety group classification
+                                                 •    Introduction of new parameters for lower flammability limit considerations  and  specific   LFL   points for
+                                                      specified refrigerants
+                                                 •      Refrigerant quantity   limit reductions for Refrigerant Concentration     Limits (RCL)
+                                             Revises refrigerant safety group classifications based on     ASHRAE 34.
+
+          M-1104.3.1                        Revises to specifically require the use of Group       A1 and A2L for  any high     probability systems used for human
+                                             comfort, with exceptions based on     quantity   of refrigerants and occupancy type.
+
+          M-1104.3.2                        Revises to prohibit the use of Group       A3 & B3 refrigerants in high probability systems with additional exceptions
+                                             based on occupancy types and quantity of refrigerants.   Removed Table 1104.3.2 associated with refrigerant quantity
+                                             limitations based on     redundancy   with proposed modifications under M1104.3.1 & M1104.3.2.
+
+          M-1106.4                          Revises provisions for machinery room requirements associated with A2L & B2L refrigerant systems to include:
+                                                •      Detection limits requirements to achieve more accurate   detection and response times to refrigerant leaks
+                                                •      Emergency shut-off response times for refrigerant leaks
+                                                •      Revised ventilation requirements, with machinery room ventilation designs to be based on standard ASHRAE 15
+                                             Removes previous language associated with required machinery room provisions for Group       A2L refrigerant system
+                                             associated with hazardous locations for electrical requirements of NFPA 70.
+
+
+                                                                                                                                                                                                                                           Page 3of 6
+
+===== Page 4 =====
+         Department of Licenses and Inspections
+         Inspections, Safety & Compliance
+
+
+          M1107.4 & M1107.5         Revises refrigerant piping      and pipe  fittings  materials.
+
+          M1109.2.2                         Revises to pipe enclosure exceptions for pipes installed outside the building where protected from damage.
+
+          M1109.2.3                         Clarifications to refrigerant piping     installation locations to specifically prohibit installations within interior exit
+                                              stairways when piping is exposed.
+
+          M1109.2.5                         Revises exceptions to refrigerant pipe shaft requirements to broaden exceptions to all refrigerant safety group
+                                              classifications where refrigerant quantity   limits are   not exceeded under Table M-1103.1
+
+          M1109.2.6                         Revises provisions to recognize the need to allow authorized personnel access to exposed pipes with very hot or very
+                                              cold piping surfaces.
+
+          M1109.2.7                         Revises provisions for  piping     identification requirements specific to A2L & B2L refrigerant systems.
+
+          M1109.3                            Revises provisions for use of Group A2L, A2, A3, B2L, B2, and B3 refrigerants, to include specific requirements for
+                                              continuous mechanical ventilation for the use of Group A2,A3, B2, or     B3 refrigerants
+
+          M1109.4                            Removes provisions for  Group       A2, A3, B2, and B3 refrigerant systems based on redundancy with the revisions
+                                              identified in M1109.3.
+
+          M1109.7                            Revises provisions associated with test gases permitted for  use in refrigerant piping     system testing.
+
+          M1110.3                            Revises provisions associated with test gases permitted for  use in refrigerant piping     system testing.
+
+          M1110.5                            Revises provisions to revise   refrigerant piping system testing requirements.
+
+          Plumbing Code                       Local Change
+          (Sub-       Code P)                  (Bill No. 250645)
+
+          Chapter 2                           Retains 2018definitions for private and public. Add Mech Code definition for plenum.
+
+          314.2.1.1                                          Retains 2018 language.  Omit section on condensate discharge. 2023 amendments address allowable disposal outlets.
+
+
+
+
+                                                                                                                                                                                                                                           Page 4of 6
+
+===== Page 5 =====
+         Department of Licenses and Inspections
+         Inspections, Safety & Compliance
+
+
+          403.1/ 403.2                                Retains 2018 language.  Omitreferenceto            urinal. The 2023 amendments  adoptingprovisions for all      -gender
+                                                facilities include  a prohibition on urinals with these facilities.
+
+          403.3.1/403.5                             Retains 2018language           explicitly referencing accessibility requirements of the  BldgCode.
+
+          404.3                                          Retains 2018 language.  Do not adopt ASTM C1822 (geopolymer concrete) for covering exposed pipes.
+
+          412.3/412.4                                Clarify thatstated   flow rate is a minimum value.
+
+          606.7                                          Retains 2018 language for labeling of bundled water distribution pipe.
+
+          609.2                                          Adds reference to water distribution to reflect Phila definitions ,
+
+          610.1                                          Includes exception for disinfection/ analysis for  one and two familydwellings regulated by the Residential Code.
+                                                Consistent with current practice.
+
+          705.2.4 and 705.10.4                           Retains 2018 language.  Omit push-fit fitting allowance for DWV due to production issues. and revisit product status
+                                                during next code cycle change.
+
+          718/719                                  Incorporates two new methods for building sewer repair, relining and rehab, but limits toone   - and two-   family
+                                               dwellings. Requirements are taken from IPC but relisted as a change due to section changes.
+
+          915.1                                           Retains 2018 language that restricts use for food waste disposers.
+
+          919.2.10/919.4                           Clarification to base sizing/ velocity break on the height of the stack and not the overall building
+
+          919.3.5                              Language is  clarified to support intent and resolve conflict. Stack must be same diameter as building sewer w/ min 4”
+                                               size.
+          1002.3                               Clarifies the  prohibition on internal partition traps (incl bottle traps) due to maintenance concerns.Revisit product
+                                               development next code cycle.
+          1002.4.1.5                                           Retains 2018 language to omit fixture drain method and allow only certified trap seal devices.
+
+          1102.6                                           Retains 2018 language to cross reference materials section and omit references  for testing.
+
+
+
+                                                                                                                                                                                                                                           Page 5of 6
+
+===== Page 6 =====
+         Department of Licenses and Inspections
+         Inspections, Safety & Compliance
+
+
+
+         Residential Code                  Local Change
+         (Sub-       Code R)               (Bill No. 260395)
+
+         R-905.18                          Updates the cool roof ordinance to maintain consistency with corresponding IBC provisions.
+         (and definitions)
+         (modification of an
+         existing local change)
+
+         R-E3901.4.2.1                Reintroduces peninsular countertops and islands in the minimum receptacle requirements for kitchen and dining areas, as
+                                           referenced in the 2018 IRC. The updated PA UCC does not account for peninsular counters.
+
+         R-M1411                        Updates refrigerant provisions , aligning with changes to the Mechanical Code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                           Page 6of 6

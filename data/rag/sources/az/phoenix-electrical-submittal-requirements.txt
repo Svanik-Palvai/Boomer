@@ -1,0 +1,166 @@
+
+
+===== Page 1 =====
+                                                                   Electrical Submittal Requirements
+                                                                                                                     Interpretation
+
+   Issue Date                 August, 2017; Revised February, 2026
+   Code/Section               2024 IBC 107.1, 2023 NEC, A.A.C. R4-30-302
+   Approved:                  TRT
+   Developed By:              Rob Runge, Quinn Fortier, George Baldonado, Sam Backus, Belle
+                              Ramos, Erick Napier, and Keith Langlois
+
+Issue:
+The minimum requirements for submittal of electrical plans for permit based on PBCC 107.1
+need   to be clarified.  Specifically, who is required to prepare the plans and what minimum
+information is required to be included on the plans to both convey the scope of the electrical
+work and to show that the work complies with the adopted Code.
+
+Interpretation:
+PBCC Section 107.1 requires that plans, engineering calculations, diagrams, and other data
+shall be submitted digitally or in two or more sets with each application for a permit. The
+Building Official may require that plans, engineering calculations, diagrams and other data be
+prepared and designed by a    registered design professional licensed in the State of Arizona.
+
+1.    Electrical Engineer.  Plans and specifications for installation of the following electrical
+      systems shall be prepared and sealed by an electrical engineer registered in the State of
+      Arizona.
+         a.   Health care facilities having     Critical Care areas as defined     in Article 100, that provide
+              surgical treatment, have life support systems, or have surgical operating rooms
+              regulated by Article 517 of the Electrical Code.
+         b.   Installations over 600 Volts nominal.
+         c.    Installations in locations classified as hazardous by the provisions of the Electrical
+              Code (except gasoline dispensing and service stations or service and repair
+              operations that fall within the scope of Article 511 or Article 514 of the Electrical
+              Code).
+         d.   Installations, additions, or a modification where the electrical work    exceeds 400
+              amperes or the available fault current exceeds 22,000 amps.
+         e.   Alarm or signaling systems required for life-safety or code compliance.
+         f.    Installations for Public Works projects.
+         g.   Any electrical work that exceeds the thresholds indicated in items 2 and 3.
+
+2.    Registrant (non-       electrical).  Plans and specifications       for installations, additions, or a
+      modification where the electrical scope of work is 400 amps or less and the available fault
+      current is 22,000 amps or less may be prepared by a    non-    electrical engineer or
+      architect registered in the State of Arizona   if that registrant is qualified to perform such
+      work per A.A.C. R4-30-    301(17) and     the electrical work is  incidental to the work of the
+
+                                                                                                                                                                    Page 1 of 3
+
+For more information about this publication, contact Planning & Development at (602) 262-      7811.To request a
+reasonable accommodation, please contact Saneeya Mir, (602) 686-      6461, Saneeya.Mir@phoenix.gov  TTY: Use 7 -1-1.
+
+P:\TRT Private\Electrical Submittal Requirements   - Interpretation
+EXTERNAL                                                                                                                                                                                         TRT/DOC/00574
+Web File Name: dsd_trt_pdf_00574                                                                                                                                                                                                                                              Rev. 11/26
+
+===== Page 2 =====
+City of Phoenix Planning &      Development Department
+Electrical Submittal Requirements   - Interpretation - Page 2 of 3                 TRT/DOC/00574
+
+
+
+
+     registrant’s profession for the project per A.R.S. 32-     143.  (  Incidental is defined as minor
+     electrical work that is a result of the work of the registrant’s profession for the project.  -
+     Some examples include the    design of the electrical circuit to serve a new HVAC unit
+     designed by a mechanical engineer or the design of lighting and receptacles associated
+     with the walls of a new full height office designed by an architect.)
+
+3.    Non-registrant.  Plans and specifications for installation of the following electrical systems
+     may be prepared by a non-      registrant.
+       a.   Installations, additions, or a modification where the electrical    scope of work  is 200
+            amperes or less, the available fault current is 10,000 amps or less, and the system
+            voltage is 120/208V, 3 phase or 120/240V, single phase.
+       b.    Installations, additions, or a modification to a detached single-  family dwelling where
+            the electrical scope of work  is 200 amperes or less, and the available fault current is
+            22,000 amps or less.
+
+A.A.C. – Arizona Administrative Code
+A.R.S. – Arizona Revised Statutes
+AZ ROC –     Arizona Registrar of Contractors
+
+
+Plans and specifications shall include all data and information as may be required by the
+Building Official, and shall be of sufficient clarity and completeness to show in detail that the
+proposed work will conform to the provisions of all applicable Phoenix Codes.
+
+Minimum submittal requirements for ELECTRICAL PLANS shall be as follows:
+
+1.     All plans shall be legible, drawn to scale,   and shall include a legend of all symbols used.
+2.     A complete site plan showing transformer(s) and service   equipment location(s) and all
+      exterior lighting or other wiring.  (See Outdoor Oil-Insulated Transformer interpretation.)
+3.     A complete plan showing the type and layout of equipment and wiring for each floor,
+      including working space about service equipment, switchboards, panelboards and motor
+      control centers, wire and conduit sizes, and circuit numbers.
+4.     All rooms or spaces shall be clearly identified on the     electrical plans.
+5.     Identify areas and boundaries of all electrically Classified locations and define type of
+      hazard, (Classified material), per NEC 500.4 and 500.5.  Show ratings of electrical
+      equipment and wiring methods within or above classified locations.
+6.     Identify the serving  electrical utility company, APS or SRP.  Indicate on the One-    Line
+      diagram the maximum Available Fault Current, (AFC), (based on the published Utility
+      AFC Tables, located in the electrical service requirements manual available on the
+      serving utility company’s website)  .  The AFC values from the tables must be applied at the
+      SES (Service Entrance Section).  Service laterals / drops are NOT permitted to be used in
+      the fault calculation since the AFC from the tables already includes them.  The AFC value
+      at the SES is the table value corresponding to the SES ampacity size, voltage, and phase
+      and whether the transformer is pole or pad mounted; not the transformer KVA size .  If
+      multiple services are served by a single utility transformer, the sum of the SES sizes must
+      be used to obtain the AFC value from the table to apply at each SES location, including
+
+
+
+===== Page 3 =====
+City of Phoenix Planning &      Development Department
+Electrical Submittal Requirements   - Interpretation - Page 3 of 3                 TRT/DOC/00574
+
+
+
+
+      existing services, served by that transformer.
+7.     Provide Available   Fault Current calculations from service-  entrance section to lowest rated
+      overcurrent device or equipment.  Fault calculations must include conductor size and
+      type, magnetic or non-    magnetic conduit type, conductor length, and transformer
+      impedance, (if applicable).  (The addition of new circuit breakers or equipment requires
+      Available Fault Current calculations.)
+8.     The interrupting rating, (AIC   – Amps Interrupting Current), of equipment intended to break
+      current at fault levels, NEC 110.9, or the short circuit current rating (SCCR) of equipment
+      intended to withstand available fault current until an upstream overcurrent protective
+      device (OCPD)    interrupts the fault, NEC 110.10.
+9.     Complete code load calculations for service equipment, switchboards, panelboards and
+      motor control centers as computed in accordance with the Electrical  Code or by other
+      methods satisfactory to the Building Official.  Load calculations for additions to an existing
+      installation are required for all upstream distribution equipment affected by the added
+      load.
+10.   The size, length and location of all service and feeder raceways as well as branch circuits
+      over 20   -amps.
+11.   The volt-ampere rating of each outlet, the horsepower rating or the actual nameplate data
+      of the equipment served.
+12.   The rating of every motor disconnecting device.
+13.   The KVA rating of each transformer, capacitor unit, converter, or similar equipment.
+14.   Service equipment, switchboard, panelboard and motor control center schedules showing
+      volt-ampere and/or ampere rating of feeders, branch circuits, spare and/or future circuits
+      to be installed. This shall include identifying the circuits to which the outlets are
+      connected.
+15.   One-line diagram of the complete electrical system, including service equipment,
+      switchboards, panelboards, motor control centers, and transformers, showing equipment
+      and feeder sizes and class, type, size and arrangement of overcurrent devices to be
+      installed.  Show all applicable electrical ratings, (ie., voltage, phase, wires, ampacity, AIC,
+      Nema rating, minimum transformer impedance, etc.).  A   One-Line Diagram of all electrical
+      distribution, up to and including the SES, affected by the project, is required anytime new
+      load or equipment is added.
+16.   Grounding and bonding details & sizes for service(s), transformer(s), generator(s),
+      separate structures, pools, etc. and sizes of equipment grounding conductors.
+17.   For solar PV projects, a Three-    Line Diagram is required.  The One   -Line diagram can be
+      omitted     if all the required One-    Line information is included in the Three-    Line Diagram.  Cut
+      sheets for all solar PV equipment, (ie., modules, inverters, optimizers, rapid shut down,
+      etc.) are required to be included in the permit submittal.
+18.   Special Electrical Inspection and/or Electrical Observation forms as required by the scope
+      of the electrical work per PBCC 1705.21 & 1704.7.
+
+NOTE: In the case of minor electrical work, at the discretion of the Building Official, plans and
+specifications need not be submitted for minor electrical installations and repairs when the
+extent and kind of work can be shown by description and/or diagrams submitted with the
+application. Such information must be sufficient to ascertain compliance with the requirements
+of this Code.
+

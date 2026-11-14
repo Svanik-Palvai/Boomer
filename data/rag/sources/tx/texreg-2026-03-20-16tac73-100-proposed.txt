@@ -1,0 +1,127 @@
+Proposed Rules Title 16
+
+ TITLE
+ 16.
+ ECONOMIC REGULATION
+
+ PART
+ 4.
+
+ TEXAS DEPARTMENT OF LICENSING AND REGULATION
+
+ CHAPTER
+ 73.
+
+ ELECTRICIANS
+
+ 16 TAC §73.100
+
+ The Texas Department of Licensing and Regulation (Department) proposes amendments to an existing rule at 16 Texas Administrative Code (TAC), Chapter 73, §73.100, regarding the Electricians program. These proposed changes are referred to as "proposed rules."
+
+ EXPLANATION OF AND JUSTIFICATION FOR THE RULES
+
+ The rules under 16 TAC, Chapter 73, implement Texas Occupations Code, Chapter 1305, Electricians.
+
+ The proposed rules adopt the 2026 National Electrical Code (NEC) published by the National Fire Protection Association (NFPA) as the state's electrical code, with one modification. The proposed rules are necessary for the Department to comply with its statutory responsibilities under Occupations Code §1305.101(a)(2), while balancing concerns of public safety and workability.
+
+ An updated NEC is published by NFPA every three years. Under Occupations Code §1305.101(a)(2), the Department is required to adopt the most recent version of the NEC as the state's electrical code. Traditionally, this has been accomplished by amendment to the rule at §73.100, Technical Requirements, which specifies the current electrical code, and the Commission has approved deviations from the NEC when necessary. Section 90.4 of the 2026 NEC authorizes the Department to waive specific code requirements when doing so will not have a negative impact on safety.
+
+ The 2020 NEC included in Section 210.8(F) a requirement that certain outdoor outlets be equipped with ground-fault circuit interrupter (GFCI) technology. GFCI technology is a safety feature designed to prevent electric shock by opening a circuit in response to detected leakage current. In 2020, individuals and representatives of the air conditioning service industry expressed concerns that GFCI technology was incompatible with heating, ventilation, and air conditioning (HVAC) equipment and would lead to nuisance tripping, which had the potential to cause air conditioning outages during the hot summer months and endanger public safety. In response to these concerns, by an emergency rulemaking (46 TexReg 7781) the Commission approved a temporary exemption from compliance with Section 210.8(F) until January 1, 2023. In a later standard rulemaking (47 TexReg 7680), the Commission extended this exemption indefinitely. The 2023 NEC, which was adopted by the Commission as published by NFPA (48 TexReg 4654), did not include the GFCI requirement for outdoor outlets.
+
+ The 2026 NEC as published by NFPA reverses course and again includes the GFCI requirement of Section 210.8(F), with an exception, stating, "Exception No. 2: GFCI protection shall not be required for listed HVAC equipment. This exception shall expire September 1, 2026." Because the compatibility issues that pose a risk for nuisance tripping and air conditioning outages have not yet been resolved, the proposed rules modify "Exception No. 2" to extend the exception without an expiration date.
+
+ Advisory Board Recommendations
+
+ The proposed rules were presented to and discussed by the Electrical Safety and Licensing Advisory Board at its meeting on January 29, 2026. The Advisory Board made the following changes to the proposed rules: removed the expiration date of the exemption of certain outdoor HVAC outlets from GFCI requirements. The Advisory Board voted and recommended that the proposed rules with changes be published in the Texas Register for public comment.
+
+ SECTION-BY-SECTION SUMMARY
+
+ The proposed rules amend §73.100. The section is divided into two subsections for clarity. The existing rule text is placed in subsection (a) and is modified to reflect the year and NFPA publication date of the 2026 NEC, the effective date of the rule, and that an exception is set forth in subsection (b). New subsection (b) specifies that NFPA's "Exception No. 2" is extended without expiration.
+
+ FISCAL IMPACT ON STATE AND LOCAL GOVERNMENT
+
+ Tony Couvillon, Senior Policy Research and Budget Analyst, has determined that for each year of the first five years the proposed rules are in effect, there are no estimated additional costs or reductions in costs to state or local government as a result of enforcing or administering the proposed rules.
+
+ Tony Couvillon, Senior Policy Research and Budget Analyst, has determined that for each year of the first five years the proposed rules are in effect, there is no estimated increase or loss in revenue to the state or local government as a result of enforcing or administering the proposed rules.
+
+ LOCAL EMPLOYMENT IMPACT STATEMENT
+
+ Because Mr. Couvillon has determined that the proposed rules will not affect a local economy, the agency is not required to prepare a local employment impact statement under Texas Government Code §2001.022.
+
+ PUBLIC BENEFITS
+
+ Mr. Couvillon also has determined that for each year of the first five-year period the proposed rules are in effect, the public benefit will be increased electrical safety through the establishment of consistent minimum statewide standards for electrical work.
+
+ PROBABLE ECONOMIC COSTS TO PERSONS REQUIRED TO COMPLY WITH PROPOSAL
+
+ Mr. Couvillon has determined that for each year of the first five-year period the proposed rules are in effect, there will be minimal anticipated economic costs to persons who are required to comply with the proposed rules. Any costs will be associated with compliance with the latest version of the NEC, which is in most respects similar to the prior version. Each individual's costs or savings will vary.
+
+ FISCAL IMPACT ON SMALL BUSINESSES, MICRO-BUSINESSES, AND RURAL COMMUNITIES
+
+ There will be no adverse economic effect on small businesses, micro-businesses, or rural communities as a result of the proposed rules. Because the agency has determined that the proposed rule will have no adverse economic effect on small businesses, micro-businesses, or rural communities, preparation of an Economic Impact Statement and a Regulatory Flexibility Analysis, as detailed under Texas Government Code §2006.002, is not required.
+
+ ONE-FOR-ONE REQUIREMENT FOR RULES WITH A FISCAL IMPACT
+
+ The proposed rules have a fiscal note that imposes a cost on regulated persons, including another state agency, a special district, or a local government; however, the proposed rules fall under the exception for rules that are necessary to protect the health, safety, and welfare of residents of this state under §2001.0045(c)(6). Therefore, the agency is not required to take any further action under Texas Government Code §2001.0045.
+
+ GOVERNMENT GROWTH IMPACT STATEMENT
+
+ Pursuant to Texas Government Code §2001.0221, the agency provides the following Government Growth Impact Statement for the proposed rules. For each year of the first five years the proposed rules will be in effect, the agency has determined the following:
+
+ 1. The proposed rules do not create or eliminate a government program.
+
+ 2. Implementation of the proposed rules does not require the creation of new employee positions or the elimination of existing employee positions.
+
+ 3. Implementation of the proposed rules does not require an increase or decrease in future legislative appropriations to the agency.
+
+ 4. The proposed rules do not require an increase or decrease in fees paid to the agency.
+
+ 5. The proposed rules do not create a new regulation.
+
+ 6. The proposed rules do not expand, limit, or repeal an existing regulation.
+
+ 7. The proposed rules do not increase or decrease the number of individuals subject to the rules' applicability.
+
+ 8. The proposed rules do not positively or adversely affect this state's economy.
+
+ TAKINGS IMPACT ASSESSMENT
+
+ The Department has determined that no private real property interests are affected by the proposed rules and the proposed rules do not restrict, limit, or impose a burden on an owner's rights to his or her private real property that would otherwise exist in the absence of government action. As a result, the proposed rules do not constitute a taking or require a takings impact assessment under Texas Government Code §2007.043.
+
+ PUBLIC COMMENTS AND INFORMATION RELATED TO THE COST, BENEFIT, OR EFFECT OF THE PROPOSED RULES
+
+ The Department is requesting public comments on the proposed rules and information related to the cost, benefit, or effect of the proposed rules, including any applicable data, research, or analysis. Any information that is submitted in response to this request must include an explanation of how and why the submitted information is specific to the proposed rules. Please do not submit copyrighted, confidential, or proprietary information.
+
+ Comments on the proposed rules and responses to the request for information may be submitted electronically on the Department's website at https://ga.tdlr.texas.gov:1443/form/ELE_Rule_Making; by facsimile to (512) 475-3032; or by mail to Monica Nuñez, Legal Assistant, Texas Department of Licensing and Regulation, P.O. Box 12157, Austin, Texas 78711. The deadline for comments is 30 days after publication in the Texas Register.
+
+ STATUTORY AUTHORITY
+
+ The proposed rules are proposed under Texas Occupations Code, Chapters 51 and 1305, which authorize the Texas Commission of Licensing and Regulation, the Department's governing body, to adopt rules as necessary to implement these chapters and any other law establishing a program regulated by the Department.
+
+ The statutory provisions affected by the proposed rules are those set forth in Texas Occupations Code, Chapters 51 and 1305. No other statutes, articles, or codes are affected by the proposed rules.
+
+ §73.100.
+
+ Technical Requirements.
+
+ (a)
+ Except as provided in subsection (b), effective September 1, 2026, the department adopts the 2026 National Electrical Code (NEC) as approved by the National Fire Protection Association, Inc. on September 9, 2025. [Effective September 1, 2023, the department adopts the 2023 National Electrical Code as approved by the National Fire Protection Association, Inc. on August 12, 2022.]
+
+ (b)
+ Pertaining to NEC Section 210.8, Ground-Fault Circuit Interrupter Protection for Personnel, subsection (F), Outdoor Outlets: the department adopts Exception No. 2, relating to the exemption of listed heating, ventilation, and air conditioning equipment, without expiration.
+
+ The agency certifies that legal counsel has reviewed the proposal and found it to be within the state agency's legal authority to adopt.
+
+ Filed with the Office of the Secretary of State on March 6, 2026.
+
+ TRD-202601112
+
+ Doug Jennings
+
+ General Counsel
+
+ Texas Department of Licensing and Regulation
+
+ Earliest possible date of adoption: April 19, 2026
+
+ For further information, please call: (512) 475-4879

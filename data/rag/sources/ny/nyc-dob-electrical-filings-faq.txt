@@ -1,0 +1,233 @@
+DOB NOW: Build Frequently Asked Questions - Buildings
+
+Buildings311Search all NYC.gov websites
+
+Menu
+
+Text-Size
+
+Search
+
+ Home
+
+DOB
+
+Tenant
+
+Property or Business Owner
+
+Industry
+
+Safety
+
+Codes
+
+Design ProfessionalsConstruction ProfessionalsLicensingbuilding UP
+
+SelectPermits & Plan ExamAfter Hour VariancesObtain CORequired ItemsUsing DOB NOWUsing eFilingUsing BISInspections & ViolationsIndustry Code of Conduct
+
+Permits & Plan Exam
+
+After Hour Variances
+
+Obtain CO
+
+Required Items
+
+Using DOB NOW
+
+Using eFiling
+
+Using BIS
+
+Inspections & Violations
+
+Industry Code of Conduct
+
+ Share
+
+ Print 
+
+DOB NOW: Build Electrical Filings FAQs
+
+Expand All Collapse All
+
+Click a topic, or press the enter key on a topic, to reveal its answer.
+
+I have submitted my filing and printed my permit; however, my status still says permit issued, not complete?
+
+The filing status will move to complete after your job has passed inspection and all the fees (including parts fees) are paid.
+
+Where do I submit my DPL1?
+
+The DPL1 document no longer needs to be submitted for electrical filings.
+
+Will I have to renew my Electrical Permit?
+
+Yes. Electrical permits will be valid for a maximum of 12 months and will have to be renewed. A renewal fee of $130 will be required for every renewal. The permit expiration date will be based on the earliest of the insurance and license expiration dates. If a permit expires due to lapsed insurance, update your insurance in DOB NOW: Licensing. Permits expired for more than 12 months after the initial issuance date will be placed in Abandoned status. For information on how to submit a request to update insurance, see the Manage Licenses and Registrations step-by-step guide.
+
+How do I renew my Electrical Permit?
+
+To renew the permit, select Renew Work Permit from the Filing Action column on the dashboard or select the Renew Permit button from within the job Work Permit tab.
+
+Can I do a bulk permit renewal for all my permits that are expiring?
+
+No. Each permit must be renewed individually.
+
+When will a job go into abandoned status?
+
+DOB NOW job filings with permits expired for more than 12 months after the initial issuance date will be placed in Abandoned status and will need to be reinstated.
+
+Can a new electrical contractor supersede another contractor’s electrical permit?
+
+Yes, the Electrician listed on the work permit can be superseded by another licensed Electrician in DOB NOW: Build. Supersede of the Applicant (Electrician) can be initiated and submitted by the new Electrician. The new applicant can log into DOB NOW: Build, Search by Job Number, and from the Filing Action select Supersede and then Applicant of Record. The Applicant and the Owner will have to complete the Statements & Signature section of the supersede request.
+
+How will I know if my filing requires Electrical Plan Review (EPR)?
+
+If you answer Yes to the question on the electrical filing that asks whether the scope includes installing service equipment, transformers, UPS systems, generators, other power sources, or energy‑storage systems, EPR is required. You will be required to upload Approved Plans and an Approval Letter. You will also be required to enter the Electrical Plan Review Number if you answer Yes to the additional questions that will appear.
+
+How do I submit an Electrical Plan Review filing?
+
+Electrical Plan Review filings are not submitted in DOB NOW. Follow the instructions on the Electrical Plan Review (EPR) page on DOB’s website to submit the filing.
+
+When do I have to submit the required documents?
+
+Required documents need to be uploaded prior to requesting an inspection.
+
+When should I select and enter Cross Streets for a Special Installation?
+
+Select Cross Streets for Special Installations that do not have a physical building address. DOB will use this location information to conduct the electrical development inspection. If the Cross Street information entered on the filing is not correct and the inspection cannot be conducted as a result, the inspection result will be Fail-Final and require the filing to be withdrawn and refiled.
+
+Why is the owner required to have an NYC.ID?
+
+The owner will need an NYC.ID account to be added as a stakeholder on the job filing. See the Registering for an Account FAQs and DOB NOW Tips for more information, step-by-step guides, and resources. 
+
+Can I add a Filing Representative and Delegated Associate to the electrical filing?
+
+Yes. Filing Representatives and Delegates can be added to the electrical filing. See the Roles & Responsibilities: Professionals FAQs for more information on what each stakeholder can enter and submit on the job filing.
+
+Can the owner be added as a Delegate?
+
+No. The owner will not be allowed to be added as a Delegated Associate. The owner is required to be added to the job filing and will have the same access to the filing and inspections.
+
+How do I add new floors or new categories of work to my electrical application?
+
+Different filing actions are required depending on the type of change you need to make to the electrical application.
+
+Submit a Subsequent Electrical filing when you are changing the scope of work that includes working on new floors and/or changing the category of work.
+
+Submit a Post Approval Amendment (PAA) to an electrical filing, in DOB NOW: Build,when you are working on the same floor or increasing or decreasing materials.
+
+Withdraw the job and submit a new filing with the new address, if you need to make any changes to the job location.
+
+How do I withdraw an electrical permit once it’s been issued?
+
+Log into DOB NOW: Inspections Plus and request a Withdrawal Inspection. Once the inspection has Pass-Final status, the DOB NOW: Build filing status will be Cancelled.
+
+The inspector failed my electrical filing and I need to update the Scope of Work. How do I do this?
+
+If you are working on the same floor, increasing/decreasing materials, etc. you can file a PAA on the job in DOB NOW: Build. A fee of $130 will be required for a Post Approval Amendment (PAA).
+
+What information can be updated on a PAA?
+
+On a Post Approval Amendment (PAA), only certain fields remain editable.
+
+Job Description 
+
+Filing Representative and Delegated Associate information
+
+Additional Information fields:
+
+Related BIS/DOB NOW Job Number(s) - can be entered if initially left blank
+
+Removal of Violation or Owner/Occupant Objection - can be changed from No to Yes, to enter violation number(s)
+
+Code Review Year - dropdown may have other review year options
+
+ In the Electrical Plan Review (EPR) response, the answer may be changed from No to Yes, which enables the remaining EPR questions.
+
+Scope of Work Charging Station selection (e.g., changing from an e‑bike charging station to another option)
+
+Responses to Indoors Installation and Outdoors Installation questions (for Charging Station only)
+
+Category of Work remains grayed out on PAAs
+
+Most other fields on the PAA Scope of Work tab are editable
+
+How do I request an AHV permit for an electrical job?
+
+An After‑Hours Variance (AHV) for electrical work is requested in DOB NOW: Build and can only be submitted by the licensed electrician listed on the electrical permit. To create an AHV permit, select Create AHV from the Filing Action column on the dashboard. The Filing Fee is $130 – 650 (varies based on number of days) with a Daily Fee of $80 (varies based on number of days).
+
+My electrical job status is pending payment. How do I make the payment?
+
+Permits submitted before June 29, 2026, will have a Pending Payment status if any parts fees were not collected from the firm account by June 29, 2026. Payments will be made directly in DOB NOW: Build or DOB NOW: Inspections Plus, and parts fees will no longer be deducted from firm accounts. For these filings, all outstanding fees must be paid at the time of the inspection request. Pending Payment is also the status for no good checks.
+
+Why is my electrical job status in Pending Payment Verification?
+
+eCheck payments take 10 days to be processed. During this period, the filing remains in Pending Payment Verification, and inspection requests will not be submitted until payment has cleared.
+
+How do I print my electrical permit?
+
+To print the permit, select Print Work Permit from the Filing Action column on the dashboard or select the Print Work Permit button from within the job Work Permit tab.
+
+When do I need to select the Code Review Year?
+
+All new Electrical filings created on or after June 29, 2026, require selecting a value in the Code Review Year field.
+
+For standalone Electrical filings (not linked to any DOB NOW job), the dropdown will display one option: 2020 NEC / 2025 NYC Electrical Code. This option must be selected to continue.
+
+For Electrical filings connected to an existing DOB NOW job, enter the job number in the Related BIS/DOB NOW Job Number(s) field before selecting the Code Review Year.
+
+Why do I see one or two Code Review Year options?
+
+The options shown in the Code Review Year dropdown depend on whether the filing is associated to an existing job.
+
+When a valid job number is entered in the Related BIS/DOB NOW Job Number(s) field, the dropdown may display two options:
+
+2008 NEC / 2011 NYC Electrical Code 
+
+2020 NEC / 2025 NYC Electrical Code
+
+If no job number is entered, the filing is considered as standalone, and the dropdown will display only: 2020 NEC / 2025 NYC Electrical Code.
+
+How can I reinstate a BIS electrical permit in Abandoned status that was created using an Intersection address without a BIN?
+
+BIS electrical permits in Abandoned status that were created using an intersection address can be reinstated in DOB NOW by selecting Using Cross Streets. When creating an electrical job filing, select the Electrical work type, answer Yes to “Are you reinstating a BIS/DOB NOW electrical permit?” and enter the BIS electrical permit number. A follow up question asks for the type of installation; answer Yes, choose BIS reinstatement from the drop-down menu, and then select Using Cross Streets.
+
+Do I have to renew the permit after submitting an electrical supersede request?
+
+No. Once the supersede request is submitted, the superseding electrician’s information will auto populate on the permit, and the permit issued date will be updated to the date the supersede is approved. The permit expiration date will be updated to a date that is the earliest of:
+
+any of the insurances' expiration dates (general liability, disability, or workers’ compensation)
+
+license expiration date
+
+one year from date of permit issuance
+
+Can I renew an electrical permit that belongs to another electrician in my firm?
+
+No. The electrician that is listed as the Applicant of Record on the job filing must renew the permit. If another electrician wants to take over a job and renew the permit, a supersede request must be submitted by the new electrical contractor.
+
+How do I submit an L2 request in DOB NOW for an electrical filing?
+
+The civil penalty review request (L2) is made in DOB NOW as part of the filing by selecting L2 (Civil Penalty Review) from the Filing Action column of the job on the DOB NOW dashboard. The L2 Fee is calculated in DOB NOW as part of the L2 request. Once the Violation details are added and the request is saved, select View Request to see the L2 fee.
+
+If you want to pay the full civil penalty, submit payment in-person at the borough office in which the property is located. Provide the cashier with a copy of the PDF that is generated when View Request is selected. Then upload the receipt to the L2 request in DOB NOW. The L2 request then needs to be submitted and approved before the permit can be submitted.
+
+Helpful Links
+
+DOB NOW: Build Electrical Filings Resources
+
+DOB NOW: Build FAQs
+
+Login to DOB NOW: Build
+
+Contact us about DOB NOW
+
+nyc.gov homeServicesEventsYour government311Contact NYC governmentRegister to voteEmergency alerts CareersWebsite feedbackAccessibility resourcesPrivacy policyTerms of useAbout nyc.gov content
+
+NYC
+
+Search
+
+© City of New York. 2025 All Rights Reserved. NYC is a trademark and service mark of the City of New York.

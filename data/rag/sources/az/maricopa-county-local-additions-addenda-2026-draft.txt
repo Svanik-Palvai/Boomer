@@ -1,0 +1,3065 @@
+
+
+===== Page 1 =====
+                    Maricopa County
+          Local Additions   & Addenda
+
+
+           Maricopa County Planning and
+           Development Department 301 W.
+           Jefferson St., Suite 170
+           Phoenix, AZ 85003
+
+           21
+           October
+           2026
+           TA20260
+           01
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===== Page 2 =====
+                                        Table of Contents
+
+                             SECTION 1 – PURPOSE AND TITLE
+                                                                                                 Page
+ Purpose                                                                                            2
+ Title                                                                                             2
+ Separability                                                                                      2
+ Amendment                                                                                         2
+ Revocation                                                                                        2
+         SECTION 2 – ADOPTED NATIONAL CODES AND AMENDMENTS
+                                                                                                 Page
+ 2024 International Building Code                                                                  3
+ 2024 International Residential Code                                                              24
+ 2024 International Existing Building Code                                                        42
+ 2024 International Plumbing Code                                                                 43
+ 2024 International Mechanical Code                                                               45
+ 2024 International Fuel Gas Code                                                                 49
+ 2023 National Electrical Code                                                                    51
+ 2024 International Energy Conservation Code (Voluntary)                                          52
+ 2024 International Green Construction Code (Voluntary)                                           53
+                                     SECTION 3 - APPENDIX
+                                                                                                 Page
+ Fee Table                                                                                        55
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                      1
+
+===== Page 3 =====
+           MARICOPA    COUNTY LOCAL ADDITIONS AND
+                                              ADDENDA
+                         SECTION 1 – Purpose and Title
+
+                                                    PURPOSE
+
+The purpose of this code document is to provide all local additions, amendments, and addenda to
+the adopted national building codes in one location.
+                                                       TITLE
+
+This document shall be referred to and known as “Local Additions and Addenda”.
+                                                SEPARABILITY
+
+If any section, subsection, sentence, clause, phrase, or portion of this Ordinance is for any reason
+held to be invalid or unconstitutional by the decision of any court of competent jurisdiction, such
+decision shall not affect the validity of the remaining portions thereof.
+                                                 AMENDMENT
+
+This document may be amended from time to time. It may be amended by simple motion of
+the Board   of Supervisors, provided   all   state required legal advertising for amending a Building
+Code has been satisfied. Staff    may correct typographical errors and/or reformat this
+document without being   considered an amendment.
+                                                 REVOCATION
+
+This document shall abolish, replace, and/or supersede any previous amendments, changes or
+additions to the national codes previously approved by Maricopa County.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                             2
+
+===== Page 4 =====
+MARICOPA    COUNTY LOCAL ADDITIONS AND
+ADDENDA
+SECTION 2 – Adopted National Codes and
+Amendments
+
+
+
+2024 International Building Code –  Maricopa County Amendments:
+
+[A] 101.1   Title.
+
+These regulations shall be known as the Building Code of [NAME OF JURISDICTION]
+Maricopa County, hereinafter referred to as “this code.”
+
+[A] 101.2.1   Appendices.
+
+Provisions in the appendices shall not apply unless speciﬁcally adopted.  The following
+appendices are hereby  adopted in their entirety: Appendices B, C, I
+
+[A] 101.4.3   Plumbing.
+
+The provisions of the International Plumbing Code shall apply to the
+installation, alteration, repair and replacement of plumbing systems, including
+equipment, appliances, ﬁxtures, ﬁttings and appurtenances, and where connected to a
+water or sewage system and all aspects of a medical gas system. The provisions of
+the International Private Sewage Disposal Plumbing Code shall apply to private sewage
+disposal systems.
+
+[A] 101.4.4   Property maintenance.  RESERVED
+
+The provisions of the International Property Maintenance Code shall apply to existing
+structures and premises; equipment and facilities; light, ventilation, space heating,
+sanitation, life and ﬁre safety hazards; responsibilities of owners, operators and
+occupants; and occupancy of existing premises and structures.
+
+[A] 101.4.6 Energy.
+
+The provisions of the International Energy Conservation Code shall apply to all matters
+governing the design and construction of buildings for energy eﬃciency.  The
+application and use of this code is optional.
+
+[A] 103.1   Creation of enforcement agency.
+                                                                                                      3
+
+===== Page 5 =====
+The [INSERT NAME OF DEPARTMENT] Planning and Development Department is hereby
+created and the oﬃcial in charge thereof shall be known as the building oﬃcial.  The
+function of the agency shall be the implementation, administration and enforcement of
+the provisions of this code.
+
+[A] 104.2.4.1 Flood hazard areas.
+
+The building oﬃcial  shall not grant modiﬁcations to any provision required in ﬂood
+hazard areas as established by Section 1612.3 nor the Floodplain Regulations for
+Maricopa County   unless a determination has been made that: a variance has been
+issued as speciﬁed in the Floodplain Regulations for Maricopa County.
+
+    1.   A showing of good and suﬃcient cause that the unique characteristics of the
+        size, conﬁguration or topography of the site render the elevation standards
+        of Section 1612 inappropriate.
+    2.   A determination that failure to grant the variance would result in exceptional
+        hardship by rendering the lot undevelopable.
+    3.   A determination that the granting of a variance will not result in increased ﬂood
+        heights, additional threats to public safety or extraordinary public expense; cause
+        fraud on or victimization of the public; or conﬂict with existing laws or
+        ordinances.
+    4.   A determination that the variance is the minimum necessary to afford relief,
+        considering the ﬂood hazard.
+    5.   Submission to the applicant of written notice specifying the difference between
+        the design ﬂood elevation and the elevation to which the building is to be built,
+        stating that the cost of ﬂood insurance will be commensurate with the increased
+        risk resulting from the reduced ﬂoor elevation, and stating that construction
+        below the design ﬂood elevation increases risks to life and property.
+
+
+[A] 105.1.1 Annual   Facility permit.
+
+Instead of an individual permit for each alteration to an already approved electrical, gas,
+mechanical or plumbing installation, the building oﬃcial  is authorized to issue an
+annual permit upon application therefor to any person, ﬁrm or corporation regularly
+employing one or more qualiﬁed tradespersons in the building, structure   or on the
+premises owned or operated by the applicant for the   permit.  The Annual Facilities
+Permit is an administrative system intended to simplify the permitting and inspection
+process for qualiﬁed facilities by allowing inspectors or designated plan review staff to
+review plans and maintaining inspectors familiar with the construction history of such
+facilities. A qualiﬁed facility  electing to participate in this program are exempt from the
+requirement to obtain individual permits for the work regulated by this code when such
+work does not increase the ﬂoor area, does not constitute a change of use or
+                                                                                                              4
+
+===== Page 6 =====
+occupancy classiﬁcation, and is performed on existing buildings, structures, and utilities
+associated with that qualiﬁed facility. This alternative permit process shall not exempt
+compliance with the technical requirements of this code, the technical codes, or with
+other County, State, or Federal laws, nor exempt work from inspection prior to
+concealment.
+
+[A] 105.1.2   Annual permit records.
+
+The person agent to whom an annual permit is issued shall keep a detailed record
+of alterations made under such annual permit. The building oﬃcial  shall have access to
+such records at all times or such records shall be ﬁled with the building oﬃcial  as
+designated.
+
+[A]105.1.3 Deﬁnitions. For the purposes of this section, the following terms apply:
+
+
+        AGENT: An architect or engineer registered in the State of Arizona and who
+        is responsible for complying with the substantive provisions of this
+        Chapter.  The  agent,  as  authorized  by  rules  established  by  the  Arizona
+        Board of Technical Registration, shall assure work has been performed in
+        accordance with this code and the technicalcodes.
+
+        QUALIFIED FACILITY: A firm, corporation, or political entity engaged in
+        manufacturing, processing, service, or property management that
+        occupies   and   controls   specialized   buildings   and   building   service
+        equipment to the extent that full-time personnel are required to manage,
+        operate, or maintain such buildings and equipment in compliance with all
+        the provisions of this code and the technical codes.
+
+
+[A]105.1.4 Annual Facility Permit Transferability.  An Annual Facility Permit is
+not transferable.
+
+[A]105.1.5 Annual Facility Permit Renewal. An Annual Facilities Permit may be
+renewed every twelve (12) months by payment of a renewal fee as set forth in
+the Maricopa County Schedule of Fees. Additional hourly charges will be
+assessed for each work project. Renewal fees shall be due and    payable prior
+to the permit expiration date, or a new initial  application shall be required.
+Work performed after the permit expiration date shall be in violation of this
+code and subject to penalty.
+
+[A]105.1.6 Annual Facility Permit Operation. The agent shall notify the Building
+Oﬃcial or his/her designee prior to the start of any work involving alteration of the
+building  structure  system,  alteration  of  any  ﬁre-resistive  wall,  ﬂoor,  or  ceiling
+
+                                                                                                             5
+
+===== Page 7 =====
+assembly, alteration of any ﬁre corridor system, or installation of any structural,
+mechanical, plumbing, or electrical work intended to be enclosed or concealed.
+The Building Oﬃcial shall determine the nature and extent of plan reviews and/or
+inspections required. Maricopa County shall invoice the Qualiﬁed Facility and the
+Qualiﬁed Facility shall pay for the professional services rendered as set forth in
+the Maricopa County Schedule of Fees.
+
+[A]105.1.7    Annual Facility Permit Records. The agent shall keep a detailed record
+of alterations made under an Annual Facilities Permit. The building oﬃcial shall
+have access to such records at all times or such records shall be ﬁled with the
+building oﬃcial as designated.
+
+[A] 105.2   Work exempt from permit.
+
+Exemptions from permit requirements of this code shall not be deemed to grant
+authorization for any work to be done in any manner in violation of the provisions of this
+code or any other laws or ordinances of this jurisdiction. Permits shall not be required
+for the following:
+
+    Building:
+            1.   One-story detached accessory structures used as tool and storage sheds,
+                 playhouses and similar uses, provided that the ﬂoor area is not greater
+                 than 120 200 square feet (11 m2).
+            2.   Fences, other than swimming pool barriers, not over 7 feet (2134mm)
+                 high.
+            3.   Oil derricks.
+            4.   Retaining walls that are not over 4 feet (1219 mm) in height measured
+                 from the bottom of the footing to the top of the wall, unless supporting a
+                 surcharge or impounding Class I, II or IIIA liquids.
+            5.   Water tanks supported directly on grade if the capacity is not greater than
+                 5,000 gallons (18 925 L) and the ratio of height to diameter or width is not
+                 greater than 2:1.
+            6.   Sidewalks and driveways not more than 30 inches (762 mm) above
+                 adjacent grade, and not over any basement or story below and are not part
+                 of an accessible route.
+            7.   Painting, papering, tiling, carpeting, cabinets, counter tops and similar
+                 ﬁnish work.
+            8.   Temporary motion picture, television and theater stage sets and scenery,
+                 seasonal celebration.  Associated bleachers and grandstands are not
+                 included in this exception.
+            9.   Prefabricated   swimming pools accessory to a Group R-3 occupancy that
+                 are less than 24 inches (610 mm) deep, are not greater than 5,000 gallons
+
+
+                                                                                                              6
+
+===== Page 8 =====
+    (18 925 L) and are installed entirely above ground.  Barriers shall be
+    installed in accordance with Section 3109.
+10. Shade cloth structures constructed for nursery or agricultural purposes,
+    not including service systems.
+11. Swings and other playground equipment accessory to detached one-   and
+    two-family     dwellings.
+12. Window awnings in Group R-3 and U occupancies, supported by an exterior
+    wall that do not project more than 54 inches (1372 mm) from the exterior
+    wall and do not require additional support.
+13. Nonﬁxed and movable ﬁxtures, cases, racks, counters and partitions not
+    over 5 feet 9 inches (1753 mm) in height.
+14. Ground or roof supported structures, such as radio and television antenna
+    towers and ﬂagpoles which do not exceed 200 pounds (90 kg) in weight or
+    45 feet (13,700 mm) in height above the ground surface.
+15. Roof replacement or re-roof with the same type of material as the original
+    rooﬁng.
+16. Installation of a non-  structural weatherproof exterior covering over an
+    existing weatherproof covering on an existing structure so long as the new
+    covering will not affect the ﬁre resistive classiﬁcation of the existing
+    structure.
+17. Minor repair or replacement in kind of non-structural components such as
+    glass or glazing materials, sash, doors and hardware, patching walls or
+    ceilings and replacing pieces of siding, soﬃts, or fascia.
+18. Structures erected pursuant to an approved Temporary Use Permit shall
+    not require a building permit if standing for a period not to exceed 96
+    contiguous hours. The responsible party shall provide documentation, as
+    speciﬁed in the Temporary Use Permit that said structures were erected
+    and maintained subject to all applicable building safety codes and
+    manufacturer’s speciﬁcations. The documentation shall be provided to the
+    Department within two working days following the end of the special event
+    to be ﬁled with the Temporary Use Permit. Failure to provide the required
+    documents will render the Temporary Use Permit null and void and
+    constitute a zoning violation in accordance with Chapter 15 of the
+    Maricopa County Zoning Ordinance.
+19. A building permit shall not be required for a building or structure that was
+    existing, or any use of land that was lawfully existing, as of January 1,
+    2000 (or as of the effective date of subsequent amendments) to this
+    regulation provided there are no visible signs of defects or unsafe
+    conditions. When veriﬁcation is required by the Building Oﬃcial a
+    Certiﬁcate of Observable Compliance from a third-party Registered
+    Architect or Structural Engineer must be submitted.
+20. A building permit shall not be required for a roadway gate within a private
+    road easement. However, a building permit shall be required for gates
+    within private street tracts of a platted subdivision. A Maricopa County
+
+                                                                                                7
+
+===== Page 9 =====
+            Department of Transportation (MCDOT) permit shall be required for gates
+            within public rights-of-way.
+Electrical:
+        1.   Repairs and maintenance: Minor repair work, including the replacement of
+            lamps or the connection of approved portable electrical equipment
+            to approved permanently installed receptacles.
+        2.   Radio and television transmitting stations: The provisions of this code
+            shall not apply to electrical equipment used for radio and television
+            transmissions, but do apply to equipment and wiring for a power supply
+            and the installations of towers and antennas.
+        3.   Temporary testing systems: A permit shall not be required for the
+            installation of any temporary system required for the testing or servicing
+            of electrical equipment or apparatus.
+        4.   Repair or replacement of motors 50 HP or less, transformers 45 kVA or
+            less, or ﬁxed approved appliances of the same type and rating in the same
+            location.
+        5.   Temporary decorative lighting approved and identiﬁed for cord and plug
+            connection.
+        6.   Repair or replacement in kind of any switch, other than a service
+            disconnect, receptacle, contactor, control device or other utilization
+            equipment rated 60 amperes or less.
+        7.   Replacement in kind of any circuit breaker or fuse other than a service
+            disconnect rated 200 amperes or less.
+        8.   Repair or replacement of electrodes or transformers of the same size and
+            capacity for signs or gas tube systems (neon).
+        9.   Temporary wiring for experimental purposes in suitable experimental
+            laboratories.
+        10. Temporary wiring for theaters, motion picture and television studios,
+            performance areas, and similar locations where not accessible to the
+            general public.
+        11. Class 2 and Class 3 control and signal circuits not essential for safety to
+            human life.
+        12. Installation, repair or replacement of electrical systems and components
+            within machinery or equipment which is not deﬁned by this Code as
+            building service equipment.
+Gas:
+        1.   Portable heating appliance.
+        2.   Replacement of any minor part that does not alter approval of equipment
+            or make such equipment unsafe.
+Mechanical:
+        1.   Portable heating appliance.
+        2.   Portable ventilation equipment.
+        3.   Portable cooling unit.
+
+
+                                                                                                         8
+
+===== Page 10 =====
+            4.   Steam, hot or chilled water piping within any heating or cooling equipment
+                 regulated by this code.
+            5.   Replacement of any part that does not alter its approval or make it unsafe.
+            6.   Portable evaporative cooler.
+            7.   Self-contained refrigeration system containing 10 pounds (4.54 kg) or less
+                 of refrigerant and actuated by motors of 1 horsepower (0.75 kW) or less.
+            8.   Repair or replacement in kind of refrigeration units not over 5 tons of
+                 refrigeration capacity when located outdoors, in the same location and
+                 equal to or less than the weight of that which is replaced.
+    Plumbing:
+            1.   The stopping of leaks in drains, water, soil, waste or vent pipe, provided,
+                 however, that if any concealed trap, drain pipe, water, soil, waste or vent
+                 pipe becomes defective and it becomes necessary to remove and replace
+                 the same with new material, such work shall be considered as new work
+                 and a       permit shall be obtained and inspection made as provided in this
+                 code.
+            2.   The clearing of stoppages or the repairing of leaks in pipes, valves or
+                 ﬁxtures and the removal and reinstallation of water closets, provided that
+                 such repairs do not involve or require the replacement or rearrangement of
+                 valves, pipes or ﬁxtures.
+            3.   Replacement of water closets, valves or ﬁxtures with new valves or
+                 ﬁxtures complying with the water conservation requirements of this code.
+            4.   Replacement in kind of an existing storage tank water heater in one-  and-
+                 two family dwellings when the work is performed by a licensed contractor.
+                 This exception does not apply to instant-hot on-demand type water
+                 heaters of any size.
+
+
+[A] 105.5   Expiration.
+
+Every permit issued shall become invalid unless the work on the site authorized by
+such permit is commenced within 180 days after its issuance, or if the work authorized
+on the site by such permit is suspended or abandoned for a period of 180 days after the
+time the work is commenced. The   building oﬃcial  is authorized to grant, in writing, one
+or more extensions of time, for periods not more than 180 days each. The extension
+shall be requested in writing and justiﬁable cause demonstrated.
+
+A permit may be renewed within one year of expiration provided that no change in
+ownership or engineer/architect of record has occurred. Renewal after expiration for
+more than one year shall not be permitted. Any such permit shall be deemed to be
+revoked and a new permit must be issued.
+
+The design and construction of structures located within the unincorporated areas of
+Maricopa County shall conform to the codes in effect at the time of permit application,
+                                                                                                              9
+
+===== Page 11 =====
+provided the speciﬁc permit remains valid, regardless of whether or not the County
+adopts subsequent codes. When approved by the Building Oﬃcial, utility-  scale solar
+generating facilities in which permit applications have been submitted, the design and
+construction may continue to utilize the codes in effect at the time of initial permit
+application, regardless of the number of permits required to complete the project,
+provided that:
+
+    1.   All construction is covered by an issued permit,
+    2.   Any permits issued for construction remain valid, and
+    3.   Continuous construction takes place until the facility is commissioned for
+        commercial service and the facility receives ﬁnal inspection. Once the above
+        conditions have been met, subsequent construction activity shall comply with the
+        codes in effect at the   time of the subsequent permit applications. Further, should
+        a permit lapse, the work contemplated by the permit shall be subject to a new
+        permit application and shall conform    to the codes in effect at the time the new
+        permit application is submitted. For purposes of this section, the term “Utility-
+        Scale” shall be as deﬁned by the Maricopa County Zoning Ordinance.
+
+[A] 105.5.1 Standard Plan Expiration:
+Standard plans shall expire upon the jurisdictional adoption of a new code cycle.
+
+[A] 109.2   Schedule of permit fees.
+
+Where a permit is required, a fee for each permit shall be paid as required, in accordance
+with the schedule as established by the applicable governing authority.  See attached
+fee schedule.
+
+[A] 110.3.9   Energy eﬃciency inspections. DELETED
+
+Inspections shall be made to determine compliance with Chapter 13 and shall include,
+but not be limited to, inspections for: building thermal envelope insulation R- and   U-
+values, fenestration U-value, duct system R-value, and HVAC and water-heating
+equipment eﬃciency.
+
+[A] 110.5   Inspection requests.
+
+It shall be the duty of the holder of the building   permit or their duly authorized agent to
+notify the building oﬃcial  when work is ready for inspection. It shall be the duty of
+the permit holder to provide access to and means for inspections of such work that are
+required by this code.  It shall be the responsibility of the permit holder to:
+
+    1.   Submit requests for all required inspections.
+    2.   Identify with stakes or other means the subject property corners.
+    3.   Designate property lines prior to the inspection so Inspector can verify setbacks
+                                                                                                             10
+
+===== Page 12 =====
+    4.   Post the permit.
+    5.   Provide a copy of the permit and approved plans on the site.
+    6.   Provide access to the site.
+    7.   Have someone at the site during the inspection.
+    8.   Post project street address numbers visible from the adjoining access road.
+
+Failure to complete the above shall result in no inspection at the time and an
+assessment of a reinspection fee. A survey of the lot may be required by the Building
+Oﬃcial to verify that the building/structure is located in accordance with the approved
+plans.
+
+Partial Inspections: Partial inspections may be requested and conducted when
+necessary due to common construction practices. If a partial inspection is approved,
+documentation shall be maintained during construction that identiﬁes what segments
+of work have obtained what types of partial inspection approval.
+
+Re-inspections: Re-inspection fees shall apply when:
+
+    1.   Property lines have not been designated as required.
+    2.   The permit is not posted or available on the work site.
+    3.   Approved plans are not readily available to the inspector on the site.
+    4.   There is no access on the date for which the inspection is requested.
+    5.   Work is not ready for inspection.
+    6.   Work has been covered.
+    7.   Late cancellation.
+    8.   There is a deviation from plans signiﬁcant enough to require approval of revised
+        plans.
+    9.   Previous inspection correction list not complete.
+
+To obtain a re-inspection, the applicant shall follow the same procedures required for an
+inspection after paying a re-inspection fee.
+
+[A] 111.1   Change of occupancy.
+
+A building or structure shall not be used or occupied in whole or in part, and a change of
+occupancy of a building or structure or portion thereof shall not be made, until
+the building oﬃcial  has issued a certiﬁcate of occupancy therefor as provided herein.
+Issuance of a certiﬁcate of occupancy shall not be construed as an approval of a
+violation of the provisions of this code or of other ordinances of the   jurisdiction.
+Certiﬁcates presuming to give authority to violate or cancel the provisions of this code
+or other ordinances of the   jurisdiction   shall not be valid.
+
+
+
+                                                                                                              11
+
+===== Page 13 =====
+        Exception: Certiﬁcates of occupancy are not required for work exempt
+        from permits   in accordance with Section 105.2 the following.
+
+    1.   Permits issued over the counter.
+    2.   Minor permits
+    3.   Structures that will not be occupied.
+    4.   Work exempt from permits in accordance with Section 105.2
+
+
+[A] 111.1.1 Certiﬁcate of Completion:
+Upon request, a Certiﬁcate of Completion may be issued for all other permits, after all
+required inspections have been approved.
+
+[A] 111.3   Temporary occupancy.
+
+The building oﬃcial  is authorized to issue a temporary certiﬁcate of occupancy before
+the completion of the entire work covered by the   permit, provided that such portion or
+portions shall be occupied safely    with the concurrence of all impacted department
+approvals, TCO acknowledgement has been signed, appropriate fees are paid, and all
+safety inspections have been scheduled, conducted, and approved. Bonding, if required,
+shall be provided in accordance with the direction of the Building Oﬃcial prior to
+issuance of a Temporary Certiﬁcate. The building oﬃcial  shall set a time period during
+which the temporary certiﬁcate of occupancy is valid.  During Temporary Occupancy, all
+incomplete portions not covered under the TCO shall be made to remain safe at all
+times.
+
+[A] 113.1 General.
+
+In order to hear and decide appeals of orders, decisions or determinations made by
+the building oﬃcial  relative to the application and interpretation of this code, there shall
+be and is hereby created a board of appeals the Building Code Advisory Board
+(hereinafter called “BCAB” or “the board”). The board of appeals shall be appointed by
+the applicable governing authority and shall hold oﬃce at its pleasure. The board shall
+adopt rules of procedure for conducting its business and shall render all decisions and
+ﬁndings in writing to the appellant with a duplicate copy to the building oﬃcial.
+
+[A] 113.2   Limitations on authority.
+
+An application for appeal shall be based on a claim that the true intent of this code or
+the rules legally adopted thereunder have been incorrectly interpreted, the provisions of
+this code do not fully apply or an equivalent or better form of construction is proposed.
+The board shall not have authority to waive requirements of this code.
+
+                                                                                                             12
+
+
+===== Page 14 =====
+[A] 113.3   Qualiﬁcations.
+
+The board of appeals shall consist of members  who are qualiﬁed by experience and
+training on matters pertaining to the provisions of this code   and who are not employees
+of the jurisdiction.   comprised of members as prescribed in A.R.S. 11-862, adopt bylaws,
+and conduct business pursuant to the statute.
+
+[A] 113.4   Administration.
+
+The building oﬃcial  shall take action without delay in accordance with the decision of
+the board.
+
+[A] 114.4   Violation penalties.
+
+Any person who violates a provision of this code or fails to comply with any of the
+requirements thereof or who erects, constructs, alters or repairs a building or structure in
+violation of the approved construction documents or directive of the   building oﬃcial, or
+of a permit or certiﬁcate issued under the provisions of this code, shall be subject to
+penalties as prescribed by law.
+
+[A] 114.4.1   Work commencing before permit issuance:
+
+Any person who commences any work on a building, structure, electrical, gas,
+mechanical or plumbing system before obtaining the necessary permits      shall be subject
+to a fee established by the Building Oﬃcial that shall be in addition to the required
+permit fees. Said fee is to be the building permit fee, doubled.
+
+117 – NOISE LEVEL REDUCTION
+
+117.1 General:  Any building within the vicinity of a military airport or ancillary military
+facility as deﬁned by State Statute shall have a noise level reduction incorporated in the
+design and construction of any residential building or portions of buildings where the
+public is received, oﬃce areas and where normal noise level is low for ﬁrst occupancy,
+including libraries, schools and churches, pursuant to building permits issued after
+December 31, 2001 in order to achieve a maximum interior noise level of forty-ﬁve
+decibels in areas within noise contours described in Section 1010. of the Maricopa
+County Zoning Ordinance. All residential buildings in territory in the vicinity of a military
+airport but outside the noise contours as described in this section shall be constructed
+with a minimum of R18 exterior wall assembly, a minimum of R30 roof and ceiling
+assembly, dual-glazed windows and solid wood, foam-ﬁlled ﬁberglass or metal doors to
+the exterior or, if the speciﬁed building standards are not met, the County may approve
+as an alternative, a certiﬁcation by an architect or engineer registered pursuant to A.R.S.
+
+
+                                                                                                             13
+
+===== Page 15 =====
+Title 32, Chapter 1 to achieve a maximum interior noise level of forty-ﬁve decibels at the
+time of ﬁnal construction.
+
+308.2   Institutional Group I-1.
+
+Institutional Group I-1 occupancy shall include buildings, structures or portions thereof
+for more than 16 10 persons, excluding including staff, who reside on a 24-hour basis in
+a supervised environment and receive custodial care. Buildings of Group I-1 shall be
+classiﬁed as one of the occupancy conditions speciﬁed in Section 308.2.1 or 308.2.2
+and shall comply with Section 420. This group shall include, but not be limited to, the
+following:
+
+    Alcohol and drug centers
+    Assisted living facilities
+    Congregate care facilities
+    Group homes (AKA Community Residence)
+    Halfway houses
+    Residential board and care facilities
+    Social rehabilitation facilities
+
+308.2.3   Six to 16         10 persons receiving custodial care.
+
+A facility housing not fewer than six and not more than 16  10 persons receiving
+custodial care shall be classiﬁed as Group R-4 or I-4 depending on the level of care
+provided.
+
+310.5   Residential Group R-4.
+
+Residential Group R-4 occupancy shall include buildings, structures or portions thereof
+for more than ﬁve six but not more than 16  10 persons, excluding including live-in staff,
+who reside on a 24-hour basis in a supervised residential environment and receive
+custodial care. Buildings of Group R-4 shall be classiﬁed as one of the occupancy
+conditions speciﬁed in Section 310.5.1 or 310.5.2. This group shall include, but not be
+limited to, the following:
+
+    Alcohol and drug centers
+    Assisted living facilities
+    Congregate care facilities
+    Group homes (AKA Community Residences)
+    Halfway houses
+    Residential board and care facilities
+    Social rehabilitation facilities
+
+                                                                                                              14
+
+===== Page 16 =====
+    Group R-4 occupancies shall meet the requirements for construction as deﬁned for
+    Group R-3, except as otherwise provided for in this code.
+
+901.1   Scope.
+
+The provisions of this chapter shall specify where ﬁre protection and    life safety
+systems      are required and shall apply to the design, installation and operation of ﬁre
+protection and   life safety systems.  be determined by the Fire Authority Having
+Jurisdiction and Chapter 9 of their adopted Fire Code.
+
+1102.1 Design.
+
+Buildings and   facilities shall be designed and constructed to be accessible in
+accordance with this code, and   ICC A117.1 and the Arizona Revised Statutes ARS
+sections 41-1492 through 41-14923.12, Arizona Administrative Code R10-3-401 through
+R10-3-404, which includes 28 CFR Part 35 and 28 CFR Part 36 and the 2010 Standards
+for Accessible Design.
+
+Where provisions may conﬂict between the different codes, the provision that provides
+the greatest degree of accessibility shall be used for any given building, facility or
+element.
+
+1203.1 Equipment and systems.
+
+Interior spaces intended for human occupancy shall be provided with active or passive
+space- heating and cooling systems capable of maintaining an indoor temperature not
+less than 68°F (20°      C) between 70°F (21°C) and 82°F (28°C) if cooled by air
+conditioning, and 86°F (30°C) if cooled by evaporative cooling, measured at a point 3
+feet (914mm) above the floor in the center of the room.  on the design heating day The
+installation of portable space heaters or coolers shall not be used to achieve
+compliance with this section.
+
+Exception:  Space heating and   cooling systems   are not required for:
+
+         1. Interior spaces where the primary purpose of the space is not associated
+         with human comfort.
+         2. Group F, H, S, or U occupancies
+
+
+1612.3   Establishment of ﬂood hazard areas.
+
+To establish ﬂood hazard areas, the applicable governing authority shall adopt a ﬂood
+hazard map and supporting data. The ﬂood hazard map shall include, at a minimum,
+areas of special ﬂood hazard as identiﬁed by the Federal Emergency Management
+                                                                                                           15
+
+===== Page 17 =====
+Agency in an engineering report entitled “The Flood Insurance Study for [INSERT NAME
+OF JURISDICTION],” dated [insert date of issuance], as amended or revised with the
+accompanying Flood Insurance Rate Map (FIRM) and Flood Boundary
+and   Floodway Map (FBFM) and related supporting data along with any revisions thereto.
+The adopted ﬂood hazard map and supporting data are hereby adopted by reference
+and declared to be part of this section.  The areas of special ﬂood hazard identiﬁed by
+FEMA in a scientiﬁc and engineering report entitled "The Flood Insurance Study (FIS) for
+Maricopa County, Arizona and incorporated areas" dated September 30, 2005, with
+accompanying FIRMs and FBFMs dated September 30, 2005, and all subsequent
+amendments and/or revisions, are hereby adopted by reference and declared to be a
+part of this chapter.
+
+[A] 1907.1.2 Post Tension Concrete Slab on Ground:
+All post-tensioned slabs on ground shall be permanently stamped, marked or otherwise
+identiﬁed in a conspicuous location indicating the slab is a post-tensioned slab.
+Conspicuous locations include, but are not limited to, entrance porches, slabs at garage
+doors or patio slabs.
+
+Section 3109  SWIMMING POOLS, SPAS, AND HOT TUBS
+
+3109.1 General. The provisions of this section shall apply to the design of barriers for
+restricting entry into areas having pools and spas. Where spas or hot tubs are equipped
+with a lockable safety cover complying with ASTM F1346 and swimming pools are
+equipped with a powered safety cover that complies with ASTM F1346, the areas where
+those spas, hot tubs or pools are located shall not be required to comply with Sections
+3109.2.2 through 3109.7        .
+
+3109.1.1 Scope. The provisions of this section apply to the design and construction of
+barriers for swimming pools.
+
+3109.1.2 Deﬁnitions. For the purpose of this section, certain terms, words, and phrases
+are deﬁned as follows:
+
+ABOVE GROUND/ON-GROUND POOL. A pool that can be disassembled for storage or
+transport. This includes portable pools with ﬂexible or nonrigid walls that achieve their
+structural integrity by means of uniform shape, a support frame or a combination
+thereof, and that can be disassembled for storage or relocation.
+
+BARRIER. A permanent fence, wall, building wall, or combination thereof that completely
+surrounds the swimming pool or spa. The term “permanent” shall mean not being able
+to be removed, lifted, or relocated without the use of a tool.
+
+
+                                                                                                         16
+
+
+===== Page 18 =====
+GRADE. The underlying surface, such as the earth or a walking surface.
+
+HOT TUB. See deﬁnition of “spa, non-self-contained” and “spa, self-contained.”
+
+IN-GROUND POOL. See deﬁnition of “swimming pool.”
+
+POWER SAFETY COVER USED AS A BARRIER. A pool cover that is placed over the
+water area, and is opened and closed with a motorized mechanism activated by a
+control switch. The powered safety cover shall comply with ASTM F1346.
+
+SEPARATION FENCE. A barrier that separates all doors of a dwelling unit with direct
+access to a swimming pool from the swimming pool.
+
+SPA, NON-SELF-CONTAINED. A hydro massage pool or tub for recreational or
+therapeutic use, not located in health-care facilities, designed for immersion of users
+and usually having a ﬁlter, heater and motor-driven blower. It may be installed indoors or
+outdoors, on the ground or on a supporting structure, or in the ground or in a supporting
+structure. A non-self-contained spa is intended for recreational bathing and contains
+water over 24 inches (610mm) deep.
+
+SPA, SELF-CONTAINED. A continuous-duty appliance in which all control, water-heating
+and water-circulating equipment is an integral part of the product, located entirely under
+the spa skirt. A self-contained spa is intended for recreational bathing and contains
+water over 18 inches deep.
+
+SWIMMING POOL. A structure intended for swimming or recreational bathing that
+contains water over 18 inches deep and/or wider than 8 feet at any point. This includes
+in-ground, aboveground and on-ground swimming pools, and ﬁxed-in-place wading
+pools. This does not include decorative fountains that contain water less than 12 inches
+deep.
+
+SWIMMING POOL, INDOOR. A swimming pool that is totally contained within a
+residential structure and surrounded on all four sides by walls of said structure.
+
+SWIMMING POOL, OUTDOOR. Any swimming pool that is not an indoor pool.
+
+3109.2 Outdoor swimming pools and spas.
+
+Outdoor pools and spas and indoor swimming pools shall be surrounded by a barrier
+that complies with Sections 3109 .2.1 through 3109.7.
+
+3109.2.1 Barrier height and clearances.
+
+Barrier heights and clearances shall be in accordance with all of the following:
+
+
+                                                                                                         17
+
+===== Page 19 =====
+    1.   The top of the barrier shall be not less than 60  inches (1524 mm) above grade
+        where measured on the side of the barrier that faces away from the pool or spa.
+        Such height shall exist around the entire perimeter of the barrier and for a
+        distance of 3 feet (914 mm) measured horizontally from the outside of the
+        required barrier.
+    2.   The vertical clearance between grade and the bottom of the barrier shall not
+        exceed 2 inches (51 mm) for grade surfaces that are not solid, such as grass or
+        gravel, where measured on the side of the barrier that faces away from the pool
+        or spa.
+    3.   The vertical clearance between a surface below the barrier to a solid surface,
+        such as concrete, and the bottom of the required barrier shall not exceed 4
+        inches (102 mm) where measured on the side of the required barrier that faces
+        away from the pool or spa.
+    4.   Where the top of the pool or spa structure is above grade, the barrier shall be
+        installed on grade or shall be mounted on top of the pool or spa structure. Where
+        the barrier is mounted on the top of the pool or spa, the vertical clearance
+        between the top of the pool or spa and the bottom of the barrier shall not exceed
+        4 inches (102 mm).
+
+3109.2.2  Openings
+
+Openings in the barrier shall not allow passage of a 4-inch-diameter (102 mm) sphere.
+
+3109.2.3  Solid barrier surfaces
+
+Solid barriers that do not have openings shall not contain indentations or protrusions
+that form handholds and footholds, except for normal construction tolerances and
+tooled masonry joints.
+
+3109.2.4 Screen enclosure as a barrier
+
+A swimming pool screen enclosure shall be permitted to be utilized as part, or all, of a
+required barrier provided that the enclosure complies with the requirements of Section
+3109.2. Such screen enclosures shall be designed by a registered design professional.
+Walls of such screen enclosures shall not be considered to be dwelling walls.
+
+3109.2.4.1  Mesh for screen enclosures
+
+The mesh utilized in the barrier portion of the screen enclosure shall have a tensile
+strength of not less than 100 pounds per square foot (20.5 kg/m2) when tested in
+accordance with ASTM D5034 and a ball burst strength of not less than 150 pounds per
+square foot (30.7 kg/m2) when tested in accordance with ASTM D3787.
+
+                                                                                                            18
+
+===== Page 20 =====
+3109.2.5  Mesh fence as a barrier
+
+Mesh fences, other than chain link fences in accordance with Section 3109.2.8, shall be
+installed in accordance with the manufacturer’s instructions and shall comply with
+ASTM F2286 and with both of the following:
+
+    1.   Where a hinged gate is used with a mesh fence, the gate shall comply with
+        Section 3109.3.
+    2.   Mesh fences shall not be installed on top of onground residential pools.
+
+3109.  2.5.1  Setback for mesh fences
+
+The inside of a mesh fence shall be not closer than 20 inches (508 mm) to the nearest
+edge of the water of a pool or spa.
+
+3109.2.6 Closely spaced horizontal members
+
+Where the barrier is composed of horizontal and vertical members and the distance
+between the tops of the horizontal members is less than 45 inches (1143 mm), the
+horizontal members shall be located on the pool or spa side of the fence. Spacing
+between vertical members shall not exceed 1 3/4 inches (44 mm) in width. Where there
+are decorative cutouts within vertical members, spacing within the cutouts shall not
+exceed 1 3/4 inches (44 mm) in width.
+
+3109.2.7  Widely spaced horizontal members
+
+Where the barrier is composed of horizontal and vertical members and the distance
+between the tops of the horizontal members is 45 inches (1143 mm) or more, spacing
+between vertical members shall not exceed 4 inches (102 mm). Where there are
+decorative cutouts within vertical members, the interior width of the cutouts shall not
+exceed 1 3/4 inches (44 mm).
+
+3109.2.8  Chain link dimensions
+
+The maximum opening formed by a chain link fence shall be not more than 1 3/4 inches
+(44 mm). Where the fence is provided with slats fastened at the top and bottom that
+reduce the openings, such openings shall be not greater than 1 3/4 inches (44 mm).
+The chain link material shall not be less than 11 gauge.
+
+3109.2.9  Diagonal members
+
+Where the barrier is composed of diagonal members, the maximum opening formed by
+the diagonal members shall be not greater than 1 3/4 inches (44 mm). The angle of
+diagonal members shall be not greater than 45 degrees (0.79 rad) from vertical.
+
+                                                                                                         19
+
+===== Page 21 =====
+3109.2.10  Clear zone
+
+Where equipment, including pool equipment such as pumps, ﬁlters and heaters, is on
+the same lot as a pool or spa and such equipment is located outside of the barrier
+protecting the pool or spa, such equipment shall be located not less than 36 inches (914
+mm) from the outside of the barrier.
+
+3109.3  Doors and gates
+
+Doors and gates in barriers shall comply with the requirements of Sections 3109 .3.1
+through 3109.3.3 and shall be equipped to accommodate a locking device. Pedestrian
+access doors and gates shall open outward away from the pool or spa, shall be self-
+closing and shall have a self-latching device. Doors and gates shall not swing over
+stairs.
+
+3109.3.1  Utility or service doors and gates
+
+Doors and gates not intended for pedestrian use, such as utility or service doors and
+gates, shall remain locked when not in use.
+
+3109.3.2  Double or multiple doors and gates
+
+Double doors and gates or multiple doors and gates shall have not fewer than one leaf
+secured in place and the adjacent leaf shall be secured with a self-latching device.
+
+3109.3.3  Latch release
+
+For doors and gates in barriers, the door and gate latch release mechanisms shall be in
+accordance with the following:
+
+1.   Where door and gate latch release mechanisms are accessed from the outside of
+    the barrier and are not of the self-locking type, such mechanism shall be located
+    above the ﬁnished ﬂoor or ground surface in accordance with the following:
+    1.1. A public pools and spas, not less than 52 inches (1219mm) and not greater than
+         54 inches (1372mm)
+    1.2. At residential pools and spas, not less than 54 inches (1372 mm).
+2.   Where door and gate latch release mechanisms are of the self-locking type such as
+    where the lock is operated by means of a key, an electronic opener or the entry of a
+    combination into an integral combination lock, the lock operation control and the
+    latch release mechanism shall be located above the ﬁnished ﬂoor or ground surface
+    in accordance with the following:
+    2.1. At public pools and spas, not less than 34 inches and not greater than 48 inches
+         (1219 mm).
+    2.2. At residential pools and spas, at not greater than 54 inches (1372 mm).
+                                                                                                           20
+
+===== Page 22 =====
+3.   At private pools, where the only latch release mechanism of a self-latching device for
+    a gate is located on the pool and spa side of the barrier, the release mechanism shall
+    be located at a point that is at least 3 inches (76 mm) below the top of the gate.
+
+3109.3.4  Barriers adjacent to latch release mechanisms
+
+Where a latch release mechanism is located on the inside of a barrier, openings in the
+door, gate and barrier within 18 inches (457 mm) of the latch shall not be greater than
+1/2 inch (12.7 mm) in any dimension.
+
+3109.4  Structure wall as a barrier
+
+Where a wall of a dwelling or structure serves as part of the barrier and where doors,
+gates or windows provide direct access to the pool or spa through that wall, one of the
+following shall be required:
+
+    1.   Operable windows having a sill height of less than 48 inches (1219 mm) above
+        the indoor ﬁnished ﬂoor, doors and gates shall have an alarm that produces an
+        audible warning when the window, door or their screens are opened. The alarm
+        shall be listed and labeled as a water hazard entrance alarm in accordance with
+        UL 2017.
+    2.   In dwellings not required to be Accessible units, Type A units or Type B units, the
+        operable parts of the alarm deactivation switches shall be located at not less
+        than 54 inches (1372 mm) above the ﬁnished ﬂoor.
+    3.   In dwellings that are required to be Accessible units, Type A units or Type B units,
+        the operable parts of the alarm deactivation switches shall be located not greater
+        than 54 inches (1372 mm) and not less than 48 inches (1219 mm) above the
+        ﬁnished ﬂoor.
+    4.   In structures other than dwellings, the operable parts of the alarm deactivation
+        switches shall be located not greater than 54 inches (1372 mm) and not less
+        than 48 inches (1220 mm) above the ﬁnished ﬂoor.
+    5.   A safety cover that is listed and labeled in accordance with ASTM F1346 is
+        installed for the pools and spas.
+    6.   An approved means of protection, such as self-closing doors with self-latching
+        devices, is provided. Such means of protection shall provide a degree of
+        protection that is not less than the protection afforded by Item 1 or 2.
+
+3109.5  Onground residential pool structure as a barrier
+
+An onground residential pool wall structure or a barrier mounted on top of an onground
+residential pool wall structure shall serve as a barrier where all of the following
+conditions are present:
+                                                                                                             21
+
+===== Page 23 =====
+    1.   Where only the pool wall serves as the barrier, the bottom of the wall is on grade,
+        the top of the wall is not less than 48 inches (1219 mm) above grade for the
+        entire perimeter of the pool, the wall complies with the requirements of Section
+        3109.2 and the pool manufacturer allows the wall to serve as a barrier.
+    2.   Where a barrier is mounted on top of the pool wall, the top of the barrier is not
+        less than 48 inches (1219 mm) above grade for the entire perimeter of the pool,
+        and the wall and the barrier on top of the wall comply with the requirements of
+        Section 3109.2.
+    3.   Ladders or steps used as means of access to the pool are capable of being
+        secured, locked or removed to prevent access except where the ladder or steps
+        are surrounded by a barrier that meets the requirements of Section 3109.
+    4.   Openings created by the securing, locking or removal of ladders and steps do not
+        allow the passage of a 4-inch (102 mm) diameter sphere.
+    5.   Barriers that are mounted on top of onground residential pool walls are installed
+        in accordance with the pool manufacturer’s instructions.
+
+3109.6  Natural barriers
+
+In the case where the pool or spa area abuts the edge of a lake or other natural body of
+water, public access is not permitted or allowed along the shoreline, and required
+barriers extend to and beyond the water’s edge not less than 18 inches (457 mm), a
+barrier is not required between the natural body of water shoreline and the pool or spa.
+
+3109.7  Natural topography
+
+Natural topography that prevents direct access to the pool or spa area shall include but
+not be limited to mountains and natural rock formations. A natural barrier approved by
+the governing body shall be acceptable provided that the degree of protection is not less
+than the protection afforded by the requirements of Sections 3109 .2 through 3109        .5.
+
+3109.8  Means of egress
+
+Outdoor public pools provided with barriers shall have means of egress as required by
+Chapter 10 of the International Building Code.
+
+Chapter 35: REFERENCED STANDARDS
+
+ACI (add the following standard a   s an optional standard that may be used)
+
+ACI 318-     25: Building Code Requirements for      Structural Concrete
+
+722.2.4.3, 1604.3.2, 1616.2.1, 1616.3.1, 1704.5, Table 1705.3, 1705.3.2, 1808.8.2, Table
+1808.8.2, 1808.8.5, 1808.8.6, 1809.14, 1810.1.3, 1810.2.4.1, 1810.3.2.1.1, 1810.3.2.1.2,
+1810.3.8, 1810.3.9.2, 1810.3.9.4.2.1, 1810.3.9.4.2.2, 1810.3.10.1, 1810.3.11,
+                                                                                                            22
+
+===== Page 24 =====
+1810.3.11.1, 1810.3.12, 1810.3.12, 1810.3.13, 1901.2, 1901.3, 1902.1, 1903.1, 1904.1,
+1904.2, 1905.1, 1905.2, 1905.3, 1905.4, 1905.5.1, 1905.6, 1905.6.2, 1905.7, 1905.7.1,
+1905.7.2, 1907.1, 1908.1, 1908.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                     23
+
+===== Page 25 =====
+2024 International Residential Code – Maricopa County Amendments:
+
+R101.1   Title.
+
+These provisions shall be known as the Residential Code for One- and Two-
+family Dwellings of [NAME OF JURISDICTION] Maricopa County, and shall be cited as
+such and will be referred to herein as “this code.”
+
+R101.2.1   Appendices.
+
+Provisions in the appendices shall not apply unless speciﬁcally   adopted.  The following
+appendices are hereby adopted in their entirety: Appendices   BB, BC, BF,  BI, BJ, BK, BL,
+BM, BO, CA, CB, CD, CE and CF.
+
+SECTION R103 – CODE COMPLIANCE AGENCY
+R103.1   Creation of agency.
+
+The [INSERT NAME OF DEPARTMENT] Planning and Development Department is hereby
+created and the oﬃcial in charge thereof shall be known as the building oﬃcial.  The
+function of the agency shall be the implementation, administration and enforcement of
+the provisions of this code.
+
+R104.2.3.1   Flood hazard areas.
+
+The building oﬃcial  shall not grant modiﬁcations to any provisions required in ﬂood
+hazard areas as established by Table R301.2 nor the Floodplain Regulations for
+Maricopa County   unless a determination has been made that: a variance has been
+issued as speciﬁed in the Floodplain Regulations for Maricopa County.
+
+    1.   There is good and suﬃcient cause showing that the unique characteristics of the
+        size, conﬁguration or topography of the site render the elevation standards
+        of Section R306 inappropriate.
+    2.   Failure to grant the modiﬁcation would result in exceptional hardship by
+        rendering the lot undevelopable.
+    3.   The granting of modiﬁcation will not result in increased ﬂood heights, additional
+        threats to public safety or extraordinary public expense; cause fraud on or
+        victimization of the public; or conﬂict with existing laws or ordinances.
+    4.   The modiﬁcation is the minimum necessary to afford relief, considering the ﬂood
+        hazard.
+    5.   Written notice specifying the difference between the design ﬂood elevation and
+        the elevation to which the building is to be built, stating that the cost of ﬂood
+        insurance will be commensurate with the increased risk resulting from the
+        reduced ﬂoor elevation and stating that construction below the design ﬂood
+
+
+                                                                                                          24
+
+===== Page 26 =====
+        elevation increases risks to life and property, has been submitted to the
+        applicant.
+
+R105.2   Work exempt from permit.
+
+Exemption from permit requirements of this code shall not be deemed to grant
+authorization for any work to be done in any manner in violation of the provisions of this
+code or any other laws or ordinances of this jurisdiction.  Permits    shall not be required
+for the following:
+
+    •     Building:
+
+            1    Other than storm shelters, one-  story detached accessory structures,
+                 provided that the ﬂoor area does not exceed 200 square feet (18.58 m2).
+            2    Fences not over 7 feet (2134 mm) high.
+            3    Retaining walls that are not over 4 feet (1219 mm) in height measured
+                 from the bottom of the footing to the top of the wall, unless supporting a
+                 surcharge.
+            4    Water tanks supported directly upon grade if the capacity does not exceed
+                 5,000 gallons (18 927 L) and the ratio of height to diameter or width does
+                 not exceed 2 to 1.
+            5    Sidewalks and driveways.
+            6    Painting, papering, tiling, carpeting, cabinets, counter tops and similar
+                 ﬁnish work.
+            7    Prefabricated swimming pools that are less than 24 inches (610 mm)
+                 deep.
+            8    Swings and other playground equipment.
+            9    Window awnings supported by an exterior wall that do not project more
+                 than 54 inches (1372 mm) from the exterior wall and do not require
+                 additional support.
+            10 Decks not exceeding 200 square feet (18.58 m2) in area, that are not more
+                 than 30 inches (762 mm) above grade at any point, are not attached to a
+                 dwelling or townhouse and do not serve the exit door required by Section
+                 R318.4.
+            11 Prefabricated swimming pools that are less than 24 inches (610 mm)
+                 deep.
+            12 Prefabricated swimming pools that are not greater than 5,000 gallons and
+                 installed entirely above ground. Barriers shall be installed in accordance
+                 with Section 3109.
+            13 Shade cloth structures constructed for nursery or agricultural purposes.
+            14 Ground or roof supported structures, such as radio and television antenna
+                 towers and ﬂagpoles which do not exceed 200 pounds (90 kg) in weight or
+                 45 feet (13,700 mm) in height above the ground surface.
+                                                                                                            25
+
+
+===== Page 27 =====
+        15 Roof replacement or re-roof with the same type of material as the original
+            rooﬁng.
+        16 Installation of a non-  structural weatherproof exterior covering over an
+            existing weatherproof covering on an existing structure so long as the new
+            covering will not affect the ﬁre resistive classiﬁcation of the existing
+            structure.
+        17 Minor repair or replacement in kind of non-structural components such as
+            glass or glazing materials, sash, doors and hardware, patching walls or
+            ceilings and replacing pieces of siding, soﬃts, or facia.
+        18 A building permit shall not be required for a building or structure that was
+            existing, or any use of land that was lawfully existing, as of January 1,
+            2000 (or as of the effective date of subsequent amendments) to this
+            regulation provided there are no visible signs of defects or unsafe
+            conditions. When veriﬁcation is required by the Building Oﬃcial a
+            Certiﬁcate of Observable Compliance from a third-party Registered
+            Architect or Structural Engineer must be submitted.
+        19 A building permit shall not be required for a roadway gate within a private
+            road easement. However, a building permit shall be required for gates
+            within private street tracts of a platted subdivision. A Maricopa County
+            Department of Transportation (MCDOT) permit shall be required for gates
+            within public rights-of-way.
+Electrical:
+
+    1.   Listed cord-and-  plug connected temporary decorative lighting.
+    2.   Reinstallation of attachment plug receptacles but not the outlets therefor.
+    3.   Replacement of branch circuit overcurrent devices of the required capacity in
+        the same location.
+    4.   Electrical wiring, devices, appliances, apparatus or equipment operating at
+        less than 25 volts and not capable of supplying more than 50 watts of energy.
+    5.   Minor repair work, including the replacement of lamps or the connection of
+        approved portable electrical equipment to approved permanently installed
+        receptacles.
+    6.   Repair or replacement of motors 50 HP or less, transformers 45 kVA or less,
+        or fixed approved appliances of the same type and rating in the same
+        location.
+    7.   Temporary decorative lighting approved and identified for cord and plug
+        connection.
+    8.   Repair or replacement in kind of any switch, other than a service disconnect,
+        receptacle, contactor, control device or other utilization equipment rated 60
+        amperes or less.
+    9.   Replacement in kind of any circuit breaker or fuse other than a service
+        disconnect rated 200 amperes or less.
+
+
+                                                                                                         26
+
+===== Page 28 =====
+        10. Repair or replacement of electrodes or transformers of the same size and
+            capacity for signs or gas tube systems (neon).
+
+    Gas:
+        1.   Portable heating, cooking or clothes drying appliances.
+        2.   Replacement of any minor part that does not alter approval of equipment or
+            make such equipment unsafe.
+        3.   Portable-fuel-cell   appliances that are not connected to a fixed piping system
+            and are not interconnected to a power grid.
+
+    Mechanical:
+    1.   Portable heating appliances.
+    2.   Portable ventilation appliances.
+    3.   Portable cooling units.
+    4.   Steam, hot- or chilled-water piping within any heating or
+        cooling equipment regulated by this code.
+    5.   Replacement of any minor part that does not alter approval of equipment or
+        make such equipment unsafe.
+    6.   Portable evaporative coolers.
+    7.   Self-contained refrigeration systems containing 10 pounds (4.54 kg) or less of
+        refrigerant or that are actuated by motors of 1 horsepower (746 W) or less.
+    8.   Portable-fuel-cell   appliances that are not connected to a ﬁxed piping system and
+        are not interconnected to a power grid.
+
+    Plumbing:
+
+    1.   The stopping of leaks in drains, water, soil, waste or vent pipe; provided, however,
+        that if any concealed trap, drainpipe, water, soil, waste or vent pipe becomes
+        defective and it becomes necessary to remove and replace the same with new
+        material, such work shall be considered as new work and a       permit shall be
+        obtained and inspection made as provided in this code.
+    2.   The clearing of stoppages or the repairing of leaks in pipes, valves or ﬁxtures, and
+        the removal and reinstallation of water closets, provided such repairs do not
+        involve or require the replacement or rearrangement of valves, pipes or ﬁxtures.
+    3.   Replacement of water closets, valves or ﬁxtures with new valves or ﬁxtures
+        complying with the water conservation requirements of this code.
+    4.   Replacement in kind of an existing storage tank water heater in one-  and-  two
+        family dwellings when the work is performed by a licensed contractor. This
+        exception does not apply to instant-hot on-demand type water heaters of any
+        size.
+R105.5   Expiration.
+
+                                                                                                             27
+
+===== Page 29 =====
+Every permit issued shall become invalid unless the work authorized by such permit is
+commenced within 180 days after its issuance or after commencement of work if more
+than 180 days pass between inspections. The building oﬃcial  is authorized to grant, in
+writing, one or more extensions of time, for periods not more than 180 days each. The
+extension shall be requested in writing and justiﬁable cause demonstrated.
+
+A permit may be renewed within one year of expiration provided that no change in
+ownership or engineer/architect of record has occurred. Renewal after expiration for
+more than one year shall not be permitted. Any such permit shall be deemed to be
+revoked and a new permit must be issued.
+
+The design and construction of structures located within the unincorporated areas of
+Maricopa County shall conform to the codes in effect at the time of permit application,
+provided the speciﬁc permit remains valid, regardless of whether or not the County
+adopts subsequent codes.
+
+[R] 105.5.1 Standard Plan Expiration:
+Standard plans shall expire one year after the date for the jurisdictional adoption of a
+new code cycle.
+
+R106.1.4   Information for construction in ﬂood hazard areas.
+
+For buildings and structures located in whole or in part in ﬂood hazard areas as
+established by Table R301.2, the Floodplain Regulations for Maricopa County,
+construction documents shall include: comply with the requirements found in the
+Floodplain Regulations for Maricopa County.
+
+    1.   Delineation of ﬂood hazard areas, ﬂoodway boundaries and ﬂood zones and the
+        design ﬂood elevation, as appropriate.
+    2.   The elevation of the proposed lowest ﬂoor, including basement; in areas of
+        shallow ﬂooding (AO Zones), the height of the proposed lowest ﬂoor,
+        including basement, above the highest adjacent grade.
+    3.   The elevation of the bottom of the lowest horizontal structural member in coastal
+        high-    hazard areas (V Zone) and in Coastal A Zones where such zones are
+        delineated on ﬂood hazard maps identiﬁed in Table R301.2 or otherwise
+        delineated by the jurisdiction.
+    4.   If design ﬂood elevations are not included on the community’s Flood Insurance
+        Rate Map (FIRM), the building oﬃcial  and the applicant shall obtain and
+        reasonably utilize any design ﬂood elevation and ﬂoodway data available from
+        other sources.
+
+R108.2   Schedule of permit fees.
+                                                                                                           28
+
+===== Page 30 =====
+On buildings, structures, electrical, gas, mechanical and plumbing systems
+or alterations requiring a permit, a fee for each permit shall be paid as required, in
+accordance with the schedule as established by the applicable governing authority.  See
+the attached Fee Schedule.
+
+R109.1.3   Floodplain inspections.
+
+For construction in ﬂood hazard areas as established by Table R301.2 the Floodplain
+Regulations for Maricopa County , upon placement of the lowest ﬂoor,
+including basement, and prior to further vertical construction, the building oﬃcial  shall
+require submission of documentation, prepared and sealed by a registered design
+professional, of the elevation of the lowest ﬂoor, including basement, required in Section
+R306 and the Floodplain Regulations for Maricopa County  .
+
+[R] 109.3.1 Permit Holder Responsibilities:
+It shall be the responsibility of the permit holder to:
+
+    1.   Submit requests for all required inspections.
+    2.   Identify with stakes or other means the subject property corners.
+    3.   Designate property lines prior to the inspection so Inspector can verify setbacks
+    4.   Post the permit.
+    5.   Provide a copy of the permit and approved plans on the site.
+    6.   Provide access to the site.
+    7.   Have someone at the site during the inspection.
+    8.   Post project street address numbers visible from the adjoining access road.
+
+
+Failure to complete the above shall result in no inspection at the time and an
+assessment of a reinspection fee. A survey of the lot may be required by the Building
+Oﬃcial to verify that the building/structure is located in accordance with the approved
+plans.
+
+[R] 109.3.1.1 Partial Inspections:
+Partial inspections may be requested and conducted when necessary due to common
+construction practices. If a partial inspection is approved, documentation shall be
+maintained during construction that identiﬁes what segments of work have obtained
+what types of partial inspection approval.
+
+[R] 109.3.1.2 Re-inspections:
+
+Re-inspection fees shall apply when:
+
+    1.   Property lines have not been designated as required.
+    2.   The permit is not posted or available on the work site.
+
+                                                                                                             29
+
+===== Page 31 =====
+    3.   Approved plans are not readily available to the inspector on the site.
+    4.   There is no access on the date for which the inspection is requested.
+    5.   Work is not ready for inspection.
+    6.   Work has been covered.
+    7.   Late cancellation.
+    8.   There is a deviation from plans signiﬁcant enough to require approval of revised
+        plans.
+    9.   Previous inspection correction list not complete.
+
+To obtain a re-inspection, the applicant shall follow the same procedures required for an
+inspection after paying a re-inspection fee.
+
+110 – CERTIFICATE OF OCCUPANCY
+[A] 110.1 –    Use and change of occupancy:
+(exception added to as follows)
+
+Exceptions:
+
+    1.   Certiﬁcates of occupancy are not required for work exempt from permits under
+        Section R105.2.
+    2.   Accessory buildings or structures which are not an Accessory Dwelling Unit
+    3.   Permits issued over the counter.
+    4.   Minor permits
+    5.   Structures that will not be occupied.
+
+
+[A] 110.1.1 Certiﬁcate of Completion:
+Upon request, a Certiﬁcate of Completion may be issued for all other permits, after all
+required inspections have been approved.
+
+115 – NOISE LEVEL REDUCTION
+115.1 General:
+Any building within the vicinity of a military airport or ancillary military facility as deﬁned
+by State Statute shall have a noise level reduction incorporated in the design and
+construction of any residential building or portions of buildings where the public is
+received, oﬃce areas and where normal noise level is low for ﬁrst occupancy, including
+libraries, schools and churches, pursuant to building permits issued after December 31,
+2001 in order to achieve a maximum interior noise level of forty-ﬁve decibels in areas
+within noise contours described in the Maricopa County Zoning Ordinance. All
+residential buildings in territory in the vicinity of a military airport but outside the noise
+contours as described in this section shall be constructed with a minimum of R18
+exterior wall assembly, a minimum of R30 roof and ceiling assembly, dual-glazed
+windows and solid wood, foam-ﬁlled ﬁberglass or metal doors to the exterior or, if the
+                                                                                                             30
+
+===== Page 32 =====
+speciﬁed building standards are not met, the County may approve as an alternative, a
+certiﬁcation by an architect or engineer registered pursuant to A.R.S. Title 32, Chapter 1
+to achieve a maximum interior noise level of forty-ﬁve decibels at the time of ﬁnal
+construction.
+
+Section R202        Deﬁnitions
+
+[RB]FIRE SEPARATION DISTANCE.
+
+The distance measured from the building face of the wall framing    to one of the
+following:
+
+    1.   To the closest interior lot line.
+    2.   To the centerline of a street, an alley or public way.
+    3.   To an imaginary line between two   buildings or townhouse units on the lot.
+
+The distance shall be measured at a right angle from the face of the wall framing.
+
+
+
+
+
+CHAPTER 3 –     BUILDING PLANNING
+[A] TABLE R301.2.1 Climatic and Geographic Design Criteria:
+
+                        (Due to space limitations, the table could not completely be
+                                     reproduced; only the values are listed)
+                            Ground Snow Loado                                   N/A
+                             Windspeed (MPH)d                                   105
+                            Topographic Effectsk                                NO
+                            Special Wind Regioni                                NO
+                         Windborne Debris Zonem                                 NO
+                         Seismic Design Categoryf                                B
+                                 Weatheringa                                Negligible
+                              Frost Line Depthb                                  0
+                                    Termitec                          Moderate to Heavy
+                         Ice Barrier Underlayment                               NO
+                                   Required
+                                Flood Hazards                       Maricopa County Flood
+                                                                              District
+                              Air Freezing Index                                N/A
+                        Mean Annual Temperature                               71.2° F
+                      See notes associated with this
+                               table in the IRC
+
+                                                                                                           31
+
+===== Page 33 =====
+a.  to f. –   No change
+
+g.  The jurisdiction shall ﬁll in this part of the table with: the date of the jurisdiction’s
+entry into the National Flood Insurance Program (date of adoption of the ﬁrst code or
+ordinance for management of ﬂood hazard areas); and   the title and date of the currently
+effective Flood Insurance Study or other ﬂood hazard study and maps adopted by the
+authority having jurisdiction, as amended. Per the Maricopa County Flood Regulations
+
+h.  –    o. No change
+
+R301.2.4   Floodplain construction.
+
+Buildings and structures constructed in whole or in part in ﬂood hazard areas as
+established in Table R301.2, and   substantial improvement and   repair of substantial
+damage of buildings and structures located in whole or in part in ﬂood hazard areas,
+shall be designed and constructed in accordance with Section R306. Buildings and
+structures that are located in more than one ﬂood hazard area, including A Zones,
+Coastal A Zones and V Zones, shall comply with the provisions associated with the
+most restrictive ﬂood hazard area. Buildings and structures located in whole or in part in
+identiﬁed ﬂoodways shall be designed and constructed in accordance with ASCE 24. by
+the Maricopa County Floodplain Regulations and shall comply with the construction
+requirements from this regulation.
+
+R301.2.4.1   Alternative provisions.
+
+As an alternative to the requirements in Section R306, ASCE 24 is permitted subject to
+the limitations of this code and the limitations therein.
+
+
+
+R302.5.1   Opening protection.
+
+Openings from a private garage or carport  directly into a room used for sleeping
+purposes shall not be permitted. Other openings between the garage and dwelling
+unit shall be equipped with solid wood doors not less than 1 3/8 inches (35 mm) in
+thickness, solid or honeycomb-core steel doors not less than 1 3/8 inches (35 mm)
+thick, or 20-minute ﬁre-rated doors or windows. Doors and windows   shall be self-
+latching and equipped with a self-closing or automatic-   closing device.
+
+[A] R309 Automatic Sprinkler Systems:
+
+R309.1 Townhouse aAutomatic sprinkler systems.
+                                                                                                           32
+
+===== Page 34 =====
+Refer to the IFC adopted by the Fire Authority having Jurisdiction.  An automatic
+sprinkler system shall      may be installed in one - and two-family dwellings.
+
+Exception: An automatic sprinkler system shall not be required for additions or
+alterations to existing buildings that are not already provided with a sprinkler system.
+
+
+
+R309.1.1 Design and installation.
+
+Automatic sprinkler systems for townhouses    shall be designed and installed in
+accordance with Section P2904 or NFPA 13D.
+
+R309.2 One- and two-family dwellings automatic sprinkler systems. RESERVED
+
+An automatic sprinkler system shall be installed in one- and two-family dwellings.
+
+Exception: An automatic sprinkler system shall not be required for additions or
+alterations to existing buildings that are not already provided with a sprinkler system.
+
+R309.2.1 Design and installation. RESERVED
+
+Automatic sprinkler systems shall be designed and installed in accordance with Section
+P2904 or NFPA 13D.
+
+R318.2   Egress door.
+
+Not less than one egress door shall be provided for each dwelling unit. The egress door
+shall be side-hinged, and shall provide a clear width of not less than 32 inches (813 mm)
+where measured between the face of the door and the stop, with the door open 90
+degrees (1.57 rad). The clear height of the door opening shall be not less than 78 inches
+(1981 mm) in height measured from the top of the threshold to the bottom of the stop.
+Other doors shall not be required to comply with these minimum dimensions. Egress
+doors shall be readily openable from inside the dwelling unit without the use of a key or
+special knowledge or effort.
+
+EXCEPTION: Doors within or serving an accessory structure less than 1000 square feet
+in ﬂoor area are not required to be side hinged.
+
+
+
+R319.1 Emergency escape and rescue opening required.
+
+Basements, habitable attics, the room to which a sleeping loft is open, and every
+sleeping room shall have not less than one operable emergency escape and rescue
+opening. Where basements contain one or more sleeping rooms, an emergency escape
+
+                                                                                                           33
+
+===== Page 35 =====
+and rescue opening shall be required in each sleeping room.   Emergency escape and
+rescue opening shall open directly into a public way, or to a yard or court that opens to a
+public way.
+
+Exceptions:
+
+    1–3. No change
+
+    4.   A yard shall not be required to open directly into a public way where the yard
+        opens to an unobstructed path from the yard to the public way. Such path shall
+        have a width of not less than 36 inches (914 mm).  The clear width may be
+        reduced when approved by the Fire Authority Having Jurisdiction.
+R322.4 Model Home Complex. Model home complex shall be provided with at least one
+van accessible parking space, at least one accessible toilet room and an accessible
+access and egress from each model home in the complex.
+
+R325.9 Required cooling.
+
+Interior spaces intended for human occupancy shall be provided with cooling systems
+capable of maintaining an indoor temperature between 70°F (21°C) and 82°F (28°C) if
+cooled by air conditioning, and 86°F (30°C) if cooled by evaporative cooling, measured
+at a point 3 feet (914mm) above the floor in the center of the room. The installation of
+portable coolers shall not be used to achieve compliance with this section.
+
+Exception:  Space cooling systems   are not required for:
+
+      1. Interior spaces where the primary purpose of the space is not associated   with
+         human comfort.
+
+
+Section R328: Barriers for   Swimming Pools, Spas and Hot Tubs
+
+R328.1: General.
+
+The design and construction of barriers for   pools and spas shall comply with the
+International Swimming Pool and Spa Code 2024 IBC S    ection 3109.
+
+
+CHAPTER 10 –        CHIMNEYS AND FIREPLACES
+R1001.1.1 Fireplace Restriction:
+R1001.1.2 Purpose:
+The purpose of this subsection is to regulate fireplaces, wood stoves, or other solid fuel
+burning devices to reduce the amount of air pollution caused by particulate matter and
+
+                                                                                                          34
+
+===== Page 36 =====
+carbon monoxide.
+
+R1001.1.3 Applicability:
+The Residential Woodburning Restriction Ordinance applies to any residential wood
+burning device in sections of Area A  that are within Maricopa County or within
+incorporated cities and towns in such sections.
+
+        AREA A: As deﬁned in Arizona Revised Statues (ARS) §49        -541(1), the area in
+        Maricopa County delineated as follows:
+                Township 8 North, Range 2 East and Range 3 East
+                Township 7 North, Range 2 West through Range 5 East
+                Township 6 North, Range 5 West through Range 6 East
+                Township 5 North, Range 5 West through Range 7 East
+                Township 4 North, Range 5 West through Range 8 East
+                Township 3 North, Range 5 West through Range 8 East
+                Township 2 North, Range 5 West through Range 8 East
+                Township 1 North, Range 5 West through Range 7 East
+                Township 1 South, Range 5 West through Range 7 East
+                Township 2 South, Range 5 West through Range 7 East
+                Township 3 South, Range 5 West through Range 1 East
+                Township 4 South, Range 5 West Through Range 1 East
+
+R1001.1.4 Effective Date:
+ The effective date of the regulations and prohibitions set forth in this subsection shall
+be December 31, 1998.
+R1001.1.5 Definitions:
+For purposes of this subsection, the following words and terms shall be defined as
+follows:
+        FIREPLACE means a built-in place masonry hearth and fire chamber of a factory-
+        built appliance, designed to burn solid fuel or to accommodate gas or electric log
+        insert or similar device, and which is intended for occasional recreational or
+        aesthetic use, not for cooking, heating, or industrial processes.
+        SOLID FUEL includes but is not limited to wood, coal, or other nongaseous or
+        nonliquid fuels, including those fuels defined by the Maricopa County Air
+        Pollution Control Officer as “inappropriate fuel” to burn in residential wood-
+        burning devices.
+        WOOD STOVE means a solid fuel burning heating appliance, including a pellet
+        stove, which is either freestanding or designed to be inserted into a fireplace.
+
+R1001.1.6 Installation Restrictions:
+On or after December 31, 1998, no person, firm or corporation shall construct or install a
+
+                                                                                                          35
+
+===== Page 37 =====
+fireplace or a wood stove, and the Building Official shall not approve or issue a permit to
+construct or install a fireplace or a wood stove, unless the fireplace or wood stove
+complies with one of the following:
+    1.   Provides the sole or primary source of heat or fuel for cooking for a residence.
+    2.   Meets performance standards for new residential wood heaters manufactured
+        on or after July 1, 1990, or sold at retail on or after July 1, 1992, as prescribed by
+        40 Code of Federal Regulations Part 60, Subpart AAA.
+    3.   Burns gaseous fuels, including gas logs.
+    4.   Meets rules adopted by the Board of Supervisors as prescribed in ARS § 49-479
+        for burning wood in approved appliances.
+
+R1001.1.7 Permits Required:
+In addition to the provisions and restrictions of this subsection, construction,
+installation or alteration of all fireplaces, wood stoves and gas, electric or solid fuel
+burning appliances and equipment shall be done in compliance with provisions of the
+County Building Code and shall be subject to the permits and inspections required by
+the County Building Code.
+
+N1101.1 (R101.2) Scope.
+This chapter applies to the design and construction of residential buildings as regulated
+by this code.  Compliance with Chapter 11 Energy Eﬃciency or the International Energy
+Conservation Code is optional unless speciﬁcally required through ordinance by
+Maricopa County. If used, the following amendments will apply:
+
+N1101.4.1 RESNET testing & inspection protocol.
+The Residential Energy Services Network (RESNET) Mortgage Industry National Home
+Energy Rating System Standards (MINHERS) for third party testing and inspections shall
+be deemed to meet the requirements of sections N1102.5.1, N1102.5.1.2 and
+N1103.3.7 and shall meet the following conditions:
+            1.   Third Party Testing & Inspections shall be completed by RESNET certiﬁed
+                Raters or Rating Field Inspectors and shall be subject to RESNET Quality
+                Assurance Field Review Procedures.
+            2.   Sampling in accordance with Chapter 6 of the MINHERS Standards shall
+                be performed by Raters or Rating Field Inspectors Working under a
+                RESNET Accredited Sampling Provider.
+            3.   Third Party Testing is required for the following items:
+                a.  N1102.5.1– Building Envelope –  Thermal Air Barrier Checklist
+                b.  N1102.5.1.2– Testing – Air Leakage Rate
+                c.  N1103.3.7– Sealing – Duct Tightness
+                d.  Any other testing and inspections required under the code.
+
+
+                                                                                                           36
+
+===== Page 38 =====
+            4.   Alternate testing and inspection programs and protocols shall be allowed
+                when approved by the Building Code Oﬃcial.
+
+N1101.4.2 Alternative approach for compliance:
+A Home Energy Rating System (“HERS”) Index of 57  or less, conﬁrmed in writing by a
+Residential Energy Services Network certiﬁed energy rater may be used in place of the
+approach described in Section N1101.2 above. Compliance may be demonstrated by
+use of sampling in accordance with Chapter 6 of the Mortgage Industry National Home
+Energy Rating Systems Standard as adopted by the Residential Energy Services
+Network.
+
+                TABLE N1106.5 (R406.5) MAXIMUM ENERGY RATING INDEX
+ CLIMATE ZONE                   ENERGY RATING INDEX                        ENERGY RATING INDEX
+                                 NOT INCLUDING OPP                                 WITH OPP
+      0 and 1                                51                                         35
+          2                                51  57                                       34
+          3                                  50                                         33
+          4                                  53                                         40
+          5                                  54                                         43
+          6                                  53                                         43
+          7                                  52                                         46
+          8                                  52                                         46
+
+G2406.2.1 (303.3.2) Liqueﬁed Petroleum Appliances Prohibited
+Locations. LPG appliances shall not be installed in an attic, pit or other
+location that would cause a ponding or retention of gas.
+
+P2905.3 Hot water supply to ﬁxtures. RESERVED
+The developed length of hot water piping, from the source of the hot water to the
+ﬁxtures that require hot water, shall not exceed 100 feet (30 480 mm). Water heaters
+and recirculating system piping shall be considered to be sources of hot water.
+
+E3901.4.2 Island and peninsular countertops and work surfaces.
+Receptacle outlets, if installed to serve an island or peninsular countertop or work
+surface, shall be installed in accordance with Section E3901.4.3. If a receptacle outlet is
+not provided to serve an island or peninsular countertop or work surface, provisions
+shall be provided at the island or peninsula for future addition of a receptacle outlet to
+serve the island or peninsular countertop or work surface.  At least one receptacle shall
+be installed at each island and peninsular countertop space with a long dimension of
+
+
+                                                                                                         37
+
+===== Page 39 =====
+600 mm (24 in.) or greater and a short dimension of 300 mm (12 in.) or greater. A
+peninsular countertop is measured from the connected perpendicular wall.
+
+E3901.4.3 Receptacle outlet location.
+Receptacle outlets rendered not readily accessible by appliances fastened in place,
+appliance garages, sinks, or rangetops as covered in the exception to Section E3901.4.1,
+or appliances occupying assigned spaces shall not be considered as these required
+outlets. Required receptacle outlets shall be located in one or more of the following:
+
+            1.   On or above, but not more than 20 inches (508 mm) above, the countertop
+                 or work surface.
+            2.   In a countertop using receptacle outlet assemblies listed for the use in
+                 countertops.
+            3.   In a work surface using receptacle outlet assemblies listed for use in work
+                 surfaces or listed for use in countertops. [210.52(C)(3)]
+
+Exception: To comply with the following conditions (1) and (2), receptacle outlets shall
+be permitted to be mounted not more than 300 mm (12 in.) below the countertop or
+work surface. Receptacles mounted below a countertop or work surface in accordance
+with this exception shall not be located where the countertop or work surface extends
+more than 150 mm (6 in.) beyond its support base.
+        1. Construction for the physically impaired
+        2. On island and peninsular countertops or work surface where the surface is ﬂat
+        across its entire surface (no backsplashes, dividers, etc.) and there are no means
+        to mount a receptacle within 500 mm (20 in.) above the countertop or work
+        surface, such as an overhead cabinet
+
+
+E3606.5 Surge protection. RESERVED
+
+All services supplying one- and two-family dwelling units shall be provided with a surge-
+protective device (SPD) installed in accordance with            Sections
+E3606.5.1 through E3606.5.3.
+
+E3902.2 Garage and accessory building receptacles.
+
+125-        volt through 250-volt receptacles installed in garages and grade       -level portions of
+unﬁnished accessory buildings used for storage or work areas and supplied by single-
+phase branch circuits rated 150 volts or less to ground shall have ground-fault circ       uit-
+interrupter protection for personnel. [210.8(A)(2)]
+
+                                                                                                             38
+
+===== Page 40 =====
+Exception: Receptacles that are not readily accessible.
+
+E3902.14  Outdoor outlets.
+
+All outdoor outlets, including outlets installed in the following locations, and supplied by
+single-phase branch circuits rated 150 volts or less to ground, 50 amperes or less, shall
+be provided with GFCI protection:
+
+    1.   Garages that have ﬂoors located at or below grade level.
+    2.   Accessory buildings.
+    3.   Boathouses.
+
+Exceptions:
+
+    1.   GFCI protection shall not be required on lighting outlets other than those covered
+        in Section 210.8(F) of NFPA 70.
+    2.   GFCI protection shall not be required for receptacles that are not readily
+        accessible and are supplied by a branch circuit dedicated to electric snow-
+        melting, deicing, or pipeline and vessel heating equipment where such equipment
+        is protected as required by NFPA 70.
+    3.   GFCI protection shall not be required for listed HVAC equipment. This exception
+        shall expire September 1, 2026. [210.8(F)]
+
+E4002.11   Bathtub and shower space.
+Receptacles shall not be installed inside of the tub or shower  within a zone measured 3
+feet (914 mm) horizontally from the outside edge of the within or directly over a bathtub
+or shower stall, including the space outside the bathtub or shower stall space below the
+zone. The zone also includes the space measured vertically from the floor to    8 feet (2438
+mm) above the top of the bathtub rim or shower stall threshold. The identified zone is all-
+encompassing and shall include the space directly over the bathtub or shower stall and
+the space below this zone, but not space separated by a floor, wall, ceiling, room door,
+window, or fixed barrier. [406.9(C)]
+Exceptions:
+    1.   Receptacles installed in accordance with Section E4209.4 shall be permitted.
+        [406.9(C) Exception No. 1]
+    2.   In bathrooms with less than the required zone, the receptacle(s)  required
+        by Section E3901.6 shall be permitted to be installed opposite the bathtub rim or
+
+
+                                                                                                             39
+
+
+===== Page 41 =====
+        shower stall threshold on the farthest wall in the room. [406.9(C) Exception No.
+        2]
+    3.   Weight-supporting ceiling receptacles (WSCR) shall be permitted to be installed
+        for listed luminaires that employ a weight-supporting attachment fitting (WSAF)
+        in damp locations complying with Section E4003.11. [406.9(C) Exception No. 3]
+    4.   A single receptacle shall be permitted for an electronic toilet or personal hygiene
+        device such as an electronic bidet seat. The receptacle shall be readily
+        accessible and not located in the space between the toilet and the bathtub or
+        shower. [406.9(C) Exception No. 4]
+
+
+Appendix BC Accessory Dwelling Units (ADU)
+
+BC101.1   Scope.
+
+Accessory dwelling units (ADUs) proposed for existing residential construction shall be
+in accordance with this appendix and other applicable requirements in this code, and
+the existing building together with the ADUs shall not exceed the scoping limitations
+of Section R101.2.  ADUs are also subject to the requirements of the Maricopa County
+Zoning Ordinance.
+
+BC101.1.1Prohibited conditions.
+
+For all prohibited conditions for an ADU  refer to the requirements of the currently
+adopted Maricopa County Zoning Ordinance.  An ADU shall not be permitted within:
+    1.   Live/work units located in townhouses.
+    2.   Owner-occupied lodging houses with ﬁve or fewer  guestrooms.
+    3.   A care facility with ﬁve or fewer persons receiving custodial care within a dwelling
+        unit.
+    4.   A care facility with ﬁve or fewer persons receiving medical care within a dwelling
+        unit.
+    5.   A day care facility with ﬁve or fewer persons of any age receiving care within
+        a dwelling unit.
+BC101.2   Conditions.
+
+ADUs shall be permitted without requiring a change of occupancy where in compliance
+with all of the following:  For all conditions where an ADU is allowed, their ﬂoor area,
+height and setbacks see the requirements of the currently adopted Maricopa County
+Zoning Ordinance.
+
+                                                                                                            40
+
+
+===== Page 42 =====
+    1.   An ADU shall be permitted within an existing single-family detached dwelling or
+        within an existing townhouse unit that is within the scope of the International
+        Residential Code.
+    2.   Only one ADU shall be permitted for each primary dwelling unit.
+    3.   The owner of a property containing an ADU shall reside in either the
+        primary dwelling unit or the ADU, as of the date of permit approval.
+    4.   An ADU shall have a separate house number from the primary dwelling unit.
+    5.   ADUs shall be secondary in size and function to the primary dwelling unit and
+        shall comply with all of the following limits:
+                 5.1. Not less than 190 square feet (17.65 m2) in area.
+                 5.2. Not more than 50 percent of the area of the primary dwelling unit.
+                 5.3 Not more than 1,200 square feet (111 m2) in area.
+    6.   An ADU shall be provided with a separate entrance from that serving the
+        primary dwelling unit, either from the exterior of the   building or from a common
+        hallway located within the building.
+    7.   An ADU shall have a maximum number of two bedrooms.
+    8.   The location of a detached ADU shall comply with Section R302.
+    9.   An ADU shall be provided with adequate provisions for electricity, water supply
+        and sewage disposal.
+    10.  Refer to Chapter 6 of the Maricopa County Zoning Ordinance (MCZO) for all
+        conditions for the use of an ADU including ﬂoor area, height and setbacks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                               41
+
+===== Page 43 =====
+2024 International Existing Building Code – Maricopa County
+Amendments:
+
+[A] 101.1   Title.
+
+These regulations shall be known as the Existing Building Code of [NAME OF
+JURISDICTION] Maricopa County, herein-after referred to as “this code.”
+
+[A] 103.1   Creation of agency.
+
+The [INSERT NAME OF DEPARTMENT] Planning and Development Department is hereby
+created, and the oﬃcial in charge thereof shall be known as the code oﬃcial. The
+function of the agency shall be the implementation, administration and enforcement of
+the provisions of this code.
+
+803.2   Automatic sprinkler systems.
+
+Automatic sprinkler systems shall be provided and installed    in accordance with the
+requirements of Sections 803.2.1 through        803.2.6. Installation requirements shall be in
+accordance with the International Building Code the ﬁre authority having jurisdiction and
+their adopted Fire Code.
+
+904.1   Automatic sprinkler systems.
+
+An automatic sprinkler system shall be provided in a work area   where required
+by Section 803.2 or this section the ﬁre authority having jurisdiction and their adopted
+Fire Code.
+
+1011.2   Fire protection systems.
+
+Fire protection systems shall be provided in accordance with Sections
+1011.2.1 and   1011.2.2 the requirements of the ﬁre authority having jurisdiction.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                           42
+
+===== Page 44 =====
+2024 International Plumbing Code – Maricopa County Amendments:
+
+[A] 101.1   Title.
+
+These regulations shall be known as the Plumbing Code of [NAME OF JURISDICTION]
+Maricopa County   hereinafter referred to as “this code.”
+
+[A] 101.2.1 Appendices.
+
+Provisions in the appendices shall not apply unless speciﬁcally adopted.  The following
+appendices are hereby adopted in their entirety: Appendices C and E.
+
+[A] 103.1   Creation of agency.
+
+The [INSERT NAME OF DEPARTMENT] Planning and Development Department is hereby
+created and the oﬃcial in charge thereof shall be known as the code oﬃcial. The
+function of the agency shall be the implementation, administration and enforcement of
+the provisions of this code.
+
+[A] 105.2Exempt work.
+
+The following work shall be exempt from the requirement for a permit:
+
+    1.   The stopping of leaks in drains, water, soil, waste or vent pipe provided, however,
+        that if any concealed trap, drainpipe, water, soil, waste or vent pipe becomes
+        defective and it becomes necessary to remove and replace the same with new
+        material, such work shall be considered as new work and a permit shall be
+        obtained and inspection made as provided in this code.
+    2.   The clearing of stoppages or the repairing of leaks in pipes, valves or ﬁxtures, and
+        the removal and reinstallation of water closets, provided that such repairs do not
+        involve or require the replacement or rearrangement of valves, pipes or ﬁxtures.
+    3.   Replacement of water closets, valves or ﬁxtures with new valves or ﬁxtures
+        complying with the water conservation requirements of this code.
+    4.   Replacement in kind of an existing storage tank water heater in one-  and-  two
+        family dwellings when the work is performed by a licensed contractor. This
+        exception does not apply to instant-hot on-demand type water heaters of any
+        size.
+Exemption from the permit requirements of this code shall not be deemed to grant
+authorization for any work to be done in violation of the provisions of this code or any
+other laws or ordinances of this jurisdiction.
+
+[A] 114.4    Violation penalties.
+
+Any person who shall violate a provision of this code or shall fail to comply with any of
+the requirements thereof or who shall erect, install, alter or repair plumbing work in
+
+                                                                                                           43
+
+===== Page 45 =====
+violation of the approved construction documents or directive of the code oﬃcial, or of a
+permit or certiﬁcate issued under the provisions of this code, shall be guilty of
+a [SPECIFY OFFENSE], punishable by a ﬁne of not more than  [AMOUNT] dollars or by
+imprisonment not exceeding [NUMBER OF DAYS], or both such ﬁne and imprisonment.
+Each day that a violation continues after due notice has been served shall be deemed a
+separate offense.
+
+Any person who violates a provision of this code or fails to comply with any of the
+requirements thereof or who erects, constructs, alters or repairs a building or structure
+in violation of the   approved   construction documents or directive of the   building oﬃcial,
+or of a permit or certiﬁcate issued under the provisions of this code, shall be subject to
+penalties as prescribed by law.
+
+[A] 114.4.1   Work commencing before permit issuance:
+
+Any person who commences any work on a building, structure, electrical, gas,
+mechanical or plumbing system before obtaining the necessary permits      shall be subject
+to a fee established by the Building Oﬃcial that shall be in addition to the required
+permit fees. Said fee is to be the building permit fee, doubled.
+
+305.4.1   Sewer depth.
+
+Building sewers that connect to private sewage disposal systems shall be installed not
+less than [NUMBER] 12 inches (305 mm) below ﬁnished grade at the point of septic tank
+connection and shall meet all requirements from Maricopa County Environmental
+Services design standards. Building sewers shall be installed not less than [NUMBER]
+12 inches (305 mm) below grade.
+
+903.1.1   Roof extension unprotected.
+
+Open vent pipes that extend through a roof shall be terminated not less than [NUMBER]
+12 inches (305 mm) above the roof.
+
+1003.3   Grease interceptors.
+
+Grease interceptors shall comply with the requirements of Sections 1003.3.1 through
+1003.3.8 and Maricopa County Environmental Services requirements or the utility
+having jurisdiction.
+
+
+
+
+
+
+
+
+                                                                                                            44
+
+
+===== Page 46 =====
+2024 International Mechanical Code – Maricopa County Amendments:
+
+[A] 101.1   Title.
+
+These regulations shall be known as the Mechanical Code of [NAME OF JURISDICTION]
+Maricopa County, hereinafter referred to as “this code.”
+
+[A] 103.1   Creation of agency.
+
+The [INSERT NAME OF DEPARTMENT] Planning and Development Department is hereby
+created and the oﬃcial in charge thereof shall be known as the code oﬃcial. The
+function of the agency shall be the implementation, administration and enforcement of
+the provisions of this code.
+
+[A] 105.2   Permits not required.
+
+Permits shall not be required for the following:
+
+    1.   Portable heating appliances.
+    2.   Portable ventilation appliances and   equipment.
+    3.   Portable cooling units.
+    4.   Steam, hot water or chilled water piping within any heating or
+        cooling equipment or appliances regulated by this code.
+    5.   The replacement of any minor part that does not alter the approval
+        of equipment or an appliance or make such equipment or appliance unsafe.
+    6.   Portable evaporative coolers.
+    7.   Self-contained refrigeration systems      that contain 10 pounds (4.5 kg) or less of
+        refrigerant, or that are actuated by motors of 1 horsepower (0.75 kW) or less.
+    8.   Portable fuel cell appliances that are not connected to a ﬁxed piping system and
+        are not interconnected to a power grid.
+    9.   Repair or replacement in kind of refrigeration units not over 5 tons of refrigeration
+        capacity when located outdoors, in the same location and equal to or less than
+        the weight of that which is replaced.
+
+
+Exemption from the permit requirements of this code shall not be deemed to grant
+authorization for work to be done in violation of the provisions of this code or other laws
+or ordinances of this jurisdiction.
+
+[A] 114.4    Violation penalties.
+
+Persons who shall violate a provision of this code or shall fail to comply with any of the
+requirements thereof or who shall erect, install, alter or repair mechanical work in
+violation of the approved construction documents or directive of the code oﬃcial, or of a
+permit or certiﬁcate issued under the provisions of this code, shall be guilty of
+
+                                                                                                            45
+
+===== Page 47 =====
+a [SPECIFY OFFENSE], punishable by a ﬁne of not more than [AMOUNT] dollars or by
+imprisonment not exceeding [NUMBER OF DAYS], or both such ﬁne and imprisonment.
+Each day that a violation continues after due notice has been served shall be deemed a
+separate offense.
+
+Any person who violates a provision of this code or fails to comply with any of the
+requirements thereof or who erects, constructs, alters
+or repairs a building or structure in violation of the approved   construction documents or
+directive of the building oﬃcial, or of a permit or certiﬁcate issued under the provisions
+of this code, shall be subject to penalties as prescribed by law.
+
+[A] 114.4.1   Work commencing before permit issuance:
+
+Any person who commences any work on a building, structure, electrical, gas,
+mechanical or plumbing system before obtaining the necessary permits      shall be subject
+to a fee established by the Building Oﬃcial that shall be in addition to the required
+permit fees. Said fee is to be the building permit fee, doubled.
+
+SECTION 901.5 Fireplace Restrictions
+
+ 901.5.1   Purpose
+
+The purpose of  this subsection is to  regulate fireplaces, wood stoves, or
+other solid fuel burning   devices to reduce the amount of air pollution caused
+by particulate matter and   carbon monoxide.
+
+ 901.5.2   Applicability
+
+The Residential Woodburning Restriction Ordinance applies to any residential
+wood burning   device in sections of Area A that are within Maricopa County
+or within incorporated cities and towns in such sections.
+
+         AREA A –      As defined in Arizona Revised Statues (ARS) §49-541(1), the area   in
+         Maricopa County delineated as follows:
+
+                Township 8 North, Range 2 East and Range 3 East
+                Township 7 North, Range 2 West through Range 5 East
+                Township 6 North, Range 5 West through Range 6 East
+                Township 5 North, Range 5 West through Range 7 East
+                Township 4 North, Range 5 West through Range 8 East
+                Township 3 North, Range 5 West through Range 8 East
+                Township 2 North, Range 5 West through Range 8 East
+                Township 1 North, Range 5 West through Range 7 East
+
+                                                                                                           46
+
+
+===== Page 48 =====
+                Township 1 South, Range 5 West through Range 7 East
+                Township 2 South, Range 5 West through Range 7 East
+                Township 3 South, Range 5 West through Range 1 East
+                Township 4 South, Range 5 West Through Range 1 East
+
+
+901.5.3   Effective Date
+
+The effective date of the regulations and prohibitions set forth in this
+subsection shall be December 31, 1998.
+
+901.5.4   Definitions
+
+For purposes of this subsection, the following words and   terms shall be defined as
+follows:
+
+
+FIREPLACE means a built in place masonry hearth and   fire chamber of a
+factory-built appliance, designed to burn solid fuel or to accommodate
+gas or electric log insert or similar device, and   which is intended for
+occasional  recreational or aesthetic use, not for cooking, heating, or
+industrial processes.
+
+SOLID FUEL includes but is not limited to wood, coal, or other
+nongaseous or nonliquid fuels, including those fuels defined by the
+Maricopa County Air Pollution Control Officer as “inappropriate fuel” to
+burn in residential  wood-burning devices.
+
+WOOD STOVE means a solid fuel burning heating appliance, including a
+pellet stove, which is either freestanding or designed to be inserted into a
+fireplace.
+
+901.5.6   Installation Restrictions
+
+On or after December 31, 1998, no person, firm or corporation shall
+construct or install   a fireplace or a wood stove, and   the Building Official
+shall not approve or issue a permit to construct or install   a fireplace or a
+wood stove, unless the fireplace or wood stove complies with one of the
+following:
+
+   1.   Provides the sole or primary source of heat or fuel for cooking
+       for a residence.
+   2.   Meets  performance    standards  for  new  residential  wood  heaters
+
+                                                                                                             47
+
+===== Page 49 =====
+         manufactured on or after July 1, 1990, or sold at retail on or after July
+         1, 1992, as prescribed by 40 Code of Federal Regulations Part 60,
+         Subpart AAA.
+    3.   Burns gaseous fuels, including gas logs.
+    4.   Meets rules adopted by the Board   of Supervisors as prescribed in ARS
+         § 49- 479 for burning wood in approved appliances.
+
+ 901.5.7   Permits Required
+
+In    addition to the provisions and   restrictions of this subsection, construction, installation
+or alteration of all fireplaces, wood stoves and gas, electric or solid-fuel burning   appliances
+and   equipment shall   be done in compliance with provisions of the County Building Code
+and   shall be subject to the permits and   inspections required by the County Building Code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                    48
+
+===== Page 50 =====
+2024 International Fuel Gas Code – Maricopa County Amendments:
+
+[A] 101.1   Title.  These regulations shall be known as the   Fuel Gas Code of [NAME OF
+JURISDICTION] Maricopa County, hereinafter referred to as “this code.”
+
+[A] 101.2.1   Appendices.   Provision in the appendices shall not apply unless speciﬁcally
+adopted.   The following appendices are hereby adopted in their entirety: appendices A,
+B and C.
+
+[A] 113.4   Violation penalties.  Persons who shall violate a provision of this code, fail to
+comply with any of the requirements thereof or erect, install, alter or repair work in
+violation of the approved construction documents or directive of the   code oﬃcial, or of a
+permit or certiﬁcate issued under the provisions of this code, shall be guilty of
+a [SPECIFY OFFENSE], punishable by a ﬁne of not more than [ AMOUNT] dollars or by
+imprisonment not exceeding [NUMBER OF DAYS], or both such ﬁne and imprisonment.
+Each day that a violation continues after due notice has been served shall be deemed a
+separate offense.
+
+Any person who violates a provision of this code or fails to comply with any of the
+requirements thereof or who erects, constructs, alters
+or repairs a building or structure in violation of the approved   construction documents or
+directive of the building oﬃcial, or of a permit or certiﬁcate issued under the provisions
+of this code, shall be subject to penalties as prescribed by law.
+
+[A] 114.4.1   Work commencing before permit issuance:
+
+Any person who commences any work on a building, structure, electrical, gas,
+mechanical or plumbing system before obtaining the necessary permits      shall be subject
+to a fee established by the Building Oﬃcial that shall be in addition to the required
+permit fees. Said fee is to be the building permit fee, doubled.
+
+301.2   Energy utilization.
+
+Heating, ventilating and air-conditioning systems of all structures shall may be designed
+and installed for eﬃcient utilization of energy in accordance with the International
+Energy Conservation Code.
+
+303.3.2 Liqueﬁed Petroleum Appliances Prohibited Locations:
+
+LPG appliances shall not be installed in an attic, pit or other location that would cause a
+ponding or retention of gas except if sensors to detect LP gas are installed and
+interconnected with the smoke and CO detectors.
+
+
+                                                                                                            49
+
+===== Page 51 =====
+                                                                                                                                                                                        50
+
+===== Page 52 =====
+2023 National Electrical Code –     Maricopa County Amendments:
+
+
+
+250.118 Types of Equipment Grounding Conductors.
+
+(A)  Permitted. Each equipment grounding conductor run with or enclosing the circuit
+conductors shall be one or more or a combination of the following:
+(4)   Electrical metallic tubing with an additional equipment grounding conductor .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                            51
+
+===== Page 53 =====
+2024 International Energy Conservation Code – Maricopa County
+Amendments:
+
+
+
+C101.1   Title.
+
+This code shall be known as the Energy Conservation Code of [NAME OF
+JURISDICTION] Maricopa County   and shall be cited as such. It is referred to herein as
+“this code.”  The use of this code is voluntary unless required through ordinance by
+Maricopa County.
+
+
+
+R104.1.2 RESNET testing & inspection protocol.
+
+The Residential Energy Services Network (RESNET) Mortgage Industry National Home
+Energy Rating System Standards (MINHERS) for third party testing and inspections shall
+be deemed to meet the requirements of sections R402.5.1, R402.5.1.2 and R403.3.7 and
+shall meet the following conditions:
+
+    1.   Third Party Testing & Inspections shall be completed by RESNET certiﬁed Raters
+        or Rating Field Inspectors and shall be subject to RESNET Quality Assurance
+        Field Review Procedures.
+    2.   Sampling in accordance with Chapter 6 of the MINHERS Standards shall be
+        performed by Raters or Rating Field Inspectors Working under a RESNET
+        Accredited Sampling Provider.
+    3.   Third Party Testing is required for the following items:
+            a.   R402.5.1– Building Envelope –  Thermal Air Barrier Checklist
+            b.   R402.5.1.2 – Testing – Air Leakage Rate
+            c.   R403.3.7 – Sealing – Duct Tightness
+            d.   Any other testing and inspections required under the code.
+    4.   Alternate testing and inspection programs and protocols shall be allowed when
+        approved by the Building Code Oﬃcial.
+
+
+R104.1.2.1 Alternative approach for compliance:
+A Home Energy Rating System (“HERS”) Index of 57 or less, conﬁrmed in writing by a
+Residential Energy Services Network certiﬁed energy rater may be used in place of the
+approach described in Section N1101.2 above. Compliance may be demonstrated by
+use of sampling in accordance with Chapter 6 of the Mortgage Industry National Home
+Energy Rating Systems Standard as adopted by the Residential Energy Services
+Network.
+                                                                                                         52
+
+===== Page 54 =====
+SECTION R406.5
+
+                               TABLE R406.5 MAXIMUM ENERGY RATING INDEX
+   CLIMATE ZONE                        ENERGY RATING INDEX                          ENERGY RATING INDEX WITH
+                                        NOT INCLUDING OPP                                          OPP
+        0 and 1                                     51                                              35
+            2                                     51  57                                            34
+            3                                       50                                              33
+            4                                       53                                              40
+            5                                       54                                              43
+            6                                       53                                              43
+            7                                       52                                              46
+            8                                       52                                              46
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                       53
+
+===== Page 55 =====
+2024 International Green Construction Code –  Maricopa County
+Amendments:
+
+
+
+101.1   Title.
+
+These regulations shall be known as the Green Construction Code of [NAME OF
+JURISDICTION] Maricopa County, hereinafter referred to as “this code.”  The use of this
+code is voluntary unless required through ordinance by Maricopa County.
+
+
+
+103.1   Creation of agency.
+
+The [NAME OF DEPARTMENT] Planning and Development Department is hereby
+created and the oﬃcial in charge thereof shall be known as “the authority having
+jurisdiction (AHJ).” The function of the agency shall be the implementation,
+administration and enforcement of the provisions of this code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                           54
+
+===== Page 56 =====
+               Maricopa County Local Additions       &
+                                     Addenda
+                          FEE SCHEDULE
+
+
+                  Maricopa   County Planning and Development Department 301 W.
+                  Jefferson St., Suite 170
+                  Phoenix, AZ 85003
+
+                  21 October 2026
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                       55
+
+===== Page 57 =====
+Determination of Value: Values shall be determined through the use of the most
+current published Building Valuation data   in the publication “Building Standards” as
+modified for Arizona. The Building Official may develop similar increases for
+unpublished valuations.
+
+
+Additional Value Determinations:
+
+Walls and   Fences:
+
+Retaining Walls                           Per Lineal Foot
+     0-2’                                                $15
+     2-4’                                                $25
+     4-6’                                                $42
+6’ or more                                               $86
+Chain link                                               $  6
+CMU
+     4” 6’ or less                                       $14
+     4” more than 6’                                     $21
+     8” block or other                                   $22
+Wrought iron                                             $16
+Iron wood                                                $18
+Wood                                                     $11
+3 strand barbed wire                                     $  3
+Rail                                                     $  6
+
+
+
+
+            In    ground pools $200 per perimeter foot.
+            Wood frame or masonry patio covers shall be valued   as open carports.
+            Metal patio covers and covered pipe-rail horse corrals shall be valued at 50
+           percent of the value of a wood or masonry patio cover.
+            Non-habitable accessory   buildings, other than covered pipe-rail horse corrals,
+           shall be valued as a private garage.
+            Water/sewer collection and   distribution lines shall be valued   as determined by
+           the Building Oﬃcial.
+            Shell   buildings shall be valued   at 80% of new building value. Alterations shall
+           be valued at 20% of new building value.
+
+
+                                                                                                               56
+
+===== Page 58 =====
+Processing: All plan review fees (65 percent of calculated permit fee) required to be
+paid shall entitle the applicant to three submissions and reviews of documents
+submitted. If the applicant  is unable to obtain approval of his application with these
+three attempts, the application shall be denied. The applicant may then resubmit and
+the submittal shall be treated as a new application. Should these circumstances occur
+or the permit has been expired in accordance with the Building Code, the Building
+Official may use information located in the denied/expired files to expedite processing,
+provided that the owner and/or architect/engineer have remained the same and   that the
+building plans have not been changed.
+
+No subsequent step in the permit process shall be undertaken without all fees due
+being paid.
+
+Fees: The Building Official  may develop a requirement for an initial flat rate filing fee     for
+permits that require plan review. Should this type of fee be developed, said fee shall be
+considered as a part of and   credited against any required plan review fees. The building
+plan review fees specified in the code are separate fees from the permit fees specified,
+these fees are also separate from the fees specified for investigations. Building plan
+review fees are assessed in addition to these other fees. All fees may be rounded up to
+the next full dollar amount at the discretion of the Building Official.
+
+                            TABLE 1-A – BUILDING CODE/PERMIT FEES
+          Total Valuation                                        Fee
+$1 to $500                                              $23.50
+$501 to $2,0000                                         $23.50 for the first $500 plus $3.05 for
+                                                        each additional $100, or fraction thereof, to
+                                                        and including $2,000
+
+$2,001 to $25,000                                       $69.25 for the first $2,000 plus $14.00 for
+                                                        each additional $1000, or fraction
+                                                        thereof, to and including $25,000
+
+$25,001 to $50,000                                      $391.75 for the first $25,000 plus $10.10 for
+                                                        each additional$1000, or fraction thereof, to
+                                                        and including $50,000
+
+$50,001 to $100,000                                     $643.75 for the first $50,000 plus $7.00
+                                                        for each additional $1000, or fraction
+                                                        thereof, to and including $100,000
+
+
+
+
+                                                                                                             57
+
+===== Page 59 =====
+                  TABLE 1-A – BUILDING CODE/PERMIT FEES (Continued)
+$100,001 to $500,000                                  $993.75 for the first $100,000 plus $5.60
+                                                      for each $1000, or fraction thereof, to and
+                                                      including $500,000
+
+$500,001 to $1,000,000                                $3,233.75 for the first $500,000 plus
+                                                      $4.75 for each additional $1000, or
+                                                      fraction thereof, and including
+                                                      $1,000,000
+
+$1,000,001 and up                                     $5,608.75 for the first $1,000,000 plus
+                                                      $3.65 for each
+                                                      additional $1000, or fraction thereof
+
+
+
+Other Inspections and Fees:
+
+Inspections outside of normal business hours                         $ 150 per residential inspection
+                                                                    $ 250 per commercial inspection
+Reinspection fees                                                    $ 150 per residential inspection
+                                                                    $ 250 per commercial  inspection
+Inspections for which no fee is indicated                                          $ 150 per inspection
+Expedited plan review by consultant                                                          Actual costs
+Standard plan review (5 options)                                      2 times normal plan review fee
+Change to approved plan (includes standards)                                                         $ 250
+Code Modification                                                                     $ 100 per request
+Alternate material, design, or methods                                                $ 100 per request
+Tests required                                                     $ 100 per test & test fees paid by
+                                                                                                 applicant
+Appeal to the Building Code Advisory Board                                                           $ 500
+Amendment to the Code                                                                               $1500
+Requested/needed        staff directive                                                              $ 250
+Requested     staff research report                                         $ 100 residential property
+                                                                           $ 250 commercial property
+
+
+
+
+
+                                                                                                           58
+
+
+===== Page 60 =====
+ Annual Facilities Permit Program:
+         Registration Fee                                                                              $750
+         Annual Facilities Permit                                                           $500 per year
+         Inspection Fee                                                                     $190 per hour
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                            59
+
+
+===== Page 61 =====
+Flat  Rate Fees:
+
+Air Conditioner                                                                                      $50
+Elec. Serv Residential 1 – 200 amps                                                                  $50
+Elec. Serv Res or Comm 201 – 400 amps                                                                $75
+Elec. Serv over 400 amps                                                                           $120
+Temporary     Meter                                                                                  $50
+Evaporative Cooler                                                                                   $50
+Gas Line (connect or clearance)                                                                      $50
+Mobile Home “Pre-HUD Upgrade”                                                                        $50
+Plumbing Sewer Line SFR                                                                              $50
+Irrigation System                                                                                    $50
+Sprinkler                                                                                            $50
+Mechanical                                                                                           $50
+Plumbing (Install or replace                                                                         $50
+Equip/fixture/devices)
+Demolition Permit                                                                                    $50
+Manufactured/Mobile Home Setup/Installation                                                        $300
+Commercial Manufactured Building (factory-built                       Based on installation value &
+building)                                                                                     Table 1-A
+Occupancy Change                                                                                     $75
+Hot Tub or Spa (in or above ground)                                                                  $75
+Swimming Pool above ground                                                                           $75
+Compliance Inspection                                                                              $100
+Move on House (compliance inspection                                                               $100
+Renew Permit for Final                                                                             $100
+Special Event Fee (tents)                                                              $100 per event
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                        60
+
+===== Page 62 =====
+Additional Fees:
+
+Plumbing (water/sewer collector lines)                                     $30 min based on valuation
+Amendment to approved plan data                                                                         $30
+Unpaved Parking Area Paving                                                                            $100
+Temporary     Certificate of Occupancy Without bonding                                                 $250
+With bonding                                                                                           $500
+Subdivision Infrastructure Permit                                                                      $300
+Ground Mounted Residential Solar System (Less than                                                     $500
+six (6) feet high)
+Roof   Mounted     Residential Solar System                                                            $300
+
+
+
+Licensing  Time Frame Fees:
+
+Pre-application meeting fee for non-                                                                   $350
+residential projects
+Pre-application meeting fee for residential                                                            $150
+projects   subject to a violation
+Pre-application meeting fee for residential                                                             $50
+projects   not subject to a violation
+Fee for a change to an application for a                                                                $50
+license in progress
+Fee for an application to be added to an                                                                $50
+application for a license in progress
+Fee to re  -initiate application for a license                                                          $50
+administratively denied   due to time (within
+180 days)
+Fee to appeal administrative denial of a                                                               $150
+license (within 30 days)
+
+
+Copy Charges:
+
+Additional copy of:
+         Permit                                                                                           $2
+         Job card                                                                                         $2
+         Certificate of Occupancy                                                                         $2
+Copy (Approved Plans – per set) - (Restamping Only)                                                     $15
+
+                                                                                                            61
+
+===== Page 63 =====
+Copy (per page)
+          Standard   copier                                                                                $1
+          Oversize copier                                                                                  $6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                             62
+
+
+===== Page 64 =====
+Grading Fees
+
+Plan Review Fees:
+
+Volume of material (Cut and Fill):                                                                      Fee:
+<50 cubic yards                                                                                      No fee
+50 – 100 cubic yards                                                                                 $23.50
+
+101 – 1,000 cubic yards                                                                              $37.00
+1,001 – 10,000 cubic yards                                                                           $49.25
+10,001 – 200,000 cubic yards                                 $49.25 plus $24.50 for each additional
+                                                              10,000 cubic yards or fraction thereof
+200,001 or more cubic yards                                  $269.75 plus $7.25 for each additional
+                                                              10,000 cubic yards or fraction thereof
+ Additional plan review required
+by changes, additions, or revisions to
+approved plans                                                                                      $ 50.00
+
+
+Permit Fees:
+
+Volume of material (Cut and Fill):                                                                      Fee:
+<50 cubic yards                                                                                      $23.50
+50 – 100 cubic yards                                                                                 $37.00
+101 – 1,000 cubic yards                                      $37.00 plus $17.50 for each additional
+                                                                  100 cubic yards or fraction thereof
+1,001 – 10,000 cubic yards                                              $194.50 plus $ 14.50 for each
+                                                                       additional 1,000 cubic yards or
+                                                                                          fraction thereof
+10,001 – 100,000 cubic yards                                            $325.00 plus $ 66.00 for each
+                                                                     additional 10,000 cubic   yards or
+                                                                                          fraction thereof
+100,001 or more cubic yards                                             $919.00 plus $ 24.50 for each
+                                                                     additional 10,000 cubic   yards or
+                                                                                          fraction thereof
+
+
+
+
+
+
+
+                                                                                                            63
+
+===== Page 65 =====
+Payment of Fees: No application shall be scheduled for hearing by any board or commission
+acting pursuant to the “Maricopa County Zoning Ordinance (MCZO)”, or administratively approved
+unless and until all fees and fines owed to the Department as a result of any activity or inactivity
+attributable to the property that is the subject of the application are brought current and paid in
+full or any amounts owed pursuant to an agreement of compliance are current, as the case may
+be. This requirement shall not be waived by the Board of Adjustment/Planning and Zoning
+Commission.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        64

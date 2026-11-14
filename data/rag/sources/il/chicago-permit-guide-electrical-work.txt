@@ -1,0 +1,156 @@
+Electrical Work
+
+ An official website of the City of Chicago
+ Here's how you know
+
+The .gov means it' officialMunicipal government websites often end in .gov or .org. Before sharing sensitive information, make sure you're on a City of Chicago government site.
+
+The site is secure.The https:// ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+ MENU
+
+Chicago - City of Chicago Official Website 
+
+ Welcome
+
+ Instructions
+
+ Documents
+
+ Codes
+
+ Apply
+
+ Check Status
+
+ Get Help
+
+Chicago.gov
+
+Home
+Building Permit Terms and Conditions
+Express Permit Program
+Type of Work
+Electrical Work
+
+Electrical Work
+
+Terms and Conditions for Electrical Work
+
+General
+
+Electrical work
+
+Electrical work must comply with the edition of the Chicago Electrical Code in effect at the time when the permit application was submitted to the Department of Buildings. Electrical work must be performed by the Chicago-licensed electrical contractor listed on the permit application.
+
+Work on an existing building or structure
+
+Work authorized by this permit must comply with the General Terms and Conditions for Work on Existing Buildings and Structures.
+
+Existing electrical deficiencies
+
+Deficiencies in the existing building electrical system, including the means of grounding and bonding, must be corrected as part of any electrical work performed under this permit. The work needed to correct such deficiencies must be identified in the permit application. It is the responsibility of the licensed electrical contractor listed in the permit application to investigate existing conditions at the property before submitting or accepting a permit application for Electrical Work.
+
+Energy efficiency
+
+New electrical appliances, equipment, and fixtures, including light fixtures, that are installed under this permit must meet the requirements of the Chicago Energy Transformation Code.
+
+Permit to Repair or Alter Electrical Devices on Existing Circuits
+
+Prohibited work
+
+If the “work subtype” identified in the permit application is “Repair or alter electrical devices on existing circuits,” the following types of electrical work may not be performed under this permit:
+
+Adding circuits to an existing panel
+
+Replacing an existing panel
+
+Replacing or upgrading an existing service
+
+Adding new outdoor site lighting
+
+Adequate electrical capacity
+
+It is the responsibility of the electrical contractor identified on the permit to ensure that an existing circuit has adequate capacity for the connected load in accordance with the Chicago Electrical Code and industry standards.
+
+Permit to Add Circuits to Existing Electrical Panel
+
+Prohibited work
+
+If the “work subtype” identified in the permit application is “Add circuits to existing electrical panel,” the following types of electrical work may not be performed under this permit:
+
+Replacing an existing panel
+
+Replacing or upgrading an existing service
+
+Adding new outdoor site lighting
+
+Adequate electrical capacity
+
+It is the responsibility of the electrical contractor identified on the permit to ensure that the existing panel and electrical system has adequate capacity for the connected load in accordance with the Chicago Electrical Code and industry standards.
+
+Permit for New Electrical Service or Service Disconnecting Means (Panel)
+
+Prohibited work
+
+If the “work subtype” identified in the permit application is “New electrical service or service disconnecting means,” the following types of electrical work may not be performed under this permit:
+
+Installing a service or service disconnecting means rated 1,200A or more
+
+Installing a generator (permanent or temporary)
+
+Adding new outdoor site lighting
+
+Adequate electrical capacity
+
+It is the responsibility of the electrical contractor identified on the permit to ensure that new equipment and any reused existing components have adequate capacity for the connected load in accordance with the Chicago Electrical Code and industry standards.
+
+Permit for Low Voltage/Communication Work Only
+
+Prohibited work
+
+If the “wiring type” identified in the permit application is “low voltage/communication,” no line voltage electrical work may be performed under this permit.
+
+Permit for Generator (New or Replacement)
+
+Prohibited work
+
+If the “work subtype” identified in the permit application is “New or replacement generator,” no additional electrical work, beyond work on the generator and any associated transfer equipment, may be performed under this permit.
+
+Adequate electrical capacity
+
+It is the responsibility of the electrical contractor identified on the permit to ensure that the generator and connected electrical system have adequate capacity for the connected load in accordance with the Chicago Electrical Code and industry standards. 
+
+Permit for New Outdoor Site Lighting
+
+Prohibited work
+
+If the “work subtype” identified in the permit application is “New outdoor site lighting,” the following types of electrical work may not be performed under this permit:
+
+Replacing an existing panel
+
+Replacing or upgrading an existing service
+
+Working on branch circuits not associated with outdoor site lighting without a separate permit
+
+Lighting efficiency and efficacy
+
+New outdoor site lighting must meet the efficiency and efficacy requirements of the Chicago Energy Transformation Code. 
+
+Effective September 16, 2024
+
+ Building Permit Terms and Conditions
+
+ Disclaimer
+
+City of Chicago
+
+Contact Info
+
+ dob-info@cityofchicago.org
+
+ Video Title
+ Close
+
+ Image Title
+ Close

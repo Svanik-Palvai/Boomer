@@ -1,0 +1,232 @@
+[
+  {
+    "q": "I'm from Phoenix working in Las Vegas. Can I use a ground rod or plate electrode on a new house?",
+    "site": "las-vegas-nv",
+    "home": "phoenix-az",
+    "expectSources": [
+      "nv/clark-county-2023-nec-amendments",
+      "nv/las-vegas-2023-nec-amendments"
+    ],
+    "expectSections": [
+      "250.50",
+      "250.52"
+    ]
+  },
+  {
+    "q": "Can I run exposed Schedule 40 PVC in Clark County?",
+    "site": "clark-county-nv",
+    "expectSources": [
+      "nv/clark-county-2023-nec-amendments"
+    ],
+    "expectSections": [
+      "352.10"
+    ]
+  },
+  {
+    "q": "Where does the service disconnect have to go in Las Vegas?",
+    "site": "las-vegas-nv",
+    "expectSources": [
+      "nv/las-vegas-2023-nec-amendments",
+      "nv/clark-county-2023-nec-amendments"
+    ],
+    "expectSections": [
+      "230.70"
+    ]
+  },
+  {
+    "q": "Can I bury EMT in Las Vegas?",
+    "site": "las-vegas-nv",
+    "expectSources": [
+      "nv/las-vegas-2023-nec-amendments"
+    ],
+    "expectSections": [
+      "358.12"
+    ]
+  },
+  {
+    "q": "Do I need a card to work as a journeyman electrician in Las Vegas? I didn't need one in Arizona.",
+    "site": "las-vegas-nv",
+    "home": "phoenix-az",
+    "expectSources": [
+      "nv/esp-nv-electrical-card-testing-notice",
+      "nv/las-vegas-admin-code-2019-ord-6769"
+    ]
+  },
+  {
+    "q": "My company has an Arizona CR-11. Can we skip the Nevada trade exam for a C-2?",
+    "site": "nv",
+    "home": "az",
+    "expectSources": [
+      "nv/nscb-licensure-by-endorsement"
+    ]
+  },
+  {
+    "q": "Is a receptacle required on a kitchen island in Las Vegas, and how is that different from Phoenix?",
+    "site": "las-vegas-nv",
+    "home": "phoenix-az",
+    "expectSources": [
+      "nv/las-vegas-2023-nec-amendments",
+      "az/phoenix-2023-nec-amendments"
+    ],
+    "expectSections": [
+      "210.52"
+    ]
+  },
+  {
+    "q": "Does EMT count as the equipment ground in Phoenix?",
+    "site": "phoenix-az",
+    "expectSources": [
+      "az/phoenix-2023-nec-amendments"
+    ],
+    "expectSections": [
+      "250.118"
+    ]
+  },
+  {
+    "q": "Which NEC edition is in force in unincorporated Maricopa County?",
+    "site": "maricopa-county-unincorporated-az",
+    "expectSources": [
+      "az/maricopa-county-local-additions-addenda-2022"
+    ]
+  },
+  {
+    "q": "Is GFCI required for the AC condenser outlet in Phoenix right now?",
+    "site": "phoenix-az",
+    "expectSources": [
+      "az/phoenix-building-code-page"
+    ],
+    "expectSections": [
+      "210.8"
+    ]
+  },
+  {
+    "q": "Who inspects the service besides the city when I set a new meter in Las Vegas?",
+    "site": "las-vegas-nv",
+    "expectSources": [
+      "nv/clark-county-fig-e-012-nv-energy-requirements",
+      "nv/nv-energy-esr-south-2021-06"
+    ]
+  },
+  {
+    "q": "Can I leave old abandoned cable in the ceiling on a remodel in Clark County?",
+    "site": "clark-county-nv",
+    "expectSources": [
+      "nv/clark-county-2023-nec-amendments"
+    ],
+    "expectSections": [
+      "110.12"
+    ]
+  },
+  {
+    "q": "Do I need AFCI protection when I replace a receptacle in Princeton, NJ?",
+    "site": "princeton-nj",
+    "home": "philadelphia-pa",
+    "expectSources": [
+      "nj/njac-5-23-3-subcodes"
+    ],
+    "expectSections": [
+      "210.12"
+    ]
+  },
+  {
+    "q": "Do I need a permit to swap an outlet like-for-like in Princeton?",
+    "site": "princeton-nj",
+    "expectSources": [
+      "nj/njac-5-23-ucc",
+      "nj/princeton-building-construction"
+    ]
+  },
+  {
+    "q": "Can I run NM cable (Romex) in a five-story apartment building in New York City?",
+    "site": "new-york-city-ny",
+    "expectSources": [
+      "ny/nyc-2025-electrical-code"
+    ],
+    "expectSections": [
+      "334.10"
+    ]
+  },
+  {
+    "q": "What experience do I need for a New York City master electrician license?",
+    "site": "new-york-city-ny",
+    "expectSources": [
+      "ny/nyc-dob-electrician-license-page",
+      "ny/nyc-dob-electrician-license-presentation",
+      "ny/nyc-ll128-2024",
+      "ny/nyc-dob-changes-electrical-license"
+    ]
+  },
+  {
+    "q": "Can a homeowner do their own electrical work in Chicago?",
+    "site": "chicago-il",
+    "expectSources": [
+      "il/chicago-electrical-contractor-license",
+      "il/chicago-permit-guide-electrical-work",
+      "il/chicago-electrical-work-not-requiring-permit"
+    ]
+  },
+  {
+    "q": "Which edition of the NEC is the Chicago Electrical Code based on?",
+    "site": "chicago-il",
+    "expectSources": [
+      "il/chicago-code-modernization",
+      "il/chicago-2017-electrical-code-press-release",
+      "il/chicago-construction-codes-online"
+    ]
+  },
+  {
+    "q": "Does a Philadelphia rowhouse need an outdoor emergency disconnect?",
+    "site": "philadelphia-pa",
+    "expectSources": [
+      "pa/phila-pb037-emergency-disconnect-faq",
+      "pa/phila-2021-local-changes-2026-05"
+    ],
+    "expectSections": [
+      "230.85"
+    ]
+  },
+  {
+    "q": "Who does the electrical inspection in Philadelphia?",
+    "site": "philadelphia-pa",
+    "expectSources": [
+      "pa/phila-electrical-inspection-agency-license",
+      "pa/phila-get-electrical-permit"
+    ]
+  },
+  {
+    "q": "I'm a licensed journeyman from Texas. Can I start working for a C-10 contractor in Los Angeles right away?",
+    "site": "los-angeles-ca",
+    "home": "houston-tx",
+    "expectSources": [
+      "ca/dir-ecu-electrician-certification",
+      "ca/dir-ecu-faq",
+      "ca/dir-ecu-certification-categories"
+    ]
+  },
+  {
+    "q": "When will LADWP energize a new service in Los Angeles?",
+    "site": "los-angeles-ca",
+    "expectSources": [
+      "ca/ladwp-esr-2025-manual",
+      "ca/ladbs-electrical-inspections",
+      "ca/ladbs-inspection-services"
+    ]
+  },
+  {
+    "q": "Can I pull an electrical permit in Houston with my Texas master license?",
+    "site": "houston-tx",
+    "expectSources": [
+      "tx/houston-master-electrician-registration",
+      "tx/houston-electrical-contractor-registration"
+    ]
+  },
+  {
+    "q": "Does Texas accept a Louisiana master electrician license by reciprocity?",
+    "site": "houston-tx",
+    "home": "los-angeles-ca",
+    "expectSources": [
+      "tx/tdlr-elec-out-of-state",
+      "tx/tdlr-elec-master"
+    ]
+  }
+]

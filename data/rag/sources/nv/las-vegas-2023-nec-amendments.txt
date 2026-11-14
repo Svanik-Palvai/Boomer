@@ -1,0 +1,1356 @@
+
+
+===== Page 1 =====
+        SOUTHERN NEVADA AMENDMENTS
+                            TO THE
+        2023 NATIONAL ELECTRICAL CODE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Version Dated: March 27, 2025
+
+===== Page 2 =====
+Preface
+
+This  document  was  developed  by  the  Southern  Nevada  Building  Officials                       ’ (SNBO)      National
+Electrical Code (NEC) Committee and presents amendments to the 2023 NEC as published by
+the National Fire Protection Association            (NFPA).
+
+Participation in the 2023 National Electrical Code Committee was open to all interested parties.
+However, voting on amendments proposals was limited to one vote each for seven Southern
+Nevada  municipalities  (Clark  County,  Henderson,  Las  Vegas,  North  Las  Vegas,  Boulder  City,
+Pahrump and Mesquite), the Clark County School District, and three industry representatives.  All
+committee proceedings were conducted in accordance with Robert’s Rules of Order.
+
+The recommended amendments contained herein are not code unless adopted and codified by
+governmental  jurisdictions.  These  amendments  are  not  intended  to  prevent  the  use  of  any
+material or method of construction not specifically prescribed herein, provided any alternates have
+been approved and their use authorized by the Building Official. This document may be copied
+and used in whole or in part without permission or approval from the organizations listed on the
+cover page.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                        Page 2 of 24                                                                        March 27, 2025
+
+
+===== Page 3 =====
+Table of Contents
+
+
+   Article 100 ............................................................................................................... 5
+   Section 110.12 ......................................................................................................... 5
+   Section 110.12 ......................................................................................................... 5
+   Section 110.12 ......................................................................................................... 5
+   Section 110.30 ......................................................................................................... 6
+   Section 210.8(B)(16) ............................................................................................... 6
+   Section 210.23(F) .................................................................................................... 6
+   Section 210.52(C)(2) ............................................................................................... 7
+   Section 210.52(F) .................................................................................................... 8
+   Section 210.70(A)(1) ............................................................................................... 8
+   Section 210.70(A)(2)(1) ........................................................................................... 8
+   Section 210.70(A)(2)(2) ........................................................................................... 9
+   Section 220.84 ........................................................................................................ 9
+   Section 220.87 ...................................................................................................... 10
+   Section 225.31(B) .................................................................................................. 10
+   Section 230.11 ....................................................................................................... 11
+   Section 230.70 ...................................................................................................... 11
+   Section 235.405(A) ................................................................................................ 12
+   Section 235.405(C) ................................................................................................ 12
+   Section 240.86 ...................................................................................................... 13
+   Section 250.32(A) .................................................................................................. 13
+   Section 250.50 ...................................................................................................... 13
+   Section 250.52(A)(5) ............................................................................................. 14
+   Section 250.52(A)(7) ............................................................................................. 14
+   Section 250.52(B) .................................................................................................. 14
+   Section 250.53 ...................................................................................................... 14
+   Section 250.53(B) .................................................................................................. 15
+   Section 250.53(D)(2) ............................................................................................. 15
+
+
+
+
+                                                                                        Page 3 of 24                                                                        March 27, 2025
+
+
+===== Page 4 =====
+   Section 250.53(E) .................................................................................................. 16
+   Section 250.120(D) ................................................................................................ 16
+   Section 314.5 ........................................................................................................ 16
+   Section 314.24 ...................................................................................................... 17
+   Section 314.27(C)(2) ............................................................................................. 17
+   Section 352.10(G) ................................................................................................. 17
+   Section 358.10 & 358.12 ....................................................................................... 17
+   Section 422.30 ...................................................................................................... 18
+   Section 514.11(D) .................................................................................................. 18
+   Section 517.31(G) ................................................................................................. 18
+   Section 600.41(D) .................................................................................................. 19
+   Section 620.62 ...................................................................................................... 19
+   Section 695.6(A)(2)(4) ........................................................................................... 19
+   Section 700.1 ........................................................................................................ 20
+   Section 700.10(D)(1) ............................................................................................. 20
+   Section 700.10(D)(2)(5) ......................................................................................... 21
+   Section 700.12(B) .................................................................................................. 21
+   Section 700.12(D)(5) ............................................................................................. 22
+   Section 700.32(C) .................................................................................................. 22
+   Section 701.32(C) .................................................................................................. 22
+   Section 705.12(A)(4) ............................................................................................. 23
+   Section 708.54(C) .................................................................................................. 23
+   Section 800.24(C) .................................................................................................. 24
+   Section 800.179(E) ................................................................................................ 24
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                        Page 4 of 24                                                                        March 27, 2025
+
+
+===== Page 5 =====
+Article 100
+
+Add a new definition to Article 100, as follows:
+
+Conductor, Abandoned.  Installed conductor that is not terminated at both ends at a connector
+or other equipment and not identified for future use with a                 tag.
+
+
+
+Section 110.12
+
+Add new Subsection (D) to Section 110.12, as follows:
+
+110.12 Mechanical Execution of Work.
+
+         (D)  Abandoned Conductors and Cables.  For those structures regulated by the Building
+         or Swimming Pool Code, no electrical conductors or cables shall be abandoned in place.
+         Such  conductors  or  cables  shall  be  removed  from  the  building  or  structure  unless
+         otherwise  approved  by  the  Building  Official  or  designated  representative  based  upon
+         consideration of safety and combustibilit             y.
+
+
+
+Section 110.12
+
+Add new Subsections (E) to Section 110.12, as follows:
+
+110.12  Mechanical Execution of Work.
+
+        (E)   Used   Materials   and   Equipment.   The   use   of   used   materials   that   meet   the
+        requirements of this code for new materials is permitted. Used                    equipment and devices shall
+        not be reused unless in conformance with 110.21(A)(2) or approved by the Building Official.
+        Equipment  used  in  temporary  installations,  such  as  power  poles,  generators,  etc.,  are
+        allowed to be re-used provided they are properly maintained and approved.
+
+
+
+Section 110.12
+
+Add a new Subsection (F) to Section 110.12, as follows:
+
+110.12(F)  Testing.        All  equipment  requiring  the  setting  of  adjustable  values  shall  be  set  in
+accordance with the drawings and specifications or approved shop submittals. All values shall be
+selected by a licensed professional engineer, or other qualified persons engaged prim                            arily in the
+design, installation, or maintenance of electrical systems approved by the AHJ. These settings
+shall be documented, verified, and made available to those authorized to design, install, inspect,
+maintain, and operate the system.
+
+Required settings documentation shall be displayed at the equipment's location, such as ground
+fault protection settings (GFPE), arc energy reduction, adjustable trip for circuit breakers, relay,
+
+
+
+
+
+
+                                                                                        Page 5 of 24                                                                        March 27, 2025
+
+
+===== Page 6 =====
+selective coordination settings, and series-rated equipment. Documentation of settings shall be
+retained for future use with all assumptions and equipment identified.
+
+
+
+Section 110.30
+
+Add new sub-sections (1) through (3) to Section 110.30, as follows:
+
+110.30 General.         Conductors and equipment used on circuits over 1000                         volts, nominal, shall
+comply with Part I of this article and with 110.30 through 110.41, which supplement or modify Part
+I.  In no case shall this part apply to equipment on the supply side of the service point.
+
+(1)    All  permit  submittals  involving  equipment  and/or  systems  1000  volts  or  above  shall  be
+       reviewed and approved by a third-party agency or peer-reviewed by those with experience
+       with these systems prior to submission for approval by the Authority Having Jurisd                          iction.
+(2)    All equipment and systems associated with 1000 volts or above shall be inspected by a third
+       party  at  the  expense  of  the  property  owner  to  verify  the  equipment  and  system(s)  are
+       installed  in  accordance  with  the  design  and  equipment  listings.  The  third  party                   shall  be
+       approved by the AHJ.
+(3)    Testing of said equipment shall be completed by an approved testing organization approved
+       by the AHJ. Testing shall be performed as per 235.356.  Reports shall be submitted for
+       review and acceptance by the AHJ prior to a permit final being issued                       .
+
+
+
+Section 210.8(B)(16)
+
+Add a new Subsection (16) to Section 210.8(B) Other Than Dwelling Unit                          , as follows:
+
+210.8 Ground-Fault Circuit Interrupter Protection for Personnel.
+
+(B) Other Than Dwelling Units.
+
+    (List items (1) through (15) remain unchanged                )
+
+    (16) Food and/or beverage preparation or serving areas regulated by the Health District.
+
+
+
+Section 210.23(F)
+
+Add a new Subsection (F) to Section 210.23                , as follows:
+
+210.23 Permissible Loads, Multiple               -Outlet Branch Circuits.           In no case shall the load exceed
+the branch-circuit ampere rating.  A branch circuit supplying two or more outlets or receptacles
+shall supply only the loads specified according to its size as specified in 210.23(A) through (F)
+and summarized in 210.24.
+
+    (A) Through (E)         -- (remains unchanged         )
+
+
+
+
+
+                                                                                        Page 6 of 24                                                                        March 27, 2025
+
+
+===== Page 7 =====
+    (F) Dwelling Branch Circuits.                Dwelling branch circuits shall be installed as described in
+    210.23(F)(1) through (3).
+
+    (1) Maximum Number (10 or 15-ampere). The maximum number of outlets on a 10 or 15-
+         ampere,  125-volt  (nominal)  luminaire  circuit  shall  be  twelve  (12)  and  shall  not  contain
+         general-purpose receptacle outlets.
+
+                   Exception  No.  1:  Dedicated  branch  circuits  feeding  only  IC  rated  recessed
+                   luminaires   and/or   low   wattage   energy   efficient   luminaires  may   use  Article
+                   220.14(D) for computing the maximum number of luminaire outlets.
+
+                   Exception No. 2: In branch circuits serving smoke detectors the smoke detector
+                   outlets need not be counted with other luminaire outlets.
+
+                   Exception No. 3: As an alternate, receptacles may be included at the discretion
+                   of the Building Official subject to approved circuited plans, including a maximum
+                   5% voltage drop at 80% of the overcurrent device rating.
+
+    (2) Maximum Number (20-ampere). The maximum number of outlets on a 20 ampere, 125-
+         volt  (nominal)  circuit  used  exclusively  for  receptacles,  for  luminaire  outlets,  or  for  any
+         combination of receptacles and luminaire outlets shall be twelve (12).
+
+                   Exception  No.  1:         Dedicated  branch  circuits  feeding  only  IC  rated  recessed
+                   luminaires   and/or   low   wattage   energy   efficient   luminaires  may   use  Article
+                   220.14(D) for computing the maximum number of luminaire outlets.
+
+                   Exception No. 2: In branch circuits serving smoke detectors, the smoke detectors
+                   need not be counted with the other luminaire and/or receptacle outlets.
+
+    (3) Individual Branch Circuits. The following fastened-in-place appliances are required to
+         have   a   separate   minimum   20-ampere   circuit:   dishwasher,   trash   compactor,   and
+         microwave oven. The required laundry circuit may serve one (1) additional outlet in the
+         laundry area.
+
+
+
+Section 210.52(C)(2)
+
+Revise section 210.52(C)(2)          , as follows:
+
+210.52(C) Countertops and Work Surfaces.
+
+(2) Island and Peninsular Countertops and Work Surfaces.
+
+Receptacle outlets, if installed to serve an island or peninsular countertop or work surface, shall
+be installed in accordance with 210.52(C)(3). If a receptacle outlet is not provided to serve an
+island  or  peninsular  countertop  or  work surface,  provisions                shall  be  provided  at  the  island  or
+peninsula for future addition of a receptacle outlet to serve the island or peninsular countertop or
+work  surface.  Minimum  provisions  shall  include  installing  a  junction  box  containing  circuit
+
+
+
+
+
+
+                                                                                        Page 7 of 24                                                                        March 27, 2025
+
+
+===== Page 8 =====
+conductors from one of the small-appliance branch circuits. The junction box shall be accessible
+and located within the island or peninsular cabinet space.
+
+
+
+Section 210.52(F)
+
+Add a new exception No. 3 to Section 210.52(F)                 , as follows:
+
+Exception No. 3: In structures more than four (4) stories in height, where the configuration of a
+laundry area is such that only an electrically heated stackable type of washer/dryer combo unit
+utilizing  208-volt  or  240-volt  power  can  be  accommodated,  the  single  receptacl                          e  for  the
+washer/dryer combo unit may be considered as meeting the laundry circuit requirement.
+
+
+
+Section 210.70(A)(1)
+
+Revise Item (1) in Section 210.70(A), as follows:
+
+(1) Habitable Rooms, Kitchen, Laundry Areas, and Bathrooms:                                 At least one lighting outlet
+controlled by a listed wall-mounted general-use switch shall be installed in every habitable room,
+kitchen, laundry area, and bathroom. Unless prohibited by structural design, a wall switch shall
+be located within 1.8 m (6 ft) of the point of entry and shall not be located behind an active door
+in the fully open position. Doors capable of being fixed in place are not to be considered active
+doors.
+
+(The remainder of this section remains unchanged                  )
+
+
+
+Section 210.70(A)(2)(1)
+
+Revise item (1) in Section 210.70(A)(2)            , as follows:
+
+210.70 Lighting Outlets Required.
+
+(A) Dwelling Units.
+
+    (2) Additional Locations. Additional lighting outlets shall be installed in accordance with the
+         following.
+
+         (1) At least one lighting outlet controlled by a listed wall             -mounted general-use switch shall
+              be  installed  in  hallways,  stairways,  attached  garages,  detached  garages,  and
+              accessory buildings with electric power.               Hallways of 3.0 m (10 ft) or more in length
+              shall have a wall-mounted general-use switch within 1.8 m (6 ft) of each opening or
+              door unless prohibited by structural design.
+
+
+
+
+
+
+
+
+                                                                                        Page 8 of 24                                                                        March 27, 2025
+
+
+===== Page 9 =====
+Section 210.70(A)(2)(2)
+
+Revise item (2) in Section 210.70(A)(2)             , as follows:
+
+210.70 Lighting Outlets Required.
+
+(A) Dwelling Units.
+
+    (2) Additional Locations. Additional lighting outlets shall be installed in accordance with the
+         following:
+
+         (2)   For dwelling units, attached garages, detached garages, and accessory buildings with
+              electric power, at least one exterior lighting outlet controlled by a listed wall-mounted
+              general-use  switch  shall  be  installed  to  provide  illumination  on  the  exterior  side  of
+              outdoor entrances or exits with grade level access. A vehicle door in a garage shall
+              not be considered as an outdoor entrance or exit. At least one wall-mounted general-
+              use  switch  that  controls  an  interior  lighting  outlet  shall  be  located  at  each  keyed
+              exterior entry.  This switch shall be located within 1.8 m (6 ft) of the latching jamb side,
+              unless prohibited by structural design, and not behind an active door in the fully open
+              position.
+
+
+
+Section 220.84
+
+Delete item (5) in Section 220.84(C), and add a new sub-section (D)                        , as follows:
+
+220.84 Multifamily Dwelling.
+
+(D) Heating and Air Conditioning Load.                  The largest of the following six selections (load in kVA)
+shall be included:
+
+(1)      100 percent of the nameplate rating(s) of the air conditioning and cooling.
+(2)      100 percent of the nameplate rating(s) of the heat pump when the heat pump is used
+         without any supplemental electric heating.
+(3)      100 percent of the nameplate ratings of electric thermal storage and other heating systems
+         where the usual load is expected to be continuous at the full nameplate value. Systems
+         qualifying  under  this  selection  shall  not  be  calculated  under  any  other  select                      ion  in
+         220.84(D).
+(4)      100 percent of the nameplate rating(s) of the heat pump compressor and 65 percent of
+         the supplemental electric heating for central electric space heating systems. If the heat
+         pump compressor is prevented from operating at the same time as the supplementary
+         heat, it does not need to be added to the supplementary heat for the total central space
+         heating load.
+(5)      65 percent of the nameplate rating(s) of electric space heating if less than four separately
+         controlled units.
+(6)      40 percent of the nameplate rating(s) of electric space heating if four or more separately
+         controlled units.
+
+
+
+
+
+
+
+                                                                                        Page 9 of 24                                                                        March 27, 2025
+
+
+===== Page 10 =====
+Section 220.87
+
+Revise Section 220.87, as follows:
+
+220.87 Determining Existing Loads.
+
+In other than one- and two-family dwellings, the calculation of a feeder or service load for existing
+installations shall be permitted to use actual maximum demand to determine the existing load
+under all of the following conditions:
+
+         (1)       The maximum demand data is available for a 1-year period.
+
+                   Exception: If the maximum demand data for a 1-year period is not available, the
+                   calculated  load  shall  be  permitted  to  be  based  on  the  maximum  demand  (the
+                   highest  average  kilowatts  reached  and  maintained  for  a  15-minute  interval)
+                   continuously recorded over a minimum 30-day period using a recording ammeter
+                   or power meter connected to the highest loaded phase of the feeder or service,
+                   based on the initial loading at the start of the recording. The recording shall reflect
+                   the maximum demand of the feeder or service by being taken when the building
+                   or space is occupied and shall include by measurement or calculation the larger of
+                   the heating or cooling equipment load, and other loads that might be periodic in
+                   nature due to seasonal or similar conditions. This exception sha                   ll not be permitted
+                   if the feeder or service has a renewable energy system (i.e., solar photovoltaic or
+                   wind electric) or employs any form of peak load shaving.
+
+         (2)       The maximum demand at 125 percent plus the new load does not exceed the
+         ampacity of the feeder or rating of the service.
+
+         (3)       The feeder has overcurrent protection in accordance with 240.4, and the service
+         has overload protection in accordance with 230.90.
+
+
+
+Section 225.31(B)
+
+Revise Section 225.31(B) and Exception No. 4, as follows:
+
+225.31(B)  Location.         The  disconnecting  means  shall  be  installed  as  described  in  230.70,  as
+amended. For the purposes of this section, the requirements in 230.6 shall apply.
+
+         (Exceptions No. 1-3 remain unchanged)
+
+         Exception   No.   4:        For   accessory   buildings   to   one   and  two-family  dwellings,   the
+         disconnecting means shall be permitted to be installed either inside or on the exterior of
+         the accessory structure.
+
+
+
+
+
+
+
+
+
+
+
+                                                                                       Page 10 of 24                                                                        March 27, 2025
+
+
+===== Page 11 =====
+Section 230.11
+
+Add a new Section 230.11, as follows:
+
+230.11 Location of Customer-Owned Service Conductors.  All conductors shall traverse only
+the property to be served except through recorded power easements.
+
+
+
+Section 230.70
+
+Revise Section 230.70 in its entirety, as follows:
+
+230.70  General.        Means  shall  be  provided  to  disconnect  all  ungrounded  service  entrance
+conductors to a building or other structure from the service conductors.
+
+    (A)  Location.       The  service  disconnecting  means  shall  be  installed  in  accordance  with
+    230.70(A)(1), (A)(2), (A)(3), and (A)(4).
+
+         (1) Exterior of the Building. The service disconnecting means shall be installed in a
+              readily accessible exterior location within 3.7 m (12 ft.) of the building or structure.
+              Where the distance is greater than 3.7 m (12 ft.) from the building or structure, the
+              service disconnecting means shall be considered a separate structure.
+
+                        Exception:  This requirement shall not apply to a fire pump and its associated
+                        electrical equipment.
+
+         (2) Electrical  Equipment  Room.               The  service  disconnecting  means  may  be  installed
+              within a dedicated electrical equipment room with a readily accessible direct access
+              on the exterior of a building or structure. Such rooms shall be separated from all other
+              rooms  or  spaces  within  the  build        ing  by  a  minimum  of  one  (1)  hour  of  fire      -resistive
+              construction and shall have approved Fire Department access.
+
+              Informational Note: In some jurisdictions, a recessed 3200 series Knox Box may be
+              the approved Fire Department access point.
+
+         (3) Bathrooms.         Service disconnecting means shall not be installed in bathrooms.
+
+         (4) Remote Control.           Where a remote       -control device(s) required by another code, such
+              as in a fire command center, is used to actuate the service disconnecting means, the
+              service disconnecting means shall be located in accordance with 230.70(A)(1) or (2).
+              The remote-control de        vice shall be supervised by a local signaling service that causes
+              an  audible  signal  and  illumination  of  an  amber  visual  signal  at  the  Fire  Command
+              Center and at each auxiliary location required for the Life Safety System.
+
+              Informational Note No. 1. The disconnect for alternative energy systems is addressed
+              in Chapters 6 and 7.
+
+    (B) Marking.
+
+
+
+
+
+
+                                                                                       Page 11 of 24                                                                        March 27, 2025
+
+
+===== Page 12 =====
+         1.   Each service disconnecting means shall be marked with a sign(s).
+
+         2.   When located in a dedicated electrical room the exterior door(s) providing access to
+              the disconnecting means located in a dedicated electrical room shall be                        permanently
+              marked with a sign(s).  Each sign shall be a minimum of 0.093sq.m (1 sq. foot), colored
+              yellow with 25.4mm (1 inch) high, 6.35 mm (¼ inch) stroke raised or engraved letters
+              and/or  numbers  indicating  the  address  or  unit  it  serves  and  be  identified  as  the
+              "Electrical  Service  Disconnect(s)"  and/or  "Electrical  Service  Disconnect(s)  Inside."
+              Emergency System disconnects shall be permanently marked with a sign(s) identified
+              as   "Emergency   Electrical   Disconnect(s)"   and/or   "Main   Emergency   Electrical
+              Disconnect(s)  Inside."    When  the  service  disconnecting  means  is  located  inside  a
+              dedicated electrical room, and it is not the first service disconnect encountered, or
+              there are multiple service disconnects, there shall be a directional 75mm (3 in.) wide
+              painted yellow stripe on the floor from the entry door(s) to each service disconnect.
+
+         3.   Other durable means of identification may be used with prior approval by the AHJ.
+
+    (C) Suitable for Use. Each service disconnecting means shall be suitable for the prevailing
+         conditions. Service equipment installed in hazardous (classified) locations shall comply
+         with the hazardous location requirements.
+
+
+
+Section 235.405(A)
+
+Revise Section 235.405(A), as follows:
+
+ 235.405 Disconnecting Means.
+
+(A) Location. The service disconnecting means shall be located in accordance with 230.70, as
+amended.
+
+For either overhead or underground primary distribution systems on private property, under single
+management with a Life Safety System, Fire Command Center, and 24-hour on-site qualified
+maintenance personnel, the service disconnect shall be permitted to be located in a location that
+is not readily accessible, if the disconnecting means can be operated by mechanical linkage from
+a readily accessible point, or electronically in accordance with  235.405(C), where applicable. The
+main electrical room is not required to be located on the exterior of the building or other structure.
+
+
+
+Section 235.405(C)
+
+Revise Section 235.405(C), as follows:
+
+ 235.405 Disconnecting Means.
+
+(C)  Remote  Control.         For  multibuilding,  industrial  installations  under  single  management,  the
+service disconnecting means shall be permitted to be located at a separate building or structure.
+In such cases, the service disconnecting means shall be permitted to be electrically                          operated by
+
+
+
+
+
+                                                                                       Page 12 of 24                                                                        March 27, 2025
+
+
+===== Page 13 =====
+a readily accessible, remote-control device. The remote-control device shall be supervised by a
+local signaling device that causes an audible signal and the illumination of an amber visual signal
+at the Fire Command Center and at each auxiliary location re                    quired for the Life Safety System.
+
+
+
+Section 240.86
+
+Revise Section 240.86, as follows:
+
+240.86 Series Ratings.           Where a circuit breaker is used on a circuit having an available fault
+current higher than the marked interrupting rating by being connected on the load side of an
+approved overcurrent protective device having a higher rating, the circuit breaker shall me                           et the
+requirements specified in 240.86(A) or (B), and (C). All the information, including manufacturers
+and part numbers of each component making up the series combination rating, shall be provided
+on the submittal drawings for plan examination and permit                 ting. Only those manufacturers and part
+numbers shall be permitted for the installation.
+
+
+
+Section 250.32(A)
+
+Revise Section 250.32(A), as follows:
+
+250.32(A)  Grounding  Electrode  System  and  Grounding  Electrode  Conductor.                                     For  the
+purposes of this section, all buildings or structures not joined by a continuous concrete foundation
+or  footing  and  roof  shall  be  considered  as  separate  buildings  or  structures.  A  building(s)  or
+structure(s) supplied by a feeder(s) or branch circu              it(s) shall have a grounding electrode system
+and grounding electrode conductor installed in accordance with Part III of Article 250. Where there
+is no existing grounding electrode, the grounding electrode(s) required in 250.50 shall be installed.
+
+(The exception remains and is unchanged)
+
+
+
+Section 250.50
+
+Revise Section 250.50, as follows:
+
+250.50 Grounding Electrode System. All grounding electrodes, as described in 250.52(A)(1)
+through (A)(6), that are present at each building or structure served shall be bonded together to
+form the grounding electrode system. If none of these grounding electrodes exist, one or more of
+the grounding electrodes specified in 250.52(A)(4) through (A)(7) shall be installed and used. The
+concrete-encased electrode described in  250.52(A)(3) shall be required for new buildings and
+structures that are supplied with electrical power and have concrete                     foundations or footings.
+
+(The exception remains and is unchanged)
+
+
+
+
+
+
+
+
+                                                                                       Page 13 of 24                                                                        March 27, 2025
+
+
+===== Page 14 =====
+Section 250.52(A)(5)
+
+Revise Section 250.52(A)(5), as follows:
+
+250.52 Grounding Electrode System.
+
+(5) Rod Electrodes.
+Rod electrodes shall not be less than 2.44                m (8 ft) in length and shall consist of stainless steel
+and copper or zinc-coated steel, and shall be at least 15.87 mm (5⁄8 in.) in diameter, unless listed.
+
+
+
+Section 250.52(A)(7)
+
+Delete Item (7) Plate Electrode of Section 250.52(A) and renumber Item (8) as Item (7), as
+follows:
+
+Renumbering will continue with the following:
+
+      (7)  Other Local Metal Underground Systems or Structures.
+
+
+
+Section 250.52(B)
+
+Revise section 250.52(B), as follows:
+
+250.52(B) Not Permitted for Use as Grounding Electrodes.
+
+(Language and list items (1) through (3) remain the same)
+
+(List item (4) is added)
+
+        (4) Pipe and plate electrodes
+
+Section 250.53
+
+Revise Section 250.53(A) in its entirety, as noted below:
+
+250.53 Grounding Electrode System Installation.
+
+    (A) Rod Electrodes. Rod electrodes shall be free from nonconductive coatings such as paint
+         or enamel. Rod electrodes shall meet the requirements of 250.53(A)(1) through (A)(4).
+
+    (1) Below      Permanent  Moisture  Level.              If  practicable,  rod  electrodes  shall  be  embedded
+         below permanent moisture level.
+
+    (2) Supplemental Electrode Required. A single rod electrode shall be supplemented by an
+         additional electrode of a type specified in 250.52(A)(2) through (A)(7). The supplemental
+         electrode shall be permitted to be bonded to one of the following:
+
+
+
+
+
+                                                                                       Page 14 of 24                                                                        March 27, 2025
+
+
+===== Page 15 =====
+                   (1) Rod electrode
+                   (2) Grounding electrode conductor
+                   (3) Grounded service-entrance conductor
+                   (4) Nonflexible grounded service raceway
+                   (5) Any grounded service enclosure
+
+                   Exception: If a single rod grounding electrode has a resistance to earth of 25
+                   ohms or less, the supplemental electrode shall not be required.
+
+    (3) Supplemental Electrode. If multiple rod electrodes are installed to meet the requirements
+         of this section, they shall not be less than 1.8 m (6 ft) apart.
+
+                   Informational Note: The paralleling efficiency of rods is increased by spacing them
+                   twice the length of the longest rod.
+
+    (4) Rod Electrodes. The electrode shall be installed such that at least 2.44 m (8 ft) of length
+         is in contact with the soil. It shall be driven to a depth of not less than 2.44 m (8 ft) except
+         that, where rock bottom is encountered, the electrode shall be driven at an oblique                           angle
+         not to exceed 45 degrees from the vertical or, where rock bottom is encountered at an
+         angle up to 45 degrees, the electrode shall be permitted to be buried in a trench that is at
+         least 750 mm (30 in.) deep. The upper end of the electrode shall be fl                        ush with or below
+         ground  level  unless  the  aboveground  end  and  the  grounding  electrode  conductor
+         attachment are protected against physical damage as specified in 250.10.
+
+
+
+Section 250.53(B)
+
+Revise Section 250.53(B), as follows:
+
+Grounding Electrode System Installation.
+
+(B) Electrode Spacing. If more than one of the electrodes of the type specified in 250.52(A)(5)
+are  used,  each  electrode  of  one  grounding  system  (including  that  used  for  strike  termination
+devices) shall not be less than 1.83 m (6 ft) from any other electrode of another grounding system.
+Two  or  more  grounding  electrodes  that  are  bonded  together  shall                      be  considered  a  single
+grounding electrode system.
+
+
+
+Section 250.53(D)(2)
+
+Revise Item (2) in Section 250.53(D)(2), as follows:
+
+(2) Supplemental Electrode Required. A metal underground water pipe shall be supplemented
+by an additional electrode of a type specified in 250.52(A)(2) through (A)(7). If the supplemental
+electrode is of the rod type, it shall comply with 250.53(A). The supplemental electrode shall be
+bonded to one of the following:
+
+
+
+
+
+
+                                                                                       Page 15 of 24                                                                        March 27, 2025
+
+
+===== Page 16 =====
+    (1) Grounding electrode conductor
+    (2) Grounded service-entrance conductor
+    (3) Nonflexible grounded service raceway
+    (4) Any grounded service enclosure
+    (5) As provided by 250.32(B)
+
+    Exception: The supplemental electrode shall be permitted to be bonded to the interior metal
+    water piping as specified in 250.68 (C)(1)
+
+
+
+Section 250.53(E)
+
+Revise Section 250.53(E), as follows:
+
+250.53 Grounding Electrode System Installation.
+
+(E) Supplemental Grounding Electrode Bonding Jumper Size. If the supplemental electrode
+is  a  rod  electrode,  that  portion  of  the  bonding  jumper  that  is  the  sole  connection  to  the
+supplemental grounding electrode shall not be required to be larger than 6 AWG copper wire or
+4 AWG aluminum or copper-clad aluminum wire.
+
+
+
+Section 250.120(D)
+
+Add a new Subsection (D) to Section 250.120, as follows:
+
+250.120 Equipment Grounding Conductor Installation.
+
+(D)  Exterior Raceways. All exterior raceways that use compression                       -type fittings shall contain a
+    wire-type equipment grounding conductor sized per Table 250.122 installed with the circuit
+    conductors.
+
+         Exception  No.  1:         Low  voltage,  communication  and  similar  type  systems  shall  be
+         permitted to omit the equipment grounding conductor unless required elsewhere in the
+         code.
+
+         Exception No. 2: The equipment grounding conductor shall be permitted to be omitted
+         as described in 250.86 Exception No. 2 for short sections of metal enclosures or raceways.
+
+
+
+Section 314.5
+
+Revise section 314.5 for screws, as follows:
+
+314.5 Screws or Other Fasteners.
+Screws or other fasteners installed in the field that enter wiring spaces shall be as provided by or
+specified by the manufacturer or shall comply with the following as applicable:
+
+
+
+
+
+                                                                                       Page 16 of 24                                                                        March 27, 2025
+
+
+===== Page 17 =====
+    (1) Screws shall be machine type with blunt ends.
+    (2) Other fasteners shall have blunt ends.
+    (3) Screws or other fasteners penetrating the wall of a conduit body shall be made flush with
+         the conduit body interior.
+
+
+
+Section 314.24
+
+Revise Section 314.24, as follows:
+
+314.24 Dimensions of Boxes. Outlet and device boxes shall have approved dimensions to allow
+equipment  installed  within  them  to  be  mounted  properly  and  without  likelihood  of  damage  to
+conductors within the box. All boxes for outlets, devices, utilization equipment, or junction boxes
+less than 200 mm (8 inches) in any dimension shall have no more than two extension boxes or
+one extension box and one plaster ring.
+
+         Exception:       Listed  unit(s)  or     assembly(s)  shall  be  permitted  to  have  more  than  two
+         extension boxes or one extension box and one plaster ring.
+
+(The remainder remains unchanged)
+
+
+
+Section 314.27(C)(2)
+
+Revise section 314.27(C)(2), as follows:
+
+(C) Boxes at Ceiling-Suspended (Paddle) Fan Outlets.
+
+         (1) Listed and installed so as to allow direct access through the box to structural framing
+              capable of supporting a ceiling-suspended (paddle) fan without removing the box
+
+
+
+Section 352.10(G)
+
+Revise Section 352.10(G), as follows:
+
+352.10(G) Exposed. Where exposed, Schedule 80 PVC conduit shall be required.
+
+
+
+Section 358.10 & 358.12
+
+Delete 358.10(B) and (C)
+
+(The remainder of 358.10 is unchanged)
+
+
+
+
+
+
+                                                                                       Page 17 of 24                                                                        March 27, 2025
+
+
+===== Page 18 =====
+Add the following:
+
+358.12 Uses Not Permitted.  EMT shall not be used under the following                          conditions:
+
+(1) Where subject to severe physical damage.
+(2) For the support of luminaires or other equipment except conduit bodies no larger than the
+largest trade size of the tubing.
+(3) Embedded within concrete or masonry in contact with the                     earth.
+(4) Underground installations.
+(5) Within earth fills.
+
+
+
+Section 422.30
+
+Revise 422.30 to address signage for disconnects, as follows:
+
+422.30 General.
+
+A means shall be provided to simultaneously disconnect each appliance from all                                ungrounded
+conductors in accordance with the following sections of Part III. If an appliance is supplied by
+more  than  one  branch  circuit  or  feeder,  these  disconnecting  means  shall  be  grouped  and
+identified as being the multiple disconnecting means for the appliance. Each disconnecting means
+shall  simultaneously  disconnect  all  ungrounded  conductors  that  it  controls.  Where  multiple
+disconnecting means are provided, a permanent warning sign shall be provided on or adjacent to
+each disconnecting means indicating that multiple sources must be shut off to remove all power
+to the equipment. The sign at each disconnect shall identify the other specific circuits.
+
+
+
+Section 514.11(D)
+
+Add a new Section (D) to 514.11, as follows:
+
+(D) Emergency Shutoff or Disconnect(s) Marking.
+
+The disconnect station sign shall be 0.093 sq. m (1 ft square), colored yellow and have black,
+25.4 mm (1 inch) high, 6.35 mm (1/4 inch) stroke permanent lettering describing it as “Emergency
+Pump Shutoff”.
+
+
+
+Section 517.31(G)
+
+Revise Section 517.31(G) add a new Exception No. 3, as follows:
+
+517.31(G)
+
+Exception No. 3: The requirements defined in this section are not required when the essential
+system was installed prior to the adopted code of record for NEC 2005. For new essential systems
+
+
+
+
+
+                                                                                       Page 18 of 24                                                                        March 27, 2025
+
+
+===== Page 19 =====
+that are supplied from existing essential systems installed prior to the adopted code of record for
+NEC 2005, the new portion of the design shall be required to comply with this section. The ground
+fault  sensing  function  of  overcurrent  protective  devices  w                ill  only  be  required  to  selectively
+coordinate with the ground fault sensing function of other overcurrent protective devices.
+
+
+
+Section 600.41(D)
+
+Revise Section 600.41(D), as follows:
+
+600.41(D) Protection. Field-installed skeleton tubing shall not be subject to physical damage.
+Where the tubing is readily accessible to other than qualified persons, field                          -installed skeleton
+tubing shall be provided with suitable guards or protected by other approved means. I                           nstallations
+less  than  2.44  m  (8  ft.)  above  finished  grade  or  floor  level  shall  be  considered  as  readily
+accessible.
+
+
+
+Section 620.62
+
+Add new exception to Section 620.62, as follows:
+
+620.62
+
+(Section 620.62 is unchanged; exception 2 is added)
+
+Exception No. 1: Selective coordination shall not be required between two overcurrent devices
+located in series if no loads are connected in parallel with the downstream device.
+
+Exception No. 2: The requirements for selective coordination are not required where the elevator
+power system was installed prior to the adopted code of record for NEC 1996. For new elevator
+power systems that are supplied from an existing elevator power system installed prior to the
+adopted code of record for NEC 1996, the new portion of the elevator power system must comply
+with the requirements of this section. The ground fault sensing function of overcurrent protective
+devices will only be required to selectively coordinate with the ground                        fault sensing function of
+other overcurrent protective devices.
+
+
+
+Section 695.6(A)(2)(4)
+
+Revise 695.6(A)(2)(4) for concrete encasement, as follows:
+
+(2) Feeders.
+
+Fire pump supply conductors on the load side of the final disconnecting means and overcurrent
+device(s)  permitted  by  695.4(B)  or  conductors  that  connect  directly  to  an  on                      -site  standby
+generator shall comply with all of the following:
+
+
+
+
+
+
+                                                                                       Page 19 of 24                                                                        March 27, 2025
+
+
+===== Page 20 =====
+         (List items (1) through (3) remain unchanged)
+
+         (4) Inside of a Building. Where routed through a building, the conductors shall be protected
+         from fire for 2 hours using one of the following methods:
+         a. The cable or raceway is encased in concrete with a minimum thickness of 127 mm
+         (5 in.) measured from each point on the surface of the cable or raceway.
+
+         Exception No. 1: Cables and raceways installed underground shall not be considered to
+         be inside the building.
+
+         Exception No. 2: Alternative thicknesses of concrete shall be permitted to be selected by
+         a  licensed  professional  engineer  qualified  in  such  design.  The  selection  shall  be
+         documented and stamped by the professional engineer.
+
+                   Informational Note: See Fire Protection Research Foundation Report FPRF-2018-
+                   16, “Fire Resistance of Concrete for Electrical Conductors,” for information about
+                   concrete fire resistance.
+
+         (Remainder of this section is unchanged)
+
+
+
+Section 700.1
+
+Revise Section 700.1, as follows:
+
+700.1  Scope.       This  article  applies  to  the  electrical  safety  of  the  installation,  operation,  and
+maintenance  of  emergency  systems  consisting  of  circuits  and  equipment  intended  to  supply,
+distribute, and control electricity for illumination, power, or both, to required f                   acilities when the
+normal electrical supply or system is interrupted.
+
+For  the  purposes  of  this  section,  items  considered  as  meeting  the  requirements  for  high-rise
+applications (high rise as defined in the AHJ’s building code) to be placed on the emergency
+distribution system may include: emergency illumination, exit signage,                        electric fire pumps, fire
+jockey or makeup pumps, fire alarm equipment, smoke control equipment, one elevator per bank
+of elevators, cooling and heating equipment for emergency electrical rooms and elevator machine
+rooms, FAA required obstruction lighting, battery chargers for emergency generating equipment,
+heating equipment for freeze protection of fire sprinkler systems, telecommunications equipment
+( i.e. for 911 applications and other emergency communications), fire command center loads such
+as monitoring and display equipment and other equipment approved by the AHJ that will enhance
+the survivability of life safety systems.
+
+(The remainder is unchanged)
+
+
+
+Section 700.10(D)(1)
+
+Revise Section 700.10(D)(1), as follows:
+
+
+
+
+
+
+                                                                                       Page 20 of 24                                                                        March 27, 2025
+
+
+===== Page 21 =====
+700.10(D)(1)  Occupancies.             Emergency  systems  shall  meet  the  additional  requirements  in
+700.10 (D)(2) through (D)(4) in the following occupancies:
+
+         (1) Assembly occupancies for not less than 300                 persons
+
+         (2) Buildings defined as high-rise per the AHJ’s building code
+
+         (3) Educational occupancies with more than 300 occupants
+
+         (4) Health care occupancies where persons are not capable of self                      -preservation
+
+
+
+Section 700.10(D)(2)(5)
+
+Revise 700.10(D)(2)(5) for concrete encasement, as follows:
+
+(2)  Feeder-Circuit Wiring.
+
+Feeder-circuit wiring shall meet one of the following conditions:
+
+    (List items (1) through (4) remain unchanged)
+
+    (5) The cable or raceway is encased in concrete with a minimum thickness of 127 mm (5 in.)
+         measured from each point on the surface of the cable or raceway.
+
+    Exception No. 1: Cables and raceways installed underground shall not be considered to be
+    inside the building.
+
+    Exception No. 2: Alternative thicknesses of concrete shall be permitted to be selected by a
+    licensed professional engineer qualified in such design. The selection shall be documented
+    and stamped by the professional engineer.
+
+         Informational Note No. 3: See Fire Protection Research Foundation Report FPRF                               -2018-
+         16, “Fire Resistance of Concrete for Electrical Conductors,” for information about concrete
+         fire resistance.
+
+
+
+Section 700.12(B)
+
+Revise Section 700.12(B)
+
+700.12(B) Equipment Design and Location. Equipment shall be designed and located so as to
+minimize  the  hazards  that  might  cause  complete  failure  due  to  flooding,  fires,  icing,  and
+vandalism.
+
+Equipment for sources of power as described in 700.12(C) through (G) shall be installed either in
+spaces fully protected by approved automatic fire suppression systems (such as sprinklers and
+carbon dioxide systems) or in spaces with a 2-hour fire rating where located within the following:
+
+
+
+
+
+                                                                                       Page 21 of 24                                                                        March 27, 2025
+
+
+===== Page 22 =====
+(1)     Assembly occupancies for more than 300 persons
+(2)     Buildings  defined  as  high-rise  per  the  AHJ’s  building  code  with  any  of  the  following
+        occupancy  classes          –  assembly,  educational,  residential,  detention  and  correctional,
+        business, and mercantile
+(3)     Educational occupancies with more than 300 occupants.
+(4)     Health care occupancies where persons are not capable of self-preservation.
+
+(The remainder is unchanged)
+
+
+
+Section 700.12(D)(5)
+
+Add a new Subsection 5 to Section 700.12(D), as follows:
+
+700.12(D)(5) Location. Where a generator set is located within 1.5 m (5 ft) of a building, it shall
+be separated from the building with a rated separation wall that has no openings and is equal to
+the highest fire rating within the building. It shall be installed within an appr                  oved enclosure and
+protected from physical damage. Where a generator set is located more than 1.5 m (5 ft) from a
+building, it shall be installed within an approved enclosure and protected from physical damage.
+
+
+
+Section 700.32(C)
+
+Add new Exception No. 2 to Section 700.32(C), as follows:
+
+700.32(C) Modifications
+
+Exception No. 1: Selective coordination shall not be required between two overcurrent devices
+located in series if no loads are connected in parallel with the downstream device.
+
+Exception  No.  2:        The  requirements  for  selective  coordination  are  not  required  where  the
+emergency system  was installed prior to the adopted code of record for NEC 2005. For new
+emergency systems that are supplied from an existing emergency system installed prior to the
+adopted code of record for NEC 2005, the new portion of the emergency system must comply
+with the requirements of this section. The ground fault sensing function of overcurrent protective
+devices will only be required to selectively coordinate with the ground fault sensing function of
+other overcurrent protective devices.
+
+
+
+Section 701.32(C)
+
+Add new Exception No. 2 to Section 701.32(C), as follows:
+
+701.32(C) Modifications
+
+Exception No. 1: Selective coordination shall not be required between two overcurrent devices
+located in series if no loads are connected in parallel with the downstream device.
+
+
+
+
+
+                                                                                       Page 22 of 24                                                                        March 27, 2025
+
+
+===== Page 23 =====
+Exception No. 2: The requirements for selective coordination are not required where the legally
+required standby system was installed prior to the adopted code of record for NEC 2005. For new
+legally  required  standby  systems  that  are  supplied  from  an  existing  legally  requ                  ired  standby
+system installed prior to the adopted code of record for NEC 2005, the new portion of the legally
+required standby  system must comply with the requirements of this section. The ground fault
+sensing function of overcurrent protective devices w                 ill only be required to selectively coordinate
+with the ground fault sensing function of other overcurrent protective devices.
+
+
+
+Section 705.12(A)(4)
+
+Revise 705.12(A) to add a new subsection (4)                , as follows:
+
+(4) Taps or interconnections made with power distribution block connectors, split bolt connectors,
+piercing tap connectors, high-pressure crimp connectors, pre-insulated multitap cable connectors,
+or similar connectors shall be made in a dedicated, approved junction box, pull box, or wireway
+of not less than 1650 cm3 (100 in.3) that complies with (a) through (f):
+
+    (a) Installation.
+         Connectors shall be listed.
+
+    (b) Installation Instructions.
+         In  addition  to  the  overall  size  requirement  in  the  first  sentence  of  705.12(A)(4),  the
+         connectors shall be installed in a junction box, pull box, or wireway that has dimensions
+         not smaller than any dimensions specified in the installation instructions.
+
+    (c) Wire Bending Space.
+         Wire bending space at the terminals of connections shall comply with 312.6.
+
+    (d) Live Parts (Energized)
+         There shall be no energized, uninsulated parts left exposed within the junction box, pull
+         box, or wireway, whether or not the cover is installed.
+
+    (e) Marking.
+         The  junction  box,  pull  box,  or  wireway  shall  be  marked,  WARNING  PHOTOVOLTAIC
+         POWER SOURCE INTERCONNECTION by means of a permanently affixed label or other
+         approved permanent marking.
+
+    (f)  Grounding.
+         Where the enclosure is metal, it shall be grounded in accordance with 250.148(C).
+
+
+
+Section 708.54(C)
+
+Add new Exception No. 2 to Section 708.54(C), as follows:
+
+708.54(C) Modifications
+
+
+
+
+
+                                                                                       Page 23 of 24                                                                        March 27, 2025
+
+
+===== Page 24 =====
+Exception No. 1: Selective coordination shall not be required between two overcurrent devices
+located in series if no loads are connected in parallel with the downstream device.
+
+Exception No. 2: The requirements for selective coordination are not required where the COPS
+system was installed prior to the adopted code of record for NEC 2005. For new COPS systems
+that are supplied from an existing COPS system installed prior to the adopted code of r                           ecord for
+NEC  2005, the  new  portion  of the  COPS   system must  comply  with the  requirements  of this
+section. The ground fault sensing function of overcurrent protective devices will only be required
+to selectively coordinate with the ground fault sensing fun                  ction of other overcurrent protective
+devices.
+
+
+
+Section 800.24(C)
+
+Add Subsection (C) to Section 800.24             , as follows:
+
+800.24 Mechanical Execution of Work.
+
+(C) Low Voltage Cables. Low voltage cabling installed in a concealed space of a Type I or Type
+II building shall be plenum-rated or installed in a metal raceway. Cables installed without raceways
+shall be installed per the manufacturer’s installation instructions.
+
+Section 800.179(E)
+
+Add list item (4) to 800.179(E), as follows:
+
+800.179(E) Circuit  Integrity  (CI)  Cable,  Fire           -Resistive  Cable  System,  or  Electrical  Circuit
+Protective System.
+
+Cables that are used for survivability of critical circuits under fire                 conditions shall be listed and
+meet either 800.179(E)(1), (E)(2), (E)(3) or (E)(4).
+
+(List items (1) through (3) remain unchanged)
+
+(4) Concrete Encasement
+The  cable  or  raceway  is  encased  in  concrete  with  a  minimum  thickness  of  127                        mm  (5 in.)
+measured from each point on the surface of the cable or raceway.
+
+    Exception No. 1: Cables and raceways installed underground shall not be considered to be
+    inside the building.
+
+    Exception No. 2: Alternative thicknesses of concrete shall be permitted to be selected by a
+    licensed professional engineer qualified in such design. The selection shall be documented
+    and stamped by the professional engineer.
+
+         Informational Note No. 3: See Fire Protection Research Foundation Report FPRF                               -2018-
+         16, “Fire Resistance of Concrete for Electrical Conductors,” for information about concrete
+         fire resistance.
+
+
+
+
+
+                                                                                       Page 24 of 24                                                                        March 27, 2025

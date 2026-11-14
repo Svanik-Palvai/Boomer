@@ -1,0 +1,157 @@
+
+
+===== Page 1 =====
+                                  Clark County Building and Fire Prevention
+                                                        Field Inspection Division
+                                   FIELD INSPECTION GUIDELINE
+
+
+Division:      Inspections                                                               Policy & Procedure:            FIG-E-004
+Subject:       Generators                                                                Effective Date:                06/01/2006
+Code:         2017 NEC Section 250.26 –250.92                                                               Revised Date:                10/01/2020
+Proposed:      Matthew Brewer                                                            Approved:                      Sam Palmer
+
+    Interpretation:
+    Generators supplying   stationary   equipment and/or are   connecting to stationary   wiring  methods shall
+    require an electrical permit. Such generators shall require grounding     in  accordance    with NEC 250.26           and
+    shall complywith    the requirements of the following guideline:
+    NOTE: Portable generators supplying     portable equipment shall not require an     electrical permit,   provided
+    they     comply  with  NEC  250.34(A).   Vehicle-  mounted    generators  supplying  portable   equipment  shall  not
+    require an     electrical permit, provided   they     comply with NEC 250.34(B).   Portable  wiring shall be regulated
+    by OSHA  a nd     meet all OSHA requirements for construction     sites.
+    The requirements    forthe    electrical installation and use of    generators  is  the  same as  if power     were   provided
+    by      the  Electrical  Utility  Company,  and,  as  such,     must  conform  to  all  the  requirements  for   all  of  the
+    other  installations  as  covered  by  the  National  Electrical   Code,    Uniform Fire Code, and other related
+    documents. The followingis    a list of generally applicable     requirements and the referenced code sections.
+    Specific situations may require  reference     to  additional code sections. This checklist is an effort to provide
+    a guide to the most common  requirements to  be  considered.
+
+    Field Application:
+          •      Means shall be provided   to disconnect all conductors in a building or other structure from the service
+               entrance    conductors.NEC    230.79
+          •      The  service     disconnecting      means  shall  have  a  rating  not  less  than  the  load  to  be  carried, in
+               accordancewith    Article 220.        NEC 230.79
+          •      Each ungrounded    service conductor shall have  overload protection.      NEC 230.90
+          •      AC systems of 50     volts to less than 1000         volts that supply premises wiring shall be  grounded   so
+               that  the  maximum     voltage  to  ground  on      the  ungrounded    conductors  does not exceed 150 volts.
+               NEC 250.20(B)
+          •      For  AC premises  wiring systems,  the  conductor to  be  grounded   shall be the neutral  conductor.
+               NEC 250.26
+          •      For a grounded   system, an un-    spliced main bonding   jumper shall be used to connect  the equipment
+               grounding      conductor(s)  and  the  service-   disconnect  enclosure  to  the  grounded  conductor  of  the
+               system within the enclosure for   each service     disconnect.   NEC 250.28
+          •      If available  on      the premises  at  each  building      or structure served, each  itemin      250.52(A)(1) through
+               (A)(5) as modified in the Southern Nevada Amendments, shall  be  bonded  together  to  form  the
+               grounding  electrode system. Where  none  of  these  electrodes  are  available,  one  or  more  of  the
+               electrodes specified in 250.52(A)(4) through (A)(7), as amended, shall be installed and used.  NEC
+               250.50
+
+                                                                 Page 1 of 3
+
+
+===== Page 2 =====
+         •      Grounding electrode   conductors smaller than #6     shall be installed in a raceway. A  raceway is not
+              required for  a #6 that is free from exposure to physical damage, or a #4,     if  not  exposed  to  severe
+              physical  damage.  The  G.E.C.  shall  be  installed  in  one  continuous length without  a splice.  NEC
+              250.64
+         •      The size    of the grounding   electrode  conductor of a grounded   AC system shall not be less  that given   in
+              Table   250.66,       except as permitted in 250.66(A) through         (C).  NEC 250.66
+         •      The connection of a grounding electrode     conductor to a grounding electrode shall be  accessible and
+              shall be made in a manner that will ensure a permanent and effective  grounding path.   NEC 250.68
+         •      Ground          clamps  shall  be  listed  for   the  materials  of  the  grounding      electrode    and  the   grounding
+              electrode   conductor  and,     where   used  on      pipe,   rod,  or  other  buried    electrodes, shall also be listed
+              for  direct soil burial or concrete   encasement. NEC 250.70
+         •      The service-disconnect enclosure and related enclosures shall be effectively bonded together.   NEC
+              250.92
+         •      Feeders and branch   circuits shall be protected from over-current in accordance with  their ampacities.
+              SeeNEC      240.4  for   conductors,  or NEC   240.5for       cords  and  cables.
+         •      Over-current protection shall be provided at the point of supply   or meet the  requirements of one
+              of the   tap rules.  NEC   240.21
+         •      Over-current devices shall be readily accessible, protected from physical damage, and  installed in a
+              vertical position.   NEC 240.24,      240.30   and 240.33
+         •      Exposed    non-current-carrying      metal  of  fixed  equipment  likely  to  become  energized   shall  be
+              grounded.     NEC  250.110
+         •      The  equipment  grounding    conductor  run  with  or  enclosing  the  circuit  conductors  shall  be  an
+              approved    type  and  shall  be  identified  as  green,  or  bare,  or  green  with  yellow stripes.  NEC
+              250.118and    250.119
+         •      Equipment  grounding      conductors  shall  be  installed  within  a  raceway  or  cable. NEC 250.120
+         •      Equipment grounding conductors shall be  sized as  per  NEC Table 250.122
+         •      Ground-        Fault Circuit-  Interrupter Protection for  Personnel shall be provided.    NEC 210.8
+         •      and NEC 590.6
+         •      Where   cord-wiring is approved,    it shall be of the hard-usage or extra-hard-usage type  listed  and
+              identified in  NEC 400.4
+         •      Receptacles shall be of the grounding     type and rated for  the circuit ampacity. NEC 406.2
+
+   The  requirements  for  electrical  installation  and  use  of  generators  are    the  same    as  if  the  power was
+   provided   by     the Electrical   Utility Company.      As such, generator installation must  conform  to  all  of  the
+   requirements for   all other installations as covered by     the National Electric Code,  Clark County   Fire Code,
+   and other related documents.  This procedure applies  to  temporary generator installations only,    including
+   ‘temporary-through-  the-main-service’  of a building.
+
+         A.  Generating systems   with fuel storage exceeding the following amounts must have  Clark County
+              Department  of  Building  &  Fire  Prevention  –    Fire  Prevention    Division  approval prior to permit
+              submittal:
+
+                                   1.   Gasoline              10 gallons
+                                   2.   Diesel Fuel           60 gallons
+                                   3.   LPG                 125 gallons
+
+
+                                                                   Page 2 of 3
+
+
+===== Page 3 =====
+         B.  Plans submitted for permit and approval must be processed through and approved  by the Zoning
+              Division. Plans must contain the following information:
+              •    Three      sets  of  site  plans  showing    the  location  of  the  generator,  all  structures  including
+                   security fences  on     the site, distances from  the generator to all  structures,  property  lines  and
+                   location      of  over-current  protection  for   the  generator.
+              •    Location, type,and amount of fuel for the     generator.
+         C.  No Building Plans Check review is required, with the exception of items 1   and 2   below.   Building
+              Plans  Check  will  sign  the  electrical  permit  application  upon          evidence      of  Zoning     department
+              approval,and Fire   department  approval when applicable.
+              1.      The field inspector reserves the right to request that electrical plans  be prepared   and  submitted
+                   to  Building      Plans  Check  for    review  of  unique  and/or  complex  installations where code
+                   interpretation is required or when the contractor cannot  provide adequate  information necessary
+                   fora   safeinstallation.
+              2.      Plans  prepared  and  stamped  by      an  electrical  engineer  licensed  in  the  state  of  Nevada   must
+                   be  provided    to  Building    Plans  Check  for   review  and  approval  of  installations  where the
+                   source power exceeds 800 amperes and/or 600   volts,  or  if the generator of any  size      is within a
+                   classified location as   defined  in  Article 500        of the National Electric  Code.
+         D.  General requirements for   generator system installation:
+              •    “No Smoking” signs must be posted in conspicuous locations in the vicinity of the  generator
+                   and storedfuel.
+              •    One or more approvedfire    extinguishers with minimum    40     B:C ratings are   to be  located in  the
+                   immediate vicinity of the       generator  equipment and stored  fuel.
+              •    Distance(s) specified on     the  approved   Zoning plans must be maintained from any  building,
+                   property lines, or  public  way.
+              •    An approved   security fence, minimum 6   feet in height,  must be provided   to secure   fuel storage.
+              •    Generators  shall  be  located  and  secured  per  approved  plans.  Security  shall  be  provided    by
+                   means of a 6-  foot high fence, or by     being housed in an approved    generator enclosure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                   Page 3 of 3

@@ -1,0 +1,708 @@
+
+
+===== Page 1 =====
+                              ORDINANCE NO. 188797
+
+        An ordinance amending Chapter IX of the Los Angeles Municipal Code to
+incorporate by reference certain portions of the 2025 Edition of the California Building
+Standards Code and to carry forward existing local administrative, climatic, geological,
+topographical, or environmental changes.
+
+        WHEREAS, California Health and Safety Code Sections 17958.5 and 17958.7
+authorize the City Council to make reasonably necessary changes or modifications to
+the provisions of the California Building Standards Code (Title 24, California Code of
+Regulations) upon finding these changes are reasonably necessary due to local
+administrative, climatic, geological, topographical, or environmental conditions;
+
+        WHEREAS, the City of Los Angeles has several earthquake faults which run
+under and adjacent to the City;
+
+        WHEREAS, seismic experts predict a massive earthquake on one of these faults
+within the next 30 years and several earthquakes similar in intensity to the 1994
+Northridge Earthquake (6.8 magnitude) during the same period;
+
+        WHEREAS, massive earthquakes pose unusual and extraordinary stresses on
+buildings and structures requiring more stringent building regulations than would
+otherwise be required;
+
+        WHEREAS, in 1999, large pockets of methane gas in the subsurface geological
+formation were discovered in various areas of the City of Los Angeles;
+
+        WHEREAS, the City of Los Angeles has topographic conditions, natural and
+man-made, such as the natural hills, mountains and the coastal region, as well as the
+man-made harbors and highly concentrated areas of high-rise buildings;
+
+        WHEREAS, the City of Los Angeles has flat land and hillside areas that create a
+natural basin with high strong winds which contribute to the spread of fires;
+
+        WHEREAS, in the highly concentrated area of high-rise buildings, traffic
+congestion and possible gridlock may jeopardize the quick response to fires by the Fire
+Department;
+
+        WHEREAS, the City of Los Angeles has climatic conditions, which subject it to a
+mild winter, an extremely hot desert-like summer, and hot, dry (Santa Ana) winds that
+make the temperature rise and the humidity drop, increasing the fire danger to all,
+exposed combustible materials;
+
+        WHEREAS, in support of the following modifications and changes, the City
+Council hereby expressly finds that the following amendments and modifications to the
+
+
+
+
+                                                     1
+
+===== Page 2 =====
+California Building Standards Code are reasonably necessary due to local
+administrative, climatic, geological or topographical conditions;
+
+        WHEREAS, the changes or modifications herein are substantially equivalent to
+the changes or modifications that were previously filed by the City and in effect as of
+September 30, 2025 as authorized by Health and Safety Code Section 17958;
+
+        WHEREAS, Health and Safety Code Section 17958(b) provides that
+commencing October 1, 2025, to June 1, 2031, inclusive, a city or county shall not make
+changes that are applicable to residential units in the provisions adopted pursuant to
+Section 17922 and published in the California Building Standards Code or the other
+regulations thereafter adopted pursuant to Section 17922 to amend, add, or repeal
+ordinances or regulations which impose the same requirements as are contained in the
+provisions adopted pursuant to Section 17922 and published in the California Building
+Standards Code or the other regulations adopted pursuant to Section 17922 or make
+changes or modifications in those requirements upon express findings pursuant to
+Sections 17958.5 and 17958.7, unless certain conditions are met;
+
+        WHEREAS, one of those conditions is that the changes or modifications are
+substantially equivalent to changes or modifications that were previously filed by the
+governing body of the city or county and were in effect as of September 30, 2025;
+
+        WHEREAS, each of the following changes, modifications, or amendments
+clarifies, readopts, or deletes previously adopted amendments to the California Building
+Standards Code; and
+
+        WHEREAS, each of the following modifications are thus substantially equivalent
+to changes or modifications that were previously filed by the governing body of the City
+and were in effect as of September 30, 2025.
+
+        NOW, THEREFORE,
+
+                       THE PEOPLE OF THE CITY OF LOS ANGELES
+                                   DO ORDAIN AS FOLLOWS:
+
+        Section 1. The title and table of contents of Article 1, Chapter IX of the Los
+Angeles Municipal Code are amended to read as follows:
+
+                                              ARTICLE 1
+         AMENDMENTS TO THE CALIFORNIA BUILDING STANDARDS CODE
+                                         [BUILDING CODE]
+        Division.
+         1. Administration
+         2. Definitions
+
+
+                                                    2
+
+===== Page 3 =====
+3. Occupancy Classification and Use
+4. Special Detailed Requirements Based on Occupancy and Use
+5. General Building Heights and Areas
+6. Types of Construction
+7. Fire and Smoke Protection Features
+7A. Materials and Construction Methods for Exterior Wildfire Exposure
+8. Interior Finishes
+9. Fire Protection and Life Safety Systems
+10. Means of Egress
+11. Accessibility
+12. Interior Environment
+13. Energy Efficiency
+14. Exterior Walls
+15. Roof Assemblies and Rooftop Structures
+16. Structural Design
+17. Special Inspections and Tests
+18. Soils and Foundations
+19. Concrete
+20. Aluminum
+21. Masonry
+22. Steel
+23. Wood
+24. Glass and Glazing
+25. Gypsum Panel Products and Plaster Plaster
+26. Plastic
+27. Electrical Systems
+28. Mechanical Systems
+29. Plumbing Systems
+30. Elevators and Conveying Systems
+31. Special Construction
+32. Encroachments into the Public Right-of-Way
+
+
+
+                                        3
+
+===== Page 4 =====
+             setbacks in the hoistway shall comply with ASME A17.1-2004, Section 2.1.6
+             except Rule 2.1.6.2(b) and Rule 2.1.6.2(d) where projections or setbacks
+             allow 4 inches (101.6 mm), this shall be reduced to 2 inches (50.8 mm).
+
+                (g) Glass Used in a Hoistway of a Non-Fire Resistive Construction.
+             Glass used in the hoistway shall comply with ASME A17.1-2004, Rule
+             2.1.1.2.1, Rule 2.1.1.2.2(d) and Rule 2.1.1.5 and shall also comply with the
+             following:
+
+                        1. Entrance into the bottom (below car) of the hoistway or at the
+                     top (above car) of the hoistway for cleaning and maintenance purposes shall comply with aSmE A17.1-2004, Rule 5.2.1.4.2
+                      (Bottom) and Rule 5.2.1.4.4 (top).
+
+                        2. The cleaning and maintenance of the glass in the hoistway
+                      shall comply with the following:
+
+                                (i) The cleaning of glass car enclosure and/or hoistway
+                             enclosures from inside the hoistway shall be performed by a
+                             City of Los Angeles Licensed Journey Level Elevator Mechanic
+                             as required by LAMC Section 92.0119 and employed by a
+                             State of California C11 Licensed Elevator Company.
+
+                                (ii) A written cleaning procedure shall be developed by the
+                             original installation elevator company and kept on the premises
+                             where the elevator controller is located. The procedure shall
+                             identify the hazards and shall also detail safety precautions to
+                             be utilized.
+
+                                (iii) A maintenance data plate with lettering a minimum size
+                             of 6 mm (0.25 inch) high on a contrasting background shall be
+                             fastened in a conspicuous place inside the elevator stating:
+                             "ALL MAINTENANCE OF ELEVATOR, INCLUDING THE
+                             CLEANING OF GLASS, SHALL BE PERFORMED AS
+                              REQUIRED BY LAMC Section 92.0119."
+
+                                (iv) A copy of the glass cleaning procedure from the
+                             original elevator installation company, on the original elevator
+                              installation company's letterhead, shall be made available on
+                             the acceptance inspection to the LADBS Elevator Division.
+
+        Sec. 511. Section 93.0101 of Division 1, Article 3, Chapter IX of the Los Angeles
+Municipal Code is amended to read as follows:
+
+    SEC. 93.0101. TITLE.
+
+
+
+
+                                                   105
+
+===== Page 5 =====
+   This article shall be known as the "Los Angeles Electrical Code" a portion of the "Los
+Angeles Municipal Code." Wherever the word "Code" is used in this article, it shall
+mean the "Los Angeles Electrical Code" and whenever "LAMC" is used, it shall refer to
+the "Los Angeles Municipal Code." References to the "CEC" and the "CBSC" shall
+mean the 2025 "California Electrical Code" and the 2025 "California Building Standards
+Codes" respectively. Whenever the word "City" is used, it shall mean the "City of Los
+Angeles." Whenever the word "Department" is used, it shall mean the "Department of
+Building and Safety."
+
+        Sec. 512. Subsection (a) of Section 93.0202, Division 2, Article 3, Chapter IX of
+the Los Angeles Municipal Code is amended to read as follows:
+
+(a) No permit shall be required in the following cases:
+
+        1. Electric wiring expressly declared to be exempt from permit requirements of
+     this Code by any other sections of the Code or by any other provisions of the
+     LAMC.
+
+        2. Wiring for temporary theater sets on the theater stages or temporary motion
+     picture or television sets on any property belonging to or under the control of the
+     City, privately owned studios, theaters, or similar locations designed for that usage.
+
+        3. Installation of any portable motor or other portable appliance energized by
+     means of a cord or cable having an attachment plug end, when that cord or cable is
+     permitted by this Code.
+
+        4. Repair or replacement of fixed motors or fixed appliances, supplied by
+     branch circuits not exceeding 20 amperes and not exceeding 240 volts nominal, of
+     the same type and rating in the same location where not located in an area classed
+     as "hazardous" under CEC Article 500.
+
+        5. Festive temporary decorative lighting in dwelling occupancies only, for a
+     period not to exceed 90 days.
+
+        6. Repair or replacement of current-carrying parts of any switch, contactor or
+     control device.
+
+        7. Reinstallation of attachment plug receptacle, but not the outlets for it.
+
+        8. Replacement of any overcurrent device of the same rating and in the same
+     location.
+
+        9. Replacement of gas tube electrodes, transformers, tubes, drivers and power
+     supplies with the same original manufactured parts having the same size, type,
+     capacity and ratings for electric signs, or luminaries.
+
+
+
+
+                                                    106
+
+===== Page 6 =====
+   10. Taping of joints.
+
+   11. Removal of electric wiring.
+
+   12. Temporary wiring for experimental purposes in suitable experimental
+laboratories.
+
+   13. The following electrical wiring:
+
+           (i) Non-required signaling circuits supplied by an approved Class 2
+        limited power source, capable of supplying not more than 30 volts and 100
+        volt-amperes; and
+
+           (ii) Non-required communication circuits which have the power limited in
+        accordance with CEC Section 725.121; and
+
+           (iii) Non-required amplifier output circuits which are permitted by CEC
+        Section 640.9(C) to employ Class 2 or Class 3 wiring; and
+
+           (iv) Any non-required circuit which operates at 12.4 volts or less and
+         does not generate, transmit, transform, utilize or control more than 25 watts
+         or volt-amperes of electric power.
+
+           EXCEPTION: A No permit is required when provided the above­
+       described wiring is not located in any of the following locations:
+
+                   a. Area classified as "hazardous" under CEC Article 500; or
+
+                   b. Appurtenant to a required fire alarm and signaling system as
+                classified under CEC Article 760; or
+
+                   c. Penetrating any fire-resistive wall, floor, or ceiling system.; or
+
+                   d. In a plenum, duct or other space used for environmental air
+                 including access floors.
+
+   14. Any similar repair or replacement determined by the Department not to
+involve any hazard to life or property.
+
+   15. Repair or replacement of like in kind luminaires in single-family dwellings.
+
+   16. Any electric wiring, except wiring located in an area classified as
+"hazardous" under CEC Article 500 after the branch circuit distribution panelboards
+used exclusively to supply or interconnect equipment installed, owned, operated or
+maintained by a communication public utility and used exclusively for
+
+
+
+
+                                               107
+
+===== Page 7 =====
+     communication purposes, in the exercise of its communication public utility
+     functions within the communication public utility controlled areas.
+
+         17. The replacement of defective smoke detectors, smoke alarms or carbon
+     monoxide alarms in a single-family dwelling when the work is performed by a
+     contractor with a valid Certificate of Registration pursuant to LAMC Section
+     91.1704. A Certificate of Compliance pursuant to LAMC Subsection 91.108.12
+     must be filed with the City in lieu of a permit.
+
+        18. Electric wiring in the Harbor District pursuant to Section 98.0102.1(a) of the
+     LAMC.
+
+        Sec. 513. Subsection (b) of Section 93.0206, Division 2, Article 3, Chapter IX of
+the Los Angeles Municipal Code is amended to read as follows:
+
+   (b) Plans and specifications for all wiring intended to be installed on the premises
+shall be submitted to and approved by the Department before a permit is issued and
+before installing any wiring related to the following:
+
+                 1. Theaters or motion picture theaters.
+
+                2. Places of assembly.
+
+                 3. All health care facilities within the scope of CEC Article 517.
+
+                4. A new building or an addition to a building if the computed area
+              exceeds 30,000 square feet (2,787 m2), any first-time tenant(s), any
+              installation if the new total connected load exceeds 400 amperes, or the
+              installation of equipment rated 600 amperes or more. The computed area
+              shall be the sum of the areas on each floor bounded by the outside surfaces
+              of the exterior walls and shall include floor areas beneath building
+              projections that extend more than 6 feet (182.8 mm);
+
+                 EXCEPTION: When the service distribution board includes a main breaker
+              rated at 400A or less and a busbar rated at 600A or more, the main breaker
+              shall be utilized to determine the rating, as specified in Section
+              93.0206(b)(4). A permanent placard indicating the service size provided by
+              the utility company must be affixed and compliant with 93.110.21
+
+                 Note: The rating of the main breaker shall match the service being
+              provided by the utility company.
+
+                 5. All electrical installations over 600 volts.
+
+                 6. Installation in locations classified as hazardous locations, unless
+             otherwise satisfactory to the Department.
+
+
+
+                                                     108
+
+===== Page 8 =====
+                7. Projects which include the installation of exit signs, egress lighting or
+             security lighting.
+
+                8. Installation of a complicated electrical system as determined by the
+             Department, such as Emergency, Legally Required Standby, Fire Alarm and
+             Signaling, and Gas Detection Systems, except for the following:
+
+                      (i) The addition of strobe power supplies and their attached devices
+                   connected to any existing fire control unit or panel. (Note: This exception
+                   does not apply for a first-time tenant.)
+
+                      (ii) The installation of special extinguishing, central station
+                   monitoring systems, dialers, and their attached devices.
+
+                      (iii) The addition of any fire alarm and signaling devices connected
+                   to an existing addressable fire alarm and signaling system. (Note: this
+                   exception does not apply for a first-time tenant.)
+
+                9. Installation of lighting fixtures weighing more than 300 pounds.
+
+                10. Installation of renewable energy system(s) (i.e., photovoltaic, wind,
+            fuel cell, etc.).
+
+                EXCEPTION: Department approved online permitted Standard plans.
+
+                11. Installation of Energy Storage System(s) (ESS).
+
+                EXCEPTION: Department approved online permitted Standard plans.
+
+                12. Engineering calculation(s) and analysis.
+
+        Sec. 514. Subsection (a) of Section 93.0217, Division 2, Article 3, Chapter IX of
+the Los Angeles Municipal Code is amended to read as follows:
+
+   (a) The fees for installing, replacing or relocating, each fire alarm and signaling
+system, communication, control or signal system equipment, or portion thereof, shall be
+as follows:
+
+                               Number or Devices                                               Fees
+1 to 10 total devices_______________________________________                                  $48.00
+11 to 40 devices__________________________________________                                 $4.00 each
+41 or more devices________________________________________                                 $3.00 each
+Each control panel, standby power supply panel, annunciator panel or                          $36.00
+similar main piece of control equipment for one of the above systems
+
+
+
+                                                    109
+
+===== Page 9 =====
+   For the purpose of this subsection, devices shall include all signaling equipment,
+stations, power equipment such as damper actuators or door holding devices,
+communication jacks or outlets, control sensors, or switches or remote indicators, and
+smoke detectors that are part of fire alarm and signaling systems or process
+
+        EXCEPTION: Communications equipment installed, owned or operated and
+     maintained by a communications public utility and exempt under the provisions of
+     LAMC Section 93.0108(c).
+
+        Sec. 515. Section 93.0314 of Division 3, Article 3, Chapter IX of the Los Angeles
+Municipal Code is amended in its entirety to read as follows:
+
+    SEC. 93.0314. RESPONSIBILITY FOR COMPLIANCE.
+
+   Every person designing, engineering, installing, altering, repairing, using or
+maintaining electric wiring shall be responsible for compliance with this Code.
+
+        Sec. 516. Section 93.0402 of Division 4, Article 3, Chapter IX of the Los Angeles
+Municipal Code is amended in its entirety to read as follows:
+
+        SEC. 93.0402. ELECTRICAL EQUIPMENT.
+
+   Electrical equipment, as defined in CEC Article 100; shall either be approved by the
+Department or be listed or be certified by a Department approved Electrical Testing
+Agency.
+
+    Listed or certified electrical equipment shall bear the label, symbol, or other
+identifying mark of the approved testing agency. The equipment shall be installed,
+used, and maintained in conformance with its listing or certification and the Los Angeles
+Electrical Code. All nationally recognized test labs shall be on the OSHA approval list.
+
+    Sec. 517. Section 93.0501 of Division 5, Article 3, Chapter IX of the Los Angeles
+Municipal Code is amended in its entirety to read as follows:
+
+    SEC. 93.0501. QUALIFIED INSTALLER.
+
+   It is unlawful for any person to install, alter, reconstruct, or repair any electrical
+system unless they are a qualified installer or are working under the direct supervision
+of a qualified installer. The person obtaining the permit shall be a qualified installer or
+their authorized agent, as defined below, or be exempt from licensing requirements as
+specified by the California State Licensing Board.
+
+   A qualified installer is:
+
+        (a) A person who holds a valid contractor’s license in the appropriate
+     classification issued by the State of California; or
+
+
+
+                                                     110
+
+===== Page 10 =====
+        (b) A person who holds a valid Maintenance Certificate of Registration issued
+     pursuant to the provisions of this Code; or
+
+        (c) A person who is the owner of a single- family dwelling and has
+     demonstrated to the satisfaction of the Department their qualifications to
+     satisfactorily perform electric wiring in the dwelling which is occupied by the owner,
+     and their accessory buildings, provided that all of the following conditions are met:
+
+                 (1) The work is performed prior to sale of the dwelling.
+
+                 (2) The owner actually resides in the dwelling.
+
+                 (3) The owner has not used this exemption for more than two structures
+              within any three-year period.
+
+        (d) A person employed by a governmental agency subject to this Code, who is
+     deemed qualified by the Department to supervise or perform electrical work
+     regulated under this Code.
+
+        (e) A person who has journey-level experience in the appropriate classification
+     as defined by the California State Licensing Board. Journey-level experience
+     applies to a person who has completed an apprenticeship program or is an
+     experienced worker, not a trainee, and is fully qualified and able to perform a
+     specific trade without supervision. However, that person does not have a license
+     and is not able to contract for jobs that require a building permit or use employee
+     labor or are more than $1,000 in labor and materials.
+
+        Sec. 518. The first paragraph of Section 93.0700, Division 7, Article 3, Chapter
+IX of the Los Angeles Municipal Code is amended to read as follows:
+
+    SEC. 93.0700. THE CALIFORNIA ELECTRICAL CODE.
+
+   Chapters 1 through 9, Annex C, H, G and I of the 2023 National Electrical Code
+(NEC), as published by the National Fire Protection Association (N.F.P.A. 70), the
+California Electrical Code (CEC) and the California Building Standards Code are
+adopted by reference as part of the Code. When there is a conflict between the 2023
+NEC, the CEC and the Los Angeles Municipal Code (LAMC), LAMC Section 93.0105
+shall prevail. Except as specified in Divisions 1 through 7 of Article 3, Chapter IX of the
+LAMC, all electrical installations and materials shall be in conformity with the California
+Electrical Code, as adopted by reference to be part of this Code; and Subsections
+93.0700.19, 93.515.17 and 93.515.18 are added as provided here.
+
+        Sec. 519. Subsection 93.0700.19 of Section 93.0700, Division 7, Article 3,
+Chapter IX of the Los Angeles Municipal Code is amended in its entirety to read as
+follows:
+
+
+                                                    111
+
+===== Page 11 =====
+93.0700.19. Illuminated Exit Signs. Illuminated exit signs used as part of emergency
+system shall be supplied from two independent branch circuits. One branch circuit shall
+be supplied from an emergency system, and the other branch circuit shall be supplied
+from a normal system.
+
+        EXCEPTION: Battery-Equipped Emergency Luminaires as permitted in CEC
+     Section 700.12(H).
+
+        Sec. 520. Subsection 94.101.1 of Section 94.101.0, Division 1, Article 4, Chapter
+IX of the Los Angeles Municipal Code is amended in its entirety to read as follows:
+
+94.101.1. Title. This article shall be known as the "Los Angeles Plumbing Code," a
+portion of the Los Angeles Municipal Code, and wherever the word "Code" is used in
+this article, it shall mean the "Los Angeles Plumbing Code" and whenever "LAMC" is
+used, it shall mean the Los Angeles Municipal Code. Whenever the word "City" is used
+in this article, it shall mean "City of Los Angeles." Whenever the word "Department" is
+used in this article, it shall mean "Department of Building and Safety."
+
+   The Los Angeles Plumbing Code adopts by indicated reference portions of the 2025
+California Plumbing Code (CPC) of Title 24 of the California Code of Regulations
+(CCR).
+
+        Sec. 521. Section 94.205.0. C. of Division 2, Article 4, Chapter IX of the Los
+Angeles Municipal Code is amended in its entirety to read as follows:
+
+        SEC. 94.205.0. C.
+
+   Section 205.0 of the CPC is adopted by reference with the following additions and
+amendments:
+
+        California Plumbing Code (CPC). The 2025 Edition of the California Plumbing
+     Code, also known as Part 5, Title 24 of the California Code of Regulations (CCR), a
+     portion of the California Building Standards Code.
+
+        Sec. 522. Section 94.216.0. N. of Division 2, Article 4, Chapter IX of the Los
+Angeles Municipal Code is amended in its entirety to read as follows:
+
+        SEC. 94.216.0. N.
+
+   Section 216.0 of the CPC is hereby adopted by reference.
+
+        Sec. 523. Section 94.217.0. O. of Division 2, Article 4, Chapter IX of the Los
+Angeles Municipal Code is amended in its entirety to read as follows:
+
+        SEC. 94.217.0. O.
+
+
+
+                                                    112
+
+===== Page 12 =====
+                 Mandatory Interior sound transmission (with note)  5.507.4.3
+
+                 Mandatory Ozone depletion and greenhouse gas       5.508.1
+                           reductions
+
+                 Mandatory Chlorofluorocarbons (CFCs)               5.508.1.1
+
+
+                 Mandatory Halons                                   5.508.1.2
+
+                           Supermarket refrigerant leak reduction for 5.508.2 through
+                 Mandatory retail food stores 8,000 square feet or more 5.508.2.6.3
+                           Sections 5.508.2 through 5.508.2.6.3
+
+                           END OF MANDATORY PROVISIONS
+
+Documentation Author's / Responsible Designer's Declaration Statement
+_  Mandatory: I attest that this mandatory provisions checklist is accurate and complete.
+
+Signature:
+
+Company:                                                            Date:
+Address:                                                            License:
+
+City/State/Zip:                                                     Phone:
+
+         Sec. 633. URGENCY CLAUSE. The City finds and declares that this ordinance
+is required for the immediate protection of the public peace, health, and safety for the
+following reasons: The regulations contained in this ordinance are necessary
+to safeguard life, limb, health, property and public welfare of persons within the City by
+regulating and controlling the design, construction, quality of materials, use and
+occupancy, location and maintenance of all buildings and structures erected or to be
+erected; by regulating certain grading operations; by regulating elevator maintenance
+and installations; by regulating electrical installations and plumbing systems; by
+regulating the design, construction, installation, alteration, repair, quality of materials,
+location, operation and maintenance of heating, ventilating, air-conditioning and
+refrigeration equipment and other miscellaneous heat-producing appliances installed in
+the City; and by identifying mandatory and voluntary green building measures. These
+regulations will protect residents and visitors of the City of Los Angeles by bringing the
+City’s building standards in line with the State of California’s Building Standards Code
+(California Code of Regulations Title 24) that will take effect January 1, 2026. Without
+the building standards contained in this ordinance, regulated structures, systems and
+building activity may present an immediate threat to the health and safety of all persons
+in the City. In order to address this threat the regulations contained in this ordinance
+must take effect immediately. For all of these reasons, this ordinance shall become
+effective upon publication pursuant to Section 253 of the Los Angeles City Charter.
+
+         Sec. 634. SEVERABILITY. If any portion, subsection, sentence, clause or
+phrase of this ordinance is for any reason held by a court of competent jurisdiction to be
+invalid such a decision shall not affect the validity of the remaining portions of this
+ordinance. The City Council hereby declares that it would have passed this ordinance
+and each portion or subsection, sentence, clause and phrase herein, irrespective of the
+
+
+                                                         162
+
+===== Page 13 =====
+fact that any one or more portions, subsections, sentences, clauses or phrases be
+declared invalid.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                    163
+
+===== Page 14 =====
+        Sec. 635. The City Clerk shall certify to the passage of this ordinance and have
+it published in accordance with Council policy, either in a daily newspaper circulated in
+the City of Los Angeles or by posting for ten days in three public places in the City of
+Los Angeles: one copy on the bulletin board located at the Main Street entrance to the
+Los Angeles City Hall; one copy on the bulletin board located at the Main Street
+entrance to the Los Angeles City Hall East; and one copy on the bulletin board located
+at the Temple Street entrance to the Los Angeles County Hall of Records.
+
+
+Approved as to Form and Legality
+
+HYDEE FELDSTEIN SOTO, City Attorney
+
+
+By_____________________________
+             GRANT HUTCHINS
+              Deputy City Attorney
+
+Date December 4, 2025
+
+
+File No. 25-1217
+
+M:\Real Prop_Env_Land Use\Land Use\Grant Hutchins\Triennial Building Code Update\2025.12.04 Transmission\R25-0621
+Triennial Ordinance.docx
+
+
+
+
+The Clerk of the City of Los Angeles
+hereby certifies that the foregoing
+ordinance was passed by the Council of
+the City of Los Angeles, by a vote of not
+less than three-fourths of all its
+members.
+
+CITY CLERK                                               MAYOR
+   / — _*
+
+
+
+Ordinance Passed December 12, 2025                       Approved 12/24/2025

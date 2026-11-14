@@ -1,0 +1,364 @@
+
+
+===== Page 1 =====
+ ESRM Revisions – May 15, 2026
+
+
+
+
+
+ Section                                 Revision
+
+ Cover & Multiple Sections         Updated ESR manual cover page and multiple sections with NEC spelling
+                                        from “Electric” to “Electrical”.
+
+ 100, 104.11-1                         Updated ESRM 104.11-1 placard, note 2 and note 3 has “Switch” removed.
+
+ 100, 104.11-2, 104.12-2         Updated ESRM 104.11-2 with the removal of “Switch” and 104.12-2 with
+                                        the removal of “Disconnect Switch”.
+
+ 100, 104.11-2                         Updated ESRM 104.11-2 placard, note 2.
+
+ 100, 104.12                             Clarified ESRM 104.12 to include an alternate multi-step solution to
+                                        address main-tie-main configurations where isolation devices listed to UL
+                                        98 or UL 1008 are not available/practical.
+
+ 100, 104.12-3                         Created ESRM Paragraph “104.12-3 NON-INTERCONNECTED GENERATION
+                                        SYSTEMS” that lists requirements for transfer equipment between APS
+                                        utility source and backup on-site generator(s).
+
+ 300, 301.7                              Clarified ESRM 301.7 with the addition of note 3, expounding upon
+                                        minimum workspace requirements.
+
+ 300, 301.9                              Corrected ESRM 301.9 Subsection name. NESC Requirements callout
+                                        location adjusted to be above figures.
+
+ 300, 303.6-3                           Updated ESRM 303.6-3 with the removal of “Disconnect Switch”.
+
+ 500, 501.0                               Updated ESRM 501.0 to include language for the number of conduits listed
+                                        for each SES based on rating/size and the minimum quantity required.
+
+ 500, 501.1-1                           Updated ESRM 501.1-1 paragraph name to “Single Residential Meter Single
+                                        Phase U.G. Riser Size”.
+
+ 500, 501.1-2                           Updated ESRM 501.1-2 paragraph name to “COMMERCIAL AND MULTI-FAMILY
+                                        RESIDENTIAL SINGLE PHASE U.G. RISER SIZE”.  The note at the bottom of the
+                                        list was removed.
+
+ 500, 501.1-3                           Updated ESRM 501.1-3 with the note removal at the bottom of the list.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===== Page 2 =====
+ESRM Revisions – November 15, 2025
+
+
+Section                                    Revision
+
+
+100, 103.8, 104.11                  ESRM 103.8 adds APS VEHICLE ACCESS definition.  ESRM 104.11 editorial
+                                      correction to capitalize Interconnection Requirements.
+
+
+300, 301.4, 301.5, 301.8,         Clarified vehicle access requirements within ESRM 301.4 (Item 1.a), 301.8
+305.2, 306.1                           (Item 2.a), and 301.8 (new Item 20).  Corrected ESRM 305.2 heading and
+                                      306.1 (Item 2.c) duplication of “TO APS”.
+
+
+1000, 1000.4                           Clarified ESRM 1000.4 primary metered switchgear working space
+                                      requirements.
+
+
+1300, 1301.2-2                        Clarified ESRM 1301.2-2 vehicle clearance requirements to be minimum 8
+                                      feet vertical and minimum 11 feet horizontal.
+
+ESRM Revisions – July 09, 2025
+
+
+Section                                    Revision
+
+
+100, 104.11, 104.11-1             Clarify ESRM 104.11-1 to state the synchronous generator neutral shall not
+                                      be floating. ESRM 104.11 Interconnection documentation access guide
+                                      updates.
+
+
+300, 302.1                              Clarified ESRM 302.1 to correct the spelling of ‘micarta’.
+
+
+300, 304.5 Details 1 & 2           Clarified ESRM 304.5 Details 1 and 2 to update the SES concrete pad
+                                      leveling and sloping requirements under and outside the SES cabinet
+                                      footprint.  For example, “the concrete pad needs to be level under the SES
+                                      cabinet and the concrete pad needs to be sloped between 1/8-inch min to
+                                      1/4-inch max outside the SES footprint area”.
+
+
+300, 306.0                              Clarified ESRM 306.0 headers to include “H-frame”.
+
+
+300, 306.1                             Created ESRM 306.1 to describe the requirements for service equipment
+                                      that is not secured to a permitted structure.
+
+
+300, 307.0                             Page number advanced.
+
+
+500, 501.5, Table 502.3           Updated ESRM 501.5 and Table 502.3 to describe the SES riser-to-SES
+                                      enclosure connectors shall be Schedule 80 utilizing curved neck coupler.
+
+
+                                             NOTE: Customers are strongly encouraged to use Schedule 80 connectors
+                                      and no longer use Schedule 40 connectors.  However, customers could
+                                      continue using their existing stock of Schedule 40 connectors instead of
+                                      Schedule 80 connectors during the grace period that ends on January 1,
+                                      2026.  After January 1, 2026, customers shall use Schedule 80 connectors
+                                      only.
+
+
+===== Page 3 =====
+ESRM Revisions – November 15, 2024
+
+
+Section                                    Revision
+Multiple  Revised multiple sections throughout the ESRM and updated the cited
+                                    voltages to conform with the voltage nomenclature per ANSI C84.1-2020,
+                                    “Electric Power Systems and Equipment – Voltage Ratings (60 Hertz)”.
+
+
+100, 100.5                              Retitled the section 100.5 heading from “Codes” to “Codes and Standards.”
+                                    Clarified the ESRM requirements supplement the currently applicable NESC,
+                                    NEC, Municipal, County or State Codes, Ordinances or regulations within
+                                    the State of Arizona.
+
+
+400, 402.2-1                           Clarified the requirements for customer-provided service wood pole
+                                    markings (ESRM 402.2-1).
+
+
+400, 402.3                             Steel and wood pole sizing tables (ESRM 402.3).
+
+
+400, 402.5-1 & -2                   Clarified the requirements for typical pole-mounted meter installations for
+                                    residential, commercial or temporary services (ESRM 402.5-1).
+                                    Established certain customer service pole installations and associated
+                                    requirements as “maintenance only”.
+
+ESRM Revisions – May 15, 2024
+
+
+Section                                    Revision
+300, 301.8-1, -2, -3                Clarified barrier post, working space, and escape route requirements for
+                                    service equipment configurations.  Deleted 301.8-3.
+
+
+300, 301.15-3                         Deleted the text at the end of 301.15-3 that incorrectly duplicates the text
+                                    in the first paragraph of ESRM 301.16.
+
+
+300, 304.5-1.0                       Clarified working space and escape route requirements for outdoor service
+                                    entrance section pads.  Added cross-reference to 301.8 for barrier post
+                                    placement requirements.  Added cross-reference to ESRM 1000 for medium
+                                    voltage concrete pad working space requirements.
+
+
+500, 502.8, Fig. 3                   Changed 502.8 heading to Service Conduits Under Foundation and clarified
+                                    spacing between spacers in typical duct installation is 6 feet.
+
+
+1100, 1101.1                         Delete the drawings 1101.1, “Low-Profile Switchboard”.
+
+
+1100, EUSERC DWG 309          Delete the drawings EUSERC 309, Sheets 1 & 2 “Commercial Fixed Top
+                                    Service Pedestals 0-200 Amperes, 0-600 Volts”.
+
+ESRM Revisions – November 15, 2023
+
+
+Section                                    Revision
+300, 301.2-1                           Corrected the Note 4 incomplete sentence to state “IT IS THE CUSTOMER'S
+
+===== Page 4 =====
+                                       RESPONSIBILITY TO INSTALL CONDUIT AND WIRING BETWEEN THE
+                                       METER LOCATION AND THE POINT OF ATTACHMENT.”
+
+
+ 300, 306.0                             Deleted the SES riser sizes specified in Note 8 because the information is
+                                       correctly specified in ESRM 501.1-3.
+
+
+ 400, 401.9                             Added MIN to the 18” dimension (“18” MIN”) describing the unbraced
+                                       minimum height above the roof for the service drop conduit point-of-
+                                       attachment.
+
+
+ 1000, 1000.1.C                       Clarified “customers must notify APS Representative prior to implementing
+                                       any proposed protective device changes at any time throughout the
+                                       lifetime of the facilities.”
+
+ ESRM Revisions – May 15, 2023
+
+
+ Section                                    Revision
+ 300, 301.2-1                          Clarify metering service location identification requirements.
+
+
+===== Page 5 =====
+ESRM Revisions – November 15, 2022
+
+
+Section                                    Revision
+300, 303.6-1                          Added additional guidance.
+300, 304.5-1                          Added to note 5 for SES pad details and note reference added to Detail 2.
+300, 304.6                             Added note 5.
+300, 306.0                              Section Header name updated.
+300, 306.0                              Clarified Note 13.
+400, 402.2                              Clarified Customer Provided and Customer Owned wood poles.
+500, 506.8-1                          Added details to note 7.
+900, 900.6                              Added note 8.
+900, 900.7                              Added note 6.
+1300, 1301.2-1                       Clarity on letter height requirements.
+
+ESRM Revisions – May 15, 2022
+
+
+Section                                    Revision
+100, 104.11                            Added cross-reference to the APS Interconnection Requirements Manual for
+                                             distributed Generation requirements at aps.com/dg.
+300, 302.1                              Added cross-reference to the APS Interconnection Requirements Manual for
+                                             all interconnect label requirements at aps.com/dg.
+700, 701.0, Notes 2 & 3           Clarified Note 2 is for sizing conductor used for bonding unfused nipples
+                                             and equipment.  Clarified Note 3 is for sizing main bonding jumper, system
+                                             bonding jumpers, and supply-side bonding jumpers from equipment
+                                             grounding bus to neutral bus, per NEC.  Corrected NEC 250.66 to
+                                             NEC 250.102(C)(1) in Column 3 heading.
+
+ESRM Revisions – March 02, 2022
+
+
+Section                                    Revision
+300, B                                    Changed 302.13 section description to “Reserved”.
+302.13                                   Removed obsolete text, changed 302.13 to “Reserved”
+303.1                                     Removed item 3. No longer applicable.
+
+
+
+
+
+
+
+
+
+===== Page 6 =====
+ESRM Revisions – January 27, 2022
+
+
+Section                                    Revision
+100, B                                    Inserted new 102.29 & 102.30 definitions.
+100, C                                    Add 104.9 & 104.10 definitions.
+100, 102.7                              Add ‘Generator’ to clarify ESRM 102.7 heading.
+100, 102.29                            Add ‘Switchboard’ definition.
+100, 102.30                            Add ‘Switchgear’ definition.
+100, 104.11-1                         Update ANSI Z535.1-1998 to newer ANSI Z535.1-2011 version, &
+ Grammatical errors corrected.
+100, 104.11-2                         Clarify customer rack-out breakers do not meet visual open requirements,
+                                             and add placard/warning label requirements.
+200, A                                    Clarify Primary Service (medium voltage range), (601V to 15kV).
+200, 201.6                              Clarify Primary Service, medium voltage range (601V to 15kV).
+300, A  Add Equipment Working Space and Escape Route & Alternate Escape
+                                       Route.
+300, B                                    Update Service Section to Service Entrance Section.
+300, C                                    Update Outdoor Service Entrance Section titles, add Outdoor Service
+                                       Entrance Section Pads in Remote Locations with No Access to Water, &
+                                       Indoor Service Entrance Section Housekeeping Pads.
+300, 301.7                               Clarify notes for working, clearance, and escape route requirements and
+                                       updated detail.
+300, 301.8, -1 to -3                  Clarify barrier post, escape route, and service equipment requirements and
+                                       added supporting details.
+300, 301.15                            Update Figures 3 & 4 and add Figures 5 & 6 to clarify the separation
+                                             Requirements between meters and other utility meters/fuel sources.
+300, 302.3-1, 302.9                 Wording change switchgear to switchboard.
+300, 302.11                            Change service section to service entrance section.
+300, 302.12                            Clarify customer drawing submittal requirements per ESRM 302.9.
+300, 304.5, -1 to -3                 Clarify escape route, barrier post & equipment pad requirements and add
+                                       detail and notes for pads where no access to water.
+300, 304.6                              Add ‘Housekeeping Pads’ to clarify ESRM 304.6 heading.
+800, 800.4                              Delete ESRM 800.4.
+1000, A                                  Clarify heading with added text 601V-15V, wording change to 1000.4 from
+                                       switchboard to switchgear.
+1000, 1000.0                          Change switchboard to switchgear.
+1000, 1000.1                          Update voltage for note B to 12.47kV.
+1000, 1000.2                          Change switchboard to switchgear.
+1000, 1000.7                          Change switchboard to switchgear.
+1000, 1000.9                          Change switchboard to switchgear.
+1000, 1000.15                        Change switchboard to switchgear.
+1100, C                                  Add 407/APS addendum to EUSERC.
+1100, 1100.2                          Clarify customer drawing submittal requirements per ESRM 302.9.
+1100, 407/APS                        Clarify 15KV CT designs require 2-bolt, 22-inch between 0 & 1200 Amps.
+1300, 1301.2                          Clarify high rise APS meters are acceptable at the main SES location.
+1400, A                                  Add sections 1400.3, 1400.3-1, 1400.3-2
+1400, 1400.3, -1 & -2              Add new ESRM 1400, 1400-1 & -2 equipment accessibility requirements.
+
+
+
+
+===== Page 7 =====
+ESRM Revisions – May 10, 2021
+
+
+Section                                    Revision
+200, 201.2                             Added 1200A limitation for SESs greater than 600V.
+300, 301.8                             Clarified SES concrete pad requirements.
+300, 301.15                            Added note 4 to clarify 48-inch minimum separation to gas stub out.
+300, 302.3-1                           Added service disconnect allowable ampacity requirements.
+300, 302.9                              Updated approval requirements for metering in service equipment.
+300, 304.5, 304.5-1 & -2          Clarified SES concrete pad requirements.
+300, 304.6                              Update note 1 for not greater than 2-1/2 inches housekeeping pad.
+400, 401.1                             Adding missing note 4 regarding 10 ft. rule.
+400, 401.7                              Clarified OH service conductor 5 ft. radial clearance.
+400, 402.3                              Updated notes to clarify pole wrap and steel pole requirements.
+600, 602.1-1, 2 & 3                Updated trench figures.
+1000, 1000.2-1                      Added 1200A limitation for SESs greater than 600V
+1000, 1000.3                          Clarified manufacturer drawings for approval submittal requirements.
+1100, 305                              Clarified voltage range is 0 to 600V (not 0 to 800V).
+1100, 401/APS                        Added notes 7 (1200A SES limitation) and 8 (reference to ESRM 1000.4).
+1400                                     New section 1400 for vehicle approach requirements near APS equipment.
+ESRM Revisions – February 20, 2019
+
+
+Section                                    Revision
+100, 104.1                                 Added missing text back into manual regarding underground riser.
+100, 102.19-5                          Added missing text back into ESRM regarding customer-owned UG conduits.
+100, 104.1                                 Added missing text back into manual regarding underground riser.
+100, 104.7.1                             Harmonic Study Policy with 08/31/17 revision date.
+200, 200.2-2                             Added missing text regarding upgrading the service.
+200, 201.3                                Added missing text regarding maximum single phase motor size is 25 HP.
+200, 201.7                              Paragraph added on Service Voltage Ranges.
+200, 201.8                              Paragraphs added on Power Quality Investigation.
+300, 301.4                                Added clarification to note 3 regarding permanent ID tagging.
+300, 301.6                                 Added Note to bottom of paragraph regarding unacceptable panel locations.
+300, 301.7                                  Added note 2 regarding workspace requirements.
+300, 301.9                                 Added to meter room requirements regarding access to interior of building.
+300, 301.9                                   Clarified requirement for meter closets.
+300, 301.11 & 301.11-1             Clarified requirement for meter closets.
+300, 301.15-1, 2, & 3                New requirements for electric meter clearance to fuel sources.
+300, 302.14                              Updated meter types used on APS system.
+400, 400.1                                Added missing note to bottom of paragraph regarding attachment tensions.
+400, 401.1                                  Deleted unnecessary note 4 and re-numbered.
+500, multiple locations              Clarified UG conduit is customer-owned.
+500, 501.1                                Clarified UG riser sizes are minimum sizes required.
+800, entire section                     Updated multiple fault current tables.
+900, 900.1                                Clarified in note 6 that disconnects "simultaneously" open all conductors.
+1100, entire section                  Added updated EUSERC drawings and updated APS addendums.

@@ -1,0 +1,224 @@
+
+
+===== Page 1 =====
+                                  APPLICATION FOR SERVICE
+                                 Table of Contents - Section 200
+PARAGRAPH                                                                           PAGE
+200.0  REQUEST FOR SERVICE ..……………………………………………………………………………………………                        1
+   200.1      REQUIRED INFORMATION ..………………………………………………………………………………                     1
+   200.2      NORMAL SEQUENCE OF EVENTS ………………………………………………………………………                     1
+   200.2-1    NEW SERVICE ..…………………………….….……………………………………………………………                       1
+   200.2-2    UPGRADE SERVICE ..………………………………………………………………………………………                       2
+   200.2-3    TEMPORARY SERVICE ..……………………………..……………………………………………………                     3
+   200.3      REMOVAL OF SERVICE/FACILITIES .……………………………………………………………………                 3
+
+
+201.0  CHARACTER OF SERVICE & LIMITATIONS ...……….……………………………………………………………                3
+   201.1      SINGLE PHASE ...……………………………………………………………………………………………                       3
+   201.2      THREE PHASE .………………………………………………………………………………………………                         4
+   201.3      GUIDELINES for SERVICE VOLTAGES for NON-RESIDENTIAL INSTALLATIONS ..………………4
+   201.4      MASTER METERING ..………………………………………………………………………………………                       4
+   201.5      ONE METER PER HOME ..…………………………………………………………………………………                      4
+   201.6      PRIMARY SERVICE (601V - 15KV) ...………………………………………………………………                 4
+   201.7      SERVICE VOLTAGE RANGES .……………………………………………………………………………                     5
+   201.8      POWER QUALITY INVESTIGATION ...……………………………………………………………………                 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                              ELECTRIC SERVICE REQUIREMENTS                          200
+       REVISION                  APPLICATION FOR SERVICE                             PAGE
+       01/27/2022                   TABLE OF CONTENTS                                 A
+
+===== Page 2 =====
+200.0         REQUESTS FOR SERVICE
+              Customers contemplating new meter installations or relocations shall contact the APS business office in that
+              city or area for an approved service and meter location prior to proceeding with any electrical installation. By
+              following this procedure, the Customer will eliminate inconvenience and delays in obtaining service by having
+              to make unnecessary service entrance relocations or pay the expense incurred by APS for additional facilities
+              to serve unauthorized meter locations         .
+________________________________________________________________________________________________
+
+200.1         REQUIRED INFORMATION
+             Each prospective customer desiring new service and/or a change in existing service must make application
+              for the same with APS. Consult Page “B” and “C” (in front of book) for the address and telephone number of
+              the APS office in your area. The customer must provide the following information.
+             1.   Applicant’s name.
+              2.  Property owner’s name.
+              3.  Official street address and the complete legal description of the property to be served.
+              4.  Type of structure or facilities to be served. Square footage of building.
+              5.  Site plans and building plans showing desired meter location.
+              6.  The estimated loads - voltage and phase desired.
+              7.  Type of cooling/heat.
+              8.  Credit information.
+
+             It is suggested that the necessary information be submitted to APS as early in the development
+             process as possible to assure meeting the customer’s completion schedule.
+________________________________________________________________________________________________
+
+200.2         NORMAL SEQUENCE OF EVENTS
+________________________________________________________________________________________________
+
+200.2-1      NEW SERVICE
+             1.   Customer provides sufficient notice of intent to build. Large projects tend to require longer lead times.
+              2.  Customer provides preliminary information during planning stage.
+
+
+              3.  Customer provides engineering design drawings to APS.
+                  These drawings must include:
+                  a.  Electrical load calculations.
+                 b.  Electrical plan showing the meter panel location.
+                  c.  Electrical service entrance section drawings (see section 300) with official street address on copies.
+                  d.  Water, sewer, telephone, cable television and any other sub-grade obstruction.
+                  e.  Curb, gutter and paving plans.
+                  f.   Landscaping (including retention basins) and sprinkler plans.
+
+===== Page 3 =====
+              4.    APS to engineer the electrical system up to the customer’s meter panel.
+              5.    Customer obtains all necessary permits from the appropriate inspection authority.
+              6.    Customer to provide acceptable easements.
+              7.    Customer may need to pay a cash advance to aid APS construction. This may or may not be refundable.
+              8.    Customer to sign the necessary agreements.
+              9.    APS to review service entrance section drawings for approval.
+             10.    APS to specify the trench and equipment locations.
+             11.    Customer to provide property corners and grade stakes (Blue Tops).
+             12.    APS to stake the trench and equipment locations.
+             13.    Customer to provide the trench per APS design.
+             14.    APS to inspect the trench. Approve if per APS design.
+             15.    Customer to provide conduit and equipment pads as required.
+             16.    APS to inspect conduit and equipment pads. Approve if per APS specs.
+             17.   APS to schedule crew(s) for construction of its facilities.
+             18.    Customer to provide credit or security information.
+             19.    Customer to schedule for meter panel inspection. (Contact the assigned Customer Project
+                    Representative).
+              20.   APS to inspect meter panel. Approve if per APS specifications.
+              21.   Customer to obtain City or County electrical clearance (if applicable).
+              22.   When APS receives a City or County clearance, APS will set a meter and energize the service. (If
+                    applicable).
+              Adequate time must be provided in the customer’s schedule to accomplish allocation of
+              materials, scheduling APS crews and complete construction of APS facilities.
+              Only authorized APS employees shall energize a service.
+________________________________________________________________________________________________
+
+200.2-2      UPGRADE SERVICE
+             Prior to service being changed or relocated to supply new or existing load, contact APS.  All service
+              entrances being upgraded (increased main breaker ampacity), or relocated must be brought up to current
+              code and specification requirements.  See paragraph 200.2-1, "New Service" for information and
+             requirements.
+
+===== Page 4 =====
+________________________________________________________________________________________________
+
+200.2-3      TEMPORARY SERVICE
+              APS will provide temporary service to a customer providing the customer pays the installation and removal
+             costs less the salvage value of such facilities in advance of installation. In addition to temporary load
+             information, the customer should provide APS with a complete statement regarding the requirements for
+             permanent service. (See Paragraph 200.2-1, New Service).
+             Customers requesting construction power may be delayed as a result of the APS construction backlog of
+             customers that applied for permanent power. Normally these jobs consist of move-in or live-in customers.
+              When temporary service is provided on a customer’s pole, the pole shall conform to the requirements set
+              forth in Paragraph 402.0 in Section 400.
+              The service entrance requirements for temporary service are the same as for permanent installations.
+________________________________________________________________________________________________
+
+200.3         REMOVAL OF SERVICE/FACILITIES
+             Requests for the removal of facilities may be made to the local APS office (see Pages B and C in front of
+             book for addresses and telephone numbers). Due to normal schedule times for APS construction crews, a
+             minimum of two weeks’ notice should be given to APS prior to the date the facilities are to be removed.
+________________________________________________________________________________________________
+
+201.0         CHARACTER OF SERVICE & LIMITATIONS.
+________________________________________________________________________________________________
+
+201.1         SINGLE PHASE
+             120 volt, 2 wire               (for two circuits and/or motors of 1/2 hp or less)
+             7200 volt, 2 wire             (special applications)
+             12,500 volt, 2 wire          (special applications)
+             120/240 volt, 3 wire        (normally for residential including refrigeration compressors of 7 1/2 hp or less. Also
+                                            for non-residential and industrial, but limited to 800 amp service entrance.)*
+             120/208 volt, 3 wire        (in some areas)
+             240/480 volt, 3 wire       (Unmetered ADOT highway/lighting services only)
+
+             * If a customer has load requirements over 800 amps at 120/240 volt and three phase service is not readily
+             available, customer may install 2 or more service entrance sections. Each section will be limited to 800 amps
+             and must be located within 10 feet of each other. APS will install at no cost to the customer the necessary
+              totalized metering: however the customer will be required to provide all metering conduits and instrument
+             cabinets in accordance with APS specifications. (See Section 300, Metering Installation Requirements and
+             Schedule 4).
+             Due to weight of conductor on the overhead transformer spades, maximum length of overhead conductor
+             limited to 40’ on 800 amp service entrance sections.
+             Refer to section 104.3 for additional details regarding the installation motors 7.5 hp or larger to a single phase
+             system (i.e. 120/240V, 1p, 3W).
+
+===== Page 5 =====
+
+
+===== Page 6 =====
+________________________________________________________________________________________________
+
+201.7         SERVICE VOLTAGE RANGES
+              APS shall maintain voltage at the Point of Delivery (POD) in accordance with ANSI standard C84.1 as noted
+              in A.A.C. R14-2-208F.  Customer shall ensure its load does not cause the RMS voltage at the POD to vary
+              outside ANSI standard C84.1 during normal loading/steady state conditions (i.e. after
+              equipment / motor / process startup and/or shut down period).  APS may require the Customer to remedy any
+              voltage excursion caused by its load at the POD, any point along the APS System and/or a neighboring
+              customer’s POD outside of this ANSI range.
+________________________________________________________________________________________________
+
+201.8         POWER QUALITY INVESTIGATION
+              APS is available to assist Customers with evaluating/investigating Power Quality issues (including harmonics,
+              flicker, imbalance, voltage sags/swells and/or faulty equipment/event analysis).  APS will evaluate if the
+              source of the Power Quality issue originates from the APS System, and will remedy as deemed appropriate.
+              If Customer requires additional assistance, APS can aid with on-site investigation by performing an inspection
+              of impacted electrical equipment.  Customer is advised to proactively install utility-grade event recording
+              metering that measures voltage, current, kVAR, kW, kVA, power factor and imbalance set at pre-determined
+              intervals.  Customer installed equipment must be located outside of utility sealed compartment.  Customer
+              can provide data in advance to APS to expedite the Power Quality investigation.
+              If Customer requests APS’ assistance to identify/resolve/troubleshoot a Power Quality issue on the Customer
+              side of the point of common coupling, Customer shall provide the following:
+                  ·   A Qualified Electrical Worker to assist APS representatives.
+                  ·   Electrical one-line diagrams of Customer’s electrical system.
+                  ·   Event recording/history of issues (data downloads from metering are preferred).
+                  ·   Make/Model numbers of impacted equipment needing support.
+                  ·   Copy of Customer safety program along with required PPE prior to initial site visit.
+              If available, APS may loan Customer a Recording Volt Meter (RVM) in order to capture the event/issue.  APS
+              will provide instructions on how to install the RVM; however, Customer must provide the resources/means to
+              install.  APS will loan the RVM for a reasonable time period (i.e. up to 2 weeks), and may allow for longer
+              duration depending on availability and/or need.  In the event an Immediate Hazard exists on-site, APS may
+              (1) require the escort of an APS Qualified Worker to assist, or (2) refuse to enter the property/area until the
+              area in question is established as a safe work environment free from potential electrical and other safety
+              concerns (i.e. Electrically Safe Condition, tripping, slipping, etc.).  If Customer suspects a Power Quality
+              concern, they shall contact the APS call center at 602-371-7171 to initiate a Power Quality investigation.

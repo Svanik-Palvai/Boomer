@@ -1,0 +1,1981 @@
+{
+  "builtAt": "2026-11-14",
+  "chunks": 8712,
+  "byKind": {
+    "fact": 647,
+    "doc": 7920,
+    "row": 145
+  },
+  "sources": [
+    {
+      "region": "az",
+      "sourceId": "phoenix-2023-nec-amendments",
+      "chunks": 52,
+      "jurisdiction": "Phoenix, AZ",
+      "docType": "local_amendment",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/codes-ordinances/amendmentcodes/2023-nec.pdf"
+    },
+    {
+      "region": "az",
+      "sourceId": "phoenix-building-code-page",
+      "chunks": 26,
+      "jurisdiction": "Phoenix, AZ",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.phoenix.gov/administration/departments/pdd/tools-resources/codes-ordinance/building-code.html"
+    },
+    {
+      "region": "az",
+      "sourceId": "phoenix-construction-code-history",
+      "chunks": 11,
+      "jurisdiction": "Phoenix, AZ",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/trt/external/dsd_trt_pdf_00550.pdf"
+    },
+    {
+      "region": "az",
+      "sourceId": "phoenix-2024-pbcc-implementation",
+      "chunks": 5,
+      "jurisdiction": "Phoenix, AZ",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/codes-ordinances/amendmentcodes/2024-building-code-implementation.pdf"
+    },
+    {
+      "region": "az",
+      "sourceId": "phoenix-2024-ibc-ch1-admin",
+      "chunks": 173,
+      "jurisdiction": "Phoenix, AZ",
+      "docType": "permit",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/codes-ordinances/amendmentcodes/2024-ibc-ch1.pdf"
+    },
+    {
+      "region": "az",
+      "sourceId": "phoenix-electrical-submittal-requirements",
+      "chunks": 15,
+      "jurisdiction": "Phoenix, AZ",
+      "docType": "permit",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/trt/external/dsd_trt_pdf_00574.pdf"
+    },
+    {
+      "region": "az",
+      "sourceId": "phoenix-online-permits",
+      "chunks": 6,
+      "jurisdiction": "Phoenix, AZ",
+      "docType": "permit",
+      "status": "unknown",
+      "redistributable": true,
+      "url": "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/trt/external/dsd_trt_pdf_00933.pdf"
+    },
+    {
+      "region": "az",
+      "sourceId": "phoenix-rpbi-program",
+      "chunks": 7,
+      "jurisdiction": "Phoenix, AZ",
+      "docType": "inspection",
+      "status": "unknown",
+      "redistributable": true,
+      "url": "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/trt/external/dsd_trt_pdf_00690.pdf"
+    },
+    {
+      "region": "az",
+      "sourceId": "phoenix-ev-charger-residential-permitting",
+      "chunks": 4,
+      "jurisdiction": "Phoenix, AZ",
+      "docType": "permit",
+      "status": "unknown",
+      "redistributable": true,
+      "url": "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/trt/external/dsd_trt_pdf_00311.pdf"
+    },
+    {
+      "region": "az",
+      "sourceId": "phoenix-2017-nec-2018-amendments",
+      "chunks": 19,
+      "jurisdiction": "Phoenix, AZ",
+      "docType": "local_amendment",
+      "status": "superseded",
+      "redistributable": true,
+      "url": "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/codes-ordinances/2017%20national%20electric%20code%20(nec)%202018%20phoenix%20amendments.pdf"
+    },
+    {
+      "region": "az",
+      "sourceId": "maricopa-county-local-additions-addenda-2022",
+      "chunks": 79,
+      "jurisdiction": "Maricopa County, AZ",
+      "docType": "local_amendment",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.maricopa.gov/DocumentCenter/View/5808/Local-Additions-and-Addenda-PDF"
+    },
+    {
+      "region": "az",
+      "sourceId": "maricopa-county-local-additions-addenda-2026-draft",
+      "chunks": 113,
+      "jurisdiction": "Maricopa County, AZ",
+      "docType": "local_amendment",
+      "status": "pending",
+      "redistributable": true,
+      "url": "https://www.maricopa.gov/AgendaCenter/ViewFile/Item/10523?fileID=102779"
+    },
+    {
+      "region": "az",
+      "sourceId": "ars-11-861-county-code-adoption",
+      "chunks": 11,
+      "jurisdiction": "AZ",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.azleg.gov/ars/11/00861.htm"
+    },
+    {
+      "region": "az",
+      "sourceId": "ars-32-1121-license-exemptions",
+      "chunks": 15,
+      "jurisdiction": "AZ",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.azleg.gov/ars/32/01121.htm"
+    },
+    {
+      "region": "az",
+      "sourceId": "ars-32-1122-license-qualifications",
+      "chunks": 11,
+      "jurisdiction": "AZ",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.azleg.gov/ars/32/01122.htm"
+    },
+    {
+      "region": "az",
+      "sourceId": "ars-32-1151-contracting-without-license",
+      "chunks": 3,
+      "jurisdiction": "AZ",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.azleg.gov/ars/32/01151.htm"
+    },
+    {
+      "region": "az",
+      "sourceId": "azroc-electrical-classifications",
+      "chunks": 0,
+      "jurisdiction": "AZ",
+      "docType": "licensing",
+      "status": "unknown",
+      "redistributable": true,
+      "url": "https://roc.az.gov/licensing"
+    },
+    {
+      "region": "az",
+      "sourceId": "aps-esrm-2026-front-section",
+      "chunks": 12,
+      "jurisdiction": "AZ (APS service area)",
+      "docType": "utility_requirements",
+      "status": "in_force",
+      "redistributable": false,
+      "url": "https://www.aps.com/-/media/APS/APSCOM-PDFs/About/Construction-and-Power-Line-Siting/Construction-Services/Electric-Service-Requirements-Manual/ESRMFrontSection.pdf"
+    },
+    {
+      "region": "az",
+      "sourceId": "aps-esrm-current-revisions",
+      "chunks": 13,
+      "jurisdiction": "AZ (APS service area)",
+      "docType": "utility_requirements",
+      "status": "in_force",
+      "redistributable": false,
+      "url": "https://www.aps.com/-/media/APS/APSCOM-PDFs/About/Construction-and-Power-Line-Siting/Construction-Services/Electric-Service-Requirements-Manual/current_revisions.pdf"
+    },
+    {
+      "region": "az",
+      "sourceId": "aps-esrm-100-general",
+      "chunks": 52,
+      "jurisdiction": "AZ (APS service area)",
+      "docType": "utility_requirements",
+      "status": "in_force",
+      "redistributable": false,
+      "url": "https://www.aps.com/-/media/APS/APSCOM-PDFs/About/Construction-and-Power-Line-Siting/Construction-Services/Electric-Service-Requirements-Manual/100.pdf"
+    },
+    {
+      "region": "az",
+      "sourceId": "aps-esrm-200-application-for-service",
+      "chunks": 12,
+      "jurisdiction": "AZ (APS service area)",
+      "docType": "utility_requirements",
+      "status": "in_force",
+      "redistributable": false,
+      "url": "https://www.aps.com/-/media/APS/APSCOM-PDFs/About/Construction-and-Power-Line-Siting/Construction-Services/Electric-Service-Requirements-Manual/200.pdf"
+    },
+    {
+      "region": "az",
+      "sourceId": "aps-esrm-300-metering",
+      "chunks": 77,
+      "jurisdiction": "AZ (APS service area)",
+      "docType": "utility_requirements",
+      "status": "in_force",
+      "redistributable": false,
+      "url": "https://www.aps.com/-/media/APS/APSCOM-PDFs/About/Construction-and-Power-Line-Siting/Construction-Services/Electric-Service-Requirements-Manual/300.pdf"
+    },
+    {
+      "region": "az",
+      "sourceId": "srp-electric-service-specifications",
+      "chunks": 459,
+      "jurisdiction": "AZ (SRP service area)",
+      "docType": "utility_requirements",
+      "status": "in_force",
+      "redistributable": false,
+      "url": "https://azure-na-assets.contentstack.com/v3/assets/bltefc1fc708dcc94e7/blt87e6290270102348/6a85de4fc0f001dc63fe7495/Electric_Service_Specifications.pdf"
+    },
+    {
+      "region": "az",
+      "sourceId": "tucson-2023-nec-amendments",
+      "chunks": 13,
+      "jurisdiction": "Tucson, AZ",
+      "docType": "local_amendment",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.tucsonaz.gov/files/sharedassets/public/v/1/pdsd/documents/building-code/2023-national-electrical-code-amendments.pdf"
+    },
+    {
+      "region": "az",
+      "sourceId": "tucson-building-codes-page",
+      "chunks": 2,
+      "jurisdiction": "Tucson, AZ",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.tucsonaz.gov/Departments/Planning-Development-Services/Building-Safety/Building-Codes"
+    },
+    {
+      "region": "az",
+      "sourceId": "mesa-building-code-page",
+      "chunks": 2,
+      "jurisdiction": "Mesa, AZ",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.mesaaz.gov/Business-Development/Development-Services/Building-Permit-Plan-Review/Mesa-Building-Code"
+    },
+    {
+      "region": "az",
+      "sourceId": "scottsdale-building-code",
+      "chunks": 0,
+      "jurisdiction": "Scottsdale, AZ",
+      "docType": "code_adoption",
+      "status": "unknown",
+      "redistributable": true,
+      "url": "https://www.scottsdaleaz.gov/codes/building-code"
+    },
+    {
+      "region": "az",
+      "sourceId": "tempe-building-codes",
+      "chunks": 0,
+      "jurisdiction": "Tempe, AZ",
+      "docType": "code_adoption",
+      "status": "unknown",
+      "redistributable": true,
+      "url": "https://tempe.gov/government/community-development/building-safety/building-codes-and-amendments"
+    },
+    {
+      "region": "ca",
+      "sourceId": "la-ord-188797-electrical-excerpt",
+      "chunks": 38,
+      "jurisdiction": "Los Angeles, CA",
+      "docType": "local_amendment",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://dbs.lacity.gov/sites/default/files/efs/forms/pc17/26-ord-188797-260108.pdf"
+    },
+    {
+      "region": "ca",
+      "sourceId": "lamc-ch9-art3-amlegal",
+      "chunks": 0,
+      "jurisdiction": "Los Angeles, CA",
+      "docType": "local_amendment",
+      "status": "in_force",
+      "redistributable": false,
+      "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-183864"
+    },
+    {
+      "region": "ca",
+      "sourceId": "ladbs-electrical-permits",
+      "chunks": 8,
+      "jurisdiction": "Los Angeles, CA",
+      "docType": "permit",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://dbs.lacity.gov/services/plan-review-permitting/electrical-permits"
+    },
+    {
+      "region": "ca",
+      "sourceId": "ladbs-electrical-inspections",
+      "chunks": 5,
+      "jurisdiction": "Los Angeles, CA",
+      "docType": "inspection",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://dbs.lacity.gov/services/core-services/inspection/electrical"
+    },
+    {
+      "region": "ca",
+      "sourceId": "ladbs-inspection-services",
+      "chunks": 14,
+      "jurisdiction": "Los Angeles, CA",
+      "docType": "inspection",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://dbs.lacity.gov/services/inspection"
+    },
+    {
+      "region": "ca",
+      "sourceId": "ladbs-licensing",
+      "chunks": 6,
+      "jurisdiction": "Los Angeles, CA",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://dbs.lacity.gov/services/inspection/licensing"
+    },
+    {
+      "region": "ca",
+      "sourceId": "ladbs-homeowners-guide-permits-inspections",
+      "chunks": 17,
+      "jurisdiction": "Los Angeles, CA",
+      "docType": "permit",
+      "status": "unknown",
+      "redistributable": true,
+      "url": "https://dbs.lacity.gov/sites/default/files/efs/pdf/publications/misc/homeowners-guide-to-permits-inspections.pdf"
+    },
+    {
+      "region": "ca",
+      "sourceId": "ca-bsc-codes-page",
+      "chunks": 17,
+      "jurisdiction": "CA",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.dgs.ca.gov/BSC/Codes"
+    },
+    {
+      "region": "ca",
+      "sourceId": "ca-bsc-2025-cec-errata-link",
+      "chunks": 2,
+      "jurisdiction": "CA",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": false,
+      "url": "https://www.dgs.ca.gov/-/media/Divisions/BSC/02-Codes/Errta-01012026-Pt3-CEC-locked.pdf"
+    },
+    {
+      "region": "ca",
+      "sourceId": "ca-bsc-info-bulletin-26-01-errata",
+      "chunks": 27,
+      "jurisdiction": "CA",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.dgs.ca.gov/-/media/Divisions/BSC/06-News/Information-Bulletins/2026/BSC-Information-Bulletin-26-01-Errata.pdf"
+    },
+    {
+      "region": "ca",
+      "sourceId": "la-county-title27-2026-electrical-code",
+      "chunks": 70,
+      "jurisdiction": "Los Angeles County (unincorporated), CA",
+      "docType": "local_amendment",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://ladpw.org/bsd/lib/fp/Electrical/Electrical%20Code%20Amendments/2026%20County%20of%20Los%20Angeles%20Electrical%20Code.pdf"
+    },
+    {
+      "region": "ca",
+      "sourceId": "dir-ecu-electrician-certification",
+      "chunks": 11,
+      "jurisdiction": "CA",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.dir.ca.gov/DLSE/ECU/electricaltrade.html"
+    },
+    {
+      "region": "ca",
+      "sourceId": "dir-ecu-faq",
+      "chunks": 34,
+      "jurisdiction": "CA",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.dir.ca.gov/DLSE/ECU/ECU_FAQ.htm"
+    },
+    {
+      "region": "ca",
+      "sourceId": "dir-ecu-certification-categories",
+      "chunks": 8,
+      "jurisdiction": "CA",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.dir.ca.gov/DLSE/ECU/EleCat.html"
+    },
+    {
+      "region": "ca",
+      "sourceId": "dir-ecu-test-info",
+      "chunks": 30,
+      "jurisdiction": "CA",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.dir.ca.gov/DLSE/ECU/ECU_TestInfo.htm"
+    },
+    {
+      "region": "ca",
+      "sourceId": "dir-ecu-fees",
+      "chunks": 7,
+      "jurisdiction": "CA",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.dir.ca.gov/DLSE/ECU/ElectricalTrade_Fees.html"
+    },
+    {
+      "region": "ca",
+      "sourceId": "dir-ecu-continuing-education",
+      "chunks": 5,
+      "jurisdiction": "CA",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.dir.ca.gov/DLSE/ECU/continuingeducation.html"
+    },
+    {
+      "region": "ca",
+      "sourceId": "dir-ecu-laws-regulations",
+      "chunks": 5,
+      "jurisdiction": "CA",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.dir.ca.gov/DLSE/ECU/Leg-Reg-List.html"
+    },
+    {
+      "region": "ca",
+      "sourceId": "cslb-c10-electrical-classification",
+      "chunks": 3,
+      "jurisdiction": "CA",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.cslb.ca.gov/about_us/library/licensing_classifications/Licensing_Classifications_Detail.aspx?Class=C10"
+    },
+    {
+      "region": "ca",
+      "sourceId": "cslb-licensed-contractor-steps-journeymen",
+      "chunks": 6,
+      "jurisdiction": "CA",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://cslb.ca.gov/Resources/Contractors/Journeymen/2_-_LicensedContractorSteps_100725.pdf"
+    },
+    {
+      "region": "ca",
+      "sourceId": "cslb-sole-owner-license",
+      "chunks": 7,
+      "jurisdiction": "CA",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.cslb.ca.gov/Contractors/Applicants/Apply_for_a_Sole_Owner_License/default.aspx"
+    },
+    {
+      "region": "ca",
+      "sourceId": "cslb-reciprocity-general",
+      "chunks": 3,
+      "jurisdiction": "CA",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.cslb.ca.gov/Contractors/Applicants/Reciprocity/General_Reciprocity_Information.aspx"
+    },
+    {
+      "region": "ca",
+      "sourceId": "cslb-reciprocity-requirements",
+      "chunks": 5,
+      "jurisdiction": "CA",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.cslb.ca.gov/Contractors/Applicants/Reciprocity/Reciprocity_Requirements.aspx"
+    },
+    {
+      "region": "ca",
+      "sourceId": "cslb-reciprocity-exam-requirements",
+      "chunks": 3,
+      "jurisdiction": "CA",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.cslb.ca.gov/Contractors/Applicants/Reciprocity/Reciprocity_Exam_Requirements.aspx"
+    },
+    {
+      "region": "ca",
+      "sourceId": "cslb-reciprocal-classifications",
+      "chunks": 11,
+      "jurisdiction": "CA",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.cslb.ca.gov/Contractors/Applicants/Reciprocity/Reciprocal_Classifications_List.aspx"
+    },
+    {
+      "region": "ca",
+      "sourceId": "ladwp-esr-2025-manual",
+      "chunks": 559,
+      "jurisdiction": "Los Angeles, CA",
+      "docType": "utility_requirements",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://acquia.ladwp.com/sites/default/files/2025-11/2025%20ESR%20Manual%2011.18.25.pdf"
+    },
+    {
+      "region": "ca",
+      "sourceId": "ladwp-codes-page",
+      "chunks": 7,
+      "jurisdiction": "Los Angeles, CA",
+      "docType": "utility_requirements",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.ladwp.com/codes"
+    },
+    {
+      "region": "il",
+      "sourceId": "chicago-construction-codes-online",
+      "chunks": 17,
+      "jurisdiction": "Chicago, IL",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.chicago.gov/city/en/depts/bldgs/provdrs/bldg_code/svcs/chicago_buildingcodeonline.html"
+    },
+    {
+      "region": "il",
+      "sourceId": "chicago-code-modernization",
+      "chunks": 17,
+      "jurisdiction": "Chicago, IL",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.chicago.gov/city/en/depts/bldgs/supp_info/CodeModernization.html"
+    },
+    {
+      "region": "il",
+      "sourceId": "chicago-2017-electrical-code-press-release",
+      "chunks": 14,
+      "jurisdiction": "Chicago, IL",
+      "docType": "local_amendment",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.chicago.gov/city/en/depts/bldgs/provdrs/inspect/news/2017/september/ElectricalCode.html"
+    },
+    {
+      "region": "il",
+      "sourceId": "chicago-2019-technical-corrections-press-release",
+      "chunks": 9,
+      "jurisdiction": "Chicago, IL",
+      "docType": "local_amendment",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.chicago.gov/city/en/depts/bldgs/provdrs/bldg_code/news/2019/january/city-council-passes-ordinance-to-update-sections-of-building-cod.html"
+    },
+    {
+      "region": "il",
+      "sourceId": "chicago-phase3-implementation-alert-2026",
+      "chunks": 8,
+      "jurisdiction": "Chicago, IL",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.chicago.gov/city/en/depts/bldgs/provdrs/bldg_code/alerts/2026/october/phase3.html"
+    },
+    {
+      "region": "il",
+      "sourceId": "chicago-phase3-press-release-2026-06",
+      "chunks": 8,
+      "jurisdiction": "Chicago, IL",
+      "docType": "other",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.chicago.gov/city/en/depts/mayor/press_room/press_releases/2026/june/construction-code-modernization.html"
+    },
+    {
+      "region": "il",
+      "sourceId": "chicago-permit-guide-electrical-work",
+      "chunks": 11,
+      "jurisdiction": "Chicago, IL",
+      "docType": "permit",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.chicago.gov/city/en/sites/guide-to-building-permits/home/terms-and-conditions/epp/worktype/ELECT.html"
+    },
+    {
+      "region": "il",
+      "sourceId": "chicago-express-permit-electrical-work",
+      "chunks": 18,
+      "jurisdiction": "Chicago, IL",
+      "docType": "permit",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.chicago.gov/city/en/sites/guide-to-building-permits/home/instructions/EPP/ELECT.html"
+    },
+    {
+      "region": "il",
+      "sourceId": "chicago-monthly-electrical-maintenance-permit",
+      "chunks": 7,
+      "jurisdiction": "Chicago, IL",
+      "docType": "permit",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.chicago.gov/city/en/sites/guide-to-building-permits/home/instructions/EPP/MONTH-electrical.html"
+    },
+    {
+      "region": "il",
+      "sourceId": "chicago-electrical-work-not-requiring-permit",
+      "chunks": 7,
+      "jurisdiction": "Chicago, IL",
+      "docType": "permit",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.chicago.gov/city/en/sites/guide-to-building-permits/home/help/faq/DOB/bldg-permit-not-required/worktype/electrical.html"
+    },
+    {
+      "region": "il",
+      "sourceId": "chicago-electrical-inspections",
+      "chunks": 8,
+      "jurisdiction": "Chicago, IL",
+      "docType": "inspection",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.chicago.gov/city/en/depts/bldgs/supp_info/electrical_inspections.html"
+    },
+    {
+      "region": "il",
+      "sourceId": "chicago-supervising-electrician-license",
+      "chunks": 14,
+      "jurisdiction": "Chicago, IL",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.chicago.gov/city/en/depts/bldgs/supp_info/TLdetails/SupvEL.html"
+    },
+    {
+      "region": "il",
+      "sourceId": "chicago-electrical-contractor-license",
+      "chunks": 15,
+      "jurisdiction": "Chicago, IL",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.chicago.gov/city/en/depts/bldgs/supp_info/TLdetails/ELcontractor.html"
+    },
+    {
+      "region": "il",
+      "sourceId": "il-65ilcs5-11-33-1-electrical-contractor-registration",
+      "chunks": 5,
+      "jurisdiction": "IL",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://ilga.gov/legislation/ilcs/documents/006500050K11-33-1.htm"
+    },
+    {
+      "region": "il",
+      "sourceId": "il-83iac469-10-ev-installer-definitions",
+      "chunks": 11,
+      "jurisdiction": "IL",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.ilga.gov/ftp/JCAR/AdminCode/083/083004690000100R.html"
+    },
+    {
+      "region": "il",
+      "sourceId": "il-83iac469-20-ev-installer-applicability",
+      "chunks": 2,
+      "jurisdiction": "IL",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://my.ilga.gov/ftp/JCAR/AdminCode/083/083004690000200R.html"
+    },
+    {
+      "region": "il",
+      "sourceId": "chicago-electrical-code-nfpa-free-access",
+      "chunks": 1,
+      "jurisdiction": "Chicago, IL",
+      "docType": "local_amendment",
+      "status": "in_force",
+      "redistributable": false,
+      "url": "https://link.nfpa.org/free-access/publications/70/2017Chicago"
+    },
+    {
+      "region": "il",
+      "sourceId": "chicago-title-14e-amlegal",
+      "chunks": 1,
+      "jurisdiction": "Chicago, IL",
+      "docType": "local_amendment",
+      "status": "in_force",
+      "redistributable": false,
+      "url": "https://codelibrary.amlegal.com/codes/chicago/latest/chicago_il/0-0-0-2669467"
+    },
+    {
+      "region": "il",
+      "sourceId": "chicago-code-memo-2026-001-transition",
+      "chunks": 0,
+      "jurisdiction": "Chicago, IL",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": false,
+      "url": "https://www.chicago.gov/content/dam/city/depts/bldgs/general/CodeModernization/CodeMemo2026-001.pdf"
+    },
+    {
+      "region": "il",
+      "sourceId": "comed-service-and-meter-requirements-2025",
+      "chunks": 7,
+      "jurisdiction": "IL",
+      "docType": "utility_requirements",
+      "status": "in_force",
+      "redistributable": false,
+      "url": "https://www.comed.com/SiteCollectionDocuments/service_and_meter_requirements.pdf"
+    },
+    {
+      "region": "national",
+      "sourceId": "nfpa-nec-enforcement-maps",
+      "chunks": 5,
+      "jurisdiction": "US",
+      "docType": "adoption_table",
+      "status": null,
+      "redistributable": false,
+      "url": "https://www.nfpa.org/education-and-research/electrical/nec-enforcement-maps"
+    },
+    {
+      "region": "national",
+      "sourceId": "or-bcd-electrical",
+      "chunks": 1,
+      "jurisdiction": "OR",
+      "docType": "code_adoption_page",
+      "status": null,
+      "redistributable": true,
+      "url": "https://www.oregon.gov/bcd/codes-stand/pages/electrical.aspx"
+    },
+    {
+      "region": "national",
+      "sourceId": "wa-lni-electrical-rules",
+      "chunks": 2,
+      "jurisdiction": "WA",
+      "docType": "code_adoption_page",
+      "status": null,
+      "redistributable": true,
+      "url": "https://lni.wa.gov/licensing-permits/electrical/laws-rules-policies"
+    },
+    {
+      "region": "national",
+      "sourceId": "mt-bcb-current-codes",
+      "chunks": 1,
+      "jurisdiction": "MT",
+      "docType": "code_adoption_page",
+      "status": null,
+      "redistributable": true,
+      "url": "https://bsd.dli.mt.gov/building-codes-permits/current-codes"
+    },
+    {
+      "region": "national",
+      "sourceId": "tdlr-2026-nec-adoption",
+      "chunks": 2,
+      "jurisdiction": "TX",
+      "docType": "rulemaking_notice",
+      "status": null,
+      "redistributable": true,
+      "url": "https://www.tdlr.texas.gov/news/rulemaking/2026/09/01/commission-adopts-rules-12/"
+    },
+    {
+      "region": "national",
+      "sourceId": "mn-dli-2026-nec-faq",
+      "chunks": 24,
+      "jurisdiction": "MN",
+      "docType": "code_change_guidance",
+      "status": null,
+      "redistributable": true,
+      "url": "https://www.dli.mn.gov/sites/default/files/pdf/NECFAQ26.pdf"
+    },
+    {
+      "region": "national",
+      "sourceId": "iaei-2020-residential-changes",
+      "chunks": 4,
+      "jurisdiction": "US",
+      "docType": "code_change_summary",
+      "status": null,
+      "redistributable": false,
+      "url": "https://iaeimagazine.org/standards/residential-changes-for-the-2020-nec/"
+    },
+    {
+      "region": "national",
+      "sourceId": "iaei-2023-major-changes",
+      "chunks": 4,
+      "jurisdiction": "US",
+      "docType": "code_change_summary",
+      "status": null,
+      "redistributable": false,
+      "url": "https://iaeimagazine.org/standards/powering-forward-major-changes-in-the-2023-nec/"
+    },
+    {
+      "region": "national",
+      "sourceId": "nera-members-map",
+      "chunks": 2,
+      "jurisdiction": "US",
+      "docType": "reciprocity_group",
+      "status": null,
+      "redistributable": false,
+      "url": "https://nerastates.org/members-map/"
+    },
+    {
+      "region": "national",
+      "sourceId": "sd-dlr-reciprocal-agreements",
+      "chunks": 2,
+      "jurisdiction": "SD",
+      "docType": "reciprocity_list",
+      "status": null,
+      "redistributable": true,
+      "url": "https://dlr.sd.gov/electrical/reciprocal_agreements.aspx"
+    },
+    {
+      "region": "national",
+      "sourceId": "ne-sed-reciprocity",
+      "chunks": 1,
+      "jurisdiction": "NE",
+      "docType": "reciprocity_list",
+      "status": null,
+      "redistributable": true,
+      "url": "https://electrical.nebraska.gov/node/44"
+    },
+    {
+      "region": "national",
+      "sourceId": "mn-dli-reciprocity",
+      "chunks": 2,
+      "jurisdiction": "MN",
+      "docType": "reciprocity_list",
+      "status": null,
+      "redistributable": true,
+      "url": "https://www.dli.mn.gov/workers/electrician-or-electrical-installer/electrical-license-reciprocity"
+    },
+    {
+      "region": "national",
+      "sourceId": "tdlr-iowa-reciprocity-2026",
+      "chunks": 2,
+      "jurisdiction": "TX",
+      "docType": "reciprocity_list",
+      "status": null,
+      "redistributable": true,
+      "url": "https://www.tdlr.texas.gov/news/2026/02/06/texas-expands-electrician-reciprocity-with-iowa-to-support-skilled-workforce-and-economic-growth/"
+    },
+    {
+      "region": "national",
+      "sourceId": "mt-dli-licensing-comparison-2026",
+      "chunks": 2,
+      "jurisdiction": "MT",
+      "docType": "licensing_comparison",
+      "status": null,
+      "redistributable": true,
+      "url": "https://esd.dli.mt.gov/_docs/II.a.iii-ELE-PLU-State-by-state-Comparison.pdf"
+    },
+    {
+      "region": "national",
+      "sourceId": "servicetitan-license-reqs",
+      "chunks": 1,
+      "jurisdiction": "US",
+      "docType": "licensing_summary",
+      "status": null,
+      "redistributable": false,
+      "url": "https://servicetitan.com/blog/electrician-license-requirements"
+    },
+    {
+      "region": "national",
+      "sourceId": "census-geocoder-api-doc",
+      "chunks": 2,
+      "jurisdiction": "US",
+      "docType": "api_doc",
+      "status": null,
+      "redistributable": true,
+      "url": "https://geocoding.geo.census.gov/geocoder/Geocoding_Services_API.html"
+    },
+    {
+      "region": "national",
+      "sourceId": "fcc-area-api",
+      "chunks": 1,
+      "jurisdiction": "US",
+      "docType": "api",
+      "status": null,
+      "redistributable": true,
+      "url": "https://geo.fcc.gov/api/census/"
+    },
+    {
+      "region": "national",
+      "sourceId": "tigerweb",
+      "chunks": 1,
+      "jurisdiction": "US",
+      "docType": "api",
+      "status": null,
+      "redistributable": true,
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Current/MapServer"
+    },
+    {
+      "region": "national",
+      "sourceId": "census-gazetteer",
+      "chunks": 1,
+      "jurisdiction": "US",
+      "docType": "dataset",
+      "status": null,
+      "redistributable": true,
+      "url": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html"
+    },
+    {
+      "region": "national",
+      "sourceId": "census-gus-2022",
+      "chunks": 1,
+      "jurisdiction": "US",
+      "docType": "dataset",
+      "status": null,
+      "redistributable": true,
+      "url": "https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html"
+    },
+    {
+      "region": "national",
+      "sourceId": "dc-dob-2017-codes",
+      "chunks": 1,
+      "jurisdiction": "DC",
+      "docType": "code_adoption_reference",
+      "status": null,
+      "redistributable": true,
+      "url": "https://dob.dc.gov/sites/default/files/dc/sites/dob/publication/attachments/2017%20DC%20Energy%20Code.pdf"
+    },
+    {
+      "region": "national",
+      "sourceId": "ecm-top-changes-2026",
+      "chunks": 1,
+      "jurisdiction": "US",
+      "docType": "code_change_summary",
+      "status": null,
+      "redistributable": false,
+      "url": "https://ecmweb.com/national-electrical-code/article/55330438/top-25-changes-to-the-2026-national-electrical-code"
+    },
+    {
+      "region": "nj",
+      "sourceId": "njac-5-23-3-subcodes",
+      "chunks": 378,
+      "jurisdiction": "NJ",
+      "docType": "local_amendment",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.nj.gov/dca/codes/codreg/pdf_regs/njac_5_23_3.pdf"
+    },
+    {
+      "region": "nj",
+      "sourceId": "njac-5-23-ucc",
+      "chunks": 2096,
+      "jurisdiction": "NJ",
+      "docType": "permit",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.nj.gov/dca/codes/codreg/pdf_regs/njac_5_23.pdf"
+    },
+    {
+      "region": "nj",
+      "sourceId": "nj-dca-current-codes",
+      "chunks": 7,
+      "jurisdiction": "NJ",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.nj.gov/dca/codes/codreg/current.shtml"
+    },
+    {
+      "region": "nj",
+      "sourceId": "nj-dca-ccc-fall-2026",
+      "chunks": 65,
+      "jurisdiction": "NJ",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.nj.gov/dca/codes/publications/pdf_ccc/Fall_2026_CCC.pdf"
+    },
+    {
+      "region": "nj",
+      "sourceId": "nj-dca-ucc-update-summer-2026",
+      "chunks": 5,
+      "jurisdiction": "NJ",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.nj.gov/dca/codes/publications/ucc_updates/Trans_Summer_2026.pdf"
+    },
+    {
+      "region": "nj",
+      "sourceId": "nj-dca-omni-2026-adoption",
+      "chunks": 19,
+      "jurisdiction": "NJ",
+      "docType": "permit",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.nj.gov/dca/codes/codreg/pdf_rule_adoptions/omni_2026_adopt.pdf"
+    },
+    {
+      "region": "nj",
+      "sourceId": "nj-dca-news-20261109-code-update",
+      "chunks": 12,
+      "jurisdiction": "NJ",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.nj.gov/dca/news/news/2026/approved/20261109.shtml"
+    },
+    {
+      "region": "nj",
+      "sourceId": "nj-pl2021-c479-journeyman",
+      "chunks": 36,
+      "jurisdiction": "NJ",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://pub.njleg.gov/bills/2020/PL21/479_.PDF"
+    },
+    {
+      "region": "nj",
+      "sourceId": "princeton-building-construction",
+      "chunks": 7,
+      "jurisdiction": "Princeton, NJ",
+      "docType": "permit",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.princetonnj.gov/185/Building-Construction"
+    },
+    {
+      "region": "nj",
+      "sourceId": "princeton-building-inspections",
+      "chunks": 6,
+      "jurisdiction": "Princeton, NJ",
+      "docType": "inspection",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.princetonnj.gov/186/Building-Inspections"
+    },
+    {
+      "region": "nj",
+      "sourceId": "princeton-construction-fee-schedule",
+      "chunks": 11,
+      "jurisdiction": "Princeton, NJ",
+      "docType": "permit",
+      "status": "unknown",
+      "redistributable": true,
+      "url": "https://www.princetonnj.gov/DocumentCenter/View/21810/Fee-Schedule-PDF"
+    },
+    {
+      "region": "nj",
+      "sourceId": "princeton-subcode-technical-sections-guide",
+      "chunks": 6,
+      "jurisdiction": "Princeton, NJ",
+      "docType": "permit",
+      "status": "unknown",
+      "redistributable": true,
+      "url": "https://www.princetonnj.gov/DocumentCenter/View/21808/Guide-to-Subcode-Technical-Sections-PDF"
+    },
+    {
+      "region": "nj",
+      "sourceId": "princeton-construction-prior-approvals",
+      "chunks": 5,
+      "jurisdiction": "Princeton, NJ",
+      "docType": "permit",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.princetonnj.gov/187/Construction-Prior-Approval-Requirements"
+    },
+    {
+      "region": "nj",
+      "sourceId": "pseg-info-requirements-electric-service",
+      "chunks": 1,
+      "jurisdiction": "Princeton, NJ",
+      "docType": "utility_requirements",
+      "status": "unknown",
+      "redistributable": false,
+      "url": "https://nj.pseg.com/-/media/pseg/global/gathercontentdocuments/7-2-1upgradesandnewinstallationsnew/info_and_requirements_electric_service.ashx"
+    },
+    {
+      "region": "nv",
+      "sourceId": "clark-county-2023-nec-amendments",
+      "chunks": 87,
+      "jurisdiction": "Clark County, NV",
+      "docType": "local_amendment",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:9f7141aa-c587-49e3-8ecd-ad22f2775a07/original/as/2023-NEC-Amendments---Clark-County.pdf"
+    },
+    {
+      "region": "nv",
+      "sourceId": "las-vegas-2023-nec-amendments",
+      "chunks": 62,
+      "jurisdiction": "Las Vegas, NV",
+      "docType": "local_amendment",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://sawebfilesprod001.blob.core.windows.net/building-safety/2025/2023-NEC-Amendments.pdf"
+    },
+    {
+      "region": "nv",
+      "sourceId": "clark-county-ord-5275-2023-nec-adoption",
+      "chunks": 16,
+      "jurisdiction": "Clark County, NV",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:f0fe06d0-d58f-43b6-9125-8240112677e3/original/as/ORD-2025-07-15-Clark-County-Ordinances-005275.pdf"
+    },
+    {
+      "region": "nv",
+      "sourceId": "clark-county-codes-page",
+      "chunks": 23,
+      "jurisdiction": "Clark County, NV",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.clarkcountynv.gov/government/departments/building___fire_prevention/codes/index.php"
+    },
+    {
+      "region": "nv",
+      "sourceId": "las-vegas-industry-notice-2024-code-adoption",
+      "chunks": 4,
+      "jurisdiction": "Las Vegas, NV",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://files.lasvegasnevada.gov/building-safety/2025/Industry_Notice-2024_Code_Adoption.pdf"
+    },
+    {
+      "region": "nv",
+      "sourceId": "las-vegas-building-safety-resources",
+      "chunks": 19,
+      "jurisdiction": "Las Vegas, NV",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.lasvegasnevada.gov/Government/Departments/Building-Safety/Building-Safety-Resources?tab=1"
+    },
+    {
+      "region": "nv",
+      "sourceId": "las-vegas-admin-code-2019-ord-6769",
+      "chunks": 144,
+      "jurisdiction": "Las Vegas, NV",
+      "docType": "permit",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://files.lasvegasnevada.gov/building-safety/Admin-Code-2019-Edition-Ordinance-6769.pdf"
+    },
+    {
+      "region": "nv",
+      "sourceId": "clark-county-building-administrative-code",
+      "chunks": 221,
+      "jurisdiction": "Clark County, NV",
+      "docType": "permit",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:d43c9c5d-c4bc-46a5-8ca1-6f3bd9a5b921/original/as/administrative-code-2nd-proof-final-08-18-22-printed-10-2022.pdf"
+    },
+    {
+      "region": "nv",
+      "sourceId": "clark-county-fig-e-012-nv-energy-requirements",
+      "chunks": 9,
+      "jurisdiction": "Clark County, NV",
+      "docType": "inspection",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:1b7d5f51-a2c5-46ac-ae48-9ace00c09c75/original/as/fig-e-012-nv-energy-requirements.pdf"
+    },
+    {
+      "region": "nv",
+      "sourceId": "clark-county-fig-e-007-temporary-power",
+      "chunks": 5,
+      "jurisdiction": "Clark County, NV",
+      "docType": "inspection",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:e4536ca8-0959-4996-aa4f-8705766606c3/original/as/fig-e-007-temporary-electrical-power.pdf"
+    },
+    {
+      "region": "nv",
+      "sourceId": "clark-county-fig-e-009-working-clearance",
+      "chunks": 2,
+      "jurisdiction": "Clark County, NV",
+      "docType": "inspection",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:bbe9a5e3-2d56-4cd5-bda8-45b32f696c44/original/as/fig-e-009-working-clearance.pdf"
+    },
+    {
+      "region": "nv",
+      "sourceId": "clark-county-fig-e-004-generators",
+      "chunks": 9,
+      "jurisdiction": "Clark County, NV",
+      "docType": "inspection",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:9617404f-d2f9-4264-badf-669ea42c6158/original/as/fig-e-004-generators.pdf"
+    },
+    {
+      "region": "nv",
+      "sourceId": "nac-624-contractors",
+      "chunks": 227,
+      "jurisdiction": "NV",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.leg.state.nv.us/NAC/NAC-624.html"
+    },
+    {
+      "region": "nv",
+      "sourceId": "nscb-licensure-by-endorsement",
+      "chunks": 29,
+      "jurisdiction": "NV",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.nvcontractorsboard.com/?p=1400"
+    },
+    {
+      "region": "nv",
+      "sourceId": "nscb-license-requirements",
+      "chunks": 30,
+      "jurisdiction": "NV",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.nvcontractorsboard.com/licensing/license-requirements/"
+    },
+    {
+      "region": "nv",
+      "sourceId": "nscb-license-examinations",
+      "chunks": 18,
+      "jurisdiction": "NV",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.nvcontractorsboard.com/licensing/license-examinations/"
+    },
+    {
+      "region": "nv",
+      "sourceId": "nscb-handyman-exemptions",
+      "chunks": 15,
+      "jurisdiction": "NV",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.nvcontractorsboard.com/resources/handyman-exemptions/"
+    },
+    {
+      "region": "nv",
+      "sourceId": "nv-state-fire-marshal-memo-2026-11-10",
+      "chunks": 6,
+      "jurisdiction": "NV",
+      "docType": "other",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.nvcontractorsboard.com/wp-content/uploads/2026/11/11-10-26-Nevada-State-Fire-Marshall-Division-Memorandum.pdf"
+    },
+    {
+      "region": "nv",
+      "sourceId": "nv-spwd-2024-adopted-codes",
+      "chunks": 3,
+      "jurisdiction": "NV",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://publicworks.nv.gov/uploadedFiles/publicworksnvgov/content/Documents/Permitting_Code_Enforcement/2024%20Adopted_Codes.pdf"
+    },
+    {
+      "region": "nv",
+      "sourceId": "nv-energy-esr-south-2021-06",
+      "chunks": 663,
+      "jurisdiction": "Southern Nevada (NV Energy / Nevada Power service area)",
+      "docType": "utility_requirements",
+      "status": "unknown",
+      "redistributable": true,
+      "url": "https://www.nvenergy.com/publish/content/dam/nvenergy/brochures_arch/account-services/building-and-new-construction/electric-service-standards-south/ESR-202106-EDITION.pdf"
+    },
+    {
+      "region": "nv",
+      "sourceId": "nv-energy-rule-16-south",
+      "chunks": 25,
+      "jurisdiction": "Southern Nevada (NV Energy / Nevada Power service area)",
+      "docType": "utility_requirements",
+      "status": "unknown",
+      "redistributable": true,
+      "url": "https://www.nvenergy.com/publish/content/dam/nvenergy/brochures_arch/about-nvenergy/rates-regulatory/electric-rules-south/Rule_16_South.pdf"
+    },
+    {
+      "region": "nv",
+      "sourceId": "reno-electrical-plumbing-journeyman-cards",
+      "chunks": 15,
+      "jurisdiction": "Reno, NV",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://reno.gov/business-development/development-services/electrical-plumbing-journeyman-cards.php"
+    },
+    {
+      "region": "nv",
+      "sourceId": "washoe-county-history-of-adopted-codes",
+      "chunks": 11,
+      "jurisdiction": "Washoe County, NV",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.washoecounty.gov/building/Informational_Pages/History_of_Adopted_Building_Codes.php"
+    },
+    {
+      "region": "nv",
+      "sourceId": "northern-nevada-2024-code-amendments-lyon",
+      "chunks": 163,
+      "jurisdiction": "Northern Nevada (Reno, Sparks, Washoe, Carson City, etc.)",
+      "docType": "local_amendment",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://lyon-county.org/DocumentCenter/View/13467"
+    },
+    {
+      "region": "nv",
+      "sourceId": "henderson-nec-page",
+      "chunks": 0,
+      "jurisdiction": "Henderson, NV",
+      "docType": "code_adoption",
+      "status": "unknown",
+      "redistributable": true,
+      "url": "https://www.cityofhenderson.com/government/departments/building-and-fire-safety/building-codes/national-electric-code"
+    },
+    {
+      "region": "nv",
+      "sourceId": "north-las-vegas-codes-adopted-by-reference",
+      "chunks": 0,
+      "jurisdiction": "North Las Vegas, NV",
+      "docType": "code_adoption",
+      "status": "unknown",
+      "redistributable": true,
+      "url": "https://cityofnorthlasvegas.com/our-city/clerk/municipal-code/codes-adopted-by-reference"
+    },
+    {
+      "region": "nv",
+      "sourceId": "esp-nv-electrical-card-testing-notice",
+      "chunks": 5,
+      "jurisdiction": "Southern and Northern Nevada (Clark County, Las Vegas, Reno card program)",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": false,
+      "url": "https://electricalsafetypro.org/wp-content/uploads/2026/06/TEST-CONTACT-INFO-NOTICE-060226-1.pdf"
+    },
+    {
+      "region": "nv",
+      "sourceId": "esp-ceu-renewal-requirements",
+      "chunks": 3,
+      "jurisdiction": "Southern and Northern Nevada (card program)",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": false,
+      "url": "https://electricalsafetypro.org/wp-content/uploads/2026/06/Approved-Provider-List-CEU-FAQ-Updated-060126-1.pdf"
+    },
+    {
+      "region": "ny",
+      "sourceId": "nyc-2025-electrical-code",
+      "chunks": 318,
+      "jurisdiction": "New York City, NY",
+      "docType": "local_amendment",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.nyc.gov/assets/buildings/codes-pdf/2025electrical_code.pdf"
+    },
+    {
+      "region": "ny",
+      "sourceId": "nyc-ll128-2024",
+      "chunks": 224,
+      "jurisdiction": "New York City, NY",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.nyc.gov/assets/buildings/local_laws/ll128of2024.pdf"
+    },
+    {
+      "region": "ny",
+      "sourceId": "nyc-ll42-2026",
+      "chunks": 195,
+      "jurisdiction": "New York City, NY",
+      "docType": "inspection",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.nyc.gov/assets/buildings/local_laws/ll42of2026.pdf"
+    },
+    {
+      "region": "ny",
+      "sourceId": "nyc-dob-electrical-code-page",
+      "chunks": 6,
+      "jurisdiction": "New York City, NY",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.nyc.gov/site/buildings/codes/electrical-code.page"
+    },
+    {
+      "region": "ny",
+      "sourceId": "nyc-dob-elect-work-guidance",
+      "chunks": 11,
+      "jurisdiction": "New York City, NY",
+      "docType": "permit",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.nyc.gov/assets/buildings/pdf/elect_work_guidance.pdf"
+    },
+    {
+      "region": "ny",
+      "sourceId": "nyc-dob-electrical-filings-faq",
+      "chunks": 14,
+      "jurisdiction": "New York City, NY",
+      "docType": "permit",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.nyc.gov/site/buildings/industry/electrical-filings-buildfaqs.page"
+    },
+    {
+      "region": "ny",
+      "sourceId": "nyc-dob-electrician-license-page",
+      "chunks": 20,
+      "jurisdiction": "New York City, NY",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.nyc.gov/site/buildings/industry/obtain-a-master-and-special-electrician-license.page"
+    },
+    {
+      "region": "ny",
+      "sourceId": "nyc-dob-electrician-license-presentation",
+      "chunks": 41,
+      "jurisdiction": "New York City, NY",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.nyc.gov/assets/buildings/pdf/electrician_license_presentation.pdf"
+    },
+    {
+      "region": "ny",
+      "sourceId": "nyc-dob-changes-electrical-license",
+      "chunks": 12,
+      "jurisdiction": "New York City, NY",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.nyc.gov/site/buildings/industry/changes-to-electrical-license.page"
+    },
+    {
+      "region": "ny",
+      "sourceId": "nys-2025-uniform-code-adoption",
+      "chunks": 6,
+      "jurisdiction": "NY",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://dos.ny.gov/system/files/documents/2026/02/2025-uniform-code-adoption.pdf"
+    },
+    {
+      "region": "ny",
+      "sourceId": "nys-2025-energy-code-rule-text",
+      "chunks": 30,
+      "jurisdiction": "NY",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://dos.ny.gov/system/files/documents/2025/09/rule-text-energy-code.pdf"
+    },
+    {
+      "region": "ny",
+      "sourceId": "nys-2025-uniform-code-ris",
+      "chunks": 170,
+      "jurisdiction": "NY",
+      "docType": "other",
+      "status": "superseded",
+      "redistributable": true,
+      "url": "https://dos.ny.gov/system/files/documents/2025/06/appendix-b-ris-uniform-code.pdf"
+    },
+    {
+      "region": "ny",
+      "sourceId": "coned-electric-blue-book-2026",
+      "chunks": 4,
+      "jurisdiction": "New York City, NY",
+      "docType": "utility_requirements",
+      "status": "in_force",
+      "redistributable": false,
+      "url": "https://www.coned.com/-/media/files/coned/documents/small-medium-large-businesses/electricbluebook.pdf"
+    },
+    {
+      "region": "pa",
+      "sourceId": "phila-li-applicable-codes",
+      "chunks": 7,
+      "jurisdiction": "Philadelphia, PA",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.phila.gov/departments/department-of-licenses-and-inspections/resources/applicable-codes/"
+    },
+    {
+      "region": "pa",
+      "sourceId": "phila-b2501-implementation-2021-international-codes",
+      "chunks": 11,
+      "jurisdiction": "Philadelphia, PA",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.phila.gov/media/20251021080549/B-2501-Implementation-of-2021-International-Codes.pdf"
+    },
+    {
+      "region": "pa",
+      "sourceId": "phila-pb021-what-code-applies-electrical",
+      "chunks": 10,
+      "jurisdiction": "Philadelphia, PA",
+      "docType": "other",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.phila.gov/media/20240226093822/PB_021_FAQ_What-Code-Applies-to-Electrical-Work.pdf"
+    },
+    {
+      "region": "pa",
+      "sourceId": "phila-2021-code-adoption-electrical-webinar-slides",
+      "chunks": 24,
+      "jurisdiction": "Philadelphia, PA",
+      "docType": "local_amendment",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.phila.gov/media/20250801084048/2021-Code-Adoption-Electrical-Webinar-Slides.pdf"
+    },
+    {
+      "region": "pa",
+      "sourceId": "phila-2021-local-changes-2026-05",
+      "chunks": 14,
+      "jurisdiction": "Philadelphia, PA",
+      "docType": "local_amendment",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.phila.gov/media/20260528125425/2021-Local-Changes-5.2026.pdf"
+    },
+    {
+      "region": "pa",
+      "sourceId": "phila-pb037-emergency-disconnect-faq",
+      "chunks": 10,
+      "jurisdiction": "Philadelphia, PA",
+      "docType": "other",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.phila.gov/media/20260522131447/PB_037_FAQ-Does-my-Project-Require-an-Emergency-Disconnect-FAQ.pdf"
+    },
+    {
+      "region": "pa",
+      "sourceId": "phila-get-electrical-permit",
+      "chunks": 29,
+      "jurisdiction": "Philadelphia, PA",
+      "docType": "permit",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.phila.gov/services/permits-violations-licenses/apply-for-a-permit/building-and-repair-permits/get-an-electrical-permit/"
+    },
+    {
+      "region": "pa",
+      "sourceId": "phila-electrical-contractor-license",
+      "chunks": 23,
+      "jurisdiction": "Philadelphia, PA",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.phila.gov/services/permits-violations-licenses/get-a-license/trade-licenses/get-an-electrical-contractor-license/"
+    },
+    {
+      "region": "pa",
+      "sourceId": "phila-electrical-inspection-agency-license",
+      "chunks": 17,
+      "jurisdiction": "Philadelphia, PA",
+      "docType": "inspection",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.phila.gov/services/permits-violations-licenses/get-a-license/trade-licenses/get-an-electrical-inspection-agency-license/"
+    },
+    {
+      "region": "pa",
+      "sourceId": "phila-pb010-multiple-services-info-sheet",
+      "chunks": 11,
+      "jurisdiction": "Philadelphia, PA",
+      "docType": "permit",
+      "status": "unknown",
+      "redistributable": true,
+      "url": "https://www.phila.gov/media/20231010143948/PB_010_INF_Multiple-services-under-NEC-information-sheet-Rev-10.2023.pdf"
+    },
+    {
+      "region": "pa",
+      "sourceId": "pa-state-board-electricians",
+      "chunks": 7,
+      "jurisdiction": "PA",
+      "docType": "licensing",
+      "status": "pending",
+      "redistributable": true,
+      "url": "https://www.pa.gov/agencies/dos/department-and-offices/bpoa/boards-commissions/electricians"
+    },
+    {
+      "region": "pa",
+      "sourceId": "pa-act-108-2026-cohen-seglias-summary",
+      "chunks": 3,
+      "jurisdiction": "PA",
+      "docType": "licensing",
+      "status": "pending",
+      "redistributable": false,
+      "url": "https://www.cohenseglias.com/construction-law-now/what-electrical-contractors-need-to-know-about-pas-new-statewide-electrical-licensure-law/"
+    },
+    {
+      "region": "pa",
+      "sourceId": "pa-sb1260-2025-26-bill-page",
+      "chunks": 0,
+      "jurisdiction": "PA",
+      "docType": "licensing",
+      "status": "pending",
+      "redistributable": false,
+      "url": "https://www.palegis.us/legislation/bills/2025/sb1260"
+    },
+    {
+      "region": "pa",
+      "sourceId": "pa-dli-uniform-construction-code-home",
+      "chunks": 16,
+      "jurisdiction": "PA",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.pa.gov/agencies/dli/programs-services/labor-management-relations/bureau-of-occupational-and-industrial-safety/uniform-construction-code-home"
+    },
+    {
+      "region": "pa",
+      "sourceId": "peco-service-and-meter-application-m24175",
+      "chunks": 4,
+      "jurisdiction": "PA",
+      "docType": "utility_requirements",
+      "status": "in_force",
+      "redistributable": false,
+      "url": "https://azure-na-assets.contentstack.com/v3/assets/blt1b5616c79bacadb4/bltf2d5da7a44b35e6e/PECO_Electric_S_and_M_Application_REV-7-2023-Updated.pdf"
+    },
+    {
+      "region": "pa",
+      "sourceId": "phila-code-title4-amlegal",
+      "chunks": 1,
+      "jurisdiction": "Philadelphia, PA",
+      "docType": "local_amendment",
+      "status": "unknown",
+      "redistributable": false,
+      "url": "https://codelibrary.amlegal.com/codes/philadelphia/latest/philadelphia_pa/0-0-0-266407"
+    },
+    {
+      "region": "tx",
+      "sourceId": "tdlr-2026-nec-adoption-notice",
+      "chunks": 6,
+      "jurisdiction": "TX",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.tdlr.texas.gov/news/rulemaking/2026/09/01/commission-adopts-rules-12/"
+    },
+    {
+      "region": "tx",
+      "sourceId": "texreg-2026-03-20-16tac73-100-proposed",
+      "chunks": 15,
+      "jurisdiction": "TX",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.sos.texas.gov/texreg/archive/March202026/Proposed%20Rules/16.ECONOMIC%20REGULATION.html"
+    },
+    {
+      "region": "tx",
+      "sourceId": "tdlr-elec-laws-rules",
+      "chunks": 5,
+      "jurisdiction": "TX",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.tdlr.texas.gov/electricians/laws-rules.htm"
+    },
+    {
+      "region": "tx",
+      "sourceId": "tdlr-elec-journeyman",
+      "chunks": 11,
+      "jurisdiction": "TX",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.tdlr.texas.gov/electricians/apply/individuals/journeyman-electrician.htm"
+    },
+    {
+      "region": "tx",
+      "sourceId": "tdlr-elec-master",
+      "chunks": 11,
+      "jurisdiction": "TX",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.tdlr.texas.gov/electricians/apply/individuals/master-electrician.htm"
+    },
+    {
+      "region": "tx",
+      "sourceId": "tdlr-elec-wireman",
+      "chunks": 8,
+      "jurisdiction": "TX",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.tdlr.texas.gov/electricians/apply/individuals/wireman.htm"
+    },
+    {
+      "region": "tx",
+      "sourceId": "tdlr-elec-apprentice",
+      "chunks": 7,
+      "jurisdiction": "TX",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.tdlr.texas.gov/electricians/apply/individuals/apprentice-electrician.htm"
+    },
+    {
+      "region": "tx",
+      "sourceId": "tdlr-elec-contractor",
+      "chunks": 12,
+      "jurisdiction": "TX",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.tdlr.texas.gov/electricians/apply/businesses/contractor-elec.htm"
+    },
+    {
+      "region": "tx",
+      "sourceId": "tdlr-elec-out-of-state",
+      "chunks": 14,
+      "jurisdiction": "TX",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.tdlr.texas.gov/electricians/out-of-state.htm"
+    },
+    {
+      "region": "tx",
+      "sourceId": "tdlr-elec-exam",
+      "chunks": 11,
+      "jurisdiction": "TX",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.tdlr.texas.gov/electricians/elecexam.htm"
+    },
+    {
+      "region": "tx",
+      "sourceId": "tdlr-elec-ce",
+      "chunks": 10,
+      "jurisdiction": "TX",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.tdlr.texas.gov/electricians/elecce.htm"
+    },
+    {
+      "region": "tx",
+      "sourceId": "tdlr-elec-faq",
+      "chunks": 25,
+      "jurisdiction": "TX",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.tdlr.texas.gov/electricians/elecfaq.htm"
+    },
+    {
+      "region": "tx",
+      "sourceId": "houston-2023-nec-administrative-amendments",
+      "chunks": 112,
+      "jurisdiction": "Houston, TX",
+      "docType": "local_amendment",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.houstonpermittingcenter.org/media/9076/download"
+    },
+    {
+      "region": "tx",
+      "sourceId": "houston-2026-nec-effective-notice",
+      "chunks": 5,
+      "jurisdiction": "Houston, TX",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.houstonpermittingcenter.org/news-events/2026-national-electrical-code-effective-september-1-2026"
+    },
+    {
+      "region": "tx",
+      "sourceId": "houston-2023-nec-now-effective",
+      "chunks": 3,
+      "jurisdiction": "Houston, TX",
+      "docType": "code_adoption",
+      "status": "superseded",
+      "redistributable": true,
+      "url": "https://www.houstonpermittingcenter.org/news-events/update-2023-national-electrical-code-now-effective"
+    },
+    {
+      "region": "tx",
+      "sourceId": "houston-code-archive",
+      "chunks": 4,
+      "jurisdiction": "Houston, TX",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://houstonpermittingcenter.org/help/codes"
+    },
+    {
+      "region": "tx",
+      "sourceId": "houston-code-amendments-page",
+      "chunks": 10,
+      "jurisdiction": "Houston, TX",
+      "docType": "code_adoption",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.houstonpermittingcenter.org/construction-code-modernization/code-amendment"
+    },
+    {
+      "region": "tx",
+      "sourceId": "houston-building-code-modernization-update-2025-10-13",
+      "chunks": 6,
+      "jurisdiction": "Houston, TX",
+      "docType": "other",
+      "status": "pending",
+      "redistributable": true,
+      "url": "https://preflight.houstontx.gov/council/committees/govtops/20251013/Building-Code-Modernization-Update.pdf"
+    },
+    {
+      "region": "tx",
+      "sourceId": "houston-tech-memo-nec-low-voltage-poe",
+      "chunks": 181,
+      "jurisdiction": "Houston, TX",
+      "docType": "other",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.houstonpermittingcenter.org/media/9246/download"
+    },
+    {
+      "region": "tx",
+      "sourceId": "houston-master-electrician-registration",
+      "chunks": 8,
+      "jurisdiction": "Houston, TX",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.houstonpermittingcenter.org/hpwcode1057"
+    },
+    {
+      "region": "tx",
+      "sourceId": "houston-electrical-contractor-registration",
+      "chunks": 7,
+      "jurisdiction": "Houston, TX",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.houstonpermittingcenter.org/hpwcode1051"
+    },
+    {
+      "region": "tx",
+      "sourceId": "houston-circuit-panel-permit",
+      "chunks": 7,
+      "jurisdiction": "Houston, TX",
+      "docType": "permit",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.houstonpermittingcenter.org/hpwcode1062"
+    },
+    {
+      "region": "tx",
+      "sourceId": "houston-generator-permit",
+      "chunks": 8,
+      "jurisdiction": "Houston, TX",
+      "docType": "permit",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.houstonpermittingcenter.org/hpwcode1118"
+    },
+    {
+      "region": "tx",
+      "sourceId": "houston-temporary-cut-in-permit",
+      "chunks": 6,
+      "jurisdiction": "Houston, TX",
+      "docType": "permit",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://houstonpermittingcenter.org/hpwcode1067"
+    },
+    {
+      "region": "tx",
+      "sourceId": "houston-annual-electrical-maintenance-permit",
+      "chunks": 5,
+      "jurisdiction": "Houston, TX",
+      "docType": "permit",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.houstonpermittingcenter.org/hpwcode1048"
+    },
+    {
+      "region": "tx",
+      "sourceId": "houston-ce1057-electrical-permit-application",
+      "chunks": 7,
+      "jurisdiction": "Houston, TX",
+      "docType": "permit",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.houstonpermittingcenter.org/media/991/download"
+    },
+    {
+      "region": "tx",
+      "sourceId": "houston-inspections-process-2024-11",
+      "chunks": 14,
+      "jurisdiction": "Houston, TX",
+      "docType": "inspection",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://www.houstonpermittingcenter.org/media/10116/download"
+    },
+    {
+      "region": "tx",
+      "sourceId": "centerpoint-service-standards",
+      "chunks": 0,
+      "jurisdiction": "Houston, TX",
+      "docType": "utility_requirements",
+      "status": "unknown",
+      "redistributable": false,
+      "url": "https://www.centerpointenergy.com/en-us/Services/Pages/electric-service-standards.aspx"
+    },
+    {
+      "region": "tx",
+      "sourceId": "tx-occupations-code-1305",
+      "chunks": 0,
+      "jurisdiction": "TX",
+      "docType": "licensing",
+      "status": "in_force",
+      "redistributable": true,
+      "url": "https://statutes.capitol.texas.gov/Docs/OC/htm/OC.1305.htm"
+    }
+  ]
+}

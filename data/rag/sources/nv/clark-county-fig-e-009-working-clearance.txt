@@ -1,0 +1,58 @@
+
+
+===== Page 1 =====
+                                Clark County Building and Fire Prevention
+                                                    Field Inspection Division
+                                FIELD INSPECTION GUIDELINE
+
+
+Division:     Inspections                                                          Policy & Procedure:          FIG-E-009
+Subject:      Working Clearance                                                    Effective Date:              12/29/2006
+Code:         2017NEC 110.26 (A)                                                                   Revised Date:                10/01/2020
+Proposed:     Matthew Brewer                                                       Approved:                    Sam Palmer
+
+    Interpretation:
+    Section 110.26(A) provides working     clearance     requirement for electrical equipment which  may require
+    servicing while energized. Transformers shall not be energized while servicing.
+
+    Field Application:
+    The following rules    shall apply:
+         1.   NFPA/OSHA requires transformers  to  be de -energized before  removing  the cover.
+         2.   NFPA/OSHA requires transformers to be de-energized while making terminations or changing taps.
+         3.   The NEC only   requires the working clearance    at electrical equipment likely to require  examination,
+             adjustment, servicing, or  maintenance    while energized.
+         4.   As transformers are   not allowed to  be energized with  the cover removed, they will  not  be energized
+             while servicing,      and the working     clearance    requirements do     not apply.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                            Page 1 of 1

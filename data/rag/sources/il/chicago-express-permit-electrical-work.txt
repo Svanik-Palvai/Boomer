@@ -1,0 +1,388 @@
+Electrical Work
+
+ An official website of the City of Chicago
+ Here's how you know
+
+The .gov means it' officialMunicipal government websites often end in .gov or .org. Before sharing sensitive information, make sure you're on a City of Chicago government site.
+
+The site is secure.The https:// ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+ MENU
+
+Chicago - City of Chicago Official Website 
+
+ Welcome
+
+ Instructions
+
+ Documents
+
+ Codes
+
+ Apply
+
+ Check Status
+
+ Get Help
+
+Chicago.gov
+
+Home
+Building Permit Application Instructions
+Express Permit Program
+Electrical Work
+
+Electrical Work
+
+Electrical Work
+
+The Express Permit Program offers a streamlined way to obtain a permit for many common types of stand-alone electrical work.
+
+Eligibility Summary
+
+Additional terms, conditions, and limitations may apply.
+
+General ineligibility
+
+The “Electrical Work” category in the Express Permit Program is for performing stand-alone electrical work that is not associated with another building permit. It cannot be used to alter the scope of electrical work covered by a plan-based building permit or a more comprehensive type of express permit, such as one for “Interior Nonstructural Alteration.” The “Electrical Work” category also cannot be used for the following types of work:
+
+Installing, altering, or removing business identification or advertising signage (a sign permit is required)
+
+Installing, altering, or removing wireless (cellular) communication equipment (eligible work may use the “Communication Equipment” category)
+
+Working on a fire alarm system, emergency communication/notification system, or fire-alarm-integrated devices, such as magnetic locks (eligible work may use the “Fire Alarm System” category)
+
+Installing new or reconfigured exit signs (no new exit sign locations)
+
+Installing or altering space heating equipment (eligible work may use the “Mechanical (HVAC) Work” category)
+
+Installing, altering, or removing domestic hot water equipment (eligible work may use the “Plumbing Work” category)
+
+Installing, altering, or removing solar photovoltaic panels (eligible work may use the “Small Scale Solar PV System” category)
+
+Installing or altering a wind turbine
+
+Work performed by multiple electrical contractors on a single permit
+
+Subtypes for electrical work
+
+In the Express Permit Program, there are six subtypes of electrical work. These instructions include a separate Eligibility Summary for each subtype.
+General
+
+Repair or alter electrical devices on existing circuits
+
+Add circuits to existing electrical panel
+
+New service or service disconnecting means (panel)
+
+Specialized
+
+Low voltage/communication work only
+
+Generator (new or replacement)
+
+New outdoor site lighting
+
+Note: some types of electrical work in large buildings or associated with an indoor or outdoor show, exhibit, or special event should apply for a monthly maintenance permit.
+
+Repair or alter electrical devices on existing circuits
+
+On the “Additional Information” page in the online application, choose “Line voltage” as the “Wiring Type” and “Repair or alter electrical devices on existing circuits” as the “Work Subtype.”
+
+Eligible
+
+Replacing an existing electrical fixture, such as a light fixture or ceiling fan
+
+Installing a new electrical fixture on an existing circuit (must not exceed load capacity)
+
+Installing a new receptacle outlet on an existing circuit (must not exceed load capacity)
+
+Performing incidental low voltage/communication work in the same area (must be done by same electrical contractor)
+
+Not Eligible
+
+Adding circuits to an existing panel
+
+Replacing an existing panel
+
+Replacing or upgrading an existing service
+
+Adding new outdoor site lighting
+
+Add new circuits to an existing electrical panel
+
+On the “Additional Information” page in the online application, choose “Line voltage” as the “Wiring Type” and “Add circuits to existing electrical panel” as the “Work Subtype.”
+
+Eligible
+
+Performing work eligible under “repair or alter electrical devices on existing circuits”
+
+Adding a new circuit to an existing panel for a new device, such as an EV charging station
+
+Adding a new circuit to an existing panel for new receptacle outlets
+
+Adding a new circuit to an existing panel for new equipment, such as an air conditioner
+
+Performing incidental low voltage/communication work in the same area (must be done by same electrical contractor)
+
+Not Eligible
+
+Replacing an existing panel
+
+Replacing or upgrading an existing service
+
+Adding new outdoor site lighting
+
+New service or service disconnecting means (panel)
+
+On the “Additional Information” page in the online application, choose “Line voltage” as the “Wiring Type” and “New electrical service or service disconnecting means” as the “Work Subtype.”
+
+Eligible
+
+Performing work eligible under “add circuits to an existing electrical panel”
+
+Replacing an existing service or service disconnecting means (panel) (less than 1,200 A)
+
+Upgrading an existing service or service disconnecting means (panel) (less than 1,200 A)
+
+Installing new branch circuits on the replacement or upgraded service disconnecting means (panel)
+
+Performing incidental low voltage/communication work in the same area (must be done by same electrical contractor)
+
+Not Eligible
+
+Installing a service or service disconnecting means rated 1,200 A or greater
+
+Installing a generator (permanent or temporary)
+
+Adding new outdoor site lighting
+
+Generator (new or replacement)
+
+On the “Additional Information” page in the online application, choose “Line voltage” as the “Wiring Type” and “New or replacement generator” as the “Work Subtype.”
+
+Eligible
+
+Installing a new permanent generator serving an under-construction building
+
+Installing a new permanent generator serving an existing building
+
+Completely replacing an existing permanent generator
+
+Installing a temporary generator associated with construction activity
+
+Performing work on transfer equipment associated with the generator being installed or replaced
+
+Not Eligible
+
+Performing additional electrical work in the building, without a separate permit
+
+Installing a temporary generator associated with a special event (apply for a Monthly Maintenance permit)
+
+Low voltage/communication work only
+
+On the “Additional Information” page in the online application, choose “Low voltage/communication” as the “Wiring Type.”
+
+Eligible
+
+Installing, altering, or removing the following types of low voltage systems:
+
+Audio
+
+Data/Video
+
+Intercom
+
+Lighting
+
+Security
+
+Telephone
+
+Other (such as POS systems)
+
+Not Eligible
+
+Performing line voltage electrical work
+
+New outdoor site lighting
+
+On the “Additional Information” page in the online application, choose “Line voltage” as the “Wiring Type” and “New outdoor site lighting” as the “Work Subtype.”
+
+Eligible
+
+Installing new pole- or building-mounted lighting intended to illuminate an outdoor site, such as a parking lot or plaza
+
+Not Eligible
+
+Altering, repairing, or removing existing outdoor site lighting
+
+Installing:
+
+Low-voltage outdoor lighting
+
+Decorative/landscape lighting
+
+Security lighting at building entrances/exits
+
+Replacing an existing panel
+
+Replacing or upgrading an existing service
+
+Working on branch circuits not associated with outdoor site lighting without a separate permit
+
+When is a building permit not required?
+
+Before beginning an Express Permit Program application for electrical work, please review:
+
+What Types of Work Do Not Require a Building Permit? : Electrical Work
+
+Important Considerations
+
+Terms and conditions
+
+See the full Terms and Conditions for Express Permit Program : Electrical Work for further limitations on this type of permit.
+
+Before You Apply
+
+Before you start the online application, you should have:
+
+Property address
+
+Property PIN (lookup available on Cook County Assessor website)
+
+Property owner: name and contact information
+
+Designated emergency contact
+
+Basic info about the main building on the property (number of stories, number/type of units)
+
+Details of the proposed electrical work
+
+Required documents (see below)
+
+Required contractor (see below): exact name or Chicago license number
+
+Required Documents
+
+Existing condition photograph
+
+You must upload at least one photograph of exiting conditions in the area where work will be performed for the following types of work:
+
+Adding new circuits to an existing panel
+
+Installing a new service or service disconnecting means (panel)
+
+Installing a new or replacement generator
+
+Installing new outdoor site lighting
+
+Performing low voltage/communication work
+
+You may upload up to five photographs of existing conditions.
+
+Site plan
+
+You must upload a site plan, drawn to scale, when installing new outdoor site lighting.
+
+Electrical drawing
+
+You must upload electrical drawings, which must include a single-line diagram, load calculations, and other details of the proposed work for the following types of work:
+
+Work in a hazardous (Group H) occupancy
+
+Work in a health care facility
+
+Installing a new or replacement generator (permanent or temporary)
+
+Adding circuits to an existing panel in a residential building with 3 or more stories above grade
+
+Installing a new service or service disconnecting means (panel) in a residential building with 3 or more stories above grade
+
+Adding circuits to an existing panel in a non-residential building with 2 or more stories above grade
+
+Installing a new service or service disconnecting means (panel) in a nonresidential building with 2 or more stories above grade
+
+Adding circuits to an existing panel in a 1-story non-residential building with floor area exceeding 10,000 square feet
+
+Installing a new service or service disconnecting means (panel) in a 1-story nonresidential building with floor area exceeding 10,000 square feet
+
+Installing electrical vehicle supply equipment (EVSE) serving 4 or more parking spaces
+
+Installing a new service, 277 V or greater
+
+Installing a new service, 400 A or larger
+
+Working on a service switchboard or motor control center rated in excess of 1200 A or 600 V
+
+Installing, altering, or repairing a System I or System II emergency lighting system
+
+Installing a new System III emergency lighting system
+
+The electrical drawings and load calculations can be prepared by any qualified person in accordance with industry standards.
+
+Work on condominium property
+
+If the work to be permitted is on property that is part of a condominium association (including work in an individually owned condominium unit) you must upload:
+
+Condominium association approval letter
+
+This letter must briefly describe the work to be performed (example: interior renovations in unit 9A) and be signed by an authorized representative of the condominium association, such a property manager or officer of the association.
+
+Project owned by a government entity
+
+If the work to be permitted in being undertaken by or for a local, state, or federal government entity (such as Chicago Public Schools) you must upload:
+
+Government ownership or funding letter
+
+If the government entity has a permit fee waiver ordinance, include a copy of that ordinance as part of this upload.
+
+Project receiving construction funding from a government entity
+
+If the work to be permitted or is receiving construction funding from a government entity (such as a Small Business Improvement Fund grant) you must upload:
+
+Government ownership or funding letter
+
+The letter must be from the government entity providing the construction funding.
+
+Work required to address fire damage
+
+If work is required to address fire damage, you must have the Department of Buildings assess the scope of fire damage before you apply for a building permit. The Department’s assessment will be documented on a form called the “Tax and Demolition Form,” per the Illinois Insurance Code. You must upload:
+
+Tax and demolition form
+
+Required Contractors
+
+A licensed electrical contractor (general) is required for most types of electrical work.
+
+A licensed electrical contractor (low voltage) may perform electrical work that is limited to low voltage or communication work.
+
+An Illinois-licensed private alarm contractor with an email address on file with the City of Chicago may perform work that is limited to “private alarm work” as described in the Illinois Private Detective, Private Alarm, Private Security, Fingerprint Vendor, and Locksmith Act of 2004, as amended.
+
+If the scope of work includes installation of electric vehicle supply equipment, the installer’s Illinois Commerce Commission (ICC) Electric Vehicle Charging Station Installer Certification number must be provided in the application.
+
+Ordinances and Rules
+
+Chicago Construction Codes Administrative Provisions, Section 14A-12-1204.2 (Stand-alone permit fees)
+
+2018 Chicago Electrical Code (Title 14E)
+
+2019 Chicago Building Rehabilitation Code, Section 14R-4-406 (Repairs—Electrical)
+
+Chicago Minimum Requirements for Existing Buildings, Chapter 14X-7 (Electrical Requirements)
+
+ Building Permit Terms and Conditions
+
+ Disclaimer
+
+City of Chicago
+
+Contact Info
+
+ dob-info@cityofchicago.org
+
+ Video Title
+ Close
+
+ Image Title
+ Close

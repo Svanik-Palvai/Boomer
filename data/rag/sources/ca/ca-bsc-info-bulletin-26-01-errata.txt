@@ -1,0 +1,520 @@
+
+
+===== Page 1 =====
+DEPARTMENT OF GENERAL SERVICES                                                                                                                          GOVERNOR GAVIN NEWSOM
+BUILDING STANDARDS COMMISSION
+2525 Natomas Park Drive, Suite 130
+Sacramento, California 95833-             2936
+(916) 263-       0916
+
+           CALIFORNIA BUILDING STANDARDS COMMISSION
+                                INFORMATION BULLETIN 26-01
+
+        DATE:                March 3,    2026
+
+        TO:                     LOCAL BUILDING DEPARTMENTS
+                                   STATE AGENCIES AND DEPARTMENTS
+                                   INTERESTED PARTIES
+
+        SUBJECT:         2025   California Building Standards Code: Triennial Code
+                              Adoption Cycle Errata
+
+        The purpose of this bulletin is to notify code users of error and format corrections being
+        made to the 2025    California Building Standards Code (California Code of Regulations,
+        Title 24). A summary of noteworthy  topics specific to these  errata is discussed below.
+        Additionally, this bulletin explains the purpose and application of errata.
+
+        These changes are   published as errata (buff  -colored     pages) to various parts of the
+        standards, and become effective and enforceable   January 1, 2026, to coincide       with the
+        effective date of the 2025     California Building Standards Code.     Errata have been issued
+        for the following Title    24 Parts:
+             •     Part 2 -          California Building Code, Volumes 1 and 2
+             •     Part 2.5 -      California Residential Code
+             •     Part 3 -          California Electrical Code
+             •     Part 4 -          California Mechanical Code
+             •     Part 5 -          California Plumbing Code
+             •     Part 6 -          California Energy Code
+             •     Part 9 -          California Fire Code
+             •     Part 10 -       California Existing Building Code
+             •     Part 11 -       California Green Building Standards Code (CALGreen)
+
+        Background
+        The 2025 edition of the California Building Standards Code was published on or before
+        July 1, 2025,   and is now available.   Since publication, efforts have been made to ensure
+        that all items that underwent rulemaking   in the code adoption cycle are corr     ectly
+        represented in the 2025    publication, and that regulations carried forward   are accurately
+        placed. Additionally, grammatical and spelling errors, erroneous references, and other
+        minor misprints that have been identified by users and publishing staff are corrected
+        with this Errata, both for model code  language     and for California amendments. Errata
+        can be issued at any time because there is no commission a   ction necessary to
+        promulgate those changes. The objective is to ease interpretation issues and enhance
+        understandability in the use of the codes.
+
+===== Page 2 =====
+        Errata
+        When corrections are necessary to resolve   an error such as spelling or numerical
+        mistakes that do not establish   new code requirements, errata are issued on buff-colored
+        paper. Errata may also include items that were erroneously omitted from printing but
+        were completed   during a previous rulemaking cycle. Errata, like supplements , are
+        published by the respective code publishers (see page 10)     with instructions concerning
+        the code pages to be removed and replaced, and contain a History Note Appendix
+        listing the effective date.   More information about the application of the errata,
+        maintaining Title 24, and obtaining issued errata copies is provided   in the 2025 Guide to
+        Title 24 and Maintaining Your Title 24 guide.
+
+        Noteworthy Topics
+
+        Part 2, Volume 1:
+        In Chapter 1, Section 107.2.4 Exterior wall envelope, the description for exterior wall
+        envelope is changed to exterior wall assembly.
+        In Section 110.3.9 Energy efficiency inspections, required inspections are clarified to be
+        specific to building thermal  envelope insulation   products.
+        In Chapter 2, Section 202 Definitions, the model code defined terms for “Accessible
+        Unit”, “Type A Unit” and “Type B Unit” dwellings have   been removed.
+        The model defined terms for “Essential Facilities,” “Nominal Loads,” and “   Risk
+        Category” have been revised to add     Tornado events for buildings and other structures
+        that are intended to remain operational in the event of extreme environmental events,
+        structure design loads and risk performance categories.
+        In Chapter 4, the following sections    have been revised to remove Condition 1 and
+        Condition 2 from Group I-2 Occupancy groups as California does not use those
+        classifications:
+                 403.4.8.1 Equipment room. Condition 2 is removed from the Exceptions.
+                 404.5 Smoke control. Condition 2 is removed from the Exceptions.
+                 407.2.5 Nursing home housing units, Condition 1 is removed.
+                 407.2.6 Nursing home cooking facilities, Condition 1 is removed.
+                 407.5.1 Smoke compartment size. Exceptions are removed.
+                 407.9 Automatic smoke  detection, Group I-2, Condition 2 and    Exceptions 1 and 2
+                 have been removed.
+        In Section 427.2 Interior supply location, a new sentence and requirement added to
+        clarify that “Rooms containing medical gases shall be labeled in accordance with NFPA
+        99.”
+        In Chapter 5, Section 508.3.1.2 about Group I-2, Condition 2 occupancies is removed.
+        In Chapter 7,    Section 710.5.3 Pass-through openings in Group I-2, Condition 2 is
+        removed.
+        In Section 709.3 Fire-resistance rating, the Exception is removed.
+        In Chapter 9, Section 903.3.1.3 NFPA 13D sprinkler systems; Group R-4, Condition 1        is
+        removed.
+        In Section 907.2.11.2 Groups R-2, R-2.1, R-2.2, R-3, R-3.1, and R-  4, the Occupancy
+        Group R-4.1. is removed.
+
+                                                                                                                                   Page 2 of 10
+
+===== Page 3 =====
+        In Section 907.2.16 Aerosol storage uses, the following phrase is added to clarify that
+        ”aerosol cooking spray products or plastic aerosol 3 products” shall be provided with an
+        approved manual fire alarm system where required by the California Fire Code.
+        In Section 907.5.2.1 Audible alarms, Exception 1, Condition 2 is removed from the I-2
+        Occupancy classification.
+        In Chapter 10, Section 1010.2.4 Locks and latches, Number 5, Single exit doors –
+        “manual bolts” are allowed, provided that such devices are openable from the inside
+        without the use of a key or tool.
+        In Section 1013.6.3 Power source, Condition 2 is removed from exit illumination
+        requirements for the Group I-2 Occupancy classification.
+        In Chapter 12, Table 1202.3.1—IECC Versus California Energy Code Climate Zone
+        Comparison, California Zone 7 is added to Energy Code comparison table column on
+        the row for IECC Zone 3 (marine) .
+        In Chapter 15, Section 1505.1.1      Roofing requirements within Fire Hazard Severity
+        Zones or in the Wildland-  Urban Interface (WUI), the reference pointer to CBC “Section
+        705A” is corrected to   “Chapter 5 of the California Wildland-Urban Interface   Code.”
+        Other minor editorial and format corrections to the Matrix Adoption Tables and some
+        sections of code language are made throughout Part 2, Volume 1 and to correlate with
+        Part 9, the California Fire Code    as well.
+
+        Part 2, Volume 2:
+        In Chapters 16 and 16A, Tables   1604.5 and 1604A.5, “Condition 2” is removed from
+        “Group I-2 occupancies” in the description for risk category IV.
+        Sections 1607.14.3 and 1607A.14.3   about photovoltaic panel systems, and the
+        corresponding subsections are renumbered to Sections 1607.22 and 1607A.22 with
+        subsections to be consistent with 2024 IBC errata.
+        Section 1607A.14.4, Uncovered open-      frame roof structures, is renumbered to Section
+        1607A.23 so that it is an independent subsection of 1607A.
+        In Sections     1609.3   and 1609A.3, “design” is removed from the title to be consistent with
+        2024 IBC errata.
+        The user notes at the beginning of Chapter 19A, Concrete, are corrected to indicate that
+        this chapter applies specifically to reinforced concrete.
+        The exception is deleted from Section 2108.1 as an amendment carried forward from
+        prior rulemaking cycles.
+        In Sections 2203.1 and 2203A.1, General, the term “manufacture” is deleted and
+        replaced with “fabrication.”
+        Sections 2213.1 and 2213A.1 are revised to clarify that the standard applies specifically
+        to material handling structures.
+        In the title of Section 3006 “opening” is removed and replaced with “door” to read
+        “elevator lobbies and hoistway door protection.”
+        In Chapter 35, Referenced standards, ICC-ES AC 106 –  24: Acceptance Criteria for
+        Predrilled Fasteners (Screw Anchors) in Masonry is deleted as this standard is no
+        longer published.     ICC/NSSA 500-2023: ICC/NSSA Standard for the Design and
+        Construction of Storm Shelters is added     as it was erroneously omitted in the first
+        printing.
+
+
+                                                                                                                                   Page 3 of 10
+
+===== Page 4 =====
+        Throughout Part 2, Volume 2, several references to applicable standards and code
+        sections are corrected, adopting agency banners are revised for clarity, and other minor
+        editorial and format corrections to code language and the Matrix Adoption Tables are
+        made.
+
+        Part 2.5:
+        In Chapter 3, Figure R305.4—Termite Infestation Probability Map is replaced with
+        correct map according to 2024 IRC Errata posted 09/13/2024.
+        In Section R306.2.1 Elevation requirements, the last sentence in sub-item 5.2.5 is
+        separated to become sub-    item 5.2.6.
+        In Chapter 7,    Section R702.7.2, reference pointer to Section N1102.5.1.1 is replaced
+        with the California Energy Code.
+        In California amendment Table  R702.7.3—IECC Versus California Energy Code
+        Climate Zone Comparison, California Zone 7 is added to Energy Code comparison table
+        column on the row for IECC Zone 3 (marine).
+        In Section R703.2 Water     -resistive barrier, reference pointer to Section N1102.5.1.1 is
+        replaced with the California Energy Code.
+        In Section R703.7.3.1 Dry climates     , “Dry (B)” is replaced with the phrase “    other than
+        IECC 3 (marine) and 4 (marine)“       and a reference to Section R702.7.3        is deleted in
+        relation to climate zones used  in California.
+        In Section R703.7.3.2 Moist or marine climates, “the Moist (A) or Marine (C)” is replaced
+        with the phrase “IECC 3 (marine) and 4 (marine)” and a reference to Section R702.7.3
+        is deleted in relation to climate zones used  in California.
+        In Chapter 8, Table R806.5—  Insulation for Condensation Control, in footnote a., the
+        reference pointer to Section N1102.5.1.1 is replaced with the California Energy Code.
+        In Appendix BF, Figure BF106.4.1—Ultimate Design Wind Speeds        for Patio Covers and
+        Screen Enclosures, the map has been replaced with correct one     according to 2024 IRC
+        Errata posted 10/04/2024.
+        In Appendix CG, In Section CG101.2 System requirements, the referenced standard
+        ANSI/CAN/IAPMO/ISO CG106.1 is updated to   ANSI/CAN/IAPMO/ISO 30500.
+        In Appendix CI Swimming Pool Safety Act, the reprinted portion of the law has been
+        updated according to BSC-01-    24-    CWoRE (Change Without Regulatory Effect) which
+        was approved and filed with Secretary of State March 7, 2025.   The changes are based
+        on the enactment of AB 2866 (Chapter 745, Statutes of 2024) and SB 552 (Chapter
+        769, Statutes of 2024), which became effective January 1, 2025. These bills made
+        amendments to the Swimming Pool Safety Act (Health and Safety Code (HSC) Sections
+        115920 – 115929)—which are required to be published in Title 24 pursuant to HSC
+        Section 18942(b).
+        Other minor editorial and format corrections to the Matrix Adoption Tables and some
+        sections of code language are made throughout Part 2.5.
+
+        Part 3:
+        Minor editorial, formatting, and margin marking corrections were made within code
+        language, agency banners, and Matrix Adoption Tables. Various code section
+        references were corrected in Section 89.111.3, Article 100 Accessory Dwelling Unit
+        definition, Figure 315.60(D)(3) Note, Section 422.3(A) and (B), Section 517.34(7)(l), and
+
+
+
+                                                                                                                                   Page 4 of 10
+
+===== Page 5 =====
+        Section 551.4(A). Included below by page number (e.g., 70-      XX) is a detailed listing of
+        corrections:
+        70-    15: Section 89.111.2.1.3 – Capitalized all instances of State Fire Marshal.
+        70-    16: Section 89.111.3 – Corrected incorrect reference to the California Building Code.
+        70-    25: Article 100 MAT –  Moved adoption from OSHPD 3 to OSHPD 2 for Life-  Saving
+        Equipment and Oxygen-  Generating Devices definitions.
+        70-    27: Article 100 Definitions – Corrected inaccurate Government Code reference
+        section for Accessory Dwelling    Unit.
+        70-    260: Figure 315.60(D)(3) –  Corrected inaccurate   section pointer in Note.
+        70-    377: Section 422.3(A) and (B) –  Corrected errors in section titles and section
+        references to the California Energy Code.
+        70-    460 to 70-     461: Article 517 MAT –  Removed blank rows throughout MAT, moved
+        OSHPD 1, 4 and 5 adoption from Section 517.1(B) to 517.1(C), identified Sections
+        517.20(A)(3), 517.30(A.1), 517.30(D), 517.31(H)(1), 517.31(H)(2), 517.41(A.1),
+        517.41(D), 517.42(G), 517.42(G)(1), 517.42(G)(2), 517.44(A)(1)(a) and 517.44(A)(6)
+        Exception 2 as new state amendments.
+        70-    555: Section 517.1(C) –  Corrected margin marking inaccuracies.
+        70-    558: Section 517.18(B)(2) –  Identified removal of previous Exception and corrected
+        margin marking inaccuracies.
+        70-    560: Section 517.29(A.1) –  Corrected editorial error in agency banner.
+        70-    565: Section 517.34(7) –  Corrected editorial error in agency banner for subsections j.
+        and k. and inaccurate California Building Code reference in subsection l     .
+        70-    566: Section 517.35(B)(1) –  Corrected formatting error in Exception.
+        70-    568: Section 517.42(E) –  Added missing model code language.
+        70-    569: Section 517.44(A) –  Corrected inaccuracies in model code and state adoption
+        language in subsection (1)(a) and fixed typographical error in subsection (7).
+        70-    606: Section 551.4(A) –  Corrected code reference in model code language.
+        70-    769: Section 705.20(7) –  Included OSHPD 6 to agency banner.
+        70-    776: Section 708.1 – Corrected formatting in agency banner.
+        70-    921: Informative Annex C –  Corrected page number references.
+        70-    1039: Index – Correct inaccuracy in listing for Appliances specific to Section
+        422.3(A)
+
+        Part 4:
+        The 2024 edition of the Uniform Mechanical Code (UMC) was updated to include
+        reference to the 2019 edition of ASHRAE Standard 34. Additionally, consistent with
+        IAPMO’s extraction policy, Table 1102.3 was also updated to align with the latest
+        information, at that time, from ASHRAE Standard 34. As part of this effort, values for
+        Refrigerant Concentration Limits (RCLs) and Lower Flammability Limits (LFLs) were
+        also included in this table, as were new refrigerants and other updates from the
+        addenda to the 2019 edition of ASHRAE Standard 34. Unfortunately, the 2019 edition of
+        ASHRAE Standard 34 and its associated addenda contained errors for a number of
+        these newly incorporated refrigerant properties. As such, updates to Table 1102.3 are
+        needed to resolve potential safety concerns that may now arise from the use of
+
+                                                                                                                                   Page 5 of 10
+
+===== Page 6 =====
+         incorrect RCLs and LFLs for Safety Group A2L refrigerant blends that were adopted into
+         the 2024 edition of the UMC. Given the ongoing transition towards Safety Group A2L
+         refrigerants, which are classified as having “Lower Flammability” per ASHRAE Standard
+         34, the need for these changes is critical.
+
+                  Revise Table 1102.3 to read as follows:
+
+                                                             TABLE 1102.3
+                                 REFRIGERANT GROUPS, PROPERTIES, AND ALLOWABLE QUANTITIES7
+                                                  [ASHRAE 34: TABLE 4-1, TABLE 4-2]
+
+        REFRIGERANT       CHEMICAL       CHEMICAL NAME1 (COMPOSITION FOR          SAFETY         OEL2         RCL            LFL8
+                           FORMULA                     BLENDS)                     GROUP        (ppm)        (lb/Mcf)      (lb/Mcf)
+           R-444A          zeotrope      R-32/152a/1234ze(E) (12.0/5.0/83.0)        A2L          850         5.15.0         19.9
+           R-445A          zeotrope     R-744/134a/1234ze (E) (6.0/9.0/85.0)        A2L          930         4.25.4        2.721.6
+           R-446A          zeotrope      R-32/1234ze(E)/600 (68.0/29.0/3.0)         A2L          960         2.53.7       13.51014.8
+           R-447A          zeotrope      R-32/125/1234ze(E) (68.0/3.5/28.5)         A2L          960         2.65.2       18.91020.6
+           R-447B          zeotrope      R-32/125/1234ze(E) (68.0/8.0/24.0)         A2L          970         2.64.8       20.619.5
+           R-451A          zeotrope           R-1234yf/134a (89.8/10.2)             A2L          530         5.05.3       20.31021.3
+           R-451B          zeotrope           R-1234yf/134a (88.8/11.2)             A2L          530           5.0        20.31021.3
+           R-454A          zeotrope            R-32/1234yf (35.0/65.0)              A2L          690         3.24.4       18.31017.5
+           R-454B          zeotrope            R-32/1234yf (68.9/31.1)              A2L          850         3.14.6       22.01018.5
+           R-454C          zeotrope            R-32/1234yf (21.5/78.5)              A2L          620         4.44.6       18.01018.2
+           R-455A          zeotrope        R-744/32/1234yf (3.0/21.5/75.5)          A2L          650         4.96.8         26.9
+
+         (portions of table not shown remain unchanged)
+
+         Questions regarding the Tentative Interim Amendment should be directed to the IAPMO
+         Standards Council Issues TIA UMC (003-      24) | IAPMO.
+
+         Other minor edits include correcting the Government Code statute within the definition
+         of Accessory Dwelling Unit in Chapter 2, and Table 4A footnote d was changed to
+         reflect the correct section number in Chapter 4.
+
+         Part 5:
+         In Chapter 2, Accessory Dwelling Unit definition, and Chapter 3, Section 311.1 General,
+         a referenced Government Code section was corrected.
+         In Chapter 4, Section 403.2, reference to ICC A117.1 was deleted.
+         In Table 422.1, a BSC and DSA-SS amendment was relocated to footnote 9; and
+         printing errors were corrected in Table 4-  2.
+
+         Part 6:
+         In Table 100.0-  A – Application of Standards –  referenced section number for
+         prescriptive standards application is corrected for Solar PV and Battery Energy Storage
+         Systems in Nonresidential buildings and Hotels/Motels.
+         In Section 100.1 –    Definitions and Rules of Construction –    definition of GLAZED DOOR
+         is corrected and moved under definition of FENESTRATION. Definition of OSHPD is
+         fixed to match the revised office name.
+         In Tables 140.10-    B and 170.2-  V – BESS capacity factors for Retail, Grocery and
+         Warehouse building types is fixed in CZ1 and CZ3 (Table 140.10-    B) and for Warehouse
+         building type in CZ1 (Table 170.2-  V).
+
+         Part 9:
+         In Chapters 1, 2, 10 and 11, references to the Office of Statewide Health Planning and
+         Development (OSHPD) have been changed to the Office of Statewide Hospital  Planning
+         and Development.
+
+
+                                                                                                                                   Page 6 of 10
+
+===== Page 7 =====
+        In Chapter 1, Section 105.5.1 Additive manufacturing, the reference pointer to CBC
+        Section 4103.3 is corrected to CBC Section 319.3 Industrial additive manufacturing    .
+        In Table 105.5.22—Permit Amounts For Hazardous Materials      , Footnotes a and b
+        referring to Note k are corrected to be Note j.
+        In Chapter 2, Section 202 Definitions the following changes are made:
+            •     Higher Education Laboratory and Laboratory Suite, the model code defined
+                 terms are removed as different classification is used in California.
+            •     WILDLAND-     URBAN INTERFACE AREA (WUI). [SFM], the reference to CBC
+                 Chapter 7A, Section 702A.2 is corrected to reference the        California Wildland-
+                 Urban Interface Code   as Chapter 7A is removed from the California Building
+                 Code.
+        In Chapter 2, Section 203 Occupancy Classifications and Use the following changes are
+        made:
+            •     Section 203.3 Business Group B, “higher education laboratories     ” is removed
+                 from listed occupancies.
+            •     Section 203.3.2 Ambulatory care facilities, the California amendment regarding
+                 Group C (CAMPS, ORGANIZED) is removed as it is duplicative with Section
+                 203.13.
+            •     Section 203.3.3 Higher Education Laboratories is removed     in its entirety.
+            •     Section 203.7.2.1    and its subsections addressing occupancy conditions  1 and 2
+                 of Group I-2 are removed.
+            •     Sections     203.9.4.1 and 203.9.4.2 addressing          Residential Group R-4, Conditions
+                 1 and 2 are removed.
+        In Chapter 4, Group R   -2.1 Condition 2 was removed from several sections   where it was
+        missed in the rulemaking as it is not used in California.
+        In Chapter 6, Section 603.6.4 Grounding, language was added         to clarify that portable
+        appliances shall be “required to be connected to an equipment grounding conductor.”
+        In Section 603.5.1.1 Listing in Group I-2 occupancies and ambulatory care facilities,
+        Conditions     1 and 2 removed from Items   1 and 2.
+        In Chapter 8, Condition 1 and Group 1-     1 are removed from Sections 805.2.1.1   and
+        807.4.
+        In Section 808.1 Group I-1 is replaced with  Group R2.1.
+        In Chapter 9, Section 903.3.1.2.3 Attics, Item 4 about Group R-4, Condition 2
+        occupancy is removed.
+        In Section 903.3.1.3 NFPA 13D sprinkler systems, Group R-4, Condition 1        is removed.
+        In Section 906.1,   Exceptions   2 and 3 in Item 1 are removed;        Item 2 is revised to remove
+        Group I-1 and Condition 1.
+        In Sections       907.5.2.1 and 907.5.2.3 all references to   Condition 2 are removed.
+        In Chapter 10, Section  1010.2.3, reference to   International Swimming Pool and Spa
+        Code was corrected   to reference California Building Code instead.
+        In Section 1010.2.12.1, Group I-  1 and Condition 1 are removed     from Item 5, Exception
+        2.
+        In Section 1025.1,   Group I-1 occupancy is removed.
+        In Chapter 11, references to Conditions 1 and 2 and Group I-1 are removed.
+
+
+                                                                                                                                   Page 7 of 10
+
+===== Page 8 =====
+        In Section 1104.8 Forces to unlatch and open doors, the first sentence “Forces shall be
+        applied to the latch side” is removed.
+        In Chapter 50, Table   5003.1.1(5)—Hazardous Materials Exemptions       , the reference to
+        Section 416 for Material Classification, Flammable and combustible liquids and gases is
+        changed to Chapter 24 in Column 3.
+        In Table   5003.11.2—Maximum Allowable Quantity    , the value 39,000 ft3 for Category 1B,
+        Gaseous is corrected          to 390,000 ft3 .
+        Other minor editorial and format corrections to the Matrix Adoption Tables and some
+        sections of code language are made throughout Part 9 and to correlate      with Part 2,
+        Volume 1      of the California Building Code        as well.
+
+        Part 10:
+        In Sections 1.1.3.2, 310A.1.2, and 311A.1.2, editorial changes are made to reflect the
+        change in the organization name to the Office of Statewide Hospital Planning and
+        Development (OSHPD).
+        In Sections 1.9.2.1.1 and 1.9.2.2.1, a corrected reference to Section 1103.7 is provided.
+        In Section 202, the definition of Accessory Dwelling Unit is updated with the correct
+        reference to Government Code Section 66313.
+        In Chapter 3, the note under “About this chapter” is updated to indicate California
+        Codes, not I-Codes.
+        In Section 303.2.1, the term occupant capacity is updated to design occupant capacity
+        in accordance with the 2024 IEBC Errata.
+        In Section 502.3, a corrected reference to Section 502.4 is provided per the 2024 IEBC
+        Errata.
+        In Section 804.6.4, a corrected reference to Section 1010.2.8 of the CBC is provided
+        per the 2024 IEBC Errata.
+        In Section 1305.2.2.2, an editorial change is made to delete a comma per the 2024
+        IEBC Errata.
+        In Section 1504.1.4.1, the panel thickness of 15/16 inch is corrected to 5/16 inch per the
+        2024 IEBC Errata.
+        The Matrix Adoption Table for Chapter 16 is updated to include ASCE/SEI 41-    2017.
+        In Chapter 16, referenced sections in ASME A17.1, A17.3, and A18.1 are deleted, and
+        several references in CBC-25 are corrected.
+
+        Part 11:
+        In Chapters 1,    3 and A6, editorial changes are made to reflect the change in the
+        organization name to the Office of Statewide Hospital Planning and Development
+        (OSHPD).
+        In Chapter 2,    reference to the Government Code section is corrected in the definitions
+        of ACCESSORY DWELLING UNIT and JUNIOR ACCESSORY DWELLING UNIT.
+        In Chapters 4, 5 and A4,   various capitalization and punctuation inconsistencies are
+        corrected.
+
+
+                                                                                                                                   Page 8 of 10
+
+===== Page 9 =====
+        In Chapter 8,    footnote 4 to WORKSHEET (WS-2) WATER USE REDUCTION is
+        corrected to require 0.35 gpm instead of 35 gpm. Inconsistent terminology and
+        punctuation are corrected in various compliance forms and referenced materials.
+        In Chapter A5,   various punctuation inconsistencies and formatting issues are corrected.
+        References to California Building Code Chapter 7A provisions are corrected to refer to
+        the California Wildland-Urban Interface Code.
+        In Chapter A6,   various punctuation inconsistencies are corrected.
+
+        Enforcement Responsibility
+        The requirements within the California Building Standards Code establish the minimum
+        regulations for the design and construction of buildings and structures in California.
+        State law, in various cases, mandates that local government enforce these regulations
+        and any local ordinances with qualified reasonably necessary and generally more
+        restrictive building standards than provided for in the California Building Standards
+        Code.
+        Exceptions for enforcement are for building standards applicable to hospitals, state
+        buildings, public schools and colleges that are subject to state agency authority. For
+        detailed information regarding enforcement responsibilities refer to Part 1 of Title 24 and
+        Chapter 1 of most Parts of Title 24.
+
+        Amendment by Local Ordinance
+        Local ordinances amending the California Building Standards Code are subject to
+        requirements of California law. Ordinances generally must be more restrictive than the
+        building standards approved/adopted by the California Building Standards Commission
+        (CBSC). These amendments must be filed, as appropriate, with either CBSC or other
+        state agencies as directed by law. CBSC developed a Guide for Local Amendments of
+        Building Standards, which is available on its website for download or printing by
+        navigating to the Resources webpage. Additionally, CBSC        developed in cooperation
+        with the International Code Council, the California Code Adoption for Local Jurisdictions
+        video, available on YouTube.
+        CBSC also issued Information Bulletin 25    -02     (August 2025) relative to local government
+        amendments adopted via ordinance, that addresses filing with and acceptance by
+        CBSC or other agencies prior to enforcement.
+
+        Effective Date and Application of the 2025        California Building Standards Code
+        January 1, 2026,   is the statewide effective date established by CBSC for the 2025
+        California Building Standards Code. All applications for a building permit that occur on
+        or after January 1, 2026 , are subject to compliance with the 2025      edition of the
+        California Building Standards Code.
+        The 2022 California Building Standards Code is applicable to all submitted permit
+        applications, where such application for a building permit was  received on or before
+        December 31, 2025 .
+
+        Availability of Supplements and Errata to the 2025      California Building Standards
+        Code
+        Supplements and Errata to the 2025     California Building Standards Code are available
+        on CBSC’s website on the Codes webpage. In order to receive supplements (blue
+        pages) and errata (buff-colored pages) automatically, please register your code books
+        with each publisher using the following links:
+
+                                                                                                                                   Page 9 of 10
+
+===== Page 10 =====
+             •     ICC: https://www.iccsafe.org/CAL25
+             •     IAPMO: https://www.iapmomembership.org/reg/
+             •     NFPA: https://www.nfpa.org/forms/CA%20Electrical%20Code%20Updates
+
+        The latest printing of the California Building Standards Codes with issued errata and
+        supplements up to date can also be viewed on the CBSC Codes webpage.
+        Questions specific to this bulletin should be directed to CBSC’s staff at (916) 263-        0916
+        or via email at cbsc@dgs.ca.gov .
+
+        Stoyan Bumbalov
+
+        Stoyan Bumbalov
+        Executive Director
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                 Page 10 of 10

@@ -1,0 +1,675 @@
+{
+  "_about": "Structured registry: which code edition and amendment documents apply where. The RAG layer filters retrieval by this; the edition itself is never decided by retrieval. Facts copied from sources/*/manifest.json (checked 2026-11-14). status unknown = do not state an edition, tell the worker to confirm with the building department.",
+  "jurisdictions": [
+    {
+      "id": "phoenix-az",
+      "name": "Phoenix, AZ",
+      "state": "AZ",
+      "level": "city",
+      "necEdition": "2023",
+      "effectiveDate": "2025-08-01",
+      "status": "in_force",
+      "parents": [
+        "az"
+      ],
+      "amendmentSources": [
+        "az/phoenix-2023-nec-amendments"
+      ],
+      "adoptionSources": [
+        "az/phoenix-construction-code-history",
+        "az/phoenix-building-code-page"
+      ],
+      "permitSources": [
+        "az/phoenix-2024-ibc-ch1-admin",
+        "az/phoenix-electrical-submittal-requirements"
+      ],
+      "utility": [
+        "APS",
+        "SRP"
+      ],
+      "notes": "210.8(F) Ex. 2 HVAC GFCI enforcement deferred to 2027-03-01."
+    },
+    {
+      "id": "maricopa-county-unincorporated-az",
+      "name": "Maricopa County (unincorporated), AZ",
+      "state": "AZ",
+      "level": "county",
+      "necEdition": "2017",
+      "effectiveDate": "2022-09-16",
+      "status": "in_force",
+      "pendingEdition": "2023",
+      "pendingSource": "az/maricopa-county-local-additions-addenda-2026-draft",
+      "parents": [
+        "az"
+      ],
+      "amendmentSources": [
+        "az/maricopa-county-local-additions-addenda-2022"
+      ],
+      "notes": "Only applies outside incorporated cities."
+    },
+    {
+      "id": "tucson-az",
+      "name": "Tucson, AZ",
+      "state": "AZ",
+      "level": "city",
+      "necEdition": "2023",
+      "effectiveDate": "2026-01-01",
+      "status": "in_force",
+      "parents": [
+        "az"
+      ],
+      "amendmentSources": [
+        "az/tucson-2023-nec-amendments"
+      ],
+      "adoptionSources": [
+        "az/tucson-building-codes-page"
+      ]
+    },
+    {
+      "id": "mesa-az",
+      "name": "Mesa, AZ",
+      "state": "AZ",
+      "level": "city",
+      "necEdition": "2023",
+      "effectiveDate": "2026-01-08",
+      "status": "in_force",
+      "parents": [
+        "az"
+      ],
+      "amendmentSources": [],
+      "adoptionSources": [
+        "az/mesa-building-code-page"
+      ],
+      "notes": "Amendments not retrieved; see Municode Title 4."
+    },
+    {
+      "id": "scottsdale-az",
+      "name": "Scottsdale, AZ",
+      "state": "AZ",
+      "level": "city",
+      "necEdition": null,
+      "status": "unknown",
+      "parents": [
+        "az"
+      ],
+      "amendmentSources": []
+    },
+    {
+      "id": "tempe-az",
+      "name": "Tempe, AZ",
+      "state": "AZ",
+      "level": "city",
+      "necEdition": null,
+      "status": "unknown",
+      "parents": [
+        "az"
+      ],
+      "amendmentSources": []
+    },
+    {
+      "id": "az",
+      "name": "Arizona",
+      "state": "AZ",
+      "level": "state",
+      "necEdition": null,
+      "status": "local_only",
+      "parents": [],
+      "licensingSources": [
+        "az/ars-32-1122-license-qualifications",
+        "az/ars-32-1121-license-exemptions",
+        "az/ars-32-1151-contracting-without-license"
+      ],
+      "notes": "No statewide electrical code for private work; no state journeyman/master license. ROC licenses contracting businesses (R-11/C-11/CR-11, unverified: roc.az.gov blocked)."
+    },
+    {
+      "id": "las-vegas-nv",
+      "name": "Las Vegas, NV",
+      "state": "NV",
+      "level": "city",
+      "necEdition": "2023",
+      "effectiveDate": "2026-01-05",
+      "status": "in_force",
+      "parents": [
+        "southern-nevada",
+        "nv"
+      ],
+      "amendmentSources": [
+        "nv/las-vegas-2023-nec-amendments"
+      ],
+      "adoptionSources": [
+        "nv/las-vegas-industry-notice-2024-code-adoption",
+        "nv/las-vegas-building-safety-resources"
+      ],
+      "permitSources": [
+        "nv/las-vegas-admin-code-2019-ord-6769"
+      ],
+      "utility": [
+        "NV Energy (south)"
+      ],
+      "utilitySources": [
+        "nv/nv-energy-esr-south-2021-06",
+        "nv/nv-energy-rule-16-south"
+      ]
+    },
+    {
+      "id": "clark-county-nv",
+      "name": "Clark County (unincorporated), NV",
+      "state": "NV",
+      "level": "county",
+      "necEdition": "2023",
+      "effectiveDate": "2026-01-11",
+      "status": "in_force",
+      "parents": [
+        "southern-nevada",
+        "nv"
+      ],
+      "amendmentSources": [
+        "nv/clark-county-2023-nec-amendments"
+      ],
+      "adoptionSources": [
+        "nv/clark-county-ord-5275-2023-nec-adoption",
+        "nv/clark-county-codes-page"
+      ],
+      "permitSources": [
+        "nv/clark-county-building-administrative-code"
+      ],
+      "inspectionSources": [
+        "nv/clark-county-fig-e-012-nv-energy-requirements",
+        "nv/clark-county-fig-e-007-temporary-power",
+        "nv/clark-county-fig-e-009-working-clearance",
+        "nv/clark-county-fig-e-004-generators"
+      ],
+      "utility": [
+        "NV Energy (south)"
+      ],
+      "notes": "Includes the Las Vegas Strip (Paradise/Winchester are unincorporated)."
+    },
+    {
+      "id": "henderson-nv",
+      "name": "Henderson, NV",
+      "state": "NV",
+      "level": "city",
+      "necEdition": null,
+      "status": "unknown",
+      "parents": [
+        "southern-nevada",
+        "nv"
+      ],
+      "amendmentSources": [],
+      "notes": "Search excerpts suggest 2023 NEC + Southern Nevada amendments; unverified (403)."
+    },
+    {
+      "id": "north-las-vegas-nv",
+      "name": "North Las Vegas, NV",
+      "state": "NV",
+      "level": "city",
+      "necEdition": null,
+      "status": "unknown",
+      "parents": [
+        "southern-nevada",
+        "nv"
+      ],
+      "amendmentSources": []
+    },
+    {
+      "id": "southern-nevada",
+      "name": "Southern Nevada (SNBO regional amendments)",
+      "state": "NV",
+      "level": "regional",
+      "parents": [
+        "nv"
+      ],
+      "licensingSources": [
+        "nv/esp-nv-electrical-card-testing-notice",
+        "nv/esp-ceu-renewal-requirements"
+      ],
+      "notes": "Electrical qualification card (master / qualified individual / journeyman) required on site; administered by ESP."
+    },
+    {
+      "id": "washoe-county-nv",
+      "name": "Washoe County (unincorporated), NV",
+      "state": "NV",
+      "level": "county",
+      "necEdition": "2023",
+      "effectiveDate": "2025-07-01",
+      "status": "in_force",
+      "parents": [
+        "northern-nevada",
+        "nv"
+      ],
+      "amendmentSources": [
+        "nv/northern-nevada-2024-code-amendments-lyon"
+      ],
+      "adoptionSources": [
+        "nv/washoe-county-history-of-adopted-codes"
+      ]
+    },
+    {
+      "id": "reno-nv",
+      "name": "Reno, NV",
+      "state": "NV",
+      "level": "city",
+      "necEdition": "2023",
+      "effectiveDate": null,
+      "status": "unknown",
+      "parents": [
+        "northern-nevada",
+        "nv"
+      ],
+      "amendmentSources": [
+        "nv/northern-nevada-2024-code-amendments-lyon"
+      ],
+      "licensingSources": [
+        "nv/reno-electrical-plumbing-journeyman-cards"
+      ]
+    },
+    {
+      "id": "northern-nevada",
+      "name": "Northern Nevada (NNICC regional amendments)",
+      "state": "NV",
+      "level": "regional",
+      "parents": [
+        "nv"
+      ]
+    },
+    {
+      "id": "nv",
+      "name": "Nevada",
+      "state": "NV",
+      "level": "state",
+      "necEdition": null,
+      "status": "local_only",
+      "parents": [],
+      "licensingSources": [
+        "nv/nac-624-contractors",
+        "nv/nscb-licensure-by-endorsement",
+        "nv/nscb-license-requirements",
+        "nv/nscb-license-examinations",
+        "nv/nscb-handyman-exemptions"
+      ],
+      "notes": "State Public Works adopts 2023 NEC for state projects only. NSCB licenses contractors (C-2); individual cards are local."
+    },
+    {
+      "id": "new-york-city-ny",
+      "name": "New York City, NY",
+      "state": "NY",
+      "level": "city",
+      "necEdition": "2020",
+      "effectiveDate": "2025-12-21",
+      "status": "in_force",
+      "parents": [
+        "ny"
+      ],
+      "amendmentSources": [
+        "ny/nyc-2025-electrical-code"
+      ],
+      "adoptionSources": [
+        "ny/nyc-ll128-2024",
+        "ny/nyc-dob-electrical-code-page"
+      ],
+      "permitSources": [
+        "ny/nyc-dob-elect-work-guidance",
+        "ny/nyc-dob-electrical-filings-faq"
+      ],
+      "inspectionSources": [
+        "ny/nyc-ll42-2026"
+      ],
+      "licensingSources": [
+        "ny/nyc-dob-electrician-license-page",
+        "ny/nyc-dob-electrician-license-presentation",
+        "ny/nyc-dob-changes-electrical-license"
+      ],
+      "utilitySources": [
+        "ny/coned-electric-blue-book-2026"
+      ],
+      "utility": [
+        "Con Edison"
+      ],
+      "notes": "2025 NYC Electrical Code = 2020 NEC + NYC amendments (AC § 28-1101.1). One edition behind NYS and NJ. Local Law 42 of 2026 inspection changes mostly pending (~mid-2027)."
+    },
+    {
+      "id": "ny",
+      "name": "New York State (outside NYC)",
+      "state": "NY",
+      "level": "state",
+      "necEdition": "2023",
+      "effectiveDate": "2025-12-31",
+      "status": "in_force",
+      "parents": [],
+      "adoptionSources": [
+        "ny/nys-2025-uniform-code-adoption",
+        "ny/nys-2025-energy-code-rule-text"
+      ],
+      "notes": "NYS Uniform Code (2025) references the 2023 NEC per Part 1240; NYC is excluded and uses its own code. Electrician licensing is local (no official NYS source confirming local-only)."
+    },
+    {
+      "id": "princeton-nj",
+      "name": "Princeton, NJ",
+      "state": "NJ",
+      "level": "city",
+      "necEdition": "2023",
+      "effectiveDate": "2026-08-17",
+      "status": "in_force",
+      "parents": [
+        "nj"
+      ],
+      "permitSources": [
+        "nj/princeton-building-construction",
+        "nj/princeton-construction-fee-schedule",
+        "nj/princeton-subcode-technical-sections-guide",
+        "nj/princeton-construction-prior-approvals"
+      ],
+      "inspectionSources": [
+        "nj/princeton-building-inspections"
+      ],
+      "utilitySources": [
+        "nj/pseg-info-requirements-electric-service"
+      ],
+      "notes": "NJ UCC applies statewide; Princeton enforces it. Old-code applications allowed until 2027-02-17. Princeton asks 48 h notice for inspections (state rule 24 h). Serving utility not confirmed."
+    },
+    {
+      "id": "nj",
+      "name": "New Jersey",
+      "state": "NJ",
+      "level": "state",
+      "necEdition": "2023",
+      "effectiveDate": "2026-08-17",
+      "status": "in_force",
+      "parents": [],
+      "amendmentSources": [
+        "nj/njac-5-23-3-subcodes"
+      ],
+      "permitSources": [
+        "nj/njac-5-23-ucc",
+        "nj/nj-dca-omni-2026-adoption"
+      ],
+      "adoptionSources": [
+        "nj/nj-dca-current-codes",
+        "nj/nj-dca-ccc-fall-2026",
+        "nj/nj-dca-ucc-update-summer-2026",
+        "nj/nj-dca-news-20261109-code-update"
+      ],
+      "licensingSources": [
+        "nj/nj-pl2021-c479-journeyman"
+      ],
+      "notes": "Statewide UCC electrical subcode (N.J.A.C. 5:23-3.16): 2023 NEC + TIAs 1-13 with NJ deletions, e.g. 210.12(E) AFCI on extensions/replacements and 225.41 emergency disconnects deleted."
+    },
+    {
+      "id": "chicago-il",
+      "name": "Chicago, IL",
+      "state": "IL",
+      "level": "city",
+      "necEdition": "2017",
+      "effectiveDate": "2018-03-01",
+      "status": "in_force",
+      "parents": [
+        "il"
+      ],
+      "amendmentSources": [
+        "il/chicago-electrical-code-nfpa-free-access",
+        "il/chicago-title-14e-amlegal",
+        "il/chicago-2017-electrical-code-press-release",
+        "il/chicago-2019-technical-corrections-press-release"
+      ],
+      "adoptionSources": [
+        "il/chicago-construction-codes-online",
+        "il/chicago-code-modernization",
+        "il/chicago-phase3-implementation-alert-2026",
+        "il/chicago-phase3-press-release-2026-06",
+        "il/chicago-code-memo-2026-001-transition"
+      ],
+      "permitSources": [
+        "il/chicago-permit-guide-electrical-work",
+        "il/chicago-express-permit-electrical-work",
+        "il/chicago-monthly-electrical-maintenance-permit",
+        "il/chicago-electrical-work-not-requiring-permit"
+      ],
+      "inspectionSources": [
+        "il/chicago-electrical-inspections"
+      ],
+      "licensingSources": [
+        "il/chicago-supervising-electrician-license",
+        "il/chicago-electrical-contractor-license"
+      ],
+      "utilitySources": [
+        "il/comed-service-and-meter-requirements-2025"
+      ],
+      "utility": [
+        "ComEd"
+      ],
+      "notes": "Chicago Electrical Code (Title 14E) based on 2017 NEC; 2026 Phase 3 update does not include electrical. Full code text link-only (blocked / NFPA copyright). Only Chicago-licensed contractors; no owner electrical work."
+    },
+    {
+      "id": "il",
+      "name": "Illinois",
+      "state": "IL",
+      "level": "state",
+      "necEdition": null,
+      "status": "local_only",
+      "parents": [],
+      "licensingSources": [
+        "il/il-65ilcs5-11-33-1-electrical-contractor-registration",
+        "il/il-83iac469-10-ev-installer-definitions",
+        "il/il-83iac469-20-ev-installer-applicability"
+      ],
+      "notes": "No state electrician license; municipalities may register contractors. EV charger installers need state certification."
+    },
+    {
+      "id": "philadelphia-pa",
+      "name": "Philadelphia, PA",
+      "state": "PA",
+      "level": "city",
+      "necEdition": "2020",
+      "effectiveDate": "2026-07-01",
+      "status": "in_force",
+      "parents": [
+        "pa"
+      ],
+      "amendmentSources": [
+        "pa/phila-2021-local-changes-2026-05",
+        "pa/phila-2021-code-adoption-electrical-webinar-slides",
+        "pa/phila-code-title4-amlegal"
+      ],
+      "adoptionSources": [
+        "pa/phila-li-applicable-codes",
+        "pa/phila-b2501-implementation-2021-international-codes",
+        "pa/phila-pb021-what-code-applies-electrical",
+        "pa/phila-pb037-emergency-disconnect-faq"
+      ],
+      "permitSources": [
+        "pa/phila-get-electrical-permit",
+        "pa/phila-pb010-multiple-services-info-sheet"
+      ],
+      "inspectionSources": [
+        "pa/phila-electrical-inspection-agency-license"
+      ],
+      "licensingSources": [
+        "pa/phila-electrical-contractor-license"
+      ],
+      "utilitySources": [
+        "pa/peco-service-and-meter-application-m24175"
+      ],
+      "utility": [
+        "PECO"
+      ],
+      "notes": "2020 NEC mandatory for applications from 2026-07-01. Inspections by owner-hired, city-licensed private agencies."
+    },
+    {
+      "id": "pa",
+      "name": "Pennsylvania",
+      "state": "PA",
+      "level": "state",
+      "necEdition": "2020",
+      "effectiveDate": "2026-01-01",
+      "status": "in_force",
+      "parents": [],
+      "adoptionSources": [
+        "pa/pa-dli-uniform-construction-code-home"
+      ],
+      "licensingSources": [
+        "pa/pa-state-board-electricians",
+        "pa/pa-act-108-2026-cohen-seglias-summary",
+        "pa/pa-sb1260-2025-26-bill-page"
+      ],
+      "notes": "Statewide UCC (2021 I-codes / 2020 NEC) from 2026-01-01. Act 108 of 2026 (signed 2026-10-22) creates state electrician licensing, effective in ~2 years: pending, details from a law-firm summary only."
+    },
+    {
+      "id": "los-angeles-ca",
+      "name": "Los Angeles (city), CA",
+      "state": "CA",
+      "level": "city",
+      "necEdition": "2023",
+      "codeName": "2025 California Electrical Code",
+      "effectiveDate": "2026-01-01",
+      "status": "in_force",
+      "parents": [
+        "ca"
+      ],
+      "amendmentSources": [
+        "ca/la-ord-188797-electrical-excerpt",
+        "ca/lamc-ch9-art3-amlegal"
+      ],
+      "permitSources": [
+        "ca/ladbs-electrical-permits",
+        "ca/ladbs-homeowners-guide-permits-inspections"
+      ],
+      "inspectionSources": [
+        "ca/ladbs-electrical-inspections",
+        "ca/ladbs-inspection-services"
+      ],
+      "licensingSources": [
+        "ca/ladbs-licensing"
+      ],
+      "utilitySources": [
+        "ca/ladwp-esr-2025-manual",
+        "ca/ladwp-codes-page"
+      ],
+      "utility": [
+        "LADWP"
+      ],
+      "notes": "State CEC effective 2026-01-01; LA city amendments by Ord. 188797 (passed 2025-12-12, effective on publication, exact date not stated)."
+    },
+    {
+      "id": "los-angeles-county-unincorporated-ca",
+      "name": "Los Angeles County (unincorporated + contract cities), CA",
+      "state": "CA",
+      "level": "county",
+      "necEdition": "2023",
+      "codeName": "2025 California Electrical Code",
+      "effectiveDate": "2026-01-01",
+      "status": "in_force",
+      "parents": [
+        "ca"
+      ],
+      "amendmentSources": [
+        "ca/la-county-title27-2026-electrical-code"
+      ],
+      "notes": "Not the City of Los Angeles."
+    },
+    {
+      "id": "ca",
+      "name": "California",
+      "state": "CA",
+      "level": "state",
+      "necEdition": "2023",
+      "codeName": "2025 California Electrical Code (Title 24 Part 3)",
+      "effectiveDate": "2026-01-01",
+      "status": "in_force",
+      "parents": [],
+      "adoptionSources": [
+        "ca/ca-bsc-codes-page",
+        "ca/ca-bsc-2025-cec-errata-link",
+        "ca/ca-bsc-info-bulletin-26-01-errata"
+      ],
+      "licensingSources": [
+        "ca/dir-ecu-electrician-certification",
+        "ca/dir-ecu-faq",
+        "ca/dir-ecu-certification-categories",
+        "ca/dir-ecu-test-info",
+        "ca/dir-ecu-fees",
+        "ca/dir-ecu-continuing-education",
+        "ca/dir-ecu-laws-regulations",
+        "ca/cslb-c10-electrical-classification",
+        "ca/cslb-licensed-contractor-steps-journeymen",
+        "ca/cslb-sole-owner-license",
+        "ca/cslb-reciprocity-general",
+        "ca/cslb-reciprocity-requirements",
+        "ca/cslb-reciprocity-exam-requirements",
+        "ca/cslb-reciprocal-classifications"
+      ],
+      "notes": "Individuals working for a C-10 contractor must hold DIR certification before starting; no reciprocity. CSLB contractor reciprocity with AZ, LA, MS, NV, NC."
+    },
+    {
+      "id": "houston-tx",
+      "name": "Houston, TX",
+      "state": "TX",
+      "level": "city",
+      "necEdition": "2026",
+      "effectiveDate": "2026-09-01",
+      "status": "in_force",
+      "parents": [
+        "tx"
+      ],
+      "amendmentSources": [
+        "tx/houston-2023-nec-administrative-amendments"
+      ],
+      "adoptionSources": [
+        "tx/houston-2026-nec-effective-notice",
+        "tx/houston-code-archive",
+        "tx/houston-code-amendments-page",
+        "tx/houston-2023-nec-now-effective",
+        "tx/houston-building-code-modernization-update-2025-10-13"
+      ],
+      "permitSources": [
+        "tx/houston-circuit-panel-permit",
+        "tx/houston-generator-permit",
+        "tx/houston-temporary-cut-in-permit",
+        "tx/houston-annual-electrical-maintenance-permit",
+        "tx/houston-ce1057-electrical-permit-application",
+        "tx/houston-tech-memo-nec-low-voltage-poe"
+      ],
+      "inspectionSources": [
+        "tx/houston-inspections-process-2024-11"
+      ],
+      "licensingSources": [
+        "tx/houston-master-electrician-registration",
+        "tx/houston-electrical-contractor-registration"
+      ],
+      "utilitySources": [
+        "tx/centerpoint-service-standards"
+      ],
+      "utility": [
+        "CenterPoint"
+      ],
+      "notes": "2026 NEC for permit applications from 2026-09-01. Houston's amendment document was written for the 2023 NEC; no 2026 amendment document found, so treat amendments as needs-review."
+    },
+    {
+      "id": "tx",
+      "name": "Texas",
+      "state": "TX",
+      "level": "state",
+      "necEdition": "2026",
+      "effectiveDate": "2026-09-01",
+      "status": "in_force",
+      "parents": [],
+      "adoptionSources": [
+        "tx/tdlr-2026-nec-adoption-notice",
+        "tx/texreg-2026-03-20-16tac73-100-proposed"
+      ],
+      "licensingSources": [
+        "tx/tdlr-elec-laws-rules",
+        "tx/tdlr-elec-journeyman",
+        "tx/tdlr-elec-master",
+        "tx/tdlr-elec-wireman",
+        "tx/tdlr-elec-apprentice",
+        "tx/tdlr-elec-contractor",
+        "tx/tdlr-elec-out-of-state",
+        "tx/tdlr-elec-exam",
+        "tx/tdlr-elec-ce",
+        "tx/tdlr-elec-faq",
+        "tx/tx-occupations-code-1305"
+      ],
+      "notes": "Statewide NEC adoption via TDLR; state licenses valid statewide. Indefinite exception from outdoor GFCI rules for HVAC equipment."
+    }
+  ]
+}

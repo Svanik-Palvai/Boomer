@@ -1,0 +1,57 @@
+
+
+===== Page 1 =====
+                                           Clark County Building Department
+                                  FIELD INSPECTION GUIDELINE
+
+
+
+Division:      Inspections                                                               Policy & Procedure:            FIG-E-007
+Subject:       Temporary Electrical Power                                                Effective Date:
+Code:         2017NEC Article 590                                                                      Revised Date:                05/08/2024
+Proposed:      Matthew Brewer                                                                 Approved:                     Scott Telford
+
+    Policy:
+    The  Department  may  allow  utilization of  temporary construction     power  through          the  main  electrical
+    building service.  The intent  of this policy   is to provide a power source for the construction     of the  building
+    without having     to use a temporary   power pol    e.
+
+    Procedure:
+    Procedures and requirements for  temporary power vary  depending     onthe      intended use of  the power and
+    the type of occupancy   itserves.    The following is a list of  programs and their  requirements:
+
+
+    A.   Residential including R2 multi-family housing
+          1.   Construction Power Through       Permanent Meter.
+              •    The  electrical  panel  must  be  installed  in  accordance     with  Nevada  Power  Standard Design
+                   E-105.
+              •    The  meter  must  be  approved    after  the footings and foundation have been completed.
+              •     The line side of the power distribution system shall be complete. There shall be at least one GFCI
+                   protected device connected to the load side.
+
+    B.   Commercial
+          1.   Temporary power through the meter.
+              •    The electrical meter may be tagged prior to final electrical and/or building inspection approval
+                   for construction, equipment and system testing purposes.
+              •       Properties that were previously energized and had power removed due to fire, accident, or other
+                   hazard causing damage may be authorized for temporary electrical power through the meter for
+                   repair, pool maintenance, or landscape maintenance.
+              •      Complete Form (#160-        1).
+              •    Electrical meter tags issued for all electrical signs, billboards, and cell sites that require a
+                   building permit shall not be issued until building final. The electrical tag shall be issued at the
+                   time of building final.
+
+
+
+
+
+
+
+
+
+
+
+                                                                Page 1 of 2
+
+===== Page 2 =====
+Page 2 of 2

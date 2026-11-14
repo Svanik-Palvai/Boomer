@@ -1,0 +1,1823 @@
+
+
+===== Page 1 =====
+                      Administrative
+                   Code Provisions
+                                    for the
+                        2023 National
+                     Electrical Code
+
+
+
+
+
+
+
+
+
+
+
+                               Adopted by Ord. No. 2023-9071
+                                  Passed October 25, 20232
+                                  Effective January 1, 20243
+
+
+
+
+
+
+
+
+
+
+1. The City Secretary shall insert the number of the adopting ordinance.
+2. The City Secretary shall insert the date passage and approval of the adopting ordinance.
+3. The City Secretary shall insert the effective date of the adopting ordinance.
+
+===== Page 2 =====
+
+
+===== Page 3 =====
+                                                                        CONTENTS
+                                                                                                                                                            Page
+
+Chapter 1—TITLE AND GENERAL
+
+            Sec.     101.     Title  ......................................................................................................... 1
+                        102.     Application to Premises Wiring (Systems) and Equipment  ...................... 1
+                        103.     Definitions  ............................................................................................... 2
+                        104.     Conflicting Provisions  .............................................................................. 5
+                        105.     Alternate Materials and Methods of Construction  .................................... 6
+                        106.     Modifications  ........................................................................................... 6
+                        107.     Tests  ....................................................................................................... 6
+                        108.     Hearing Procedures for Administrative Appeals  ....................................... 6
+                        109.     Penalties  ................................................................................................. 7
+
+Chapter 2—ORGANIZATION AND ENFORCEMENT
+
+            Sec.     201.     Powers and Duties  .................................................................................. 9
+                        202.     Unsafe Premises Wiring (Systems) or Equipment  ................................  10
+                        203.     Electrical Board  ....................................................................................  11
+                        204.     Failure to Correct Work .........................................................................  12
+                        205.     Tampering  ............................................................................................. 12
+                        206.     Display of License  ................................................................................. 13
+
+Chapter 3—PERMITS AND INSPECTIONS
+
+            Sec.     301.     Permits  .................................................................................................. 15
+                        302.     Electrical Permits  ................................................................................... 17
+                        303.     Permit Issuance  ..................................................................................... 18
+                        304.     Fees  ...................................................................................................... 20
+                        305.     Inspections  ............................................................................................ 21
+                        306.     Connection Approval  ............................................................................. 22
+
+Chapter 4—LICENSING AND REGISTRATION REQUIREMENTS
+
+            Sec.     401.     License or Registration Required ........................................................... 25
+                        402.     Licenses and Registrations .................................................................... 25
+                        403.     Contractor Registration or License  ........................................................ 27
+                        404.     Master Electrician  .................................................................................. 28
+                        405.     Line Master Electrician  .......................................................................... 28
+                        406.     Sign Master Electrician  .......................................................................... 29
+                        407.     Journeyman Electrician  ......................................................................... 30
+                        408.     Journeyman Lineman  ............................................................................ 30
+                        409.     Sign Journeyman Electrician  ................................................................. 30
+                        410.     Residential Wireman (Residential Journeyman Electrician)  ................... 30
+                        411.     Apprentice Electrician  ............................................................................ 30
+                        412.     Maintenance Electrician  ........................................................................ 30
+                        413.     Residential Appliance Installer  ............................................................... 31
+                        414.     Appeals from Licensing and Registration Decisions of Electrical Board  . 31
+                        415.     Reserved ................................................................................................ 31
+                        416.     License and Renewal Fees .................................................................... 31
+                        417.     Continuing Education for City License Renewal  .................................... 32
+
+===== Page 4 =====
+Chapter 5—BUILDING STANDARDS
+
+            Sec.     501.     Wiring Systems  ..................................................................................... 33
+                        502.     Adopted Standards  ................................................................................ 33
+                        503.     Meters  ................................................................................................... 33
+                        504.     Services and Feeders............................................................................. 34
+                        505.     Nonmetallic Sheathed Cable  ................................................................. 36
+                        506.     Conduit  .................................................................................................. 36
+                        507.     Temporary Saw Poles  ........................................................................... 36
+                        508.     Electrical Material and Equipment  ......................................................... 36
+                        509.     Electrical Fences  ................................................................................... 36
+                        510.     Location ................................................................................................. 36
+                        511.     Swimming Pools ..................................................................................... 37
+                        512.     Full Cutoff Fixtures ................................................................................. 37
+                        513.     Articles Not Adopted ............................................................................... 37
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                    ii
+
+===== Page 5 =====
+                                                         Chapter 1
+                                                 TITLE AND GENERAL
+
+SECTION 101—TITLE
+These regulations shall be known as the                City of Houston       Electrical Code, herein after referred to
+as "this code" and also known as the              Electrical Code      .
+            The City of Houston Construction Code collectively includes this volume and certain other
+codes, pamphlets, specifications and documents that are adopted in or by reference through the
+adopting ordinance, City of Houston Ordinance No. 2023-907, which appears in the preamble of
+the Building Code.
+            All electrical licensing requirements shall be in accordance with (1) this code and (2) the
+Texas  Electrical  Safety  and  Licensing  Act  (           Texas  Occupations  Code           ,  Chapter  1305)  and  the
+Administrative   Rules   of   the   Texas   Department   of   Licensing   and   Regulation,   16                         Texas
+Administrative Code        , Chapter 73, whichever is more restrictive.
+
+SECTION   102—APPLICATION   TO   EXISTING   PREMISES   WIRING   (SYSTEMS)   AND
+EQUIPMENT
+102.1 Additions, Alterations or Repairs. Additions, alterations or repairs may be made to any
+premises wiring (system) and equipment without requiring the existing premises wiring (system)
+and equipment to comply with all the requirements of this code, provided the additions, alterations
+or  repairs  conform  to  that  required  for  a  new  premises  wiring  (system)  and  equipment  and
+provided  further  that  no  hazard  to  life,  health  or  property  will  be  created  by  the  additions,
+alterations or repairs.
+            Minor  additions,  alterations  and  repairs  to  existing  premises  wiring  (systems)  and
+equipment may be made in accordance with the law in effect at the time the original installation
+was made, when approved by the                 building official    , if it is found that no hazard to life, health or
+property will be created by the additions, alterations or repairs.
+102.2 Existing Installations. Premises wiring (systems) and equipment lawfully in existence at
+the time of the adoption of this code may have their use, maintenance and repair continued if the
+use, maintenance and repair is in accordance with the original design and no hazard to life, health
+or property has been created by the premises wiring (system) and equipment.
+102.3 Changes in Building Occupancy. Premises wiring (systems) and equipment that are part
+of any building or structure undergoing a change in use or occupancy, as defined in the                                Building
+Code, shall comply with all requirements of this code that may be applicable to the new use or
+occupancy.
+102.4 Maintenance. All premises wiring (systems) and equipment, both existing and new, and all
+parts thereof, shall be maintained in proper operating condition in accordance with the original
+design and in a safe and hazard-free condition. All devices or safeguards that are required by this
+code shall be maintained in conformance with this code. The owner shall be responsible for the
+maintenance of the premises wiring (system). To determine compliance with this subsection, the
+building official    may cause any premises wiring (systems) to be reinspected whenever there is
+reason to believe that the system is not being maintained in accordance with this section.
+
+
+
+
+                                                                1
+
+===== Page 6 =====
+102.5 Moved Building. Premises wiring (systems) and equipment that are a part of buildings or
+structures  moved  into  or  within  the  city  shall  comply  with  the  provisions  of this  code  for  new
+installations.
+
+SECTION 103—DEFINITIONS
+For  the  purpose  of  this  code,  certain  terms,  phrases,  words  and  their  derivatives  shall  be
+construed as specified in this section. Where terms are not defined, they shall have their ordinarily
+accepted meanings within the context in which they are used. Words used in the present tense
+include the future; words in the masculine gender include the feminine and neuter; the singular
+number includes the plural and the plural, the singular. Where terms are not defined in this code
+such  terms  shall have the meanings  ascribed  in  the                    Construction Code          and standards of  the
+National Fire Protection Association.
+          ACCENT  LIGHTS  shall  mean  lights  used  to  accent  architectural  elements,  display  or
+ornamental lights, landscaping lights, or art lights.
+          APPRENTICE ELECTRICIAN is a person undertaking "electrical work," as defined in this
+code, under the direct, personal supervision and control of either a licensed master electrician,
+line master electrician, sign master electrician, journeyman electrician, journeyman lineman, sign
+journeyman electrician, residential journeyman electrician or maintenance electrician.
+          APPROVED, as to materials, equipment and method of construction, refers to approval
+by the   building official    as the result of investigation and tests conducted by the                    building official, or
+by  reason  of  accepted  principles  or  tests  by  recognized  authorities  or  technical  or  scientific
+organizations.
+     APPROVED  AGENCY  is  an  established  and  recognized  agency  regularly  engaged  in
+conducting tests or furnishing inspection services, when the agency has been approved by the
+building  official     after  he  or  she  finds  that  the  agency  provides  reliable  testing  or  inspection
+services.
+            BUILDING CODE is the            City of Houston Building Code            , as adopted and amended by this
+jurisdiction  .
+          BUILDING OFFICIAL  is  the  Director  of  Houston  Public  Works,  or  the  duly  authorized
+representative designated by the director to act as the chief construction code enforcement official
+of the jurisdiction; also known as           chief building official    . The term also includes the Houston Airport
+Systems building official who may be designated by the building official to perform                                Construction
+Code permitting and enforcement activities on Houston Airport Systems premises.
+          CITY is the City of Houston, the jurisdiction that has adopted this code.
+          CITY CODE is the Code of Ordinances, City of Houston, Texas.
+          COLOR  RENDERING  INDEX  (CRI)  shall  mean  the  measurement  of  how  colors  of
+illuminated surfaces appear under a light source when compared with sunlight.
+          CONSTRUCTION CODE. Has the meaning ascribed in Section 1-2 of the                                     City Code     .
+          CONTRACTOR is a person, firm or corporation engaged in the business of performing
+electrical maintenance work, electrical work, outside electrical work, residential electrical work or
+sign electrical work.
+          CORRELATED COLOR TEMPERATURE (CCT) shall mean the gauge of how yellow to
+white to blue the color of light emitted from a light source appears.
+
+
+                                                                 2
+
+===== Page 7 =====
+         ELECTRICAL DIVISION is the Electrical Division of Houston Public Works.
+         ELECTRICAL DIVISION MANAGER is the person designated by the                                    Building Official     to
+be the Electrical Division Manager.
+         ELECTRICAL MAINTENANCE WORK is the repair of existing damaged premises wiring
+(systems) and/or replacement of existing fixed motors, transformers, devices or fixed appliances
+of the same type and rating in the same location. The term does not include the installation of
+additional electrical work, electrical equipment or electrical apparatus.
+         ELECTRICAL  WORK                is  the  new  or  replacement  installation,  maintenance,  alteration,
+repairing or erecting of any premises wiring (systems), wiring apparatus, devices, appliances,
+fixtures or equipment under the terms and provisions of this code, except poles and guy anchors
+installed by a telephone, telegraph, signal and/or electric utility company as a part of its distribution
+system.
+            EXISTING PERMIT is a permit that is not finaled.
+         JOURNEYMAN ELECTRICIAN is a person undertaking "electrical work," as defined in
+this code, under the supervision, direction and control of a licensed master electrician.
+         JOURNEYMAN LINEMAN is a person undertaking "outside electrical work," as defined
+in  this  code,  under  the  supervision,  direction  and  control  of  a  licensed  master  or  line  master
+electrician.
+         JURISDICTION is the governmental unit that has adopted this code under due legislative
+authority.
+         LIGHT  TRESPASS  shall  mean  the  light  produced  by  a  luminaire  encroaching  unto
+abutting properties beyond the property line and above the horizontal plane on which it is located
+and desired, as measured at the property boundary.
+         LINE MASTER ELECTRICIAN is a person who is the holder of a line master electrician
+license issued under Chapter 4 of this code.
+         LINE MASTER ELECTRICIAN OF RECORD is a line master electrician who is engaged
+in a master-contractor relationship, as provided by Chapter 4 of this code.
+         LISTED and LISTING are terms referring to equipment and materials that are shown in a
+list  published  by  an  approved  agency,  which  listing  states  that  the  equipment  complies  with
+recognized safety standards.
+         MAINTENANCE  ELECTRICIAN  is  a  person  who  is  the  holder  of  a  maintenance
+electrician license issued under Chapter 4 of this code.
+         MASTER ELECTRICIAN is a person who is the holder of a master electrician license.
+         MASTER  ELECTRICIAN  OF  RECORD  is  a  master  electrician  who  is  engaged  in  a
+master-contractor relationship, as provided by Chapter 4 of this code.
+            MULTIPLE  OCCUPANCY  BUILDING  is  a  building  that  has  more  than  one  tenant
+regardless of whether the tenants' uses are of the same or different occupancy classifications or
+use groups as classified by the           Building Code.
+         OCCUPANCY is the purpose for which a building, or part thereof, is used or intended to
+be used.
+         OUTSIDE ELECTRICAL WORK is the assembly, maintenance, installation and erection
+of  all  electrical  equipment  and  appurtenances  that  are  part  of  an  outside  distribution  system
+generally located outside of any building. Work performed under this term shall include, but not
+
+                                                               3
+
+===== Page 8 =====
+be  limited  to,  the  installation,  repair  or maintenance  of  substations,  street  lighting,  pole  lines,
+underground duct banks, electrical decorations, traffic signals and parking lot lighting.
+          PERSON is an individual, partnership, corporation or other legal entity.
+          POOL is an outdoor or indoor structure intended for swimming or recreational bathing,
+including  an  inground  structure,  aboveground  structure,  hot  tub,  spa,  portable  spa,  or  non-
+portable wading pool.
+            POOL-RELATED ELECTRICAL DEVICE is equipment for a pool that:
+          (a)       Is installed as a unit;
+          (b)       Is directly connected to an electrical circuit; and
+          (c)        Performs a specific function.
+          POOL-RELATED ELECTRICAL MAINTENANCE is electrical work that is limited to the
+connection or disconnection of a pool-related electrical device to an existing electrical circuit other
+than by inserting or removing a plug from an electrical outlet.
+            POTENTIAL  IMMINENT  HAZARD  is  a  condition  or  a  combination  of  several  different
+conditions regulated by the          City of Houston Construction Code               , within or on the property, that are
+more likely than not to pose a hazard to the occupants or integrity of the structure, as determined
+by the   building official   .
+            RESIDENTIAL APPLIANCE is equipment, including a pool-related electrical device, that:
+          (a)       Is installed as a unit in a single family or multifamily dwelling that does not exceed
+                    four stories;,
+          (b)       Is directly connected to an electrical circuit;, and
+          (c)        Performs a specific function.
+          RESIDENTIAL  APPLIANCE  INSTALLATION  is  electrical  work  that  is  limited  to  the
+connection or disconnection of a residential appliance, including a pool-related electrical device,
+to an existing electrical circuit other than by inserting or removing a plug from an electrical outlet.
+          RESIDENTIAL   APPLIANCE   INSTALLATION   CONTRACTING                                          is   the   business   of
+residential appliance installation, including pool-related electrical maintenance.
+          RESIDENTIAL APPLIANCE INSTALLATION CONTRACTOR is a business entity, other
+than an electrical contractor or electrical sign contractor, that is engaged in residential appliance
+installation contracting, including pool-related electrical maintenance.
+          RESIDENTIAL APPLIANCE INSTALLER is a person, other than a licensed electrician,
+who  is  licensed  to  perform  residential  appliance  installation,  including  pool-related  electrical
+maintenance.
+            RESIDENTIAL ELECTRICAL WORK is the installation, maintenance, alteration, repair or
+erection of any wiring apparatus, devices, appliances, fixtures or equipment that by ordinance can
+be wired with nonmetallic sheathed cable. This work will be limited to single family or multifamily
+dwellings (and their accessory structures) of wood frame construction not exceeding four stories.
+          RESIDENTIAL WIREMAN (RESIDENTIAL JOURNEYMAN ELECTRICIAN) is a person
+undertaking "residential electrical work" as defined in this code, under the supervision, direction
+and control of a licensed master electrician.
+
+
+
+
+                                                                 4
+
+===== Page 9 =====
+            SERVICE CABLE TAP BOX is an enclosure designed with busbars for the purpose of
+terminating service conductors from the electric utility point of supply and terminating service
+conductors to individual tenant services.
+          SIGN ELECTRICAL WORK is the manufacture or installation, or both, of electric signs,
+conductors and equipment for signs,  outline lighting,  and  inside lighting with  high-voltage  gas
+tubes as defined in the         National Electrical Code         .
+          SIGN JOURNEYMAN ELECTRICIAN is a person undertaking "sign electrical work,” as
+defined in this code, under the supervision, direction and control of a licensed master or sign
+master electrician.
+          SIGN MASTER ELECTRICIAN is a person who is the holder of a sign master electrician
+license issued under Chapter 4 of this code.
+          SIGN MASTER ELECTRICIAN OF RECORD is a sign master electrician who is engaged
+in a master-contractor relationship, as provided by Chapter 4 of this code.
+          STATE ELECTRICAL LICENSE is a license issued or recognized by the Texas Electrical
+Safety and Licensing Act (          Texas Occupations Code            , Chapter 1305).
+
+SECTION 104—CONFLICTING PROVISIONS
+Where there is a conflict between a general requirement and a specific requirement, the specific
+requirement  shall  prevail.  Where,  in  any  specific  instance,  provisions  of  this  code,  including
+adopted  appendices,  specify  different  materials,  different  methods  of  construction,  or  other
+requirements that differ from those provided in the                 City Code     or other volumes of the Construction
+Code, including adopted appendices, other than the                      Fire Code and its adopted appendices and
+standards, the most restrictive shall prevail. Where, in any specific instance, provisions of this
+code, including adopted appendices, specify different materials, different methods of construction,
+or  other  requirements  that  differ  from  those  provided  in  the                 Fire  Code,  including  its  adopted
+appendices and standards, and the                 building official and the fire marshal are unable to mutually
+reconcile the requirements by issuing a written interpretation, then either of them may refer the
+matter to the General Appeals Board created under the                          Building Code, which shall conduct a
+review of the matter and issue a written code interpretation based upon the apparent intent of the
+codes  involved.  Notwithstanding  any  other  provision,  interpretations  that  are  issued  by  the
+General Appeals Board shall not be subject to further appeal.
+            In any case where the        City of Houston Electrical Code             differs from the National Electrical
+Code, the City of Houston Electrical Code                 shall prevail.
+
+SECTION 105—ALTERNATE MATERIALS AND METHODS OF CONSTRUCTION
+The provisions  of  this code  are not  intended to prevent the use of any material or method  of
+construction not specifically prescribed by this code, provided an alternate has been approved
+and its use authorized by the             building official. The        building official shall  approve an alternate,
+provided he or she finds that the proposed design is satisfactory and complies with the provisions
+of this code and that the materials, method or work offered is, for the purpose intended, at least
+the equivalent of that prescribed in this code in suitability, strength, effectiveness, fire resistance,
+durability and safety.
+            The  building  official     shall  require  that  sufficient  evidence  or  proof  be  submitted  to
+substantiate  any  claims  regarding  the  use  of  alternates.  The  details  of  any  action  granting
+approval of an alternate shall be recorded and entered in the files of the                        building official    .
+
+                                                                 5
+
+===== Page 10 =====
+SECTION 106—MODIFICATIONS
+Whenever there are practical difficulties involved in carrying out the provisions of this code, the
+building official may grant modifications for individual cases upon determining that:  (1) a special
+individual reason makes the strict letter of this code technically impractical; (2) the modification is
+in conformity with the intent and purpose of this code; and (3) the modification does not lessen
+health, life safety and fire safety requirements. The details of actions granting modifications shall
+be recorded and entered in the files of the                building official   .
+
+SECTION 107—TESTS
+Whenever there is insufficient evidence of compliance with any of the provisions of this code or
+evidence  that  materials  or  construction  do  not  conform  to  the  requirements  of  this  code,  the
+building official    may require tests as evidence of compliance to be made at no expense to the city.
+            Test methods shall be as specified by this code or by other recognized test standards. In
+the absence of recognized and accepted test methods for the proposed alternate, the                                        building
+official shall determine test procedures that are reasonably reliable and designate the use thereof.
+            All tests shall be made by an approved agency. Reports of tests shall be retained by the
+building official    for the period required for the retention of public records.
+
+SECTION 108—HEARING PROCEDURES FOR ADMINISTRATIVE APPEALS
+108.1 Hearing Notices. Unless otherwise specifically provided, whenever notice is to be given to
+any person concerning the right to a hearing, the notice may be given by personal hand delivery
+or by certified mail, return receipt requested.
+            If the notice relates to work being performed under a permit issued under this code, then
+the notice shall be given to the master electrician, line master electrician or sign master electrician
+who obtained the permit, as well as the contractor and the owner of the building.
+            If notice is being given to a building owner or to a tenant therein, and the                         building official
+is unable to determine the name or address of the person after checking the building and the
+applicable records of  Houston Public Works, the County Appraisal District, the electrical utility
+company, the gas utility company, and the water utility provider, notice shall be mailed to the
+billing addresses of the building as shown on the records of the electrical utility company and shall
+be posted on or in view of each entrance to the building. Additionally, if any notice is mailed to a
+building owner or a building tenant and is returned without delivery, notice shall be effective if
+posted on or in view of each entrance to the building.
+108.2 Hearings. Except where otherwise specifically provided, all hearings held pursuant to this
+code shall be conducted by the Director of Houston Public Works or a representative, who shall
+hereinafter be referred to as the hearing official. The director shall not designate any person to be
+a hearing official under this code who has taken any part in the investigation of the matter that is
+the subject of the hearing, nor any person who directly supervised the investigation. The hearing
+official shall consider only the evidence presented at the hearing in rendering a decision. The
+decision of the hearing official shall be final, shall be set forth in writing, and shall be served on
+each party in the same manner as a notice of a right to a hearing.
+
+
+
+                                                                  6
+
+===== Page 11 =====
+SECTION 109—PENALTIES
+Where no specific penalty is otherwise provided in this code, the violation of any provision of this
+code shall constitute a misdemeanor punishable upon conviction by a fine of not less than $500.00
+nor more than $2,000.00. Each day that any violation continues shall constitute and be punishable
+as a separate offense. Where any such conduct constitutes a violation of state penal law, the
+offense shall be punishable as provided in the applicable state law. In prosecutions under this
+code, the various provisions hereof that are designated as an “exception” or “exceptions” shall
+not be treated as exceptions within the meaning of Section 2.02 of the Texas Penal Code, and,
+instead, they shall constitute defenses to prosecution within the meaning of Section 2.03 of the
+Texas Penal Code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 7
+
+===== Page 12 =====
+                                               [This page intentionally left blank.]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===== Page 13 =====
+                                                          Chapter 2
+                                     ORGANIZATION AND ENFORCEMENT
+
+SECTION 201—POWERS AND DUTIES
+201.1 General. The building official is hereby authorized and directed to enforce all provisions of
+this code.
+201.2  Deputies.  In  accordance  with  procedures  prescribed  by  law,  the                          building  official     may
+appoint technical officers and inspectors and such other employees as shall be authorized from
+time to time.
+201.3 Right of Entry. When it is necessary to make an inspection to enforce any of the provisions
+of this code, or where the          building official    has reasonable cause to believe that there exists in a
+structure or premises a condition that is contrary to or in violation of this code that makes the
+structure or premises unsafe, dangerous or hazardous, the                        building official     is authorized to enter
+the structure or premises at reasonable times to inspect the same or to perform any duty imposed
+on the building official by this code, provided that if such structure or premises be occupied, that
+credentials be presented to the occupant and entry requested. If such structure or premises is
+unoccupied, the        building official shall first make a reasonable effort to locate the owner or other
+person having charge or control of the structure or premises and request entry. If entry is refused,
+the building official     or an authorized representative shall have recourse to the remedies provided
+by law to secure entry.
+            When, due to emergency, immediate entry is necessary to make an inspection to protect
+life or property, or when the           building official     has obtained a proper inspection warrant or other
+remedy provided by law to secure entry, no owner or occupant or any other person having charge,
+care or control of any building or premises shall fail or neglect, after proper request is made as
+herein  provided,  to  promptly  permit  entry  therein  by  the                   building  official    for  the  purpose  of
+inspection and examination pursuant to this code.
+201.4 Stop Work Order. Whenever any work is being done contrary to the provisions of this
+code, the    building official may order the work stopped by notice in writing served on any persons
+engaged in the doing or causing the work to be done, and the persons shall forthwith stop the
+work until authorized by the            building official    to proceed with the work. At the time a stop work
+order is issued, the person doing the work and the permit holder shall be given notice of a right to
+a hearing pursuant to Section 108 of this code. Upon request, a hearing shall be held within three
+business days unless the permit holder or the person doing the work requests an extension of
+time.
+            A stop work order shall remain in effect pending any hearing that has been requested,
+unless the stop work order is withdrawn by the                  building official   .
+201.5 Authority to Disconnect Utilities in Emergencies. The building official shall have the
+authority to have the utility company disconnect any electric power or energy service supplied to
+a  building  or  any  premises  wiring  (system)  or  equipment  regulated  by  this  code  in  case  of
+emergency when necessary to eliminate potential imminent hazard to life, health or property. The
+building official shall, whenever possible, notify the serving utility and the owner and occupant of
+the building (or user of the premises wiring (system) or equipment if the owner is not located in a
+building) of the decision prior to the disconnection and shall notify those persons in writing of the
+disconnection immediately thereafter. The notice shall also inform the owner and occupant of the
+building (or the user if the premises wiring (system) or equipment is not within a building) of a right
+
+
+                                                                 9
+
+===== Page 14 =====
+to a hearing pursuant to Section 108 of this code. Upon request, a hearing shall be conducted
+within three business days unless the owner requests an extension of time.
+201.6  Authority  to  Condemn  Premises  Wiring  (System)  and  Equipment.  Whenever  the
+building official ascertains that any premises wiring (system) or equipment regulated by this code
+has become hazardous to life, health or property, the                    building official    may order in writing that the
+premises  wiring  (system)  or  equipment  be  either removed  or restored  to  a  safe  condition,  as
+appropriate. The written notice itself shall fix a time limit for compliance with the order and shall
+inform the owner and the occupant of the right to a hearing pursuant to Section 108 of this code.
+No  person  shall  use  or  maintain  any  defective  premises  wiring  (system)  or  equipment  after
+receiving a notice.
+            When equipment or installation is to be disconnected, a written notice of the disconnection
+and causes therefor shall be given within 24 hours to the serving utility and to the owner and
+occupant of the building, structure or premises. The notice shall inform the owner and occupant
+of the right to a hearing pursuant to Section 108 of this code. Upon request, a hearing shall be
+conducted within three business days unless the owner requests an extension.
+            When any premises wiring (system) or equipment is maintained in violation of this code,
+and in violation of a notice issued pursuant to this section, the                      building official shall institute any
+appropriate action to prevent, restrain, correct or abate the violation.
+201.7 Connection after Order to Disconnect. No person shall either make connections from
+any energy source or power supply or supply power to any premises wiring (system) or equipment
+that has been disconnected or ordered to be discontinued by the                         building official    , until the building
+official authorizes the reconnection and use of the premises wiring (system) or equipment.
+201.8 Liability. Except as otherwise provided by law, the                       building official shall not personally be
+liable in damages for any act or omission arising out of any official action taken to implement and
+enforce the provisions of this code. Additionally, except as otherwise provided by law, the                               building
+official shall not personally be liable in damages for any action or omission taken in the course
+and scope of employment. Where and to the extent consistent with the provisions of Chapter 2,
+Article X, of the     City Code, the city shall provide legal representation and indemnification for any
+suit  brought  against  the         building  official  or  other  employees  because  of  acts  or  omissions
+performed in the enforcement of this code.
+201.9 Cooperation of Other Officials and Officers. The building official may request, and shall
+receive, so far as is required in the discharge of their duties, the assistance and cooperation of
+other officials of the city.
+
+SECTION 202—UNSAFE PREMISES WIRING (SYSTEMS) OR EQUIPMENT
+All  premises  wiring  (systems)  or  equipment  regulated  by  this  code  that  are  unsafe,  or  that
+constitute a fire hazard, have sustained disaster damage or are otherwise dangerous to human
+life are, for the purpose of this section, unsafe. Any use of premises wiring (systems) or equipment
+regulated  by  this  code  constituting  a  hazard  to  safety,  health  or  public  welfare  by  reason  of
+inadequate   maintenance,   dilapidation,   obsolescence,   fire   hazard,   disaster   damage   or
+abandonment is, for the purpose of this section, an unsafe use.
+            All unsafe premises wiring (systems) or equipment shall be abated by repair, rehabilitation,
+demolition or removal in accordance with the procedures set forth by law for the abatement of
+dangerous buildings. As an alternative, the                 building official or another employee or official of the
+city as designated by the governing body may institute any other appropriate action to prevent,
+restrain, correct or abate the violation.
+
+                                                                10
+
+===== Page 15 =====
+SECTION 203—ELECTRICAL BOARD
+203.1 Electrical Board Composition. There is hereby created an Electrical Board consisting of
+11 members. Position Nos. 1 through 10 shall be filled by persons appointed by the mayor and
+confirmed by the City Council. Each of the 11 positions of the board shall be numbered. The
+mayor shall designate a member to be chairman.
+            Position Nos. 1, 2, 3 and 4 shall be filled by duly licensed master electricians.
+            Position No. 5 shall be filled by an electrical engineer in the employ of an electric utility
+company operating under a city franchise.
+            Position Nos. 6 and 7 shall be filled by consulting or practicing engineers in the electrical
+construction industry who are licensed professional engineers of the State of Texas.
+            Position Nos. 8, 9 and 10 shall be filled by representatives from the city at large.
+            Position  No.  11  shall  be  filled  by  the  Electrical  Division  Manager,  who  shall  serve  as
+secretary  of  the  Electrical  Board.  The  Electrical  Division  Manager,  from  time  to  time,  may
+designate, in writing, a member of the city's Electrical Inspection Section to act as his or her duly
+authorized representative. The representative shall be entitled to all rights and privileges of the
+position. A copy of the designation, specifying the dates the person shall act as representative of
+the Electrical Division Manager shall be filed with the minutes of the board.
+203.2 Eligibility of Board Members.  A person who meets the qualifications for the positions set
+forth in Section 203.1 of this code shall not be disqualified from serving on the board or from
+performing any duties of board membership because the person is employed by the IBEW, IEC,
+NECA or any other labor or trade organization that provides or sponsors electrician training. The
+provisions of this section shall be regarded as an exception to Section 18-3 of the                              City Code    .
+203.3 Compensation and Terms. Each member of the board shall receive $50 per diem for
+services while attending meetings of the board. A member of the board who is employed by the
+city shall  be paid  only for those meetings he or she  attends that  are  neither held  during,  nor
+continue beyond, regular working hours.
+            The terms of office for appointees to Position Nos. 1, 3, 5, 7 and 9 shall expire on the 2nd
+day of January of odd-numbered years, and the terms of office for appointees to Position Nos. 2,
+4, 6, 8 and 10 shall expire on the 2nd day of January of even-numbered years. However, each
+member shall continue in office until a successor has been appointed and qualified. The adoption
+of this code shall not terminate the term of office of any person currently serving on the board.
+Any person who is currently serving on the board shall continue to serve in the position for which
+he or she was appointed and confirmed until a successor is appointed and qualified.
+203.4  Methods  of  Transacting  Business.  Half  of  the  members  then  serving  on  the  board
+present at any meeting shall constitute a quorum for the transaction of any business of the board.
+A majority vote of the members present at any meeting at which a quorum is present shall prevail.
+203.5 Legal Counsel. Any board meeting and hearing shall be attended by an attorney from the
+city's legal staff when requested by the board. The attorney's sole duty shall be to advise the
+board members of legal matters that may arise.
+203.6 Duties of the Board. The duties and responsibilities of the board shall include the following:
+          1.         Hear all cases involving revocation of a license or registration.
+          2.         Conduct those hearings and appeals that are provided in this code to be conducted
+                    by the Electrical Board.
+
+                                                                11
+
+===== Page 16 =====
+          3.         Hear appeals from decisions of the              building official     concerning interpretation of this
+                    code and the use of alternate materials and wiring methods; provided, however,
+                    the board shall not have jurisdiction to hear any matter that is the subject of any
+                    case pending before the municipal courts.
+203.7 Appeals to Electrical  Board. Any interested person  dissatisfied with  a decision of the
+building official    concerning interpretations of this code or the use of alternate materials and wiring
+methods shall have the right to appeal to the board pursuant to the following procedures. Petitions
+for hearings before the board shall be in writing and filed with the secretary of the board. A hearing
+on the matter shall be held by the board within 30 calendar days of the date the petition was filed.
+The board shall affirm, modify or reverse the action or decision of the                            building official     and shall
+render all decisions and findings in writing to the                building official who shall cause a duplicate copy
+to be mailed to the appellant.
+            Any interested person aggrieved and affected by a decision of the board may appeal to
+the City Council by delivering a written notice of appeal to the City Secretary within 10 calendar
+days from the date of deposit of the decision of the board in the mail. Appeals are subject to and
+shall be made as provided by City Council Rule 12. See Section 2-2 of the                               City Code     .
+
+SECTION 204—FAILURE TO CORRECT WORK
+If any electrical contractor, master electrician, line master electrician or sign master electrician
+fails to correct any defect, error or deficiency in any of his or her work installed under the authority
+of an electrical permit within 10 calendar days after written notification thereof, the                           building official
+may serve the master electrician of record and contractor with notice that a hearing will be held
+by  the  Electrical  Board  at  which  time  the              building  official     will  seek  either  the  suspension  or
+revocation of the contractor’s and master electrician of record's licenses and/or registrations. In
+the notice, the     building official     shall specify the grounds on which he or she will rely in seeking the
+suspension or revocation of the licenses and/or registrations. This section shall be cumulative of
+all other remedies provided for under the laws of the State of Texas and ordinances of the city
+and may be applied in addition to prosecution for any applicable crimes committed.
+
+SECTION 205—TAMPERING
+It shall be unlawful for any person to bridge, tamper with or change from its original installation,
+any fuse of any type installed in any panelboard, main switch or switchboard, or to alter or change
+any circuit breaker so that the fuse or circuit breaker will not function properly. It is a defense to
+prosecution under this section that the work was done upon previous approval of the                                        building
+official.
+
+SECTION 206—DISPLAY OF LICENSE
+A contractor shall display the contractor’s business name and the number of the license issued
+by the state or the city on each vehicle owned or operated by the contractor.
+            The information required to be displayed must be:
+          1.         Printed in letters and numbers that are at least 2 inches high and 3/8 inch in width
+                    and in a color that contrasts with the color of the background surface; and
+          2.         Permanently affixed in conspicuous places on both sides of the vehicle.
+
+
+                                                                 12
+
+===== Page 17 =====
+                                               [This page intentionally left blank.]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===== Page 18 =====
+                                                           Chapter 3
+                                            PERMITS AND INSPECTIONS
+
+SECTION 301—PERMITS
+301.1 Permits Required. It shall be unlawful for any person to install, alter, repair, replace or
+remodel any premises wiring (system) or equipment regulated by this code, except as specified
+in Section 301.2 of this code, or cause the same to be done, unless the person has an active
+permit for the work or is working under the supervision of a person who has a permit.
+301.2 Exempt Work. Exemption from the permit requirements of this code shall not be deemed
+to grant authorization for any work to be done in violation of the provisions of this code or any
+other laws or ordinances.
+An electrical permit shall not be required for the following:
+          1.         Motors, office furnishings (as defined by NFPA 70, Article 605) or other appliances
+                    energized  by  means  of  a  cord  or  cable  having  an  attachment  plug  end  to  be
+                    connected to an approved receptacle when the cord or cable is permitted by this
+                    code.    Note:  This exception does not apply to manufactured wiring systems as
+                    defined in NFPA 70, Article 604.
+          2.         Repair or replacement of fixed motors, transformers or fixed approved appliances
+                    of the same type and rating in the same location.
+          3.         Temporary decorative lighting, which shall not be in place more than 90 calendar
+                    days.
+          4.         Repair or replacement of current-carrying parts of a switch, contactor or control
+                    device.
+          5.         Reinstallation of attachment plug receptacles, but not the outlets therefor.
+          6.         Repair or replacement of any overcurrent device of the same capacity in the same
+                    location.
+          7.         Installation of temporary wiring, apparatus, devices, appliances or equipment used
+                    by a recognized electrical training school or college for the purpose of training,
+                    which installation shall not be in place more than 90 calendar days.
+          8.         Electrical wiring, devices, appliances, apparatus or equipment operating at less
+                    than 50 volts and not capable of supplying or controlling more than 50 watts of
+                    power.
+          9.         Sound equipment, private or public telephone system, thermostat wiring or burglar
+                    alarm  system,  provided,  however,  a  permit  shall  be  required  to  wire  any  such
+                    system to the source of electricity.
+          10.       Installation and maintenance of railway crossing signal devices, when performed
+                    by  the  railroad  in  accordance  with  the  standards  of  the  American  Railroad
+                    Association,  and  in  collaboration  with  and  with  the  approval  of  the  Director  of
+                    Houston Public Works.
+          11.       The installation, maintenance or alteration of premises wiring, apparatus, devices,
+                    appliances or equipment to be installed by an electric utility company for its own
+                    use  in  the  generation,  transmission,  distribution,  sale  or  utilization  of  electrical
+                    energy. However, no electric utility company shall do any wiring on a customer's
+
+                                                                 14
+
+===== Page 19 =====
+                    premises  other  than  wiring  that  is  a  part  of  the  company's  distribution  system,
+                    which shall be construed to include metering equipment, wherever located, and
+                    transformer vaults in which the company's transformers are located; nor shall any
+                    of its employees do any work other than that done for said company as provided
+                    for herein by virtue of this exception.
+          12.       Erection,  assembly,  installation,  repair,  maintenance  or  servicing  of  elevator
+                    equipment, X-ray equipment, proton therapy equipment, and medical electronic
+                    equipment,  other  than  for  the  power  wiring  connection  of  the  first  component,
+                    provided that the components of the equipment can be rendered safe from fire and
+                    shock hazards during operation by disconnection from electrical power sources.
+          13.       Removal of premises wiring.
+301.3  Franchised  Work.  Except  as  otherwise  provided  by  law,  no  person  or  electric  utility
+company that does not operate under a franchise granted by the city shall have the right to install
+any electrical conduit, wires, ducts, poles or equipment of any character for the transmission,
+distribution or utilization of electric energy, or for the operation of signals or the transmission of
+data  on,  over  or  under  the  streets  in  the  city,  without  first  obtaining  from  the  City  Council  a
+franchise right or grant for the particular installation so desired to be made, and any installation
+so made under a franchise or grant shall be in strict conformity with all rules, regulations and
+ordinances of the city pertaining thereto. Compliance with this provision shall not be construed to
+excuse compliance with any other provision of the ordinances of the city.
+301.4  Annual  Maintenance  Permit.  Upon  making  written  application  and  payment  of  all
+applicable  fees,  a  person  having  ownership  or  control  over  a  building  may  obtain  an  annual
+maintenance permit for the keeping in safe repair of any and all electrical maintenance work as
+defined by this code on existing premises wiring (systems), electrical installations, apparatus and
+equipment in the building and on the real property on which the building is located if the applicant
+employs a person as a full-time employee who will actually perform the electrical maintenance
+work.  A "full-time  employee"  shall  mean  an  employee  who  works for the  maintenance  permit
+holder at least 36 hours per week. A permit for maintenance electrical work shall be valid for only
+one premises.
+            The fee for an annual maintenance permit specified in the city fee schedule shall be paid
+to the building official      . An annual maintenance permit shall expire on September 30th of each
+year.
+     301.4.1 Maintenance Records. Each time that an electrical maintenance employee working
+     under an annual maintenance permit performs electrical maintenance work, the employee
+     shall make a record of the work. The records shall be maintained in a location agreed upon
+     by the owner and the           building official     and made available upon request for inspection and
+     copying by the       building official and must be held on file for at least two years. These records
+     shall contain the following information:
+          1.         Name and address where the work is performed.
+          2.         Name of owner.
+          3.         Date the work is performed.
+          4.         General nature of the work performed.
+          5.         Name of employee performing the work.
+
+
+
+
+                                                                15
+
+===== Page 20 =====
+301.5 Permits Issued to Licensed Contractor. No permit shall be issued under any master
+electrician license or registration unless the master electrician complies with the requirements of
+Section 403 of this code or is employed by an electrical contractor who complies with that section.
+
+SECTION 302—ELECTRICAL PERMITS
+302.1 Application. Only a licensed and registered electrical contractor shall obtain an electrical
+permit. To obtain an electrical permit, the applicant shall first file an application on a form furnished
+by the Houston Public Works, Electrical Inspections Section for that purpose. Each application
+shall:
+          1.         Identify and describe the work to be covered by the permit for which the application
+                    is made.
+          2.         Describe  the  land  on  which  the  proposed  work  is  to  be  done  by  the  legal
+                    description,  street  address  or  similar  description  that  will  readily  identify  and
+                    definitely locate the proposed building or work.
+          3.         Indicate the use or occupancy for which the proposed work is intended.
+          4.         Be accompanied by plans, diagrams, computations and other data as required in
+                    Section 302.2 of this code.
+          5.         Be signed or authorized electronically by the properly licensed master electrician
+                    of record, line master electrician of record or sign master electrician of record, as
+                    applicable, who is registered with the city.
+          6.         Give such other data and information as may be required by the                           building official    .
+          7.         Identify the name of the electrical contractor who has contracted for the work.
+            A master electrician may apply for a permit for any electrical work. A line master electrician
+may apply only for a permit relating to outside electrical work. A sign master electrician may apply
+only for a permit relating to sign electrical work.
+          302.1.1 Time limitation of application. An application for which no permit is issued within
+          180 days following the date of application shall become inactive, and plans and other data
+          submitted  for  review  thereafter  shall  be  returned  to  the  applicant  or  destroyed  by  the
+          building official. The building official is authorized to grant one or more extensions of time
+          for additional periods not to exceed 180 days each, for a maximum of two years from the
+          date of the original application, upon written request and justifiable cause demonstrated
+          by the applicant. If an application for permit does not result in a permit within two years
+          after the date of original application, the permit application shall expire. In order to renew
+          action  on  an  application  after  expiration,  the  applicant  shall  submit  a  new  permit
+          application and plans and shall pay a new plan review fee.
+
+302.2 Plans and Specifications. Plans, calculations, diagrams and other data shall be submitted
+in two or more sets with each application for a permit. The                       building official may require all plans,
+computations and specifications to be prepared by a master electrician of record and/or prepared
+and sealed by a professional engineer licensed in the State of Texas in compliance with The
+Texas Engineering Practice Act (              Texas Occupations Code             , Chapter 1001).
+          EXCEPTION:  The building official may waive the submission of plans, calculations, etc.,
+          if he determines that the nature of the work is such that review of plans is not necessary
+          to comply with this code.
+
+                                                                 16
+
+===== Page 21 =====
+302.3 Information on Plans. Plans shall be drawn to scale and shall be of sufficient clarity to
+indicate the location, nature and extent of the work proposed and show in detail that it will conform
+to the provisions of this code and all relevant laws, ordinances, rules and regulations.
+
+SECTION 303—PERMIT ISSUANCE
+303.1 Issuance. The application, plans and specifications and other data filed by an applicant for
+a permit shall be reviewed by the              building official    . The plans and specifications may be reviewed
+by  other  departments  of  the  city  to  verify  compliance  with  any  applicable  laws  under  their
+jurisdiction. If the     building official     finds that the work described in an application for a permit and
+the plans, specifications and other data filed therewith conform to the requirements of this code
+and other pertinent laws and ordinances, and that all applicable fees have been paid, the                                    building
+official  shall issue a permit therefor to the owner or owner’s authorized agent.
+            When the building official        issues a permit where plans and specifications are required, the
+building  official     shall  endorse  in  writing  or  stamp  the  plans  and  specifications  "APPROVED."
+Approved plans and specifications shall not be changed, modified or altered without authorization
+from the building official       , and all work shall be done in accordance with the approved plans and
+specifications.
+            The building official      may issue a permit(s) for the construction of part of premises wiring
+(systems) and equipment before the entire plans and specifications for the whole system have
+been submitted or approved, provided adequate information and detailed statements have been
+filed complying with all pertinent requirements of this code. The holder of the permit shall proceed
+at his or her own risk without assurance that the permit for the entire building, structure or building
+service will be granted.
+303.2 Retention of Plans. One set of approved plans and specifications shall be returned to the
+applicant and shall be kept on the site of the building or work at all times during which the work
+authorized  by  the  permit  is  in  progress.  One  set  of  approved  plans,  specifications  and
+computations shall be retained by the                building official until final approval of the work.
+303.3  Validity  of  Permit.  The  issuance  or  granting  of  a  permit  or  approval  of  plans  and
+specifications shall not be construed to be a permit for, or an approval of, any violation of any of
+the  provisions  of  this  code  or  of  any  other  applicable  laws,  or  ordinances  of  the  jurisdiction.
+Permits  presuming  to  give  authority  to  violate  or  cancel  the  provisions  of  this  code  or  other
+ordinances of the jurisdiction shall not be valid.
+            The issuance of a permit based on              construction documents            , specifications, and other data
+shall  not  prevent  the        building  official     from  thereafter  requiring  the  correction  of  errors  in  the
+construction   documents           ,   specifications   and   other   data,   or   from   preventing   construction,
+occupancy or use of a structure when in violation of this code or of any other applicable law.
+            A permit and all its privileges are issued to the property owner of the property for which
+the permit is issued, regardless of who submits the application or pays the fees. Where a Texas
+license is required to perform specific work, a permit shall be valid only for work performed under
+the licensed master electrician, sign master electrician or line master electrician named on the
+application.
+            A name change on the existing permit must be obtained if the licensed master electrician,
+sign  master  electrician  or  line  master  electrician  listed  on  the  existing  permit  is  no  longer
+responsible for the work performed. Provided that a refund has not been issued, the property
+owner has not changed, and written authority to amend the permit to designate a different master
+electrician, sign master electrician or line master electrician has been provided by the property
+
+                                                                  17
+
+===== Page 22 =====
+owner to the building official, the building official shall issue an amended permit. A name change
+fee and an administrative fee shall be charged as provided in Section 118.1 of the                                Building Code
+and the city fee schedule.
+            In the case of the death or dissolution of the original property owner or master electrician,
+sign  master  electrician  or  line  master  electrician,  pursuant  to  a  timely  name  change  request
+submitted within 45 calendar days after such death or dissolution, the permit will be transferred
+to  the  new  property  owner  or  amended  to  designate  the  new  master  electrician,  sign master
+electrician  or  line  master  electrician  at  no  fee  except  for  the  administrative  fee  established  in
+Section 118.1.1 of the        Building Code and the city fee schedule. Failure to apply for a name change
+within the requisite 45 calendar days shall subject to the applicable permit fees established in
+Section 118 of the        Building Code and the city fee schedule based on the on the scope of work for
+remaining construction and uninspected work.
+303.4 Expiration. Every            permit issued shall become inactive on the 180                    th day after its issuance
+unless the work authorized by such              permit has commenced and been inspected by a city inspector
+within 180 days after its issuance, or if the work authorized on the site by such                         permit is suspended
+or abandoned for a period of 180 days after the date the work was commenced. The                                           building
+official is authorized to grant, in writing, one or more extensions of time, for periods not more than
+180 days each. The extension shall be requested in writing and justifiable cause demonstrated.
+     For purposes of this subsection, the determination of whether work has commenced under a
+permit or whether work has been suspended or abandoned under a permit shall be based upon
+whether the permit holder requests an inspection of the work performed under the permit by the
+building  official   .  If  work  is  not  commenced  under  a  permit  within  two  years  after  the  date  of
+issuance or is abandoned at any time for a period of two years, the permit shall expire.
+     In order to recommence work under an expired permit, the permit holder shall pay the full
+permit fee applicable and submit plans that comply with this code for the previously uninspected
+portion of the work.
+          EXCEPTION:  The building official may, upon request, perform a final inspection of work
+          for  which  the  permit  has  expired  or  reactivate  a  permit  for  the  purpose  of  issuing  a
+          certificate of occupancy or a certificate of compliance.
+          303.4.1 Extensions. The building official is authorized to grant, in writing, one or more
+          extensions  of  time,  for  periods  not  more  than  180  days  each.  The  extension  shall  be
+          requested in writing and justifiable cause demonstrated.
+303.5 Validity. A permit shall be valid only for work done under the master electrician of record,
+line master electrician of record or sign master electrician of record who signed the application. A
+new permit must be obtained if the person who signed the application ceases to have a contractor-
+master relationship as stated in Section 403.5 and 403.6 of this code. The cost of the new permit
+shall be charged at no fee except for the administrative fee as established for this provision in the
+city fee schedule.
+303.6 Suspension  or Revocation. The                      building official     is authorized to suspend or revoke a
+permit and may revoke approval of any plans issued under the provisions of this code whenever
+the permit is issued in error or on the basis of incorrect, inaccurate, or incomplete information, or
+in violation of any ordinance, regulation, or provision of this code. Any suspension or revocation
+shall be accompanied by notice of a right to a hearing as provided in Section 108 of this code.
+Upon written request, the hearing shall be afforded within three business days from receipt of the
+request.
+
+
+
+                                                                 18
+
+===== Page 23 =====
+SECTION 304—FEES
+304.1 Permit Fees. The fee for each permit shall be as set forth in the city fee schedule                              .
+            Except as provided by Sections 403.5 and 403.5.1, the total value to be used in computing
+the permit fee pursuant to         Building Code Section 109.3 shall be the total value of all construction
+work for which the permit is issued. The moving and relocating of electrical equipment for which
+a permit inspection fee is not otherwise provided for in Section 118 117 of the                          Building Code, will
+be charged at the minimum fee.
+304.2 Plan Review Fees. Where plans are lost or changed so as to require an additional plan
+review or when a plan review is required and no building permit is required, a plan review fee
+shall be charged at the rate provided for in Sections 118.1.11 and 118.2.8 of the Building Code
+and the city fee schedule.
+304.3 Expiration of Plan Review. Applications for which no permit is issued within 180 calendar
+days following the date of application shall expire by limitation, and plans and other data submitted
+for review may thereafter be returned to the applicant or destroyed by the                             building official   . The
+building official    may extend the time for action by the applicant for a period not exceeding 180
+calendar days on request by the applicant showing that circumstances beyond the control of the
+applicant have prevented action from being taken. No application shall be extended more than
+once.  In  order to  renew  action  on  an  application  after  expiration,  the  applicant  shall  resubmit
+plans.
+304.4 Investigations and Fees for Work without a Permit. Whenever any work for which a
+permit is required by this code has been commenced without first obtaining a permit, a special
+investigation shall be made before a permit may be issued for the work.
+            An investigation fee, in addition to the permit fee, shall be collected whether or not a permit
+is then or subsequently issued. The investigation fee, which is intended to cover additional costs
+associated with inspection of work commenced without a permit, shall be equal to the amount of
+the  permit  fee  that  would  be  required  by  this  code  if  a  permit  were  to  be  issued,  subject  to
+applicable  minimum  investigation  fees  stated  in  the  city  fee  schedule.  The  payment  of  an
+investigation fee shall not exempt any person from compliance with all other provisions of this
+code or from any criminal penalty prescribed by law.
+304.5 Fee Refunds. The building official               may authorize the refund of any fee paid hereunder that
+was erroneously paid or collected due to an error by a city employee. This provision shall not be
+applicable if the error occurred because of incorrect information provided by the applicant.
+            The building official may authorize a refund of not more than 90 percent of the amount in
+excess of the minimum permit fee paid when no work has been done under a permit issued in
+accordance with this code. If work has been done under the permit, no refund shall be authorized.
+The  originally  paid  administrative  fee  and  the  plan  review  portion  of  the  permit  fee  shall  be
+nonrefundable.
+            The  building  official     shall  not  authorize  a  refund  of  any  fee  paid  except  on  written
+application filed by the original permit holder not later than 180 calendar days after the date of the
+fee payment.
+304.6  Annual  fee  increase.  Notwithstanding  any  maximum  fee  established  pursuant  to  the
+Construction  Code,  the  fees  in  this  or  in  any  volume  of  the  Construction  Code,  as  adjusted
+according to this section, shall be automatically increased on the first day of each subsequent
+calendar year as provided in Section 1-13 of the City Code.
+304.7 License or Registration Suspension. When the                            building official    has authorized work to
+begin prior to the issuance of a permit due to an emergency situation, any failure on the part of
+
+                                                               19
+
+===== Page 24 =====
+the contractor to pay all applicable permit fees within 20 calendar days of the date the                                   building
+official has authorized the work to begin shall be grounds for the suspension of the contractor’s
+and master's licenses and/or registrations. At least 10 calendar days prior to the suspension, the
+building  official     shall  give  the  contractor  and  master  notice  of  the  date  the  licenses  and/or
+registrations will be suspended if the fees are not paid and inform the contractor and master that
+they may have a hearing before the Electrical Board if either or both of them submit a written
+request therefor to the secretary of the board at least three business days prior to the date the
+suspension will become effective. If the contractor and/or master timely requests a hearing, the
+suspension  shall  not  become  effective  until  the board  has  heard  the matter  and rendered  its
+decision  as  to  whether  all  applicable  permit  fees  have  been  paid.  If  the  board  finds  that  all
+applicable  permit  fees  have  not  been  paid,  the  contractor’s  and  master's  licenses  and/or
+registrations  shall  be  suspended  until  they  have  been  paid.  If  the  contractor’s  and  master's
+licenses and/or registrations remain suspended for six months, the licenses and/or registrations
+shall automatically be revoked.
+
+SECTION 305—INSPECTIONS
+305.1 General. All premises wiring (systems) and equipment installed under provisions of this
+code  shall  be  subject  to  inspection  by  the             building  official.  No  portion  of  any  premises  wiring
+(system) or equipment intended to be concealed shall be concealed until inspected and approved.
+Neither the      building official nor the city shall be liable for expenses entailed in the removal or
+replacement of any material required to allow inspection. When the installation of the premises
+wiring (system) and  equipment is complete,  an additional and  final inspection shall  be made.
+Premises wiring (systems) and equipment regulated by this code shall not be connected to the
+energy source until inspected and authorized by the                      building official   .
+305.2  Operation  of  Electrical  Equipment.  The  requirements  of  this  section  shall  not  be
+construed  to  prohibit  the  operation  of  any  premises  wiring  (system)  or  equipment  installed  to
+replace  existing  equipment.  The  Houston  Public  Works  Electrical  Inspections  Section  shall
+endeavor to inspect work within three working days following the receipt of an inspection request.
+In any instance in which the inspection is not made within three working days, the requestor may
+submit a written notice of inspection request to the Electrical Division Manager who shall ensure
+that the inspection is completed by the end of the next business day following receipt of the written
+inspection request.
+305.3 Inspection Requests. It shall be the duty of the person doing the work authorized by a
+permit to notify the      building official that the work is ready for inspection.
+305.4 Other Inspections. In addition to the called inspections required by this code, the                                  building
+official  may  make  or  require  other  inspections  of  any  work  to  ascertain  compliance  with  the
+provisions of this code and other applicable laws. If a permit has not been issued for the work and
+city inspectors are refused permission to inspect, they may pursue legal action up to and including
+seeking a search warrant as authorized by law.
+305.5 Moving and Relocating of Work. The moving or relocating of portions of a premises wiring
+(system) or electrical equipment for which a permit inspection fee is not otherwise provided for in
+Section 118 of the        Building Code will be charged at the minimum fee.
+305.6 Reinspections. The building official may assess a reinspection fee for each inspection or
+reinspection when an inspector arrives to perform the inspection and finds the portion of work for
+which inspection is called is not complete or when corrections called for in a previous inspection
+report have not been made.
+
+
+                                                                 20
+
+===== Page 25 =====
+            This section is not to be interpreted as requiring a reinspection fee the first time a job is
+rejected for failure to comply with the requirements of this code, but as controlling the practice of
+calling for inspections before the job is ready for such inspection or reinspection.
+            The building official may assess reinspection fees when the inspection record card is not
+posted or otherwise available on the work site, when the approved plans are not readily available
+to the inspector, for failure to provide access on the date for which inspection is requested, or for
+deviating from plans requiring the approval of the                   building official   .
+            To obtain a reinspection, the applicant shall make a request and pay the reinspection fee
+in accordance with Section 118 of the                Building Code and the city fee schedule.
+            In instances where reinspection fees have been assessed, no additional inspection of the
+work will be performed until the required fees have been paid.
+
+SECTION 306—CONNECTION APPROVAL
+306.1 Energy Connections. Any premises wiring (system) or equipment regulated by this code
+shall not be connected to a source of energy or power until approved by the                               building official   .
+306.2 Temporary Connections. The building official                         may authorize the temporary connection,
+with proper permits, of premises wiring (systems) or equipment to a source of energy or power
+for the purpose of testing the equipment, or for use under a temporary certificate of occupancy.
+          EXCEPTION:  In an emergency situation where power is inadvertently interrupted, the
+          Building  Official may  authorize  a temporary connection,  subject  to later permitting  and
+          inspection.
+            No permit for temporary use shall  be valid for a  period  longer than  90 calendar  days.
+Except as otherwise provided below, at expiration of the authorized period, the                                  building official
+shall issue written instructions to the electric utility company or other person having control of the
+supply of energy or power to the installation to disconnect service to the temporary installation,
+unless he or she has granted a permanent approval or an additional temporary approval. At least
+10 calendar days prior to the proposed date of disconnection, the                        building official shall give written
+notice to the electric utility company or other person having control of the supply of energy or
+power to the temporary installation and to the owner of the building, setting forth the date that the
+electricity will be disconnected unless permanent approval of the connection has been obtained
+or an additional permit for temporary use has been issued. The notice shall be posted on or in
+view of each principal entrance to the building for the information of all persons who occupy the
+building. Any person affected by the proposed disconnection of electricity may request a hearing
+on the matter. The request shall be in writing and delivered to the office of the Electrical Division
+Manager at least three business days prior to the proposed date of disconnection. If a hearing is
+requested, a hearing date shall be set by the                  building official, and the hearing shall be held prior
+to the disconnection of the electricity, unless the person asking for the hearing requests a delay
+in that hearing.
+
+
+
+
+
+
+
+
+
+
+                                                                 21
+
+===== Page 26 =====
+                                              [This page intentionally left blank.]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                      22
+
+===== Page 27 =====
+                                                            Chapter 4
+                             LICENSING AND REGISTRATION REQUIREMENTS
+
+SECTION 401—LICENSE OR REGISTRATION REQUIRED
+401.1  General.  There  is  hereby  established  a  city  licensing  or  registration  requirement  for
+contractors  and  for  persons  performing  electrical  maintenance  work,  electrical  work,  outside
+electrical work, residential electrical work and sign electrical work.
+401.2  Required.  It  shall  be  unlawful  for  any  person  who  does  not  hold  a  current  and  valid
+applicable city license or registration issued under this chapter or an applicable state electrical
+license to perform electrical work, electrical maintenance work, outside electrical work, residential
+electrical work or sign electrical work.
+            It shall be unlawful for any person to employ or utilize any person who does not hold a
+current and valid applicable city license or registration issued under this chapter or an applicable
+state electrical license to perform electrical work, electrical maintenance work, outside electrical
+work, residential electrical work or sign electrical work.
+            The city shall not issue new electrical licenses other than contractor licenses. A person
+who holds a current and valid city electrical license may renew such license as provided in this
+code.
+            A person who holds a current valid state electrical license is not                          required to hold a city
+registration, provided that a holder of a state electrical contractor license or a state electrical sign
+contractor license must hold a city registration to perform work as a contractor.
+401.3 Contractors. Any licensed or registered electrical contractor may contract with another
+licensed or registered electrical contractor for electrical work. A licensed or registered electrician
+employed by the prime electrical contractor may have direct, personal supervision and control of
+the project.
+401.4 Documentation. A holder of a state electrical license, a city license, or a city registration
+must carry such current and valid documentation on his or her person at all times while performing
+the work for which he or she is licensed or registered.
+
+SECTION 402—LICENSES AND REGISTRATIONS
+402.1 Applications. Applications for all licenses and registrations shall be made in writing to the
+Electrical Division, stating the name and address of the applicant, the applicant's appropriate state
+electrical license, if applicable, and such other relevant information as may be required by the
+Electrical Division.
+            Before a license or registration is issued under this code, the applicant must pay the fee,
+if any, required for the license or registration as set forth in the city fee schedule.
+402.2 Duration of City License or Registration. Any city license issued under previous versions
+of the City of Houston Electrical Code               prior to September 1, 2004, and valid as of such date, shall
+remain in effect until September 1, 2006, unless renewed for successive one-year terms. Any
+registration issued under this chapter shall expire on the expiration or suspension date of the
+registrant's state electrical license.
+
+
+                                                                  23
+
+===== Page 28 =====
+402.3 License or Registration Issuance. Upon determining that an applicant meets all of this
+chapter's requirements for a license or registration, the Electrical Division shall issue the license
+or registration. No license or registration issued in accordance with the provisions of this chapter
+shall be assignable or transferable. Any registration issued under this chapter shall expire on the
+expiration or suspension date of the registrant’s state license.
+402.4 Revoked License or Registration. City licenses issued under previous versions of the
+City of Houston Electrical Code              and licenses and registrations issued under this chapter may be
+revoked by the Electrical Board for any reason defined in this code, provided, however, if the
+Electrical Board finds that the public interest will be adequately protected by the issuance of a
+warning or by a suspension of the license or registration for a definite period of time not exceeding
+one year, it shall issue a warning or order a suspension. If a registration is revoked, the Electrical
+Board shall not accept an application from that person for a new registration for one year following
+the date of revocation. Notice shall be sent to the Texas Department of Licensing and Regulation
+of any disciplinary action taken by the Electrical Board against any master or contractor.
+402.5 Revocation Reasons. Following 10 calendar days' notice by personal delivery or certified
+mail and after a hearing before the Electrical Board, at which the person may be accompanied by
+an attorney of their choice, the Electrical Board may revoke or suspend that person's license or
+registration for any of the following reasons:
+          1.         Fraud or misrepresentation in obtaining a city license, registration, or permit.
+          2.         Violating on more than one occasion, either willfully or maliciously, or by reason of
+                     incompetence, any provision of this code.
+          3.         Defrauding of any person for whom a service has been rendered or contracted to
+                     be rendered.
+          4.         Securing  a  permit  for  electrical  work  not  actually  performed  by  the  master
+                     electrician,  line  master  electrician,  or  sign  master  electrician  ("master")  or  by
+                     licensed   employees   under   the   master's   control,   supervision,   direction   and
+                     responsibility.  (This  provision  is  intended  to  prevent  a  master  from  securing  a
+                     permit for the purpose of evading the spirit and intent of this code by entering into
+                     any simulated scheme, transaction or device whereby electrical work will be done
+                     by persons who are not employees of the master or employees of the master's
+                     employer.)
+          5.         Securing a permit under any pretext for an installation for which the applicant has
+                     no valid contract. (This provision is intended to prevent a master electrician, line
+                     master electrician or sign master electrician from securing a permit for the purpose
+                     of evading the spirit and intent of this code by any simulated scheme, transaction
+                     or device, or performing electrical work without a valid permit.)
+          6.         Performing any electrical work as defined herein for which no electrical permit has
+                     been obtained.
+          7.         For  failure  of  any  master  electrician,  line  master  electrician  or  sign  master
+                     electrician to provide full-time active participation and day-to-day management of
+                     all electricians performing work under all permits issued under his or her signature.
+          8.         Acting as a master electrician, line master electrician or sign master electrician for
+                     more than one electrical contractor (including himself if self-employed) at one time.
+            The Electrical Division may withhold the issuance of a registration to an applicant by the
+same process used for revocation or suspension as described above. In addition to constituting
+grounds  for  revocation  or  suspension  of  a  license  or  registration,  violation  of  any  of  Items  1
+
+                                                                  24
+
+===== Page 29 =====
+through  -8  are  declared  to  be  unlawful  and  may  result  in  criminal  prosecution.  Criminal
+prosecution shall not preclude administrative action by the Electrical Division or Electrical Board
+and vice versa.
+402.6 License or Registration Transfer. No master electrician, line master electrician or sign
+master electrician shall assign or in any way convey his or her city license or registration, use
+thereof or any rights thereunder to anyone by power of attorney or any other process or become
+involved in any type of agreement, assignment or use whereby he or she will not have supervision,
+direction, control or responsibility for the electrical work for which an electrical permit has been
+obtained under his or her city license or registration.
+402.7 City License. A person who holds a license issued pursuant to this code may renew his or
+her city license by paying the annual renewal fee provided in the city fee schedule.
+
+SECTION 403—CONTRACTOR REGISTRATION OR LICENSE
+403.1 General. No person shall undertake any work as a contractor unless that person has been
+registered with the city as a contractor or unless that person holds a current and valid city license
+as a contractor.
+            An applicant for a contractor registration must have a valid state license as an electrical
+contractor, an electrical sign contractor, or a residential appliance installation contractor.
+403.2 Contractor's Responsibility.  The licensed or registered contractor will be responsible for
+ensuring that all work performed under his or her license or registration is properly permitted, that
+all personnel working under his or her license or registration are properly licensed or registered,
+and that all work is performed in accordance with this code.
+403.3 Scope of License or Registration. In the event that the applicant is or has employed a
+line master electrician or a sign master electrician in lieu of a master electrician, the scope of the
+contractor license and registration shall be restricted to that work for which the applicant or the
+master is licensed.
+403.4  Contractor's Records. For purpose of  enforcing this section, the                                building official may,
+during normal working hours, examine and make copies of contracts, employment records, and
+payroll records for the preceding 24 months. Should the contractor fail or refuse to make a full,
+true and accurate disclosure of these records, the                     building official    may, after written notification
+by  certified  mail,  withhold  the  issuance  of  electrical  permits  to  that  contractor  and  master
+electrician until there has been a full and accurate disclosure of the records. This provision shall
+be cumulative of all other remedies provided herein.
+403.5 Termination of Master-Contractor Relationship. Upon the death or termination of the
+designated master electrician of record, sign master electrician of record or line master electrician
+of record, who is not also the contractor, the contractor shall be permitted to continue operating
+under the master's license or registration for a period not to exceed 45 calendar days from the
+date of the termination of the relationship. When the relationship terminates, no additional permits
+will be granted until a new master electrician of record, sign master electrician of record, or line
+master electrician of record is employed and a name change is obtained for all existing active
+permits under the terminated master-contractor relationship as specified in Section 303.3 of this
+code.
+          403.5.1  Death  of  Master/Contractor.  Upon  the  death  of  the  contractor,  when  the
+          contractor is the designated master electrician of record, sign master electrician of record
+          or line master electrician of record of the company, no additional permits will be granted
+          until a valid master electrician of record and a contractor is employed and all active permits
+
+                                                                25
+
+===== Page 30 =====
+          under the deceased master/contractor are re-permitted. The cost of the new permit shall
+          be  charged  at  no fee  when  permitted  under  the  valid master  and  contractor  within  45
+          calendar days of the death of the contractor, except for the administrative fee established
+          in the city fee schedule. Applicants who fail to repermit any applicable work within the
+          timeframes established by this code shall be subject to permit fees in the amount stated
+          in the city fee schedule for the remaining uninspected work.
+403.6 Master-Contractor Relationship. The master electrician of record, sign master electrician
+of record or line master electrician of record and the contractor shall register with the Electrical
+Division.  Upon  termination  of  the  master-contractor  relationship,  notice  shall  be  given  by  the
+master electrician of record, sign master electrician of record, line master electrician of record or
+the  contractor  to the        building  official     within five business  days.  The  termination  of the  master
+electrician of record, sign master electrician of record or line master electrician of record shall
+cause all permits taken out under the terminated master                       electrician of record's license to be voided
+45 30 calendar days after the date of termination. No additional permits will be granted until a new
+master electrician of record is employed and a name change is obtained for all existing active
+permits under the previous master electrician of record, as specified in Section 303.3 of this code.
+The  master  electrician  of  record  shall  play  an  active  role  in  the  business  for  which  he  is  the
+registered master electrician of record.
+403.7 Contractor Business Location. To apply for a registration, an applicant must provide to
+the city a physical address (not a post office box).
+403.8 Insurance. To apply for or renew a city contractor's license, an applicant must provide
+evidence of the following to the Electrical Division:
+          1.         That the applicant is a city licensed master electrician, line master electrician or
+                    sign master electrician or has such a person in his or her employment as a full-
+                    time employee; and
+          2.         That the applicant complies with Section 1305.159(a)(3) of the                          Texas Occupations
+                    Code regarding workers’ compensation coverage.
+
+SECTION 404—MASTER ELECTRICIAN
+A master electrician may:
+          1.         Perform all electrical work, including electrical work performed by a sign master
+                    electrician and a line master electrician.
+          2.         Supervise an electrician.
+          3.         Serve as a master electrician of record for a contractor.
+            The master electrician of record shall not have a city electrical contractor’s registration for
+more than one contracting business.
+
+SECTION 405—LINE MASTER ELECTRICIAN
+405.1 General. A line master electrician may:
+          1.         Perform outside electrical work as defined in this code.
+          2.         Supervise an electrician performing outside electrical work.
+          3.         Serve as a line master electrician of record for a contractor.
+
+                                                                  26
+
+===== Page 31 =====
+405.2 License. A line master electrician license shall authorize only outside electrical work. The
+line master electrician will otherwise be under the same rules, regulations, rights, privileges and
+duties imposed on or enjoyed by a master electrician.
+
+SECTION 406—SIGN MASTER ELECTRICIAN
+406.1 General. A sign master electrician may:
+          1.         Perform sign electrical work.
+          2.         Supervise an electrician performing sign electrical work.
+          3.         Serve as a sign master electrician of record for a contractor.
+406.2 License or Registration. Sign master electricians shall also comply with requirements as
+set out in the Sign Code, Chapter 46 of the                    Building Code. The sign master electrician license
+shall authorize only electrical sign work. The sign master electrician will otherwise be under the
+same  rules,  regulations,  rights,  privileges  and  duties  imposed  on  or  enjoyed  by  a  master
+electrician.
+406.3 Scope of Work. A sign master electrician shall be permitted to manufacture, install and do
+wiring that is required to connect the sign, outline lighting or inside lighting to an existing circuit or
+circuits that have been approved by the                building official     for connection of the specific load covered
+by the permit issued. Should the available circuit or circuits not be adequate for the specific sign
+and outline lighting load to be connected, then a contractor shall be employed by the owner or
+the owner's agent to install the necessary wiring required to provide the required capacity and
+circuits for the proposed signs and outline lighting. However, a sign master electrician shall be
+permitted to install the necessary service and circuits for an isolated sign and/or outline lighting
+installation.
+406.4 Isolated Sign. For the purposes of this section, an isolated sign and/or outline lighting
+installation shall be defined as an installation in which neither the meter nor service supplying the
+installation or any of the signs or outline lighting are mounted on or in any building or structure
+that is not a part of the signs or outline lighting.
+406.5 Circuits. As applied in this section, signs or outline lighting on the exterior of a building
+must have the circuit or circuits available on the exterior of the building. Nothing herein is intended
+to limit or repeal the effect of the Sign Code, but shall be cumulative thereof.
+406.6  Shop  Inspection.  All  work  performed  and  materials,  apparatus,  devices,  appliances,
+fixtures or equipment used shall conform with the full requirements of this chapter. Any electric
+sign built within the city for installation within the city, that is not listed and labeled, shall have a
+shop  inspection  by  the         building  official     before  the  sign  is  shipped  out  of  the  shop.  The  shop
+inspection fee shall be separate from and shall be double that required for signs as specified in
+the Building Code. After approval by the                   building official    , an inspector shall attach an approval
+label or stamp to the sign. Signs constructed outside the city, but erected within the city, shall be
+subject to the same rules and regulations as apply to signs constructed within the city, except that
+inspections shall be performed by an approved agency.
+          EXCEPTION:  When unlisted component parts are utilized to reconfigure or construct a
+          sign, the licensed sign contractor shall assume liability.
+
+
+
+
+
+                                                                 27
+
+===== Page 32 =====
+SECTION 407—JOURNEYMAN ELECTRICIAN
+No person shall undertake any work as a journeyman electrician unless the person has received
+a city or state electrical license as a journeyman electrician.
+
+SECTION 408—JOURNEYMAN LINEMAN
+No person shall undertake any work as a journeyman lineman unless the person has received a
+state or city electrical license as a journeyman electrician or a journeyman lineman.
+
+SECTION 409—SIGN JOURNEYMAN ELECTRICIAN
+No  person  shall  undertake  any  work  as  a  sign  journeyman  electrician  unless  the  person  has
+received  a  state  or  city  electrical  license  as  a  sign  journeyman  electrician  or  a  journeyman
+electrician.
+
+SECTION 410—RESIDENTIAL WIREMAN (RESIDENTIAL JOURNEYMAN ELECTRICIAN                                                        )
+No person shall undertake any work as a residential wireman (residential journeyman electrician)
+unless the person has received a state or city electrical license as a residential wireman or a
+journeyman electrician.
+
+SECTION 411—APPRENTICE ELECTRICIAN
+411.1  General.  No  person  shall  undertake  any  work  as  an  apprentice  electrician  unless  the
+person has received a state or city electrical license as an apprentice electrician.
+411.2 Work Performed. An apprentice electrician licensed under this section shall be permitted
+to perform work as an apprentice, an apprentice lineman, a sign apprentice electrician, residential
+apprentice  and  an  apprentice  maintenance  electrician  under  the  supervision  of  a  master
+electrician, journeyman electrician, maintenance electrician, or a residential wireman.
+
+SECTION 412—MAINTENANCE ELECTRICIAN
+412.1 General. No person shall undertake work as a maintenance electrician unless the person
+has  received  a  state  or  city  electrical  license  as  a  maintenance  electrician  or  a  journeyman
+electrician.
+412.2 Work Performed.  A maintenance electrician licensed under this section shall be permitted
+to perform electrical maintenance work under the general supervision of a master electrician, on
+behalf of an electrical contractor.
+412.3 Exempt work. A maintenance electrician license is not required if:
+         1.         The work is performed by a person who does not engage in electrical work for the
+                   public;
+         2.         The work is performed by a person regularly employed as a maintenance person
+                   or maintenance electrician for a business; and
+
+
+
+
+                                                              28
+
+===== Page 33 =====
+          3.         The electrical work does not involve the installation of electrical equipment during
+                    new construction as defined by rules adopted under Chapter 151 of the                            Texas Tax
+                    Code.
+
+SECTION 413—RESIDENTIAL APPLIANCE INSTALLER
+413.1 General.  No person shall undertake work as a residential appliance installer unless the
+person has received a state electrical license as a residential appliance installer or any other
+license recognized for such purpose in this code.
+413.2  Work  Performed.  A  residential  appliance  installer  listed  under  this  section  shall  be
+permitted to perform work defined as residential appliance installation.
+
+SECTION   414—APPEALS   FROM   LICENSING   AND   REGISTRATION   DECISIONS   OF
+ELECTRICAL BOARD
+Any holder of a license or registration whose license or registration has been revoked, placed on
+probation, or suspended by the             building official   , where such action and/or decision was proposed
+and upheld by the Electrical Board, shall have the right of appeal to City Council as provided in
+Section 203.7  of  this code.  The City Council  shall  affirm, modify  or reverse the action  and/or
+decision of the Electrical Board. The action of the City Council shall be final. If no appeal is taken
+within the time and in the manner herein above provided, the ruling of the Electrical Board shall
+be final. The action of the Electrical Board shall be in effect during the appeal process before City
+Council and will remain in effect until modified or reversed by action of City Council on the appeal.
+The action of the Electrical Board shall remain in effect unless and/or until reversed or modified
+as provided for herein. In the event of suspension or revocation of licenses and/or registrations,
+the effective date will be 10 calendar days immediately following the action of the Electrical Board.
+A master whose license or registration has been suspended or revoked will not be issued any
+new permits after the action of the Electrical Board or during the 10 calendar day period following
+the action of the Electrical Board. All licenses and registrations shall be submitted to the secretary
+of the Electrical Board within 10 calendar days after the date of revocation or suspension.
+
+SECTION 415—RESERVED
+
+SECTION 416—LICENSE AND RENEWAL FEES
+To  obtain  a  contractor  license  or  renew  an  existing  city  license  the  applicant  shall  pay  the
+applicable city license fee set forth for this provision in the city fee schedule.
+            All fees shall be prorated for each month the license is to be in effect based on a 12-month
+period.
+            An administrative fee payable pursuant to Section 118.1.2 of the                        Building Code shall be
+charged upon the preparation of each fee or deposit receipt issued by the                              building official    . This
+fee shall apply regardless of whether the fee or deposit is payable pursuant to this code or the
+City Code    . This fee shall be in addition to all other applicable fees or deposits. When paid for a
+deposit or fee receipt, this fee shall neither constitute nor be refundable as a part of the deposit.
+
+
+
+
+                                                                29
+
+===== Page 34 =====
+SECTION 417—CONTINUING EDUCATION FOR CITY LICENSE RENEWAL
+Master, journeyman, apprentice, and maintenance electricians shall annually complete a four-
+hour code review course, approved by the state, based on the                 National Electrical Code     .
+         EXCEPTION:  Apprentice electricians in an approved apprenticeship training program.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                         30
+
+===== Page 35 =====
+                                                           Chapter 5
+                                                BUILDING STANDARDS
+
+SECTION 501—WIRING SYSTEMS
+501.1 General. Any type of wiring or wiring systems may be used in the city as approved in the
+National Electrical Code          adopted in Section 502 of this code, except where specifically provided
+herein.
+            Refer  to  Section  403  of  the  Building  Code             for  high-rise  building  requirements  and  to
+Chapter 46 of the Building Code for the Sign Code.
+501.2 Electric Utility Company. All changes in the service standards and area practices that are
+promulgated by the electric utility company shall be submitted to the Electrical Board for review
+and comment at least 30 calendar days prior to enactment.
+            For the purposes of this code, the distribution system of any electric, telephone, telegraph,
+signal and/or electric utility company shall not extend to any electrical apparatus or equipment
+that the company does not own or control.
+            If a licensed or registered contractor needs access to metering and service equipment
+under control of an electric utility company to perform certain electrical work, the electric utility
+company must unlock and/or make accessible all metering and service equipment within four
+hours of the time the contractor requests the action, if possible. Licensed or registered contractors
+may access metering and service equipment.
+
+SECTION 502—ADOPTED STANDARDS
+The following codes, pamphlets and specifications are hereby adopted, authentic copies of which
+are  filed  with  the  City  Secretary  as  part  of  this code,  and  shall  govern and  be  observed  and
+followed in all premises wiring (systems) and in the construction, installation, repair, alteration,
+operation and maintenance of premises wiring (systems) apparatus or fixtures:
+          (1)       The    National  Fire  Protection  Association  Pamphlet  No.                    70,   National  Electrical
+                    Code, 2020 Edition.
+          (2)       The    2012    National Electrical Safety Code.              When the provisions of the              National
+                    Electrical Safety Code         and the National Electrical Code             are in conflict, the     National
+                    Electrical Code shall prevail.
+            In case of conflict between the provisions of the standards listed in the above paragraphs
+and the provisions of this code, the provisions of this code shall prevail.
+
+SECTION 503—METERS
+503.1 General. The meter cabinets and electrical metering equipment through which service is
+rendered  by  the  electric  utility  company  to  domestic  establishments  and  buildings  combining
+domestic  establishments  with  commercial  or  industrial  usage  shall  be  installed  where  readily
+accessible on the exterior of the building. Fireproof meter cabinets or meters sockets shall be
+approved by the electric utility company and installed by the master electrician performing the
+work, said meter cabinets to be located so the center of the opening of the meter dial shall not be
+less than 5 feet (1524 mm) nor more than 6 feet (1829 mm) above mean ground level so that the
+cabinet is readily accessible to the electric utility company for service. On apartment buildings,
+
+                                                                31
+
+===== Page 36 =====
+where space limitations will not permit placing all meters at the same height, they may be arranged
+in two tiers, with the openings for the meter dials in lower tiers as near as practicable to 5 feet
+(1524 mm) above the mean ground level and second tier placed as near as practicable above the
+first.  Where  space  limitations  will  not  permit  placing  of  meter  cabinets  as  outlined  above,  the
+electric  utility  company,  subject  to  the  approval  of  the                  building  official,  may  determine  the
+arrangement to be used. All service outlets shall be located so as to permit placing the electric
+utility company's service wires on the wall of the building next to the supply. Locations may also
+be  modified  with  the  approval  of  the             building  official      for  occupancies  intended  primarily  for
+handicapped persons.
+503.2  Location  of  Meters.  Meters  will  be  located  on  a  building  so  as  to  be  accessible  as
+determined by the electric utility company and may only be placed on the front or street side of
+the building with the written consent of the owners filed with the                       building official   .
+503.3 Relocation of Meters. Where meter loops are installed in inaccessible places in houses
+or buildings and the electric utility company desires to relocate said meter loops for convenience
+in the rendering of its service, it may, upon request to the                        building official, have a licensed or
+registered contractor reinstall meter loops to a point where the same would be located if the house
+or building were having a new system of wiring installed, and all the work done at the request of
+the electric utility company shall be performed without cost to the owner unless the location is the
+result of the wiring having been condemned by the                      building official for practices in violation of the
+provisions of this code or any applicable city ordinance.
+503.4 Separate Meters. No permit, certificate or other authorization issued by the city under the
+provisions of this code for the construction or occupancy of a new apartment house or conversion
+to a condominium shall be issued unless the construction plan submitted by the applicant as part
+of  the  process  for  the  approval  of  the  permit,  certificate  or  other  authorization  provides  for
+individual electric metering by the utility company or submetering by the owner of each dwelling
+unit for the measurement of the quantity of electricity, if any, consumed by the occupants within
+that dwelling unit in accordance with the provisions of Chapter 184 of the                               Texas Utilities Code
+and regulations issued thereunder.
+
+SECTION 504—SERVICES AND FEEDERS
+504.1  General.  All  services,  feeders,  and  underground  branch  circuits  shall  be  installed  in
+raceways, busways, cable trays, or metal sheath cables approved by this code.
+          EXCEPTIONS:
+                    1.         Type SE multi-conductor cable having a bond wire and an insulated neutral
+                               wire will be permitted for feeders on wood-frame residential occupancies,
+                               provided the conductors have a disconnecting means and are protected by
+                               an approved current-limiting device. Each feeder shall be installed only in
+                               a location or in a manner that is not subject to mechanical damage and
+                               shall also be installed in accordance with other sections of this code and
+                               the National Electrical Code.
+                    2.         Aerial feeders.
+          504.1.1 Available Fault Current Labeling. In lieu of the maximum available fault current
+          marking  as  required  by  110.24,  a  permanently  affixed  label  shall  be  applied  with  the
+          available fault current at the time of installation and calculation. The label shall be 2 inches
+          by 3 inches in size and shall be blue lettering on a contrasting background. This label shall
+          also include the date of the calculation.
+
+                                                                 32
+
+===== Page 37 =====
+504.2 Service Disconnect. Service disconnecting means shall be located so that the height to
+the center of the operating handle shall not be less than 4 feet (1219 mm) and not more than 6
+feet 7 inches (2.0 m) above the floor of finish grade, except as installed in freestanding or building-
+type switchgear built to the National Electrical Manufacturers Association's specifications. When
+necessary to install tiered metering on multifamily dwellings, it shall be permissible to vary the
+heights of the disconnecting means within 2 feet 6 inches to 6 feet 6 inches (762 mm to 2.0 m)
+above finished grade.
+          504.2.1 Meter Disconnect/Service Disconnect.  Where approved, in existing spaces or
+          configurations where there is insufficient space to provide the additional disconnect, the
+          service disconnect and the meter disconnect may be the same.
+504.3  Grounding  Electrode  System.    All  grounding  electrodes  as  described  in  the                               National
+Electrical  Code,  2020  Edition,  Section  250.52(A)(1)  through  (A)(8),  that  are  present  at  each
+building or structure served shall be bonded together to form the grounding electrode system.
+Grounding electrodes as described in the                  National Electrical Code         , 2020 Edition, Section 250.52
+(A)(1)  through  (A)(3)  and  (A)(7),  shall  be  supplemented  with  a  rod  electrode  as  described  in
+Section 250.52 (A)(5). Where no other grounding electrode is present a rod electrode shall be
+permitted to be the sole grounding electrode.
+          EXCEPTION:  Concrete-encased electrodes of existing buildings or structures shall not
+          be required to be part of the grounding electrode system where the steel reinforcing bars
+          or rods are not accessible for use without disturbing the concrete.
+504.4  Multi-tenant  services.  In  structures  designed  for  multiple  tenants,  where  additional
+services are likely, a buss conductor service cable tap box shall be required. The service cable
+tap box shall be weatherproof and comply with the following:
+          1.         The service cable tap box shall be lockable with provisions to accept the utility
+                    locks.
+          2.         Covers shall be fastened with machine screws or bolts. Hinged covers shall not be
+                    permitted.
+          3.         Covers shall have two handles for cover removal.
+          4.         Busbars shall be protected from physical damage and held firmly in place.
+          5.         Busbars shall be sized to physically accommodate the maximum number of tenant
+                    services anticipated and predrilled.
+          6.         Busbars shall be stepped.
+          7.         The phase arrangement on 3-phase horizontal common power and vertical buses
+                    shall be A, B, C from front to back, top to bottom, or left to right, as viewed from
+                    the front of the service cable tap box. The B phase shall be that phase having the
+                    higher  voltage  to  ground  on  3-phase,  4-wire,  delta-connected  systems.  The
+                    phases shall be permanently marked.
+          8.         The bottom of the service cable tap box shall be a minimum of 6 inches above
+                    finished grade.
+          9.         The service cable tap box shall comply with Utility Service Standards.
+                              EXCEPTION:  Residential occupancies.
+          10.       All other requirements of the utility provider.
+
+                                                                33
+
+===== Page 38 =====
+SECTION 505—NONMETALLIC SHEATHED CABLE
+Nonmetallic sheathed cable shall be permitted for temporary installations in addition to those
+allowed by National Electrical Code, 2020 Edition, Article 334.
+
+SECTION 506—CONDUIT
+Electrical metallic tubing (EMT) shall not be buried in ground or embedded in concrete supported
+by earth. Flexible or pliable raceways shall be used only for temporary work, branch circuits, and
+for permanent connections to vibrating, rotating and movable equipment and fixtures.
+
+SECTION 507—TEMPORARY SAW POLES
+Temporary saw poles shall be constructed of weatherproof electrical materials consisting of a
+minimum of 60-ampere switch or circuit breaker panel and grounded receptacle mounted on at
+least a solid 4-inch by 4-inch (102 mm by 102 mm) timber or equivalent wood structure. Service
+conductors shall be 6 AWG or larger installed in conduit.
+
+SECTION 508—ELECTRICAL MATERIAL AND EQUIPMENT
+No electrical materials, apparatus, devices, appliances, fixtures, or equipment shall be sold or
+installed in the city unless they are in conformance with the provisions of this code, the laws of
+the State of Texas and any applicable rules and regulations issued under the authority of the state
+statutes.
+            The  maker's  name,  trademark,  or  other  identification  symbol  shall  be  placed  on  all
+electrical  materials,  apparatus,  devices,  appliances,  fixtures,  and  equipment  used  or  installed
+under the provisions of this code.
+            All electrical materials and equipment shall be listed and labeled for intended use and shall
+be included in a list published by an approved agency.
+         EXCEPTION:  Proton therapy equipment, when in its experimental stage.
+
+SECTION 509—ELECTRICAL FENCES
+This code does not regulate electrically charged fences installed in accordance with Section 28-
+10 of the City Code      .
+
+SECTION 510—LOCATION
+Except as otherwise provided in this code, no premises wiring (system) and/or equipment, or part
+thereof, shall be located in any lot other than the lot that is the site of the building, structure, or
+premises served by such facilities unless the premises wiring (system) and/or equipment, or part
+thereof, is located in an easement.
+
+
+
+
+
+                                                              34
+
+===== Page 39 =====
+SECTION 511 – SWIMMING POOLS
+Equipment or lighting over 50 volts shall not be installed in newly constructed swimming pools.
+
+SECTION 512—FULL CUTOFF FIXTURES
+For  purposes  of       this  section,  abutting  development  shall  have  the  definition  ascribed  to  it  by
+Section 42-1 of the       City Code. Full cutoff fixtures as defined in the              Building Code shall be required
+for any wall mounted outdoor fixtures installed on an abutting development installed within 30 feet
+of an abutting single-family residential property. All pole mounted fixtures installed on an abutting
+development  within 30  feet of an abutting single-family residential property shall be full cutoff
+fixtures with house side shields.
+512.1 All outdoor wall or pole mounted luminaires placed within a development, other than single-
+family or multi-unit residential uses as those terms are defined in Chapter 42-1, must be installed
+to minimize light trespass and keep direct light from shining onto abutting residential property or
+public streets. In addition, the light source must be fully enclosed in the luminaire housing.
+In a development other than single-family or multi-unit residential use, as those terms are defined
+in  Chapter  42-1,  that  includes  wall  or  pole-mounted  luminaires  on  a  wall  or  fence  that  abuts
+property used for or restricted to residential purposes or a public street, the following standards
+shall apply:
+     a. All outdoor luminaires must be designed to prevent light trespass beyond the property line
+     of  no  more  than  0.2-foot  candles  measured  at  grade  on  the  property  line,  and  provide  a
+     photometric plan for compliance. Full cutoff luminaires as defined in the Building Code and
+     house side shields as needed may be used to meet the criteria;
+     b. All outdoor luminaires are required to have a maximum Correlated Color Temperature of
+     3,500  Kelvins  and  a  minimum  Color  Rendering  Index  of  70.  The  applicant  must  provide
+     specifications for all luminaires on the building plans evidencing compliance; and
+     c.  Accent  lights  that  are  directed  upwards  are  exempted  from  the  above  requirements,
+     provided the light sources are fully enclosed in the luminaire housing, located and aimed to
+     illuminate only the objects of interest, and are shielded to minimize light spill into the night sky
+     or light trespass onto adjacent residential uses and public streets.
+
+SECTION 513—ARTICLES NOT ADOPTED
+The following provisions of the           National Electrical Code,          2020 Edition are not adopted.
+            1.         Section 240.91(B), regarding protection of conductors;
+            2.         Section 312.5(C), regarding where cables are secured, however the exceptions to
+          Section 312.5 are hereby adopted; and
+            3.         Section 645.25 regarding engineering supervision.
+
+
+
+
+
+
+
+
+
+
+                                                                35

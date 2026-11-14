@@ -1,0 +1,174 @@
+
+
+===== Page 1 =====
+                                                Pre-Authorization of
+                      Multiple Electrical Service Connections
+                                                      Information Sheet
+
+
+
+    Overview
+     The general requirement is for a building or structure to be supplied by only one service. Under some conditions,
+    a single service may not be adequate, and the installation of additional services may be permitted as specified in
+    conditions covered by 2017 NEC Section 230.2(A) through (D).
+    This information sheet provides instructions    on L&I pre-authorization of multiple electrical service connections,
+    frequently required for a    PECO      Electrical Service application.    L&I may only issue a formal determination    in
+    response to an E lectrical Permit application, or a P    reliminary Plan Review application     as outlined in this information
+    sheet. If you are not yet ready to submit an Electrical     Permit application, you may file a Preliminary Plan Review
+    application.
+
+    Application Submission Requirements
+    The application materials will depend on the classification request listed under 2017 NEC section 230.2 (A) through
+    (D). In addition, the Philadelphia Fire Department Fire Code Unit (215-      686-1399) must acknowledge the condition
+    of multiple services and identify any additional operational requirements.
+
+    Condition 1: Special Conditions
+    Completely separate services to the system and equipment covered by 2017 NEC Section 230.2 (A) increases the
+    overall reliability of the power supply to those systems by negating the impact of a disruption of the main building
+    service. The following additional services   shall be permitted by the Department:
+
+        Additional Service Types                                                       Application and Submission Requirements
+
+        Fire Pump                                                   • An Electrical Permit application or a Preliminary Plan Review
+                                                                                    application.
+        Emergency Systems                                                           o   Include a note in the work description that says approval of
+                                                                                      multiple services is being requested with details of which
+        Optional Standby Systems                                                      exception is being met.
+                                                                                    o   Standard Electrical Permit submission requirements apply to
+        Legally required Standby Systems                                              an Electrical Permit application.
+                                                                                    o   Standard Preliminary Plan Review submission requirements
+        Parallel Power Production System                                              apply to a Preliminary Plan Review application.
+
+        Systems designed for connection to multiple sources of supply             • Philadelphia Fire Department Letter of Acknowledgement of
+        for the purpose of enhanced reliability                                     multiple services.
+
+
+    Condition 2: Special Occupancies
+    The Department is authorized     to approve   additional conditions where it may be impractical or impossible to install
+    one service in  a multiple use location with sufficient capacity for any and all future loads. By special permission
+    from the Department, the application for additional services shall be evaluated and considered on a case-by-case
+    basis for the following:
+          PB_010_INF (Rev 10.2023)                                                                                                                                                                                      Page  1 of 3
+
+===== Page 2 =====
+       Building Type       Conditions                                   Application and Submission Requirements
+
+       Multiple                   •   Occupancies may have service              •   Details specific to the equipment room                 •   An Electrical Permit
+       Occupancy                     entrance conductors extend to                  must be provided demonstrating the                         application or a Preliminary
+       Buildings where               each occupancy but can  only                   inability to achieve dimensional                           Plan Review application.
+       there is no                   have one set of service                        requirements outlined in the NEC.                         o    Include a note in the work
+       available space               entrance conductors   in each                                                                               description that says
+       for service                   occupancy.                                                                                                  approval of multiple
+       equipment                  •   Each tenant must have access                                                                               services is being
+       accessible to all             to the service equipment                                                                                    requested with details of
+       occupants.                    serving their space unless a                                                                                which exception is being
+                                     multi-occupancy building has                                                                                met.
+                                     management supervisory                                                                                   o    Standard Electrical Permit
+                                     personnel on-     site on a                                                                                 submission requirements
+                                     continuous basis.                                                                                           apply to an Electrical
+                                                                                                                                                 Permit application.
+       Single Building or         •   Secondary services must enter            •   Demonstrate that the need for additional                   o    Standard Preliminary Plan
+       Other Structure               the structure through separate               service is substantial.                                        Review submission
+       that is sufficiently          exterior walls.                           •   A floor plan showing the farthest point of                    requirements apply to a
+       large to make two          •   Equipment rooms must not be                 the room to the equipment, including:                          Preliminary Plan Review
+       or more services              located within 50 feet of travel                                                                            application.
+       necessary.                    distance of each other.                     o    The distance from the point of service
+                                                                                     conductor entrance to each equipment                  •   Philadelphia Fire
+                                                                                     room.                                                     Department Letter of
+                                                                                 o    The travel distance between the two                      Acknowledgement of
+                                                                                     equipment rooms.                                          multiple services.
+
+
+     Condition 3: Capacity Requirements
+     The       following additional services        shall be permitted by the      Department.
+
+       Additional                 Conditions                                           Application and Submission Requirements
+       Service Types
+
+       Supply Voltage             •   The capacity requirements are in                 • A letter from the Engineer confirming               •   An Electrical Permit
+       Capacity                      excess of 2000 amperes at a supply                  conditions.                                            application or a Preliminary
+                                     voltage of 1000 volts or less.                                                                             Plan Review application.
+                                     Note: It is not a requirement that                                                                          o    Include a note in the
+                                     each service be rated 2000 ampere.                                                                              work description that
+                                     A building with a calculated load of                                                                            says approval of
+                                     2300 ampere could have two-1200                                                                                 multiple services is
+                                     ampere services.                                                                                                being requested with
+                                                                                                                                                     details of which
+       Single-Phase               •   The load requirements of a single-                                                                             exception is being met.
+       Load                          phase installation are greater than                                                                         o    Standard Electrical
+                                     the serving agency normally supplies                                                                            Permit submission
+                                     through one service.                                                                                            requirements apply to
+                                                                                                                                                     an Electrical Permit
+       Freestanding EV-           •   Does not include parcels with                                                                                  application.
+       Charging equipment            residential occupancies                                                                                     o    Standard Preliminary
+                                                                                                                                                     Plan Review
+       Additions to                                                     •   Must have a Building Permit                                              submission
+       existing structures                                                                                                                           requirements apply to a
+       with no through                                                                     Note: When a preliminary plan                             Preliminary Plan
+       penetrations.                                                                       review application     is submitted     and       a       Review application.
+                                                                                           Building Permit has yet to be                     •   Philadelphia Fire
+                                                                                           obtained, the applicant must describe                Department Letter of
+                                                                                           the intended       construction.                     Acknowledgement of
+
+                                                                                                                                                multiple services.
+
+          PB_010_INF       (Rev 10.2023)                                                                                                                            Page  2 of 3
+
+===== Page 3 =====
+     Condition 4: Different Characteristics
+     The following additional services shall be permitted by the Department        :
+
+       Additional Service Types                                                  Submission Requirements and Application
+
+       Different Voltages                                          •   An Electrical Permit a pplication or a Preliminary Plan Review
+                                                                                  application.
+       Different Uses                                                              o    Include a note in the work description that says approval of
+                                                                                      multiple services is being requested with details of which
+       Different Frequency                                                            exception is being met.
+                                                                                   o    Standard Electrical Permit submission requirements apply to an
+       Different Rate Schedules                                                       Electrical Permit application.
+       Different Phases                                                            o    Standard Preliminary Plan Review submission requirements
+                                                                                      apply  to a Preliminary Plan Review application.
+                                                                               •   A letter from the Engineer confirming conditions.
+                                                                               •   Philadelphia Fire Department Letter of Acknowledgement of
+                                                                                  multiple services.
+
+     Note: All other conditions will result in a refusal under the Electrical Code.
+
+     How to Submit    for Pre-authorization
+     Applications     and supplemental documentation can be submitted online via eCLIPSE or in-person at the Permit
+     and License Center. You must make an appointment                          to visit the Permit and License Center.
+
+     Fees
+     Refer to the L&I permit fee schedule for applicable fees.
+     Paper submissions will incur a $4 per page imaging fee. Surcharges of $7.50 will apply.
+
+
+     Final Decision
+     The applicant will receive L&I’s    final decision     within 20 business days. If the     application is approved     for multiple
+     electrical service connections, the applicant will receive a Permit or Preliminary Plan Approval. The Permit or
+     Preliminary Plan Approval shall serve as written notice by the Department.-
+     If the application is denied, the applicant may seek a variance from the Board of Building Standards                                    .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          PB_010_INF       (Rev 10.2023)                                                                                                           Page  3 of 3
