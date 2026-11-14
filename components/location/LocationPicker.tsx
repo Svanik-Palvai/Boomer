@@ -14,18 +14,29 @@ export default function LocationPicker({
 }) {
   const mounted = useRef(true);
   const request = useRef<AbortController>();
+  const operation = useRef(0);
+  const working = useRef(false);
   useEffect(() => {
     mounted.current = true;
+    working.current = false;
+    setCandidate(undefined);
+    setPoint(undefined);
+    setBusy(false);
+    setError("");
     return () => {
+      operation.current++;
       mounted.current = false;
       request.current?.abort();
     };
-  }, []);
+  }, [jobId]);
   const [candidate, setCandidate] = useState<Jurisdiction>();
   const [point, setPoint] = useState<GeoPoint>();
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   async function locate() {
+    if (working.current) return;
+    working.current = true;
+    const token = ++operation.current;
     setBusy(true);
     setError("");
     setCandidate(undefined);
@@ -42,7 +53,7 @@ export default function LocationPicker({
           maximumAge: 0,
         }),
       );
-      if (!mounted.current) return;
+      if (!mounted.current || token !== operation.current) return;
       if (!Number.isFinite(p.coords.accuracy) || p.coords.accuracy > 1000)
         throw new Error(
           "GPS accuracy is too low to identify a town. Retry outdoors or select manually.",
@@ -52,23 +63,32 @@ export default function LocationPicker({
       request.current = new AbortController();
       const controller = request.current;
       const timer = setTimeout(() => controller.abort(), 10000);
-      let r: Response;
+      let data: Jurisdiction;
       try {
-        r = await fetch(`${api.jurisdiction()}?lat=${lat}&lng=${lng}`, {
+        const r = await fetch(`${api.jurisdiction()}?lat=${lat}&lng=${lng}`, {
           signal: controller.signal,
         });
+        const body = await r.json().catch(() => null);
+        if (!r.ok) throw new Error(body?.error || "Location lookup failed");
+        if (
+          !body ||
+          typeof body.city !== "string" ||
+          typeof body.state !== "string" ||
+          typeof body.necEdition !== "string" ||
+          typeof body.sourceUrl !== "string"
+        )
+          throw new Error(
+            "Location service returned no town. Select manually.",
+          );
+        data = body;
       } finally {
         clearTimeout(timer);
       }
-      const data = await r.json();
-      if (!mounted.current) return;
-      if (!r.ok) throw new Error(data.error);
+      if (!mounted.current || token !== operation.current) return;
       setPoint({ lat, lng, accuracy: p.coords.accuracy });
-      if (typeof data.city !== "string" || typeof data.state !== "string")
-        throw new Error("Location service returned no town. Select manually.");
       setCandidate(data);
     } catch (e) {
-      if (!mounted.current) return;
+      if (!mounted.current || token !== operation.current) return;
       setError(
         e instanceof DOMException && e.name === "AbortError"
           ? "Location lookup timed out. Retry or select a town manually."
@@ -77,7 +97,10 @@ export default function LocationPicker({
             : "Location permission denied or timed out. Select a town manually.",
       );
     } finally {
-      if (mounted.current) setBusy(false);
+      if (mounted.current && token === operation.current) {
+        working.current = false;
+        setBusy(false);
+      }
     }
   }
   return (
@@ -127,13 +150,19 @@ export default function LocationPicker({
             className="btn"
             disabled={busy}
             onClick={async () => {
+              if (working.current) return;
+              working.current = true;
+              const token = ++operation.current;
               setBusy(true);
               setError("");
+              request.current = new AbortController();
+              const controller = request.current;
+              const timer = setTimeout(() => controller.abort(), 12000);
               try {
                 if (jobId) {
                   const r = await fetch(api.jurisdiction(), {
                     method: "POST",
-                    signal: AbortSignal.timeout(12000),
+                    signal: controller.signal,
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({
                       jobId,
@@ -143,16 +172,31 @@ export default function LocationPicker({
                       confirmed: true,
                     }),
                   });
-                  const data = await r.json();
-                  if (!r.ok) throw new Error(data.error);
+                  const data = await r.json().catch(() => null);
+                  if (!r.ok)
+                    throw new Error(data?.error || "Could not save location");
+                  if (!data || data.id !== jobId || data.siteConfirmed !== true)
+                    throw new Error(
+                      "Location confirmation was not acknowledged. Retry.",
+                    );
                 }
-                onConfirm(candidate, point);
+                if (mounted.current && token === operation.current)
+                  onConfirm(candidate, point);
               } catch (e) {
-                setError(
-                  e instanceof Error ? e.message : "Could not save location",
-                );
+                if (mounted.current && token === operation.current)
+                  setError(
+                    e instanceof DOMException && e.name === "AbortError"
+                      ? "Saving timed out. Retry confirmation."
+                      : e instanceof Error
+                        ? e.message
+                        : "Could not save location",
+                  );
               } finally {
-                setBusy(false);
+                clearTimeout(timer);
+                if (mounted.current && token === operation.current) {
+                  working.current = false;
+                  setBusy(false);
+                }
               }
             }}
           >
