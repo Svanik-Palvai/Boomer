@@ -1,6 +1,7 @@
 // OWNER: Sunny (AI). Shared wrapper for the ElevenLabs server tools under /api/voice/*.
 import { NextResponse } from "next/server";
 import { DEMO_CASE_ID } from "@/lib/mock/demoCase";
+import { getCase } from "@/lib/cases/store";
 
 export interface ToolInput {
   caseId: string;
@@ -27,8 +28,11 @@ export async function readInput(req: Request): Promise<ToolInput> {
   }
   const pick = (k: string) => (body[k] ?? q.get(k) ?? undefined) as string | boolean | undefined;
   const confirmedRaw = pick("confirmed");
+  // The model fills caseId; if it sends something that isn't a real job, use the demo job.
+  const asked = String(pick("caseId") || pick("case_id") || DEMO_CASE_ID).trim();
+  const caseId = (await getCase(asked)) ? asked : DEMO_CASE_ID;
   return {
-    caseId: String(pick("caseId") || pick("case_id") || DEMO_CASE_ID),
+    caseId,
     confirmed: typeof confirmedRaw === "boolean" ? confirmedRaw : confirmedRaw === undefined ? undefined : /^(true|yes|1)$/i.test(String(confirmedRaw)),
     profile: (pick("profile") as ToolInput["profile"]) || undefined,
     callerPhone: (pick("callerPhone") || pick("system__caller_id")) as string | undefined,
