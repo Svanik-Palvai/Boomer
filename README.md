@@ -1,40 +1,46 @@
 # Boomer
 
-Snap a photo of an electrical job in an unfamiliar town. Boomer works out the location, the adopted code, what differs from home, and permit and license notes, then builds a job plan. A local electrician confirms the plan and the manager approves it with one tap on an iMessage mini app card. While working, the electrician can call Boomer hands-free, and every agent remembers what was said in calls and texts. An AR guide walks the worker through only the steps that are new to them.
+Strap on your phone and call Boomer. It sees what you see, talks you through the fix one step at a time, checks each step from the camera, and saves the job to a record that follows you to the next state.
 
-Built at HackPrinceton, Nov 13–15, 2026, on Photon (iMessage mini apps, voice, messaging).
+The electrician puts their phone in a chest harness with the camera page open and calls Boomer on a Photon number. The agent works out the job from the camera frames, reads one step at a time, repeats on request, and checks each step from a fresh frame before moving on. It knows which town the job is in, so it calls out the steps that differ from the worker's home state. Every finished job is saved to a work record the worker owns, and the link arrives by iMessage.
+
+Built at HackPrinceton, Nov 13–15, 2026, on Photon (voice agent, memory, iMessage) and Gemini.
 
 ## Run it
 
 ```
 npm install
-cp .env.example .env.local   # Windows: copy .env.example .env.local
+cp .env.example .env.local
 npm run dev
 ```
 
-Open http://localhost:3000. With `USE_MOCKS=true` every lane returns demo data, so the full flow clicks through before anything is wired up.
+Open http://localhost:3000. With `USE_MOCKS=true` Gemini and Photon are mocked, so the whole flow runs before anything is wired up.
 
-Fake an iMessage reply locally (PowerShell):
+Play a full guided call against the dev server (what ElevenLabs would do):
 
 ```
-Invoke-RestMethod -Method Post -Uri localhost:3000/api/webhooks/photon -ContentType "application/json" -Body '{"stage":"manager","text":"yes"}'
+npm run fake-call
 ```
 
-Other useful endpoints:
+Then open `/job/demo-2041` (live job view) and `/job/demo-2041/record` (the record).
 
-- `POST /api/cases/demo-2041/reset`: reset the demo case
-- `GET /api/voice/context?caseId=demo-2041`: what the voice agent sees (plan + shared memory)
-- `/mini/review/demo-2041` and `/mini/approve/demo-2041`: the two mini app cards
+## Screens
+
+- `/profile`: name, phone, home state, experience (once)
+- `/camera/[workerId]`: harness phone. Live camera, a still every 2 s plus a burst on "done", wake lock, step number, connection dot. Needs HTTPS (Vercel or ngrok) on a real phone.
+- `/job/[id]`: live job view for the laptop facing the judge
+- `/job/[id]/record`: one finished job, every step with its check photo
+- `/record/[workerId]`: all jobs, totals, share link
 
 ## What's pre-loaded for the demo
 
-- Code rules, permit, inspection and license data for Princeton, NJ and Philadelphia, PA (`data/`), each hand-checked with a source link.
-- AR overlay positions (`data/arSteps.json`), drawn at fixed screen spots with the phone on a stand.
+- The step list for the demo job (kitchen counter receptacle → GFCI), `data/steps.json`, hand-checked.
+- Code editions and rule differences for Princeton, NJ and Philadelphia, PA (`data/`), each with a source link.
 
-Live: photo identification, GPS, Photon messaging, mini app cards, voice calls, shared memory, reply parsing, plan updates.
+Live: the call, the camera, Gemini job identification and step checks, memory across calls, GPS, the record and the iMessage text.
 
-Boomer never marks work as compliant. A licensed local electrician confirms the plan and a manager approves it.
+Boomer guides and checks what the camera can see; the electrician tests, decides and stays responsible.
 
 ## Team
 
-See `CONTRIBUTING.md` for lanes, branches and rules.
+See `CONTRIBUTING.md` for lanes, branches, file ownership and the contracts between lanes.

@@ -1,3 +1,4 @@
+// SHARED. Ask in chat before changing.
 import type { Metadata, Viewport } from "next";
 import { Atkinson_Hyperlegible } from "next/font/google";
 import "./globals.css";

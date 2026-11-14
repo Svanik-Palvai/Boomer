@@ -1,3 +1,4 @@
+// OWNER: Andy (screens)
 // One stroke weight (2px on a 24 grid), round caps. Decorative by default.
 type P = { size?: number; title?: string };
 
