@@ -1,21 +1,33 @@
 [
   {
+    "id": "nj-gfci-kitchen-DRAFT",
+    "jurisdiction": "NJ",
+    "edition": "2023",
+    "necSection": "210.8(A)(6)",
+    "topic": "GFCI in kitchens (DRAFT, not verified)",
+    "summary": "DRAFT placeholder so the New here flow can be built. Aniketh: replace with a verified 2020 vs 2023 difference for this job, or delete.",
+    "why": "The 2023 code New Jersey uses words the kitchen GFCI rule differently from the 2020 code Philadelphia uses.",
+    "sourceUrl": "https://www.nj.gov/dca/codes/codreg/current.shtml",
+    "caveat": "Not verified. The 2020 NEC already requires GFCI for kitchen countertop receptacles, so this may not be a difference for this job at all.",
+    "verified": false,
+    "jobTypes": ["gfci-swap"],
+    "differsFrom": ["PA", "Philadelphia, PA"],
+    "tagsSteps": ["gfci-4-terminals", "gfci-5-line"]
+  },
+  {
     "id": "nj-island-provision",
     "jurisdiction": "NJ",
     "edition": "2023",
     "necSection": "210.52(C)(2)",
     "topic": "Island / peninsula provision",
     "summary": "The 2023 model NEC removes the area-based outlet count. If no outlet is installed, provision for a future outlet is required.",
+    "why": "The 2023 code New Jersey uses requires provision for a future island outlet if none is installed.",
     "sourceUrl": "https://www.nfpa.org/news-blogs-and-articles/blogs/2023/01/18/kitchen-island-and-peninsula-receptacle-outlets-and-the-nec",
     "caveat": "Verified model-edition change, not a determination for existing work. Confirm NJ amendments, rehabilitation rules, permit edition and project scope with the local official. Not a wall-countertop replacement requirement.",
     "verified": true,
-    "appliesTo": ["kitchen island receptacle", "kitchen peninsula receptacle"],
-    "addsSteps": [
-      {
-        "text": "Ask the local reviewer to confirm the island outlet or future provision.",
-        "arStepId": "island-provision"
-      }
-    ]
+    "jobTypes": ["island-receptacle"],
+    "differsFrom": ["PA", "Philadelphia, PA"],
+    "tagsSteps": []
   },
   {
     "id": "nj-island-location",
@@ -24,15 +36,12 @@
     "necSection": "210.52(C)(3)",
     "topic": "Island / peninsula location",
     "summary": "The 2023 model NEC removes the below-counter location option for outlets serving island or peninsula surfaces.",
+    "why": "The 2023 code New Jersey uses no longer allows the below-counter location for island outlets.",
     "sourceUrl": "https://www.nfpa.org/news-blogs-and-articles/blogs/2023/01/18/kitchen-island-and-peninsula-receptacle-outlets-and-the-nec",
     "caveat": "Verified model-edition change, not a determination for existing work. Confirm NJ amendments, rehabilitation rules, permit edition and project scope with the local official. Not a wall-countertop replacement requirement.",
     "verified": true,
-    "appliesTo": ["kitchen island receptacle", "kitchen peninsula receptacle"],
-    "addsSteps": [
-      {
-        "text": "Have the local reviewer confirm the proposed outlet location serving the island surface.",
-        "arStepId": "island-location"
-      }
-    ]
+    "jobTypes": ["island-receptacle"],
+    "differsFrom": ["PA", "Philadelphia, PA"],
+    "tagsSteps": []
   }
 ]

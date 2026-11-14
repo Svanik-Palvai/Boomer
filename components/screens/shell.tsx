@@ -1,9 +1,10 @@
 "use client";
+// OWNER: Andy (screens). Shared UI primitives ("Labeled panel").
 import { useEffect, useRef } from "react";
 import s from "./ui.module.css";
 import { CloseIcon } from "./Icons";
 
-/** Printed label-maker tape. Yellow = New here. White = a sign-off record. */
+/** Printed label-maker tape. Yellow = New here. White = a record entry. */
 export function Tape({
   tone = "yellow",
   size,
@@ -26,11 +27,11 @@ export function Time({ children }: { children: React.ReactNode }) {
   return <span className={`${s.nowrap} num`}>{children}</span>;
 }
 
-export function JobBar({ caseId, place, status }: { caseId: string; place?: string; status?: string }) {
+export function JobBar({ jobId, place, status }: { jobId: string; place?: string; status?: string }) {
   return (
     <header className={s.jobBar}>
       <span>
-        Case <strong className="num">{caseId.replace(/^demo-/, "")}</strong>
+        Job <strong className="num">{jobId.replace(/^demo-/, "")}</strong>
         {place && <>, {place}</>}
       </span>
       {status && <span>{status}</span>}
@@ -38,7 +39,7 @@ export function JobBar({ caseId, place, status }: { caseId: string; place?: stri
   );
 }
 
-const FLOW = ["Snap", "Checks", "Plan", "Review", "Guide"] as const;
+const FLOW = ["New", "Looking", "Plan ready", "Guiding", "Done"] as const;
 export function FlowSteps({ current }: { current: (typeof FLOW)[number] }) {
   const at = FLOW.indexOf(current);
   return (

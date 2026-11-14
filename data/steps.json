@@ -1,0 +1,51 @@
+[
+  {
+    "jobType": "gfci-swap",
+    "title": "Swap a kitchen counter receptacle for a GFCI",
+    "component": "kitchen countertop receptacle",
+    "steps": [
+      {
+        "id": "gfci-1-breaker",
+        "text": "Turn the breaker for this outlet off, then tell me when it's off.",
+        "shortText": "Breaker off. Tell me when it's off.",
+        "reason": "Everything after this is hands-on, so the circuit has to be off first.",
+        "hardGate": true,
+        "check": { "kind": "spoken", "question": "Did the worker say the breaker is off?", "prompt": "Tell me when the breaker is off." }
+      },
+      {
+        "id": "gfci-2-tester",
+        "text": "Hold your tester on the receptacle where I can see it, and tell me what it reads.",
+        "shortText": "Test it dead and tell me the reading.",
+        "reason": "A breaker label can be wrong. The tester is the only proof the circuit is dead.",
+        "hardGate": true,
+        "check": { "kind": "spoken", "question": "Did the worker say the tester shows no voltage?", "prompt": "Tell me what the tester reads." }
+      },
+      {
+        "id": "gfci-3-remove",
+        "text": "Take off the faceplate and pull the old receptacle out of the box so the wires are visible.",
+        "shortText": "Pull the old device.",
+        "reason": "You need to see which wires come in from the panel before you land them on the new device.",
+        "check": { "kind": "vision", "question": "Is the old receptacle pulled out of the box with its wires visible?", "expect": "A receptacle pulled forward out of a wall box, wires visible behind it." }
+      },
+      {
+        "id": "gfci-4-terminals",
+        "text": "Turn the new GFCI around and find the LINE pair and the LOAD pair on the back. Show me the back.",
+        "reason": "A GFCI only protects correctly when the incoming power is on LINE.",
+        "check": { "kind": "vision", "question": "Is the back of a GFCI receptacle with LINE and LOAD markings in frame?", "expect": "The back of a GFCI, LINE and LOAD terminal labels readable." }
+      },
+      {
+        "id": "gfci-5-line",
+        "text": "Land the incoming wires on the LINE pair: hot on brass, neutral on silver. Leave LOAD empty.",
+        "reason": "Wires on LOAD leave the outlet unprotected even though it looks like it works.",
+        "check": { "kind": "vision", "question": "Are the wires landed on the LINE terminals and not on the LOAD terminals?", "expect": "Both wires on the terminal pair marked LINE; LOAD terminals empty or taped." }
+      },
+      {
+        "id": "gfci-6-test",
+        "text": "Mount the GFCI, put the faceplate on, turn the breaker back on, then press TEST and RESET. Tell me if it trips and resets.",
+        "shortText": "Mount it, power on, TEST then RESET. Tell me if it trips and resets.",
+        "reason": "TEST and RESET show the device trips the way it should.",
+        "check": { "kind": "spoken", "question": "Did the worker say it tripped on TEST and reset on RESET?", "prompt": "Did it trip on TEST and come back on RESET?" }
+      }
+    ]
+  }
+]

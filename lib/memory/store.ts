@@ -1,44 +1,49 @@
-// OWNER: Teammate 3 (agents + memory)
-import type { AgentName, Channel, MemoryEvent } from "@/lib/types";
-import { getCase, saveCase } from "@/lib/cases/store";
+// OWNER: Sunny (memory). Multiple agents, one job memory.
+import type { AgentName, Channel, Job, MemoryEvent, Worker } from "@/lib/types";
+import { getJob, updateJob } from "@/lib/db";
+import { STATUS_LABEL } from "@/lib/copy";
+import { talkProfile } from "@/lib/agent/prompt";
 
 /**
- * Shared case memory. All three agents (field/voice, review/iMessage, code)
- * write every utterance and decision here, and read it before they respond.
- * Lives on the Case so it moves to Supabase when Z swaps the store.
+ * Everything said or decided on a job, by any agent on any channel. The guide (voice), checker (vision)
+ * and recorder (iMessage) all write here and read contextFor() before they respond.
  */
 export async function remember(
-  caseId: string,
+  jobId: string,
   e: { channel: Channel; speaker: MemoryEvent["speaker"]; text: string; agent?: AgentName },
 ): Promise<MemoryEvent> {
-  const c = await getCase(caseId);
-  if (!c) throw new Error(`no case ${caseId}`);
-  const event: MemoryEvent = { id: crypto.randomUUID(), caseId, at: new Date().toISOString(), ...e };
-  await saveCase({ ...c, memory: [...(c.memory ?? []), event] });
+  const event: MemoryEvent = { id: crypto.randomUUID(), jobId, at: new Date().toISOString(), ...e };
+  await updateJob(jobId, (j) => ({ ...j, memory: [...j.memory, event] }));
   return event;
 }
 
-export async function recall(caseId: string): Promise<MemoryEvent[]> {
-  return (await getCase(caseId))?.memory ?? [];
+export async function recall(jobId: string): Promise<MemoryEvent[]> {
+  return (await getJob(jobId))?.memory ?? [];
 }
 
 /**
- * Short text block an agent puts in its prompt: plan state + what everyone said.
- * TODO(T3): summarize with Gemini when the history gets long.
+ * The text block the voice agent gets from get_context.
+ * TODO(Sunny): add the worker's past jobs from their record; summarize when memory gets long.
  */
-export async function contextFor(caseId: string, agent: AgentName): Promise<string> {
-  const c = await getCase(caseId);
-  if (!c) return "No case found.";
-  const steps = c.plan.map((s) => `${s.order}. ${s.text}${s.tag === "new_here" ? " [NEW HERE]" : ""}`).join("\n");
-  const said = (c.memory ?? [])
+export function contextFor(job: Job, worker: Worker): string {
+  const steps = job.steps
+    .map((s, i) => {
+      const r = job.results[i];
+      const mark = i === job.current ? "->" : r?.status === "seen" || r?.status === "worker_confirmed" ? "ok" : "  ";
+      return `${mark} ${s.order}. ${s.text}${s.tag === "new_here" ? " [NEW HERE]" : ""}`;
+    })
+    .join("\n");
+  const said = job.memory
     .slice(-20)
     .map((m) => `- (${m.channel}, ${m.speaker}) ${m.text}`)
     .join("\n");
   return [
-    `You are the ${agent} agent for case ${c.id}.`,
-    `Job: ${c.job.component}, ${c.job.task} in ${c.job.site.city}, ${c.job.site.state} (NEC ${c.job.site.necEdition}).`,
-    `Status: ${c.status}`,
-    `Plan:\n${steps}`,
-    `What has been said so far:\n${said || "- nothing yet"}`,
+    `Worker: ${worker.name}, home ${worker.home.city}, ${worker.home.state} (NEC ${worker.home.necEdition}). ${talkProfile(worker.experience)}`,
+    `Job ${job.id}: ${job.title ?? "not identified yet"}. Status: ${STATUS_LABEL[job.status]}.`,
+    job.site
+      ? `Site: ${job.site.city}, ${job.site.state} (NEC ${job.site.necEdition})${job.siteConfirmed ? "" : " - confirm the town out loud"}.`
+      : "Site: unknown yet.",
+    steps ? `Steps:\n${steps}` : "No plan yet. Call look.",
+    `What has been said:\n${said || "- nothing yet"}`,
   ].join("\n\n");
 }
