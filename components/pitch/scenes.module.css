@@ -1182,3 +1182,15 @@
 @media (max-width:1100px) { .evidence { scale:.8; } .circuit { left:16%; top:5%; } .vision {right:16%;top:5%;} .voiceInterface {left:16%;bottom:9%;} .recordSlip {right:13%;bottom:5%;} .codeSheet {display:none;} }
 @media (max-width:759px) { .chaos {display:block;position:absolute;inset:0;pointer-events:none;} .fragment,.circuit,.vision,.codeSheet {display:none;} .evidence {opacity:.22;scale:.62;} .voiceInterface {left:-85px;bottom:auto;top:28px;} .recordSlip {right:-90px;bottom:90px;} .introTitle {z-index:3;} }
 @media (prefers-reduced-motion:reduce) { .chaos {display:block !important;} .fragment {display:none;} .evidence {transform:rotate(var(--tilt));opacity:.18;} .circuit,.vision,.codeSheet {display:none;} .voiceInterface {top:35px;bottom:auto;left:-80px;} .recordSlip {right:-80px;bottom:70px;} }
+/* Mixed field inputs add context around the wordmark without changing the hero grid. */
+.permit { left: 4%; top: 34%; width:175px; --tilt:6deg; background:#d9dfc7; }
+.inspection { right: 4%; top: 25%; width:175px; --tilt:-7deg; background:#e5d6b7; }
+.siteMap { left: 10%; bottom: 7%; width:155px; --tilt:-8deg; background:#e7e2d2; }
+.siteMap > div { position:absolute; right:15px; top:28px; font-size:36px; color:#a54e2e; }
+.materials { right: 9%; bottom: 30%; width:185px; --tilt:5deg; background:#525b3e; color:#f1ebdd; }
+.materials > small { color:#f4c430; }
+.materials p { font:10px/1.7 monospace; margin:12px 0 4px; }
+.firstO svg { width:.9em; height:.48em; top:-.035em; }
+@media (max-width:1100px) { .permit {left:3%;top:33%;} .inspection {right:2%;top:29%;} .materials {right:4%;bottom:28%;} .siteMap {left:5%;bottom:8%;} }
+@media (max-width:759px) { .permit,.inspection,.materials {display:none;} .siteMap {display:block;left:-75px;top:38px;bottom:auto;scale:.62;opacity:.14;} }
+@media (prefers-reduced-motion:reduce) { .permit,.inspection,.materials {display:none;} .siteMap {display:block;left:-75px;top:40px;bottom:auto;scale:.62;opacity:.14;} }
