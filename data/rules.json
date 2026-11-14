@@ -1,0 +1,18 @@
+[
+  {
+    "id": "placeholder-1",
+    "jurisdiction": "NJ",
+    "edition": "2023",
+    "necSection": "TBD",
+    "topic": "PLACEHOLDER: replace with a verified difference",
+    "summary": "PLACEHOLDER",
+    "sourceUrl": "https://www.nj.gov/dca/codes/codreg/current.shtml",
+    "caveat": "Not verified. Do not show as fact.",
+    "verified": false,
+    "appliesTo": ["kitchen countertop receptacle"],
+    "addsSteps": [
+      { "text": "PLACEHOLDER new step", "arStepId": "ar-1" },
+      { "text": "PLACEHOLDER second new step", "arStepId": "ar-2" }
+    ]
+  }
+]

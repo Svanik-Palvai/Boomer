@@ -1,0 +1,22 @@
+[
+  {
+    "city": "Princeton",
+    "state": "NJ",
+    "necEdition": "2023",
+    "sourceUrl": "https://www.nj.gov/dca/codes/codreg/current.shtml",
+    "permitOffice": "TBD (T4)",
+    "permitUrl": "TBD",
+    "inspection": "TBD",
+    "licenseNote": "TBD"
+  },
+  {
+    "city": "Philadelphia",
+    "state": "PA",
+    "necEdition": "2020",
+    "sourceUrl": "https://www.phila.gov/departments/department-of-licenses-and-inspections/resources/applicable-codes/",
+    "permitOffice": "TBD",
+    "permitUrl": "TBD",
+    "inspection": "TBD",
+    "licenseNote": "TBD"
+  }
+]

@@ -1,0 +1,17 @@
+/* Shared styles. Lane-specific styles go in a CSS module next to the page. */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #0f1115;
+  color: #f2f2f2;
+}
+main { max-width: 480px; margin: 0 auto; padding: 16px; }
+a { color: #7cb7ff; }
+.btn {
+  display: block; width: 100%; padding: 16px; font-size: 18px;
+  border: 0; border-radius: 12px; background: #2f6fed; color: white; text-align: center;
+  text-decoration: none; margin-top: 12px;
+}
+.card { background: #1a1d24; border-radius: 12px; padding: 12px 14px; margin: 8px 0; }
+.tag-new { color: #ffb020; font-weight: 600; }

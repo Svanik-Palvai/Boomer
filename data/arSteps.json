@@ -1,0 +1,4 @@
+[
+  { "id": "ar-1", "label": "PLACEHOLDER step 1", "x": 0.5, "y": 0.4, "w": 0.2, "h": 0.15, "arrow": "down" },
+  { "id": "ar-2", "label": "PLACEHOLDER step 2", "x": 0.5, "y": 0.6, "w": 0.2, "h": 0.15, "arrow": "up" }
+]
