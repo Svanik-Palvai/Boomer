@@ -6,6 +6,8 @@ import { checkStep } from "@/lib/ai/checkStep";
 import { allDone, applyCheck, canConfirmByVoice, confirmSpoken, currentStep, readStep } from "@/lib/agent/engine";
 import { SAY } from "@/lib/copy";
 import { UNCLEAR_RETRIES } from "@/lib/config";
+import { judgeConfirmation } from "@/lib/ai/judgeConfirmation";
+import { remember } from "@/lib/memory/store";
 
 export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
   const step = currentStep(job);
@@ -14,7 +16,13 @@ export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
   // Spoken checks (and vision steps after repeated "can't tell"): log the worker's confirmation.
   if (step.check.kind === "spoken" || (req.spokenConfirmation && canConfirmByVoice(job))) {
     if (!req.spokenConfirmation) return { say: step.check.prompt ?? SAY.hardGate };
-    // TODO(Sunny): judge the confirmation (e.g. tester must read no voltage) before accepting it.
+    // The worker's words must actually confirm it: a "no", a vague answer or a live tester reading is asked again.
+    const verdict = judgeConfirmation(step, req.spokenConfirmation);
+    await remember(job.id, { channel: "voice", agent: "guide", speaker: "worker", text: req.spokenConfirmation });
+    if (!verdict.ok) {
+      const check: CheckResult = { outcome: "unclear", say: verdict.say ?? SAY.hardGate };
+      return { check, say: check.say };
+    }
     const updated = await updateJob(job.id, (j) => confirmSpoken(j, req.spokenConfirmation!));
     const check: CheckResult = { outcome: "pass", say: SAY.workerConfirmed };
     return { job: updated, check, say: `${SAY.workerConfirmed} ${readStep(updated, worker)}` };
