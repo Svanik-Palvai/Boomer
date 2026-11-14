@@ -1,59 +1,98 @@
 <!-- OWNER: Zohaib -->
-# Mini apps: what we do and why
+# iMessage mini apps
 
-## What Photon "mini apps" are
+Boomer's job sheet and work record open **inside iMessage** as mini apps.
 
-A Photon mini app is an **iMessage App card**: a tappable bubble for a URL that opens inside Photon's
-own Apple-approved iMessage app ("Spectrum Mini App"), so a business doesn't need its own iMessage extension.
-The recipient downloads that app once, the first time. A "live" card shows the extension's live UI right in
-the chat and can be edited in place later. Without the extension, the recipient gets a static preview or a link.
+**Two numbers:** voice is on Photon 2.0 (`PHOTON_NUMBER`, SIP to ElevenLabs). **All iMessage** (record texts,
+replies, sign-up, supervisor alerts and the mini app cards) is on **Photon 1.0** (Stable, `spectrum-ts`,
+`PHOTON_STABLE_NUMBER`), so cards and texts arrive in the same thread. 2.0 can only send text and images over
+iMessage, which is why messaging moved. One number for all three needs Photon 1.0's paid Business plan
+(dedicated line + Photon Call).
 
-- Sent with `app(url, { live })` or `customizedMiniApp({...})` from the **spectrum-ts** SDK (`@spectrum-ts/imessage`),
-  which is the **Stable (v1)** platform.
-  Docs: https://photon.codes/docs/spectrum-ts/content/app.md and
-  https://photon.codes/docs/spectrum-ts/providers/imessage/messaging-features/apps.md.
-  Launch post: https://photon.codes/blog/you-can-now-send-live-mini-app-cards-in-imessage
-- **Not on the 2.0 beta**, which is what we use (`app.beta.photon.codes`, `@photon-ai/api` 0.6.0). The beta page
-  (https://photon.codes/docs/beta/photon.md) says iMessage on Beta "supports only text and images".
-  The client agrees: `ImessageMessageContent` is `text | attachment | message.read | typing | group`, and there's
-  no card, app, rich-link or preview type. Polls, reactions and voice exist in `SendContent`, but not for iMessage.
-- Shared iMessage line (ours): sends only in direct chats, and only to someone who has texted the line since
-  they were assigned (`SHARED_LINE_INBOUND_REQUIRED`). The worker texts first in the demo, so a reply works.
-  Older posts list mini-app support under the paid Business tier (dedicated lines). We haven't confirmed that.
+Inbound texts arrive at `/api/webhooks/spectrum` (signed, `PHOTON_STABLE_WEBHOOK_SECRET`) and go through
+`lib/agents/inbox.ts`, the same router the old 2.0 webhook uses. `sendText` (lib/photon/send.ts) sends on 1.0 and
+falls back to 2.0. Set `PHOTON_TEXT_VIA=beta` to put texts back on 2.0.
 
-## Options
+## What the worker (and whoever they share with) sees
 
-| | What | Cost | Demo in a live call | Lands on the record link |
-|---|---|---|---|---|
-| A | Real Photon mini app card for the record | Move the send to spectrum-ts on Stable, likely a dedicated line, and the worker installs the Spectrum app | Risky: second platform, install prompt on stage | Yes |
-| B | Card or rich content type through beta `sendMessage` | Not possible: beta iMessage has no card type. The closest is an image attachment (multipart upload, then send) | OK | Only as an image next to the link |
-| C | iMessage link preview: Open Graph tags plus a card image on the record pages | About 1 hour. Additive and server-only | Yes: the text we already send unfurls into a card | Yes, it *is* the link |
-| D | Skip | 0 | n/a | n/a |
+| Card | Page it opens | When it's sent |
+|---|---|---|
+| **Job sheet** (live) | `/m/job/<jobId>` | Worker texts "job sheet" / "live card"; the supervisor gets one when the worker says "tell my supervisor …"; the worker gets the finished sheet when the job closes |
+| **Work record** | `/m/record/<workerId>` | Worker texts "send me my record card", or "send my record to <number>" |
 
-## Pick: C, link preview cards
+The job sheet is a **live** card. Every time a voice tool moves a step, the card already in the thread is edited
+in place (`refreshJobCards` in `lib/voice/tool.ts`), and the open page polls the job every 3 s.
 
-It's cheap, it doesn't change the send path (the 10-second record text and the `boomer-record:<entryId>`
-dedupe key are untouched), and it works on the beta shared line today. The link we already text now unfurls into a
-card with the job title, town and code edition, "N of M steps done · K seen on camera · J corrected" and
-"Observed by Boomer". For judges, we say: "Photon mini app cards are on Stable. On the 2.0 beta we get the same
-'card in the thread' with a link preview, and the record page is the mini app." If the Photon rep confirms that
-beta can send app cards, or that our project can use Stable, A is the upgrade, and the URL is the same record page.
+### Design: a panel schedule, not an app
 
-Built:
-- `lib/record/preview.tsx`: metadata and the 1200x630 card image (`next/og`).
-- `app/job/[id]/record/layout.tsx` and `app/record/[workerId]/layout.tsx`: `generateMetadata` only. Andy's
-  `page.tsx` files are client components, so the metadata goes in a sibling layout and the pages aren't touched.
-- `app/api/og/job/[id]` and `app/api/og/record/[workerId]`: the card PNGs. These are API routes, not
-  `opengraph-image.tsx` files, because Next points file-based images at `localhost` in dev, so iMessage
-  couldn't fetch them through the tunnel.
+Electricians already read panel schedules, circuit directories and drawing title blocks every day, so the sheet
+borrows those instead of app chrome:
 
-Caveats: the preview only renders if the page and image can be reached at `NEXT_PUBLIC_APP_URL` (the tunnel). iOS
-may show "Tap to load preview" for a sender who isn't in the worker's contacts, so save the Boomer number as a
-contact on the demo phone.
+- **Title block** (Site · Code · Electrician · Date) like the corner of a drawing.
+- **One row per step**, numbered like circuits, in a ruled grid. Tap a row for the reason, the NEC section and
+  the source link.
+- **Result codes**, short and all caps: `SEEN` (camera), `SAID` (worker confirmed out loud), `FIXED`
+  (not yet, then seen), `NOW`, `NOT YET`. A legend sits at the bottom, like a panel legend.
+- **Slots** across the top, one per step, like breaker handles: filled = done, yellow = now.
+- **Yellow label-maker tape** for `NEW HERE` steps, the same token the rest of the app uses.
+- The work record reads like a spreadsheet: a key-numbers row (Jobs, States, Seen on cam, Fixed), one row per job
+  and a **Total** row.
+- Light by default (iMessage), follows the phone's dark mode. Uses `.surface-card` from `app/globals.css`.
+
+## How it's wired
+
+| File | Job |
+|---|---|
+| `app/m/job/[id]/page.tsx`, `app/m/_ui/JobSheet.tsx` | Job sheet (server render, then live polling) |
+| `app/m/record/[workerId]/page.tsx` | Work record sheet |
+| `app/m/mini.module.css` | The sheet styles |
+| `lib/record/sheet.ts` | Job → rows, result codes, the one-line progress used in captions |
+| `lib/photon/stable.ts` | Photon 1.0 client: `sendMiniApp`, `updateMiniApp` (edit in place), `sendStableText` |
+| `lib/photon/miniapp.ts` | `sendJobCard`, `sendRecordCard`, `refreshJobCards`, with fallbacks |
+| `app/api/og/job/[id]` | Card image: live progress for open jobs, the record once closed |
+
+The card's caption lines come from the page's Open Graph tags (`generateMetadata`), so they always match the
+sheet. The card URL carries `?v=<status>-<step>` so iMessage re-reads the caption on each edit.
+
+**Fallbacks.** If Photon 1.0 isn't set up, or a send fails, the same `/m/...` link goes out over Photon 2.0 and
+unfurls into a preview card. If that fails too (2.0's shared line can't start a chat), the worker gets the card
+to forward. Nothing in the core flow waits on Photon 1.0: the record text at job close goes out first, as before.
+
+**Starting chats:** only Photon 1.0 Business (dedicated line) can start a new conversation ("cold outreach", 50 a
+day). On the free shared line, a supervisor or employer has to text Boomer once first; until then the worker gets
+the card to forward.
+
+## Setup (Photon 1.0)
+
+1. Sign in to the **Stable** dashboard (app.photon.codes, not `app.beta.photon.codes`). Create a project, add
+   each phone that will text Boomer under **Users** (10 on Free), and copy the **project ID** and **project secret**
+   from Settings. The iMessage number is on the Platforms page.
+   Then **Webhooks → Add webhook** → `https://<app>/api/webhooks/spectrum`, and save the signing secret
+   (shown once) as `PHOTON_STABLE_WEBHOOK_SECRET`.
+2. Add them to `.env` / `.env.local` (and Vercel):
+   ```
+   PHOTON_STABLE_PROJECT_ID=...
+   PHOTON_STABLE_PROJECT_SECRET=...
+   ```
+3. Check: `npm run miniapp-test -- +1<your phone>`. It sends the demo job sheet as a card. The first tap on the
+   phone offers to install Photon's **Spectrum** iMessage app (one time).
+4. Restart `npm run dev`. Text Boomer "job sheet" to get the live card.
+
+`NEXT_PUBLIC_APP_URL` has to be reachable from the phone (the tunnel, or Vercel once it's deployed with this code).
+
+## Limits and caveats
+
+- Only people added under **Users** can text the shared 1.0 number, and a free shared line can't start chats
+  ("cold outreach" is a Business feature), so a supervisor or employer must text Boomer once first.
+- The recipient installs the Spectrum app once. Without it they still see the static card and can open the link.
+- "Edit in place" keeps the sent card in server memory. After a restart, the next update sends a new card.
+- Serverless (Vercel) functions don't keep the Photon 1.0 connection between requests: sends work, but in-place
+  edits will mostly fall back to new cards there. A long-running server keeps them.
+- Quotas on Stable: 5,000 messages per day per server, 50 new conversations per line per day.
 
 ## Questions for the Photon rep
-1. Will beta (`@photon-ai/api`) get iMessage app cards (`app()` / mini app) as a content type? When?
-2. Can a beta project send a Stable mini app card from a **shared** line, or do mini apps need a dedicated line or plan?
-3. When the beta sends a text that contains a URL, does Photon's sender generate the iMessage rich-link payload,
-   or does it arrive as a plain link that the recipient's phone previews (or shows as "Tap to load preview")?
-4. Is an image attachment, or a `group` of text plus image, on a shared line within the same "texted first" rule?
+
+1. Does a Stable shared-pool line support `app()` cards, or only dedicated lines?
+2. Can a project hold both a beta (2.0) and a Stable (1.0) line on the same number, so cards come from Boomer's
+   usual sender?
+3. Can a sent card be edited from a different process (by message id), so live updates work on serverless?

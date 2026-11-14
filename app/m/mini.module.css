@@ -1,0 +1,304 @@
+/* OWNER: Zohaib. iMessage mini app sheets (Photon 1.0 cards open these inside iMessage).
+ * Reads like a panel schedule: a title block, then a ruled grid, one row per step.
+ * Uses the shared tokens through .surface-card (light by default, follows the phone's dark mode). */
+
+.page {
+  min-height: 100dvh;
+  background: var(--steel);
+  color: var(--ink);
+  padding: 12px 12px 28px;
+  font-size: 16px;
+  line-height: 1.35;
+  font-variant-numeric: tabular-nums;
+}
+
+.sheet {
+  max-width: 560px;
+  margin: 0 auto;
+  background: var(--steel-raised);
+  border: 1px solid var(--field-border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* ── Header strip ── */
+.head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 10px 12px 8px;
+  border-bottom: 2px solid var(--ink);
+}
+.status {
+  padding: 1px 6px;
+  border: 1px solid var(--field-border);
+  border-radius: var(--radius-tape);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+.kicker {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+.jobNo {
+  margin-left: auto;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--ink-2);
+}
+.live {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--ground-green);
+}
+.live::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: currentColor;
+  animation: pulse 1.6s ease-in-out infinite;
+}
+@keyframes pulse { 50% { opacity: 0.3; } }
+@media (prefers-reduced-motion: reduce) { .live::before { animation: none; } }
+
+.title {
+  padding: 8px 12px 10px;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+/* ── Title block: labeled cells, like the corner of a drawing ── */
+.block {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-top: 1px solid var(--rule);
+}
+/* Narrow phones: 2 x 2, so "Princeton, NJ" and "NEC 2023" never get cut off. */
+@media (max-width: 440px) {
+  .block { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .block .cell:nth-child(2n) { border-right: 0; }
+  .block .cell:nth-child(n + 3) { border-top: 1px solid var(--rule); }
+}
+.cell {
+  padding: 6px 8px 7px;
+  border-right: 1px solid var(--rule);
+  min-width: 0;
+}
+.cell:last-child { border-right: 0; }
+.label {
+  display: block;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+.value {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.big { font-size: 22px; line-height: 1.1; }
+.review { color: var(--hot-red); }
+
+/* ── Progress: one slot per step, like breaker handles ── */
+.progress {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  border-top: 1px solid var(--rule);
+  border-bottom: 2px solid var(--ink);
+  font-size: 14px;
+}
+.slots { display: flex; gap: 3px; flex: 1; }
+.slot {
+  flex: 1;
+  height: 10px;
+  border: 1px solid var(--field-border);
+  border-radius: 2px;
+}
+.slot[data-s="seen"], .slot[data-s="fixed"] { background: var(--ground-green); border-color: var(--ground-green); }
+.slot[data-s="said"] { background: var(--ink-2); border-color: var(--ink-2); }
+.slot[data-s="now"] { background: var(--tape-yellow); border-color: var(--on-tape); }
+.slot[data-s="notyet"] { background: var(--hot-red); border-color: var(--hot-red); }
+.count { font-weight: 700; white-space: nowrap; }
+
+/* ── The grid ── */
+.table {
+  font: inherit;
+  font-size: 15px;
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.table th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--steel);
+  padding: 5px 8px;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  text-align: left;
+  border-bottom: 1px solid var(--field-border);
+}
+.table td {
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+}
+.table tr:last-child td { border-bottom: 0; }
+.num {
+  width: 34px;
+  text-align: right;
+  font-weight: 700;
+  color: var(--ink-2);
+  border-right: 1px solid var(--rule);
+}
+.res { width: 78px; border-left: 1px solid var(--rule); }
+.right { text-align: right; }
+.current td { background: color-mix(in srgb, var(--tape-yellow) 16%, transparent); }
+.current .num { color: var(--ink); }
+.pending td { color: var(--ink-2); }
+
+.stepText {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 15px;
+}
+.details[open] .stepText { -webkit-line-clamp: unset; }
+.details summary {
+  list-style: none;
+  cursor: pointer;
+}
+.details summary::-webkit-details-marker { display: none; }
+.more {
+  margin-top: 6px;
+  padding: 6px 8px;
+  border-left: 3px solid var(--rule);
+  font-size: 14px;
+  color: var(--ink-2);
+}
+.more a { color: inherit; }
+
+/* Result codes: short, all caps, one color each (same jobs as the tape tokens). */
+.code {
+  display: inline-block;
+  min-width: 52px;
+  padding: 2px 5px;
+  border-radius: var(--radius-tape);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  border: 1px solid currentColor;
+}
+.code[data-s="seen"] { color: var(--ground-green); }
+.code[data-s="fixed"] { color: var(--ground-green); }
+.code[data-s="said"] { color: var(--ink); }
+.code[data-s="now"] { background: var(--tape-yellow); color: var(--on-tape); border-color: var(--on-tape); }
+.code[data-s="notyet"] { color: var(--hot-red); }
+.code[data-s="pending"] { color: var(--ink-2); border-style: dashed; }
+.how {
+  display: block;
+  margin-top: 3px;
+  white-space: nowrap;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--ink-2);
+}
+
+/* Yellow label-maker tape for steps that differ from the worker's home code. */
+.tape {
+  display: inline-block;
+  margin: 3px 0 0;
+  padding: 1px 6px;
+  border-radius: var(--radius-tape);
+  background: var(--tape-yellow);
+  color: var(--on-tape);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+/* Totals row, like the bottom of a spreadsheet. */
+.total td {
+  border-top: 2px solid var(--ink);
+  font-weight: 700;
+}
+.rowLink { color: inherit; text-decoration: none; display: block; }
+.rowLink:active { opacity: 0.6; }
+.sub { display: block; font-size: 13px; color: var(--ink-2); }
+
+.empty {
+  padding: 18px 12px;
+  color: var(--ink-2);
+  font-size: 15px;
+}
+
+/* ── Footer: legend + label ── */
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  padding: 8px 12px;
+  border-top: 2px solid var(--ink);
+  background: var(--steel);
+  font-size: 12px;
+  color: var(--ink-2);
+}
+.legend b { color: var(--ink); }
+.foot {
+  max-width: 560px;
+  margin: 10px auto 0;
+  padding: 0 4px;
+  font-size: 12px;
+  color: var(--ink-2);
+}
+.stamp {
+  display: inline-block;
+  margin-bottom: 4px;
+  padding: 1px 6px;
+  border: 1px solid var(--tape-white-edge, var(--rule));
+  border-radius: var(--radius-tape);
+  background: var(--tape-white);
+  color: var(--on-tape);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Key numbers row (work record): always one row of four, big digits. */
+.kpi {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-top: 1px solid var(--rule);
+  border-bottom: 2px solid var(--ink);
+}
+.kpi .cell { border-top: 0; }
+.date { width: 72px; font-size: 13px; color: var(--ink-2); white-space: nowrap; }

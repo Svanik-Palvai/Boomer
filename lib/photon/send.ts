@@ -1,15 +1,25 @@
 // OWNER: Zohaib (Photon)
 import type { RecordEntry } from "@/lib/types";
 import { photonConfigured, photonErrorText, sendPhotonText } from "@/lib/photon/client";
+import { sendStableText, stableTexting } from "@/lib/photon/stable";
 
 /**
- * Send one text through Photon. Returns the Photon message id.
+ * Send one text. iMessage goes out on Photon 1.0 when it's set up (one number for texts and mini app cards,
+ * see lib/photon/stable.ts); otherwise on Photon 2.0. Returns the message id.
  * Uses the real line whenever PHOTON_API_KEY + PHOTON_PROJECT_ID + a line number are set (even with USE_MOCKS=true),
  * so the record text can be tested before the rest of the stack is live. Otherwise it logs instead.
  * `dedupeKey` makes it safe to retry: Photon won't send the same key twice. Retries once on failure,
  * because the record link has to land within 10 s of the job closing.
  */
 export async function sendText(phone: string, text: string, dedupeKey = `boomer:${phone}:${text.length}:${Date.now()}`): Promise<string> {
+  if (stableTexting()) {
+    try {
+      return await sendStableText(phone, text);
+    } catch (err) {
+      if (!photonConfigured()) throw err;
+      console.error("[photon] 1.0 text failed, trying 2.0:", String(err).slice(0, 200));
+    }
+  }
   if (!photonConfigured()) {
     console.log(`[mock photon] to ${phone}: ${text}`);
     return "mock-msg";
