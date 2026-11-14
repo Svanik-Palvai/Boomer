@@ -13,7 +13,8 @@ export const POST = voiceTool("look", async ({ job, worker, req }) => {
 
   // "What am I looking at?" mid-job: describe, don't re-plan.
   if (job.status === "guiding") {
-    return { say: identity.details ?? `I see a ${identity.component}.` };
+    const seen = identity.details ?? `I see a ${identity.component}.`;
+    return { say: `${seen} That is just what I see. Say "check" and I'll judge this step.` };
   }
 
   const jobType = identity.jobType;
