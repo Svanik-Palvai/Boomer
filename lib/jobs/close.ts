@@ -32,7 +32,7 @@ export async function closeJob(job: Job): Promise<RecordEntry> {
   if (worker) {
     const text = recordText(entry, absolute(pages.jobRecord(job.id)));
     try {
-      await sendText(worker.phone, text);
+      await sendText(worker.phone, text, `boomer-record:${entry.id}`);
       await remember(job.id, { channel: "imessage", agent: "recorder", speaker: "agent", text });
     } catch (err) {
       // The fallback is the link + QR on the live job view, so a failed text must not fail the close.

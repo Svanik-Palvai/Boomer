@@ -1,41 +1,42 @@
 // OWNER: Zohaib (backend)
 import type { Job, Worker } from "@/lib/types";
-import { newId, nowIso, resetTables, tables } from "./memoryStore";
+import { backend } from "./backend";
+import { newId, nowIso, ready, reseedDemo } from "./memoryStore";
+
+const index = (j: Job) => ({ workerId: j.workerId, jobId: j.id });
 
 export async function getJob(id: string): Promise<Job | null> {
-  return tables().jobs.get(id) ?? null;
+  await ready();
+  return backend().get<Job>("job", id);
 }
 
 export async function saveJob(job: Job): Promise<Job> {
+  await ready();
   const saved = { ...job, updatedAt: nowIso() };
-  tables().jobs.set(saved.id, saved);
+  await backend().put("job", saved.id, saved, index(saved));
   return saved;
 }
 
 /**
- * Read-modify-write. `fn` must be synchronous so no other write can land in between.
+ * Read-modify-write. `fn` must be synchronous and pure (it can run more than once if two writes race).
  * Do slow work (Gemini) BEFORE calling this, then apply the result inside fn.
  */
 export async function updateJob(id: string, fn: (job: Job) => Job): Promise<Job> {
-  const current = tables().jobs.get(id);
-  if (!current) throw new Error(`No job ${id}`);
-  return saveJob(fn(current));
+  await ready();
+  return backend().update<Job>("job", id, (j) => ({ ...fn(j), updatedAt: nowIso() }), index);
 }
 
 export const isOpen = (j: Job) => j.status !== "done" && j.status !== "stopped";
 
 /** The worker's open job, newest first. This is how a dropped call resumes at the same step. */
 export async function findOpenJob(workerId: string): Promise<Job | null> {
-  const open = [...tables().jobs.values()]
-    .filter((j) => j.workerId === workerId && isOpen(j))
-    .sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
+  const open = (await listJobs(workerId)).filter(isOpen).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
   return open[0] ?? null;
 }
 
 export async function listJobs(workerId: string): Promise<Job[]> {
-  return [...tables().jobs.values()]
-    .filter((j) => j.workerId === workerId)
-    .sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+  await ready();
+  return (await backend().list<Job>("job", { workerId })).sort((a, b) => b.createdAt.localeCompare(a.createdAt));
 }
 
 export async function createJob(worker: Worker): Promise<Job> {
@@ -55,7 +56,7 @@ export async function createJob(worker: Worker): Promise<Job> {
   });
 }
 
-/** Wipes everything and re-seeds the demo worker and demo-2041. */
+/** Puts the demo worker and demo-2041 back to the start (record, frames, flags too). Other data is kept. */
 export async function resetDemo(): Promise<void> {
-  resetTables();
+  await reseedDemo();
 }

@@ -6,6 +6,13 @@ import { checkStep } from "@/lib/ai/checkStep";
 import { allDone, applyCheck, canConfirmByVoice, confirmSpoken, currentStep, readStep } from "@/lib/agent/engine";
 import { SAY } from "@/lib/copy";
 import { UNCLEAR_RETRIES } from "@/lib/config";
+import { judgeConfirmation } from "@/lib/ai/judgeConfirmation";
+import { remember } from "@/lib/memory/store";
+
+/** Checker -> shared job memory, so the guide and the iMessage recorder can refer back to it. Fire-and-forget: the check has a ~3 s budget. */
+function logCheck(jobId: string, text: string) {
+  remember(jobId, { channel: "voice", agent: "checker", speaker: "agent", text }).catch((err) => console.error("[check_step] memory write failed:", err));
+}
 
 export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
   const step = currentStep(job);
@@ -14,9 +21,16 @@ export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
   // Spoken checks (and vision steps after repeated "can't tell"): log the worker's confirmation.
   if (step.check.kind === "spoken" || (req.spokenConfirmation && canConfirmByVoice(job))) {
     if (!req.spokenConfirmation) return { say: step.check.prompt ?? SAY.hardGate };
-    // TODO(Sunny): judge the confirmation (e.g. tester must read no voltage) before accepting it.
+    // The worker's words must actually confirm it: a "no", a vague answer or a live tester reading is asked again.
+    const verdict = judgeConfirmation(step, req.spokenConfirmation);
+    await remember(job.id, { channel: "voice", agent: "guide", speaker: "worker", text: req.spokenConfirmation });
+    if (!verdict.ok) {
+      const check: CheckResult = { outcome: "unclear", say: verdict.say ?? SAY.hardGate };
+      return { check, say: check.say };
+    }
     const updated = await updateJob(job.id, (j) => confirmSpoken(j, req.spokenConfirmation!));
     const check: CheckResult = { outcome: "pass", say: SAY.workerConfirmed };
+    logCheck(job.id, `Step ${step.order} worker confirmed: "${req.spokenConfirmation}"`);
     return { job: updated, check, say: `${SAY.workerConfirmed} ${readStep(updated, worker)}` };
   }
 
@@ -26,6 +40,7 @@ export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
   const check = await checkStep(step, frames, attempt);
 
   const updated = await updateJob(job.id, (j) => (j.current === job.current ? applyCheck(j, check) : j));
+  logCheck(job.id, `Step ${step.order} camera check: ${check.outcome}. ${check.say}`);
   if (check.outcome === "pass") return { job: updated, check, say: `${check.say} ${readStep(updated, worker)}` };
 
   const unclear = updated.results[updated.current]?.unclear ?? 0;
