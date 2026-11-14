@@ -52,8 +52,7 @@ export async function contextFor(caseId: string, agent: AgentName): Promise<stri
       `Steps:\n${steps}`,
     );
   } else {
-    const steps = c.plan.map((s) => `${s.order}. ${s.text}${s.tag === "new_here" ? " [NEW HERE]" : ""}`).join("\n");
-    parts.push(`Status: ${c.status}. Guided call not started yet.`, `Plan:\n${steps}`);
+    parts.push("Guided call not started yet. Call start_job to get the steps; do not read steps from anywhere else.");
   }
   parts.push(`What has been said so far:\n${said || "- nothing yet"}`);
   return parts.join("\n\n");

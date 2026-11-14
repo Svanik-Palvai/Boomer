@@ -9,3 +9,6 @@ export async function POST(req: Request) {
   await resetGuide(caseId);
   return NextResponse.json({ ok: true, caseId });
 }
+
+/** Same as POST, so the demo can be reset from a browser tab. */
+export const GET = POST;
