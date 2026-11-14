@@ -5,14 +5,12 @@ export const jurisdictions = {
   destination: towns.find((t) => t.city === "Princeton")!,
 };
 export const sections = [
-  { id: "problem", label: "The gap" },
-  { id: "borders", label: "Across borders" },
-  { id: "how", label: "How it works" },
-  { id: "correction", label: "See it work" },
-  { id: "record", label: "What travels" },
-  { id: "agents", label: "Agents" },
-  { id: "tracks", label: "Tracks" },
-  { id: "build", label: "The build" },
+  { id: "problem", label: "Overview" },
+  { id: "borders", label: "Workflow" },
+  { id: "correction", label: "Caught mistake" },
+  { id: "record", label: "Work record" },
+  { id: "lessons", label: "Lessons" },
+  { id: "agents", label: "Technology" },
 ] as const;
 export interface Company {
   name: string;

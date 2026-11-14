@@ -7,6 +7,7 @@ import CompanyMark from "./CompanyMark";
 import Wordmark from "./Wordmark";
 import AgentSystem from "./AgentSystem";
 import JudgeTracks from "./JudgeTracks";
+import LessonShowcase from "./LessonShowcase";
 import { OpeningScene, BorderScene, RecordScene } from "./ScrollScenes";
 import { Harness, Outlet } from "./Illustrations";
 import s from "./pitch.module.css";
@@ -91,7 +92,8 @@ export default function Pitch() {
           href="#problem"
           aria-label="Boomer, back to the beginning"
         >
-          <Wordmark /><span aria-hidden="true">↗</span>
+          <Wordmark />
+          <span aria-hidden="true">↗</span>
         </a>
         <nav aria-label="Pitch sections">
           {sections.map((item) => (
@@ -141,7 +143,7 @@ export default function Pitch() {
           </div>
         </section>
 
-        <section id="how" data-section className={`${s.section} ${s.dark}`}>
+        <section id="how" className={`${s.section} ${s.dark}`}>
           <div className={s.sectionLabel}>
             <span>02 / THE SETUP</span>
             <span>PHOTON NUMBER → ELEVENLABS VOICE AGENT</span>
@@ -283,17 +285,25 @@ export default function Pitch() {
         <RecordScene />
 
         <section
+          id="lessons"
+          data-section
           className={`${s.section} ${s.paper} ${s.lessonSection}`}
           aria-labelledby="lessons-title"
         >
           <div>
             <span className={s.kicker}>05 / KNOWLEDGE THAT KEEPS WORKING</span>
             <h2 id="lessons-title">
-              One job.
-              <br />A lesson for the next.
+              Record the job.
+              <br />
+              Build a lesson.
+              <br />
+              Share the knowledge.
             </h2>
             <p>
-              Give the next electrician more than a transcript. The pipeline assembles consented footage and call audio into an editable lesson draft—with chapters, captions, corrections and labeled freeze frames.
+              Give the next electrician more than a transcript. The pipeline
+              assembles consented footage and call audio into an editable lesson
+              draft—with chapters, captions, corrections and labeled freeze
+              frames.
             </p>
             <Link href="/lessons" className={s.textLink}>
               Explore the lesson library ↗
@@ -304,8 +314,9 @@ export default function Pitch() {
               {[
                 "Capture with consent",
                 "Generate a draft from real evidence",
-                "Edit, render & electrician review",
-                "Worker permission",
+                "Edit captions, sync & annotations",
+                "Render with FFmpeg",
+                "Electrician review + worker permission",
                 "Publish the reviewed version",
               ].map((step, i) => (
                 <li key={step}>
@@ -336,14 +347,18 @@ export default function Pitch() {
               </a>
             </details>
             <p className={s.pipelineNote}>
-              Pipeline implemented; real-session acceptance remains. No real-job
-              lesson is presented as published here.
+              A real session must complete editing, rendering, electrician
+              review and worker permission before its lesson is published.
             </p>
           </div>
         </section>
 
+        <LessonShowcase />
         <AgentSystem />
-        <JudgeTracks />
+        <details id="tracks" className={s.trackDisclosure}>
+          <summary>Sponsor tracks · inspect the technical evidence ↗</summary>
+          <JudgeTracks />
+        </details>
 
         <section id="build" data-section className={`${s.section} ${s.dark}`}>
           <div className={s.sectionLabel}>
@@ -391,6 +406,10 @@ export default function Pitch() {
           <div className={s.architectureBottom}>
             JOB COMPLETE <span aria-hidden="true">↓</span> WORK RECORD + PHOTON
             IMESSAGE
+          </div>
+          <div className={s.lessonArchitecture}>
+            CONSENTED VIDEO + CALL AUDIO + TRANSCRIPT → PRIVATE EDIT PROPOSAL →
+            LAPTOP FFMPEG RENDER → REVIEW & PERMISSION → PUBLISHED LESSON
           </div>
           <details className={s.buildNotes}>
             <summary>What’s real, preloaded, and still being verified</summary>
@@ -442,7 +461,9 @@ export default function Pitch() {
         </section>
       </main>
       <footer className={s.footer}>
-        <a href="#problem"><Wordmark /> ↗</a>
+        <a href="#problem">
+          <Wordmark /> ↗
+        </a>
         <p>
           Local knowledge. Hands-free guidance.
           <br />A work record that travels with you.

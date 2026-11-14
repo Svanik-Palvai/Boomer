@@ -250,15 +250,15 @@ export const tracks = [
       ],
       [
         "Business evidence",
-        "The team reports consultations with the companies shown in the industry rail. Individual interviewees, roles, quotes and evidence links will be added; no endorsement is implied.",
+        "Consultation evidence is pending: attach the business name, interviewee name and role, and a quote or evidence link before presenting this requirement as substantiated.",
       ],
     ],
     inspect:
-      "Inspect the field workflow and regional sources. Consultations are reported by the team; the individual evidence entries remain to be attached.",
+      "Inspect the field workflow and regional sources. The required individual consultation evidence remains to be attached.",
     source: "data/RESEARCH-AND-HANDOFF.md",
     link: "#borders",
     linkLabel: "Review the regional workflow",
-    note: "Consultations reported by team · interview details and evidence links coming later. Sponsor briefing requirements should be confirmed with the sponsor representative.",
+    note: "Evidence pending · interview details and evidence links must be attached. Sponsor briefing requirements should be confirmed with the sponsor representative.",
   },
   {
     id: "business",

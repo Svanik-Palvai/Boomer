@@ -1,167 +1,115 @@
 "use client";
-// OWNER: Pitch presentation. Agent examples are local replays, not requests to live services.
-import { useEffect, useRef, useState } from "react";
+// OWNER: Pitch presentation. Functional roles mirror lib/types.ts; examples never call providers.
+import { useState } from "react";
 import { agents, voiceTools } from "./judging";
 import s from "./technical.module.css";
+const core = [
+  {
+    name: "Voice guide",
+    provider: "PHOTON + ELEVENLABS",
+    verb: "One step, spoken clearly.",
+    text: "The call reads the current job and invokes nine server tools. The backend owns advancement, hard gates and recovery after a dropped call.",
+    source: "lib/agent/tools.ts",
+    example: "Worker: ‘Done. Check that.’ → check_step",
+  },
+  {
+    name: "Visual checker",
+    provider: "GEMINI + STEP ENGINE",
+    verb: "Look at the actual evidence.",
+    text: "Recent camera frames and one step question produce looks right, not yet, or unclear. Spoken confirmations remain distinct from camera observations.",
+    source: "lib/ai/checkStep.ts",
+    example:
+      "Example: LOAD terminals visible → ‘Not yet.’ → repeat current step",
+  },
+  {
+    name: "Record writer",
+    provider: "JOB BACKEND + PHOTON IMESSAGE",
+    verb: "Keep the work with the worker.",
+    text: "Closing the job builds an evidence record and sends its link. It retains corrections, step photos and local sources. This writer is separate from the recorder chat workflow.",
+    source: "lib/record/buildEntry.ts",
+    example: "Completed job → work record → requested delivery / sharing",
+  },
+] as const;
 export default function AgentSystem() {
-  const root = useRef<HTMLElement>(null);
   const [selected, setSelected] = useState(0);
-  const [manual, setManual] = useState(false);
-  useEffect(() => {
-    if (manual) return;
-    const observer = new IntersectionObserver(
-      (entries) => {
-        for (const e of entries)
-          if (e.isIntersecting)
-            setSelected(Number(e.target.getAttribute("data-agent-step")));
-      },
-      { rootMargin: "-25% 0px -45% 0px", threshold: 0 },
-    );
-    root.current
-      ?.querySelectorAll("[data-agent-step]")
-      .forEach((el) => observer.observe(el));
-    return () => observer.disconnect();
-  }, [manual]);
-  function chooseAgent(index: number) {
-    setSelected(index);
-    setManual(true);
-    if (
-      matchMedia(
-        "(min-width: 900px) and (min-height: 620px) and (prefers-reduced-motion: no-preference)",
-      ).matches
-    ) {
-      root.current
-        ?.querySelector(`[data-agent-step="${index}"]`)
-        ?.scrollIntoView({
-          block: "center",
-          behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
-            ? "auto"
-            : "smooth",
-        });
-    }
-  }
-  const agent = agents[selected];
+  const role = core[selected];
   return (
-    <section ref={root} id="agents" data-section className={s.agents}>
+    <section id="agents" data-section className={s.agents}>
       <div className={s.label}>
-        <span>06 / MEET THE AGENTS</span>
-        <span>PHOTON CHANNELS. SHARED CONTEXT.</span>
+        <span>06 / TECHNOLOGY</span>
+        <span>THREE CORE ROLES. ONE SHARED JOB.</span>
       </div>
       <div className={s.heading}>
         <h2>
-          An agent on the call.
+          See it.
           <br />
-          <em>A system behind it.</em>
+          <em>Guide it. Remember it.</em>
         </h2>
         <p>
-          One ElevenLabs voice agent on a Photon number. Three routed text-agent
-          workflows. Worker profiles and shared job memory connect the work.
+          Voice, vision and records read the same job state. These are
+          functional roles; the checker and writer run through the backend.
         </p>
       </div>
-      <div className={s.agentCounts}>
-        <span>
-          <b>1</b> voice agent
-        </span>
-        <span>
-          <b>3</b> routed text-agent workflows
-        </span>
-        <span>
-          <b>{voiceTools.length}</b> voice server tools
-        </span>
-      </div>
-      <div className={s.agentLayout}>
-        <div className={s.agentSticky}>
-          <div
-            className={s.agentMap}
-            aria-label="Select an agent to inspect its example"
+      <div className={s.coreRoles} aria-label="Core system roles">
+        {core.map((a, i) => (
+          <button
+            key={a.name}
+            aria-pressed={selected === i}
+            onClick={() => setSelected(i)}
           >
-            <svg
-              viewBox="0 0 600 330"
-              preserveAspectRatio="none"
-              aria-hidden="true"
-            >
-              <path d="M145 70L300 165L455 70M145 260L300 165L455 260" />
-            </svg>
-            <div className={s.memoryHub}>
-              <span>SHARED CONTEXT</span>
-              <b>One job.</b>
-              <small>
-                Profile · steps · observations
-                <br />
-                voice + text history
-              </small>
-            </div>
-            {agents.map((a, i) => (
-              <button
-                key={a.id}
-                className={s.agentNode}
-                data-agent={a.id}
-                aria-pressed={selected === i}
-                onClick={() => chooseAgent(i)}
-              >
-                <span>0{i + 1}</span>
-                <b>{a.name}</b>
-                <small>
-                  {a.id === "guide"
-                    ? "Voice"
-                    : a.id === "signup"
-                      ? "Profile setup"
-                      : "Text + job context"}
-                </small>
-              </button>
-            ))}
-          </div>
-          <div className={s.example}>
-            <div className={s.exampleTop}>
-              <span>ILLUSTRATIVE REPLAY / NO MESSAGE SENT</span>
-              <button onClick={() => setManual(false)} disabled={!manual}>
-                {manual ? "Follow scroll ↘" : "Following scroll"}
-              </button>
-            </div>
-            <span className={s.micro}>{agent.channel}</span>
-            <p className={s.request}>“{agent.request}”</p>
-            <div className={s.agentResponse}>
-              <span>{agent.name}</span>
-              <p>{agent.response}</p>
-            </div>
-            <div className={s.memoryLine}>
-              <span>CONTEXT</span>
-              {agent.memory}
-            </div>
-          </div>
-        </div>
-        <div className={s.agentSteps}>
-          {agents.map((a, i) => (
-            <article
-              key={a.id}
-              data-agent-step={i}
-              data-active={selected === i}
-            >
-              <span className={s.micro}>
-                0{i + 1} / {a.channel}
-              </span>
-              <h3>{a.name}</h3>
-              <h4>{a.verb}</h4>
-              <p>{a.description}</p>
-              <ul className={s.tools}>
-                {a.tools.map((t) => (
-                  <li key={t}>{t}</li>
-                ))}
-              </ul>
-              <p className={s.detail}>{a.detail}</p>
-              <a
-                href={`https://github.com/Svanik-Palvai/Boomer/blob/main/${a.source}`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Inspect the implementation ↗
-              </a>
-            </article>
-          ))}
-        </div>
+            <span>
+              0{i + 1} / {a.provider}
+            </span>
+            <b>{a.name}</b>
+            <small>{a.verb}</small>
+          </button>
+        ))}
       </div>
+      <div className={s.sharedMemory}>
+        <span>SHARED JOB MEMORY</span>
+        <p>
+          Worker profile · confirmed town · reviewed steps · recent frames ·
+          observations · voice and text history
+        </p>
+        <small>
+          Backend memory reconnects the call and the thread. It is not
+          represented as a separate Photon-native database.
+        </small>
+      </div>
+      <article className={s.coreDetail} aria-live="polite">
+        <span className={s.micro}>{role.provider}</span>
+        <h3>{role.verb}</h3>
+        <p>{role.text}</p>
+        <p className={s.detail}>{role.example}</p>
+        <a
+          href={`https://github.com/Svanik-Palvai/Boomer/blob/codex/reviewed-video-lessons/${role.source}`}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Inspect {role.name.toLowerCase()} implementation ↗
+        </a>
+      </article>
       <details className={s.toolCatalog}>
-        <summary>The voice agent’s {voiceTools.length} tools</summary>
+        <summary>
+          Supporting text workflows & the {voiceTools.length} voice tools
+        </summary>
+        <div className={s.supporting}>
+          {agents
+            .filter((a) => a.id !== "guide")
+            .map((a) => (
+              <article key={a.id}>
+                <h3>{a.name}</h3>
+                <p>{a.description}</p>
+                <a
+                  href={`https://github.com/Svanik-Palvai/Boomer/blob/codex/reviewed-video-lessons/${a.source}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Open implementation ↗
+                </a>
+              </article>
+            ))}
+        </div>
         <ul>
           {voiceTools.map((t) => (
             <li key={t}>
@@ -169,12 +117,18 @@ export default function AgentSystem() {
             </li>
           ))}
         </ul>
-        <p>
-          The LLM chooses a tool and speaks its response. The backend owns
-          steps, hard gates and job transitions. Text agents are routed
-          workflows—not four independent voice models.
-        </p>
       </details>
+      <div className={s.coreDetail}>
+        <span className={s.micro}>
+          AFTER THE CALL / SEPARATE LESSON PIPELINE
+        </span>
+        <p>
+          Consented video + original audio + transcript → evidence-grounded edit
+          proposal → editable captions and freeze-frame labels → laptop FFmpeg
+          render → electrician review + worker permission → public lesson.
+        </p>
+        <a href="#lessons">Explore reviewed lessons ↗</a>
+      </div>
     </section>
   );
 }

@@ -1,0 +1,54 @@
+.showcase {
+  background: #f1ebdd;
+  color: #171914;
+  padding: 0 max(6%, calc((100% - 1300px) / 2)) 48px;
+}
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+.columns article {
+  border: 1px solid #17191440;
+  padding: 24px;
+  background: #f8f5ee;
+  min-width: 0;
+}
+.label {
+  font: 10px monospace;
+  color: #525b3e;
+}
+.columns h3 {
+  font-size: 32px;
+  margin: 18px 0;
+}
+.columns p {
+  font-size: 15px;
+  line-height: 1.7;
+}
+.columns a {
+  font-size: 14px;
+  display: inline-block;
+  margin: 18px 0;
+  padding: 8px 0;
+}
+.columns small {
+  display: block;
+  font: 10px/1.6 monospace;
+  color: #525b3e;
+}
+.columns video {
+  width: 100%;
+  max-height: 360px;
+  display: block;
+  background: #171914;
+  margin: 18px 0;
+}
+@media (max-width: 700px) {
+  .columns {
+    grid-template-columns: 1fr;
+  }
+  .columns article {
+    padding: 20px;
+  }
+}

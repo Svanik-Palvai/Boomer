@@ -56,7 +56,7 @@
 }
 .wordmark {
   font:
-    800 clamp(100px, 21vw, 300px)/0.9 BoomerCondensed,
+    800 clamp(100px, 21vw, 300px) / 0.9 BoomerCondensed,
     Impact,
     sans-serif;
   letter-spacing: -0.045em;
@@ -251,7 +251,7 @@
 .branch b {
   display: block;
   font:
-    700 clamp(24px, 2.5vw, 38px)/1 BoomerCondensed,
+    700 clamp(24px, 2.5vw, 38px) / 1 BoomerCondensed,
     Impact,
     sans-serif;
   margin: 10px 0;
@@ -1153,29 +1153,321 @@
   }
 }
 /* Real workflow inputs converge into the wordmark before the system is revealed. */
-.intro { background:#1c201b; color:#f1ebdd; --hat-gap:#1c201b; }
-.intro .stageMeta {border-color:#f1ebdd35;}
-.wordmark > span:first-child {font-size:1em;vertical-align:baseline;margin-left:0;}
-.wordmark > span:last-child {color:#f4c430;}
-.introTitle .positioning {font-size:17px;font-weight:400;color:#c9cebd;letter-spacing:.02em;}
-.evidenceRow {position:absolute;left:8%;right:8%;bottom:8%;display:grid;grid-template-columns:repeat(3,1fr);gap:28px;}
-.evidence {border:1px solid #f1ebdd30;background:#242a22;padding:16px;text-align:left;transform:translate(calc(var(--gather) * var(--dx,0px)),calc(var(--gather) * var(--dy,0px))) scale(calc(1 - var(--gather) * .94));opacity:calc(1 - var(--gather) * var(--gather));transform-origin:center;will-change:transform,opacity;}
-.evidence > span {display:block;font:9px/1.5 monospace;color:#f4c430;letter-spacing:.06em;}
-.evidence > b {display:block;font:700 27px/1.1 BoomerCondensed,Impact,sans-serif;margin:14px 0;}
-.evidence > small {display:block;font:10px/1.5 monospace;color:#b8c0ab;margin-top:12px;}
-.cameraView {position:relative;margin-top:12px;height:67px;background:#151913;display:grid;place-content:center;font:700 22px monospace;}
-.cameraView > span {border:1px solid #c4cab8;padding:3px 22px;}
-.cameraView i {position:absolute;inset:8px 25%;border:1px solid #f4c430;}
-.cameraView small {font:7px monospace;text-align:center;margin-top:5px;color:#b8c0ab;}
-.cameraInput > b {display:none;}
-.sourceRow,.stepLine {display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-top:1px solid #f1ebdd20;font:10px/1.4 monospace;}
-.sourceRow > span,.stepLine > span {color:#b8c0ab;}
-.sourceRow strong,.stepLine strong {font-weight:400;text-align:right;}
-.intro .wires path {stroke:#f4c430;}
-.intro .branch {background:#242a22;color:#f1ebdd;border-color:#f1ebdd40;box-shadow:none;}
-.intro .branch span {color:#f4c430;}
-.intro .hub {border:1px solid #f4c430;box-shadow:none;}
-.intro .staticCapabilities > div {border-color:#f1ebdd40;}
-@media (min-width:760px) and (max-height:780px) { .evidenceRow {bottom:7%;} .evidence {padding:12px;} .evidence > b {font-size:22px;margin:10px 0;} .cameraView {height:50px;} .evidence > small {font-size:8px;margin-top:8px;} .sourceRow,.stepLine {font-size:8px;padding:5px 0;} }
-@media (max-width:1000px) { .evidenceRow {left:5%;right:5%;gap:16px;} .evidence > b {font-size:23px;} .sourceRow,.stepLine {font-size:8px;}}
-@media (max-width:759px), (prefers-reduced-motion:reduce) { .intro .chaos {display:block !important;position:relative;inset:auto;} .evidenceRow {position:relative;left:auto;right:auto;bottom:auto;grid-template-columns:1fr;margin:12px 0 28px;} .evidence {transform:none;opacity:1;will-change:auto;} }
+.intro {
+  background: #1c201b;
+  color: #f1ebdd;
+  --hat-gap: #1c201b;
+}
+.intro .stageMeta {
+  border-color: #f1ebdd35;
+}
+.wordmark > span:first-child {
+  font-size: 1em;
+  vertical-align: baseline;
+  margin-left: 0;
+}
+.wordmark > span:last-child {
+  color: #f4c430;
+}
+.introTitle .positioning {
+  font-size: 17px;
+  font-weight: 400;
+  color: #c9cebd;
+  letter-spacing: 0.02em;
+}
+.evidenceRow {
+  position: absolute;
+  left: 8%;
+  right: 8%;
+  bottom: 8%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+.evidence {
+  border: 1px solid #f1ebdd30;
+  background: #242a22;
+  padding: 16px;
+  text-align: left;
+  transform: translate(
+      calc(var(--gather) * var(--dx, 0px)),
+      calc(var(--gather) * var(--dy, 0px))
+    )
+    scale(calc(1 - var(--gather) * 0.94));
+  opacity: calc(1 - var(--gather) * var(--gather));
+  transform-origin: center;
+  will-change: transform, opacity;
+}
+.evidence > span {
+  display: block;
+  font: 9px/1.5 monospace;
+  color: #f4c430;
+  letter-spacing: 0.06em;
+}
+.evidence > b {
+  display: block;
+  font:
+    700 27px/1.1 BoomerCondensed,
+    Impact,
+    sans-serif;
+  margin: 14px 0;
+}
+.evidence > small {
+  display: block;
+  font: 10px/1.5 monospace;
+  color: #b8c0ab;
+  margin-top: 12px;
+}
+.cameraView {
+  position: relative;
+  margin-top: 12px;
+  height: 67px;
+  background: #151913;
+  display: grid;
+  place-content: center;
+  font: 700 22px monospace;
+}
+.cameraView > span {
+  border: 1px solid #c4cab8;
+  padding: 3px 22px;
+}
+.cameraView i {
+  position: absolute;
+  inset: 8px 25%;
+  border: 1px solid #f4c430;
+}
+.cameraView small {
+  font: 7px monospace;
+  text-align: center;
+  margin-top: 5px;
+  color: #b8c0ab;
+}
+.cameraInput > b {
+  display: none;
+}
+.sourceRow,
+.stepLine {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 0;
+  border-top: 1px solid #f1ebdd20;
+  font: 10px/1.4 monospace;
+}
+.sourceRow > span,
+.stepLine > span {
+  color: #b8c0ab;
+}
+.sourceRow strong,
+.stepLine strong {
+  font-weight: 400;
+  text-align: right;
+}
+.intro .wires path {
+  stroke: #f4c430;
+}
+.intro .branch {
+  background: #242a22;
+  color: #f1ebdd;
+  border-color: #f1ebdd40;
+  box-shadow: none;
+}
+.intro .branch span {
+  color: #f4c430;
+}
+.intro .hub {
+  border: 1px solid #f4c430;
+  box-shadow: none;
+}
+.intro .staticCapabilities > div {
+  border-color: #f1ebdd40;
+}
+@media (min-width: 760px) and (max-height: 780px) {
+  .evidenceRow {
+    bottom: 7%;
+  }
+  .evidence {
+    padding: 12px;
+  }
+  .evidence > b {
+    font-size: 22px;
+    margin: 10px 0;
+  }
+  .cameraView {
+    height: 50px;
+  }
+  .evidence > small {
+    font-size: 8px;
+    margin-top: 8px;
+  }
+  .sourceRow,
+  .stepLine {
+    font-size: 8px;
+    padding: 5px 0;
+  }
+}
+@media (max-width: 1000px) {
+  .evidenceRow {
+    left: 5%;
+    right: 5%;
+    gap: 16px;
+  }
+  .evidence > b {
+    font-size: 23px;
+  }
+  .sourceRow,
+  .stepLine {
+    font-size: 8px;
+  }
+}
+@media (max-width: 759px), (prefers-reduced-motion: reduce) {
+  .intro .chaos {
+    display: block !important;
+    position: relative;
+    inset: auto;
+  }
+  .evidenceRow {
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    grid-template-columns: 1fr;
+    margin: 12px 0 28px;
+  }
+  .evidence {
+    transform: none;
+    opacity: 1;
+    will-change: auto;
+  }
+}
+/* Compact, centered scenes remain fully readable at every scroll position. */
+.compactBorder .stage,
+.completeRecord .stage {
+  min-height: 0;
+  max-width: none;
+  margin: 0 auto;
+  padding: 40px max(6%, calc((100% - 1300px) / 2)) 48px;
+}
+.compactBorder .borderHeading {
+  padding: 32px 0 24px;
+}
+.compactBorder .borderHeading h2 {
+  font-size: clamp(38px, 4vw, 58px) !important;
+}
+.centeredRoute {
+  max-width: 900px;
+  margin: 12px auto 24px;
+  display: grid;
+  grid-template-columns: 1fr 60px 1fr;
+  gap: 24px;
+  align-items: center;
+}
+.centeredRoute > div {
+  border: 1px solid #17191445;
+  padding: 22px;
+  background: #f8f5ee;
+}
+.centeredRoute > div > span {
+  font: 9px monospace;
+}
+.centeredRoute h3 {
+  font-size: 40px;
+  margin: 14px 0;
+}
+.centeredRoute b {
+  font: 14px monospace;
+  color: #525b3e;
+}
+.routeArrow {
+  font-size: 36px;
+  text-align: center;
+}
+.routeScope {
+  max-width: 78ch !important;
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 0 auto;
+}
+.recordGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8%;
+  align-items: center;
+  padding: 40px 0 10px;
+}
+.completeRecord .recordCopy {
+  padding: 0;
+  max-width: none;
+}
+.completeRecord .recordCopy h2 {
+  font-size: clamp(44px, 4.5vw, 64px) !important;
+}
+.completeRecord .recordCopy > p {
+  font-size: 17px;
+  min-height: 0;
+}
+.completeRecord .recordCopy > p:last-child {
+  margin-top: 24px;
+  font-size: 14px;
+}
+.recordEvidence {
+  border: 1px solid #17191455;
+}
+.recordMessage {
+  padding: 22px;
+  background: #171914;
+  color: #f1ebdd;
+}
+.recordMessage > span {
+  font: 9px monospace;
+  color: #f4c430;
+}
+.recordMessage p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 14px 0;
+}
+.recordMessage small {
+  font: 9px monospace;
+  color: #bac0ad;
+}
+.recordPaper {
+  background: #f1ebdd;
+  padding: 24px;
+}
+.recordPaper h3 {
+  font-size: 32px;
+  margin: 18px 0;
+}
+.recordPaper > p {
+  font-size: 12px;
+  line-height: 1.6;
+  margin-top: 16px;
+}
+@media (max-width: 759px) {
+  .centeredRoute {
+    gap: 10px;
+    grid-template-columns: 1fr 24px 1fr;
+  }
+  .centeredRoute > div {
+    padding: 16px 10px;
+  }
+  .centeredRoute h3 {
+    font-size: 28px;
+  }
+  .centeredRoute > div > span {
+    font-size: 7px;
+  }
+  .routeArrow {
+    font-size: 24px;
+  }
+  .recordGrid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .compactBorder .stage,
+  .completeRecord .stage {
+    padding: 26px 6% 36px;
+  }
+}

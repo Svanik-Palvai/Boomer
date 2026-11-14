@@ -4,6 +4,8 @@ import Link from "next/link";
 import { DEMO_JOB_ID, DEMO_WORKER_ID } from "@/lib/mock/demo";
 import { pages } from "@/lib/routes";
 import { USE_MOCKS } from "@/lib/config";
+import { geminiEnabled } from "@/lib/ai/gemini";
+import { configured as lessonsConfigured } from "@/lib/lessons/store";
 import { SAFETY_LINE } from "@/lib/copy";
 import p from "@/components/pitch/pitch.module.css";
 import s from "./demo.module.css";
@@ -11,7 +13,7 @@ export const metadata: Metadata = { title: "Boomer — Field demo console" };
 const groups = [
   {
     n: "01",
-    name: "Get the worker ready.",
+    name: "Prepare.",
     device: "WORKER’S PHONE",
     copy: "Set the home jurisdiction and experience level, then open the harness camera. Keep the inert prop in clear view.",
     links: [
@@ -29,7 +31,7 @@ const groups = [
   },
   {
     n: "02",
-    name: "Run the guided call.",
+    name: "Run.",
     device: "JUDGE’S LAPTOP",
     copy: "Call the Photon number. The ElevenLabs voice agent uses the shared job, Gemini checks and the reviewed step template.",
     links: [
@@ -41,13 +43,13 @@ const groups = [
       {
         href: "/#agents",
         name: "Meet the agents",
-        detail: "Guide, signup, recorder and sharing",
+        detail: "Voice guide, visual checker, record writer",
       },
     ],
   },
   {
     n: "03",
-    name: "Show what follows.",
+    name: "Show the record.",
     device: "RECORDS & HANDOFF",
     copy: "After completion, inspect the saved observations, spoken confirmations and correction history. The record belongs to the worker.",
     links: [
@@ -60,6 +62,24 @@ const groups = [
         href: pages.workRecord(DEMO_WORKER_ID),
         name: "Portable work record",
         detail: "Job history and regional references",
+      },
+    ],
+  },
+  {
+    n: "04",
+    name: "Show the lesson.",
+    device: "REVIEWED KNOWLEDGE",
+    copy: "Opt in to recording on the harness phone. After the job, edit the evidence-based draft, render it on the team laptop, and obtain electrician review and worker permission before publishing.",
+    links: [
+      {
+        href: "/lessons/workspace",
+        name: "Private lesson workspace",
+        detail: "Sign in · drafts, editing, rendering and review",
+      },
+      {
+        href: "/lessons",
+        name: "Public lesson library",
+        detail: "Published lessons · captions, chapters and sources",
       },
     ],
   },
@@ -114,7 +134,9 @@ export default function Demo() {
               <span className={s.dot} />
               {USE_MOCKS
                 ? "AI checks: preloaded demo mode"
-                : "AI checks: live mode requested"}
+                : geminiEnabled()
+                  ? "AI checks: live Gemini selected (rehearse before judging)"
+                  : "AI checks: live requested, Gemini key missing"}
             </div>
           </aside>
         </section>
@@ -124,9 +146,75 @@ export default function Demo() {
           <span>GEMINI VISION</span>
           <span>SHARED JOB MEMORY</span>
         </div>
+        <section className={s.readiness} aria-labelledby="readiness-title">
+          <h2 id="readiness-title">Before the judge walkthrough.</h2>
+          <p>
+            Configuration presence is not a successful provider check. Rehearse
+            the actual phones, call, delivery and lesson playback.
+          </p>
+          <ul>
+            <li>
+              <b>AI checks</b>
+              <span>
+                {USE_MOCKS
+                  ? "Preloaded demo mode"
+                  : geminiEnabled()
+                    ? "Live Gemini selected; device rehearsal required"
+                    : "Gemini key missing; fallback checks only"}
+              </span>
+            </li>
+            <li>
+              <b>Call number</b>
+              <span>
+                {phone
+                  ? "Number configured; verify inbound call and resume"
+                  : "Photon number missing from this deployment"}
+              </span>
+            </li>
+            <li>
+              <b>Lessons</b>
+              <span>
+                {lessonsConfigured()
+                  ? "Private storage configured; sign-in and real recording still need verification"
+                  : "Dedicated lesson storage needs configuration"}
+              </span>
+            </li>
+            <li>
+              <b>Physical setup</b>
+              <span>
+                Inert prop, fixed light, earbuds. Use a second phone for the
+                call if camera capture pauses.
+              </span>
+            </li>
+            <li>
+              <b>Acceptance</b>
+              <span>
+                Capture → edit → laptop FFmpeg render → electrician review →
+                worker permission → publish → play on Vercel.
+              </span>
+            </li>
+          </ul>
+          <a
+            href="https://github.com/Svanik-Palvai/Boomer/blob/codex/reviewed-video-lessons/docs/JUDGE-WALKTHROUGH.md"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open the rehearsal checklist ↗
+          </a>
+        </section>
         <div className={s.workflow}>
           {groups.map((group) => (
-            <section className={s.workflowStep} key={group.n}>
+            <section
+              id={
+                group.n === "03"
+                  ? "records"
+                  : group.n === "04"
+                    ? "lessons"
+                    : undefined
+              }
+              className={s.workflowStep}
+              key={group.n}
+            >
               <div className={s.stepNumber}>{group.n}</div>
               <div>
                 <span className={s.eyebrow}>{group.device}</span>

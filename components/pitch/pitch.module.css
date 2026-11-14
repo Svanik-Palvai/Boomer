@@ -1141,3 +1141,103 @@
   padding-block: 12px;
   font-size: 12px;
 }
+/* Judge walkthrough: complete content with concise sections, rather than scroll delays. */
+.guideLayout {
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 6%;
+  align-items: center;
+}
+.guideVisual {
+  position: static;
+  padding: 0;
+}
+.guideVisual .harness {
+  max-height: 390px;
+}
+.guideCopy {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.guideBeat {
+  min-height: 0;
+  padding: 20px 0;
+  opacity: 1;
+  transform: none;
+  justify-content: start;
+}
+.guideBeat h3 {
+  font-size: 30px;
+  margin: 12px 0;
+}
+.guideBeat p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+.guideVisual svg {
+  transform: none !important;
+  max-height: 390px;
+}
+.voice {
+  min-height: 0;
+  padding: 16px 0;
+}
+.voice p {
+  font-size: 18px;
+}
+.signal {
+  display: none;
+}
+.section,
+.industry,
+.replaySticky {
+  padding-left: max(6%, calc((100% - 1300px) / 2));
+  padding-right: max(6%, calc((100% - 1300px) / 2));
+}
+.trackDisclosure {
+  background: var(--paper);
+  border-block: 1px solid #17191440;
+}
+.trackDisclosure > summary {
+  cursor: pointer;
+  padding: 24px 6%;
+  font: 12px/1.5 monospace;
+}
+.lessonArchitecture {
+  border: 1px solid #f1ebdd40;
+  padding: 20px;
+  font: 11px/1.8 monospace;
+  color: var(--yellow);
+  margin-top: 20px;
+}
+.lessonSection {
+  scroll-margin-top: 105px;
+}
+@media (max-width: 900px) {
+  .guideLayout {
+    grid-template-columns: 1fr;
+  }
+  .guideVisual .harness,
+  .guideVisual svg {
+    max-height: 320px;
+  }
+  .guideCopy {
+    margin-top: 20px;
+  }
+  .guideBeat {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media (max-width: 599px) {
+  .guideCopy {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .guideBeat h3 {
+    font-size: 28px;
+  }
+  .guideBeat {
+    padding: 18px 0;
+  }
+}

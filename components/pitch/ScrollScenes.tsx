@@ -1,127 +1,23 @@
-"use client";
-// OWNER: Pitch presentation. Scroll-scrubbed illustrations; no product APIs or shared state.
-import { useEffect, useRef, useState, type RefObject } from "react";
+// OWNER: Pitch presentation. Source-backed example and complete static record; no job mutations.
+import Link from "next/link";
 import { jurisdictions } from "./content";
-import s from "./scenes.module.css";
 import FieldHero from "./FieldHero";
-
-const clamp = (n: number) => Math.min(1, Math.max(0, n));
-const segment = (p: number, a: number, b: number) => clamp((p - a) / (b - a));
-const ease = (p: number) => p * p * (3 - 2 * p);
-
-/** DOM-only interpolation keeps animation independent of React render frequency. */
-function useScene(kind: "intro" | "border" | "record") {
-  const ref = useRef<HTMLElement>(null);
-  const [motion, setMotion] = useState(false);
-  const [phase, setPhase] = useState(0);
-  useEffect(() => {
-    const media = matchMedia(
-      "(min-width: 760px) and (min-height: 620px) and (prefers-reduced-motion: no-preference)",
-    );
-    let frame = 0;
-    let lastPhase = -1;
-    const draw = () => {
-      frame = 0;
-      const el = ref.current;
-      if (!el) return;
-      const rect = el.getBoundingClientRect();
-      const navHeight =
-        document.querySelector("header")?.getBoundingClientRect().height ?? 76;
-      const p = media.matches
-        ? clamp(
-            (navHeight - rect.top) /
-              Math.max(1, rect.height - innerHeight + navHeight),
-          )
-        : 1;
-      const put = (key: string, n: number) =>
-        el.style.setProperty(key, String(n));
-      put("--p", p);
-      if (kind === "intro") {
-        const title = ease(segment(p, 0.38, 0.48));
-        const gather = ease(segment(p, 0.05, 0.36));
-        put("--title-out", title);
-        put("--gather", gather);
-        const stage = el.querySelector<HTMLElement>("[data-intro-stage]");
-        const row = el.querySelector<HTMLElement>("[data-inputs]");
-        if (stage && row) {
-          row.querySelectorAll<HTMLElement>("[data-input]").forEach((card) => {
-            card.style.setProperty("--dx", `${stage.clientWidth / 2 - row.offsetLeft - card.offsetLeft - card.offsetWidth / 2}px`);
-            card.style.setProperty("--dy", `${stage.clientHeight * .38 - row.offsetTop - card.offsetTop - card.offsetHeight / 2}px`);
-          });
-        }
-        put("--hub", ease(segment(p, 0.42, 0.5)));
-        put("--left", ease(segment(p, 0.44, 0.57)));
-        put("--middle", ease(segment(p, 0.58, 0.71)));
-        put("--right", ease(segment(p, 0.72, 0.85)));
-      }
-      if (kind === "border") {
-        put("--travel", ease(segment(p, 0.08, 0.62)));
-        put("--local", ease(segment(p, 0.48, 0.8)));
-      }
-      if (kind === "record") {
-        put("--message", ease(segment(p, 0.08, 0.35)));
-        put("--record", ease(segment(p, 0.35, 0.75)));
-      }
-      const next =
-        kind === "intro"
-          ? p < 0.28
-            ? 0
-            : p < 0.48
-              ? 1
-              : p < 0.62
-                ? 2
-                : p < 0.77
-                  ? 3
-                  : 4
-          : p < 0.3
-            ? 0
-            : p < 0.65
-              ? 1
-              : 2;
-      if (next !== lastPhase) {
-        lastPhase = next;
-        setPhase(next);
-      }
-    };
-    const schedule = () => {
-      if (!frame) frame = requestAnimationFrame(draw);
-    };
-    const configure = () => {
-      setMotion(media.matches);
-      schedule();
-    };
-    media.addEventListener("change", configure);
-    addEventListener("scroll", schedule, { passive: true });
-    addEventListener("resize", schedule);
-    configure();
-    return () => {
-      media.removeEventListener("change", configure);
-      removeEventListener("scroll", schedule);
-      removeEventListener("resize", schedule);
-      cancelAnimationFrame(frame);
-    };
-  }, [kind]);
-  return { ref: ref as RefObject<HTMLElement>, motion, phase };
+import s from "./scenes.module.css";
+export function OpeningScene() {
+  return <FieldHero />;
 }
-
-export function OpeningScene() { return <FieldHero />; }
-
 export function BorderScene() {
-  const { ref, motion, phase } = useScene("border");
   const { home, destination: dest } = jurisdictions;
   return (
     <section
-      ref={ref}
       id="borders"
       data-section
-      data-motion={motion}
-      data-phase={phase}
-      className={`${s.scene} ${s.border}`}
+      className={`${s.scene} ${s.border} ${s.compactBorder}`}
     >
       <div className={s.stage}>
         <div className={s.stageMeta}>
-          <span>01 / THE STATE-LINE PROBLEM</span>
-          <span>ILLUSTRATED JOURNEY / PA → NJ</span>
+          <span>01 / THE WORKFLOW</span>
+          <span>ONE WORKER / TWO JURISDICTIONS</span>
         </div>
         <div className={s.borderHeading}>
           <h2>
@@ -129,63 +25,30 @@ export function BorderScene() {
             <br />
             <em>The information doesn’t.</em>
           </h2>
-          <p>A new job shouldn’t send you back to square one.</p>
+          <p>Confirm the place. Bring the right references into the call.</p>
         </div>
-        <div className={s.routeVisual} aria-hidden="true">
-          <svg
-            viewBox="0 0 1000 150"
-            preserveAspectRatio="none"
-            className={s.routeLine}
-          >
-            <path d="M130 75 H870" />
-            <path className={s.routeFill} pathLength="1000" d="M130 75 H870" />
-          </svg>
-          <div className={s.originCard}>
+        <div className={s.centeredRoute}>
+          <div>
             <span>HOME / PENNSYLVANIA</span>
-            <b>{home.city}</b>
-            <small>{home.necEdition} NEC</small>
+            <h3>{home.city}</h3>
+            <b>{home.necEdition} NEC</b>
           </div>
-          <div className={s.destinationCard}>
-            <span>JOB / NEW JERSEY</span>
-            <b>{dest.city}</b>
-            <small>{dest.necEdition} NEC</small>
-          </div>
-          <div className={s.traveler}>
-            B<span>↗</span>
-            <small>YOUR EXPERIENCE</small>
-          </div>
-          <div className={s.localNote}>
-            <span>LOCATION CONFIRMED</span>
-            <b>Princeton, NJ</b>
-            <small>Local sources attached to the job.</small>
-          </div>
-        </div>
-        <div className={s.borderCaption}>
-          <span>
-            0{phase + 1} /{" "}
-            {["LEAVE HOME", "CROSS THE LINE", "GET THE LOCAL CONTEXT"][phase]}
+          <span className={s.routeArrow} aria-label="to">
+            →
           </span>
-          <h3>
-            {
-              [
-                "Your experience comes with you.",
-                "The questions change with the place.",
-                "Keep the local knowledge within reach.",
-              ][phase]
-            }
-          </h3>
-          <p>
-            {
-              [
-                "Licensing, code references and past work shouldn’t live in disconnected places.",
-                "Which edition? Which permit office? What does your credential cover?",
-                "Source-backed references. Worker-confirmed location. No invented regional requirements.",
-              ][phase]
-            }
-          </p>
+          <div>
+            <span>JOB / NEW JERSEY</span>
+            <h3>{dest.city}</h3>
+            <b>{dest.necEdition} NEC</b>
+          </div>
         </div>
+        <p className={s.routeScope}>
+          Different adopted editions. The countertop GFCI demo does not
+          establish a different LINE/LOAD installation requirement between these
+          locations.
+        </p>
         <details className={s.sources}>
-          <summary>Sources & scope ↗</summary>
+          <summary>Official references & scope ↗</summary>
           <div>
             <p>
               <a href={home.sourceUrl} target="_blank" rel="noreferrer">
@@ -196,10 +59,7 @@ export function BorderScene() {
                 New Jersey: {dest.necEdition} NEC ↗
               </a>
             </p>
-            <p>
-              {dest.editionCaveat} The countertop GFCI demo does not establish a
-              Philadelphia-to-Princeton installation difference.
-            </p>
+            <p>{dest.editionCaveat}</p>
             <p>
               {dest.licenseNote}{" "}
               <a href={dest.licenseUrl} target="_blank" rel="noreferrer">
@@ -212,86 +72,69 @@ export function BorderScene() {
     </section>
   );
 }
-
 export function RecordScene() {
-  const { ref, motion, phase } = useScene("record");
   return (
     <section
-      ref={ref}
       id="record"
       data-section
-      data-motion={motion}
-      data-phase={phase}
-      className={`${s.scene} ${s.record}`}
+      className={`${s.scene} ${s.record} ${s.completeRecord}`}
     >
       <div className={s.stage}>
         <div className={s.stageMeta}>
-          <span>04 / WHAT FOLLOWS YOU</span>
-          <span>EXAMPLE RECORD / ILLUSTRATED DATA</span>
+          <span>04 / WORK RECORD</span>
+          <span>ILLUSTRATED EXAMPLE / NOT A SENT MESSAGE</span>
         </div>
-        <div className={s.recordCopy}>
-          <span className={s.micro}>THE WORKER OWNS THE RECORD</span>
-          <h2>
-            New job.
-            <br />
-            New state.
-            <br />
-            <em>Same track record.</em>
-          </h2>
-          <p>
-            {
-              [
-                "The job ends. Your experience doesn’t disappear with it.",
-                "A record lands where you already are: your messages.",
-                "Share the observations, corrections and sources with the next employer.",
-              ][phase]
-            }
-          </p>
-          <span className={s.recordStamp}>OBSERVED BY BOOMER ↗</span>
-        </div>
-        <div className={s.recordObjects}>
-          <div className={s.messagePhone}>
-            <div className={s.phoneNotch} />
-            <span>PHOTON IMESSAGE / EXAMPLE</span>
-            <b>BOOMER</b>
-            <div className={s.message}>
-              Your GFCI demo job in Princeton is saved.
+        <div className={s.recordGrid}>
+          <div className={s.recordCopy}>
+            <span className={s.micro}>THE WORKER OWNS THE RECORD</span>
+            <h2>
+              New job.
               <br />
+              New state.
               <br />
-              Here’s the work record you can take to your next job.
-              <small>boomer / job / example ↗</small>
-            </div>
-            <small>EXAMPLE · NOT A SENT MESSAGE</small>
+              <em>Same track record.</em>
+            </h2>
+            <p>
+              Keep the observations, corrections and sources. Share the record
+              with the next employer.
+            </p>
+            <span className={s.recordStamp}>OBSERVED BY BOOMER ↗</span>
+            <p>
+              <Link href="/demo#records">Open the actual record links ↗</Link>
+            </p>
           </div>
-          <div className={s.jobPaper}>
-            <div className={s.paperHeading}>
-              <span>WORK RECORD / EXAMPLE</span>
-              <b>01</b>
+          <div className={s.recordEvidence}>
+            <div className={s.recordMessage}>
+              <span>PHOTON IMESSAGE / EXAMPLE</span>
+              <p>
+                Your GFCI demo job in Princeton is saved. Here’s the work record
+                you can take to your next job.
+              </p>
+              <small>
+                Illustrative delivery; no message sent by this page.
+              </small>
             </div>
-            <h3>
-              Kitchen GFCI
-              <br />
-              Princeton, NJ
-            </h3>
-            <div className={s.result}>
-              <span>Breaker off</span>
-              <b>Worker confirmed</b>
+            <div className={s.recordPaper}>
+              <span className={s.micro}>WORK RECORD / EXAMPLE</span>
+              <h3>Kitchen GFCI · Princeton, NJ</h3>
+              <div className={s.result}>
+                <span>Breaker off</span>
+                <b>Worker confirmed</b>
+              </div>
+              <div className={s.result}>
+                <span>Circuit test</span>
+                <b>Spoken / simulated</b>
+              </div>
+              <div className={s.result}>
+                <span>LINE connection</span>
+                <b>Corrected · seen</b>
+              </div>
+              <p>
+                Step photos + correction history + regional references. A camera
+                observation is not an electrical test or a license.
+              </p>
             </div>
-            <div className={s.result}>
-              <span>Circuit test</span>
-              <b>Spoken / simulated</b>
-            </div>
-            <div className={s.result}>
-              <span>LINE connection</span>
-              <b>Corrected · seen</b>
-            </div>
-            <p>A camera observation is not an electrical test or a license.</p>
-            <span className={s.micro}>OBSERVED BY BOOMER</span>
           </div>
-        </div>
-        <div className={s.recordFooter}>
-          PHOTOS + STEP HISTORY + REGIONAL REFERENCES{" "}
-          <span aria-hidden="true">→</span> A RECORD THAT TRAVELS.
         </div>
       </div>
     </section>

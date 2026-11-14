@@ -7,7 +7,7 @@ export default function JudgeTracks() {
   const [index, setIndex] = useState(0);
   const track = tracks[index];
   return (
-    <section id="tracks" data-section className={s.tracks}>
+    <section id="track-evidence" className={s.tracks}>
       <div className={s.label}>
         <span>07 / CHOOSE YOUR JUDGING ANGLE</span>
         <span>SHOW THE WORK. OPEN THE CODE.</span>
@@ -62,7 +62,7 @@ export default function JudgeTracks() {
           <div>
             <a href={track.link}>{track.linkLabel} ↗</a>
             <a
-              href={`https://github.com/Svanik-Palvai/Boomer/blob/main/${track.source}`}
+              href={`https://github.com/Svanik-Palvai/Boomer/blob/codex/reviewed-video-lessons/${track.source}`}
               target="_blank"
               rel="noreferrer"
             >
@@ -70,7 +70,10 @@ export default function JudgeTracks() {
             </a>
           </div>
         </div>
-        <p className={s.trackNote}>{track.note}</p>
+        <p className={s.trackNote}>
+          <strong>Evidence status: </strong>
+          {track.note}
+        </p>
       </article>
       <noscript>
         <div className={s.staticTracks}>
@@ -81,7 +84,7 @@ export default function JudgeTracks() {
               <p>{t.intro}</p>
               <p>{t.inspect}</p>
               <a
-                href={`https://github.com/Svanik-Palvai/Boomer/blob/main/${t.source}`}
+                href={`https://github.com/Svanik-Palvai/Boomer/blob/codex/reviewed-video-lessons/${t.source}`}
               >
                 Inspect the implementation ↗
               </a>
