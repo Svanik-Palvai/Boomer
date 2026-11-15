@@ -115,7 +115,7 @@ function Hero() {
         </div>
         <div>
           <dt>Step check</dt>
-          <dd className="num">2 of 3 models</dd>
+          <dd className="num">3 LLMs as judges</dd>
         </div>
         <div className={s.readoutNote}>
           <dt>Source</dt>
@@ -172,7 +172,7 @@ function Nav() {
 const BEATS = [
   { line: "A phone on the chest.", cap: `Harness camera · 1 frame / ${FRAMES.intervalMs / 1000} s` },
   { line: "A voice in the ear.", cap: "Guide · spoken line from readStep()" },
-  { line: "Three models on every step.", cap: "Check panel · 2 of 3 decide" },
+  { line: "Three models on every step.", cap: "Check panel · 3 LLMs as judges" },
   { line: "A record the worker keeps.", cap: "Work record · link sent by iMessage" },
 ];
 

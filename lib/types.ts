@@ -193,6 +193,8 @@ export interface CheckVote {
   fix?: string;
   ms: number;
   error?: boolean;
+  /** Short error text when error is set (e.g. "429 quota", "timed out"), for the job memory. */
+  errorText?: string;
 }
 
 export interface Job {

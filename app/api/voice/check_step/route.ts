@@ -2,7 +2,7 @@
 import type { CheckResult } from "@/lib/types";
 import { voiceTool } from "@/lib/voice/tool";
 import { framesAfterBurst, requestBurst, updateJob } from "@/lib/db";
-import { checkStep } from "@/lib/ai/checkStep";
+import { checkStep, voteSummary } from "@/lib/ai/checkStep";
 import { allDone, applyCheck, canConfirmByVoice, confirmSpoken, currentStep, readStep, startGuiding } from "@/lib/agent/engine";
 import { SAY } from "@/lib/copy";
 import { UNCLEAR_RETRIES } from "@/lib/config";
@@ -53,7 +53,7 @@ export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
   const check = await checkStep(step, frames, attempt);
 
   const updated = await updateJob(job.id, (j) => (j.current === job.current ? applyCheck(j, check) : j));
-  logCheck(job.id, `Step ${step.order} camera check: ${check.outcome}. ${check.say}`);
+  logCheck(job.id, `Step ${step.order} camera check: ${check.outcome}${check.votes?.length ? ` (${voteSummary(check.votes)})` : ""}. ${check.say}`);
   if (check.outcome === "pass") return { job: updated, check, say: `${check.say} ${readStep(updated, worker)}` };
 
   const unclear = updated.results[updated.current]?.unclear ?? 0;

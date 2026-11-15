@@ -83,7 +83,7 @@ export const AGENTS: Agent[] = [
     name: "Check panel",
     kind: "model",
     short: "Three models judge every step.",
-    role: "Three reviewers judge each step from a fresh frame. Two of three decide.",
+    role: "Three reviewers judge each step from a fresh frame. The majority of their answers decides.",
     runsOn: "Three Gemini models in parallel, 6 s cap each",
     receives: `Frames under ${FRAMES.maxAgeMs / 1000} s old · the step's yes/no question`,
     produces: "looks right · not yet · can't tell, plus one line to speak",

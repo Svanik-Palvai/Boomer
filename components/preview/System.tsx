@@ -30,7 +30,7 @@ const NODES: N[] = [
   { id: "guide", x: 180, y: 270, w: W, h: H, title: "Guide", sub: "ElevenLabs voice agent", glyph: "guide", kind: "agent" },
   { id: "look", x: 378, y: 270, w: W, h: H, title: "Look", sub: "Gemini vision", glyph: "look", kind: "model" },
   { id: "plan", x: 576, y: 270, w: W, h: H, title: "Plan", sub: "rules · no model", glyph: "plan", kind: "rules" },
-  { id: "check", x: 774, y: 270, w: W, h: H, title: "Check panel", sub: "3 Gemini models · 2 of 3", glyph: "checker", kind: "model" },
+  { id: "check", x: 774, y: 270, w: W, h: H, title: "Check panel", sub: "3 Gemini models as judges", glyph: "checker", kind: "model" },
   { id: "gate", x: 972, y: 270, w: W, h: H, title: "Spoken gate", sub: "worker's words · rules", glyph: "judge", kind: "rules" },
 
   { id: "texts", x: 12, y: 520, w: 150, h: H, title: "Worker texts", sub: "iMessage", glyph: "human", kind: "human" },
@@ -102,7 +102,7 @@ const FLOW: { from: string; to: string; what: string; human?: boolean }[] = [
   { from: "Guide", to: "Look → Plan", what: "`look` identifies the job; Plan builds checked steps from data" },
   { from: "Plan", to: "Share → Supervisor", what: "Plan texted for sign-off; Guide waits before step 1", human: true },
   { from: "Supervisor", to: "Share → Job memory", what: "APPROVE, changes or hold off; a note is read to the worker" },
-  { from: "Guide", to: "Check panel", what: "`check_step`: 3 models vote; 2 of 3 decide; Guide speaks the result" },
+  { from: "Guide", to: "Check panel", what: "`check_step`: 3 models judge; the majority of their answers decides; Guide speaks the result" },
   { from: "Check panel", to: "Spoken gate", what: "After 2 “can't tell”, the worker may confirm out loud (never on step 5)", human: true },
   { from: "Guide, Check, Recorder", to: "Job memory", what: "Every line, check and text lands in one memory per job" },
   { from: "Worker texts", to: "Sign-up · Share · Recorder", what: "One inbound text goes to one agent" },

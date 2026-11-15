@@ -80,33 +80,43 @@ export async function checkStep(step: Step, frames: Frame[], attempt = 0): Promi
   };
 }
 
-/** 2 of 3 decide. With one reviewer (CHECK_PANEL=off) that reviewer decides. `total` = panel size, when some votes are still out. */
-export function majority(votes: Pick<CheckVote, "outcome">[], total = votes.length): CheckOutcome {
-  const need = Math.floor(total / 2) + 1;
-  const n = (o: CheckOutcome) => votes.filter((v) => v.outcome === o).length;
-  if (n("pass") >= need) return "pass";
-  if (n("fail") >= need) return "fail";
+/**
+ * Decide from the reviewers that actually answered. Errors, timeouts and "can't tell" votes abstain: they never block
+ * a step on their own. Among pass/fail votes the majority wins; a tie, or nobody answering, is "unclear".
+ * So pass+unclear+unclear passes, fail+fail+pass (wires on LOAD) fails, pass+fail+unclear asks for a better look.
+ * `total` = panel size, for callers that check whether outstanding votes could still change the result.
+ */
+export function majority(votes: Pick<CheckVote, "outcome" | "error">[], _total = votes.length): CheckOutcome {
+  const answered = votes.filter((v) => !v.error);
+  const p = answered.filter((v) => v.outcome === "pass").length;
+  const f = answered.filter((v) => v.outcome === "fail").length;
+  if (p > f) return "pass";
+  if (f > p) return "fail";
   return "unclear";
 }
 
 /**
- * Resolves with the votes in so far once no outstanding vote can change majority(): "pass" or "fail" has a majority,
- * or neither can reach one any more ("unclear"). review() never rejects, so this always settles.
+ * Resolves with the votes in so far once the outstanding votes can't change majority(): the pass/fail lead is bigger
+ * than the number of votes still out (each could only add one to the other side). review() never rejects.
  */
 export function untilDecided(pending: Promise<CheckVote>[]): Promise<CheckVote[]> {
   const total = pending.length;
-  const need = Math.floor(total / 2) + 1;
   return new Promise((resolve) => {
     const done: CheckVote[] = [];
     for (const p of pending)
       p.then((v) => {
         done.push(v);
         const left = total - done.length;
-        const n = (o: CheckOutcome) => done.filter((d) => d.outcome === o).length;
-        const settled = left === 0 || n("pass") >= need || n("fail") >= need || (n("pass") + left < need && n("fail") + left < need);
-        if (settled) resolve([...done]);
+        const answered = done.filter((d) => !d.error);
+        const lead = Math.abs(answered.filter((d) => d.outcome === "pass").length - answered.filter((d) => d.outcome === "fail").length);
+        if (left === 0 || lead > left) resolve([...done]);
       });
   });
+}
+
+/** One short line per vote for the job memory, e.g. "inspector pass, wiring fail, photo error". */
+export function voteSummary(votes: CheckVote[] = []): string {
+  return votes.map((v) => `${v.reviewer} ${v.error ? `error: ${v.errorText ?? "unknown"}` : v.outcome}`).join(", ");
 }
 
 async function review(r: Reviewer, step: Step, parts: ReturnType<typeof frameParts>): Promise<CheckVote> {
@@ -150,7 +160,9 @@ async function review(r: Reviewer, step: Step, parts: ReturnType<typeof framePar
     return { reviewer: r.name, model: r.model, outcome, seen: scrub(j.seen), expected: scrub(j.expected), fix: scrub(j.fix), ms: Date.now() - started };
   } catch (err) {
     console.error(`[checkStep] ${r.name} (${r.model}) failed:`, errorText(err).slice(0, 200));
-    return { reviewer: r.name, model: r.model, outcome: "unclear", error: true, ms: Date.now() - started };
+    const t = errorText(err);
+    const short = /429|RESOURCE_EXHAUSTED|quota/i.test(t) ? "quota" : /timed out/i.test(t) ? "timed out" : /404|not found/i.test(t) ? "model not found" : t.slice(0, 60);
+    return { reviewer: r.name, model: r.model, outcome: "unclear", error: true, errorText: short, ms: Date.now() - started };
   }
 }
 

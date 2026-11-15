@@ -521,7 +521,7 @@ function CheckVisual({ active, beat }: { active: boolean; beat: number }) {
           {fixed ? "Looks right." : "“Not yet. Those are the LOAD terminals. Move both wires to the pair marked LINE.”"}
         </p>
         <p className={s.label}>
-          Votes illustrative. Rule from checkStep(): 2 of 3 decide; a split is “can’t tell”, never “looks right”.
+          Votes illustrative. Rule from checkStep(): the majority of pass/fail answers decides; a tie is “can’t tell”, never “looks right”.
         </p>
       </div>
     </div>
