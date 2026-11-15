@@ -1,6 +1,6 @@
 // OWNER: Zohaib (backend). Ids, timestamps and the demo seed shared by lib/db/*.
 import { backend } from "./backend";
-import { DEMO_JOB_ID, DEMO_WORKER_ID, demoJob, demoWorker } from "@/lib/mock/demo";
+import { DEMO_JOB_ID, DEMO_WORKER_ID, demoSupervisor, demoWorker, freshDemoJob } from "@/lib/mock/demo";
 import { normalizePhone } from "./phone";
 
 export const newId = (prefix: string) => `${prefix}-${crypto.randomUUID().slice(0, 8)}`;
@@ -23,8 +23,15 @@ async function seed(force = false) {
     await b.put("worker", w.id, w, { phone: normalizePhone(w.phone) });
   }
   if (force || !(await b.get("job", DEMO_JOB_ID))) {
-    const j = demoJob();
+    // Fresh job with no plan, so a call runs the whole flow from "What's the job?".
+    const j = freshDemoJob();
     await b.put("job", j.id, j, { workerId: j.workerId, jobId: j.id });
+  }
+  // Demo supervisor from env, so the plan goes out for approval without texting "my supervisor is ...".
+  const sup = demoSupervisor();
+  if (sup && (force || !(await b.get("contact", DEMO_WORKER_ID)))) {
+    const c = { workerId: DEMO_WORKER_ID, supervisorPhone: normalizePhone(sup.supervisorPhone), supervisorName: sup.supervisorName, updatedAt: nowIso() };
+    await b.put("contact", DEMO_WORKER_ID, c, { workerId: DEMO_WORKER_ID });
   }
 }
 

@@ -67,6 +67,12 @@ export default function JobRecordPage({ params }: { params: { id: string } }) {
           </>
         )}
       </p>
+      {e.approval && (
+        <p className={s.note}>
+          {e.approval.status === "rejected" ? "Held by" : "Plan approved by"} {e.approval.by}, {new Date(e.approval.at).toLocaleString()}
+          {e.approval.note ? `. Note: "${e.approval.note}"` : ""}
+        </p>
+      )}
       {e.summary && <p className={s.note}>{e.summary}</p>}
 
       <StepList label="Steps">

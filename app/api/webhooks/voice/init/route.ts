@@ -9,6 +9,7 @@ import { resolveJob } from "@/lib/jobs/resolve";
 import { stepNumber } from "@/lib/agent/engine";
 import { talkProfile } from "@/lib/agent/prompt";
 import { SAY } from "@/lib/copy";
+import { approvalGate } from "@/lib/jobs/approval";
 
 export async function POST(req: Request) {
   const secret = process.env.VOICE_TOOL_SECRET;
@@ -28,7 +29,15 @@ export async function POST(req: Request) {
     });
   }
   const n = stepNumber(r.job);
-  const firstMessage = r.resumed && n ? SAY.welcomeBack(n) : `Hi ${r.worker.name.split(" ")[0]}, it's Boomer. What's the job?`;
+  const gate = r.job.status === "plan_ready" ? approvalGate(r.job) : null;
+  const first = r.worker.name.split(" ")[0];
+  const firstMessage = gate?.wait
+    ? `Hi ${first}, it's Boomer. ${gate.say}`
+    : r.job.status === "plan_ready"
+      ? `Hi ${first}, it's Boomer. Your plan's ready. Say "let's go" to start.`
+      : r.resumed && n
+        ? SAY.welcomeBack(n)
+        : `Hi ${first}, it's Boomer. What's the job?`;
   return NextResponse.json({
     type: "conversation_initiation_client_data",
     dynamic_variables: {

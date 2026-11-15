@@ -9,6 +9,7 @@ import { remember } from "@/lib/memory/store";
 import { recorderReply } from "./recorder";
 import { shareReply } from "./share";
 import { signupReply } from "./signup";
+import { decideFromText } from "@/lib/jobs/approval";
 
 export interface InboxResult {
   agent: "signup" | "share" | "recorder";
@@ -20,6 +21,9 @@ const ACK = /^(ok(ay)?|k|cool|got it|thanks?|thank you|thx|ty|great|nice|üëç|ü
 
 export async function handleInboundText(fromRaw: string, text: string): Promise<InboxResult> {
   const from = normalizePhone(fromRaw);
+  // A supervisor answering a plan that's waiting for their OK ("approve", changes, "hold off").
+  const decision = await decideFromText(from, text);
+  if (decision) return { agent: "share", reply: decision.reply, jobId: decision.jobId };
   const worker = await getWorkerByPhone(from);
   if (!worker) return { agent: "signup", reply: await signupReply(from, text) };
 

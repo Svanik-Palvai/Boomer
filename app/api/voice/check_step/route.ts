@@ -8,6 +8,7 @@ import { SAY } from "@/lib/copy";
 import { UNCLEAR_RETRIES } from "@/lib/config";
 import { judgeConfirmation } from "@/lib/ai/judgeConfirmation";
 import { remember } from "@/lib/memory/store";
+import { approvalGate } from "@/lib/jobs/approval";
 
 /** Checker -> shared job memory, so the guide and the iMessage recorder can refer back to it. Fire-and-forget: the check has a ~3 s budget. */
 function logCheck(jobId: string, text: string) {
@@ -16,10 +17,16 @@ function logCheck(jobId: string, text: string) {
 
 export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
   const step = currentStep(job);
-  if (job.status !== "guiding" || !step) return { say: allDone(job) ? "That's every step. Say finish." : "We haven't started the steps yet." };
+  if (job.status !== "guiding" || !step) {
+    const gate = job.status === "plan_ready" ? approvalGate(job) : null;
+    if (gate?.wait) return { say: gate.say };
+    return { say: allDone(job) ? "That's every step. Say finish." : "We haven't started the steps yet. Say next to begin." };
+  }
 
   // Spoken checks (and vision steps after repeated "can't tell"): log the worker's confirmation.
-  if (step.check.kind === "spoken" || (req.spokenConfirmation && canConfirmByVoice(job))) {
+  // Vision steps: only an explicit "confirm" (after repeated "can't tell") overrides the camera. "done" never does.
+  const explicitConfirm = !!req.spokenConfirmation && /\bconfirm/i.test(req.spokenConfirmation);
+  if (step.check.kind === "spoken" || (explicitConfirm && canConfirmByVoice(job))) {
     if (!req.spokenConfirmation) return { say: step.check.prompt ?? SAY.hardGate };
     // The worker's words must actually confirm it: a "no", a vague answer or a live tester reading is asked again.
     const verdict = judgeConfirmation(step, req.spokenConfirmation);
@@ -44,6 +51,9 @@ export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
   if (check.outcome === "pass") return { job: updated, check, say: `${check.say} ${readStep(updated, worker)}` };
 
   const unclear = updated.results[updated.current]?.unclear ?? 0;
-  const say = check.outcome === "unclear" && unclear > UNCLEAR_RETRIES ? `${check.say} Or tell me it's done and I'll log it as worker confirmed.` : check.say;
+  const say =
+    check.outcome === "unclear" && unclear > UNCLEAR_RETRIES && canConfirmByVoice(updated)
+      ? `${check.say} If it's done, say "confirm" and I'll log it as worker confirmed, not seen.`
+      : check.say;
   return { job: updated, check, say };
 });

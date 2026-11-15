@@ -1,8 +1,8 @@
 [
   {
     "jobType": "gfci-swap",
-    "title": "Swap a kitchen counter receptacle for a GFCI",
-    "component": "kitchen countertop receptacle",
+    "title": "Swap an outlet for a GFCI",
+    "component": "standard receptacle",
     "steps": [
       {
         "id": "gfci-1-breaker",

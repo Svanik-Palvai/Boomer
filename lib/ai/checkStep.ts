@@ -93,8 +93,8 @@ async function review(r: Reviewer, step: Step, parts: ReturnType<typeof framePar
       contents: [{ role: "user", parts: [...parts, { text: prompt(step, r.focus) }] }],
       config: {
         temperature: 0,
-        maxOutputTokens: 200,
-        ...(thinkingOff ? { thinkingConfig: thinkingOffConfig(r.model) } : {}),
+        // Cap output only with thinking off; with the model's default thinking, the thoughts count toward the cap.
+        ...(thinkingOff ? { maxOutputTokens: 400, thinkingConfig: thinkingOffConfig(r.model) } : {}),
         responseMimeType: "application/json",
         responseSchema: {
           type: Type.OBJECT,
@@ -114,11 +114,14 @@ async function review(r: Reviewer, step: Step, parts: ReturnType<typeof framePar
     try {
       res = await withTimeout(request(true), CHECK_TIMEOUT_MS);
     } catch (err) {
-      // Models reject thinking settings they don't support with a bare "invalid argument", so retry without it.
-      if (!/thinking|invalid argument|INVALID_ARGUMENT/i.test(errorText(err))) throw err;
+      // Some models reject the thinking-off setting. Retry once with the model's defaults on any error, so a config
+      // mismatch never turns every check into "can't tell". Not after a timeout: that would double the wait.
+      if (/timed out/.test(errorText(err))) throw err;
+      console.error(`[checkStep] ${r.name} fast request failed, retrying with model defaults:`, errorText(err).slice(0, 300));
       res = await withTimeout(request(false), CHECK_TIMEOUT_MS);
     }
-    const j = JSON.parse(res.text ?? "{}") as { outcome?: string; seen?: string; expected?: string; fix?: string };
+    const raw = (res.text ?? "").trim().replace(/^```(?:json)?|```$/g, "").trim();
+    const j = JSON.parse(raw || "{}") as { outcome?: string; seen?: string; expected?: string; fix?: string };
     const outcome: CheckOutcome = j.outcome === "pass" || j.outcome === "fail" ? j.outcome : "unclear";
     return { reviewer: r.name, model: r.model, outcome, seen: scrub(j.seen), expected: scrub(j.expected), fix: scrub(j.fix), ms: Date.now() - started };
   } catch (err) {

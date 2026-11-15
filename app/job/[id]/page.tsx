@@ -11,6 +11,7 @@ import { StepList, StepRow } from "@/components/screens/steps";
 import { api, pages } from "@/lib/routes";
 import { FRAMES } from "@/lib/config";
 import { SAY, STATUS_LABEL } from "@/lib/copy";
+import { approvalLine } from "@/lib/jobs/approvalLabel";
 import s from "./live.module.css";
 
 export default function LiveJobPage({ params }: { params: { id: string } }) {
@@ -63,6 +64,9 @@ export default function LiveJobPage({ params }: { params: { id: string } }) {
       </header>
       {(job.status === "new" || job.status === "looking") && <FlowSteps current={STATUS_LABEL[job.status] as "New"} />}
       {stale && <Banner tone="error">Lost the connection to the server. Retrying…</Banner>}
+      {approvalLine(job.approval) && (
+        <Banner tone={job.approval?.status === "rejected" ? "error" : undefined}>{approvalLine(job.approval)}</Banner>
+      )}
 
       <div className={s.grid}>
         <figure className={s.frame}>
