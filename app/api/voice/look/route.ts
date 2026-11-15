@@ -14,7 +14,11 @@ export const POST = voiceTool("look", async ({ job, worker, req }) => {
   // Keep look under the voice agent's tool timeout: if Gemini is slow, go by what the worker said instead of
   // timing out (a timed-out look gets retried by the agent and texts the supervisor twice).
   const IDENTIFY_MS = Number(process.env.IDENTIFY_TIMEOUT_MS || 6500);
-  const identity = await Promise.race([
+  // Quick run: the job is known from the script, so skip the vision call entirely (instant look).
+  const scripted = QUICK_PHRASE.test(req.note ?? "");
+  const identity = scripted
+    ? { component: "standard receptacle", problem: "an outlet to swap for a GFCI", jobType: DEMO_JOB_TYPE, confidence: 1, source: "fallback" as const }
+    : await Promise.race([
     identifyJob(frames, req.note),
     new Promise<Awaited<ReturnType<typeof identifyJob>>>((resolve) =>
       setTimeout(() => resolve({ component: "standard receptacle", problem: "an outlet to swap for a GFCI", jobType: DEMO_JOB_TYPE, confidence: 0, source: "fallback", fallbackReason: "model_error", fallbackError: "identify timed out" }), IDENTIFY_MS),
@@ -81,7 +85,8 @@ export const POST = voiceTool("look", async ({ job, worker, req }) => {
         : `I can see ${identity.problem.charAt(0).toLowerCase()}${identity.problem.slice(1)}. ${where}`;
 
   // Supervisor on file: send the plan for their OK and wait in "plan ready". next_step starts once they answer.
-  const asked = await requestApproval(planned, worker);
+  // Quick run: plain text only (the mini app card can take seconds to send on Photon 1.0).
+  const asked = await requestApproval(planned, worker, { skipCard: quick });
   if (asked?.approval && asked.approval.delivery !== "none") {
     const who = supervisorLabel(asked.approval);
     return { job: asked, say: `${seen}${quickLine} I sent the plan to ${who}. I'll start as soon as they approve.` };

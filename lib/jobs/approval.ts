@@ -41,7 +41,7 @@ export function planText(job: Job, worker: Worker): string {
  * Text the plan to the worker's supervisor. Returns null when no supervisor is on file.
  * Returns the job with approval set; approval.delivery "none" means the text didn't go through.
  */
-export async function requestApproval(job: Job, worker: Worker): Promise<Job | null> {
+export async function requestApproval(job: Job, worker: Worker, opts: { skipCard?: boolean } = {}): Promise<Job | null> {
   const c = await getContacts(worker.id);
   if (!c?.supervisorPhone) return null;
   // Like textAnyLine, but keeps the error so a failed send says why in the job memory.
@@ -50,7 +50,7 @@ export async function requestApproval(job: Job, worker: Worker): Promise<Job | n
   let sent = await sendText(c.supervisorPhone, text, `approval:${job.id}:${Date.now()}`).then(() => true, (e) => ((sendError = String(e).slice(0, 300)), false));
   if (!sent && stableConfigured()) sent = await sendStableText(c.supervisorPhone, text).then(() => true, (e) => ((sendError += ` | 1.0: ${String(e).slice(0, 200)}`), false));
   let delivery: PlanApproval["delivery"] = sent ? "text" : "none";
-  if (sent && stableConfigured()) {
+  if (sent && stableConfigured() && !opts.skipCard) {
     const card = await sendJobCard(job, c.supervisorPhone, "Plan for your OK").catch(() => "none" as const);
     if (card === "card") delivery = "card";
   }

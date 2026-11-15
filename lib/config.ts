@@ -32,7 +32,7 @@ export const CHECK_BUDGET_MS = 3000;
  */
 export const APPROVAL_WAIT = {
   windowMs: Number(process.env.APPROVAL_WAIT_MS) || 20_000,
-  pollMs: Number(process.env.APPROVAL_POLL_MS) || 1000,
+  pollMs: Number(process.env.APPROVAL_POLL_MS) || 500,
 } as const;
 
 /** After this many "can't tell" answers the worker may confirm out loud. */
