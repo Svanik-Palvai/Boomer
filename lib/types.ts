@@ -286,7 +286,8 @@ export type VoiceToolName =
   | "go_back"
   | "check_step"
   | "stop_job"
-  | "finish_job";
+  | "finish_job"
+  | "wait_for_approval";
 
 /** Every voice tool takes this body. Either jobId or callerPhone must resolve to a job. */
 export interface VoiceToolRequest {
@@ -311,6 +312,8 @@ export interface VoiceToolResponse {
   check?: CheckResult;
   /** get_context only: the text block for the agent's prompt. */
   context?: string;
+  /** wait_for_approval only: true when the supervisor hasn't answered yet and the agent should call it again. */
+  waiting?: boolean;
   error?: string;
 }
 
