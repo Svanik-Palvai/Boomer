@@ -22,6 +22,7 @@ const schema = z.array(
           text: z.string().min(1),
           reason: z.string().min(1),
           shortText: z.string().optional(),
+          skill: z.string().optional(),
           hardGate: z.boolean().optional(),
           check: z.object({
             kind: z.enum(["spoken", "vision"]),

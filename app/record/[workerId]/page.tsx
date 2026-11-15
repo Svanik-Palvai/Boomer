@@ -60,6 +60,37 @@ export default function WorkRecordPage({ params }: { params: { workerId: string 
 
       <ShareLink url={rec.shareUrl} />
 
+      {!!rec.skills?.length && (
+        <>
+          <h2 className={s.h2}>Skills</h2>
+          <p className={s.skillNote}>
+            Boomer&rsquo;s estimate that {worker.name.split(" ")[0]} has each skill down, updated by every step check. An
+            estimate from observed work, not a qualification.
+          </p>
+          <ul className={s.skills}>
+            {rec.skills.map((k) => (
+              <li key={k.skill} className={s.skill}>
+                <span className={s.skillName}>{k.label}</span>
+                <span className={`${s.skillPct} num`}>{Math.round(k.p * 100)}%</span>
+                <span
+                  className={s.meter}
+                  role="meter"
+                  aria-label={`${k.label} estimate`}
+                  aria-valuemin={0}
+                  aria-valuemax={100}
+                  aria-valuenow={Math.round(k.p * 100)}
+                >
+                  <span className={s.meterFill} data-level={k.level} style={{ width: `${Math.round(k.p * 100)}%` }} />
+                </span>
+                <span className={`${s.skillMeta} num`}>
+                  {k.right} of {k.checks} {k.checks === 1 ? "check" : "checks"} right · {k.seen} seen on camera
+                </span>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+
       <h2 className={s.h2}>Jobs</h2>
       <ul className={s.jobs}>
         {entries.length === 0 && <li className={s.empty}>No finished jobs yet. Each guided call adds one here.</li>}
