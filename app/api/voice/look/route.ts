@@ -11,7 +11,15 @@ import { DEMO_JOB_TYPE } from "@/lib/mock/demo";
 
 export const POST = voiceTool("look", async ({ job, worker, req }) => {
   const frames = await recentFrames(job.id);
-  const identity = await identifyJob(frames, req.note);
+  // Keep look under the voice agent's tool timeout: if Gemini is slow, go by what the worker said instead of
+  // timing out (a timed-out look gets retried by the agent and texts the supervisor twice).
+  const IDENTIFY_MS = Number(process.env.IDENTIFY_TIMEOUT_MS || 6500);
+  const identity = await Promise.race([
+    identifyJob(frames, req.note),
+    new Promise<Awaited<ReturnType<typeof identifyJob>>>((resolve) =>
+      setTimeout(() => resolve({ component: "standard receptacle", problem: "an outlet to swap for a GFCI", jobType: DEMO_JOB_TYPE, confidence: 0, source: "fallback", fallbackReason: "model_error", fallbackError: "identify timed out" }), IDENTIFY_MS),
+    ),
+  ]);
 
   // "What am I looking at?" mid-job: describe, don't re-plan.
   if (job.status === "guiding") {
@@ -59,11 +67,7 @@ export const POST = voiceTool("look", async ({ job, worker, req }) => {
     approval: undefined,
   }));
   const skipped = plan.current > 0;
-  const quickLine = quick
-    ? skipped
-      ? " You've done this before, so I'll keep it short. I logged what you said about the breaker and the tester."
-      : " You've done this before, so I'll keep it short."
-    : "";
+  const quickLine = quick ? (skipped ? " Short version, since you've done this before. Breaker and tester logged." : " Short version, since you've done this before.") : "";
 
   const newHere = steps.filter((s) => s.tag === "new_here").length;
   const where = job.site
@@ -74,13 +78,13 @@ export const POST = voiceTool("look", async ({ job, worker, req }) => {
       ? `I can't see the camera yet, so I'm going by what you said: ${identity.problem}. ${where}`
       : identity.fallbackReason
         ? `I couldn't read the camera picture, so I'm going by what you said: ${identity.problem}. ${where}`
-        : `I can see ${identity.problem}. ${where}`;
+        : `I can see ${identity.problem.charAt(0).toLowerCase()}${identity.problem.slice(1)}. ${where}`;
 
   // Supervisor on file: send the plan for their OK and wait in "plan ready". next_step starts once they answer.
   const asked = await requestApproval(planned, worker);
   if (asked?.approval && asked.approval.delivery !== "none") {
     const who = supervisorLabel(asked.approval);
-    return { job: asked, say: `${seen}${quickLine} The plan has ${steps.length} steps. I sent it to ${who} to approve, and I'll start as soon as they answer.` };
+    return { job: asked, say: `${seen}${quickLine} I sent the plan to ${who}. I'll start as soon as they approve.` };
   }
 
   // No supervisor, or they can't be reached yet: start without sign-off, and say so.

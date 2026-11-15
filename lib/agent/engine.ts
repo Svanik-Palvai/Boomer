@@ -167,3 +167,9 @@ export function quickPlan(steps: Step[], said: string): { steps: Step[]; results
   const first = results.findIndex((r) => r.status === "pending");
   return { steps: kept, results, current: first < 0 ? 0 : first };
 }
+
+/** Quick run, step 5 after the caught LOAD mistake: the worker says it's moved to LINE; logged as worker confirmed. */
+export function confirmAfterFix(job: Job, text: string): Job {
+  const next = patchResult(job, (r) => ({ ...r, attempts: r.attempts + 1, status: "worker_confirmed", confirmedText: text, doneAt: now() }));
+  return advance(next);
+}

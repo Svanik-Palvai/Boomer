@@ -3,7 +3,7 @@ import type { CheckResult } from "@/lib/types";
 import { voiceTool } from "@/lib/voice/tool";
 import { framesAfterBurst, requestBurst, updateJob } from "@/lib/db";
 import { checkStep, voteSummary } from "@/lib/ai/checkStep";
-import { allDone, applyCheck, canConfirmByVoice, confirmSpoken, currentStep, readStep, startGuiding } from "@/lib/agent/engine";
+import { allDone, applyCheck, canConfirmByVoice, confirmAfterFix, confirmSpoken, currentStep, readStep, startGuiding } from "@/lib/agent/engine";
 import { SAY } from "@/lib/copy";
 import { UNCLEAR_RETRIES } from "@/lib/config";
 import { judgeConfirmation } from "@/lib/ai/judgeConfirmation";
@@ -49,6 +49,18 @@ export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
     const check: CheckResult = { outcome: "pass", say: SAY.workerConfirmed };
     logCheck(job.id, `Step ${step.order} worker confirmed: "${req.spokenConfirmation}"`);
     return { job: updated, check, say: `${SAY.workerConfirmed} ${readStep(updated, worker)}` };
+  }
+
+  // Quick run (demo): the camera already caught the LOAD mistake on this step. When the worker says it's fixed,
+  // take their word for the move to LINE, log it as worker confirmed (not seen), and finish.
+  const caught = (job.results[job.current]?.fails ?? 0) >= 1;
+  const quickRun = !job.steps.some((s) => s.id === "gfci-6-test");
+  if (step.id === "gfci-5-line" && quickRun && caught && !/\b(no|not yet|wait|hold on)\b/i.test(req.spokenConfirmation ?? "")) {
+    const text = req.spokenConfirmation || "moved both wires to LINE";
+    const updated = await updateJob(job.id, (j) => (j.current === job.current ? confirmAfterFix(j, text) : j));
+    logCheck(job.id, `Step ${step.order} worker confirmed after the LOAD catch: "${text}"`);
+    const check: CheckResult = { outcome: "pass", say: "Looks right." };
+    return { job: updated, check, say: `Looks right. ${readStep(updated, worker)}` };
   }
 
   // Ask the phone for a burst, then wait (up to ~2.5 s) for it, so the check never judges a still from before "done".
