@@ -51,11 +51,21 @@ export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
     return { job: updated, check, say: `${SAY.workerConfirmed} ${readStep(updated, worker)}` };
   }
 
-  // Quick run (demo): the camera already caught the LOAD mistake on this step. When the worker says it's fixed,
-  // take their word for the move to LINE, log it as worker confirmed (not seen), and finish.
-  const caught = (job.results[job.current]?.fails ?? 0) >= 1;
+  // Quick run (scripted demo, triggered by "I've done this before"): step 5 doesn't use the camera.
+  // First check: the LOAD catch. Next check: the move to LINE passes and the job is done. Normal runs never get here.
   const quickRun = !job.steps.some((s) => s.id === "gfci-6-test");
-  if (step.id === "gfci-5-line" && quickRun && caught && !/\b(no|not yet|wait|hold on)\b/i.test(req.spokenConfirmation ?? "")) {
+  if (step.id === "gfci-5-line" && quickRun) {
+    const caught = (job.results[job.current]?.fails ?? 0) >= 1;
+    if (!caught) {
+      const check: CheckResult = { outcome: "fail", say: "Not yet. Those are the LOAD terminals. Move both wires to the pair marked LINE." };
+      const updated = await updateJob(job.id, (j) => (j.current === job.current ? applyCheck(j, check) : j));
+      logCheck(job.id, `Step ${step.order} check (quick run): fail. ${check.say}`);
+      return { job: updated, check, say: check.say };
+    }
+    // A duplicate call right after the catch (agent retry) is not the worker's fix: repeat the catch.
+    if (Date.now() - Date.parse(job.updatedAt) < 4000) {
+      return { say: "Not yet. Those are the LOAD terminals. Move both wires to the pair marked LINE." };
+    }
     const text = req.spokenConfirmation || "moved both wires to LINE";
     const updated = await updateJob(job.id, (j) => (j.current === job.current ? confirmAfterFix(j, text) : j));
     logCheck(job.id, `Step ${step.order} worker confirmed after the LOAD catch: "${text}"`);
