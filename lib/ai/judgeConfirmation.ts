@@ -42,5 +42,7 @@ export function judgeConfirmation(step: Step, text: string): Judgement {
   if (isTester) return YES.test(t) && !step.hardGate ? { ok: true } : { ok: false, say: /tester reads/i.test(ask) ? ask : `Tell me what the tester reads. ${ask}` };
   if (/test|reset|trip/i.test(`${step.id} ${step.check.question}`) && (TRIP.test(t) || YES.test(t))) return { ok: true };
   if (YES.test(t)) return { ok: true };
-  return { ok: false, say: step.hardGate ? `I need a clear yes. ${ask}` : ask };
+  // Not a safety gate ("it's out", "mounted", "back's facing me"): anything that isn't a no or a maybe confirms it.
+  if (!step.hardGate) return { ok: true };
+  return { ok: false, say: `I need a clear yes. ${ask}` };
 }

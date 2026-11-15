@@ -32,7 +32,12 @@ export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
   // Vision steps: only an explicit "confirm" (after repeated "can't tell") overrides the camera. "done" never does.
   const explicitConfirm = !!req.spokenConfirmation && /\bconfirm/i.test(req.spokenConfirmation);
   if (step.check.kind === "spoken" || (explicitConfirm && canConfirmByVoice(job))) {
-    if (!req.spokenConfirmation) return { say: step.check.prompt ?? SAY.hardGate };
+    // The agent only calls check_step when the worker said done/check: on a step that isn't a safety gate,
+    // a missing spokenConfirmation counts as "done" instead of asking again.
+    if (!req.spokenConfirmation) {
+      if (step.hardGate || step.check.kind !== "spoken") return { say: step.check.prompt ?? SAY.hardGate };
+      req.spokenConfirmation = "done";
+    }
     // The worker's words must actually confirm it: a "no", a vague answer or a live tester reading is asked again.
     const verdict = judgeConfirmation(step, req.spokenConfirmation);
     await remember(job.id, { channel: "voice", agent: "guide", speaker: "worker", text: req.spokenConfirmation });
