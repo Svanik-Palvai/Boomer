@@ -180,6 +180,19 @@ export interface CheckResult {
   expected?: string;
   frameId?: string;
   ms?: number;
+  votes?: CheckVote[]; // one per reviewer when the step check runs as a panel (lib/ai/checkStep.ts)
+}
+
+/** One reviewer's answer in the step-check panel. */
+export interface CheckVote {
+  reviewer: "inspector" | "wiring" | "photo";
+  model: string;
+  outcome: CheckOutcome;
+  seen?: string;
+  expected?: string;
+  fix?: string;
+  ms: number;
+  error?: boolean;
 }
 
 export interface Job {

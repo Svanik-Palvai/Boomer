@@ -19,3 +19,7 @@ Thumbs.db
 # old project leftovers
 __pycache__/
 *.pyc
+
+# Model test images (web photos are testing-only; generated images are large)
+/eval/images/
+/eval/results/

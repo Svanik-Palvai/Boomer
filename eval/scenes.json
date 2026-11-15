@@ -1,0 +1,32 @@
+{
+  "style": "Realistic smartphone photo taken from a phone strapped to an electrician's chest, looking down at their hands, slightly wide angle, ordinary indoor light, no text overlays, no watermark. The device is de-energized.",
+  "scenes": [
+    { "id": "s3-pass-a", "step": "gfci-3-remove", "label": "pass", "prompt": "An old white duplex receptacle pulled forward about 3 inches out of a blue plastic wall box in a kitchen tile backsplash. The faceplate is off and lying on the counter. A black wire, a white wire and a bare copper wire run from the box to the side screws of the receptacle and are clearly visible." },
+    { "id": "s3-pass-b", "step": "gfci-3-remove", "label": "pass", "prompt": "A worker's gloved hand holds an ivory duplex receptacle pulled out of a metal wall box in drywall. The faceplate is removed. Black and white insulated wires and a bare ground wire are visible connecting to the receptacle terminals." },
+    { "id": "s3-fail-a", "step": "gfci-3-remove", "label": "fail", "prompt": "A white duplex receptacle still screwed flat into a wall box in a kitchen backsplash. The faceplate has been removed but the receptacle is not pulled out, so no wires are visible. A screwdriver is in the worker's hand." },
+    { "id": "s3-fail-b", "step": "gfci-3-remove", "label": "fail", "prompt": "A white duplex receptacle on a kitchen backsplash with its faceplate still on, fully installed. The worker's hand is holding a screwdriver near it." },
+
+    { "id": "s4-pass-a", "step": "gfci-4-terminals", "label": "pass", "prompt": "A worker's hand holds a new white GFCI receptacle turned around to show its back. The back clearly shows two terminal pairs with molded labels: the upper pair marked LINE and the lower pair marked LOAD. A yellow warning sticker covers the LOAD terminals. The labels are sharp and readable." },
+    { "id": "s4-pass-b", "step": "gfci-4-terminals", "label": "pass", "prompt": "Close view of the back of a GFCI receptacle held up to the camera. Brass and silver screw terminals are visible, with the words LINE and LOAD printed clearly next to each pair. No wires are connected yet." },
+    { "id": "s4-fail-a", "step": "gfci-4-terminals", "label": "fail", "prompt": "A worker's hand holds a new white GFCI receptacle showing only its FRONT face, with the TEST and RESET buttons and the two plug outlets facing the camera. The back is not visible." },
+    { "id": "s4-fail-b", "step": "gfci-4-terminals", "label": "fail", "prompt": "A worker's hand holds an ordinary white duplex receptacle (not a GFCI, no TEST or RESET buttons) turned around to show its back with four plain screw terminals and no LINE or LOAD markings." },
+
+    { "id": "s5-pass-a", "step": "gfci-5-line", "label": "pass", "prompt": "The back of a white GFCI receptacle on a workbench training prop. The black wire is tightened under the brass screw labeled LINE and the white wire under the silver screw labeled LINE. The LOAD terminal pair below is empty and still covered by its yellow warning tape. The labels LINE and LOAD are readable." },
+    { "id": "s5-pass-b", "step": "gfci-5-line", "label": "pass", "prompt": "Close photo of a GFCI receptacle's terminals on a training board: the incoming black and white wires are connected to the pair marked LINE; nothing is connected to the pair marked LOAD. Labels clearly readable." }
+  ],
+  "edits": [
+    { "id": "s5-fail-a", "from": "s5-pass-a", "step": "gfci-5-line", "label": "fail", "prompt": "Edit this photo: move both wires so the black wire is under the brass screw labeled LOAD and the white wire is under the silver screw labeled LOAD. The LINE terminal pair is now empty. Remove the yellow tape from LOAD. Keep the labels LINE and LOAD readable and change nothing else." },
+    { "id": "s5-fail-b", "from": "s5-pass-b", "step": "gfci-5-line", "label": "fail", "prompt": "Edit this photo: connect the incoming black and white wires to the pair marked LOAD instead of LINE. Leave the LINE pair empty. Keep the labels readable and change nothing else." },
+    { "id": "s5-fail-c", "from": "s5-pass-a", "step": "gfci-5-line", "label": "fail", "prompt": "Edit this photo: keep the white wire on the silver LINE screw, but move the black wire to the brass screw labeled LOAD. Keep all labels readable and change nothing else." },
+    { "id": "s3-fail-c", "from": "s3-pass-a", "step": "gfci-3-remove", "label": "fail", "prompt": "Edit this photo: the receptacle is pushed back fully into the wall box and screwed flat, so no wires are visible. Keep everything else the same." },
+    { "id": "s4-pass-c", "from": "real-07", "step": "gfci-4-terminals", "label": "pass", "prompt": "Edit this photo so it looks like it was taken in a worker's hand on a job site, with the terminal labels LINE and LOAD still readable. Change nothing about the device itself." }
+  ],
+  "real": [
+    { "id": "real-01", "step": "gfci-3-remove", "label": "fail", "note": "GFCI installed with faceplate on" },
+    { "id": "real-04", "step": "gfci-3-remove", "label": "fail", "note": "GFCI installed with faceplate on" },
+    { "id": "real-05", "step": "gfci-3-remove", "label": "fail", "note": "GFCI installed on a wall, angled" },
+    { "id": "real-06", "step": "gfci-4-terminals", "label": "fail", "note": "loose GFCI shown from the front/side, back not shown" },
+    { "id": "real-07", "step": "gfci-4-terminals", "label": "pass", "note": "back of a new GFCI, LINE label and yellow tape over LOAD" },
+    { "id": "real-02", "step": "gfci-4-terminals", "label": "fail", "note": "product photo of a GFCI front" }
+  ]
+}
