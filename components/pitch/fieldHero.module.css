@@ -313,3 +313,73 @@
   line-height: 1.6;
   color: #f1ebdd;
 }
+/* Fit the pinned first screen to the viewport at normal browser zoom. */
+@media (min-width: 1000px) and (min-height: 700px) and (prefers-reduced-motion: no-preference) {
+  .stage {
+    height: calc(100svh - 76px);
+    min-height: 0;
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr) auto;
+  }
+  .layout {
+    min-height: 0;
+    padding-block: 24px;
+  }
+  .copy {
+    min-width: 0;
+  }
+  .visual {
+    height: 100%;
+    min-height: 0;
+    display: grid;
+    grid-template-rows: minmax(130px, 1fr) auto auto;
+  }
+  .photo {
+    aspect-ratio: auto;
+    min-height: 0;
+  }
+}
+@media (min-width: 1000px) and (min-height: 700px) and (max-height: 850px) and (prefers-reduced-motion: no-preference) {
+  .stage {
+    padding-top: 16px;
+    padding-bottom: 14px;
+  }
+  .layout {
+    padding-block: 18px;
+  }
+  .wordmark {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  .hook {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+  .copy h1 {
+    font-size: clamp(40px, 3.7vw, 52px);
+    margin-bottom: 18px;
+  }
+  .description {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .scope {
+    margin-top: 16px;
+  }
+  .storyBody {
+    min-height: 156px;
+    padding: 14px 20px;
+  }
+  .storyBody h2 {
+    font-size: 28px !important;
+    margin: 8px 0;
+  }
+  .storyBody p {
+    margin-bottom: 10px;
+  }
+  .bottomline {
+    padding-top: 12px;
+    font-size: 8px;
+  }
+}

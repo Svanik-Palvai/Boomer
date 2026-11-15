@@ -1241,3 +1241,65 @@
     padding: 18px 0;
   }
 }
+
+/* Native section stops: scoped to the pitch route and spacious desktop screens.
+   Oversized sections retain normal internal scrolling; no wheel interception. */
+@media (min-width: 1000px) and (min-height: 700px) and (prefers-reduced-motion: no-preference) {
+  :global(html):has(.pitch) {
+    scroll-snap-type: y mandatory;
+  }
+  .pitch [data-section],
+  .pitch [data-snap] {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    scroll-margin-top: 76px;
+  }
+}
+@media (min-width: 1000px) and (min-height: 700px) and (max-height: 900px) {
+  .setupSection {
+    padding-block: 28px;
+  }
+  .setupSection > h2 {
+    font-size: 46px;
+    line-height: 1;
+  }
+  .setupSection .sectionLabel {
+    margin-bottom: 20px;
+  }
+  .setupSection .guideLayout {
+    margin-top: 20px;
+  }
+  .setupSection .guideVisual svg {
+    max-height: 270px;
+  }
+  .setupSection .guideCopy {
+    gap: 14px 24px;
+  }
+  .setupSection .guideBeat {
+    padding: 14px 0;
+  }
+  .setupSection .guideBeat h3 {
+    font-size: 26px;
+    margin: 10px 0;
+  }
+  .setupSection .guideBeat p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .setupSection .technical {
+    font-size: 9px;
+    margin-top: 10px;
+  }
+  .setupSection .voice {
+    padding-block: 12px;
+  }
+  .setupSection .voice p {
+    font-size: 17px;
+  }
+}
+@media (min-width: 1000px) and (min-height: 700px) {
+  .setupSection,
+  .lessonSection {
+    min-height: calc(100svh - 76px);
+  }
+}
