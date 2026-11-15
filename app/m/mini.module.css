@@ -245,6 +245,43 @@
   letter-spacing: 0.06em;
 }
 
+/* Red-outlined tape for the steps that matter most if skipped (lib/risk/watch.ts). */
+.risk {
+  display: inline-block;
+  margin: 3px 0 0 4px;
+  padding: 0 5px;
+  border: 1px solid var(--hot-red);
+  border-radius: var(--radius-tape);
+  color: var(--hot-red);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+.stepText + .risk { margin-left: 0; }
+
+/* The "look at this" strip under the title: only there when a step needs the supervisor's eye. */
+.watch {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  padding: 8px 12px;
+  border-top: 1px solid var(--rule);
+  border-left: 4px solid var(--hot-red);
+  font-size: 14px;
+  line-height: 1.35;
+}
+.watch ul { margin: 0; padding: 0; list-style: none; }
+.watchTag {
+  flex: none;
+  padding: 1px 6px;
+  border-radius: var(--radius-tape);
+  background: var(--hot-red);
+  color: var(--steel-raised);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
 /* Totals row, like the bottom of a spreadsheet. */
 .total td {
   border-top: 2px solid var(--ink);

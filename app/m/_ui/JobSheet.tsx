@@ -6,13 +6,14 @@ import type { Job } from "@/lib/types";
 import { CODE_LABEL, fmtDate, fmtTime, jobNo, sheetRows, sheetSummary, shortName } from "@/lib/record/sheet";
 import { api } from "@/lib/routes";
 import { approvalLine } from "@/lib/jobs/approvalLabel";
+import type { WatchWorker } from "@/lib/risk/watch";
 import s from "../mini.module.css";
 
 const POLL_MS = 3000;
 
-export function JobSheet({ initial, workerName, recordHref }: { initial: Job; workerName: string; recordHref: string }) {
+export function JobSheet({ initial, workerName, recordHref, worker }: { initial: Job; workerName: string; recordHref: string; worker?: WatchWorker | null }) {
   const [job, setJob] = useState(initial);
-  const rows = sheetRows(job);
+  const rows = sheetRows(job, worker);
   const sum = sheetSummary(job, rows);
 
   useEffect(() => {
@@ -33,6 +34,7 @@ export function JobSheet({ initial, workerName, recordHref }: { initial: Job; wo
 
   const site = job.site ?? job.home;
   const nowRow = rows.find((r) => r.code === "now");
+  const watched = rows.filter((r) => r.watch);
 
   return (
     <>
@@ -44,6 +46,19 @@ export function JobSheet({ initial, workerName, recordHref }: { initial: Job; wo
         </div>
         <div className={s.title}>{job.title || "Job not identified yet"}</div>
         {approvalLine(job.approval) && <p className={s.empty}>{approvalLine(job.approval)}</p>}
+
+        {watched.length > 0 && (
+          <div className={s.watch} role="status">
+            <span className={s.watchTag}>LOOK</span>
+            <ul>
+              {watched.map((r) => (
+                <li key={r.order}>
+                  Step {r.order}. {r.watch}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
 
         <div className={s.block}>
           <Cell label="Site" value={site ? `${site.city}, ${site.state}` : "—"} />
@@ -86,8 +101,15 @@ export function JobSheet({ initial, workerName, recordHref }: { initial: Job; wo
                       <summary>
                         <span className={s.stepText}>{r.text}</span>
                         {r.newHere && <span className={s.tape}>NEW HERE</span>}
+                        {r.risk === "high" && <span className={s.risk}>HIGH RISK</span>}
                       </summary>
                       <div className={s.more}>
+                        {r.watch && (
+                          <>
+                            <b>{r.watch}</b>
+                            <br />
+                          </>
+                        )}
                         {r.reason}
                         {r.necSection && (
                           <>
@@ -131,6 +153,7 @@ export function JobSheet({ initial, workerName, recordHref }: { initial: Job; wo
           <span><b>SAID</b> worker confirmed out loud</span>
           <span><b>FIXED</b> not yet, then seen</span>
           <span><b>NEW HERE</b> differs from home code</span>
+          <span><b>HIGH RISK</b> matters most if skipped (Boomer's estimate)</span>
         </div>
       </div>
 

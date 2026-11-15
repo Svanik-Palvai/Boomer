@@ -12,7 +12,8 @@
     "check": "tsc --noEmit && next build",
     "photon-test": "node scripts/photon-test.mjs",
     "miniapp-test": "node scripts/miniapp-test.mjs",
-    "eval": "npx tsx --tsconfig tsconfig.json eval/run.mts && node eval/gate.mjs"
+    "eval": "npx tsx --tsconfig tsconfig.json eval/run.mts && node eval/gate.mjs",
+    "risk": "npx tsx --tsconfig tsconfig.json lib/risk/report.sim.ts"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "^2.78.0",

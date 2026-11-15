@@ -2,6 +2,7 @@
 // the live-polling client and the Photon card caption all read the same thing.
 import type { Job, Worker } from "@/lib/types";
 import { STATUS_LABEL } from "@/lib/copy";
+import { watchStep, type WatchWorker, type Weight } from "@/lib/risk/watch";
 
 export type RowCode = "seen" | "fixed" | "said" | "notyet" | "now" | "pending";
 
@@ -26,6 +27,10 @@ export interface SheetRow {
   ruleVerified?: boolean;
   doneAt?: string;
   attempts: number;
+  /** How much the step matters (lib/risk/watch.ts). */
+  risk: Weight;
+  /** Why a supervisor should look at this step now, when there is a reason. */
+  watch?: string;
 }
 
 export interface SheetSummary {
@@ -39,9 +44,11 @@ export interface SheetSummary {
   statusLabel: string;
 }
 
-export function sheetRows(job: Job): SheetRow[] {
+/** `worker` sharpens the watch flags (a step new to this worker); without it they go by the job alone. */
+export function sheetRows(job: Job, worker?: WatchWorker | null): SheetRow[] {
   return job.steps.map((s, i) => {
     const r = job.results[i];
+    const watch = watchStep(job, i, worker);
     let code: RowCode = "pending";
     if (r?.status === "seen") code = r.fails > 0 ? "fixed" : "seen";
     else if (r?.status === "worker_confirmed") code = "said";
@@ -59,6 +66,8 @@ export function sheetRows(job: Job): SheetRow[] {
       ruleVerified: s.ruleVerified,
       doneAt: r?.doneAt,
       attempts: r?.attempts ?? 0,
+      risk: watch.weight,
+      watch: watch.flag,
     };
   });
 }
