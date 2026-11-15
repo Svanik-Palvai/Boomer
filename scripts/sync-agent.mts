@@ -68,7 +68,11 @@ const API = "https://api.elevenlabs.io/v1/convai";
     }
     const liveProps = next.api_schema?.request_body_schema?.properties ?? {};
     for (const [param, spec] of Object.entries(want.api_schema.request_body_schema.properties)) {
-      if (liveProps[param] && liveProps[param].description !== spec.description) {
+      // Only a field the model fills from its description. One filled from a dynamic variable or a constant (jobId on
+      // the live agent) takes no description: the API rejects both together.
+      const lp = liveProps[param];
+      const modelFilled = lp && lp.description && !lp.dynamic_variable && !lp.constant_value && !lp.is_system_provided;
+      if (modelFilled && lp.description !== spec.description) {
         liveProps[param].description = spec.description;
         notes.push(`${param} help`);
       }
