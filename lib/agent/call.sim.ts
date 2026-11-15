@@ -82,6 +82,8 @@ async function main() {
   await resetDemo();
   r = await call("look (with supervisor)", look, { note: "swapping this outlet for a GFCI" });
   expect(r.status === "plan_ready" && /Dana/.test(r.say), "plan sent to Dana, waiting");
+  r = await call("look again (no resend)", look, { note: "GFCI" });
+  expect(r.status === "plan_ready" && /waiting on Dana/i.test(r.say), "second look does not resend the plan");
   r = await call("next_step (waiting)", nextStep);
   expect(r.status === "plan_ready" && /waiting on Dana/i.test(r.say), "still waiting");
   r = await call("check_step (waiting)", checkStep);
