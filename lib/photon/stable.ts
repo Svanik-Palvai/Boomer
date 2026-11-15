@@ -101,17 +101,31 @@ export interface StableInbound {
  */
 export async function handleStableWebhook(req: Request, onText: (m: StableInbound) => Promise<void>): Promise<Response> {
   const sp = await spectrum();
-  return sp.webhook(req, async (space: any, message: any) => {
-    if (message?.direction !== "inbound" || message?.sender?.kind === "agent") return;
-    const c = message.content;
-    if (c?.type !== "text" || !c.text || !message.sender?.id) return;
-    await onText({
-      id: message.id,
-      from: message.sender.id,
-      text: c.text,
-      reply: async (text: string) => void (await withTimeout(space.send(text), SEND_TIMEOUT_MS, "Photon 1.0 reply")),
-    });
+  // The SDK runs the handler fire-and-forget AFTER it has built the response. On Vercel the function is frozen
+  // once the response is returned, so the reply never ran. Keep the request open until the handler finishes.
+  const pending: Promise<void>[] = [];
+  let started!: () => void;
+  const firstDispatch = new Promise<void>((r) => (started = r));
+  const res = await sp.webhook(req, (space: any, message: any) => {
+    const p = (async () => {
+      if (message?.direction !== "inbound" || message?.sender?.kind === "agent") return;
+      const c = message.content;
+      if (c?.type !== "text" || !c.text || !message.sender?.id) return;
+      await onText({
+        id: message.id,
+        from: message.sender.id,
+        text: c.text,
+        reply: async (text: string) => void (await withTimeout(space.send(text), SEND_TIMEOUT_MS, "Photon 1.0 reply")),
+      });
+    })().catch((err) => console.error("[photon 1.0 webhook] handler failed:", String(err).slice(0, 200)));
+    pending.push(p);
+    started();
+    return p;
   });
+  // The handler is dispatched right after the response is computed: give it a moment to start, then wait for it.
+  await Promise.race([firstDispatch, new Promise((r) => setTimeout(r, 1500))]);
+  await Promise.allSettled(pending);
+  return res;
 }
 
 function withTimeout<T>(p: Promise<T>, ms: number, what: string): Promise<T> {

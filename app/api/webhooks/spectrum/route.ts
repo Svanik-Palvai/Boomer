@@ -8,6 +8,8 @@ import { firstTimeSeen } from "@/lib/db";
 import { handleStableWebhook, stableConfigured } from "@/lib/photon/stable";
 
 export const dynamic = "force-dynamic";
+// The reply (sign-up, recorder answer, supervisor approval) runs before the response returns; give it room.
+export const maxDuration = 30;
 
 export async function POST(req: Request) {
   if (!stableConfigured()) return NextResponse.json({ error: "Photon 1.0 not configured" }, { status: 503 });
