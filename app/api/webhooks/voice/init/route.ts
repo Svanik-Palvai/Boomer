@@ -32,12 +32,12 @@ export async function POST(req: Request) {
   const gate = r.job.status === "plan_ready" ? approvalGate(r.job) : null;
   const first = r.worker.name.split(" ")[0];
   const firstMessage = gate?.wait
-    ? `Hi ${first}, it's Boomer. ${gate.say}`
+    ? `Hey ${first}. ${gate.say}`
     : r.job.status === "plan_ready"
-      ? `Hi ${first}, it's Boomer. Your plan's ready. Say "let's go" to start.`
+      ? `Hey ${first}. Your plan's ready. Say "let's go" to start.`
       : r.resumed && n
         ? SAY.welcomeBack(n)
-        : `Hi ${first}, it's Boomer. What's the job?`;
+        : `Hey ${first}, it's Boomer. What's the job?`;
   return NextResponse.json({
     type: "conversation_initiation_client_data",
     dynamic_variables: {
