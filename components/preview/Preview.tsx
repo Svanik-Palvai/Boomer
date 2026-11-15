@@ -10,70 +10,21 @@ import { AnnotKey, Annotations, type Box } from "./Stages";
 
 const M = "/preview/media";
 
-/** Stage copy. Short on purpose: the visual carries the stage; this line names what happened. */
-const COPY: Record<StageId, { body: string[]; facts: string; code: string }> = {
-  call: {
-    body: [
-      "The phone rides in a chest harness with the camera page open. The electrician calls Boomer and keeps both hands on the work.",
-    ],
-    facts: "Wake lock on · stills downscaled on the phone · works over HTTPS on any phone browser",
-    code: "app/camera/[workerId] · components/camera/useFrameCapture.ts",
-  },
-  see: {
-    body: ["Every two seconds a fresh frame reaches the job. Boomer only ever judges what the camera shows right now."],
-    facts: "Frames attach to the worker's open job; the camera page never needs the job id",
-    code: "app/api/frames · lib/db/frames.ts",
-  },
-  identify: {
-    body: [
-      "“What am I looking at?” The Guide calls look. Gemini must pick the part from a fixed list and match a job Boomer has checked steps for.",
-    ],
-    facts: "No fresh frame: it says so and goes by the worker's words",
-    code: "lib/ai/identifyJob.ts",
-  },
-  plan: {
-    body: [
-      "The step list is data, not a generation. Two hard gates come first. Each step says whether the camera checks it or the worker says it out loud.",
-    ],
-    facts: "Code editions per town come from official adoption pages, with links",
-    code: "lib/ai/buildPlan.ts · data/steps.json · data/towns.json",
-  },
-  signoff: {
-    body: [
-      "If the worker has a supervisor on file, the plan goes to them first. Boomer waits for their reply, then reads any note to the worker before step 1.",
-    ],
-    facts: "“hold off” keeps the job from starting · a texted note can't remove a hard gate",
-    code: "lib/jobs/approval.ts · lib/agents/inbox.ts",
-  },
-  guide: {
-    body: [
-      "One step, one short line. Breaker off and tester dead are spoken checks that can't be skipped, and a vague answer gets the question again.",
-    ],
-    facts: "repeat · why · go back · stop all work mid-step · journeymen hear the short version",
-    code: "lib/agent/engine.ts · lib/ai/judgeConfirmation.ts",
-  },
+/** One line per stage. The visual carries the stage; the line only names what happened. */
+const COPY: Record<StageId, { title: string; body: string[]; code: string }> = {
+  call: { title: "Call in.", body: ["Phone on the chest. Hands stay on the work."], code: "app/camera · useFrameCapture.ts" },
+  see: { title: "See.", body: ["A fresh frame every two seconds. Nothing older than ten counts."], code: "app/api/frames · lib/db/frames.ts" },
+  identify: { title: "Identify.", body: ["Gemini names the part from a fixed list. No frame, no guess."], code: "lib/ai/identifyJob.ts" },
+  plan: { title: "Plan.", body: ["Steps come from checked data, never from the model."], code: "lib/ai/buildPlan.ts · data/steps.json" },
+  signoff: { title: "Sign off.", body: ["The supervisor approves by text. Their note is read aloud."], code: "lib/jobs/approval.ts" },
+  guide: { title: "Guide.", body: ["One step at a time. Breaker off and tester dead can’t be skipped."], code: "lib/agent/engine.ts · judgeConfirmation.ts" },
   check: {
-    body: [
-      "The worker says “done”. Three reviewers judge the newest frames at once: an inspector, a wiring checker that traces each conductor to its screw, and a photo skeptic that doubts the picture first.",
-      "Wires moved to LINE. Only a majority “looks right” moves the job on. A split, a timeout or a blurry frame is “can't tell”, never a pass.",
-    ],
-    facts: "Each reviewer is capped at 6 s · banned words are scrubbed from model text",
+    title: "Check.",
+    body: ["Three models judge the frame. Two of three decide.", "Wires moved to LINE. Only a majority “looks right” moves on."],
     code: "lib/ai/checkStep.ts · eval/gate.mjs",
   },
-  record: {
-    body: [
-      "Finish the job and it is saved to a record the worker owns: what was seen on camera, what the worker confirmed, and what was corrected. The link arrives by iMessage.",
-    ],
-    facts: "Records say “Observed by Boomer”, never certified",
-    code: "lib/jobs/close.ts · lib/record/buildEntry.ts",
-  },
-  lesson: {
-    body: [
-      "A finished session can become a training clip: the mistake, the correction, a freeze frame with boxes on the parts that matter. It stays private until an electrician reviews it and the worker agrees.",
-    ],
-    facts: "Rendered by FFmpeg on a trusted local worker · captions, chapters and sources",
-    code: "lib/lessons/worker.ts · lib/lessons/types.ts",
-  },
+  record: { title: "Record.", body: ["Every job becomes a record the worker owns, sent by iMessage."], code: "lib/jobs/close.ts" },
+  lesson: { title: "Teach.", body: ["Mistakes become lessons, once an electrician reviews them."], code: "lib/lessons/worker.ts" },
 };
 
 function useHeroSource() {
@@ -88,6 +39,26 @@ function useHeroSource() {
   }, []);
   return src;
 }
+
+/** Fires once when the element is mostly on screen. */
+function useSeen<T extends HTMLElement>(threshold = 0.45) {
+  const ref = useRef<T>(null);
+  const [on, setOn] = useState(false);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const io = new IntersectionObserver(([e]) => e.isIntersecting && setOn(true), { threshold });
+    io.observe(el);
+    return () => io.disconnect();
+  }, [threshold]);
+  return [ref, on] as const;
+}
+
+const Arrow = () => (
+  <svg viewBox="0 0 16 16" aria-hidden="true">
+    <path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" strokeWidth="1.8" />
+  </svg>
+);
 
 function Hero() {
   const src = useHeroSource();
@@ -112,28 +83,22 @@ function Hero() {
       </div>
       <div className={s.heroInner}>
         <h1 className={s.heroTitle}>
-          <span>It sees the job.</span>
-          <span>It talks you through it.</span>
-          <span className={s.heroHot}>It checks every step.</span>
+          <span>Sees the job.</span>
+          <span>Talks you through it.</span>
+          <span className={s.heroHot}>Checks every step.</span>
         </h1>
-        <p className={s.heroLede}>
-          Boomer is a voice and vision partner for electricians. A phone in a chest harness, a guide in your ear, three models
-          checking the work, and a record you own.
-        </p>
-        <div className={s.actions}>
-          <a className={s.primary} href="/demo">
-            Open the demo console
-            <svg viewBox="0 0 16 16" aria-hidden="true">
-              <path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" strokeWidth="1.8" />
-            </svg>
-          </a>
-          <a className={s.secondary} href="#story">
-            Watch one job, start to finish
-          </a>
+        <div className={s.heroFoot}>
+          <p className={s.heroLede}>The AI field partner for electricians.</p>
+          <div className={s.actions}>
+            <a className={s.primary} href="/demo">
+              Open the demo console
+              <Arrow />
+            </a>
+          </div>
         </div>
       </div>
       <p className={s.heroCredit}>
-        Field footage: Pexels, edited for this page. Not Boomer users. <a href={`${M}/SOURCES.md`}>Sources</a>
+        Footage: Pexels, edited. Not Boomer users. <a href={`${M}/SOURCES.md`}>Sources</a>
       </p>
       <dl className={s.readout} aria-label="System constants from lib/config.ts and lib/ai/checkStep.ts">
         <div>
@@ -183,9 +148,6 @@ function Nav() {
       </a>
       <ul className={s.navLinks}>
         <li>
-          <a href="#field">The field</a>
-        </li>
-        <li>
           <a href="#story">How it works</a>
         </li>
         <li>
@@ -206,78 +168,55 @@ function Nav() {
   );
 }
 
+/** One statement, set large in sentence case; words light up as it scrolls into view. */
+function Statement() {
+  const [ref, on] = useSeen<HTMLElement>(0.6);
+  const words = "A phone on the chest. A voice in the ear. Three models on every step. A record the worker keeps.".split(" ");
+  return (
+    <section ref={ref} className={`${s.statement} ${on ? s.on : ""}`} aria-label="What Boomer is">
+      <p>
+        {words.map((w, i) => (
+          <span key={i} style={{ "--i": i } as React.CSSProperties}>
+            {w}{" "}
+          </span>
+        ))}
+      </p>
+    </section>
+  );
+}
+
 function Field() {
-  const rows: [string, React.ReactNode, React.ReactNode][] = [
-    [
-      "Adopted code",
-      <>
-        <b className="num">NEC {PHILLY.necEdition}</b>
-        <a href={PHILLY.sourceUrl} target="_blank" rel="noreferrer">
-          phila.gov ↗
-        </a>
-      </>,
-      <>
-        <b className="num">NEC {PRINCETON.necEdition}</b>
-        <a href={PRINCETON.sourceUrl} target="_blank" rel="noreferrer">
-          nj.gov ↗
-        </a>
-      </>,
-    ],
-    [
-      "Permits",
-      <a href={PHILLY.permitUrl} target="_blank" rel="noreferrer">
-        {PHILLY.permitOffice} ↗
-      </a>,
-      <a href={PRINCETON.permitUrl} target="_blank" rel="noreferrer">
-        {PRINCETON.permitOffice} ↗
-      </a>,
-    ],
-    [
-      "License",
-      <a href={PHILLY.licenseUrl} target="_blank" rel="noreferrer">
-        Philadelphia L&amp;I ↗
-      </a>,
-      <a href={PRINCETON.licenseUrl} target="_blank" rel="noreferrer">
-        NJ Board of Electrical Contractors ↗
-      </a>,
-    ],
-  ];
   return (
     <section className={s.field} id="field" aria-labelledby="field-title">
-      <div className={s.fieldPhotos} aria-hidden="true">
-        <img src={`${M}/cabinet.webp`} alt="" loading="lazy" />
-        <img src={`${M}/battery.webp`} alt="" loading="lazy" />
-      </div>
+      <img className={s.fieldImg} src={`${M}/cabinet.webp`} alt="A weathered electrical cabinet with tangled wiring" loading="lazy" />
       <div className={s.fieldBody}>
         <h2 id="field-title" className={s.h2}>
-          Same two hands.
-          <br />A different rulebook at every state line.
+          New state.
+          <br />
+          New code.
         </h2>
-        <p className={s.lede}>
-          A journeyman from Philadelphia takes a job in Princeton. New code edition, new permit office, new license board, and
-          nobody on the call to ask.
+        <p className={s.edition}>
+          <span>
+            <small>{PHILLY.city}</small>
+            <b className="num">NEC {PHILLY.necEdition}</b>
+          </span>
+          <Arrow />
+          <span className={s.editionHot}>
+            <small>{PRINCETON.city}</small>
+            <b className="num">NEC {PRINCETON.necEdition}</b>
+          </span>
         </p>
-        <div className={s.compare} role="table" aria-label="Philadelphia and Princeton compared">
-          <div role="row" className={s.cmpHead}>
-            <span role="columnheader" />
-            <span role="columnheader">
-              {PHILLY.city}, {PHILLY.state}
-              <small>home</small>
-            </span>
-            <span role="columnheader">
-              {PRINCETON.city}, {PRINCETON.state}
-              <small>job site</small>
-            </span>
-          </div>
-          {rows.map(([k, a, b]) => (
-            <div role="row" key={k} className={s.cmpRow}>
-              <span role="rowheader">{k}</span>
-              <span role="cell">{a}</span>
-              <span role="cell">{b}</span>
-            </div>
-          ))}
-        </div>
-        <p className={s.fine}>From data/towns.json, checked against the official pages on Nov 14, 2026. Confirm scope with the local office.</p>
+        <p className={s.fine}>
+          Adopted editions from{" "}
+          <a href={PHILLY.sourceUrl} target="_blank" rel="noreferrer">
+            phila.gov
+          </a>{" "}
+          and{" "}
+          <a href={PRINCETON.sourceUrl} target="_blank" rel="noreferrer">
+            nj.gov
+          </a>
+          . Cabinet: Pexels, mark soetebier.
+        </p>
       </div>
     </section>
   );
@@ -291,15 +230,7 @@ const HANDOFF: Box[] = [
 
 /** Full-bleed break: the jobsite frame turns into the labeled view Boomer works from. */
 function Handoff() {
-  const ref = useRef<HTMLElement>(null);
-  const [on, setOn] = useState(false);
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const io = new IntersectionObserver(([e]) => e.isIntersecting && setOn(true), { threshold: 0.45 });
-    io.observe(el);
-    return () => io.disconnect();
-  }, []);
+  const [ref, on] = useSeen<HTMLElement>();
   return (
     <section ref={ref} className={s.handoff} aria-labelledby="handoff-title">
       <div className={s.handoffMedia}>
@@ -310,10 +241,10 @@ function Handoff() {
       </div>
       <div className={s.handoffText}>
         <h2 id="handoff-title" className={s.h2}>
-          The jobsite, as Boomer reads it.
+          It reads the jobsite.
         </h2>
         <AnnotKey boxes={HANDOFF} />
-        <p className={s.fine}>Pexels · ranjeet. Boxes are illustrative, in the lesson editor’s style, not model output.</p>
+        <p className={s.fine}>Pexels, ranjeet. Boxes are illustrative, not model output.</p>
       </div>
     </section>
   );
@@ -350,9 +281,8 @@ function Story() {
     <section className={s.story} id="story" aria-labelledby="story-title">
       <div className={s.storyIntro}>
         <h2 id="story-title" className={s.h2}>
-          One call, start to finish.
+          One call, nine steps.
         </h2>
-        <p className={s.lede}>A GFCI swap on the inert demo prop, followed through the code that runs it.</p>
       </div>
 
       <div className={s.storyGrid} ref={root}>
@@ -392,15 +322,17 @@ function Story() {
               style={{ "--row": i + 1, "--mt": 2 * i + 2 } as React.CSSProperties}
             >
               <h3 className={s.h3}>
+                <span className={s.stageNum} aria-hidden="true">
+                  {st.n}
+                </span>
                 <span className={s.visuallyHidden}>Stage {st.n}: </span>
-                {st.title}
+                {c.title}
               </h3>
               {c.body.map((b, j) => (
                 <p key={j} className={s.tBody} data-text data-stage={st.id} data-beat={j}>
                   {b}
                 </p>
               ))}
-              <p className={s.tFacts}>{c.facts}</p>
               <p className={s.tAgent}>
                 <Glyph id={st.agent} size={18} />
                 <b>{a.name}</b>
@@ -417,59 +349,31 @@ function Story() {
 const KIND: Record<string, string> = {
   agent: "Agent",
   model: "Model call",
-  rules: "Rules, no model",
+  rules: "Rules · no model",
   store: "Shared store",
   pipeline: "Pipeline",
 };
 
+/** Agents as a tile wall: one mark, one name, one line each. */
 function Agents() {
   return (
     <section className={s.agents} id="agents" aria-labelledby="agents-title">
       <div className={s.secHead}>
         <h2 id="agents-title" className={s.h2}>
-          Who does what.
+          Not one chatbot. A crew.
         </h2>
-        <p className={s.lede}>
-          Not one chatbot wearing hats. Separate agents on separate channels, model calls with narrow questions, and rules
-          wherever a guess would be dangerous.
-        </p>
       </div>
-      <ol className={s.spec}>
+      <ul className={s.tiles}>
         {AGENTS.map((a) => (
-          <li key={a.id} className={s.specRow} data-kind={a.kind}>
-            <div className={s.specId}>
-              <span className={s.specGlyph}>
-                <Glyph id={a.id} size={30} />
-              </span>
-              <div>
-                <h3 className={s.specName}>{a.name}</h3>
-                <p className={s.specKind}>{KIND[a.kind]}</p>
-              </div>
-            </div>
-            <p className={s.specRole}>{a.role}</p>
-            <dl className={s.specIo}>
-              <div>
-                <dt>Runs on</dt>
-                <dd>{a.runsOn}</dd>
-              </div>
-              <div>
-                <dt>In</dt>
-                <dd>{a.receives}</dd>
-              </div>
-              <div>
-                <dt>Out</dt>
-                <dd>{a.produces}</dd>
-              </div>
-            </dl>
-            <figure className={s.specSample}>
-              <blockquote>{a.sample}</blockquote>
-              <figcaption>
-                {a.sampleLabel} · <code>{a.code}</code>
-              </figcaption>
-            </figure>
+          <li key={a.id} className={s.tile} data-kind={a.kind}>
+            <span className={s.tileKind}>{KIND[a.kind]}</span>
+            <Glyph id={a.id} size={56} className={s.tileGlyph} />
+            <h3 className={s.tileName}>{a.name}</h3>
+            <p className={s.tileRole}>{a.role}</p>
+            <code className={s.tileCode}>{a.code.split(" · ")[0]}</code>
           </li>
         ))}
-      </ol>
+      </ul>
     </section>
   );
 }
@@ -479,30 +383,27 @@ function Product() {
     <section className={s.product} id="product" aria-labelledby="product-title">
       <div className={s.secHead}>
         <h2 id="product-title" className={s.h2}>
-          The screens, as they run today.
+          The real screens.
         </h2>
-        <p className={s.lede}>
-          Captured from this build in mock mode after a scripted call on the demo job. The camera frames are a stock still
-          posted to the local job as a stand-in.
-        </p>
+        <p className={s.fine}>Captured from this build in mock mode on the demo job. Camera frames are a stock still standing in.</p>
       </div>
       <div className={s.shots}>
         <figure className={s.shotLaptop}>
           <img src={`${M}/screen-live.webp`} alt="Live job view: Boomer's last line, the camera frame and the step list" loading="lazy" />
           <figcaption>
-            <b>Live job view</b> for whoever is watching, read from two meters away · <a href="/job/demo-2041">/job/demo-2041</a>
+            <b>Live job view</b> <a href="/job/demo-2041">/job/demo-2041</a>
           </figcaption>
         </figure>
         <figure className={s.shotPhone}>
           <img src={`${M}/screen-record.webp`} alt="Job record on a phone: every step with how it was checked" loading="lazy" />
           <figcaption>
-            <b>Job record</b> · <a href="/job/demo-2041/record">/job/demo-2041/record</a>
+            <b>Job record</b> <a href="/job/demo-2041/record">/record</a>
           </figcaption>
         </figure>
         <figure className={s.shotPhone}>
           <img src={`${M}/screen-camera.webp`} alt="Harness camera setup screen on a phone" loading="lazy" />
           <figcaption>
-            <b>Harness camera</b> · <a href="/camera/worker-demo">/camera/worker-demo</a>
+            <b>Harness camera</b> <a href="/camera/worker-demo">/camera</a>
           </figcaption>
         </figure>
       </div>
@@ -515,12 +416,8 @@ function Gate() {
     <section className={s.gate} aria-labelledby="gate-title">
       <div className={s.secHead}>
         <h2 id="gate-title" className={s.h2}>
-          One mistake the checker is never allowed to make.
+          Never a false “looks right.”
         </h2>
-        <p className={s.lede}>
-          The step check is scored on labeled photos through the same checkStep() the product runs. Saying “looks right” to
-          wrong work fails the gate outright.
-        </p>
       </div>
       <div className={s.matrix} role="table" aria-label="How each check answer is graded">
         <div role="row" className={s.mxHead}>
@@ -551,8 +448,7 @@ function Gate() {
         </div>
       </div>
       <p className={s.fine}>
-        eval/gate.mjs also fails below 75% correct or when more than 5% of images error. No published accuracy figure is
-        claimed here.
+        eval/gate.mjs scores checkStep() on labeled photos; it also fails below 75% correct. No accuracy figure is claimed.
       </p>
     </section>
   );
@@ -564,15 +460,15 @@ function Close() {
       <img className={s.closeImg} src={`${M}/hands.webp`} alt="" loading="lazy" aria-hidden="true" />
       <div className={s.closeInner}>
         <h2 id="close-title" className={s.closeTitle}>
-          Boomer sees. The electrician decides.
+          Boomer sees.
+          <br />
+          The electrician decides.
         </h2>
         <p className={s.lede}>{SAFETY_LINE}</p>
         <div className={s.actions}>
           <a className={s.primary} href="/demo">
             Open the demo console
-            <svg viewBox="0 0 16 16" aria-hidden="true">
-              <path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" strokeWidth="1.8" />
-            </svg>
+            <Arrow />
           </a>
           <a className={s.secondary} href="#story">
             Replay the job
@@ -592,18 +488,16 @@ export default function Preview() {
       <Nav />
       <Hero />
       <main className={s.main}>
+        <Statement />
         <Field />
         <Handoff />
         <Story />
         <section className={s.system} id="system" aria-labelledby="system-title">
           <div className={s.secHead}>
             <h2 id="system-title" className={s.h2}>
-              The whole system, on one sheet.
+              One shared memory.
             </h2>
-            <p className={s.lede}>
-              Agents tap one shared job memory the way loads tap a bus bar. Every line here is a real call or message in the
-              code; yellow marks where a person decides.
-            </p>
+            <p className={s.fine}>Every line is a real call in the code. Yellow marks where a person decides.</p>
           </div>
           <System />
         </section>
@@ -614,10 +508,10 @@ export default function Preview() {
       </main>
       <footer className={s.footer}>
         <Wordmark />
-        <p>Built at HackPrinceton, Fall 2026 · Andy · Zohaib · Sunny · Aniketh</p>
+        <p>HackPrinceton Fall 2026 · Andy · Zohaib · Sunny · Aniketh</p>
         <p>
-          Design preview. Footage from Pexels under the Pexels License; overlays marked illustrative are not model output.{" "}
-          <a href={`${M}/SOURCES.md`}>Sources and licenses</a>
+          Design preview. Pexels footage under the Pexels License; overlays marked illustrative are not model output.{" "}
+          <a href={`${M}/SOURCES.md`}>Sources</a>
         </p>
       </footer>
     </div>

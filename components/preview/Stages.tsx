@@ -205,7 +205,7 @@ function SeeVisual({ active }: { active: boolean }) {
           </div>
         ))}
         <p className={s.stripNote}>
-          Newest first. Past <b className="num">{FRAMES.maxAgeMs / 1000} s</b> a frame is stale: Boomer says “I don’t have a fresh picture” instead of guessing.
+          Past <b className="num">{FRAMES.maxAgeMs / 1000} s</b> a frame is stale, and Boomer says so.
         </p>
       </div>
     </div>
@@ -334,8 +334,7 @@ function PlanVisual({ active }: { active: boolean }) {
         </div>
       </div>
       <p className={s.planNote}>
-        <b>New here on this job: none.</b> The verified NJ 2023 changes, NEC 210.52(C)(2) and (C)(3), cover island
-        outlets, not this swap, so no step is tagged. Boomer doesn’t invent a difference to look smart.
+        <b>New here on this job: none.</b> The NJ 2023 changes cover island outlets, not this swap.
       </p>
     </div>
   );
@@ -372,7 +371,7 @@ function SignoffVisual({ active }: { active: boolean }) {
         <Glyph id="guide" size={18} />
         <p>
           “Your supervisor approved the plan with a note: ‘show me the LINE side before you mount it’.”
-          <span>Read to the worker before step 1. A note never rewrites the checked steps.</span>
+          <span>Read before step 1. A note never removes a hard gate.</span>
         </p>
       </div>
       <p className={s.label}>Representative exchange · reply parsing and wording from lib/jobs/approval.ts</p>
@@ -499,8 +498,7 @@ function CheckVisual({ active, beat }: { active: boolean; beat: number }) {
           {fixed ? "Looks right." : "“Not yet. Those are the LOAD terminals. Move both wires to the pair marked LINE.”"}
         </p>
         <p className={s.label}>
-          Votes illustrative; model names are the code’s defaults. Real rule: 2 of 3 decide; a split or an error is “can’t tell”, never “looks right”. Spoken line from
-          the demo’s mock check.
+          Votes illustrative. Rule from checkStep(): 2 of 3 decide; a split is “can’t tell”, never “looks right”.
         </p>
       </div>
     </div>

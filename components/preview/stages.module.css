@@ -421,10 +421,10 @@
   gap: 4px;
 }
 .planHead b {
-  font-stretch: 75%;
-  font-weight: 800;
+  font-stretch: 112%;
+  font-weight: 700;
   text-transform: uppercase;
-  font-size: clamp(22px, 2vw, 30px);
+  font-size: clamp(20px, 1.8vw, 28px);
   line-height: 1;
 }
 .planHead span {
@@ -507,9 +507,9 @@
   font-size: 15px;
 }
 .juris .num {
-  font-stretch: 75%;
-  font-weight: 800;
-  font-size: 28px;
+  font-stretch: 112%;
+  font-weight: 700;
+  font-size: 26px;
   line-height: 1;
 }
 .juris > div:last-child .num {
@@ -823,10 +823,10 @@
   color: var(--ink-3);
 }
 .vo {
-  font-stretch: 75%;
-  font-weight: 800;
+  font-stretch: 112%;
+  font-weight: 700;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 16px;
   min-width: 9ch;
   text-align: right;
 }
@@ -850,10 +850,10 @@
   color: var(--ink-3);
 }
 .verdict b {
-  font-stretch: 62.5%;
-  font-weight: 900;
+  font-stretch: 125%;
+  font-weight: 700;
   text-transform: uppercase;
-  font-size: clamp(40px, 4.6vw, 72px);
+  font-size: clamp(30px, 3.2vw, 50px);
   line-height: 0.9;
 }
 .say {

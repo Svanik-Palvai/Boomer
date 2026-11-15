@@ -16,7 +16,7 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Boomer — It sees the job. It talks you through it. It checks every step.",
+  title: "Boomer — Sees the job. Talks you through it. Checks every step.",
   description:
     "Boomer watches through a chest-mounted phone, guides an electrician one step at a time by voice, checks each step on camera with three models, and writes a work record the worker owns.",
 };
