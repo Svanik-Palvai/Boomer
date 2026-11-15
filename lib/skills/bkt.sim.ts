@@ -11,6 +11,10 @@ import { PRIOR, SAID, SEEN, update } from "./bkt";
 import { KNOWN, LEARNING, masteryOf, observe } from "./mastery";
 import type { VoiceToolResponse, Worker } from "@/lib/types";
 
+// The script fires its checks back to back; the real-call pacing guards in check_step would swallow them.
+process.env.RECHECK_MIN_MS = "0";
+process.env.STEP_MIN_MS = "0";
+
 let fails = 0;
 const expect = (ok: boolean, msg: string) => { console.log(ok ? "   ok:" : "   FAIL:", msg); if (!ok) fails++; };
 const near = (a: number, b: number) => Math.abs(a - b) < 0.005;

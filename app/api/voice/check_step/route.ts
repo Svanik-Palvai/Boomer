@@ -3,7 +3,7 @@ import type { CheckResult } from "@/lib/types";
 import { background, voiceTool } from "@/lib/voice/tool";
 import { framesAfterBurst, requestBurst, updateJob, updateWorker } from "@/lib/db";
 import { observe, type Evidence } from "@/lib/skills/mastery";
-import type { Step, Worker } from "@/lib/types";
+import type { Job, Step, VoiceToolResponse, Worker } from "@/lib/types";
 import { checkStep, voteSummary } from "@/lib/ai/checkStep";
 import { allDone, applyCheck, canConfirmByVoice, confirmAfterFix, confirmSpoken, currentStep, misses, readStep, startGuiding } from "@/lib/agent/engine";
 import { SAY } from "@/lib/copy";
@@ -89,12 +89,43 @@ export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
     return { job: updated, check, say: `Looks right. ${readStep(updated, worker)}` };
   }
 
+  // The agent sometimes fires check_step several times in a few seconds (it hears "yeah" while a check is still running,
+  // or takes the answer to the last step as "done" for this one). Each of those used to run a full check and count as
+  // another miss, so three "not yet"s landed in ten seconds. One check at a time, and none the worker can't have earned:
+  const key = `${job.id}:${step.id}`;
+  const prior = vision.get(key);
+  // 1. A check for this step is still running: this call gets that check's answer.
+  if (prior && !prior.doneAt) return prior.run;
+  // 2. A check for this step answered "not yet" or "can't tell" a moment ago: nothing can have changed, say it again.
+  const lastAt = Math.max(prior?.doneAt ?? 0, job.lastSay?.tool === "check_step" ? Date.parse(job.lastSay.at) : 0);
+  const result = job.results[job.current];
+  if ((result?.attempts ?? 0) > 0 && Date.now() - lastAt < recheckMinMs()) return { say: prior ? (await prior.run).say : job.lastSay!.text };
+  // 3. The step was only just read out: the worker can't have done it yet, so there is nothing to check or to say.
+  if ((result?.attempts ?? 0) === 0 && result?.startedAt && Date.now() - Date.parse(result.startedAt) < stepMinMs()) return { say: "" };
+
+  const entry: { run: Promise<VoiceToolResponse & { job?: Job }>; doneAt?: number } = { run: visionCheck(job, worker, step, req.spokenConfirmation) };
+  vision.set(key, entry);
+  entry.run.then(
+    () => (entry.doneAt = Date.now()),
+    () => vision.delete(key),
+  );
+  return entry.run;
+});
+
+/** A second check on the same step sooner than this after a "not yet" repeats the answer instead of checking again. */
+const recheckMinMs = () => Number(process.env.RECHECK_MIN_MS ?? 4000);
+/** A check sooner than this after the step was read out is ignored. Both are read per call so the scripted sims can turn them off. */
+const stepMinMs = () => Number(process.env.STEP_MIN_MS ?? 3000);
+/** job:step -> the camera check running or last run for it. Per server instance; job.lastSay covers the other instances. */
+const vision = new Map<string, { run: Promise<VoiceToolResponse & { job?: Job }>; doneAt?: number }>();
+
+async function visionCheck(job: Job, worker: Worker, step: Step, said?: string): Promise<VoiceToolResponse & { job?: Job }> {
   // Ask the phone for a burst, then wait (up to ~2.5 s) for it, so the check never judges a still from before "done".
   await requestBurst(job.id);
   const frames = await framesAfterBurst(job.id);
   const attempt = job.results[job.current]?.attempts ?? 0;
   // What the worker said about the step goes to the checker as a pointer for where to look (never as proof).
-  const check = await checkStep(step, frames, attempt, { said: req.spokenConfirmation, misses: misses(job) });
+  const check = await checkStep(step, frames, attempt, { said, misses: misses(job) });
 
   const updated = await updateJob(job.id, (j) => (j.current === job.current ? applyCheck(j, check) : j));
   logCheck(job.id, `Step ${step.order} camera check: ${check.outcome}${check.votes?.length ? ` (${voteSummary(check.votes)})` : ""}. ${check.say}`);
@@ -106,4 +137,4 @@ export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
   // The camera has missed this step enough times: the worker's word is taken from here on ("not yet" counts too).
   const say = canConfirmByVoice(updated) ? `${check.say} If it's right, say "confirm" and I'll log it as worker confirmed.` : check.say;
   return { job: updated, check, say };
-});
+}

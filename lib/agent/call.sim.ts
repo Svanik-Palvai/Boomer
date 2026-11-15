@@ -15,6 +15,10 @@ import { DEMO_JOB_ID, DEMO_WORKER_ID } from "@/lib/mock/demo";
 import { BANNED_WORDS } from "@/lib/copy";
 import type { VoiceToolResponse } from "@/lib/types";
 
+// The script fires its checks back to back; the real-call pacing guards in check_step would swallow them.
+process.env.RECHECK_MIN_MS = "0";
+process.env.STEP_MIN_MS = "0";
+
 type H = (r: Request) => Promise<Response>;
 let fails = 0;
 const expect = (ok: boolean, msg: string) => { if (!ok) { fails++; console.log("   FAIL:", msg); } };

@@ -72,7 +72,7 @@ One wire on the wrong screw is a "fail", even if everything else looks right. If
       name: "photo",
       model: process.env.CHECK_PHOTO_MODEL || "gemini-3.5-flash",
       focus: `You are the photo skeptic. Before judging the work, doubt the photo.
-Is it the right device and the right side of it for this step? Is the part the question is about lit, in focus and
+Is it the right device (or the prop standing in for it) and the right side of it for this step? Is the part the question is about lit, in focus and
 fully in frame? Are the printed labels actually readable, not just assumed? If any of that is missing, answer "unclear".
 Only when the photo truly shows it, answer the question.`,
     },
@@ -207,6 +207,16 @@ async function review(r: Reviewer, step: Step, parts: ReturnType<typeof framePar
 /** Errors that will repeat on the next call: no quota left, or no such model. */
 const DEAD_MODEL = /\b(429|404)\b|RESOURCE_EXHAUSTED|quota|NOT_FOUND|not found/i;
 
+/**
+ * The demo runs on props. Without this the checker sent the worker back for "a 3D printed model taped to a cardboard
+ * box, not a real wall receptacle" and told them to install it in a proper junction box.
+ */
+const PROP_FACTS = `The work is done on training props, not a real installation: 3D-printed devices (often green or another odd color),
+printed or cardboard boxes, loose on a bench or taped down, nothing mounted in a wall. That is expected and correct.
+Judge a prop exactly as you would the real part: a printed receptacle is the receptacle, a cardboard or printed box is the box.
+Never answer "fail" or "unclear" because something is a model, printed, plastic, the wrong color, taped, cardboard, or not in a wall,
+and never tell the worker to use a real device, a real box or a wall.`;
+
 /** Device facts the model kept getting wrong on the test set (it called a white wire on the silver LINE screw a mistake). */
 const GFCI_FACTS = `GFCI facts:
 - The LINE pair is one brass screw (hot, usually the black wire) and one silver screw (neutral, usually the white wire).
@@ -227,6 +237,7 @@ function prompt(step: Step, focus = "", ctx: CheckContext = {}): string {
     .filter(Boolean)
     .join("\n");
   return `${focus ? `${focus}\n\n` : ""}You check one step of an electrician's job from a chest-mounted phone camera. The newest photo comes first.
+${PROP_FACTS}
 All props are de-energized. Step the worker just finished: "${step.text}"
 Question: ${step.check.question}
 ${step.check.expect ? `Looks right when: ${step.check.expect}` : ""}
