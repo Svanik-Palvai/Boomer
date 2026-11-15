@@ -86,6 +86,8 @@ export interface TranscriptTurn {
 }
 export interface CallAsset {
   id: string;
+  // Imported original soundtrack, extracted from this worker-owned recording.
+  sourceRecordingId?: string;
   startedAt?: string;
   duration?: number;
   rawTranscript?: {

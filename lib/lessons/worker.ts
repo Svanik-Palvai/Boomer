@@ -106,6 +106,11 @@ async function saveArtifact(path: string, file: string, type: string) {
   if (error) throw error;
   return path;
 }
+export async function extractOriginalAudio(video: string, target: string) {
+  // Explicit audio mapping fails if the upload has no soundtrack; never synthesize it.
+  await ffmpeg(["-i", video, "-map", "0:a:0", "-vn", "-c:a", "libmp3lame", "-b:a", "128k", "-y", target]);
+  return mediaDuration(target);
+}
 export async function render(
   d: LessonDraft,
   dir: string,
@@ -333,17 +338,24 @@ export async function runTask(
       }
 
       for (const c of d.calls.filter((c) => !c.audioPath)) {
-        if (!process.env.ELEVENLABS_API_KEY) continue;
-        const r = await fetch(
+        const file = join(dir, "call.mp3");
+        if (c.sourceRecordingId) {
+          const session = d.sessions.find(s => s.id === c.sourceRecordingId);
+          if (!session || session.status !== "uploaded") throw new Error("Imported recording is missing");
+          const files = await assemble({ ...d, sessions: [session], calls: [] }, dir);
+          await extractOriginalAudio(files.get(session.id)!, file);
+        } else {
+          if (!process.env.ELEVENLABS_API_KEY) continue;
+          const r = await fetch(
           `https://api.elevenlabs.io/v1/convai/conversations/${encodeURIComponent(c.id)}/audio`,
           {
             headers: { "xi-api-key": process.env.ELEVENLABS_API_KEY },
             signal: AbortSignal.timeout(60000),
           },
         );
-        if (!r.ok) continue;
-        const file = join(dir, "call.mp3");
-        await writeFile(file, Buffer.from(await r.arrayBuffer()));
+          if (!r.ok) continue;
+          await writeFile(file, Buffer.from(await r.arrayBuffer()));
+        }
         const duration = await mediaDuration(file);
         const audioPath = await saveArtifact(
           `${d.id}/calls/${randomUUID()}.mp3`,
