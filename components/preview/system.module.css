@@ -1,0 +1,265 @@
+.wrap {
+  max-width: var(--max);
+  margin: 0 auto;
+}
+.svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+  font-family: var(--sans);
+}
+
+/* bus bar */
+.bus line {
+  stroke: var(--ink);
+  stroke-width: 6;
+}
+.busLabel {
+  fill: var(--ink);
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 500;
+}
+.busSub {
+  fill: var(--ink-3);
+  font-size: 12px;
+}
+.tap path {
+  fill: none;
+  stroke: var(--ink-2);
+  stroke-width: 1.5;
+}
+.tap circle {
+  fill: var(--ink);
+}
+
+/* edges */
+.edge {
+  color: var(--ink-2);
+}
+.edge path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+}
+.edge text {
+  fill: var(--ink-2);
+  font-family: var(--mono);
+  font-size: 11.5px;
+  paint-order: stroke;
+  stroke: var(--g1);
+  stroke-width: 5px;
+  stroke-linejoin: round;
+}
+.human {
+  color: var(--signal);
+}
+.human text {
+  fill: var(--signal);
+}
+.loop {
+  color: var(--no);
+}
+.loop path {
+  stroke-dasharray: 5 4;
+}
+.loop text {
+  fill: var(--no);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .edge path {
+    stroke-dasharray: 6 5;
+    stroke-dashoffset: 0;
+  }
+  .on .edge path {
+    animation: flow 1.6s linear infinite;
+  }
+  .wrap .edge {
+    opacity: 0;
+    transition: opacity 500ms;
+    transition-delay: calc(var(--i, 0) * 60ms);
+  }
+  .on .edge {
+    opacity: 1;
+  }
+  .wrap .node,
+  .wrap .bus,
+  .wrap .tap {
+    opacity: 0;
+    transform-box: fill-box;
+    transition: opacity 600ms var(--ease);
+  }
+  .on .node,
+  .on .bus,
+  .on .tap {
+    opacity: 1;
+  }
+}
+@keyframes flow {
+  to {
+    stroke-dashoffset: -22;
+  }
+}
+
+/* nodes */
+.node rect {
+  fill: var(--g2);
+  stroke: var(--line-2);
+  stroke-width: 1;
+}
+.nodeGlyph {
+  color: var(--ink);
+}
+.nodeTitle {
+  fill: var(--ink);
+  font-stretch: 75%;
+  font-weight: 800;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+.nodeSub {
+  fill: var(--ink-3);
+  font-size: 12px;
+}
+.agent rect {
+  fill: var(--g3);
+  stroke: var(--ink-2);
+}
+.model rect {
+  stroke: var(--ink-2);
+}
+.rules rect {
+  stroke-dasharray: 5 4;
+  stroke: var(--ink-2);
+}
+.pipeline rect {
+  stroke: var(--ink-3);
+}
+.input rect,
+.output rect {
+  fill: transparent;
+  stroke: var(--line-2);
+}
+.output rect {
+  fill: #f4f2ec;
+}
+.output .nodeTitle {
+  fill: #141414;
+}
+.output .nodeSub {
+  fill: #444;
+}
+.human rect {
+  fill: transparent;
+  stroke: var(--signal);
+  stroke-width: 1.5;
+}
+.human .nodeGlyph {
+  color: var(--signal);
+}
+
+/* legend */
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 28px;
+  margin-top: 24px;
+  font-size: 13px;
+  color: var(--ink-2);
+}
+.legend span {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+}
+.legend i {
+  width: 22px;
+  height: 14px;
+  display: inline-block;
+}
+.lgAgent {
+  background: var(--g3);
+  border: 1px solid var(--ink-2);
+}
+.lgModel {
+  border: 1px solid var(--ink-2);
+}
+.lgRules {
+  border: 1px dashed var(--ink-2);
+}
+.lgHuman {
+  border: 1.5px solid var(--signal);
+}
+
+/* the same map as text */
+.flow {
+  list-style: none;
+  margin: 40px 0 0;
+  padding: 0;
+  border-top: 1px solid var(--line-2);
+  counter-reset: f;
+}
+.flow li {
+  display: grid;
+  gap: 4px;
+  padding: 14px 0 14px 18px;
+  border-bottom: 1px solid var(--line);
+  position: relative;
+}
+.flow li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 22px;
+  width: 7px;
+  height: 7px;
+  background: var(--ink-2);
+}
+.flowHuman::before {
+  background: var(--signal) !important;
+}
+.flowPath {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 15px;
+}
+.flowPath svg {
+  width: 20px;
+  color: var(--ink-3);
+}
+.flowWhat {
+  margin: 0;
+  font-size: 14px;
+  color: var(--ink-2);
+}
+
+@media (min-width: 900px) {
+  .flow {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+}
+@media (max-width: 899px) {
+  .svg,
+  .legend {
+    display: none;
+  }
+  .flow {
+    margin-top: 0;
+  }
+}
+.node.human .nodeTitle {
+  fill: var(--ink);
+  font-size: 18px;
+}
+.node.human .nodeSub {
+  fill: var(--ink-3);
+}
