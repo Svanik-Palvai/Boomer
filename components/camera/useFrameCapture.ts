@@ -130,7 +130,7 @@ export function useFrameCapture(
     c.width = Math.round(v.videoWidth * scale);
     c.height = Math.round(v.videoHeight * scale);
     c.getContext("2d")!.drawImage(v, 0, 0, c.width, c.height);
-    return c.toDataURL("image/jpeg", 0.75);
+    return c.toDataURL("image/jpeg", FRAMES.jpegQuality);
   }, []);
 
   /**

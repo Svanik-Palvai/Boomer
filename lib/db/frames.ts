@@ -56,8 +56,7 @@ export async function getFrame(jobId: string, frameId: string): Promise<Frame | 
 
 /** The agent heard "done": ask the camera page for a burst of 3 on its next upload. The flag holds when it asked. */
 export async function requestBurst(jobId: string): Promise<void> {
-  await backend().del("flag", `fresh:${jobId}`);
-  await backend().put("flag", `burst:${jobId}`, Date.now());
+  await Promise.all([backend().del("flag", `fresh:${jobId}`), backend().put("flag", `burst:${jobId}`, Date.now())]);
 }
 
 export async function burstWanted(jobId: string): Promise<boolean> {

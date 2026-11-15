@@ -19,10 +19,35 @@ import { FRAMES } from "@/lib/config";
  * so its vote is left out of `votes`.
  * CHECK_PANEL=off goes back to the inspector alone.
  *
+ * Kept fast when reviewers misbehave (the logs showed two of three out of quota, every check waiting 6 s on them):
+ *   - a reviewer whose model is out of quota or not found sits out for REVIEWER_COOLDOWN_MS instead of being called again
+ *   - once one reviewer has answered pass or fail, the others get CHECK_GRACE_MS more, then the check goes with what is in
+ *   - the wiring reviewer only joins steps that are about wiring; on the others it could only ever say "unclear"
+ * What the worker said about the step is passed to the reviewers as a pointer for where to look, never as proof.
+ *
  * Per reviewer: thinking off for speed (one retry with the model default if it's rejected), hard cap of
  * CHECK_TIMEOUT_MS, any error or timeout is an "unclear" vote, never "pass". Banned words are scrubbed.
  */
 const CHECK_TIMEOUT_MS = Number(process.env.CHECK_TIMEOUT_MS || 6000);
+/** After the first pass/fail answer, how long the rest of the panel gets before the check goes with what it has. */
+const CHECK_GRACE_MS = Number(process.env.CHECK_GRACE_MS || 1500);
+/** A reviewer whose model is out of quota or missing is skipped for this long. */
+const REVIEWER_COOLDOWN_MS = Number(process.env.REVIEWER_COOLDOWN_MS || 5 * 60_000);
+
+/** model -> time until which it sits out. Per server instance, which is enough to stop paying for a dead model on every check. */
+const benched = new Map<string, number>();
+const isBenched = (model: string) => (benched.get(model) ?? 0) > Date.now();
+
+/** What the check knows beyond the photo. */
+export interface CheckContext {
+  /** The worker's own words about the step ("both wires are on LINE"), if they said more than "done". */
+  said?: string;
+  /** Camera checks on this step that already came back "not yet" or "can't tell". */
+  misses?: number;
+}
+
+/** Steps where wires land on terminals: the only ones the wiring reviewer can judge. */
+const isWiringStep = (step: Step) => /line|load|terminat|wire/i.test(`${step.id} ${step.skill ?? ""}`) && !/terminal-id/.test(step.skill ?? "");
 
 interface Reviewer {
   name: CheckVote["reviewer"];
@@ -30,10 +55,10 @@ interface Reviewer {
   focus: string;
 }
 
-function panel(): Reviewer[] {
+function panel(step: Step): Reviewer[] {
   const inspector: Reviewer = { name: "inspector", model: VISION_MODEL, focus: "" };
   if (process.env.CHECK_PANEL === "off") return [inspector];
-  return [
+  const all: Reviewer[] = [
     inspector,
     {
       name: "wiring",
@@ -52,9 +77,12 @@ fully in frame? Are the printed labels actually readable, not just assumed? If a
 Only when the photo truly shows it, answer the question.`,
     },
   ];
+  const active = all.filter((r) => !isBenched(r.model) && (r.name !== "wiring" || isWiringStep(step)));
+  // Never an empty panel: if every model is sitting out, try the inspector anyway.
+  return active.length ? active : [inspector];
 }
 
-export async function checkStep(step: Step, frames: Frame[], attempt = 0): Promise<CheckResult> {
+export async function checkStep(step: Step, frames: Frame[], attempt = 0, ctx: CheckContext = {}): Promise<CheckResult> {
   const started = Date.now();
   const frameId = frames[0]?.id;
   if (frames.length === 0) return { outcome: "unclear", say: SAY.staleFrame };
@@ -64,8 +92,8 @@ export async function checkStep(step: Step, frames: Frame[], attempt = 0): Promi
   const parts = frameParts(frames.slice(0, FRAMES.checkFrames));
   if (parts.length === 0) return { outcome: "unclear", say: SAY.cantTell, frameId, ms: Date.now() - started };
 
-  const reviewers = panel();
-  const votes = await untilDecided(reviewers.map((r) => review(r, step, parts)));
+  const reviewers = panel(step);
+  const votes = await untilDecided(reviewers.map((r) => review(r, step, parts, ctx)), CHECK_GRACE_MS);
   const outcome = majority(votes, reviewers.length);
   // Speak the reasons of a reviewer that voted with the result (the inspector first).
   const lead = votes.find((v) => v.outcome === outcome) ?? votes[0];
@@ -98,18 +126,26 @@ export function majority(votes: Pick<CheckVote, "outcome" | "error">[], _total =
 /**
  * Resolves with the votes in so far once the outstanding votes can't change majority(): the pass/fail lead is bigger
  * than the number of votes still out (each could only add one to the other side). review() never rejects.
+ * graceMs: once a reviewer has answered pass or fail, the others get this much longer; after that the check goes with
+ * the votes that are in, so one slow or stuck reviewer can't hold every check to its timeout.
  */
-export function untilDecided(pending: Promise<CheckVote>[]): Promise<CheckVote[]> {
+export function untilDecided(pending: Promise<CheckVote>[], graceMs = Infinity): Promise<CheckVote[]> {
   const total = pending.length;
   return new Promise((resolve) => {
     const done: CheckVote[] = [];
+    let grace: ReturnType<typeof setTimeout> | undefined;
+    const finish = () => {
+      if (grace) clearTimeout(grace);
+      resolve([...done]);
+    };
     for (const p of pending)
       p.then((v) => {
         done.push(v);
         const left = total - done.length;
         const answered = done.filter((d) => !d.error);
         const lead = Math.abs(answered.filter((d) => d.outcome === "pass").length - answered.filter((d) => d.outcome === "fail").length);
-        if (left === 0 || lead > left) resolve([...done]);
+        if (left === 0 || lead > left) return finish();
+        if (!grace && Number.isFinite(graceMs) && !v.error && v.outcome !== "unclear") grace = setTimeout(finish, graceMs);
       });
   });
 }
@@ -119,12 +155,12 @@ export function voteSummary(votes: CheckVote[] = []): string {
   return votes.map((v) => `${v.reviewer} ${v.error ? `error: ${v.errorText ?? "unknown"}` : v.outcome}`).join(", ");
 }
 
-async function review(r: Reviewer, step: Step, parts: ReturnType<typeof frameParts>): Promise<CheckVote> {
+async function review(r: Reviewer, step: Step, parts: ReturnType<typeof frameParts>, ctx: CheckContext = {}): Promise<CheckVote> {
   const started = Date.now();
   const request = (thinkingOff: boolean) =>
     gemini().models.generateContent({
       model: r.model,
-      contents: [{ role: "user", parts: [...parts, { text: prompt(step, r.focus) }] }],
+      contents: [{ role: "user", parts: [...parts, { text: prompt(step, r.focus, ctx) }] }],
       config: {
         temperature: 0,
         // Cap output only with thinking off; with the model's default thinking, the thoughts count toward the cap.
@@ -150,7 +186,8 @@ async function review(r: Reviewer, step: Step, parts: ReturnType<typeof framePar
     } catch (err) {
       // Some models reject the thinking-off setting. Retry once with the model's defaults on any error, so a config
       // mismatch never turns every check into "can't tell". Not after a timeout: that would double the wait.
-      if (/timed out/.test(errorText(err))) throw err;
+      // Nor when the model is out of quota or doesn't exist: the same request with other settings fails the same way.
+      if (/timed out/.test(errorText(err)) || DEAD_MODEL.test(errorText(err))) throw err;
       console.error(`[checkStep] ${r.name} fast request failed, retrying with model defaults:`, errorText(err).slice(0, 300));
       res = await withTimeout(request(false), CHECK_TIMEOUT_MS);
     }
@@ -161,10 +198,14 @@ async function review(r: Reviewer, step: Step, parts: ReturnType<typeof framePar
   } catch (err) {
     console.error(`[checkStep] ${r.name} (${r.model}) failed:`, errorText(err).slice(0, 200));
     const t = errorText(err);
+    if (DEAD_MODEL.test(t)) benched.set(r.model, Date.now() + REVIEWER_COOLDOWN_MS);
     const short = /429|RESOURCE_EXHAUSTED|quota/i.test(t) ? "quota" : /timed out/i.test(t) ? "timed out" : /404|not found/i.test(t) ? "model not found" : t.slice(0, 60);
     return { reviewer: r.name, model: r.model, outcome: "unclear", error: true, errorText: short, ms: Date.now() - started };
   }
 }
+
+/** Errors that will repeat on the next call: no quota left, or no such model. */
+const DEAD_MODEL = /\b(429|404)\b|RESOURCE_EXHAUSTED|quota|NOT_FOUND|not found/i;
 
 /** Device facts the model kept getting wrong on the test set (it called a white wire on the silver LINE screw a mistake). */
 const GFCI_FACTS = `GFCI facts:
@@ -174,7 +215,17 @@ const GFCI_FACTS = `GFCI facts:
 - The bare or green wire goes on the green ground screw. It is not part of LINE or LOAD.
 - A GFCI has TEST and RESET buttons on the front. A plain receptacle without them is not a GFCI.`;
 
-function prompt(step: Step, focus = ""): string {
+function prompt(step: Step, focus = "", ctx: CheckContext = {}): string {
+  const said = ctx.said?.replace(/["\n]/g, " ").trim().slice(0, 240);
+  const context = [
+    said &&
+      `The worker says: "${said}". Use that only to know where to look. It is not proof, and it does not make a wrong photo right. ` +
+        `But if the photo does not clearly contradict them, do not answer "fail".`,
+    (ctx.misses ?? 0) >= 2 &&
+      `This step has already been sent back ${ctx.misses} times. Look again from scratch. Answer "fail" only for something you can point to in this photo.`,
+  ]
+    .filter(Boolean)
+    .join("\n");
   return `${focus ? `${focus}\n\n` : ""}You check one step of an electrician's job from a chest-mounted phone camera. The newest photo comes first.
 All props are de-energized. Step the worker just finished: "${step.text}"
 Question: ${step.check.question}
@@ -183,6 +234,9 @@ ${/gfci/i.test(step.id + step.text) ? GFCI_FACTS : ""}
 "pass": the photos clearly show what the question asks.
 "fail": you can clearly see something wrong, like a wire on a LOAD terminal or the wrong side of the device. Say what is wrong.
 "unclear": the part is too dark, blurry, cut off or blocked to judge. A bad photo is "unclear", never "fail". Never guess.
+If the answer depends on a printed label (LINE, LOAD) and you cannot actually read that label in the photo, the answer is "unclear".
+Do not work out which terminal is which from position or wire color alone.
+${context}
 "seen": what is actually visible, under 15 words. "expected": what should be there, under 15 words.
 If "fail", "fix": one short spoken sentence telling the worker what is wrong and what to do, using the labels
 printed on the device, e.g. "Those are the LOAD terminals. Move both wires to the pair marked LINE."

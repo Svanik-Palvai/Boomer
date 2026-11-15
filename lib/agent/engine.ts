@@ -1,6 +1,6 @@
 // OWNER: Sunny (step engine). Pure functions over a Job: no I/O, so they're easy to test and safe inside updateJob().
 import type { CheckResult, Job, Step, StepResult, Worker } from "@/lib/types";
-import { UNCLEAR_RETRIES } from "@/lib/config";
+import { SEEN_ONLY_RETRIES, UNCLEAR_RETRIES } from "@/lib/config";
 import { SAY } from "@/lib/copy";
 import { transition } from "@/lib/jobs/status";
 import { ruleById } from "@/lib/location/rules";
@@ -72,17 +72,25 @@ export function explainStep(job: Job, why?: string): string {
   return step.reason;
 }
 
-/** The worker may confirm out loud: spoken steps, or a vision step after "can't tell" more than UNCLEAR_RETRIES times. */
-/** Vision steps that must be SEEN: the camera has to pass them, a spoken "confirm" never does (the caught mistake lives here). */
+/**
+ * Vision steps the camera is meant to see (the caught mistake lives here). The worker's "confirm" is still taken in the
+ * end, but only after SEEN_ONLY_RETRIES camera checks have not passed, and it is recorded as worker confirmed, never seen.
+ */
 export const SEEN_ONLY_STEPS = new Set(["gfci-5-line"]);
 
+/** Camera checks on the current step that came back "not yet" or "can't tell". */
+export function misses(job: Job): number {
+  const r = job.results[job.current];
+  return r ? r.unclear + r.fails : 0;
+}
+
+/** The worker may confirm out loud: spoken steps, or a vision step once the camera has missed more than the allowed tries. */
 export function canConfirmByVoice(job: Job): boolean {
   const step = currentStep(job);
   const r = job.results[job.current];
   if (!step || !r) return false;
   if (step.check.kind === "spoken") return true;
-  if (SEEN_ONLY_STEPS.has(step.id)) return false;
-  return r.unclear > UNCLEAR_RETRIES;
+  return misses(job) > (SEEN_ONLY_STEPS.has(step.id) ? SEEN_ONLY_RETRIES : UNCLEAR_RETRIES);
 }
 
 /** Apply a vision check. Advances only on "pass". Never turns "unclear" into "pass". */

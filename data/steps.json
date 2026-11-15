@@ -46,6 +46,7 @@
         "id": "gfci-4-terminals",
         "skill": "terminal-id",
         "text": "Turn the new GFCI around and find the LINE pair and the LOAD pair on the back. Show me the back.",
+        "shortText": "Show me the back of the new GFCI, LINE and LOAD in view.",
         "reason": "A GFCI only protects correctly when the incoming power is on LINE.",
         "check": {
           "kind": "vision",
@@ -57,6 +58,7 @@
         "id": "gfci-5-line",
         "skill": "device-termination",
         "text": "On the inert single-feed prop, connect the identified incoming pair to LINE and the grounding conductor as the device instructions specify. Leave LOAD covered.",
+        "shortText": "Land the incoming pair on LINE and the ground. Leave LOAD covered.",
         "reason": "Reversing LINE and LOAD can prevent this GFCI from resetting; a photo cannot verify torque or hidden connections.",
         "check": {
           "kind": "vision",

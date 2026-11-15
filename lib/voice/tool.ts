@@ -60,11 +60,35 @@ export function voiceTool(name: VoiceToolName, handler: (ctx: ToolCtx) => Promis
       res = { say: "Something went wrong on my end. Give me a second and say that again.", error: String(err) };
     }
 
+    // Neither write changes what the agent says, so the worker doesn't wait on them: they finish after the reply.
     if (jobId && res.say) {
       const lastSay = { text: res.say, tool: name, at: new Date().toISOString() };
-      await updateJob(jobId, (j) => ({ ...j, lastSay })).catch(() => {});
+      const id = jobId;
+      background(updateJob(id, (j) => ({ ...j, lastSay })));
     }
-    await logToolCall({ tool: name, jobId, request: body, response: res, ms: Date.now() - started });
-    return NextResponse.json(res);
+    background(logToolCall({ tool: name, jobId, request: body, response: res, ms: Date.now() - started }));
+    return NextResponse.json(forAgent(res));
   };
+}
+
+/**
+ * What the voice agent gets back. The full check (what each reviewer saw, expected and would fix) stays in the tool
+ * log; the agent only gets the outcome. Given the reviewers' notes it read them out and argued from them, on top of
+ * the "say" line.
+ */
+export function forAgent(res: VoiceToolResponse): VoiceToolResponse {
+  if (!res.check) return res;
+  return { ...res, check: { outcome: res.check.outcome, say: res.check.say } };
+}
+
+/**
+ * Let a write finish after the response has gone out. On Vercel a promise left running is cut off when the function
+ * returns, so hand it to the platform's waitUntil when there is one; on a plain Node server it just runs.
+ */
+export function background(p: Promise<unknown>): void {
+  const done = p.catch((err) => console.error("[voice] background write failed:", err));
+  const ctx = (globalThis as Record<symbol, { get?: () => { waitUntil?: (p: Promise<unknown>) => void } | undefined } | undefined>)[
+    Symbol.for("@vercel/request-context")
+  ];
+  ctx?.get?.()?.waitUntil?.(done);
 }

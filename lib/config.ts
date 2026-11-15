@@ -18,8 +18,13 @@ export const FRAMES = {
   checkFrames: 2,
   /** After "done", how long a check waits for the first post-"done" burst frame before using what it has. */
   freshWaitMs: 2500,
-  /** Long edge in px after downscaling on the phone. */
-  maxEdgePx: 768,
+  /**
+   * Long edge in px after downscaling on the phone. 768 was too small to read the LINE / LOAD print from chest height
+   * (the checker guessed, and guessed differently each time).
+   */
+  maxEdgePx: 1024,
+  /** JPEG quality of the stills (0 to 1). */
+  jpegQuality: 0.8,
   /** Checks never use a frame older than this. */
   maxAgeMs: 10_000,
   /** Frames kept per job in memory (older ones are dropped unless a step result points at them). */
@@ -38,8 +43,14 @@ export const APPROVAL_WAIT = {
   pollMs: Number(process.env.APPROVAL_POLL_MS) || 500,
 } as const;
 
-/** After this many "can't tell" answers the worker may confirm out loud. */
+/**
+ * After more than this many camera checks that did not pass ("can't tell" or "not yet"), the worker may say "confirm"
+ * and the step is logged as worker confirmed, not seen. "Not yet" counts too: a checker that keeps misreading the
+ * photo must not be able to hold the worker on a step forever.
+ */
 export const UNCLEAR_RETRIES = 1;
+/** Same, for steps the camera is meant to see (the LINE step): more tries before the worker's word is taken. */
+export const SEEN_ONLY_RETRIES = 2;
 
 export function requireEnv(name: string): string {
   const v = process.env[name];

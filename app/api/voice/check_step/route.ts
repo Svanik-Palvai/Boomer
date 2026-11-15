@@ -1,20 +1,19 @@
 // OWNER: Sunny. Tool check_step: "done" -> check the current step. Answers in ~3 s.
 import type { CheckResult } from "@/lib/types";
-import { voiceTool } from "@/lib/voice/tool";
+import { background, voiceTool } from "@/lib/voice/tool";
 import { framesAfterBurst, requestBurst, updateJob, updateWorker } from "@/lib/db";
 import { observe, type Evidence } from "@/lib/skills/mastery";
 import type { Step, Worker } from "@/lib/types";
 import { checkStep, voteSummary } from "@/lib/ai/checkStep";
-import { allDone, applyCheck, canConfirmByVoice, confirmAfterFix, confirmSpoken, currentStep, readStep, startGuiding } from "@/lib/agent/engine";
+import { allDone, applyCheck, canConfirmByVoice, confirmAfterFix, confirmSpoken, currentStep, misses, readStep, startGuiding } from "@/lib/agent/engine";
 import { SAY } from "@/lib/copy";
-import { UNCLEAR_RETRIES } from "@/lib/config";
 import { judgeConfirmation } from "@/lib/ai/judgeConfirmation";
 import { remember } from "@/lib/memory/store";
 import { approvalGate, markTold } from "@/lib/jobs/approval";
 
 /** Checker -> shared job memory, so the guide and the iMessage recorder can refer back to it. Fire-and-forget: the check has a ~3 s budget. */
 function logCheck(jobId: string, text: string) {
-  remember(jobId, { channel: "voice", agent: "checker", speaker: "agent", text }).catch((err) => console.error("[check_step] memory write failed:", err));
+  background(remember(jobId, { channel: "voice", agent: "checker", speaker: "agent", text }));
 }
 
 /**
@@ -94,7 +93,8 @@ export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
   await requestBurst(job.id);
   const frames = await framesAfterBurst(job.id);
   const attempt = job.results[job.current]?.attempts ?? 0;
-  const check = await checkStep(step, frames, attempt);
+  // What the worker said about the step goes to the checker as a pointer for where to look (never as proof).
+  const check = await checkStep(step, frames, attempt, { said: req.spokenConfirmation, misses: misses(job) });
 
   const updated = await updateJob(job.id, (j) => (j.current === job.current ? applyCheck(j, check) : j));
   logCheck(job.id, `Step ${step.order} camera check: ${check.outcome}${check.votes?.length ? ` (${voteSummary(check.votes)})` : ""}. ${check.say}`);
@@ -103,10 +103,7 @@ export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
   const after = counted ? await learn(worker, step, check.outcome === "pass" ? "seen_right" : "seen_wrong") : worker;
   if (check.outcome === "pass") return { job: updated, check, say: `${check.say} ${readStep(updated, after)}` };
 
-  const unclear = updated.results[updated.current]?.unclear ?? 0;
-  const say =
-    check.outcome === "unclear" && unclear > UNCLEAR_RETRIES && canConfirmByVoice(updated)
-      ? `${check.say} If it's done, say "confirm". I'll log it as worker confirmed.`
-      : check.say;
+  // The camera has missed this step enough times: the worker's word is taken from here on ("not yet" counts too).
+  const say = canConfirmByVoice(updated) ? `${check.say} If it's right, say "confirm" and I'll log it as worker confirmed.` : check.say;
   return { job: updated, check, say };
 });

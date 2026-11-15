@@ -32,7 +32,8 @@ export const toolUrl = (name: VoiceToolName) => absolute(api.voiceTool(name));
 export const PARAM_HELP: Record<string, string> = {
   jobId: "Always the job id from the system prompt (demo-2041 for the demo).",
   note: "What the worker said the job or problem is, word for word. Always include \"I've done this before\" and anything about the breaker or tester if they said it.",
-  spokenConfirmation: "The worker's exact words when they answer a yes/no question or confirm a spoken step. Leave empty after a plain 'done'.",
+  spokenConfirmation:
+    "The worker's exact words about the step: their answer to a question, what they say they did or see ('both wires are on LINE'), or 'confirm'. Leave empty after a plain 'done'.",
   reason: "Why the worker stopped, in their words.",
 };
 
@@ -48,7 +49,8 @@ export function elevenLabsTools(baseUrl: string) {
     name: t.name,
     description: t.description,
     // wait_for_approval holds for APPROVAL_WAIT.windowMs (20 s): give it room so ElevenLabs doesn't cut it off.
-    response_timeout_secs: t.name === "wait_for_approval" ? 30 : t.name === "check_step" || t.name === "look" ? 10 : 5,
+    // check_step and look call a vision model: at 10 s the slow ones were cut off, and the agent called them again.
+    response_timeout_secs: t.name === "wait_for_approval" ? 30 : t.name === "check_step" || t.name === "look" ? 15 : 5,
     api_schema: {
       url: `${url}/api/voice/${t.name}`,
       method: "POST",
