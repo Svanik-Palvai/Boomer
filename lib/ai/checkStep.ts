@@ -41,8 +41,9 @@ function panel(): Reviewer[] {
     inspector,
     {
       name: "wiring",
-      // Not gemini-3.8-flash: it rejects minimal thinking and took 6-15 s (often 503 "high demand"), so every vote timed out.
-      model: process.env.CHECK_WIRING_MODEL || "gemini-3.5-flash",
+      // Same fast model as the inspector by default. Production logs (Nov 15): gemini-3.8-flash errored 15/15
+      // (rejects minimal thinking, then timed out) and gemini-3.5-flash timed out 12/16; flash-lite 0/24.
+      model: process.env.CHECK_WIRING_MODEL || VISION_MODEL,
       focus: `You are the wiring checker. Ignore everything except conductors and terminals.
 Trace each wire to the exact screw it is under and read the label printed beside that screw (LINE, LOAD, ground).
 Check wire colors against screw colors (black on brass, white on silver, bare or green on the green screw).
@@ -50,7 +51,7 @@ One wire on the wrong screw is a "fail", even if everything else looks right. If
     },
     {
       name: "photo",
-      model: process.env.CHECK_PHOTO_MODEL || "gemini-3.5-flash",
+      model: process.env.CHECK_PHOTO_MODEL || VISION_MODEL,
       focus: `You are the photo skeptic. Before judging the work, doubt the photo.
 Is it the right device and the right side of it for this step? Is the part the question is about lit, in focus and
 fully in frame? Are the printed labels actually readable, not just assumed? If any of that is missing, answer "unclear".
@@ -59,7 +60,13 @@ Only when the photo truly shows it, answer the question.`,
   ];
 }
 
-export async function checkStep(step: Step, frames: Frame[], attempt = 0): Promise<CheckResult> {
+/** `timeoutMs`: per-reviewer cap for this call (check_step passes what's left of the voice tool's deadline). */
+export async function checkStep(
+  step: Step,
+  frames: Frame[],
+  attempt = 0,
+  { timeoutMs = CHECK_TIMEOUT_MS }: { timeoutMs?: number } = {},
+): Promise<CheckResult> {
   const started = Date.now();
   const frameId = frames[0]?.id;
   if (frames.length === 0) return { outcome: "unclear", say: SAY.staleFrame };
@@ -70,7 +77,7 @@ export async function checkStep(step: Step, frames: Frame[], attempt = 0): Promi
   if (parts.length === 0) return { outcome: "unclear", say: SAY.cantTell, frameId, ms: Date.now() - started };
 
   const reviewers = panel();
-  const votes = await untilDecided(reviewers.map((r) => review(r, step, parts)));
+  const votes = await untilDecided(reviewers.map((r) => review(r, step, parts, timeoutMs)));
   const outcome = majority(votes, reviewers.length);
   // Speak the reasons of a reviewer that voted with the result (the inspector first).
   const lead = votes.find((v) => v.outcome === outcome) ?? votes[0];
@@ -116,7 +123,7 @@ export function untilDecided(pending: Promise<CheckVote>[]): Promise<CheckVote[]
   });
 }
 
-async function review(r: Reviewer, step: Step, parts: ReturnType<typeof frameParts>): Promise<CheckVote> {
+async function review(r: Reviewer, step: Step, parts: ReturnType<typeof frameParts>, timeoutMs: number): Promise<CheckVote> {
   const started = Date.now();
   const request = (thinkingOff: boolean) =>
     gemini().models.generateContent({
@@ -143,12 +150,12 @@ async function review(r: Reviewer, step: Step, parts: ReturnType<typeof framePar
   try {
     let res;
     try {
-      res = await withTimeout(request(true), CHECK_TIMEOUT_MS);
+      res = await withTimeout(request(true), timeoutMs);
     } catch (err) {
       // Some models reject the thinking-off setting. Retry once with the model's defaults, within what's left of
-      // CHECK_TIMEOUT_MS. Not after a timeout or a rate limit / used-up quota: those won't clear in time.
+      // timeoutMs. Not after a timeout or a rate limit / used-up quota: those won't clear in time.
       const msg = errorText(err);
-      const left = CHECK_TIMEOUT_MS - (Date.now() - started);
+      const left = timeoutMs - (Date.now() - started);
       if (/timed out|\b429\b|RESOURCE_EXHAUSTED/.test(msg) || left < 1000) throw err;
       console.error(`[checkStep] ${r.name} fast request failed, retrying with model defaults:`, msg.slice(0, 300));
       res = await withTimeout(request(false), left);

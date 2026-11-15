@@ -38,7 +38,11 @@ const fallback = (reason: "no_frame" | "model_error", error?: string): JobIdenti
 /** The look tool has ~10 s in all (ElevenLabs response_timeout_secs, lib/agent/tools.ts); leave room for the plan and texts. */
 const IDENTIFY_TIMEOUT_MS = Number(process.env.IDENTIFY_TIMEOUT_MS || 6000);
 
-export async function identifyJob(frames: Frame[], note?: string): Promise<JobIdentity> {
+export async function identifyJob(
+  frames: Frame[],
+  note?: string,
+  { timeoutMs = IDENTIFY_TIMEOUT_MS }: { timeoutMs?: number } = {},
+): Promise<JobIdentity> {
   const parts = frameParts(frames.slice(0, 3));
   if (parts.length === 0) return fallback("no_frame");
   if (!geminiEnabled()) return fallback("model_error", "Gemini disabled (USE_MOCKS or no GEMINI_API_KEY)");
@@ -81,7 +85,7 @@ Pick the component from: ${COMPONENTS.join(", ")}.
           },
         },
       }),
-      { timeoutMs: IDENTIFY_TIMEOUT_MS },
+      { timeoutMs },
     );
     const r = JSON.parse(res.text ?? "{}") as Partial<Record<"component" | "problem" | "jobType" | "details", string>> & {
       confidence?: number;

@@ -1,11 +1,11 @@
 // OWNER: Sunny. Tool check_step: "done" -> check the current step. Answers in ~3 s.
 import type { CheckResult } from "@/lib/types";
-import { voiceTool } from "@/lib/voice/tool";
+import { budget, voiceTool } from "@/lib/voice/tool";
 import { framesAfterBurst, requestBurst, updateJob } from "@/lib/db";
 import { checkStep } from "@/lib/ai/checkStep";
 import { allDone, applyCheck, canConfirmByVoice, confirmSpoken, currentStep, readStep } from "@/lib/agent/engine";
 import { SAY } from "@/lib/copy";
-import { UNCLEAR_RETRIES } from "@/lib/config";
+import { FRAMES, UNCLEAR_RETRIES } from "@/lib/config";
 import { judgeConfirmation } from "@/lib/ai/judgeConfirmation";
 import { remember } from "@/lib/memory/store";
 import { approvalGate } from "@/lib/jobs/approval";
@@ -15,7 +15,7 @@ function logCheck(jobId: string, text: string) {
   remember(jobId, { channel: "voice", agent: "checker", speaker: "agent", text }).catch((err) => console.error("[check_step] memory write failed:", err));
 }
 
-export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
+export const POST = voiceTool("check_step", async ({ job, worker, req, deadline }) => {
   const step = currentStep(job);
   if (job.status !== "guiding" || !step) {
     const gate = job.status === "plan_ready" ? approvalGate(job) : null;
@@ -42,10 +42,11 @@ export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
   }
 
   // Ask the phone for a burst, then wait (up to ~2 s) for it, so the check never judges a still from before "done".
+  // Budget: the fresh-frame wait only uses time the reviewers won't need (~3.5 s plus ~1.5 s to save the result).
   await requestBurst(job.id);
-  const frames = await framesAfterBurst(job.id);
+  const frames = await framesAfterBurst(job.id, { waitMs: budget(deadline, { reserve: 5000, max: FRAMES.freshWaitMs }) });
   const attempt = job.results[job.current]?.attempts ?? 0;
-  const check = await checkStep(step, frames, attempt);
+  const check = await checkStep(step, frames, attempt, { timeoutMs: budget(deadline, { reserve: 1500, min: 2500, max: 5000 }) });
 
   const updated = await updateJob(job.id, (j) => (j.current === job.current ? applyCheck(j, check) : j));
   logCheck(job.id, `Step ${step.order} camera check: ${check.outcome}. ${check.say}`);

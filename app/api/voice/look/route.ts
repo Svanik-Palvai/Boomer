@@ -1,5 +1,5 @@
 // OWNER: Sunny. Tool look: frames -> job identity -> plan -> read step 1. Mid-job it describes the frame.
-import { voiceTool } from "@/lib/voice/tool";
+import { budget, voiceTool } from "@/lib/voice/tool";
 import { recentFrames, updateJob } from "@/lib/db";
 import { identifyJob } from "@/lib/ai/identifyJob";
 import { buildPlan } from "@/lib/ai/buildPlan";
@@ -8,9 +8,10 @@ import { transition } from "@/lib/jobs/status";
 import { jobTemplate } from "@/lib/location/steps";
 import { approvalGate, requestApproval, supervisorLabel } from "@/lib/jobs/approval";
 
-export const POST = voiceTool("look", async ({ job, worker, req }) => {
+export const POST = voiceTool("look", async ({ job, worker, req, deadline }) => {
   const frames = await recentFrames(job.id);
-  const identity = await identifyJob(frames, req.note);
+  // Leave ~3 s for saving the plan and texting it to the supervisor.
+  const identity = await identifyJob(frames, req.note, { timeoutMs: budget(deadline, { reserve: 3000, min: 2500, max: 6000 }) });
 
   // "What am I looking at?" mid-job: describe, don't re-plan.
   if (job.status === "guiding") {

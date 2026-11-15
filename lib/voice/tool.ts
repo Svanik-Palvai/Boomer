@@ -6,8 +6,21 @@ import { logToolCall, updateJob } from "@/lib/db";
 import { stepNumber } from "@/lib/agent/engine";
 import { refreshJobCards } from "@/lib/photon/miniapp";
 
+/**
+ * ElevenLabs gives look and check_step 10 s (response_timeout_secs, lib/agent/tools.ts). Handlers aim to be done by
+ * this long after the request arrived, leaving room for the lastSay write, the tool log, and the network.
+ */
+export const TOOL_BUDGET_MS = 8000;
+
+/** ms left until `deadline` minus `reserve`, clamped to [min, max]. */
+export function budget(deadline: number, { reserve = 0, min = 0, max = Infinity } = {}): number {
+  return Math.max(min, Math.min(max, deadline - Date.now() - reserve));
+}
+
 export interface ToolCtx {
   req: VoiceToolRequest;
+  /** Epoch ms the handler should be finished by (request start + TOOL_BUDGET_MS). */
+  deadline: number;
   job: Job;
   worker: Worker;
   resumed: boolean;
@@ -40,7 +53,7 @@ export function voiceTool(name: VoiceToolName, handler: (ctx: ToolCtx) => Promis
         res = { say: "I can't find your profile. Set it up on the Boomer page first.", error: "no_job" };
       } else {
         jobId = resolved.job.id;
-        const out = await handler({ req: body, ...resolved });
+        const out = await handler({ req: body, deadline: started + TOOL_BUDGET_MS, ...resolved });
         const job = out.job ?? resolved.job;
         // A step moved or the status changed: edit any mini app cards already sent for this job (fire-and-forget).
         if (out.job && (out.job.current !== resolved.job.current || out.job.status !== resolved.job.status)) {
