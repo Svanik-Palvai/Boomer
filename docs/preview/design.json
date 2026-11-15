@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-14T00:00:00Z",
+  "title": "Design System: Boomer Preview",
+  "extensions": {
+    "scope": "Marketing surface /preview only; not approved for the product app screens, which follow the root DESIGN.md.",
+    "colorMeta": {
+      "graphite-deep": { "role": "neutral", "displayName": "Graphite Deep", "canonical": "#0a0b0b", "tonalRamp": ["oklch(10% 0.003 200)", "oklch(15% 0.003 200)", "oklch(25% 0.003 200)", "oklch(37% 0.003 200)", "oklch(50% 0.003 200)", "oklch(63% 0.003 200)", "oklch(78% 0.003 200)", "oklch(93% 0.003 200)"] },
+      "graphite": { "role": "neutral", "displayName": "Graphite", "canonical": "#0e1011", "tonalRamp": ["oklch(12% 0.004 230)", "oklch(16% 0.004 230)", "oklch(26% 0.004 230)", "oklch(38% 0.004 230)", "oklch(51% 0.004 230)", "oklch(64% 0.004 230)", "oklch(79% 0.004 230)", "oklch(94% 0.004 230)"] },
+      "graphite-raised": { "role": "neutral", "displayName": "Graphite Raised", "canonical": "#15181a", "tonalRamp": ["oklch(15% 0.006 230)", "oklch(19% 0.006 230)", "oklch(28% 0.006 230)", "oklch(40% 0.006 230)", "oklch(52% 0.006 230)", "oklch(65% 0.006 230)", "oklch(80% 0.006 230)", "oklch(94% 0.006 230)"] },
+      "graphite-lit": { "role": "neutral", "displayName": "Graphite Lit", "canonical": "#1d2124", "tonalRamp": ["oklch(15% 0.008 235)", "oklch(23% 0.008 235)", "oklch(31% 0.008 235)", "oklch(42% 0.008 235)", "oklch(54% 0.008 235)", "oklch(66% 0.008 235)", "oklch(80% 0.008 235)", "oklch(94% 0.008 235)"] },
+      "hairline": { "role": "neutral", "displayName": "Hairline", "canonical": "rgb(237 231 218 / 0.13)" },
+      "hairline-strong": { "role": "neutral", "displayName": "Hairline Strong", "canonical": "rgb(237 231 218 / 0.26)" },
+      "cream-ink": { "role": "neutral", "displayName": "Cream Ink", "canonical": "#ede7da", "tonalRamp": ["oklch(18% 0.018 85)", "oklch(29% 0.018 85)", "oklch(40% 0.018 85)", "oklch(52% 0.018 85)", "oklch(64% 0.018 85)", "oklch(76% 0.018 85)", "oklch(87% 0.018 85)", "oklch(93% 0.018 85)"] },
+      "cream-ink-2": { "role": "neutral", "displayName": "Cream Ink 2", "canonical": "#b4ad9f", "tonalRamp": ["oklch(18% 0.018 85)", "oklch(29% 0.018 85)", "oklch(40% 0.018 85)", "oklch(52% 0.018 85)", "oklch(64% 0.018 85)", "oklch(74% 0.018 85)", "oklch(87% 0.018 85)", "oklch(95% 0.018 85)"] },
+      "cream-ink-3": { "role": "neutral", "displayName": "Cream Ink 3", "canonical": "#8f897d", "tonalRamp": ["oklch(18% 0.017 85)", "oklch(29% 0.017 85)", "oklch(40% 0.017 85)", "oklch(52% 0.017 85)", "oklch(62% 0.017 85)", "oklch(74% 0.017 85)", "oklch(87% 0.017 85)", "oklch(95% 0.017 85)"] },
+      "hard-hat-yellow": { "role": "primary", "displayName": "Hard-Hat Yellow", "canonical": "#f4c430", "tonalRamp": ["oklch(20% 0.05 88)", "oklch(32% 0.08 88)", "oklch(44% 0.11 88)", "oklch(56% 0.13 88)", "oklch(68% 0.15 88)", "oklch(84% 0.16 88)", "oklch(90% 0.12 88)", "oklch(96% 0.05 88)"] },
+      "hard-hat-yellow-hot": { "role": "primary", "displayName": "Hot Yellow", "canonical": "#ffd24a" },
+      "on-yellow": { "role": "neutral", "displayName": "On-Yellow", "canonical": "#15130b" },
+      "looks-right-green": { "role": "tertiary", "displayName": "Looks-Right Green", "canonical": "#6fca8e", "tonalRamp": ["oklch(20% 0.05 152)", "oklch(32% 0.08 152)", "oklch(44% 0.10 152)", "oklch(56% 0.12 152)", "oklch(66% 0.12 152)", "oklch(77% 0.12 152)", "oklch(87% 0.08 152)", "oklch(95% 0.03 152)"] },
+      "not-yet-red": { "role": "tertiary", "displayName": "Not-Yet Red", "canonical": "#ff7d6b", "tonalRamp": ["oklch(20% 0.06 32)", "oklch(32% 0.10 32)", "oklch(44% 0.14 32)", "oklch(56% 0.17 32)", "oklch(66% 0.17 32)", "oklch(73% 0.16 32)", "oklch(85% 0.09 32)", "oklch(95% 0.03 32)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero headline only; uppercase condensed Archivo." },
+      "display-close": { "displayName": "Display Close", "purpose": "Closing title over the final image." },
+      "headline": { "displayName": "Headline", "purpose": "Every section heading; uppercase, balanced, 18ch." },
+      "title": { "displayName": "Title", "purpose": "Stage headings in the scroll story." },
+      "figure": { "displayName": "Figure", "purpose": "Readout values, spec names, vote and matrix results." },
+      "lede": { "displayName": "Lede", "purpose": "One paragraph beside each section headline, Cream Ink 2, 54ch." },
+      "body": { "displayName": "Body", "purpose": "Base reading text." },
+      "body-small": { "displayName": "Body Small", "purpose": "Facts lines, table cells, nav links." },
+      "readout": { "displayName": "Readout", "purpose": "JetBrains Mono for code paths, data keys, provenance captions." },
+      "readout-micro": { "displayName": "Readout Micro", "purpose": "Readout-band labels, stage captions, progress meter." }
+    },
+    "shadows": [
+      { "name": "device-seat", "value": "0 30px 60px -30px rgb(0 0 0 / 0.8)", "purpose": "Seats product screenshots on the page; native surfaces never cast shadows." },
+      { "name": "device-seat-phone", "value": "0 0 0 1px rgb(237 231 218 / 0.26), 0 40px 80px -30px rgb(0 0 0 / 0.9)", "purpose": "The depicted phone in the call stage." },
+      { "name": "annotation-halo", "value": "0 0 0 1px rgb(0 0 0 / 0.35), inset 0 0 0 1px rgb(0 0 0 / 0.25)", "purpose": "Keeps yellow detection boxes legible over footage." }
+    ],
+    "motion": [
+      { "name": "ease", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "The one easing for reveals, stage changes and hover travel." },
+      { "name": "rise", "value": "900ms; translateY(18px) and clip-path inset reveal; 120ms stagger", "purpose": "Hero headline lines, then lede and actions at 380ms." },
+      { "name": "step-in", "value": "480-560ms; opacity plus translateY(8px)", "purpose": "Items inside an active stage, staggered per index." },
+      { "name": "annotation-wipe", "value": "clip-path 600ms, labels fade 300ms after", "purpose": "Detection boxes open after the clip plays." },
+      { "name": "hover", "value": "160-220ms", "purpose": "Color, border and arrow travel on interactive elements." },
+      { "name": "reduced-motion", "value": "final state, no transition", "purpose": "Every sequence starts visible and jumps to its end state." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "600px" },
+      { "name": "sm-plus", "value": "640px" },
+      { "name": "md", "value": "900px" },
+      { "name": "lg", "value": "1000px" },
+      { "name": "xl", "value": "1100px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one action, Open the demo console; yellow plate with a sliding arrow.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Open the demo console<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M3 8h9M8.5 4l4 4-4 4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/></svg></a>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 24px; background: #f4c430; color: #15130b; font-family: Archivo, system-ui, sans-serif; font-weight: 800; font-size: 17px; text-decoration: none; border-radius: 0; transition: transform 160ms cubic-bezier(0.16,1,0.3,1), background 160ms; } .ds-btn-primary svg { width: 18px; height: 18px; transition: transform 220ms cubic-bezier(0.16,1,0.3,1); } .ds-btn-primary:hover { background: #ffd24a; } .ds-btn-primary:hover svg { transform: translateX(4px); } .ds-btn-primary:active { transform: translateY(1px); } .ds-btn-primary:focus-visible { outline: 2px solid #f4c430; outline-offset: 3px; }"
+    },
+    {
+      "name": "Secondary Link",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Underlined text action beside the primary.",
+      "html": "<a class=\"ds-link-secondary\" href=\"#\">Watch one job, start to finish</a>",
+      "css": ".ds-link-secondary { display: inline-flex; align-items: center; min-height: 48px; font-family: Archivo, system-ui, sans-serif; font-weight: 600; font-size: 16px; color: #ede7da; text-decoration: underline; text-decoration-color: rgb(237 231 218 / 0.26); text-decoration-thickness: 1px; text-underline-offset: 0.22em; transition: text-decoration-color 160ms; } .ds-link-secondary:hover { text-decoration-color: #f4c430; } .ds-link-secondary:focus-visible { outline: 2px solid #f4c430; outline-offset: 3px; }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav-bar",
+      "description": "Fixed translucent graphite bar with ghost CTA and a yellow scroll-progress hairline.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-brand\" href=\"#\">BOOMER</a><a class=\"ds-nav-link\" href=\"#\">How it works</a><a class=\"ds-nav-link\" href=\"#\">System</a><a class=\"ds-nav-cta\" href=\"#\">Demo console</a><span class=\"ds-nav-progress\"></span></nav>",
+      "css": ".ds-nav { position: relative; display: flex; align-items: center; gap: 4px; height: 64px; padding: 0 24px; background: rgb(14 16 17 / 0.82); backdrop-filter: blur(14px) saturate(1.2); border-bottom: 1px solid rgb(237 231 218 / 0.13); font-family: Archivo, system-ui, sans-serif; } .ds-nav-brand { font-stretch: 80%; font-weight: 900; font-size: 26px; color: #ede7da; text-decoration: none; margin-right: 24px; } .ds-nav-link { padding: 10px 12px; font-size: 14px; font-weight: 500; color: #b4ad9f; text-decoration: none; } .ds-nav-link:hover { color: #ede7da; } .ds-nav-cta { margin-left: auto; padding: 10px 16px; font-size: 14px; font-weight: 700; color: #ede7da; text-decoration: none; border: 1px solid rgb(237 231 218 / 0.26); transition: border-color 160ms, background 160ms, color 160ms; } .ds-nav-cta:hover { background: #f4c430; border-color: #f4c430; color: #15130b; } .ds-nav-cta:focus-visible, .ds-nav-link:focus-visible { outline: 2px solid #f4c430; outline-offset: 3px; } .ds-nav-progress { position: absolute; left: 0; bottom: -1px; height: 2px; width: 40%; background: #f4c430; }"
+    },
+    {
+      "name": "Readout Band",
+      "kind": "custom",
+      "refersTo": "readout-band",
+      "description": "Yellow machine plate of real constants under the hero.",
+      "html": "<dl class=\"ds-readout\"><div><dt>frame interval</dt><dd>2 S</dd></div><div><dt>reviewers</dt><dd>3 MODELS</dd></div><div><dt>decision</dt><dd>2 OF 3</dd></div></dl>",
+      "css": ".ds-readout { display: grid; grid-template-columns: repeat(3, auto) 1fr; align-items: center; min-height: 76px; margin: 0; padding: 0 24px; background: #f4c430; color: #15130b; } .ds-readout div { display: grid; gap: 2px; padding: 12px 28px 12px 0; margin-right: 28px; border-right: 1px solid rgb(21 19 11 / 0.25); } .ds-readout dt { font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.02em; opacity: 0.75; } .ds-readout dd { margin: 0; font-family: Archivo, system-ui, sans-serif; font-stretch: 75%; font-weight: 800; font-size: 24px; line-height: 1; white-space: nowrap; }"
+    },
+    {
+      "name": "Framed Media with Annotation",
+      "kind": "custom",
+      "refersTo": "annotation-label",
+      "description": "16:9 footage frame with viewfinder corners, a yellow detection box and a mono caption.",
+      "html": "<figure class=\"ds-frame\"><div class=\"ds-frame-media\"><i class=\"ds-corner ds-tl\"></i><i class=\"ds-corner ds-tr\"></i><i class=\"ds-corner ds-bl\"></i><i class=\"ds-corner ds-br\"></i><div class=\"ds-box\" style=\"left:30%;top:35%;width:28%;height:34%\"><span class=\"ds-box-label\">LINE terminals</span></div></div><figcaption class=\"ds-frame-cap\"><span>Pexels footage</span><span>Boxes illustrative</span></figcaption></figure>",
+      "css": ".ds-frame { margin: 0; display: grid; gap: 8px; } .ds-frame-media { position: relative; aspect-ratio: 16 / 9; background: #15181a; overflow: hidden; } .ds-corner { position: absolute; width: 18px; height: 18px; border: 0 solid #ede7da; opacity: 0.8; } .ds-tl { left: 10px; top: 10px; border-width: 2px 0 0 2px; } .ds-tr { right: 10px; top: 10px; border-width: 2px 2px 0 0; } .ds-bl { left: 10px; bottom: 10px; border-width: 0 0 2px 2px; } .ds-br { right: 10px; bottom: 10px; border-width: 0 2px 2px 0; } .ds-box { position: absolute; border: 2px solid #f4c430; box-shadow: 0 0 0 1px rgb(0 0 0 / 0.35), inset 0 0 0 1px rgb(0 0 0 / 0.25); } .ds-box-label { position: absolute; left: -2px; bottom: 100%; margin-bottom: 4px; white-space: nowrap; background: #f4c430; color: #15130b; font-family: 'JetBrains Mono', ui-monospace, monospace; font-weight: 500; font-size: 12px; line-height: 1; padding: 4px 6px; } .ds-frame-cap { display: flex; justify-content: space-between; gap: 4px 12px; font-family: Archivo, system-ui, sans-serif; font-size: 12px; color: #8f897d; }"
+    },
+    {
+      "name": "Spec Sheet Row",
+      "kind": "card",
+      "refersTo": "spec-glyph",
+      "description": "Ruled agent row: square hard-hat glyph tile, condensed name, mono kind, role; tile fills yellow on row hover.",
+      "html": "<div class=\"ds-spec\"><div class=\"ds-spec-row\"><span class=\"ds-spec-glyph\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\"><path d=\"M5 15a7 7 0 0 1 14 0M3 15h18M8.5 6.2a6 6 0 0 1 7 0M6.6 3.6a9.5 9.5 0 0 1 10.8 0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"square\"/></svg></span><div><p class=\"ds-spec-name\">The Guide</p><p class=\"ds-spec-kind\">agent · lib/agent</p></div><p class=\"ds-spec-role\">Talks the worker through one step at a time.</p></div></div>",
+      "css": ".ds-spec { border-top: 1px solid rgb(237 231 218 / 0.26); font-family: Archivo, system-ui, sans-serif; color: #ede7da; } .ds-spec-row { display: grid; grid-template-columns: 52px 200px 1fr; gap: 16px 24px; align-items: start; padding: 28px 0; border-bottom: 1px solid rgb(237 231 218 / 0.13); } .ds-spec-glyph { display: grid; place-items: center; width: 52px; height: 52px; border: 1px solid rgb(237 231 218 / 0.26); color: #ede7da; transition: color 200ms, border-color 200ms, background 200ms; } .ds-spec-row:hover .ds-spec-glyph { color: #15130b; background: #f4c430; border-color: #f4c430; } .ds-spec-name { margin: 0; font-stretch: 75%; font-weight: 800; text-transform: uppercase; font-size: 26px; line-height: 1; } .ds-spec-kind { margin: 6px 0 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #8f897d; } .ds-spec-role { margin: 0; font-size: 17px; line-height: 1.45; }"
+    },
+    {
+      "name": "Check Matrix",
+      "kind": "custom",
+      "refersTo": "matrix-cell-not-yet",
+      "description": "Ruled outcome grid; outcome colors only here, not-yet inverts to a red ground.",
+      "html": "<div class=\"ds-mx\"><div class=\"ds-mx-row\"><span class=\"ds-mx-h\">Wires on LOAD</span><span class=\"ds-mx-bad\"><b>Not yet</b><small>Move both wires to LINE</small></span><span class=\"ds-mx-ok\"><b>Looks right</b><small>After the fix</small></span></div></div>",
+      "css": ".ds-mx { border-top: 1px solid rgb(237 231 218 / 0.26); font-family: Archivo, system-ui, sans-serif; } .ds-mx-row { display: grid; grid-template-columns: 1.1fr 1fr 1fr; border-bottom: 1px solid rgb(237 231 218 / 0.13); } .ds-mx-row > span { display: grid; gap: 6px; align-content: center; padding: 28px 16px; } .ds-mx-h { font-size: 16px; color: #b4ad9f; } .ds-mx-row b { font-stretch: 75%; font-weight: 800; text-transform: uppercase; font-size: 32px; line-height: 1; } .ds-mx-row small { font-size: 13px; color: #8f897d; } .ds-mx-ok b { color: #6fca8e; } .ds-mx-bad { background: #ff7d6b; } .ds-mx-bad b, .ds-mx-bad small { color: #1a0b08; }"
+    },
+    {
+      "name": "Stage Text",
+      "kind": "custom",
+      "refersTo": "title",
+      "description": "Condensed stage title, body, hairline facts line, then the agent glyph line beneath.",
+      "html": "<article class=\"ds-stage\"><h3 class=\"ds-stage-title\">Check</h3><p class=\"ds-stage-body\">Three reviewers judge the newest frames at once.</p><p class=\"ds-stage-facts\">2 of 3 decide; a split is can't tell.</p><p class=\"ds-stage-agent\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M5 15a7 7 0 0 1 14 0M3 15h18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"square\"/></svg><b>The Checker</b><span>lib/ai/checkStep.ts</span></p></article>",
+      "css": ".ds-stage { display: grid; gap: 14px; font-family: Archivo, system-ui, sans-serif; color: #ede7da; } .ds-stage-title { margin: 0; font-stretch: 62.5%; font-weight: 800; text-transform: uppercase; font-size: 40px; line-height: 0.98; } .ds-stage-body { margin: 0; font-size: 18px; line-height: 1.55; color: #b4ad9f; max-width: 44ch; } .ds-stage-facts { margin: 0; padding-top: 12px; border-top: 1px solid rgb(237 231 218 / 0.13); font-size: 14px; color: #b4ad9f; } .ds-stage-agent { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin: 0; color: #f4c430; } .ds-stage-agent b { font-size: 14px; font-weight: 700; color: #ede7da; } .ds-stage-agent span { flex-basis: 100%; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #8f897d; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Machine View",
+    "overview": "This system belongs to the `/preview` marketing surface only: it is a new world proposed for the public homepage and has not been approved for the product, whose app screens keep the root `DESIGN.md` (\"Labeled panel\"). It plays the cinematic industrial-tech scroll straight: graded field footage on graphite, then the same scene seen the way Boomer sees it, with yellow boxes, mono readouts and a ruled spec sheet. The page earns its authority by showing real mechanism; every visual is either footage, product output, or labeled as illustrative.\n\nDensity is low at the edges and high inside the instruments. Sections are wide graphite fields with a condensed uppercase headline and a single lede, while the stage visuals, check panel, spec rows and system diagram pack real constants and code paths in mono at 11–12px. The material is matte: graphite steps, cream hairlines, scrims over photography, viewfinder corner brackets, square shoulders. The world rejects the card-grid AI startup page; structure comes from rules and grid, not from filled rounded containers.\n\nMotion is a camera, not a decoration. Things rise and clip in on one long-tail ease, annotation boxes wipe open after the footage has played, and every sequence starts from a visible default and jumps to its final state under reduced motion.",
+    "keyCharacteristics": [
+      "Graphite grounds in four steps, warm cream ink in three, hard-hat yellow as the only accent.",
+      "Archivo on its width axis: condensed uppercase (62.5–75% wdth, 800–900) for display and figures, normal width for reading.",
+      "JetBrains Mono only for readouts, code paths, data keys and provenance captions.",
+      "Hairline rules (1px cream at 13% and 26%) and viewfinder corner brackets instead of cards.",
+      "Zero radius on everything native."
+    ],
+    "rules": [
+      { "name": "The One Signal Rule", "body": "Yellow is the only accent and it always means \"act here\" or \"the machine is pointing at this\". It never fills a decorative surface or a section background, apart from the hero readout band.", "section": "colors" },
+      { "name": "The Outcome Colors Rule", "body": "Green and red appear only where a check result is shown, using the product's four results. They never decorate, never mark a feature, and never stand in for brand.", "section": "colors" },
+      { "name": "The Condensed Voice Rule", "body": "Uppercase belongs only to condensed Archivo at 800–900. Reading text is sentence case at normal width; nothing is tracked-out uppercase at small sizes.", "section": "typography" },
+      { "name": "The Mono Is Data Rule", "body": "JetBrains Mono sets values, identifiers, code paths and provenance, never prose, headings or buttons. Numbers that must align use tabular figures.", "section": "typography" },
+      { "name": "The Ruled Sheet Rule", "body": "Grouped information sits on hairlines inside the grid: a 26% hairline on top, 13% between rows, generous row padding (14–28px). It never sits in floating, filled boxes.", "section": "layout" },
+      { "name": "The Flat Instrument Rule", "body": "Native surfaces never cast shadows. A shadow means \"this is a real object or screen placed on the page\".", "section": "elevation" },
+      { "name": "The Square Shoulder Rule", "body": "If it belongs to this page, its corners are square. If a corner is round, it is depicting a device or a product screen.", "section": "shapes" },
+      { "name": "The Hard-Hat Mark Rule", "body": "Agent glyphs are built from the Boomer hard hat (a dome arc and a brim line) on a 24px grid, one 1.75 stroke, square caps and miter joins, in currentColor. Human roles share one mark so people read apart from software.", "section": "shapes" }
+    ],
+    "dos": [
+      "**Do** keep Hard-Hat Yellow the only accent and put On-Yellow text on it.",
+      "**Do** set every heading in uppercase condensed Archivo (62.5–75% wdth, 800–900) and every paragraph in normal-width sentence case.",
+      "**Do** use JetBrains Mono for constants, code paths, data keys and provenance captions only.",
+      "**Do** separate sections and rows with 1px cream hairlines at 13% and 26% and alternate Graphite and Graphite Deep grounds.",
+      "**Do** frame footage with viewfinder corner brackets and caption every visual with its source or \"illustrative\".",
+      "**Do** start every animated sequence from a visible state and use the long-tail ease (cubic-bezier(0.16, 1, 0.3, 1)); reduced motion shows the final state."
+    ],
+    "donts": [
+      "**Don't** use green or red for anything except check results, and never describe AI output as safe, compliant, code-approved, passed or certified.",
+      "**Don't** round the corners of native elements; radius belongs to depicted devices and product screens.",
+      "**Don't** wrap content in filled, rounded or shadowed cards; use the ruled sheet.",
+      "**Don't** put kickers or eyebrow labels above headings; the agent line belongs under the stage heading.",
+      "**Don't** cast shadows from native surfaces.",
+      "**Don't** restyle depicted product screens in this world, or carry this world into the product's app screens until it is approved there."
+    ]
+  }
+}
