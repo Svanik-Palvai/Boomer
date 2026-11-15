@@ -38,6 +38,7 @@ export function startGuiding(job: Job): Job {
  * Talk profile: "new" gets the reason with every step; "journeyman" gets short text for standard steps.
  */
 export function readStep(job: Job, worker: Worker): string {
+  if (!job.steps.length) return "I don't have a plan yet. Tell me what the job is and point the camera at it.";
   const step = currentStep(job);
   if (!step) return "That's every step. Say finish and I'll save the job to your record.";
   const parts: string[] = [`Step ${step.order}.`];

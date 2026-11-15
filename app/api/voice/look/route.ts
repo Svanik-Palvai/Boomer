@@ -7,6 +7,7 @@ import { emptyResults, QUICK_PHRASE, quickPlan, readStep, startGuiding } from "@
 import { transition } from "@/lib/jobs/status";
 import { jobTemplate } from "@/lib/location/steps";
 import { approvalGate, requestApproval, supervisorLabel } from "@/lib/jobs/approval";
+import { DEMO_JOB_TYPE } from "@/lib/mock/demo";
 
 export const POST = voiceTool("look", async ({ job, worker, req }) => {
   const frames = await recentFrames(job.id);
@@ -26,7 +27,11 @@ export const POST = voiceTool("look", async ({ job, worker, req }) => {
     return { say: gate.wait ? gate.say : "Your plan's ready. Say let's go to start." };
   }
 
-  const jobType = identity.jobType;
+  // Gemini sometimes answers "none" when the worker doesn't say "GFCI" ("the outlet behind the fridge").
+  // An outlet in frame is the outlet swap: use that playbook rather than stopping.
+  const jobType =
+    identity.jobType ??
+    (/receptacle|outlet|gfci/i.test(`${identity.component} ${identity.problem} ${req.note ?? ""}`) ? DEMO_JOB_TYPE : undefined);
   const template = jobType ? jobTemplate(jobType) : undefined;
   if (!jobType || !template) {
     const updated = await updateJob(job.id, (j) => ({ ...transition(j, "looking"), identity }));
