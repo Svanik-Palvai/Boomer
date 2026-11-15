@@ -1241,3 +1241,17 @@
     padding: 18px 0;
   }
 }
+
+/* Native section stops: scoped to the pitch route and spacious desktop screens.
+   Oversized sections retain normal internal scrolling; no wheel interception. */
+@media (min-width: 1000px) and (min-height: 700px) and (prefers-reduced-motion: no-preference) {
+  :global(html):has(.pitch) {
+    scroll-snap-type: y mandatory;
+  }
+  .pitch [data-section],
+  .pitch [data-snap] {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    scroll-margin-top: 76px;
+  }
+}
