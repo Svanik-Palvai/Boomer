@@ -1,8 +1,8 @@
 "use client";
-// OWNER: Andy. Live camera -> a still every 2 s (+ a burst of 3 when the backend asks) -> POST /api/frames.
+// OWNER: Andy. Live camera -> a still every second (+ a burst of 3 when the backend asks) -> POST /api/frames.
 //
 // Things the harness phone has to survive:
-// - Uploads slower than 2 s on venue Wi-Fi: never queue frames; skip a tick while one is in flight,
+// - Uploads slower than the interval on venue Wi-Fi: never queue frames; skip a tick while one is in flight,
 //   because a check never uses a frame older than 10 s anyway.
 // - iOS pausing the camera when a call starts or the page is backgrounded: the track goes "muted"
 //   or "ended". We stop sending (a frozen frame must never reach a check) and reopen the camera.
@@ -130,7 +130,7 @@ export function useFrameCapture(
     return c.toDataURL("image/jpeg", 0.75);
   }, []);
 
-  /** Upload one image. Used for the 2 s stills, the burst, and the fallback photo button. */
+  /** Upload one image. Used for the regular stills, the burst, and the fallback photo button. */
   const upload = useCallback(
     async (image: string, burst = false): Promise<FrameAck | null> => {
       const body: FrameUpload = { workerId, jobId: jobIdRef.current, image, burst, point: pointRef.current };
@@ -162,7 +162,7 @@ export function useFrameCapture(
     [grab, upload],
   );
 
-  // A still every 2 s, skipped while the last one is still uploading. On wantBurst, 3 quick frames.
+  // A still every FRAMES.intervalMs, skipped while the last one is still uploading. On wantBurst, 3 quick frames.
   useEffect(() => {
     if (!running) return;
     const id = setInterval(async () => {

@@ -4,6 +4,7 @@ import type { CheckOutcome, CheckResult, CheckVote, Frame, Step } from "@/lib/ty
 import { errorText, gemini, geminiEnabled, VISION_MODEL } from "@/lib/ai/gemini";
 import { frameParts } from "@/lib/ai/frames";
 import { BANNED_WORDS, SAY } from "@/lib/copy";
+import { FRAMES } from "@/lib/config";
 
 /**
  * Frames MUST already be fresh (< 10 s, see recentFrames()). Returns pass / fail / unclear and one line to say.
@@ -14,6 +15,8 @@ import { BANNED_WORDS, SAY } from "@/lib/copy";
  *   - photo      (CHECK_PHOTO_MODEL): doubts the photo itself: right device, right side, lit, sharp, labels readable
  * Majority rules: "pass" only when at least 2 of 3 say pass; "fail" when at least 2 say fail; anything else
  * (a split, or reviewers that errored) is "unclear" and the worker is asked for a better look.
+ * The check returns as soon as the result is settled (e.g. the first two agree): the last reviewer can't change it,
+ * so its vote is left out of `votes`.
  * CHECK_PANEL=off goes back to the inspector alone.
  *
  * Per reviewer: thinking off for speed (one retry with the model default if it's rejected), hard cap of
@@ -58,11 +61,12 @@ export async function checkStep(step: Step, frames: Frame[], attempt = 0): Promi
 
   if (!geminiEnabled()) return { ...mockCheck(step, attempt), frameId, ms: Date.now() - started };
 
-  const parts = frameParts(frames.slice(0, 3));
+  const parts = frameParts(frames.slice(0, FRAMES.checkFrames));
   if (parts.length === 0) return { outcome: "unclear", say: SAY.cantTell, frameId, ms: Date.now() - started };
 
-  const votes = await Promise.all(panel().map((r) => review(r, step, parts)));
-  const outcome = majority(votes);
+  const reviewers = panel();
+  const votes = await untilDecided(reviewers.map((r) => review(r, step, parts)));
+  const outcome = majority(votes, reviewers.length);
   // Speak the reasons of a reviewer that voted with the result (the inspector first).
   const lead = votes.find((v) => v.outcome === outcome) ?? votes[0];
   return {
@@ -76,13 +80,33 @@ export async function checkStep(step: Step, frames: Frame[], attempt = 0): Promi
   };
 }
 
-/** 2 of 3 decide. With one reviewer (CHECK_PANEL=off) that reviewer decides. */
-export function majority(votes: Pick<CheckVote, "outcome">[]): CheckOutcome {
-  const need = Math.floor(votes.length / 2) + 1;
+/** 2 of 3 decide. With one reviewer (CHECK_PANEL=off) that reviewer decides. `total` = panel size, when some votes are still out. */
+export function majority(votes: Pick<CheckVote, "outcome">[], total = votes.length): CheckOutcome {
+  const need = Math.floor(total / 2) + 1;
   const n = (o: CheckOutcome) => votes.filter((v) => v.outcome === o).length;
   if (n("pass") >= need) return "pass";
   if (n("fail") >= need) return "fail";
   return "unclear";
+}
+
+/**
+ * Resolves with the votes in so far once no outstanding vote can change majority(): "pass" or "fail" has a majority,
+ * or neither can reach one any more ("unclear"). review() never rejects, so this always settles.
+ */
+export function untilDecided(pending: Promise<CheckVote>[]): Promise<CheckVote[]> {
+  const total = pending.length;
+  const need = Math.floor(total / 2) + 1;
+  return new Promise((resolve) => {
+    const done: CheckVote[] = [];
+    for (const p of pending)
+      p.then((v) => {
+        done.push(v);
+        const left = total - done.length;
+        const n = (o: CheckOutcome) => done.filter((d) => d.outcome === o).length;
+        const settled = left === 0 || n("pass") >= need || n("fail") >= need || (n("pass") + left < need && n("fail") + left < need);
+        if (settled) resolve([...done]);
+      });
+  });
 }
 
 async function review(r: Reviewer, step: Step, parts: ReturnType<typeof frameParts>): Promise<CheckVote> {
