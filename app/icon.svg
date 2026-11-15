@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Boomer</title>
+  <rect width="64" height="64" rx="8" fill="#171914"/>
+  <path fill="#f1ebdd" fill-rule="evenodd" d="M18 25h16c9 0 13 4 13 10 0 4-2 6-5 8 4 1 6 4 6 8 0 7-5 10-14 10H18zm9 7v8h6c3 0 5-1 5-4s-2-4-5-4zm0 15v7h7c3 0 5-1 5-4s-2-3-5-3z"/>
+  <g fill="#f4c430" stroke="#171914" stroke-width="1.5" stroke-linejoin="round">
+    <path d="M15 23c0-10 7-16 17-16s17 6 17 16z"/>
+    <path d="M28 8c0-4 8-4 8 0v15h-8z"/>
+    <path d="M10 23q22-5 44 0v5q-22-5-44 0z"/>
+  </g>
+</svg>
