@@ -6,7 +6,7 @@ import { buildPlan } from "@/lib/ai/buildPlan";
 import { emptyResults, readStep, startGuiding } from "@/lib/agent/engine";
 import { transition } from "@/lib/jobs/status";
 import { jobTemplate } from "@/lib/location/steps";
-import { requestApproval, supervisorLabel } from "@/lib/jobs/approval";
+import { approvalGate, requestApproval, supervisorLabel } from "@/lib/jobs/approval";
 
 export const POST = voiceTool("look", async ({ job, worker, req }) => {
   const frames = await recentFrames(job.id);
@@ -18,6 +18,12 @@ export const POST = voiceTool("look", async ({ job, worker, req }) => {
     if (identity.fallbackReason) return { say: "I couldn't read the camera picture just now. Try again in a second." };
     const seen = identity.details ?? `I see a ${identity.component}.`;
     return { say: `${seen} That is just what I see. Say "check" and I'll judge this step.` };
+  }
+
+  // Plan already sent for sign-off (look called twice): don't rebuild or text the supervisor again.
+  if (job.status === "plan_ready" && job.approval) {
+    const gate = approvalGate(job);
+    return { say: gate.wait ? gate.say : "Your plan's ready. Say let's go to start." };
   }
 
   const jobType = identity.jobType;

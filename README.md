@@ -27,7 +27,7 @@ Then open `/job/demo-2041` (live job view) and `/job/demo-2041/record` (the reco
 ## Screens
 
 - `/profile`: name, phone, home state, experience (once)
-- `/camera/[workerId]`: harness phone. Live camera, a still every 2 s plus a burst on "done", wake lock, step number, connection dot. Needs HTTPS (Vercel or ngrok) on a real phone.
+- `/camera/[workerId]`: harness phone. Live camera, a still every second plus a burst on "done", wake lock, step number, connection dot. Needs HTTPS (Vercel or ngrok) on a real phone.
 - `/job/[id]`: live job view for the laptop facing the judge
 - `/job/[id]/record`: one finished job, every step with its check photo
 - `/record/[workerId]`: all jobs, totals, share link

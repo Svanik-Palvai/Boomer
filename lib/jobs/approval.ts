@@ -5,7 +5,7 @@
 // The supervisor's note is added to the job and read to the worker. It never rewrites the checked steps,
 // so a texted "skip the tester" can't get past a hard gate.
 import type { ApprovalStatus, Job, PlanApproval, Worker } from "@/lib/types";
-import { findOpenJob, getContacts, listWorkers, normalizePhone, updateJob } from "@/lib/db";
+import { getContacts, isOpen, listJobs, listWorkers, normalizePhone, updateJob } from "@/lib/db";
 import { refreshJobCards, sendJobCard, textAnyLine } from "@/lib/photon/miniapp";
 import { sendText } from "@/lib/photon/send";
 import { sendStableText } from "@/lib/photon/stable";
@@ -93,6 +93,8 @@ export function markTold(job: Job): Job {
 }
 
 const APPROVE = /^\s*(approve[ds]?|yes|yep|yeah|ok(ay)?|good|looks good|lgtm|go( ahead)?|go for it|sounds good|all good|👍|✅)\b/i;
+/** Unmistakable decision words, for telling a supervisor nothing is waiting (plain "ok"/"yes" stay with the other agents). */
+const EXPLICIT = /^\s*(approved?|reject(ed)?|hold off)\b/i;
 const REJECT = /^\s*(no|nope|reject(ed)?|hold( off)?|stop|wait|don'?t|do not|not yet)\b/i;
 
 /** Supervisor's reply -> decision. "approve" alone approves; "approve, but ..." is approval with a note. Pure. */
@@ -112,19 +114,42 @@ export function parseDecision(text: string): { status: Exclude<ApprovalStatus, "
 }
 
 /**
+ * Same phone, however each side wrote it: "+12155550100", "(215) 555-0100", "tel:+1 215 555 0100".
+ * Compares the last 10 digits (US numbers), so a sender handle in another format still finds the waiting plan.
+ */
+export function samePhone(a?: string | null, b?: string | null): boolean {
+  const d = (x?: string | null) => (x ? normalizePhone(x).replace(/\D/g, "").slice(-10) : "");
+  const x = d(a);
+  return x.length === 10 && x === d(b);
+}
+
+/**
  * An inbound text from someone who is the supervisor on a job waiting for approval.
  * Returns the reply to the supervisor, or null when this text isn't an approval answer.
  */
-export async function decideFromText(fromRaw: string, text: string): Promise<{ reply: string; jobId: string } | null> {
-  const from = normalizePhone(fromRaw);
+export async function decideFromText(fromRaw: string, text: string): Promise<{ reply: string; jobId?: string } | null> {
   const waiting: { job: Job; worker: Worker }[] = [];
+  const supervisorOf: Worker[] = [];
   for (const w of await listWorkers()) {
     const c = await getContacts(w.id);
-    if (c?.supervisorPhone !== from) continue;
-    const job = await findOpenJob(w.id);
-    if (job?.approval?.status === "waiting") waiting.push({ job, worker: w });
+    if (!samePhone(c?.supervisorPhone, fromRaw)) continue;
+    supervisorOf.push(w);
+    // Every open job of this worker that's waiting on the OK, not only the newest open one: a second open job
+    // (a fresh call, a text that opened one) must not hide the plan the supervisor is answering.
+    for (const job of await listJobs(w.id)) {
+      if (isOpen(job) && job.approval?.status === "waiting" && samePhone(job.approval.supervisorPhone, fromRaw)) waiting.push({ job, worker: w });
+    }
   }
-  if (!waiting.length) return null;
+  if (!waiting.length) {
+    // A supervisor on file saying "approve" / "hold off" with no plan out: say so, instead of letting the text
+    // fall through to the sign-up or recorder agent (which made it look like the approval went nowhere).
+    if (supervisorOf.length && EXPLICIT.test(text)) {
+      console.log(`[approval] decision text from a supervisor, but no plan is waiting (workers: ${supervisorOf.map((w) => w.id).join(", ")})`);
+      const first = supervisorOf.length === 1 ? supervisorOf[0].name.split(" ")[0] : "your crew";
+      return { reply: guard(`Thanks. There's no plan from ${first} waiting for your OK right now. I'll text you when one comes in.`) };
+    }
+    return null;
+  }
   const { job, worker } = waiting.sort((a, b) => b.job.updatedAt.localeCompare(a.job.updatedAt))[0];
 
   const d = parseDecision(text);

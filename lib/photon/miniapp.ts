@@ -6,7 +6,7 @@ import type { Job, Worker } from "@/lib/types";
 import { absolute, pages } from "@/lib/routes";
 import { progressLine } from "@/lib/record/sheet";
 import { sendText } from "./send";
-import { cardKeys, sendMiniApp, sendStableText, stableConfigured, updateMiniApp } from "./stable";
+import { jobCardKeys, sendMiniApp, sendStableText, stableConfigured, updateMiniApp } from "./stable";
 
 export type Delivery = "card" | "link" | "none";
 
@@ -33,7 +33,7 @@ export async function sendRecordCard(worker: Worker, to: string, intro?: string)
 export async function refreshJobCards(job: Job): Promise<number> {
   if (!stableConfigured()) return 0;
   let n = 0;
-  for (const key of cardKeys(`job:${job.id}:`)) {
+  for (const key of await jobCardKeys(job.id)) {
     try {
       if (await updateMiniApp(key, jobCardUrl(job), job.status === "guiding")) n++;
     } catch (err) {

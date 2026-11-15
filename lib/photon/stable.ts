@@ -8,6 +8,9 @@
 // Stable can start a chat (50 new conversations per line per day), so it also reaches people who never texted Boomer.
 // The SDK is ESM-only and keeps a connection open, so it's loaded on first use and kept on globalThis (one per server).
 
+import { getCardRef, listJobCardRefs, saveCardRef } from "@/lib/db/cards";
+import { ensureStableUser } from "./stableUsers";
+
 const INIT_TIMEOUT_MS = 10_000;
 const SEND_TIMEOUT_MS = 10_000;
 
@@ -47,6 +50,8 @@ async function spectrum(): Promise<any> {
 }
 
 async function dm(phone: string): Promise<any> {
+  // The shared pool only reaches registered users (lib/photon/stableUsers.ts), so register first.
+  await ensureStableUser(phone);
   const sp = await spectrum();
   const { imessage } = await sdk();
   const im = imessage(sp);
@@ -54,30 +59,53 @@ async function dm(phone: string): Promise<any> {
 }
 
 /**
- * Send a mini app card. `key` remembers the bubble so `updateMiniApp(key, …)` can edit it in place later
- * (kept in memory: after a server restart the next update sends a fresh card instead).
+ * Send a mini app card. `key` remembers the bubble so `updateMiniApp(key, …)` can edit it in place later:
+ * in memory on this server, and its chat + message ids in the database (lib/db/cards.ts) for every other server.
  */
 export async function sendMiniApp(phone: string, url: string, opts: { key?: string; live?: boolean } = {}): Promise<void> {
   const { app } = await sdk();
   const space = await dm(phone);
-  const message = await withTimeout(space.send(app(url, { live: opts.live ?? true })), SEND_TIMEOUT_MS, "mini app send");
-  if (opts.key && message) cards().set(opts.key, { message, phone, url, at: new Date().toISOString() });
+  const message: any = await withTimeout(space.send(app(url, { live: opts.live ?? true })), SEND_TIMEOUT_MS, "mini app send");
+  if (!opts.key || !message) return;
+  cards().set(opts.key, { message, phone, url, at: new Date().toISOString() });
+  if (space?.id && message?.id) {
+    await saveCardRef({ key: opts.key, phone, spaceId: space.id, messageId: message.id, url }).catch((err) =>
+      console.error("[spectrum] couldn't save card ref:", String(err).slice(0, 160)),
+    );
+  }
 }
 
-/** Edit a card sent earlier. False when there's nothing to edit (never sent, or the server restarted). */
+/** The card bubble for `key`: from memory, else rebuilt from the ids in the database. */
+async function findCard(key: string): Promise<any | undefined> {
+  const mem = cards().get(key);
+  if (mem) return mem.message;
+  const ref = await getCardRef(key);
+  if (!ref) return undefined;
+  const sp = await spectrum();
+  const { imessage } = await sdk();
+  const space = await imessage(sp).space.get(ref.spaceId);
+  const message = await withTimeout(space.getMessage(ref.messageId), SEND_TIMEOUT_MS, "mini app lookup");
+  if (message) cards().set(key, { message, phone: ref.phone, url: ref.url, at: ref.at });
+  return message;
+}
+
+/** Edit a card sent earlier. False when there's nothing to edit (never sent, or it can't be found any more). */
 export async function updateMiniApp(key: string, url: string, live = true): Promise<boolean> {
-  const sent = cards().get(key);
-  if (!sent) return false;
+  const message = await findCard(key);
+  if (!message) return false;
   const sp = await spectrum();
   const { app } = await sdk();
-  await withTimeout(sp.edit(sent.message, app(url, { live })), SEND_TIMEOUT_MS, "mini app update");
-  cards().set(key, { ...sent, url });
+  await withTimeout(sp.edit(message, app(url, { live })), SEND_TIMEOUT_MS, "mini app update");
+  const sent = cards().get(key);
+  if (sent) cards().set(key, { ...sent, url });
   return true;
 }
 
-/** Keys of cards sent with this prefix, e.g. every card for one job. */
-export function cardKeys(prefix: string): string[] {
-  return [...cards().keys()].filter((k) => k.startsWith(prefix));
+/** Keys of every card sent for one job, from this server's memory and the database. */
+export async function jobCardKeys(jobId: string): Promise<string[]> {
+  const prefix = `job:${jobId}:`;
+  const fromDb = await listJobCardRefs(jobId).catch(() => []);
+  return [...new Set([...cards().keys(), ...fromDb.map((r) => r.key)])].filter((k) => k.startsWith(prefix));
 }
 
 /** Plain text over Photon 1.0. Returns the message id. */
