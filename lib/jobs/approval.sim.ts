@@ -1,5 +1,5 @@
 // OWNER: Zohaib. Supervisor "approve" by text -> the waiting voice agent continues. Mock mode, in-memory db, no server.
-// Run from the repo root: npx -y tsx lib/jobs/approval.sim.ts
+// Run from the repo root: APPROVAL_WAIT_MS=2500 APPROVAL_POLL_MS=200 npx -y tsx lib/jobs/approval.sim.ts
 // Drives the real handlers: look (sends the plan) -> Photon 2.0 webhook (the supervisor's reply) -> check_step / next_step.
 import { POST as look } from "@/app/api/voice/look/route";
 import { POST as checkStep } from "@/app/api/voice/check_step/route";
@@ -79,6 +79,33 @@ async function main() {
   const late = (await (await text(received("+12155550100", "approved"))).json().catch(() => ({}))) as { agent?: string };
   expect(late.agent === "share", `answered by the approval agent (agent=${late.agent})`);
   expect((await getJob(DEMO_JOB_ID))?.approval?.decidedAt === decidedAt, "the decision isn't made twice");
+
+  // The agent holds on wait_for_approval; the supervisor's text arrives mid-wait and the call carries on by itself.
+  const { POST: waitForApproval } = await import("@/app/api/voice/wait_for_approval/route");
+  console.log("\n6. wait_for_approval: approval arrives mid-wait -> step 1 without a prompt from the worker");
+  await resetDemo();
+  await tool(look, { note: "GFCI" });
+  const t0 = Date.now();
+  const pending = tool(waitForApproval);
+  await new Promise((res) => setTimeout(res, 600));
+  await text(received("+12155550100", "approve, but use the 20A GFCI"));
+  r = await pending;
+  const ms = Date.now() - t0;
+  expect(r.status === "guiding" && r.stepNumber === 1 && /20A GFCI/.test(r.say) && /Step 1/.test(r.say), "returns the note, then step 1");
+  expect(ms < 2000, `returned within a poll of the text (${ms} ms)`);
+  r = await tool(nextStep);
+  expect(!/20A/.test(r.say), "note not read twice");
+
+  console.log("\n7. wait_for_approval: no answer -> waiting=true after the window; hold off -> said once");
+  await resetDemo();
+  await tool(look, { note: "GFCI" });
+  r = await tool(waitForApproval);
+  expect(r.waiting === true && r.say === "" && r.status === "plan_ready", "times out quietly, still plan_ready");
+  const held = tool(waitForApproval);
+  await new Promise((res) => setTimeout(res, 300));
+  await text(received("+12155550100", "hold off, customer wants a quote"));
+  r = await held;
+  expect(!r.waiting && /hold off/i.test(r.say) && r.status === "plan_ready", "hold returned, steps not started");
 
   console.log(fails ? `\n${fails} FAILED` : "\nALL PASSED");
   process.exit(fails ? 1 : 0);
