@@ -14,30 +14,22 @@ cp .env.example .env.local
 npm run dev
 ```
 
-Open http://localhost:3000. With `USE_MOCKS=true` Gemini and Photon are mocked, so the whole flow runs before anything is wired up.
-
-Play a full guided call against the dev server (what ElevenLabs would do):
-
-```
-npm run fake-call
-```
-
-Then open `/job/demo-2041` (live job view) and `/job/demo-2041/record` (the record).
+Open http://localhost:3000, set up a profile, then open the camera page on the phone and call Boomer.
 
 ## Screens
 
 - `/profile`: name, phone, home state, experience (once)
 - `/camera/[workerId]`: harness phone. Live camera, a still every second plus a burst on "done", wake lock, step number, connection dot. Needs HTTPS (Vercel or ngrok) on a real phone.
-- `/job/[id]`: live job view for the laptop facing the judge
+- `/job/[id]`: live job view on a laptop
 - `/job/[id]/record`: one finished job, every step with its check photo
 - `/record/[workerId]`: all jobs, totals, share link
 
-## What's pre-loaded for the demo
+## Data
 
-- The step list for the demo job (kitchen counter receptacle → GFCI), `data/steps.json`, hand-checked.
-- Code editions and rule differences for Princeton, NJ and Philadelphia, PA (`data/`), each with a source link.
+- Job step lists (e.g. kitchen counter receptacle → GFCI) in `data/steps.json`.
+- Code editions and rule differences for Princeton, NJ and Philadelphia, PA in `data/`, each with a source link.
 
-Live: the call, the camera, Gemini job identification and step checks, memory across calls, GPS, the record and the iMessage text.
+The call, the camera, Gemini job identification and step checks, memory across calls, GPS, the record and the iMessage text all run end to end.
 
 Boomer guides and checks what the camera can see; the electrician tests, decides and stays responsible.
 
