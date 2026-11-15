@@ -20,7 +20,10 @@ export async function addFrame(f: Omit<Frame, "id" | "at">): Promise<Frame> {
 }
 
 /** Newest frames first, never older than maxAgeMs (default 10 s). Checks must only use these. */
-export async function recentFrames(jobId: string, { maxAgeMs = FRAMES.maxAgeMs, limit = FRAMES.burst } = {}): Promise<Frame[]> {
+export async function recentFrames(
+  jobId: string,
+  { maxAgeMs = FRAMES.maxAgeMs, limit = FRAMES.burst as number }: { maxAgeMs?: number; limit?: number } = {},
+): Promise<Frame[]> {
   await ready();
   return backend().frames(jobId, { sinceMs: Date.now() - maxAgeMs, limit });
 }
@@ -44,4 +47,17 @@ export async function requestBurst(jobId: string): Promise<void> {
 
 export async function burstWanted(jobId: string): Promise<boolean> {
   return !!(await backend().get("flag", `burst:${jobId}`));
+}
+
+/**
+ * After requestBurst(): wait until the first burst frame lands (it clears the flag, see addFrame), so the check sees
+ * the work as it is now, not a still from before "done". Gives up after waitMs and uses the newest frames it has.
+ */
+export async function framesAfterBurst(
+  jobId: string,
+  { waitMs = FRAMES.freshWaitMs as number, limit = FRAMES.checkFrames as number, pollMs = 150 } = {},
+): Promise<Frame[]> {
+  const deadline = Date.now() + waitMs;
+  while (Date.now() < deadline && (await burstWanted(jobId))) await new Promise((r) => setTimeout(r, pollMs));
+  return recentFrames(jobId, { limit });
 }
