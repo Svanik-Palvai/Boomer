@@ -168,33 +168,116 @@ function Nav() {
   );
 }
 
-/** One statement, set large in sentence case; words light up as it scrolls into view. */
-function Statement() {
-  const [ref, on] = useSeen<HTMLElement>(0.6);
-  const words = "A phone on the chest. A voice in the ear. Three models on every step. A record the worker keeps.".split(" ");
-  return (
-    <section ref={ref} className={`${s.statement} ${on ? s.on : ""}`} aria-label="What Boomer is">
-      <p>
-        {words.map((w, i) => (
-          <span key={i} style={{ "--i": i } as React.CSSProperties}>
-            {w}{" "}
+/** The four claims, one at a time: each sentence lights up with the thing it names beside it. */
+const BEATS = [
+  { line: "A phone on the chest.", cap: "Harness camera · 1 frame / 2 s" },
+  { line: "A voice in the ear.", cap: "Guide · spoken line from readStep()" },
+  { line: "Three models on every step.", cap: "Check panel · 2 of 3 decide" },
+  { line: "A record the worker keeps.", cap: "Work record · link sent by iMessage" },
+];
+
+function BeatVisual({ i }: { i: number }) {
+  if (i === 0)
+    return (
+      <div className={s.bPhone}>
+        <LoopVideo className={s.bPhoneVideo} src={`${M}/test-meter.mp4`} poster={`${M}/test-meter.webp`} />
+        <div className={s.bHud}>
+          <span>
+            Step <b className="num">2</b>/6
           </span>
+          <span>Test it dead and tell me the reading.</span>
+        </div>
+      </div>
+    );
+  if (i === 1)
+    return (
+      <div className={s.bVoice}>
+        <div className={s.bWave} aria-hidden="true">
+          {Array.from({ length: 28 }, (_, k) => (
+            <i key={k} style={{ "--k": k, height: `${18 + ((k * 37) % 70)}%` } as React.CSSProperties} />
+          ))}
+        </div>
+        <p>“Step 2. Test it dead and tell me the reading.”</p>
+      </div>
+    );
+  if (i === 2)
+    return (
+      <div className={s.bVotes}>
+        {["Inspector", "Wiring", "Photo skeptic"].map((r, k) => (
+          <p key={r} style={{ "--k": k } as React.CSSProperties}>
+            <span>{r}</span>
+            <b>Looks right</b>
+          </p>
+        ))}
+        <p className={s.bVerdict}>Looks right.</p>
+      </div>
+    );
+  return (
+    <div className={s.bRecord}>
+      <p className={s.bRecTitle}>Swap an outlet for a GFCI</p>
+      <p className={s.bRecMeta}>Princeton, NJ · 6 of 6 steps</p>
+      <span className={s.bTape}>Observed by Boomer</span>
+      {["Breaker off", "Tested dead", "Old device out", "LINE and LOAD found", "Wires on LINE", "TEST / RESET"].map((t, k) => (
+        <p key={t} className={s.bRow}>
+          <i className={k === 0 || k === 1 || k === 5 ? s.bRing : s.bDot} />
+          {t}
+          {k === 4 && <em>corrected after 1 not yet</em>}
+        </p>
+      ))}
+    </div>
+  );
+}
+
+function Statement() {
+  const [ref, on] = useSeen<HTMLElement>(0.5);
+  const [beat, setBeat] = useState(0);
+  const [hold, setHold] = useState(false);
+  const [still, setStill] = useState(false);
+  useEffect(() => setStill(window.matchMedia("(prefers-reduced-motion: reduce)").matches), []);
+  useEffect(() => {
+    if (!on || hold || still) return;
+    const t = setInterval(() => setBeat((b) => (b + 1) % BEATS.length), 3200);
+    return () => clearInterval(t);
+  }, [on, hold, still]);
+  return (
+    <section
+      ref={ref}
+      className={`${s.statement} ${on ? s.on : ""}`}
+      aria-label="What Boomer is"
+      onMouseEnter={() => setHold(true)}
+      onMouseLeave={() => setHold(false)}
+      onFocus={() => setHold(true)}
+      onBlur={() => setHold(false)}
+    >
+      <p className={s.lines}>
+        {BEATS.map((b, k) => (
+          <button
+            key={b.line}
+            type="button"
+            className={k === beat ? s.lineOn : ""}
+            aria-pressed={k === beat}
+            onClick={() => setBeat(k)}
+          >
+            {b.line}
+          </button>
         ))}
       </p>
-      <figure className={s.povFrame}>
-        <LoopVideo
-          className={s.povVideo}
-          src={`${M}/field-9x16.mp4`}
-          poster={`${M}/field-9x16.webp`}
-          label="Portrait field footage: hard hat at an open wall, a meter test, a battery rack, a control panel"
-        />
+      <figure className={s.beatPanel} aria-live="polite">
+        <div key={beat} className={s.beatStage}>
+          <BeatVisual i={beat} />
+        </div>
         <i data-c="tl" />
         <i data-c="tr" />
         <i data-c="bl" />
         <i data-c="br" />
         <figcaption>
-          <span className={s.povDot} /> Field footage · Pexels
+          <span className={s.povDot} /> {BEATS[beat].cap}
         </figcaption>
+        <ol className={s.beatTicks} aria-hidden="true">
+          {BEATS.map((b, k) => (
+            <li key={b.line} className={k === beat ? s.tickOn : ""} />
+          ))}
+        </ol>
       </figure>
     </section>
   );
