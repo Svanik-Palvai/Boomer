@@ -143,15 +143,17 @@ export default function Pitch() {
           </div>
         </section>
 
-        <section id="how" data-snap className={`${s.section} ${s.dark}`}>
+        <section
+          id="how"
+          data-snap
+          className={`${s.section} ${s.dark} ${s.setupSection}`}
+        >
           <div className={s.sectionLabel}>
             <span>02 / THE SETUP</span>
             <span>PHOTON NUMBER → ELEVENLABS VOICE AGENT</span>
           </div>
           <h2>
-            Strap in.
-            <br />
-            Call Boomer.
+            Strap in. Call Boomer.
             <br />
             <span className={s.yellowText}>Get to work.</span>
           </h2>

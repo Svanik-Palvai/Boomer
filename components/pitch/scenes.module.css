@@ -1471,3 +1471,16 @@
     padding: 26px 6% 36px;
   }
 }
+@media (min-width: 1000px) and (min-height: 700px) {
+  .compactBorder .stage,
+  .completeRecord .stage {
+    min-height: calc(100svh - 76px);
+  }
+  .completeRecord .stage {
+    display: flex;
+    flex-direction: column;
+  }
+  .completeRecord .recordGrid {
+    flex: 1;
+  }
+}
