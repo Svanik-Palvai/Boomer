@@ -3,6 +3,7 @@ import type { CheckResult, Job, Step, StepResult, Worker } from "@/lib/types";
 import { UNCLEAR_RETRIES } from "@/lib/config";
 import { SAY } from "@/lib/copy";
 import { transition } from "@/lib/jobs/status";
+import { levelOf, masteryOf, skillOf } from "@/lib/skills/mastery";
 
 const now = () => new Date().toISOString();
 
@@ -34,7 +35,11 @@ export function startGuiding(job: Job): Job {
 
 /**
  * The line the agent reads for the current step. One step at a time, never the whole plan.
- * Talk profile: "new" gets the reason with every step; "journeyman" gets short text for standard steps.
+ * How much it says follows Boomer's estimate that this worker has the step's skill down (lib/skills/mastery.ts):
+ * learning -> the step and its reason; practiced -> the step; known -> the short line.
+ * The estimate starts from the worker's experience and moves with every check, so a journeyman who misses a step
+ * hears it in full next time, and a new worker who keeps getting it right hears less.
+ * New here steps are always read in full with the reason. This changes the words only: every step is still checked.
  */
 export function readStep(job: Job, worker: Worker): string {
   const step = currentStep(job);
@@ -44,9 +49,10 @@ export function readStep(job: Job, worker: Worker): string {
     parts.push(SAY.differentFrom(job.home.city));
     if (step.ruleVerified === false) parts.push("The source for this one is still being checked.");
   }
-  const short = worker.experience === "journeyman" && step.tag === "standard" && step.shortText;
+  const level = levelOf(masteryOf(worker, skillOf(step)));
+  const short = level === "known" && step.tag === "standard" && step.shortText;
   parts.push(short || step.text);
-  if (worker.experience === "new" || step.tag === "new_here") parts.push(step.reason);
+  if (level === "learning" || step.tag === "new_here") parts.push(step.reason);
   return parts.join(" ");
 }
 

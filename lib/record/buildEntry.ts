@@ -1,6 +1,7 @@
 // OWNER: Zohaib (record writer)
 import type { Frame, Job, RecordEntry, WorkRecord, Worker } from "@/lib/types";
 import { absolute, pages } from "@/lib/routes";
+import { skillSummaries } from "@/lib/skills/mastery";
 
 /** Finished job -> one record entry. Pure: pass in the frames the step results point at. */
 export function buildRecordEntry(job: Job, frames: Map<string, Frame>, summary?: string): RecordEntry {
@@ -63,5 +64,6 @@ export function buildWorkRecord(worker: Worker, entries: RecordEntry[]): WorkRec
     entries,
     totals: { jobs: entries.length, byJobType: count((e) => e.jobType), byState: count((e) => e.state) },
     shareUrl: absolute(pages.workRecord(worker.id)),
+    skills: skillSummaries(worker),
   };
 }

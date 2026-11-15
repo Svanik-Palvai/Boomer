@@ -6,6 +6,7 @@
     "steps": [
       {
         "id": "gfci-1-breaker",
+        "skill": "de-energize",
         "text": "Turn the breaker for this outlet off, then tell me when it's off.",
         "shortText": "Breaker off. Tell me when it's off.",
         "reason": "Everything after this is hands-on, so the circuit has to be off first.",
@@ -18,6 +19,7 @@
       },
       {
         "id": "gfci-2-tester",
+        "skill": "verify-dead",
         "text": "Hold your tester on the receptacle where I can see it, and tell me what it reads.",
         "shortText": "Test it dead and tell me the reading.",
         "reason": "A camera cannot establish absence of voltage; the electrician must test and report it.",
@@ -30,6 +32,7 @@
       },
       {
         "id": "gfci-3-remove",
+        "skill": "device-removal",
         "text": "Take off the faceplate and pull the old receptacle out of the box so the wires are visible.",
         "shortText": "Pull the old device.",
         "reason": "You need to see which wires come in from the panel before you land them on the new device.",
@@ -41,6 +44,7 @@
       },
       {
         "id": "gfci-4-terminals",
+        "skill": "terminal-id",
         "text": "Turn the new GFCI around and find the LINE pair and the LOAD pair on the back. Show me the back.",
         "reason": "A GFCI only protects correctly when the incoming power is on LINE.",
         "check": {
@@ -51,6 +55,7 @@
       },
       {
         "id": "gfci-5-line",
+        "skill": "device-termination",
         "text": "On the inert single-feed prop, connect the identified incoming pair to LINE and the grounding conductor as the device instructions specify. Leave LOAD covered.",
         "reason": "Reversing LINE and LOAD can prevent this GFCI from resetting; a photo cannot verify torque or hidden connections.",
         "check": {
@@ -61,6 +66,7 @@
       },
       {
         "id": "gfci-6-test",
+        "skill": "function-test",
         "text": "Mount the device and faceplate. For this inert demo, describe the simulated TEST and RESET outcome; do not energize the prop.",
         "shortText": "Mount the prop and report the simulated TEST / RESET result. Keep it unpowered.",
         "reason": "The worker confirms the functional result; the camera cannot establish electrical protection.",

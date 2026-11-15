@@ -60,3 +60,21 @@
 .empty { color: var(--ink-2); padding: 16px 0; border-bottom: 1px solid var(--rule); }
 
 .h2 { margin-top: 36px; }
+
+/* Skill estimates (lib/skills) */
+.skillNote { margin-top: 8px; font-size: var(--fs-small); color: var(--ink-2); }
+.skills { list-style: none; margin: 12px 0 0; padding: 0; border-top: 1px solid var(--rule); }
+.skill {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  gap: 6px 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.skillName { font-weight: 700; }
+.skillPct { font-weight: 700; }
+.meter { grid-column: 1 / -1; height: 8px; border-radius: 4px; background: var(--rule); overflow: hidden; }
+.meterFill { display: block; height: 100%; background: var(--ink-2); }
+.meterFill[data-level="known"] { background: var(--ground-green); }
+.meterFill[data-level="learning"] { background: var(--tape-yellow); }
+.skillMeta { grid-column: 1 / -1; font-size: var(--fs-small); color: var(--ink-2); }

@@ -1,7 +1,9 @@
 // OWNER: Sunny. Tool check_step: "done" -> check the current step. Answers in ~3 s.
 import type { CheckResult } from "@/lib/types";
 import { voiceTool } from "@/lib/voice/tool";
-import { framesAfterBurst, requestBurst, updateJob } from "@/lib/db";
+import { framesAfterBurst, requestBurst, updateJob, updateWorker } from "@/lib/db";
+import { observe, type Evidence } from "@/lib/skills/mastery";
+import type { Step, Worker } from "@/lib/types";
 import { checkStep } from "@/lib/ai/checkStep";
 import { allDone, applyCheck, canConfirmByVoice, confirmSpoken, currentStep, readStep, startGuiding } from "@/lib/agent/engine";
 import { SAY } from "@/lib/copy";
@@ -13,6 +15,19 @@ import { approvalGate, markTold } from "@/lib/jobs/approval";
 /** Checker -> shared job memory, so the guide and the iMessage recorder can refer back to it. Fire-and-forget: the check has a ~3 s budget. */
 function logCheck(jobId: string, text: string) {
   remember(jobId, { channel: "voice", agent: "checker", speaker: "agent", text }).catch((err) => console.error("[check_step] memory write failed:", err));
+}
+
+/**
+ * One check -> the worker's skill estimate. Returns the updated worker so the next step is read at the new level.
+ * A failed save must never fail the check, so it falls back to the worker as it was.
+ */
+async function learn(worker: Worker, step: Step, evidence: Evidence): Promise<Worker> {
+  try {
+    return await updateWorker(worker.id, (w) => observe(w, step, evidence));
+  } catch (err) {
+    console.error("[check_step] skill estimate not saved:", err);
+    return worker;
+  }
 }
 
 export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
@@ -43,7 +58,9 @@ export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
     const updated = await updateJob(job.id, (j) => confirmSpoken(j, req.spokenConfirmation!));
     const check: CheckResult = { outcome: "pass", say: SAY.workerConfirmed };
     logCheck(job.id, `Step ${step.order} worker confirmed: "${req.spokenConfirmation}"`);
-    return { job: updated, check, say: `${SAY.workerConfirmed} ${readStep(updated, worker)}` };
+    // Count it only if this call is the one that moved the step (a duplicate delivery changes nothing).
+    const after = updated.current > job.current ? await learn(worker, step, "said") : worker;
+    return { job: updated, check, say: `${SAY.workerConfirmed} ${readStep(updated, after)}` };
   }
 
   // Ask the phone for a burst, then wait (up to ~2.5 s) for it, so the check never judges a still from before "done".
@@ -54,7 +71,10 @@ export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
 
   const updated = await updateJob(job.id, (j) => (j.current === job.current ? applyCheck(j, check) : j));
   logCheck(job.id, `Step ${step.order} camera check: ${check.outcome}. ${check.say}`);
-  if (check.outcome === "pass") return { job: updated, check, say: `${check.say} ${readStep(updated, worker)}` };
+  // "Can't tell" says nothing about the worker, so only a pass or a "not yet" that was applied moves the estimate.
+  const counted = (updated.results[job.current]?.attempts ?? 0) > attempt && check.outcome !== "unclear";
+  const after = counted ? await learn(worker, step, check.outcome === "pass" ? "seen_right" : "seen_wrong") : worker;
+  if (check.outcome === "pass") return { job: updated, check, say: `${check.say} ${readStep(updated, after)}` };
 
   const unclear = updated.results[updated.current]?.unclear ?? 0;
   const say =

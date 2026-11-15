@@ -3,6 +3,7 @@ import type { AgentName, Channel, Job, MemoryEvent, RecordEntry, Worker } from "
 import { getJob, updateJob } from "@/lib/db";
 import { STATUS_LABEL } from "@/lib/copy";
 import { talkProfile } from "@/lib/agent/prompt";
+import { skillSummaries } from "@/lib/skills/mastery";
 
 /**
  * Everything said or decided on a job, by any agent on any channel. The guide (voice), checker (vision)
@@ -44,6 +45,9 @@ export function contextFor(job: Job, worker: Worker, past: RecordEntry[] = []): 
     .slice(0, 5)
     .map((e) => `- ${e.date.slice(0, 10)}: ${e.title} in ${e.city}, ${e.state} (${e.outcome}, ${e.counts.done}/${e.counts.total} steps)`)
     .join("\n");
+  const skills = skillSummaries(worker)
+    .map((k) => `- ${k.label}: ${Math.round(k.p * 100)}% (${k.right} of ${k.checks} checks right)`)
+    .join("\n");
   const a = job.approval;
   const boss = a ? (a.supervisorName ?? "the supervisor") : "";
   const next =
@@ -69,6 +73,7 @@ export function contextFor(job: Job, worker: Worker, past: RecordEntry[] = []): 
       : "Site: unknown yet.",
     steps ? `Steps:\n${steps}` : "No plan yet. Call look.",
     history ? `Past jobs:\n${history}` : "",
+    skills ? `Skill estimates from past checks (how much detail this worker needs; the tools already use them):\n${skills}` : "",
     `What has been said:\n${said || "- nothing yet"}`,
   ]
     .filter(Boolean)
