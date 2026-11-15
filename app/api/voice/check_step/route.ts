@@ -79,7 +79,7 @@ export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
   const unclear = updated.results[updated.current]?.unclear ?? 0;
   const say =
     check.outcome === "unclear" && unclear > UNCLEAR_RETRIES && canConfirmByVoice(updated)
-      ? `${check.say} If it's done, say "confirm" and I'll log it as worker confirmed, not seen.`
+      ? `${check.say} If it's done, say "confirm". I'll log it as worker confirmed.`
       : check.say;
   return { job: updated, check, say };
 });

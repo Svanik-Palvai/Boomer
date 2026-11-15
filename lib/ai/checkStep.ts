@@ -1,7 +1,7 @@
 // OWNER: Sunny (AI). The step check: one yes/no question on fresh frames, answer in ~3 s.
-import { ThinkingLevel, Type } from "@google/genai";
+import { Type } from "@google/genai";
 import type { CheckOutcome, CheckResult, CheckVote, Frame, Step } from "@/lib/types";
-import { errorText, gemini, geminiEnabled, VISION_MODEL } from "@/lib/ai/gemini";
+import { errorText, gemini, geminiEnabled, thinkingOffConfig, VISION_MODEL } from "@/lib/ai/gemini";
 import { frameParts } from "@/lib/ai/frames";
 import { BANNED_WORDS, SAY } from "@/lib/copy";
 import { FRAMES } from "@/lib/config";
@@ -152,14 +152,6 @@ async function review(r: Reviewer, step: Step, parts: ReturnType<typeof framePar
     console.error(`[checkStep] ${r.name} (${r.model}) failed:`, errorText(err).slice(0, 200));
     return { reviewer: r.name, model: r.model, outcome: "unclear", error: true, ms: Date.now() - started };
   }
-}
-
-/**
- * Fastest thinking setting per model family. Gemini 3.x rejects `thinkingBudget: 0` (400 "invalid argument",
- * which made every check come back "unclear"); it takes `thinkingLevel` instead. Gemini 2.x takes the budget.
- */
-function thinkingOffConfig(model: string) {
-  return /gemini-2\./.test(model) ? { thinkingBudget: 0 } : { thinkingLevel: ThinkingLevel.MINIMAL };
 }
 
 /** Device facts the model kept getting wrong on the test set (it called a white wire on the silver LINE screw a mistake). */

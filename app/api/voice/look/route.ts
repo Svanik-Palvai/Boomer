@@ -14,23 +14,22 @@ export const POST = voiceTool("look", async ({ job, worker, req }) => {
 
   // "What am I looking at?" mid-job: describe, don't re-plan.
   if (job.status === "guiding") {
-    if (identity.fallbackReason === "no_frame") return { say: "I don't have a picture from the camera right now. Check the camera page is open and pointed at the work." };
-    if (identity.fallbackReason) return { say: "I couldn't read the camera picture just now. Try again in a second." };
-    const seen = identity.details ?? `I see a ${identity.component}.`;
-    return { say: `${seen} That is just what I see. Say "check" and I'll judge this step.` };
+    if (identity.fallbackReason === "no_frame") return { say: "No camera picture. Check the camera page is open." };
+    if (identity.fallbackReason) return { say: "Couldn't read the picture. Try again." };
+    return { say: identity.details ?? `A ${identity.component}.` };
   }
 
   // Plan already sent for sign-off (look called twice): don't rebuild or text the supervisor again.
   if (job.status === "plan_ready" && job.approval) {
     const gate = approvalGate(job);
-    return { say: gate.wait ? gate.say : "Your plan's ready. Say let's go to start." };
+    return { say: gate.wait ? gate.say : "Plan's ready. Say let's go." };
   }
 
   const jobType = identity.jobType;
   const template = jobType ? jobTemplate(jobType) : undefined;
   if (!jobType || !template) {
     const updated = await updateJob(job.id, (j) => ({ ...transition(j, "looking"), identity }));
-    return { job: updated, say: `I see a ${identity.component}, but I don't have a checked step list for that job yet.` };
+    return { job: updated, say: `That's a ${identity.component}. I don't have steps for that job yet.` };
   }
 
   const steps = buildPlan(jobType, job.home, job.site);
@@ -45,26 +44,22 @@ export const POST = voiceTool("look", async ({ job, worker, req }) => {
     approval: undefined,
   }));
 
+  // Short on purpose: what the job is, what's different here, then straight on. The worker can ask for more.
   const newHere = steps.filter((s) => s.tag === "new_here").length;
-  const where = job.site
-    ? `I have you in ${job.site.city}, ${job.site.state}, and you work out of ${job.home.city}${newHere ? `, so ${newHere} step${newHere === 1 ? " is" : "s are"} different here` : ""}.`
-    : "I don't have your location yet; keep the camera page open.";
-  const seen =
-    identity.fallbackReason === "no_frame"
-      ? `I can't see the camera yet, so I'm going by what you said: ${identity.problem}. ${where}`
-      : identity.fallbackReason
-        ? `I couldn't read the camera picture, so I'm going by what you said: ${identity.problem}. ${where}`
-        : `I can see ${identity.problem}. ${where}`;
+  const differs = job.site && newHere ? ` ${newHere} step${newHere === 1 ? " is" : "s are"} different in ${job.site.city}.` : "";
+  const seen = identity.fallbackReason
+    ? `Going by what you said: ${identity.problem}.${differs}`
+    : `Got it: ${identity.problem}.${differs}`;
 
   // Supervisor on file: send the plan for their OK and wait in "plan ready". next_step starts once they answer.
   const asked = await requestApproval(planned, worker);
   if (asked?.approval && asked.approval.delivery !== "none") {
     const who = supervisorLabel(asked.approval);
-    return { job: asked, say: `${seen} The plan has ${steps.length} steps. I sent it to ${who} to approve, and I'll start as soon as they answer.` };
+    return { job: asked, say: `${seen} Sent the plan to ${who}. I'll start when they answer.` };
   }
 
   // No supervisor, or they can't be reached yet: start without sign-off, and say so.
-  const unreachable = asked?.approval ? `I couldn't reach ${supervisorLabel(asked.approval)} with the plan, so we'll start without their OK. ` : "";
+  const unreachable = asked?.approval ? `Couldn't reach ${supervisorLabel(asked.approval)}, so starting without their OK. ` : "";
   const updated = await updateJob(job.id, (j) => startGuiding({ ...j, approval: undefined }));
   return { job: updated, say: `${seen} ${unreachable}${readStep(updated, worker)}` };
 });

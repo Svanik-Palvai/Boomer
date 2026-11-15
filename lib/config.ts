@@ -7,8 +7,11 @@ export const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:3000
 
 /** Frame and check timing from the game plan. */
 export const FRAMES = {
-  /** Camera page sends a still this often. Uploads cost bandwidth only: Gemini runs on a check, not per frame. */
-  intervalMs: 1000,
+  /**
+   * Camera page sends a still this often (skipped while one is still uploading). Uploads cost bandwidth only:
+   * Gemini runs on a check, not per frame. Shorter = a fresher picture sooner after "done".
+   */
+  intervalMs: 500,
   /** Burst size sent on "done". */
   burst: 3,
   /** Frames sent to each reviewer in a step check (newest first). */

@@ -1,5 +1,5 @@
 // OWNER: Sunny (AI). Shared Gemini helpers so every AI function retries and times out the same way.
-import { GoogleGenAI } from "@google/genai";
+import { GoogleGenAI, ThinkingLevel } from "@google/genai";
 import { USE_MOCKS } from "@/lib/config";
 
 export const TEXT_MODEL = process.env.GEMINI_MODEL || "gemini-3.5-flash-lite";
@@ -20,16 +20,34 @@ export function gemini(): GoogleGenAI {
   return client;
 }
 
-/** Runs a Gemini call with a timeout and one retry on overload (503) or rate limit (429). */
-export async function callGemini<T>(fn: () => Promise<T>): Promise<T> {
+/**
+ * Runs a Gemini call with a timeout and one retry on overload (503) or rate limit (429).
+ * budgetMs (for calls the worker waits on live, like look) caps the whole thing, retry included: each try gets
+ * whatever time is left, and there is no retry once too little is left to be worth it.
+ */
+export async function callGemini<T>(
+  fn: () => Promise<T>,
+  { budgetMs, retryDelayMs = RETRY_DELAY_MS }: { budgetMs?: number; retryDelayMs?: number } = {},
+): Promise<T> {
+  const deadline = budgetMs ? Date.now() + budgetMs : Infinity;
+  const left = () => Math.min(TIMEOUT_MS, deadline - Date.now());
   try {
-    return await withTimeout(fn(), TIMEOUT_MS);
+    return await withTimeout(fn(), left());
   } catch (err) {
     const msg = errorText(err);
     if (!/\b(503|429)\b|UNAVAILABLE|RESOURCE_EXHAUSTED/.test(msg)) throw err;
-    await new Promise((r) => setTimeout(r, RETRY_DELAY_MS));
-    return withTimeout(fn(), TIMEOUT_MS);
+    if (left() - retryDelayMs < 1500) throw err;
+    await new Promise((r) => setTimeout(r, retryDelayMs));
+    return withTimeout(fn(), left());
   }
+}
+
+/**
+ * Fastest thinking setting per model family. Gemini 3.x rejects `thinkingBudget: 0` (400 "invalid argument");
+ * it takes `thinkingLevel` instead. Gemini 2.x takes the budget.
+ */
+export function thinkingOffConfig(model: string) {
+  return /gemini-2\./.test(model) ? { thinkingBudget: 0 } : { thinkingLevel: ThinkingLevel.MINIMAL };
 }
 
 export function errorText(err: unknown): string {

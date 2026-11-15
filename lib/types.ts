@@ -267,6 +267,11 @@ export interface FrameUpload {
   image: string; // data URL, ~1024 px JPEG
   burst?: boolean;
   point?: GeoPoint;
+  /**
+   * When the photo was taken, in server-clock ms, as the phone estimates it from the last ack's serverNow.
+   * The estimate errs early (never late), so a frame with takenAt after a "done" request was really taken after it.
+   */
+  takenAt?: number;
 }
 
 /** Response of POST /api/frames: enough for the camera page's step number and connection dot. */
@@ -279,6 +284,8 @@ export interface FrameAck {
   stepCount: number;
   /** True when the agent just ran "done": the camera page should send a burst of 3. */
   wantBurst?: boolean;
+  /** Server clock (ms) when the frame was stored, for the phone's takenAt estimate. */
+  serverNow?: number;
 }
 
 // ───────────────────────── Memory (multiple agents, one job memory) ─────────────────────────
