@@ -44,6 +44,29 @@ Apply least-privilege access, verify anonymous direct table and bucket reads fai
 
 ## Run the worker
 
+### Hosted production worker
+
+`.github/workflows/lesson-worker.yml` runs on GitHub-hosted Ubuntu with FFmpeg.
+It is scheduled every five minutes off the top of the hour and can be started
+manually from Actions → Training lesson worker → Run workflow. Scheduled runs
+can be delayed by GitHub; this is asynchronous preparation, not a live-call path.
+Only main can process production tasks, and one workflow run executes at a time.
+`npm run lessons:drain` processes available tasks, stops when none are eligible,
+and checks a twenty-minute drain budget between tasks. The job has a forty-minute
+timeout; an interrupted task's lease can be reclaimed by a later run.
+
+Repository Actions secrets are `LESSON_SUPABASE_URL`,
+`LESSON_SUPABASE_SERVICE_ROLE_KEY`, `NEXT_PUBLIC_LESSON_SUPABASE_ANON_KEY`,
+and `LESSON_REVIEWER_EMAILS`. Optional secrets are `LESSON_GEMINI_API_KEY`,
+`LESSON_ELEVENLABS_API_KEY`, and `LESSON_ELEVENLABS_WEBHOOK_SECRET`.
+They are mapped to the application's environment names only inside the worker.
+No service credential belongs in source or a public build variable.
+GitHub can disable scheduled workflows after prolonged repository inactivity;
+check Actions if preparation stays queued. For immediate processing, manually
+dispatch the workflow or run the trusted local worker below.
+
+### Local worker and checks
+
 Run `npm run lessons:check` first. This checks dedicated lesson configuration and
 FFmpeg's required encoders/filters without claiming tasks or changing remote data.
 It reports missing call-provider/reviewer settings without printing their values.

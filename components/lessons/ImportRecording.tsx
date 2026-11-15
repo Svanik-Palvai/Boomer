@@ -48,7 +48,7 @@ export default function ImportRecording({ draft, refresh }: { draft: LessonDraft
       }
       await lessonRequest(`drafts/${draft.id}/finalize`, { ...source, count, endedAt: new Date(Date.parse(source.startedAt) + source.duration * 1000).toISOString(), interruptions: [] });
       await lessonRequest(`drafts/${draft.id}/import-audio`, { sessionId: source.sessionId, turns, consent: true });
-      setMessage("Recording uploaded. Run the lesson worker to extract original audio and prepare the edit, then refresh the draft.");
+      setMessage("Recording uploaded. Lesson preparation is queued. Refresh in a few minutes to open the prepared draft.");
       await refresh();
     } catch (e) { setMessage(e instanceof Error ? e.message : "Import failed. Retry with the original file."); }
     finally { setBusy(false); }
