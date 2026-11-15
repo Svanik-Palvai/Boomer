@@ -122,7 +122,13 @@ export default function System() {
   }, []);
 
   return (
-    <div ref={ref} className={`${s.wrap} ${on ? s.on : ""}`}>
+    <div
+      ref={ref}
+      className={`${s.wrap} ${on ? s.on : ""}`}
+      tabIndex={0}
+      role="region"
+      aria-label="System diagram (scrolls sideways on small screens)"
+    >
       <svg viewBox="0 0 1180 800" className={s.svg} role="img" aria-labelledby="sys-title sys-desc">
         <title id="sys-title">Boomer system diagram</title>
         <desc id="sys-desc">The same connections are listed as text after the diagram.</desc>

@@ -70,3 +70,18 @@ if command -v cwebp >/dev/null; then
   for f in "$OUT"/*.jpg; do cwebp -quiet -q 78 "$f" -o "${f%.jpg}.webp"; done
 fi
 ls -la "$OUT"
+
+# ── v3: video for the sections that were stills ──────────────────────────────
+# panel-freeze: control panel, plays then holds the frame the page annotates (montage t=6.6 = source t=1.8)
+$FF -i "$SRC/px-28886877.mp4" -vf "trim=start=0:duration=1.8,setpts=PTS-STARTPTS,fps=30,$GRADE,tpad=stop_mode=clone:stop_duration=5,scale=1600:900,format=yuv420p" \
+  -an -pix_fmt yuv420p -c:v libx264 -preset slow -crf 26 -movflags +faststart "$OUT/panel-freeze.mp4"
+# cabinet-loop: weathered cabinet, slow push-in, seamless enough as a quiet background loop
+$FF -i "$SRC/px-10664446.mp4" -vf "trim=start=1:duration=8,setpts=PTS-STARTPTS,fps=30,scale=1920:1080,zoompan=z=1.0+0.0008*on:d=1:s=1600x900:fps=30,$GRADE,format=yuv420p" \
+  -an -pix_fmt yuv420p -c:v libx264 -preset slow -crf 27 -movflags +faststart "$OUT/cabinet-loop.mp4"
+# hands-loop: hands at a fixture, lifted for use behind the closing statement
+$FF -i "$SRC/px-29731535.mp4" -vf "trim=start=0.4:duration=7,setpts=PTS-STARTPTS,fps=30,scale=1600:900,$GRADE,eq=brightness=0.06:gamma=1.25,format=yuv420p" \
+  -an -pix_fmt yuv420p -c:v libx264 -preset slow -crf 27 -movflags +faststart "$OUT/hands-loop.mp4"
+$FF -sseof -0.1 -i "$OUT/panel-freeze.mp4" -frames:v 1 -q:v 3 "$OUT/panel-freeze.jpg"
+$FF -i "$OUT/cabinet-loop.mp4" -frames:v 1 -q:v 3 "$OUT/cabinet-loop.jpg"
+$FF -i "$OUT/hands-loop.mp4" -frames:v 1 -q:v 3 "$OUT/hands-loop.jpg"
+for f in panel-freeze cabinet-loop hands-loop; do command -v cwebp >/dev/null && cwebp -quiet -q 78 "$OUT/$f.jpg" -o "$OUT/$f.webp"; done

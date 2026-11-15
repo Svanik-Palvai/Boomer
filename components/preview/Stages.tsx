@@ -46,6 +46,41 @@ export function Annotations({ boxes, on }: { boxes: Box[]; on: boolean }) {
   );
 }
 
+/** Background loop: plays only while on screen, never under reduced motion; the poster is the fallback. */
+export function LoopVideo({ src, poster, className, label }: { src: string; poster: string; className?: string; label?: string }) {
+  const ref = useRef<HTMLVideoElement>(null);
+  useEffect(() => {
+    const v = ref.current;
+    if (!v) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const io = new IntersectionObserver(
+      ([e]) => {
+        if (e.isIntersecting) {
+          v.preload = "auto";
+          v.play().catch(() => {});
+        } else v.pause();
+      },
+      { threshold: 0.1 },
+    );
+    io.observe(v);
+    return () => io.disconnect();
+  }, []);
+  return (
+    <video
+      ref={ref}
+      className={className}
+      src={src}
+      poster={poster}
+      muted
+      loop
+      playsInline
+      preload="none"
+      aria-label={label}
+      aria-hidden={label ? undefined : true}
+    />
+  );
+}
+
 /** Phone-only key for numbered boxes (labels don't fit inside a narrow frame). */
 export function AnnotKey({ boxes }: { boxes: Box[] }) {
   return (
@@ -583,7 +618,7 @@ function LessonVisual({ active }: { active: boolean }) {
           </>
         }
       >
-        <img className={s.video} src={`${M}/test-meter.webp`} alt="Freeze frame of a meter test at a wall box" loading="lazy" />
+        <StageVideo src={`${M}/test-meter.mp4`} poster={`${M}/test-meter.webp`} active={active} label="Meter test at a wall box, held on a freeze frame" />
         <Annotations boxes={METER.slice(0, 3)} on={active} />
       </Frame>
       <div className={s.timeline} aria-label="Lesson timeline: clips by kind">

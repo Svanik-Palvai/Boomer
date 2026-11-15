@@ -6,7 +6,7 @@ import { Glyph } from "./Glyphs";
 import { StageVisual } from "./Stages";
 import System from "./System";
 import { AGENTS, FRAMES, PHILLY, PRINCETON, SAFETY_LINE, STAGES, agent, type StageId } from "./data";
-import { AnnotKey, Annotations, type Box } from "./Stages";
+import { AnnotKey, Annotations, LoopVideo, StageVideo, type Box } from "./Stages";
 
 const M = "/preview/media";
 
@@ -185,10 +185,45 @@ function Statement() {
   );
 }
 
+/** Electricians the team interviewed (team-reported). Names only: no logo could be verified to the right business. */
+const INTERVIEWS = [
+  { name: "Loudoun Electrical", where: "VA" },
+  { name: "JM Electrical Solutions", where: "Boston" },
+  { name: "Dago Electric", where: "VA" },
+  { name: "TruVolt Electrical Consulting", where: "NE" },
+  { name: "Victory Electrical", where: "MA" },
+];
+
+function Interviews() {
+  const row = (hidden: boolean) => (
+    <ul className={s.marqueeRow} aria-hidden={hidden || undefined}>
+      {INTERVIEWS.map((c) => (
+        <li key={c.name}>
+          <span className={s.coName}>{c.name}</span>
+          <span className={s.coWhere}>{c.where}</span>
+        </li>
+      ))}
+    </ul>
+  );
+  return (
+    <section className={s.interviews} aria-labelledby="interviews-title">
+      <h2 id="interviews-title" className={s.interviewsTitle}>
+        Shaped by interviews with working electricians
+      </h2>
+      <div className={s.marquee}>
+        <div className={s.marqueeTrack}>
+          {row(false)}
+          {row(true)}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function Field() {
   return (
     <section className={s.field} id="field" aria-labelledby="field-title">
-      <img className={s.fieldImg} src={`${M}/cabinet.webp`} alt="A weathered electrical cabinet with tangled wiring" loading="lazy" />
+      <LoopVideo className={s.fieldImg} src={`${M}/cabinet-loop.mp4`} poster={`${M}/cabinet-loop.webp`} label="A weathered electrical cabinet with tangled wiring" />
       <div className={s.fieldBody}>
         <h2 id="field-title" className={s.h2}>
           New state.
@@ -215,7 +250,7 @@ function Field() {
           <a href={PRINCETON.sourceUrl} target="_blank" rel="noreferrer">
             nj.gov
           </a>
-          . Cabinet: Pexels, mark soetebier.
+.
         </p>
       </div>
     </section>
@@ -234,7 +269,7 @@ function Handoff() {
   return (
     <section ref={ref} className={s.handoff} aria-labelledby="handoff-title">
       <div className={s.handoffMedia}>
-        <img src={`${M}/panel.webp`} alt="A technician works the digital meter on a control panel with indicator lamps" loading="lazy" />
+        <StageVideo src={`${M}/panel-freeze.mp4`} poster={`${M}/panel-freeze.webp`} active={on} label="A technician works the digital meter on a control panel, then the frame holds" />
         <div className={s.handoffAnnot}>
           <Annotations boxes={HANDOFF} on={on} />
         </div>
@@ -244,7 +279,7 @@ function Handoff() {
           It reads the jobsite.
         </h2>
         <AnnotKey boxes={HANDOFF} />
-        <p className={s.fine}>Pexels, ranjeet. Boxes are illustrative, not model output.</p>
+        <p className={s.fine}>Boxes are illustrative, not model output.</p>
       </div>
     </section>
   );
@@ -369,8 +404,7 @@ function Agents() {
             <span className={s.tileKind}>{KIND[a.kind]}</span>
             <Glyph id={a.id} size={56} className={s.tileGlyph} />
             <h3 className={s.tileName}>{a.name}</h3>
-            <p className={s.tileRole}>{a.role}</p>
-            <code className={s.tileCode}>{a.code.split(" · ")[0]}</code>
+            <p className={s.tileRole}>{a.short}</p>
           </li>
         ))}
       </ul>
@@ -385,7 +419,6 @@ function Product() {
         <h2 id="product-title" className={s.h2}>
           The real screens.
         </h2>
-        <p className={s.fine}>Captured from this build in mock mode on the demo job. Camera frames are a stock still standing in.</p>
       </div>
       <div className={s.shots}>
         <figure className={s.shotLaptop}>
@@ -421,7 +454,9 @@ function Gate() {
       </div>
       <div className={s.matrix} role="table" aria-label="How each check answer is graded">
         <div role="row" className={s.mxHead}>
-          <span role="columnheader" />
+          <span role="columnheader">
+            <span className={s.visuallyHidden}>Boomer’s answer</span>
+          </span>
           <span role="columnheader">Work is right</span>
           <span role="columnheader">Work is wrong</span>
         </div>
@@ -439,16 +474,14 @@ function Gate() {
           <span role="rowheader">Boomer says “not yet” or “can't tell”</span>
           <span role="cell" className={s.mxMeh}>
             <b>Missed</b>
-            <small>worker re-shows it</small>
           </span>
           <span role="cell" className={s.mxOk}>
             <b>Correct</b>
-            <small>or cautious</small>
           </span>
         </div>
       </div>
       <p className={s.fine}>
-        eval/gate.mjs scores checkStep() on labeled photos; it also fails below 75% correct. No accuracy figure is claimed.
+        Scored by eval/gate.mjs on labeled photos. No accuracy figure is claimed.
       </p>
     </section>
   );
@@ -457,7 +490,7 @@ function Gate() {
 function Close() {
   return (
     <section className={s.close} aria-labelledby="close-title">
-      <img className={s.closeImg} src={`${M}/hands.webp`} alt="" loading="lazy" aria-hidden="true" />
+      <LoopVideo className={s.closeImg} src={`${M}/hands-loop.mp4`} poster={`${M}/hands-loop.webp`} />
       <div className={s.closeInner}>
         <h2 id="close-title" className={s.closeTitle}>
           Boomer sees.
@@ -489,6 +522,7 @@ export default function Preview() {
       <Hero />
       <main className={s.main}>
         <Statement />
+        <Interviews />
         <Field />
         <Handoff />
         <Story />
@@ -497,7 +531,6 @@ export default function Preview() {
             <h2 id="system-title" className={s.h2}>
               One shared memory.
             </h2>
-            <p className={s.fine}>Every line is a real call in the code. Yellow marks where a person decides.</p>
           </div>
           <System />
         </section>
@@ -510,8 +543,7 @@ export default function Preview() {
         <Wordmark />
         <p>HackPrinceton Fall 2026 · Andy · Zohaib · Sunny · Aniketh</p>
         <p>
-          Design preview. Pexels footage under the Pexels License; overlays marked illustrative are not model output.{" "}
-          <a href={`${M}/SOURCES.md`}>Sources</a>
+          Design preview · footage: Pexels · <a href={`${M}/SOURCES.md`}>sources</a>
         </p>
       </footer>
     </div>

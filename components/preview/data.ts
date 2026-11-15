@@ -27,6 +27,8 @@ export interface Agent {
   kind: Kind;
   /** What it is, in the fewest words. */
   role: string;
+  /** Tile line: five or six words. */
+  short: string;
   runsOn: string;
   receives: string;
   produces: string;
@@ -41,6 +43,7 @@ export const AGENTS: Agent[] = [
     id: "guide",
     name: "Guide",
     kind: "agent",
+    short: "Talks you through each step.",
     role: "Talks the electrician through the job, one step at a time.",
     runsOn: "ElevenLabs voice agent, reached on a Photon SIP number",
     receives: "Worker's speech · tool results from 9 server tools",
@@ -53,6 +56,7 @@ export const AGENTS: Agent[] = [
     id: "look",
     name: "Look",
     kind: "model",
+    short: "Names the job from the camera.",
     role: "Works out the job from the camera and the worker's words.",
     runsOn: "Gemini vision, called by the Guide's `look` tool",
     receives: "Up to 3 fresh frames · what the worker said",
@@ -65,6 +69,7 @@ export const AGENTS: Agent[] = [
     id: "plan",
     name: "Plan",
     kind: "rules",
+    short: "Builds steps from checked data.",
     role: "Builds the step list. Deterministic: the model never invents a step.",
     runsOn: "Plain TypeScript over hand-checked data",
     receives: "Job type · home town · job site",
@@ -77,6 +82,7 @@ export const AGENTS: Agent[] = [
     id: "checker",
     name: "Check panel",
     kind: "model",
+    short: "Three models judge every step.",
     role: "Three reviewers judge each step from a fresh frame. Two of three decide.",
     runsOn: "Three Gemini models in parallel, 6 s cap each",
     receives: `Frames under ${FRAMES.maxAgeMs / 1000} s old · the step's yes/no question`,
@@ -89,6 +95,7 @@ export const AGENTS: Agent[] = [
     id: "judge",
     name: "Spoken gate",
     kind: "rules",
+    short: "Won't skip breaker off or tester dead.",
     role: "Decides whether what the worker said counts. Instant and predictable.",
     runsOn: "Deterministic matcher, no model",
     receives: "The worker's exact words on a spoken step",
@@ -101,6 +108,7 @@ export const AGENTS: Agent[] = [
     id: "recorder",
     name: "Recorder",
     kind: "agent",
+    short: "Writes the record. Answers texts.",
     role: "Answers texts about the job and writes the work record.",
     runsOn: "iMessage via Photon · Gemini, with a rule-based fallback",
     receives: "Worker texts · the shared job memory",
@@ -113,6 +121,7 @@ export const AGENTS: Agent[] = [
     id: "share",
     name: "Share",
     kind: "agent",
+    short: "Texts your supervisor, on your word.",
     role: "Reaches people other than the worker, only when the worker asks.",
     runsOn: "iMessage via Photon",
     receives: "“my supervisor is …”, “tell my supervisor …”, “send my record to …”",
@@ -125,6 +134,7 @@ export const AGENTS: Agent[] = [
     id: "signup",
     name: "Sign-up",
     kind: "agent",
+    short: "Sets a new worker up by text.",
     role: "Turns a first text from an unknown number into a worker profile.",
     runsOn: "iMessage via Photon · Gemini extraction, parser fallback",
     receives: "Free-text answers, often all at once",
@@ -137,6 +147,7 @@ export const AGENTS: Agent[] = [
     id: "memory",
     name: "Job memory",
     kind: "store",
+    short: "One memory every agent shares.",
     role: "One memory per job. Voice, vision and text all read and write it.",
     runsOn: "lib/db (Supabase or in-memory)",
     receives: "Events from the Guide, the Check panel and the Recorder",
@@ -149,6 +160,7 @@ export const AGENTS: Agent[] = [
     id: "lesson",
     name: "Lesson renderer",
     kind: "pipeline",
+    short: "Turns jobs into reviewed lessons.",
     role: "Cuts a finished job into a reviewed training video.",
     runsOn: "Trusted local worker running FFmpeg",
     receives: "Session recordings · clips · freeze-frame annotations",
