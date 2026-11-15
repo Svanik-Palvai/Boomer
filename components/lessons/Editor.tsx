@@ -5,6 +5,7 @@ import Link from "next/link";
 import { lessonRequest } from "@/lib/lessons/client";
 import type { Clip, LessonDraft, LessonRevision } from "@/lib/lessons/types";
 import styles from "./lessons.module.css";
+import ImportRecording from "./ImportRecording";
 type Draft = LessonDraft & { viewer: { id: string; reviewer: boolean } };
 export default function Editor({ id }: { id: string }) {
   const [d, setD] = useState<Draft>(),
@@ -146,6 +147,7 @@ export default function Editor({ id }: { id: string }) {
     );
   return (
     <main className={styles.editor}>
+      {d.viewer.id === d.ownerId && !edit.clips.length && d.status !== "published" && <ImportRecording draft={d} refresh={refresh} />}
       <fieldset disabled={busy} style={{ border: 0, padding: 0, minWidth: 0 }}>
         <Link href="/lessons/workspace">← Workspace</Link>
         <span className={styles.eyebrow}>PRIVATE / LESSON EDITOR</span><h1>Shape the lesson.</h1><nav className={styles.editorNav} aria-label="Editor sections"><a href="#clips">01 Clips</a><a href="#issues">02 Editorial checks</a><a href="#review">03 Review & publish</a></nav>

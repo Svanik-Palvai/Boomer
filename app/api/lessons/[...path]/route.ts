@@ -203,6 +203,44 @@ async function handler(req: Request, path: string[]) {
     });
     return json(updated);
   }
+  if (action === "import-audio") {
+    if (p.id !== d.ownerId)
+      throw new LessonError("Only the worker may import source evidence", 403);
+    const input = z.object({
+      sessionId: z.string().uuid(),
+      consent: z.literal(true),
+      turns: z.array(z.object({
+        role: z.string().trim().min(1).max(80),
+        text: z.string().trim().min(1).max(4000),
+        start: z.number().finite().nonnegative(),
+        end: z.number().finite().positive(),
+      })).min(1).max(2000),
+    }).parse(b);
+    const updated = await mutate(id, (x) => {
+      const session = x.sessions.find(s => s.id === input.sessionId);
+      if (!session || session.status !== "uploaded" || !session.duration)
+        throw new LessonError("Finalize the source recording first", 409);
+      if (input.turns.some((t, i) => t.end <= t.start || t.end > session.duration! || (i > 0 && t.start < input.turns[i - 1].start)))
+        throw new LessonError("Transcript must be ordered and within the recording duration");
+      const callId = `import-${session.id}`;
+      const existing = x.calls.find(c => c.id === callId);
+      if (existing) {
+        if (JSON.stringify(existing.turns) !== JSON.stringify(input.turns))
+          throw new LessonError("Imported transcripts are immutable; use caption edits for corrections", 409);
+        return x;
+      }
+      if (x.status === "published" || x.edit.clips.length)
+        throw new LessonError("Import sources before editing the lesson", 409);
+      return { ...x, revision: x.revision + 1, status: "waiting_for_media",
+        render: undefined, review: undefined, publishConsent: undefined,
+        publishedAt: undefined, syncConfirmedRevision: undefined,
+        calls: [...x.calls, { id: callId, sourceRecordingId: session.id,
+          startedAt: session.startedAt, duration: session.duration, turns: input.turns }],
+      };
+    });
+    await queue(id, "prepare", 0, `import-${input.sessionId}`);
+    return json(updated);
+  }
   if (action === "upload") {
     if (p.id !== d.ownerId)
       throw new LessonError("Only the worker may upload", 403);

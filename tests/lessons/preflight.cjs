@@ -1,0 +1,12 @@
+const assert = require("node:assert/strict");
+const { preflight } = require("../../scripts/lessons/preflight.cjs");
+const env = { LESSON_SUPABASE_URL: "https://example.supabase.co", LESSON_SUPABASE_SERVICE_ROLE_KEY: "private-fixture", NEXT_PUBLIC_LESSON_SUPABASE_ANON_KEY: "public-fixture", USE_MOCKS: "false" };
+const supported = () => ({ status: 0, stdout: "libx264 aac libmp3lame drawtext drawbox tpad" });
+assert.equal(preflight(env, supported).errors.length, 0);
+assert.equal(preflight({}, supported).errors.length, 3);
+assert.ok(preflight({ ...env, LESSON_SUPABASE_URL: "invalid" }, supported).errors.some(x => x.includes("invalid")));
+assert.ok(preflight(env, () => ({ error: new Error("ENOENT") })).errors.some(x => x.includes("FFmpeg")));
+assert.ok(preflight(env, () => ({ status: 0, stdout: "aac" })).errors.some(x => x.includes("drawtext")));
+assert.ok(preflight({ ...env, LESSON_SUPABASE_URL: "http://remote.example" }, supported).errors.some(x => x.includes("HTTPS")));
+assert.equal(preflight({ ...env, LESSON_SUPABASE_URL: "http://localhost:54321" }, supported).errors.length, 0);
+console.log("PASS worker preflight: missing config/binary, encoder/filter support and URL validation");

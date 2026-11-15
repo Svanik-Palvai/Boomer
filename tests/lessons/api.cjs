@@ -120,6 +120,11 @@ async function request(who, path, body) {
   return { status: r.status, data: await r.json() };
 }
 (async () => {
+  // The app seeds an unidentified job with no steps. This suite exercises an
+  // identified job; seed its plan explicitly instead of relying on reset state.
+  const { saveJob } = require("../../lib/db");
+  const { demoJob } = require("../../lib/mock/demo.ts");
+  await saveJob(demoJob());
   assert.equal((await request("bad", "drafts")).status, 401);
   assert.equal(
     (await request("other", "jobs/demo-2041", { consent: true })).status,
@@ -350,6 +355,22 @@ async function request(who, path, body) {
   console.log(
     "PASS finalized-upload retry, immutable source metadata, idempotent finalization and stable preparation enqueue",
   );
+  const evidence = { sessionId, consent: true, turns: [{ role: 'worker', text: 'Original recording transcript', start: 0, end: 3 }] };
+  assert.equal((await request('other', `drafts/${id}/import-audio`, evidence)).status, 404);
+  assert.equal((await request('reviewer', `drafts/${id}/import-audio`, evidence)).status, 403);
+  assert.equal((await request('owner', `drafts/${id}/import-audio`, {...evidence,consent:false})).status, 400);
+  assert.equal((await request('owner', `drafts/${id}/import-audio`, {...evidence,turns:[{...evidence.turns[0],end:99}]})).status, 400);
+  assert.equal((await request('owner', `drafts/${id}/import-audio`, evidence)).status, 200);
+  const importedRevision = docs[0].document.revision;
+  assert.equal(docs[0].document.calls[0].sourceRecordingId, sessionId);
+  assert.equal((await request('owner', `drafts/${id}/import-audio`, evidence)).status, 200);
+  assert.equal(docs[0].document.revision, importedRevision);
+  assert.equal((await request('owner', `drafts/${id}/import-audio`, {...evidence,turns:[{...evidence.turns[0],text:'changed'}]})).status, 409);
+  const { parseTranscript } = require('../../lib/lessons/transcript.ts');
+  assert.deepEqual(parseTranscript('WEBVTT\n\n00:00:01.000 --> 00:00:03.000\nOriginal speech'), [{role:'Speaker',text:'Original speech',start:1,end:3}]);
+  assert.equal(parseTranscript('1\r\n00:00:01,000 --> 00:00:03,000\r\nOriginal speech')[0].end,3);
+  assert.throws(()=>parseTranscript('untimed text'));
+  console.log('PASS provider-free source import: owner/consent/timing checks, immutable retries, VTT and SRT parsing');
   console.log(
     "PASS authenticated API with real SDK/fake HTTP: owner isolation, reviewer allowlist, idempotent creation, stale edit rejection, consent/review gates, publication projection, withdrawal and optimistic write retries",
   );
