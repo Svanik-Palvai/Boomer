@@ -12,6 +12,11 @@ export const TOOLS: { name: VoiceToolName; description: string; params?: string[
   { name: "check_step", description: "Worker said done: check the current step.", params: ["spokenConfirmation"] },
   { name: "stop_job", description: "Worker said stop.", params: ["reason"] },
   { name: "finish_job", description: "All steps done: save the record and text the link." },
+  {
+    name: "wait_for_approval",
+    description:
+      "The plan is out to the supervisor: hold until they answer (up to ~20 s). Returns step 1 to read once they approve, or waiting=true to call again.",
+  },
 ];
 
 /** Every tool also gets these from ElevenLabs dynamic variables. */
@@ -42,7 +47,8 @@ export function elevenLabsTools(baseUrl: string) {
     type: "webhook" as const,
     name: t.name,
     description: t.description,
-    response_timeout_secs: t.name === "check_step" || t.name === "look" ? 10 : 5,
+    // wait_for_approval holds for APPROVAL_WAIT.windowMs (20 s): give it room so ElevenLabs doesn't cut it off.
+    response_timeout_secs: t.name === "wait_for_approval" ? 30 : t.name === "check_step" || t.name === "look" ? 10 : 5,
     api_schema: {
       url: `${url}/api/voice/${t.name}`,
       method: "POST",
