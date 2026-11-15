@@ -3,6 +3,7 @@ import type { CheckResult, Job, Step, StepResult, Worker } from "@/lib/types";
 import { UNCLEAR_RETRIES } from "@/lib/config";
 import { SAY } from "@/lib/copy";
 import { transition } from "@/lib/jobs/status";
+import { ruleById } from "@/lib/location/rules";
 
 const now = () => new Date().toISOString();
 
@@ -46,7 +47,10 @@ export function readStep(job: Job, worker: Worker): string {
   }
   const short = worker.experience === "journeyman" && step.tag === "standard" && step.shortText;
   parts.push(short || step.text);
-  if (worker.experience === "new" || step.tag === "new_here") parts.push(step.reason);
+  // A New here step says what changed (the rule's own words); otherwise the step's reason.
+  const rule = step.tag === "new_here" && step.ruleId ? ruleById(step.ruleId) : undefined;
+  if (rule?.why) parts.push(rule.why);
+  else if (worker.experience === "new" || step.tag === "new_here") parts.push(step.reason);
   return parts.join(" ");
 }
 
@@ -56,14 +60,14 @@ export function explainStep(job: Job, why?: string): string {
   if (!step) return SAY.dontKnow;
   // Only a hand-checked rule is ever cited as a source.
   if (step.tag === "new_here" && step.necSection && step.ruleVerified) {
-    return `${why ?? step.reason} ${SAY.sourceSays} NEC ${step.necSection}, ${job.site?.necEdition ?? ""} edition.`.trim();
+    return `${why ?? (step.ruleId && ruleById(step.ruleId)?.summary) ?? step.reason} ${SAY.sourceSays} NEC ${step.necSection}, ${job.site?.necEdition ?? ""} edition.`.trim();
   }
   return step.reason;
 }
 
 /** The worker may confirm out loud: spoken steps, or a vision step after "can't tell" more than UNCLEAR_RETRIES times. */
 /** Vision steps that must be SEEN: the camera has to pass them, a spoken "confirm" never does (the caught mistake lives here). */
-export const SEEN_ONLY_STEPS = new Set(["gfci-5-line"]);
+export const SEEN_ONLY_STEPS = new Set(["gfci-5-line", "island-3-location"]);
 
 export function canConfirmByVoice(job: Job): boolean {
   const step = currentStep(job);

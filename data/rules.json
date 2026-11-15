@@ -21,12 +21,12 @@
     "necSection": "210.52(C)(3)",
     "topic": "Island / peninsula location",
     "summary": "The 2023 model NEC removes the below-counter location option for outlets serving island or peninsula surfaces.",
-    "why": "The 2023 code New Jersey uses no longer allows the below-counter location for island outlets.",
+    "why": "On the 2020 code back home, an island outlet can go on the side of the island up to 12 inches below the counter. New Jersey is on the 2023 code, which dropped that option: put it in the countertop as a listed outlet assembly, or up to 20 inches above it.",
     "sourceUrl": "https://www.nfpa.org/news-blogs-and-articles/blogs/2023/01/18/kitchen-island-and-peninsula-receptacle-outlets-and-the-nec",
     "caveat": "Verified model-edition change, not a determination for existing work. Confirm NJ amendments, rehabilitation rules, permit edition and project scope with the local official. Not a wall-countertop replacement requirement.",
     "verified": true,
     "jobTypes": ["island-receptacle"],
     "differsFrom": ["PA", "Philadelphia, PA"],
-    "tagsSteps": []
+    "tagsSteps": ["island-3-location"]
   }
 ]

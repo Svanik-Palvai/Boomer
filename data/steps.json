@@ -79,5 +79,65 @@
     "demoOnly": true,
     "sourceUrl": "https://leviton.com/content/dam/leviton/residential/product_documents/instruction_sheet/GFNT2_Instruction_Sheet_English.pdf",
     "scope": "Inert single-feed mock outlet only. No downstream feed or live panel. This six-step demo is not a complete field installation procedure. A working electrician must review the actual device and step list before demo freeze."
+  },
+  {
+    "jobType": "island-receptacle",
+    "title": "Add an outlet to a kitchen island",
+    "component": "kitchen island",
+    "steps": [
+      {
+        "id": "island-1-breaker",
+        "text": "Turn the breaker for the circuit you're extending off, then tell me when it's off.",
+        "shortText": "Breaker off. Tell me when it's off.",
+        "reason": "Everything after this is hands-on, so the circuit has to be off first.",
+        "hardGate": true,
+        "check": {
+          "kind": "spoken",
+          "question": "Did the worker say the breaker is off?",
+          "prompt": "Tell me when the breaker is off."
+        }
+      },
+      {
+        "id": "island-2-tester",
+        "text": "Test the circuit you're tapping and tell me what the tester reads.",
+        "shortText": "Test it dead and tell me the reading.",
+        "reason": "A camera cannot establish absence of voltage; the electrician must test and report it.",
+        "hardGate": true,
+        "check": {
+          "kind": "spoken",
+          "question": "Did the worker say the tester shows no voltage?",
+          "prompt": "Tell me what the tester reads."
+        }
+      },
+      {
+        "id": "island-3-location",
+        "text": "Show me where the outlet that serves the island countertop is going.",
+        "reason": "An outlet on the countertop, or up to 20 inches above it, counts as serving the island in both the 2020 and 2023 code.",
+        "check": {
+          "kind": "vision",
+          "question": "Is the outlet that serves the island countertop placed in or on the countertop surface (for example a pop-up or countertop outlet assembly) or no more than 20 inches above it, and NOT on the side of the island below the countertop?",
+          "expect": "An outlet in or on the island countertop surface, or up to 20 inches above it. An outlet on the side panel of the island below the countertop is not yet. If the outlet location is not visible, answer unclear."
+        }
+      },
+      {
+        "id": "island-4-mount",
+        "text": "Mount the outlet assembly and tell me when it's in. For this demo, keep it unpowered.",
+        "shortText": "Mount it and tell me when it's in. Keep it unpowered.",
+        "reason": "The worker confirms the install; the camera cannot verify connections or protection.",
+        "check": {
+          "kind": "spoken",
+          "question": "Did the worker say the outlet is mounted?",
+          "prompt": "Tell me when it's mounted."
+        }
+      }
+    ],
+    "review": {
+      "status": "pending",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    "demoOnly": true,
+    "sourceUrl": "https://www.nfpa.org/news-blogs-and-articles/blogs/2023/01/18/kitchen-island-and-peninsula-receptacle-outlets-and-the-nec",
+    "scope": "New outlet serving a kitchen island countertop, demonstrated with printed pictures. Location rule only (NEC 210.52(C)(3)); not a complete installation procedure. A working electrician must review before use."
   }
 ]
