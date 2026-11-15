@@ -479,9 +479,79 @@
 
 /* ─────────── statement ─────────── */
 .statement {
-  padding: clamp(96px, 14vw, 200px) var(--gut);
+  padding: clamp(72px, 9vw, 140px) var(--gut);
   max-width: calc(var(--max) + 2 * var(--gut));
   margin: 0 auto;
+  display: grid;
+  gap: clamp(32px, 5vw, 80px);
+  align-items: center;
+}
+@media (min-width: 900px) {
+  .statement {
+    grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
+  }
+}
+.povFrame {
+  position: relative;
+  margin: 0;
+  justify-self: center;
+  width: min(100%, 420px, calc(78svh * 9 / 16));
+  aspect-ratio: 9 / 16;
+  background: var(--g2);
+  overflow: hidden;
+}
+.povVideo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.povFrame i {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  border: 0 solid var(--ink);
+  z-index: 1;
+}
+.povFrame i[data-c="tl"] { left: 12px; top: 12px; border-width: 2px 0 0 2px; }
+.povFrame i[data-c="tr"] { right: 12px; top: 12px; border-width: 2px 2px 0 0; }
+.povFrame i[data-c="bl"] { left: 12px; bottom: 12px; border-width: 0 0 2px 2px; }
+.povFrame i[data-c="br"] { right: 12px; bottom: 12px; border-width: 0 2px 2px 0; }
+.povFrame figcaption {
+  position: absolute;
+  left: 18px;
+  top: 18px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 8px;
+  background: rgb(10 11 11 / 0.7);
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--ink);
+}
+.povDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--signal);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .povDot {
+    animation: blink 1.6s steps(2, jump-none) infinite;
+  }
+}
+@keyframes blink {
+  50% {
+    opacity: 0.25;
+  }
+}
+@media (max-width: 899px) {
+  .povFrame {
+    width: min(100%, 300px);
+  }
 }
 .statement p {
   margin: 0;

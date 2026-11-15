@@ -4,7 +4,7 @@
 import { useEffect, useRef, useState } from "react";
 import s from "./stages.module.css";
 import { Glyph } from "./Glyphs";
-import { FRAMES, PHILLY, PRINCETON, STEPS, type StageId } from "./data";
+import { FRAMES, STEPS, type StageId } from "./data";
 
 const M = "/preview/media";
 
@@ -310,66 +310,54 @@ function IdentifyVisual({ active }: { active: boolean }) {
 
 // ───────────────────────── 04 plan ─────────────────────────
 
-function Check({ kind }: { kind: "spoken" | "vision" }) {
-  return (
-    <span className={s.kind}>
-      {kind === "vision" ? (
-        <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true">
-          <path d="M1.5 4.5h3l1.2-2h4.6l1.2 2h3v9h-13z" fill="none" stroke="currentColor" strokeWidth="1.4" />
-          <circle cx="8" cy="9" r="2.4" fill="none" stroke="currentColor" strokeWidth="1.4" />
-        </svg>
-      ) : (
-        <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true">
-          <path d="M2 2.5h12v8.5H7l-3.5 3v-3H2z" fill="none" stroke="currentColor" strokeWidth="1.4" />
-        </svg>
-      )}
-      {kind === "vision" ? "Seen on camera" : "Spoken"}
-    </span>
+const CheckIcon = ({ kind }: { kind: "spoken" | "vision" }) =>
+  kind === "vision" ? (
+    <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+      <path d="M1.5 4.5h3l1.2-2h4.6l1.2 2h3v9h-13z" fill="none" stroke="currentColor" strokeWidth="1.4" />
+      <circle cx="8" cy="9" r="2.4" fill="none" stroke="currentColor" strokeWidth="1.4" />
+    </svg>
+  ) : (
+    <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+      <path d="M2 2.5h12v8.5H7l-3.5 3v-3H2z" fill="none" stroke="currentColor" strokeWidth="1.4" />
+    </svg>
   );
-}
+
+/** Short labels for the plan view. Steps 1–3 use the data's own shortText; 4–6 are condensed for display. */
+const PLAN_LABEL: Record<string, string> = {
+  "gfci-4-terminals": "Find LINE and LOAD on the back.",
+  "gfci-5-line": "Feed on LINE. LOAD stays covered.",
+  "gfci-6-test": "Report TEST / RESET. Keep it unpowered.",
+};
 
 function PlanVisual({ active }: { active: boolean }) {
   return (
     <div className={`${s.plan} ${active ? s.on : ""}`}>
-      <div className={s.planHead}>
-        <p>
-          <b>Swap an outlet for a GFCI</b>
-          <span>data/steps.json · six steps · hand-checked · inert demo prop</span>
-        </p>
-      </div>
+      <p className={s.planHead}>
+        <b>Swap an outlet for a GFCI</b>
+      </p>
       <ol className={s.steps}>
         {STEPS.map((st, i) => (
           <li key={st.id} style={{ "--i": i } as React.CSSProperties}>
             <span className={`${s.sn} num`}>{st.n}</span>
-            <span className={s.stx}>{st.short}</span>
+            <span className={s.stx}>{PLAN_LABEL[st.id] ?? st.short}</span>
             <span className={s.smeta}>
               {st.hardGate && <span className={s.gate}>Hard gate</span>}
-              <Check kind={st.kind} />
+              <span className={s.kind} title={st.kind === "vision" ? "Seen on camera" : "Spoken"}>
+                <CheckIcon kind={st.kind} />
+                <span className={s.srOnly}>{st.kind === "vision" ? "Seen on camera" : "Spoken"}</span>
+              </span>
             </span>
           </li>
         ))}
       </ol>
-      <div className={s.juris}>
-        <div>
-          <span className={s.jcity}>{PHILLY.city}, {PHILLY.state}</span>
-          <span className="num">NEC {PHILLY.necEdition}</span>
-          <a href={PHILLY.sourceUrl} target="_blank" rel="noreferrer">
-            L&amp;I applicable codes ↗
-          </a>
-        </div>
-        <svg viewBox="0 0 64 16" aria-hidden="true" className={s.arrow}>
-          <path d="M0 8h60M54 3l6 5-6 5" fill="none" stroke="currentColor" strokeWidth="1.5" />
-        </svg>
-        <div>
-          <span className={s.jcity}>{PRINCETON.city}, {PRINCETON.state}</span>
-          <span className="num">NEC {PRINCETON.necEdition}</span>
-          <a href={PRINCETON.sourceUrl} target="_blank" rel="noreferrer">
-            NJ DCA current codes ↗
-          </a>
-        </div>
-      </div>
-      <p className={s.planNote}>
-        <b>New here on this job: none.</b> The NJ 2023 changes cover island outlets, not this swap.
+      <p className={s.planKey}>
+        <span>
+          <CheckIcon kind="vision" /> seen on camera
+        </span>
+        <span>
+          <CheckIcon kind="spoken" /> worker says it
+        </span>
+        <span className={s.planSrc}>data/steps.json</span>
       </p>
     </div>
   );

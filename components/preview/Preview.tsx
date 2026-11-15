@@ -181,6 +181,21 @@ function Statement() {
           </span>
         ))}
       </p>
+      <figure className={s.povFrame}>
+        <LoopVideo
+          className={s.povVideo}
+          src={`${M}/field-9x16.mp4`}
+          poster={`${M}/field-9x16.webp`}
+          label="Portrait field footage: hard hat at an open wall, a meter test, a battery rack, a control panel"
+        />
+        <i data-c="tl" />
+        <i data-c="tr" />
+        <i data-c="bl" />
+        <i data-c="br" />
+        <figcaption>
+          <span className={s.povDot} /> Field footage · Pexels
+        </figcaption>
+      </figure>
     </section>
   );
 }

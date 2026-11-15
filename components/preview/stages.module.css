@@ -1129,3 +1129,58 @@
     word-break: normal;
   }
 }
+
+/* Plan view, simplified */
+.planHead {
+  margin: 0;
+}
+.steps li {
+  padding: 14px 0;
+}
+.steps .stx {
+  font-size: clamp(16px, 1.25vw, 19px);
+}
+.kind {
+  color: var(--ink-2);
+}
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+.planKey {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 22px;
+  font-size: 13px;
+  color: var(--ink-2);
+}
+.planKey span {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+}
+.planKey .planSrc {
+  margin-left: auto;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--ink-3);
+}
+
+@media (max-width: 599px) {
+  .steps li {
+    grid-template-columns: 2.4ch 1fr auto;
+  }
+  .smeta {
+    grid-column: auto;
+    justify-content: flex-end;
+  }
+  .gate {
+    font-size: 9.5px;
+    padding: 2px 4px;
+  }
+}
