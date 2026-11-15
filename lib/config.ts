@@ -26,6 +26,15 @@ export const FRAMES = {
 /** The check should answer within ~3 s of "done". */
 export const CHECK_BUDGET_MS = 3000;
 
+/**
+ * wait_for_approval holds the call this long for the supervisor's answer, then returns { waiting: true } so the
+ * agent can hear the worker and call it again. Keep it under the tool's ElevenLabs response timeout (lib/agent/tools.ts).
+ */
+export const APPROVAL_WAIT = {
+  windowMs: Number(process.env.APPROVAL_WAIT_MS) || 20_000,
+  pollMs: Number(process.env.APPROVAL_POLL_MS) || 1000,
+} as const;
+
 /** After this many "can't tell" answers the worker may confirm out loud. */
 export const UNCLEAR_RETRIES = 1;
 
