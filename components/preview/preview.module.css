@@ -479,16 +479,61 @@
 
 /* ─────────── statement ─────────── */
 .statement {
-  padding: clamp(72px, 9vw, 140px) var(--gut);
+  position: relative;
+  height: 340svh;
+}
+.statementPin {
+  position: sticky;
+  top: var(--nav-h);
+  height: calc(100svh - var(--nav-h));
   max-width: calc(var(--max) + 2 * var(--gut));
   margin: 0 auto;
+  padding: 24px var(--gut);
   display: grid;
-  gap: clamp(32px, 5vw, 80px);
+  gap: clamp(20px, 4vw, 80px);
   align-items: center;
+  align-content: center;
 }
 @media (min-width: 900px) {
-  .statement {
+  .statementPin {
     grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
+  }
+}
+@media (max-width: 899px) {
+  .statement {
+    height: 300svh;
+  }
+  .lines {
+    font-size: clamp(24px, 6.6vw, 34px) !important;
+  }
+  .beatPanel {
+    width: min(100%, 340px, calc((100svh - var(--nav-h) - 250px) * 4 / 5)) !important;
+  }
+  .beatStage {
+    padding: 50px 16px 40px;
+  }
+  .bVotes .bVerdict {
+    font-size: 24px;
+  }
+  .bRecord {
+    padding: 12px 12px 6px;
+  }
+  .bRecTitle {
+    font-size: 15px;
+  }
+  .bRecMeta {
+    margin: 0 0 6px !important;
+  }
+  .bTape {
+    font-size: 11px;
+    margin-bottom: 4px;
+  }
+  .bRow {
+    padding: 4px 0;
+    font-size: 12px;
+  }
+  .bRow em {
+    display: none;
   }
 }
 .povFrame {
@@ -1349,6 +1394,9 @@
 .beatTicks .tickOn {
   background: var(--signal);
 }
+.beatTicks .tickDone {
+  background: rgb(244 196 48 / 0.45);
+}
 .beatStage {
   width: 100%;
   height: 100%;
@@ -1539,4 +1587,52 @@
 }
 .bDot {
   background: #3dbe6b;
+}
+
+@media (max-width: 899px) and (max-height: 760px) {
+  .bRecord p.bRow:nth-of-type(n + 6) {
+    display: none;
+  }
+  .bVotes p {
+    padding: 9px 0;
+  }
+}
+@media (max-width: 899px) {
+  .beatPanel figcaption {
+    max-width: calc(100% - 40px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+  }
+  .beatPanel figcaption .povDot {
+    display: inline-block;
+    margin-right: 6px;
+  }
+}
+@media (max-width: 899px) and (max-height: 700px) {
+  .bRecMeta {
+    display: none;
+  }
+  .bRecTitle {
+    font-size: 13px;
+    margin-bottom: 6px !important;
+  }
+  .bRecord p.bRow:nth-of-type(n + 5) {
+    display: none;
+  }
+  .beatStage {
+    padding: 46px 14px 34px;
+  }
+}
+@media (max-width: 899px) and (max-height: 700px) {
+  .bWave {
+    height: 56px;
+  }
+  .bVoice {
+    gap: 16px;
+  }
+  .bVoice p {
+    font-size: 15px;
+  }
 }

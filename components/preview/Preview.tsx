@@ -228,57 +228,67 @@ function BeatVisual({ i }: { i: number }) {
   );
 }
 
+/** Scroll-driven: the section is a tall track; text and panel stay pinned while scroll position picks the beat. */
 function Statement() {
-  const [ref, on] = useSeen<HTMLElement>(0.5);
+  const ref = useRef<HTMLElement>(null);
   const [beat, setBeat] = useState(0);
-  const [hold, setHold] = useState(false);
-  const [still, setStill] = useState(false);
-  useEffect(() => setStill(window.matchMedia("(prefers-reduced-motion: reduce)").matches), []);
   useEffect(() => {
-    if (!on || hold || still) return;
-    const t = setInterval(() => setBeat((b) => (b + 1) % BEATS.length), 3200);
-    return () => clearInterval(t);
-  }, [on, hold, still]);
+    const el = ref.current;
+    if (!el) return;
+    let raf = 0;
+    const on = () => {
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(() => {
+        const r = el.getBoundingClientRect();
+        const travel = r.height - window.innerHeight;
+        const p = travel > 0 ? Math.min(1, Math.max(0, -r.top / travel)) : 0;
+        setBeat(Math.min(BEATS.length - 1, Math.floor(p * BEATS.length)));
+      });
+    };
+    on();
+    window.addEventListener("scroll", on, { passive: true });
+    window.addEventListener("resize", on);
+    return () => {
+      window.removeEventListener("scroll", on);
+      window.removeEventListener("resize", on);
+    };
+  }, []);
+  const go = (k: number) => {
+    const el = ref.current;
+    if (!el) return;
+    const travel = el.offsetHeight - window.innerHeight;
+    const top = el.getBoundingClientRect().top + window.scrollY + ((k + 0.5) / BEATS.length) * travel;
+    const smooth = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    window.scrollTo({ top, behavior: smooth ? "smooth" : "auto" });
+  };
   return (
-    <section
-      ref={ref}
-      className={`${s.statement} ${on ? s.on : ""}`}
-      aria-label="What Boomer is"
-      onMouseEnter={() => setHold(true)}
-      onMouseLeave={() => setHold(false)}
-      onFocus={() => setHold(true)}
-      onBlur={() => setHold(false)}
-    >
-      <p className={s.lines}>
-        {BEATS.map((b, k) => (
-          <button
-            key={b.line}
-            type="button"
-            className={k === beat ? s.lineOn : ""}
-            aria-pressed={k === beat}
-            onClick={() => setBeat(k)}
-          >
-            {b.line}
-          </button>
-        ))}
-      </p>
-      <figure className={s.beatPanel} aria-live="polite">
-        <div key={beat} className={s.beatStage}>
-          <BeatVisual i={beat} />
-        </div>
-        <i data-c="tl" />
-        <i data-c="tr" />
-        <i data-c="bl" />
-        <i data-c="br" />
-        <figcaption>
-          <span className={s.povDot} /> {BEATS[beat].cap}
-        </figcaption>
-        <ol className={s.beatTicks} aria-hidden="true">
+    <section ref={ref} className={s.statement} aria-label="What Boomer is">
+      <div className={s.statementPin}>
+        <p className={s.lines}>
           {BEATS.map((b, k) => (
-            <li key={b.line} className={k === beat ? s.tickOn : ""} />
+            <button key={b.line} type="button" className={k === beat ? s.lineOn : ""} aria-pressed={k === beat} onClick={() => go(k)}>
+              {b.line}
+            </button>
           ))}
-        </ol>
-      </figure>
+        </p>
+        <figure className={s.beatPanel} aria-live="polite">
+          <div key={beat} className={s.beatStage}>
+            <BeatVisual i={beat} />
+          </div>
+          <i data-c="tl" />
+          <i data-c="tr" />
+          <i data-c="bl" />
+          <i data-c="br" />
+          <figcaption>
+            <span className={s.povDot} /> {BEATS[beat].cap}
+          </figcaption>
+          <ol className={s.beatTicks} aria-hidden="true">
+            {BEATS.map((b, k) => (
+              <li key={b.line} className={k === beat ? s.tickOn : k < beat ? s.tickDone : ""} />
+            ))}
+          </ol>
+        </figure>
+      </div>
     </section>
   );
 }
