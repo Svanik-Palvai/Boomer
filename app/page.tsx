@@ -1,11 +1,20 @@
-// OWNER: Pitch presentation. Homepage integration for Andy review; original directory preserved at /demo.
-import type { Metadata } from "next";
-import Pitch from "@/components/pitch/Pitch";
+// Homepage: the redesign (components/preview). The previous pitch is kept at /pitch.
+import type { Metadata, Viewport } from "next";
+import Preview from "@/components/preview/Preview";
+import { fontVars } from "@/components/preview/fonts";
+
 export const metadata: Metadata = {
-  title: "Boomer — A second set of eyes. A guide in your ear.",
+  title: "Boomer — Sees the job. Talks you through it. Checks every step.",
   description:
-    "Hands-free electrical guidance grounded in camera evidence, job context and local sources. Keep the work record, then turn consented footage into reviewed lessons.",
+    "Boomer watches through a chest-mounted phone, guides an electrician one step at a time by voice, checks each step on camera with three models, and writes a work record the worker owns.",
 };
+
+export const viewport: Viewport = { themeColor: "#0e1011", colorScheme: "dark" };
+
 export default function Home() {
-  return <Pitch />;
+  return (
+    <div className={fontVars}>
+      <Preview />
+    </div>
+  );
 }

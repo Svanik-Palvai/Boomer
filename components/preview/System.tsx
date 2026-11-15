@@ -5,7 +5,7 @@
 import { useEffect, useRef, useState } from "react";
 import s from "./system.module.css";
 import { Glyph } from "./Glyphs";
-import type { AgentId } from "./data";
+import { FRAMES, type AgentId } from "./data";
 
 type NodeKind = "agent" | "model" | "rules" | "human" | "input" | "output" | "pipeline";
 interface N {
@@ -62,7 +62,7 @@ const EDGES: E[] = [
   { d: "M162 104 L180 104", label: "", lx: 0, ly: 0, tone: "human" },
   { d: "M85 64 L85 34 L661 34 L661 64", label: "phone in a chest harness", lx: 373, ly: 26, tone: "human" },
   { d: "M265 144 L265 270", label: "SIP → ElevenLabs", lx: 274, ly: 214, anchor: "start" },
-  { d: "M661 144 L661 205 L463 205 L463 270", label: "fresh frames, < 10 s", lx: 470, ly: 197, anchor: "start" },
+  { d: "M661 144 L661 205 L463 205 L463 270", label: `fresh frames, < ${FRAMES.maxAgeMs / 1000} s`, lx: 470, ly: 197, anchor: "start" },
   { d: "M661 205 L859 205 L859 270", label: "burst ×3 on “done”", lx: 866, ly: 197, anchor: "start" },
   { d: "M548 318 L576 318", label: "jobType", lx: 562, ly: 258 },
   { d: "M944 318 L972 318", label: "can't tell ×2", lx: 958, ly: 386, tone: "loop" },
@@ -98,7 +98,7 @@ const TAPS = [
 const FLOW: { from: string; to: string; what: string; human?: boolean }[] = [
   { from: "Electrician", to: "Harness camera", what: "Phone in a chest harness, camera page open", human: true },
   { from: "Electrician", to: "Phone call → Guide", what: "Calls the Photon number; SIP to the ElevenLabs agent", human: true },
-  { from: "Harness camera", to: "Look, Check panel", what: "A still every 2 s, a burst of 3 on “done”; nothing older than 10 s is used" },
+  { from: "Harness camera", to: "Look, Check panel", what: `A still every ${FRAMES.intervalMs / 1000} s, a burst of ${FRAMES.burst} on “done”; nothing older than ${FRAMES.maxAgeMs / 1000} s is used` },
   { from: "Guide", to: "Look → Plan", what: "`look` identifies the job; Plan builds checked steps from data" },
   { from: "Plan", to: "Share → Supervisor", what: "Plan texted for sign-off; Guide waits before step 1", human: true },
   { from: "Supervisor", to: "Share → Job memory", what: "APPROVE, changes or hold off; a note is read to the worker" },
