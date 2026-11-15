@@ -80,8 +80,10 @@ export interface StepTemplate {
   check: StepCheck;
   /** Hard gates can't be skipped by voice (breaker off, tester shows dead). */
   hardGate?: boolean;
-  /** Journeyman profile: standard steps collapse into this short line. */
+  /** Short line for a standard step, read once the worker has this step's skill down (lib/skills/mastery.ts). */
   shortText?: string;
+  /** The skill this step exercises, shared across job types (e.g. "device-termination"). Defaults to the step id. */
+  skill?: string;
 }
 
 export interface JobTemplate {
@@ -114,6 +116,27 @@ export interface Worker {
   home: Jurisdiction;
   experience: Experience;
   createdAt: string;
+  /** Skill estimates, keyed by skill id. Updated by every step check (lib/skills/mastery.ts). */
+  mastery?: Record<string, SkillMastery>;
+}
+
+/**
+ * Boomer's running estimate that a worker has one skill down (Bayesian knowledge tracing, lib/skills/bkt.ts).
+ * An estimate from what Boomer observed, never a qualification.
+ */
+export interface SkillMastery {
+  p: number; // 0..1
+  checks: number; // step checks counted
+  right: number; // of those, how many came back right
+  seen: number; // of those, how many the camera saw (the rest were the worker's word)
+  updatedAt?: string;
+}
+
+/** One skill line on the work record. */
+export interface SkillSummary extends SkillMastery {
+  skill: string;
+  label: string;
+  level: "learning" | "practiced" | "known";
 }
 
 // ───────────────────────── Jobs ─────────────────────────
@@ -246,6 +269,11 @@ export interface FrameUpload {
   image: string; // data URL, ~1024 px JPEG
   burst?: boolean;
   point?: GeoPoint;
+  /**
+   * When the photo was taken, in server-clock ms, as the phone estimates it from the last ack's serverNow.
+   * The estimate errs early (never late), so a frame with takenAt after a "done" request was really taken after it.
+   */
+  takenAt?: number;
 }
 
 /** Response of POST /api/frames: enough for the camera page's step number and connection dot. */
@@ -258,6 +286,8 @@ export interface FrameAck {
   stepCount: number;
   /** True when the agent just ran "done": the camera page should send a burst of 3. */
   wantBurst?: boolean;
+  /** Server clock (ms) when the frame was stored, for the phone's takenAt estimate. */
+  serverNow?: number;
 }
 
 // ───────────────────────── Memory (multiple agents, one job memory) ─────────────────────────
@@ -380,4 +410,6 @@ export interface WorkRecord {
     byState: Record<string, number>;
   };
   shareUrl: string;
+  /** Skill estimates from every check Boomer has run for this worker. Empty until the first check. */
+  skills?: SkillSummary[];
 }

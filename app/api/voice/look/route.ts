@@ -27,10 +27,9 @@ export const POST = voiceTool("look", async ({ job, worker, req }) => {
 
   // "What am I looking at?" mid-job: describe, don't re-plan.
   if (job.status === "guiding") {
-    if (identity.fallbackReason === "no_frame") return { say: "I don't have a picture from the camera right now. Check the camera page is open and pointed at the work." };
-    if (identity.fallbackReason) return { say: "I couldn't read the camera picture just now. Try again in a second." };
-    const seen = identity.details ?? `I see a ${identity.component}.`;
-    return { say: `${seen} That is just what I see. Say "check" and I'll judge this step.` };
+    if (identity.fallbackReason === "no_frame") return { say: "No camera picture. Check the camera page is open." };
+    if (identity.fallbackReason) return { say: "Couldn't read the picture. Try again." };
+    return { say: identity.details ?? `A ${identity.component}.` };
   }
 
   // Plan already sent for sign-off (look called twice): don't rebuild or text the supervisor again.
@@ -41,7 +40,7 @@ export const POST = voiceTool("look", async ({ job, worker, req }) => {
       await updateJob(job.id, (j) => ({ ...j, steps: q.steps, results: q.results, current: q.current }));
     }
     const gate = approvalGate(job);
-    return { say: gate.wait ? gate.say : "Your plan's ready. Say let's go to start." };
+    return { say: gate.wait ? gate.say : "Plan's ready. Say let's go." };
   }
 
   // Gemini sometimes answers "none" when the worker doesn't say "GFCI" ("the outlet behind the fridge").
@@ -52,7 +51,7 @@ export const POST = voiceTool("look", async ({ job, worker, req }) => {
   const template = jobType ? jobTemplate(jobType) : undefined;
   if (!jobType || !template) {
     const updated = await updateJob(job.id, (j) => ({ ...transition(j, "looking"), identity }));
-    return { job: updated, say: `I see a ${identity.component}, but I don't have a checked step list for that job yet.` };
+    return { job: updated, say: `That's a ${identity.component}. I don't have steps for that job yet.` };
   }
 
   const full = buildPlan(jobType, job.home, job.site);
@@ -73,27 +72,23 @@ export const POST = voiceTool("look", async ({ job, worker, req }) => {
   const skipped = plan.current > 0;
   const quickLine = quick ? (skipped ? " Short version, since you've done this before. Breaker and tester logged." : " Short version, since you've done this before.") : "";
 
+  // Short on purpose: what the job is, what's different here, then straight on. The worker can ask for more.
   const newHere = steps.filter((s) => s.tag === "new_here").length;
-  const where = job.site
-    ? `I have you in ${job.site.city}, ${job.site.state}, and you work out of ${job.home.city}${newHere ? `, so ${newHere} step${newHere === 1 ? " is" : "s are"} different here` : ""}.`
-    : "I don't have your location yet; keep the camera page open.";
-  const seen =
-    identity.fallbackReason === "no_frame"
-      ? `I can't see the camera yet, so I'm going by what you said: ${identity.problem}. ${where}`
-      : identity.fallbackReason
-        ? `I couldn't read the camera picture, so I'm going by what you said: ${identity.problem}. ${where}`
-        : `I can see ${identity.problem.charAt(0).toLowerCase()}${identity.problem.slice(1)}. ${where}`;
+  const differs = job.site && newHere ? ` ${newHere} step${newHere === 1 ? " is" : "s are"} different in ${job.site.city}.` : "";
+  const seen = identity.fallbackReason
+    ? `Going by what you said: ${identity.problem}.${differs}`
+    : `Got it: ${identity.problem}.${differs}`;
 
   // Supervisor on file: send the plan for their OK and wait in "plan ready". next_step starts once they answer.
   // Quick run: plain text only (the mini app card can take seconds to send on Photon 1.0).
   const asked = await requestApproval(planned, worker, { skipCard: quick });
   if (asked?.approval && asked.approval.delivery !== "none") {
     const who = supervisorLabel(asked.approval);
-    return { job: asked, say: `${seen}${quickLine} I sent the plan to ${who}. I'll start as soon as they approve.` };
+    return { job: asked, say: `${seen}${quickLine} Sent the plan to ${who}. I'll start when they answer.` };
   }
 
   // No supervisor, or they can't be reached yet: start without sign-off, and say so.
-  const unreachable = asked?.approval ? `I couldn't reach ${supervisorLabel(asked.approval)} with the plan, so we'll start without their OK. ` : "";
+  const unreachable = asked?.approval ? `Couldn't reach ${supervisorLabel(asked.approval)}, so starting without their OK. ` : "";
   const updated = await updateJob(job.id, (j) => startGuiding({ ...j, approval: undefined }));
   return { job: updated, say: `${seen}${quickLine} ${unreachable}${readStep(updated, worker)}` };
 });

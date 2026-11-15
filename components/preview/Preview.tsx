@@ -13,7 +13,7 @@ const M = "/preview/media";
 /** One line per stage. The visual carries the stage; the line only names what happened. */
 const COPY: Record<StageId, { title: string; body: string[]; code: string }> = {
   call: { title: "Call in.", body: ["Phone on the chest. Hands stay on the work."], code: "app/camera · useFrameCapture.ts" },
-  see: { title: "See.", body: [`A fresh frame every ${FRAMES.intervalMs === 1000 ? "second" : `${FRAMES.intervalMs / 1000} seconds`}. Nothing older than ${FRAMES.maxAgeMs / 1000} s counts.`], code: "app/api/frames · lib/db/frames.ts" },
+  see: { title: "See.", body: [`A fresh frame every ${(FRAMES.intervalMs as number) === 1000 ? "second" : `${FRAMES.intervalMs / 1000} seconds`}. Nothing older than ${FRAMES.maxAgeMs / 1000} s counts.`], code: "app/api/frames · lib/db/frames.ts" },
   identify: { title: "Identify.", body: ["Gemini names the part from a fixed list. No frame, no guess."], code: "lib/ai/identifyJob.ts" },
   plan: { title: "Plan.", body: ["Steps come from checked data, never from the model."], code: "lib/ai/buildPlan.ts · data/steps.json" },
   signoff: { title: "Sign off.", body: ["The supervisor approves by text. Their note is read aloud."], code: "lib/jobs/approval.ts" },

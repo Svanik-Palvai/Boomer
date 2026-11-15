@@ -1,5 +1,5 @@
 "use client";
-// OWNER: Andy. Live camera -> a still every second (+ a burst of 3 when the backend asks) -> POST /api/frames.
+// OWNER: Andy. Live camera -> a still every FRAMES.intervalMs (+ a burst of 3 when the backend asks) -> POST /api/frames.
 //
 // Things the harness phone has to survive:
 // - Uploads slower than the interval on venue Wi-Fi: never queue frames; skip a tick while one is in flight,
@@ -38,6 +38,9 @@ export function useFrameCapture(
   const streamRef = useRef<MediaStream | null>(null);
   const jobIdRef = useRef<string | undefined>(undefined);
   const inFlight = useRef(false);
+  /** Server clock minus phone clock, as a lower bound (see upload). null until the first ack. */
+  const skewRef = useRef<number | null>(null);
+  const skewSamples = useRef<number[]>([]);
   const pointRef = useRef(point);
   pointRef.current = point;
 
@@ -130,10 +133,16 @@ export function useFrameCapture(
     return c.toDataURL("image/jpeg", 0.75);
   }, []);
 
-  /** Upload one image. Used for the regular stills, the burst, and the fallback photo button. */
+  /**
+   * Upload one image. Used for the regular stills, the burst, and the fallback photo button.
+   * takenAt tells the server when the photo was taken on its clock, so a check can use it right away instead of
+   * waiting a round trip for the burst. Each ack's serverNow minus the phone's clock on receipt is a lower bound on
+   * the clock difference (the reply spent time in transit), so the estimate can only come out early, never late.
+   */
   const upload = useCallback(
-    async (image: string, burst = false): Promise<FrameAck | null> => {
-      const body: FrameUpload = { workerId, jobId: jobIdRef.current, image, burst, point: pointRef.current };
+    async (image: string, burst = false, takenPhone = Date.now()): Promise<FrameAck | null> => {
+      const takenAt = skewRef.current == null ? undefined : takenPhone + skewRef.current;
+      const body: FrameUpload = { workerId, jobId: jobIdRef.current, image, burst, point: pointRef.current, takenAt };
       try {
         const r = await fetch(api.frames(), {
           method: "POST",
@@ -142,6 +151,10 @@ export function useFrameCapture(
         });
         if (!r.ok) throw new Error(String(r.status));
         const a = (await r.json()) as FrameAck;
+        if (typeof a.serverNow === "number") {
+          const s = (skewSamples.current = [...skewSamples.current.slice(-9), a.serverNow - Date.now()]);
+          skewRef.current = Math.max(...s); // every sample is a lower bound; the largest is the tightest
+        }
         jobIdRef.current = a.jobId;
         setAck(a);
         setLastOkAt(Date.now());
@@ -156,8 +169,9 @@ export function useFrameCapture(
 
   const sendFrame = useCallback(
     async (burst = false) => {
+      const taken = Date.now();
       const image = grab();
-      return image ? upload(image, burst) : null;
+      return image ? upload(image, burst, taken) : null;
     },
     [grab, upload],
   );

@@ -40,7 +40,15 @@ export async function saveWorker(input: WorkerInput): Promise<Worker> {
     phone: normalizePhone(input.phone),
     home: input.home,
     experience: input.experience,
+    // A profile edit must not wipe what Boomer has learned about the worker.
+    ...(existing?.mastery && { mastery: existing.mastery }),
   };
   await backend().put("worker", w.id, w, { phone: w.phone });
   return w;
+}
+
+/** Read-modify-write on one worker (retries on a concurrent change). Used for the skill estimates. */
+export async function updateWorker(id: string, fn: (w: Worker) => Worker): Promise<Worker> {
+  await ready();
+  return backend().update<Worker>("worker", id, fn, (w) => ({ phone: w.phone }));
 }

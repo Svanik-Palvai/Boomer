@@ -49,11 +49,7 @@ export async function requestApproval(job: Job, worker: Worker, opts: { skipCard
   const text = planText(job, worker);
   let sent = await sendText(c.supervisorPhone, text, `approval:${job.id}:${Date.now()}`).then(() => true, (e) => ((sendError = String(e).slice(0, 300)), false));
   if (!sent && stableConfigured()) sent = await sendStableText(c.supervisorPhone, text).then(() => true, (e) => ((sendError += ` | 1.0: ${String(e).slice(0, 200)}`), false));
-  let delivery: PlanApproval["delivery"] = sent ? "text" : "none";
-  if (sent && stableConfigured() && !opts.skipCard) {
-    const card = await sendJobCard(job, c.supervisorPhone, "Plan for your OK").catch(() => "none" as const);
-    if (card === "card") delivery = "card";
-  }
+  const delivery: PlanApproval["delivery"] = sent ? "text" : "none";
   const approval: PlanApproval = {
     status: "waiting",
     supervisorPhone: c.supervisorPhone,
@@ -62,6 +58,15 @@ export async function requestApproval(job: Job, worker: Worker, opts: { skipCard
     sentAt: now(),
   };
   const updated = await updateJob(job.id, (j) => ({ ...j, approval }));
+  // The job sheet card is a second network round trip the worker shouldn't wait on: send it in the background
+  // and mark the delivery once it lands. The plain text already went out, so the supervisor has the plan.
+  if (sent && stableConfigured() && !opts.skipCard) {
+    sendJobCard(updated, c.supervisorPhone, "Plan for your OK")
+      .then(async (card) => {
+        if (card === "card") await updateJob(job.id, (j) => (j.approval ? { ...j, approval: { ...j.approval, delivery: "card" } } : j));
+      })
+      .catch(() => {});
+  }
   const who = supervisorLabel(approval);
   await remember(job.id, {
     channel: "imessage",
@@ -79,9 +84,9 @@ export function approvalGate(job: Job): Gate {
   const a = job.approval;
   if (!a) return { wait: false };
   const who = supervisorLabel(a);
-  if (a.status === "waiting") return { wait: true, say: `Still waiting on ${who} to approve the plan. I'll tell you as soon as they answer.` };
+  if (a.status === "waiting") return { wait: true, say: `Still waiting on ${who}.` };
   if (a.status === "rejected")
-    return { wait: true, say: `${who} said to hold off${a.note ? `: "${a.note}"` : ""}. Call them before you go on.` };
+    return { wait: true, say: `${who} said hold off${a.note ? `: "${a.note}"` : ""}. Call them before you go on.` };
   if (a.told) return { wait: false };
   if (a.status === "changes") return { wait: false, intro: `${who} approved the plan with a note: "${a.note}".` };
   return { wait: false, intro: `${who} approved the plan.` };

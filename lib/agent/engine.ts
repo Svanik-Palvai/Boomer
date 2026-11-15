@@ -4,6 +4,7 @@ import { UNCLEAR_RETRIES } from "@/lib/config";
 import { SAY } from "@/lib/copy";
 import { transition } from "@/lib/jobs/status";
 import { ruleById } from "@/lib/location/rules";
+import { levelOf, masteryOf, skillOf } from "@/lib/skills/mastery";
 
 const now = () => new Date().toISOString();
 
@@ -35,7 +36,11 @@ export function startGuiding(job: Job): Job {
 
 /**
  * The line the agent reads for the current step. One step at a time, never the whole plan.
- * Talk profile: "new" gets the reason with every step; "journeyman" gets short text for standard steps.
+ * How much it says follows Boomer's estimate that this worker has the step's skill down (lib/skills/mastery.ts):
+ * learning -> the step and its reason; practiced -> the step; known -> the short line.
+ * The estimate starts from the worker's experience and moves with every check, so a journeyman who misses a step
+ * hears it in full next time, and a new worker who keeps getting it right hears less.
+ * New here steps are always read in full with the reason. This changes the words only: every step is still checked.
  */
 export function readStep(job: Job, worker: Worker): string {
   if (!job.steps.length) return "I don't have a plan yet. Tell me what the job is and point the camera at it.";
@@ -46,12 +51,13 @@ export function readStep(job: Job, worker: Worker): string {
     parts.push(SAY.differentFrom(job.home.city));
     if (step.ruleVerified === false) parts.push("The source for this one is still being checked.");
   }
-  const short = worker.experience === "journeyman" && step.tag === "standard" && step.shortText;
+  const level = levelOf(masteryOf(worker, skillOf(step)));
+  const short = level === "known" && step.tag === "standard" && step.shortText;
   parts.push(short || step.text);
-  // A New here step says what changed (the rule's own words); otherwise the step's reason.
+  // A New here step says what changed (the rule's own words); otherwise the step's reason while the skill is still being learned.
   const rule = step.tag === "new_here" && step.ruleId ? ruleById(step.ruleId) : undefined;
   if (rule?.why) parts.push(rule.why);
-  else if (worker.experience === "new" || step.tag === "new_here") parts.push(step.reason);
+  else if (level === "learning" || step.tag === "new_here") parts.push(step.reason);
   return parts.join(" ");
 }
 

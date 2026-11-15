@@ -1,7 +1,7 @@
 // OWNER: Sunny (AI)
 import { Type } from "@google/genai";
 import type { Frame, JobIdentity } from "@/lib/types";
-import { callGemini, errorText, gemini, geminiEnabled, VISION_MODEL } from "@/lib/ai/gemini";
+import { callGemini, errorText, gemini, geminiEnabled, thinkingOffConfig, VISION_MODEL } from "@/lib/ai/gemini";
 import { frameParts } from "@/lib/ai/frames";
 import { jobTypes } from "@/lib/location/steps";
 import { DEMO_JOB_TYPE } from "@/lib/mock/demo";
@@ -35,6 +35,14 @@ const fallback = (reason: "no_frame" | "model_error", error?: string): JobIdenti
   ...(error && { fallbackError: error.slice(0, 300) }),
 });
 
+/**
+ * The worker is standing there waiting while this runs, and ElevenLabs gives the look tool 10 s in all.
+ * Thinking off (it's a pick-from-a-list question) keeps it to a second or two. The budget covers a retry after a
+ * quick 503 and still leaves time to answer; before, a slow call plus its retry could run past the tool's limit.
+ * A tighter 5 s cap was tried and cut off answers under API load (eval/identify.mts), so this stays at 8 s.
+ */
+const IDENTIFY_BUDGET_MS = Number(process.env.IDENTIFY_BUDGET_MS || 8000);
+
 export async function identifyJob(frames: Frame[], note?: string): Promise<JobIdentity> {
   const parts = frameParts(frames.slice(0, 3));
   if (parts.length === 0) return fallback("no_frame");
@@ -55,13 +63,15 @@ export async function identifyJob(frames: Frame[], note?: string): Promise<JobId
 Pick the component from: ${COMPONENTS.join(", ")}.
 "problem" is a short phrase for what needs doing, from what is visible and what they said.
 "jobType" is one of ${types.map((t) => `"${t.jobType}" (${t.title})`).join(", ")}, or "none".
-"details": one sentence, only what is visible. Do not guess beyond the photo. "confidence" is 0 to 1.`,
+"details": under 12 words, only what is visible. Do not guess beyond the photo. "confidence" is 0 to 1.`,
               },
             ],
           },
         ],
         config: {
           temperature: 0,
+          maxOutputTokens: 300,
+          thinkingConfig: thinkingOffConfig(VISION_MODEL),
           responseMimeType: "application/json",
           responseSchema: {
             type: Type.OBJECT,
@@ -76,6 +86,7 @@ Pick the component from: ${COMPONENTS.join(", ")}.
           },
         },
       }),
+      { budgetMs: IDENTIFY_BUDGET_MS, retryDelayMs: 500 },
     );
     const r = JSON.parse(res.text ?? "{}") as Partial<Record<"component" | "problem" | "jobType" | "details", string>> & {
       confidence?: number;
