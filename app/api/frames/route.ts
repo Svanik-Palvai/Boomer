@@ -1,4 +1,4 @@
-// OWNER: Zohaib. POST a FrameUpload from the camera page (a still every 2 s, a burst of 3 on "done").
+// OWNER: Zohaib. POST a FrameUpload from the camera page (a still every second, a burst of 3 on "done").
 import { NextResponse } from "next/server";
 import type { FrameAck, FrameUpload } from "@/lib/types";
 import { addFrame, burstWanted, updateJob } from "@/lib/db";

@@ -1,7 +1,7 @@
 // OWNER: Sunny. Tool check_step: "done" -> check the current step. Answers in ~3 s.
 import type { CheckResult } from "@/lib/types";
 import { voiceTool } from "@/lib/voice/tool";
-import { recentFrames, requestBurst, updateJob } from "@/lib/db";
+import { framesAfterBurst, requestBurst, updateJob } from "@/lib/db";
 import { checkStep } from "@/lib/ai/checkStep";
 import { allDone, applyCheck, canConfirmByVoice, confirmSpoken, currentStep, readStep } from "@/lib/agent/engine";
 import { SAY } from "@/lib/copy";
@@ -41,8 +41,9 @@ export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
     return { job: updated, check, say: `${SAY.workerConfirmed} ${readStep(updated, worker)}` };
   }
 
+  // Ask the phone for a burst, then wait (up to ~2.5 s) for it, so the check never judges a still from before "done".
   await requestBurst(job.id);
-  const frames = await recentFrames(job.id);
+  const frames = await framesAfterBurst(job.id);
   const attempt = job.results[job.current]?.attempts ?? 0;
   const check = await checkStep(step, frames, attempt);
 
