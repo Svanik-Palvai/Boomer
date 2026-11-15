@@ -5,7 +5,7 @@
 // The supervisor's note is added to the job and read to the worker. It never rewrites the checked steps,
 // so a texted "skip the tester" can't get past a hard gate.
 import type { ApprovalStatus, Job, PlanApproval, Worker } from "@/lib/types";
-import { findOpenJob, getContacts, listWorkers, normalizePhone, updateJob } from "@/lib/db";
+import { getContacts, isOpen, listJobs, listWorkers, normalizePhone, updateJob } from "@/lib/db";
 import { refreshJobCards, sendJobCard, textAnyLine } from "@/lib/photon/miniapp";
 import { sendText } from "@/lib/photon/send";
 import { sendStableText } from "@/lib/photon/stable";
@@ -112,17 +112,29 @@ export function parseDecision(text: string): { status: Exclude<ApprovalStatus, "
 }
 
 /**
+ * Same phone, however each side wrote it: "+12155550100", "(215) 555-0100", "tel:+1 215 555 0100".
+ * Compares the last 10 digits (US numbers), so a sender handle in another format still finds the waiting plan.
+ */
+export function samePhone(a?: string | null, b?: string | null): boolean {
+  const d = (x?: string | null) => (x ? normalizePhone(x).replace(/\D/g, "").slice(-10) : "");
+  const x = d(a);
+  return x.length === 10 && x === d(b);
+}
+
+/**
  * An inbound text from someone who is the supervisor on a job waiting for approval.
  * Returns the reply to the supervisor, or null when this text isn't an approval answer.
  */
 export async function decideFromText(fromRaw: string, text: string): Promise<{ reply: string; jobId: string } | null> {
-  const from = normalizePhone(fromRaw);
   const waiting: { job: Job; worker: Worker }[] = [];
   for (const w of await listWorkers()) {
     const c = await getContacts(w.id);
-    if (c?.supervisorPhone !== from) continue;
-    const job = await findOpenJob(w.id);
-    if (job?.approval?.status === "waiting") waiting.push({ job, worker: w });
+    if (!samePhone(c?.supervisorPhone, fromRaw)) continue;
+    // Every open job of this worker that's waiting on the OK, not only the newest open one: a second open job
+    // (a fresh call, a text that opened one) must not hide the plan the supervisor is answering.
+    for (const job of await listJobs(w.id)) {
+      if (isOpen(job) && job.approval?.status === "waiting" && samePhone(job.approval.supervisorPhone, fromRaw)) waiting.push({ job, worker: w });
+    }
   }
   if (!waiting.length) return null;
   const { job, worker } = waiting.sort((a, b) => b.job.updatedAt.localeCompare(a.job.updatedAt))[0];
