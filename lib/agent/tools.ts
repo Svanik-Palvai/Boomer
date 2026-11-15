@@ -31,7 +31,7 @@ export const toolUrl = (name: VoiceToolName) => absolute(api.voiceTool(name));
 /** What each tool-specific body field means, for the ElevenLabs tool form (value type: LLM prompt). */
 export const PARAM_HELP: Record<string, string> = {
   jobId: "Always the job id from the system prompt (demo-2041 for the demo).",
-  note: "What the worker said the job or problem is, in their words.",
+  note: "What the worker said the job or problem is, word for word. Always include \"I've done this before\" and anything about the breaker or tester if they said it.",
   spokenConfirmation: "The worker's exact words when they answer a yes/no question or confirm a spoken step. Leave empty after a plain 'done'.",
   reason: "Why the worker stopped, in their words.",
 };

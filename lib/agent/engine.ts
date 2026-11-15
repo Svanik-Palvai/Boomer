@@ -133,3 +133,36 @@ export function finishJob(job: Job): Job {
 export function emptyResults(steps: Step[]): StepResult[] {
   return steps.map((s) => ({ stepId: s.id, status: "pending", attempts: 0, fails: 0, unclear: 0 }));
 }
+
+/**
+ * Quick run, for a short demo: the worker says "I've done this before" (ideally "...breaker's off and it tested dead").
+ * GFCI swap only. Steps 1-2 count as confirmed only if the worker's own words say so (logged word for word);
+ * pulling the old device and turning the GFCI around become spoken steps (no camera); the LINE/LOAD step keeps its
+ * camera check; the simulated TEST/RESET step is dropped. Numbering stays as in the full plan.
+ */
+export const QUICK_PHRASE = /done this before|quick run/i;
+export function quickPlan(steps: Step[], said: string): { steps: Step[]; results: StepResult[]; current: number } {
+  if (!steps.some((s) => s.id === "gfci-5-line")) return { steps, results: emptyResults(steps), current: 0 };
+  const kept = steps
+    .filter((s) => s.id !== "gfci-6-test")
+    .map((s): Step => {
+      if (s.id === "gfci-3-remove")
+        return { ...s, check: { kind: "spoken", question: "Did the worker say the old device is out?", prompt: "Tell me when it's out." } };
+      if (s.id === "gfci-4-terminals")
+        return {
+          ...s,
+          text: "Turn the new GFCI around so you can see LINE and LOAD on the back.",
+          check: { kind: "spoken", question: "Did the worker say they have the back of the GFCI?", prompt: "Tell me when you've got the back facing you." },
+        };
+      if (s.id === "gfci-5-line") return { ...s, text: "Connect the incoming wires to the LINE pair on the GFCI and leave LOAD covered. Tell me when you're done." };
+      return s;
+    });
+  const saidSafe = /breaker/i.test(said) && /dead|zero|no voltage|nothing/i.test(said);
+  const results = emptyResults(kept).map((r) =>
+    saidSafe && (r.stepId === "gfci-1-breaker" || r.stepId === "gfci-2-tester")
+      ? { ...r, status: "worker_confirmed" as const, attempts: 1, confirmedText: said, doneAt: now() }
+      : r,
+  );
+  const first = results.findIndex((r) => r.status === "pending");
+  return { steps: kept, results, current: first < 0 ? 0 : first };
+}

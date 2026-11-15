@@ -3,7 +3,7 @@ import { voiceTool } from "@/lib/voice/tool";
 import { recentFrames, updateJob } from "@/lib/db";
 import { identifyJob } from "@/lib/ai/identifyJob";
 import { buildPlan } from "@/lib/ai/buildPlan";
-import { emptyResults, readStep, startGuiding } from "@/lib/agent/engine";
+import { emptyResults, QUICK_PHRASE, quickPlan, readStep, startGuiding } from "@/lib/agent/engine";
 import { transition } from "@/lib/jobs/status";
 import { jobTemplate } from "@/lib/location/steps";
 import { approvalGate, requestApproval, supervisorLabel } from "@/lib/jobs/approval";
@@ -33,17 +33,27 @@ export const POST = voiceTool("look", async ({ job, worker, req }) => {
     return { job: updated, say: `I see a ${identity.component}, but I don't have a checked step list for that job yet.` };
   }
 
-  const steps = buildPlan(jobType, job.home, job.site);
+  const full = buildPlan(jobType, job.home, job.site);
+  // "I've done this before": the short demo run (see quickPlan).
+  const quick = QUICK_PHRASE.test(req.note ?? "");
+  const plan = quick ? quickPlan(full, req.note ?? "") : { steps: full, results: emptyResults(full), current: 0 };
+  const steps = plan.steps;
   const planned = await updateJob(job.id, (j) => ({
     ...transition(j, "plan_ready"),
     identity,
     jobType,
     title: template.title,
     steps,
-    results: emptyResults(steps),
-    current: 0,
+    results: plan.results,
+    current: plan.current,
     approval: undefined,
   }));
+  const skipped = plan.current > 0;
+  const quickLine = quick
+    ? skipped
+      ? " You've done this before, so I'll keep it short. I logged what you said about the breaker and the tester."
+      : " You've done this before, so I'll keep it short."
+    : "";
 
   const newHere = steps.filter((s) => s.tag === "new_here").length;
   const where = job.site
@@ -60,11 +70,11 @@ export const POST = voiceTool("look", async ({ job, worker, req }) => {
   const asked = await requestApproval(planned, worker);
   if (asked?.approval && asked.approval.delivery !== "none") {
     const who = supervisorLabel(asked.approval);
-    return { job: asked, say: `${seen} The plan has ${steps.length} steps. I sent it to ${who} to approve, and I'll start as soon as they answer.` };
+    return { job: asked, say: `${seen}${quickLine} The plan has ${steps.length} steps. I sent it to ${who} to approve, and I'll start as soon as they answer.` };
   }
 
   // No supervisor, or they can't be reached yet: start without sign-off, and say so.
   const unreachable = asked?.approval ? `I couldn't reach ${supervisorLabel(asked.approval)} with the plan, so we'll start without their OK. ` : "";
   const updated = await updateJob(job.id, (j) => startGuiding({ ...j, approval: undefined }));
-  return { job: updated, say: `${seen} ${unreachable}${readStep(updated, worker)}` };
+  return { job: updated, say: `${seen}${quickLine} ${unreachable}${readStep(updated, worker)}` };
 });
