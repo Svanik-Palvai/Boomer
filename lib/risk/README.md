@@ -34,3 +34,16 @@ often the wrong breaker is switched off. The one measured input is the camera ch
 
 Write a model for it in `model.ts` (hazards, and the steps that stand in front of each) and register it in
 `MODELS`. A job type with no model gets the path check only.
+
+## What the supervisor sees
+
+The iMessage job sheet (`app/m`) uses the simulation to tell a supervisor where to look (`watch.ts`):
+
+- **HIGH RISK** tape on the steps that matter most if skipped. For the GFCI swap that is breaker off and tester dead.
+- A **LOOK** strip under the title, only when things line up on a step that matters: the camera has said "not yet",
+  the worker is new to the step, or a camera step was taken on the worker's word. It clears when the step is redone
+  and seen. An experienced worker doing the step cleanly raises nothing, and nothing is texted or called.
+
+"New to the step" uses the worker's skill estimate when it exists (PR #16) and their experience level until then.
+The sheet shows levels only, never the simulation's numbers. `npx tsx --tsconfig tsconfig.json lib/risk/watch.sim.ts`
+checks the flags on the demo job.

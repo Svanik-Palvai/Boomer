@@ -31,7 +31,12 @@ export default async function MiniJobPage({ params }: { params: { id: string } }
   const worker = await getWorker(job.workerId);
   return (
     <div className={`surface-card ${s.page}`}>
-      <JobSheet initial={job} workerName={worker?.name ?? "Electrician"} recordHref={pages.miniRecord(job.workerId)} />
+      <JobSheet
+        initial={job}
+        workerName={worker?.name ?? "Electrician"}
+        recordHref={pages.miniRecord(job.workerId)}
+        worker={worker ? { experience: worker.experience, mastery: (worker as { mastery?: Record<string, { p: number }> }).mastery } : null}
+      />
     </div>
   );
 }
