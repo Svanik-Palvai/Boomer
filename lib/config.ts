@@ -14,7 +14,7 @@ export const FRAMES = {
   /** Frames sent to each reviewer in a step check (newest first). */
   checkFrames: 2,
   /** After "done", how long a check waits for the first post-"done" burst frame before using what it has. */
-  freshWaitMs: 2500,
+  freshWaitMs: 2000,
   /** Long edge in px after downscaling on the phone. */
   maxEdgePx: 768,
   /** Checks never use a frame older than this. */

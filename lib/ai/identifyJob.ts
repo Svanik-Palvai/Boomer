@@ -1,5 +1,5 @@
 // OWNER: Sunny (AI)
-import { Type } from "@google/genai";
+import { ThinkingLevel, Type } from "@google/genai";
 import type { Frame, JobIdentity } from "@/lib/types";
 import { callGemini, errorText, gemini, geminiEnabled, VISION_MODEL } from "@/lib/ai/gemini";
 import { frameParts } from "@/lib/ai/frames";
@@ -35,6 +35,9 @@ const fallback = (reason: "no_frame" | "model_error", error?: string): JobIdenti
   ...(error && { fallbackError: error.slice(0, 300) }),
 });
 
+/** The look tool has ~10 s in all (ElevenLabs response_timeout_secs, lib/agent/tools.ts); leave room for the plan and texts. */
+const IDENTIFY_TIMEOUT_MS = Number(process.env.IDENTIFY_TIMEOUT_MS || 6000);
+
 export async function identifyJob(frames: Frame[], note?: string): Promise<JobIdentity> {
   const parts = frameParts(frames.slice(0, 3));
   if (parts.length === 0) return fallback("no_frame");
@@ -62,6 +65,8 @@ Pick the component from: ${COMPONENTS.join(", ")}.
         ],
         config: {
           temperature: 0,
+          // Fastest thinking: the default thinks for several seconds on a photo. 2.x models take a budget instead.
+          thinkingConfig: /gemini-2\./.test(VISION_MODEL) ? { thinkingBudget: 0 } : { thinkingLevel: ThinkingLevel.MINIMAL },
           responseMimeType: "application/json",
           responseSchema: {
             type: Type.OBJECT,
@@ -76,6 +81,7 @@ Pick the component from: ${COMPONENTS.join(", ")}.
           },
         },
       }),
+      { timeoutMs: IDENTIFY_TIMEOUT_MS },
     );
     const r = JSON.parse(res.text ?? "{}") as Partial<Record<"component" | "problem" | "jobType" | "details", string>> & {
       confidence?: number;

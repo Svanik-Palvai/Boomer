@@ -41,7 +41,7 @@ export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
     return { job: updated, check, say: `${SAY.workerConfirmed} ${readStep(updated, worker)}` };
   }
 
-  // Ask the phone for a burst, then wait (up to ~2.5 s) for it, so the check never judges a still from before "done".
+  // Ask the phone for a burst, then wait (up to ~2 s) for it, so the check never judges a still from before "done".
   await requestBurst(job.id);
   const frames = await framesAfterBurst(job.id);
   const attempt = job.results[job.current]?.attempts ?? 0;

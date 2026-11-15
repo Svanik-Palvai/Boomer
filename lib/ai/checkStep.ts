@@ -22,7 +22,11 @@ import { FRAMES } from "@/lib/config";
  * Per reviewer: thinking off for speed (one retry with the model default if it's rejected), hard cap of
  * CHECK_TIMEOUT_MS, any error or timeout is an "unclear" vote, never "pass". Banned words are scrubbed.
  */
-const CHECK_TIMEOUT_MS = Number(process.env.CHECK_TIMEOUT_MS || 6000);
+/**
+ * Per reviewer, retry included. With FRAMES.freshWaitMs before it, check_step must answer inside ElevenLabs'
+ * 10 s tool timeout (lib/agent/tools.ts).
+ */
+const CHECK_TIMEOUT_MS = Number(process.env.CHECK_TIMEOUT_MS || 5000);
 
 interface Reviewer {
   name: CheckVote["reviewer"];
@@ -37,7 +41,8 @@ function panel(): Reviewer[] {
     inspector,
     {
       name: "wiring",
-      model: process.env.CHECK_WIRING_MODEL || "gemini-3.8-flash",
+      // Not gemini-3.8-flash: it rejects minimal thinking and took 6-15 s (often 503 "high demand"), so every vote timed out.
+      model: process.env.CHECK_WIRING_MODEL || "gemini-3.5-flash",
       focus: `You are the wiring checker. Ignore everything except conductors and terminals.
 Trace each wire to the exact screw it is under and read the label printed beside that screw (LINE, LOAD, ground).
 Check wire colors against screw colors (black on brass, white on silver, bare or green on the green screw).
@@ -69,9 +74,11 @@ export async function checkStep(step: Step, frames: Frame[], attempt = 0): Promi
   const outcome = majority(votes, reviewers.length);
   // Speak the reasons of a reviewer that voted with the result (the inspector first).
   const lead = votes.find((v) => v.outcome === outcome) ?? votes[0];
+  // Most of the panel errored (quota, timeout, overload): say the checker is down, not "hold it closer".
+  const checkerDown = outcome === "unclear" && votes.filter((v) => v.error).length >= Math.floor(reviewers.length / 2) + 1;
   return {
     outcome,
-    say: sayFor(outcome, lead.seen, lead.expected, lead.fix),
+    say: checkerDown ? SAY.checkerDown : sayFor(outcome, lead.seen, lead.expected, lead.fix),
     seen: lead.seen,
     expected: lead.expected,
     frameId,
@@ -138,11 +145,13 @@ async function review(r: Reviewer, step: Step, parts: ReturnType<typeof framePar
     try {
       res = await withTimeout(request(true), CHECK_TIMEOUT_MS);
     } catch (err) {
-      // Some models reject the thinking-off setting. Retry once with the model's defaults on any error, so a config
-      // mismatch never turns every check into "can't tell". Not after a timeout: that would double the wait.
-      if (/timed out/.test(errorText(err))) throw err;
-      console.error(`[checkStep] ${r.name} fast request failed, retrying with model defaults:`, errorText(err).slice(0, 300));
-      res = await withTimeout(request(false), CHECK_TIMEOUT_MS);
+      // Some models reject the thinking-off setting. Retry once with the model's defaults, within what's left of
+      // CHECK_TIMEOUT_MS. Not after a timeout or a rate limit / used-up quota: those won't clear in time.
+      const msg = errorText(err);
+      const left = CHECK_TIMEOUT_MS - (Date.now() - started);
+      if (/timed out|\b429\b|RESOURCE_EXHAUSTED/.test(msg) || left < 1000) throw err;
+      console.error(`[checkStep] ${r.name} fast request failed, retrying with model defaults:`, msg.slice(0, 300));
+      res = await withTimeout(request(false), left);
     }
     const raw = (res.text ?? "").trim().replace(/^```(?:json)?|```$/g, "").trim();
     const j = JSON.parse(raw || "{}") as { outcome?: string; seen?: string; expected?: string; fix?: string };

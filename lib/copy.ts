@@ -5,6 +5,8 @@ export const SAY = {
   looksRight: "Looks right.",
   notYet: "Not yet.",
   cantTell: "Can't tell from here. Hold it closer and keep still.",
+  /** The vision models errored or timed out (e.g. Gemini quota used up): not the worker's photo, so don't ask them to hold still. */
+  checkerDown: "My checker isn't answering right now, so I can't judge this step. Give it a minute and say check again.",
   checking: "Checking.",
   workerConfirmed: "Worker confirmed.",
   sourceSays: "Source says",

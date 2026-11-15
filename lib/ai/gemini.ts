@@ -20,16 +20,28 @@ export function gemini(): GoogleGenAI {
   return client;
 }
 
-/** Runs a Gemini call with a timeout and one retry on overload (503) or rate limit (429). */
-export async function callGemini<T>(fn: () => Promise<T>): Promise<T> {
+/**
+ * Runs a Gemini call with a timeout and one retry on overload (503) or a per-minute rate limit (429).
+ * `timeoutMs` caps the whole thing, retry included, so a caller with a hard deadline (a voice tool) can rely on it.
+ * A used-up daily quota is not retried: it won't clear in seconds.
+ */
+export async function callGemini<T>(fn: () => Promise<T>, { timeoutMs = TIMEOUT_MS }: { timeoutMs?: number } = {}): Promise<T> {
+  const deadline = Date.now() + timeoutMs;
   try {
-    return await withTimeout(fn(), TIMEOUT_MS);
+    return await withTimeout(fn(), timeoutMs);
   } catch (err) {
     const msg = errorText(err);
-    if (!/\b(503|429)\b|UNAVAILABLE|RESOURCE_EXHAUSTED/.test(msg)) throw err;
+    if (!/\b(503|429)\b|UNAVAILABLE|RESOURCE_EXHAUSTED/.test(msg) || quotaExhausted(msg)) throw err;
+    const left = deadline - Date.now() - RETRY_DELAY_MS;
+    if (left < 1000) throw err;
     await new Promise((r) => setTimeout(r, RETRY_DELAY_MS));
-    return withTimeout(fn(), TIMEOUT_MS);
+    return withTimeout(fn(), left);
   }
+}
+
+/** True for a 429 that won't clear soon: a per-day quota, e.g. the free tier's 500 requests a day. */
+export function quotaExhausted(msg: string): boolean {
+  return /RESOURCE_EXHAUSTED|\b429\b/.test(msg) && /per day|PerDay|retry in \d+h/i.test(msg);
 }
 
 export function errorText(err: unknown): string {
