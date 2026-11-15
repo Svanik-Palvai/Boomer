@@ -85,7 +85,8 @@ const groups = [
   },
 ];
 export default function Demo() {
-  const line = process.env.PHOTON_NUMBER?.replace(/[\s().-]/g, "") ?? "";
+  // The number that rings the Boomer agent (Photon line imported into ElevenLabs). PHOTON_NUMBER is the texting line.
+  const line = (process.env.BOOMER_CALL_NUMBER || "+18143014979").replace(/[\s().-]/g, "");
   const phone = /^\+[1-9]\d{7,14}$/.test(line) ? line : null;
   return (
     <div className={p.pitch}>
