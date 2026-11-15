@@ -173,8 +173,10 @@ const jobId = tag,
         ]);
         const videoPath = `${lessonId}/FIXTURE-video.part`,
           audioPath = `${lessonId}/FIXTURE-audio.mp3`;
+        const recording = pathModule.join(dir, "original-with-audio.mp4");
+        await ffmpeg(["-i", video, "-i", audio, "-map", "0:v:0", "-map", "1:a:0", "-c", "copy", "-shortest", "-y", recording]);
         for (const [file, filePath, type] of [
-          [video, videoPath, "application/octet-stream"],
+          [recording, videoPath, "application/octet-stream"],
           [audio, audioPath, "audio/mpeg"],
         ]) {
           objects.push(filePath);
@@ -183,7 +185,7 @@ const jobId = tag,
             .upload(filePath, await fs.readFile(file), { contentType: type });
           if (r.error) throw r.error;
         }
-        const videoSize = (await fs.stat(video)).size;
+        const videoSize = (await fs.stat(recording)).size;
         await mutate(lessonId, (d) => ({
           ...d,
           job: {
@@ -247,7 +249,14 @@ const jobId = tag,
           },
         }));
         await queue(lessonId, "render", 1);
-        assert.equal(await workOnce(lessonId), true);
+        // Storage's server timestamp can be slightly ahead of the laptop clock.
+        // Match the real polling worker instead of assuming immediate eligibility.
+        let claimed = false;
+        for (let attempt = 0; attempt < 10 && !claimed; attempt++) {
+          claimed = await workOnce(lessonId);
+          if (!claimed) await new Promise(resolve => setTimeout(resolve, 1000));
+        }
+        assert.equal(claimed, true, "Private render task did not become eligible within ten polls");
         const rendered = (await load(lessonId)).document;
         assert.ok(rendered.render, rendered.error);
         assert.equal(rendered.status, "ready_for_review");
@@ -263,6 +272,33 @@ const jobId = tag,
           .eq("lesson_id", lessonId);
         assert.equal(tasks.data[0].state, "done");
         assert.equal(tasks.data[0].attempts, 1);
+        // Exercise the new preparation path with actual private storage, and
+        // explicitly no voice-provider credential.
+        await mutate(lessonId, d => ({ ...d, status: "waiting_for_media",
+          edit: { ...d.edit, clips: [] },
+          calls: [{ id: "import-fixture", sourceRecordingId: "fixture-video", startedAt: now,
+            duration: 6, turns: [{ role: "worker", text: "FIXTURE recording tone only", start: 1, end: 4 }] }],
+        }));
+        await queue(lessonId, "prepare", 0);
+        const providerKey = process.env.ELEVENLABS_API_KEY;
+        process.env.ELEVENLABS_API_KEY = "";
+        try {
+          let prepared = false;
+          for (let attempt = 0; attempt < 10 && !prepared; attempt++) {
+            prepared = await workOnce(lessonId);
+            if (!prepared) await new Promise(resolve => setTimeout(resolve, 1000));
+          }
+          assert.ok(prepared, "Imported source preparation was not claimed");
+          const imported = (await load(lessonId)).document;
+          assert.equal(imported.status, "editing", imported.error);
+          assert.ok(imported.calls[0].audioPath, "Original audio was not extracted");
+          assert.ok(imported.sessions[0].previewPath, "Source preview was not created");
+          objects.push(imported.calls[0].audioPath, imported.sessions[0].previewPath);
+        } finally {
+          if (providerKey === undefined) delete process.env.ELEVENLABS_API_KEY;
+          else process.env.ELEVENLABS_API_KEY = providerKey;
+        }
+        console.log("PASS live provider-free preparation: original uploaded soundtrack, private preview/audio assets, editable draft without ElevenLabs");
         console.log(
           "PASS live private pipeline: real SDK authentication, scoped worker claim, actual source assembly/FFmpeg rendering, private artifact uploads and completed task persistence",
         );

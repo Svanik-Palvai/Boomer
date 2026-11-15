@@ -12,6 +12,8 @@ export default function Workspace() {
     [account, setAccount] = useState(""),
     [items, setItems] = useState<{ id: string; document: LessonDraft }[]>([]),
     [worker, setWorker] = useState("worker-demo"),
+    [jobId, setJobId] = useState(""),
+    [importConsent, setImportConsent] = useState(false),
     [user, setUser] = useState("");
   async function refresh() {
     try {
@@ -101,6 +103,18 @@ export default function Workspace() {
             Sign out
           </button>
           <button onClick={refresh}>Refresh</button>
+          <details>
+            <summary>Create a lesson from an existing job recording</summary>
+            <p>Enter a Boomer job you own. Open the private draft to upload a video with original audio and transcript. A phone-call provider is optional.</p>
+            <label>Job ID<input value={jobId} onChange={e => setJobId(e.target.value)} /></label>
+            <label><input type="checkbox" checked={importConsent} onChange={e => setImportConsent(e.target.checked)} />I consent to preparing a private lesson from this job.</label>
+            <button disabled={!jobId.trim() || !importConsent} onClick={async () => {
+              try {
+                const draft = await lessonRequest(`jobs/${encodeURIComponent(jobId.trim())}`, { consent: true });
+                location.assign(`/lessons/${encodeURIComponent(draft.id)}/edit`);
+              } catch (e) { setMessage(e instanceof Error ? e.message : "Could not create draft"); }
+            }}>Open private draft</button>
+          </details>
           <h2>Private drafts</h2>
           {items.length ? (
             items.map(({ id, document: d }) => (

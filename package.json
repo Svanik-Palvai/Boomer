@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "lessons:check": "node scripts/lessons/run.cjs --check",
+    "lessons:worker": "node scripts/lessons/run.cjs",
+    "lessons:drain": "node scripts/lessons/run.cjs --drain",
+    "lessons:test": "node tests/lessons/preflight.cjs && node tests/lessons/verify.cjs && node tests/lessons/api.cjs && node tests/lessons/render.cjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

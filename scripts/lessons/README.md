@@ -44,6 +44,41 @@ Apply least-privilege access, verify anonymous direct table and bucket reads fai
 
 ## Run the worker
 
+### Hosted production worker
+
+`.github/workflows/lesson-worker.yml` runs on GitHub-hosted Ubuntu with FFmpeg.
+It is scheduled every five minutes off the top of the hour and can be started
+manually from Actions → Training lesson worker → Run workflow. Scheduled runs
+can be delayed by GitHub; this is asynchronous preparation, not a live-call path.
+Only main can process production tasks, and one workflow run executes at a time.
+`npm run lessons:drain` processes available tasks, stops when none are eligible,
+and checks a twenty-minute drain budget between tasks. The job has a forty-minute
+timeout; an interrupted task's lease can be reclaimed by a later run.
+
+Repository Actions secrets are `LESSON_SUPABASE_URL`,
+`LESSON_SUPABASE_SERVICE_ROLE_KEY`, `NEXT_PUBLIC_LESSON_SUPABASE_ANON_KEY`,
+and `LESSON_REVIEWER_EMAILS`. Optional secrets are `LESSON_GEMINI_API_KEY`,
+`LESSON_ELEVENLABS_API_KEY`, and `LESSON_ELEVENLABS_WEBHOOK_SECRET`.
+They are mapped to the application's environment names only inside the worker.
+No service credential belongs in source or a public build variable.
+GitHub can disable scheduled workflows after prolonged repository inactivity;
+check Actions if preparation stays queued. For immediate processing, manually
+dispatch the workflow or run the trusted local worker below.
+
+### Local worker and checks
+
+Run `npm run lessons:check` first. This checks dedicated lesson configuration and
+FFmpeg's required encoders/filters without claiming tasks or changing remote data.
+It reports missing call-provider/reviewer settings without printing their values.
+The worker performs the same check before touching the queue, so a missing FFmpeg
+installation cannot turn queued lessons into failed exports. Passing this local
+check does not verify remote credentials, Auth redirects, or a real recording.
+
+Use `npm run lessons:worker` to process the queue. To run the local regression suite,
+use `FFMPEG_PATH=/path/to/ffmpeg npm run lessons:test` (or omit FFMPEG_PATH when
+FFmpeg is on PATH). The suite uses synthetic media and a fake HTTP storage service;
+it does not publish lessons or prove live provider connectivity.
+
 Install FFmpeg with libx264, AAC, drawbox and drawtext support on the rendering laptop. This workspace has a tested binary at `/tmp/boomer-ffmpeg-runtime/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v7.1`; that temporary installation is not a portable deployment dependency. For a team laptop, install FFmpeg on PATH or set FFMPEG_PATH to its permanent location.
 
 ```
@@ -54,6 +89,52 @@ node scripts/lessons/run.cjs --once   # claim at most one eligible task
 The worker reads `.env` and `.env.local` without printing secrets. It needs the same dedicated project configuration as Vercel. It is an explicit trusted process; nothing runs secretly on user devices. If the worker is offline, drafts stay queued. Missing-media tasks wait thirty seconds between checks and stop automatic attempts after twenty retries; new completion/upload/call events or explicit Retry preparation can wake the pipeline. Restarted workers can reclaim expired leases. Failed tasks require the editor's Retry preparation / Queue render action; a live lease is never stolen by a retry button.
 
 ## End-to-end workflow
+
+### Upload an original recording (no ElevenLabs required)
+
+The editor does not require a voice provider. In `/lessons/workspace`, sign in and
+open **Create a lesson from an existing job recording**. Enter a job linked to your
+worker account and give private-preparation consent. In the draft, expand
+**Import a recording without a phone-call provider** and supply:
+
+- An original MP4 or WebM containing both video and its original recorded audio,
+  no longer than 15 minutes, with readable duration metadata.
+- The actual recording start date/time (local time in the form).
+- Its WebVTT or SRT transcript, with speech times relative to recording start.
+  Existing JSON transcript arrays (`role`, `text`, `start`, `end`) are also accepted.
+
+Upload goes directly to private storage in 20 MiB parts; retries in the open page
+reuse verified parts. The original local file is never deleted. After a reload,
+re-importing creates a new recording session rather than guessing file identity.
+The server accepts evidence only from the linked worker, validates transcript
+bounds and preserves an immutable original transcript. Use caption edits to fix
+wording later. The trusted worker extracts the original soundtrack using FFmpeg;
+an upload with no audio fails explicitly rather than synthesizing replacement
+speech. No ElevenLabs API key or webhook is used on this path.
+
+Run `npm run lessons:worker`, then refresh the editor. Completed-job timestamps
+produce initial clips when they align with the recording. If they do not align,
+select intervals with **Add clip**; no step timestamps are invented. Gemini may
+refine a valid proposal when configured; manual editing and rendering work without
+Gemini. Finish editing, confirm synchronization, render, inspect the full export,
+then obtain the existing electrician review and separate publishing consent.
+The supported publication template remains the inert GFCI demonstration.
+
+Verified in this implementation pass: production build; local API/subtitle/export
+regressions; and the opt-in live private-storage suite in the dedicated Boomer
+project. The live suite uploaded explicitly synthetic video with its original tone
+track, removed the ElevenLabs key, and verified private preview generation,
+soundtrack extraction and preparation of an editable draft. It also verified real
+FFmpeg rendering, task persistence and blocked anonymous reads. All test-owned
+users, rows and remote media were cleaned up; nothing was publicly published.
+
+Dedicated Supabase storage/auth and a running FFmpeg worker are still required.
+ElevenLabs settings are only needed for automatic import from Boomer phone calls.
+This feature does not transcribe uncaptioned uploads automatically: provide an
+original timestamped transcript. It also does not bypass the worker-account
+binding or real-review requirements.
+
+### Automatic capture from a Boomer call
 
 1. Visit `/lessons/workspace`; sign in. Reviewer binds the worker account.
 2. On the harness camera page, start the existing camera; open the optional lesson controls, confirm the job location using the reused LocationPicker, then opt in to lesson recording before the call. Use the two-device fallback if a phone call suspends camera/recording. Capture remains optional and failures never stop still-frame guidance.

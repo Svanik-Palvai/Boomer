@@ -8,6 +8,7 @@ const {
   ffmpeg,
   mediaDuration,
   render,
+  extractOriginalAudio,
 } = require("../../lib/lessons/worker.ts");
 const { demoJob } = require("../../lib/mock/demo.ts");
 (async () => {
@@ -150,6 +151,14 @@ const { demoJob } = require("../../lib/mock/demo.ts");
   const rotatedResult=await render(d,rotatedDir,new Map([['video',rotated],['call',audio]]),async(key)=>key);
   assert.ok(Math.abs(rotatedResult.duration-5)<.15);
   const invalid=path.join(dir,'invalid.mp4');await fs.writeFile(invalid,'not a recording');
+  const combinedSource = path.join(dir, 'imported-source.mp4');
+  await ffmpeg(['-i',video,'-i',audio,'-map','0:v:0','-map','1:a:0','-c','copy','-shortest','-y',combinedSource]);
+  const importedAudio = path.join(dir,'extracted.mp3');
+  assert.ok((await extractOriginalAudio(combinedSource, importedAudio)) > 0);
+  await assert.rejects(() => extractOriginalAudio(video,path.join(dir,'silent.mp3')));
+  const importedResult = await render(d,dir,new Map([['video',combinedSource],['call',importedAudio]]),async key=>key);
+  assert.ok(Math.abs(importedResult.duration-5)<.15);
+  console.log('PASS provider-free original soundtrack extraction and full export; silent source rejected');
   await assert.rejects(()=>mediaDuration(invalid));
   console.log('PASS streaming WebM duration fallback, rotation-metadata export and invalid-media rejection');
   console.log(
