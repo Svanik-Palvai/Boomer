@@ -23,6 +23,11 @@ export const POST = voiceTool("look", async ({ job, worker, req }) => {
 
   // Plan already sent for sign-off (look called twice): don't rebuild or text the supervisor again.
   if (job.status === "plan_ready" && job.approval) {
+    // "I've done this before" said after the plan went out: switch the waiting plan to the quick run, keep the approval.
+    if (QUICK_PHRASE.test(req.note ?? "") && job.steps.some((s) => s.id === "gfci-6-test")) {
+      const q = quickPlan(job.steps, req.note ?? "");
+      await updateJob(job.id, (j) => ({ ...j, steps: q.steps, results: q.results, current: q.current }));
+    }
     const gate = approvalGate(job);
     return { say: gate.wait ? gate.say : "Your plan's ready. Say let's go to start." };
   }
