@@ -46,7 +46,7 @@ export const AGENTS: Agent[] = [
     short: "Talks you through each step.",
     role: "Talks the electrician through the job, one step at a time.",
     runsOn: "ElevenLabs voice agent, reached on a Photon SIP number",
-    receives: "Worker's speech · tool results from 9 server tools",
+    receives: "Worker's speech · tool results from 10 server tools",
     produces: "One short spoken line, exactly the `say` its tool returned",
     sample: "Step 2. Test it dead and tell me the reading.",
     sampleLabel: "readStep(), step 2, journeyman profile",
@@ -183,6 +183,7 @@ export const VOICE_TOOLS = [
   "check_step",
   "stop_job",
   "finish_job",
+  "wait_for_approval",
 ] as const;
 
 /** The demo job's six steps, straight from data/steps.json. */
