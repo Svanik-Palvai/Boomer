@@ -73,6 +73,13 @@ async function main() {
   await text(received("+16095550000", "approve"));
   expect((await getJob(DEMO_JOB_ID))?.approval?.status === "waiting", "still waiting");
 
+  console.log("\n5. A second 'approve' after the decision gets a clear answer, not the sign-up agent");
+  await text(received("+12155550100", "approve"));
+  const decidedAt = (await getJob(DEMO_JOB_ID))?.approval?.decidedAt;
+  const late = (await (await text(received("+12155550100", "approved"))).json().catch(() => ({}))) as { agent?: string };
+  expect(late.agent === "share", `answered by the approval agent (agent=${late.agent})`);
+  expect((await getJob(DEMO_JOB_ID))?.approval?.decidedAt === decidedAt, "the decision isn't made twice");
+
   console.log(fails ? `\n${fails} FAILED` : "\nALL PASSED");
   process.exit(fails ? 1 : 0);
 }
