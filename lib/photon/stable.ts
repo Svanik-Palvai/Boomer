@@ -8,6 +8,8 @@
 // Stable can start a chat (50 new conversations per line per day), so it also reaches people who never texted Boomer.
 // The SDK is ESM-only and keeps a connection open, so it's loaded on first use and kept on globalThis (one per server).
 
+import { ensureStableUser } from "./stableUsers";
+
 const INIT_TIMEOUT_MS = 10_000;
 const SEND_TIMEOUT_MS = 10_000;
 
@@ -47,6 +49,8 @@ async function spectrum(): Promise<any> {
 }
 
 async function dm(phone: string): Promise<any> {
+  // The shared pool only reaches registered users (lib/photon/stableUsers.ts), so register first.
+  await ensureStableUser(phone);
   const sp = await spectrum();
   const { imessage } = await sdk();
   const im = imessage(sp);

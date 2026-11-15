@@ -31,7 +31,7 @@ export async function shareReply(job: Job | null, worker: Worker, text: string):
     if (!phone) return "What's their number? Text it like: my supervisor is Dana 215 555 0100";
     const name = nameNear(msg, rawPhone!);
     const c = await saveContacts(worker.id, { supervisorPhone: phone, supervisorName: name });
-    return `Saved ${c.supervisorName ? `${c.supervisorName} (${c.supervisorPhone})` : c.supervisorPhone} as your supervisor. I'll only text them when you ask, like "tell my supervisor I'm stuck on step 4". They need to text this number once first so I can reach them.`;
+    return `Saved ${c.supervisorName ? `${c.supervisorName} (${c.supervisorPhone})` : c.supervisorPhone} as your supervisor. I'll only text them when you ask, like "tell my supervisor I'm stuck on step 4".`;
   }
 
   // Alert the supervisor, only on the worker's word.
@@ -55,7 +55,7 @@ export async function shareReply(job: Job | null, worker: Worker, text: string):
     const who = c.supervisorName ?? "your supervisor";
     return sent
       ? `Sent to ${who}${card ? ", with the live job sheet" : ""}.`
-      : `I can't reach ${who} yet: they need to text this number once first. Here's the message to forward:\n\n${alert}`;
+      : `I couldn't reach ${who} just now. Here's the message to forward:\n\n${alert}`;
   }
 
   // The live job sheet for this job.
