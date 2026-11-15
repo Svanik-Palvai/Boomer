@@ -1,8 +1,9 @@
-// OWNER: Zohaib. Inbound texts from Photon 2.0 (Standard Webhooks). Routed by lib/agents/inbox.ts.
-// Only used while iMessage runs on Photon 2.0; with Photon 1.0 texting on, inbound comes to /api/webhooks/spectrum.
-// Photon dashboard → Webhooks → Add a destination: this URL, event "message.received" (or *). Put the whsec_ secret in PHOTON_WEBHOOK_SECRET.
-// Payload (apiVersion 2026-07-01): { type: "message.received", data: { object: { sentBy: { handle }, content } } }; content is
-// { type: "text", text } or, for a multi-part SMS, { type: "group", parts: [...] }.
+// OWNER: Zohaib. Inbound texts from Photon 2.0 (Standard Webhooks): SMS to PHOTON_NUMBER or iMessage to a 2.0 line.
+// Routed by lib/agents/inbox.ts, the same agents and database as the Photon 1.0 webhook (/api/webhooks/spectrum).
+// Photon dashboard → Webhooks → the destination must point at https://<app>/api/webhooks/photon, event "message.received".
+// Put its whsec_ secret in PHOTON_WEBHOOK_SECRET.
+// Payload (apiVersion 2026-07-01): { type: "message.received", data: { object: { platform, status: "received", sentBy: { handle }, content } } }.
+// content is { type: "text", text } or, for a multi-part SMS/MMS, { type: "group", parts: [...] }.
 // Local testing: with no PHOTON_WEBHOOK_SECRET set, POST { "data": { "object": { "id": "...", "sentBy": { "handle": "+1..." }, "content": { "type": "text", "text": "record" } } } }.
 import { NextResponse } from "next/server";
 import { handleInboundText } from "@/lib/agents/inbox";
@@ -31,6 +32,8 @@ function textOf(c: PhotonContent | undefined): string {
   return "";
 }
 
+const same = (a?: string, b?: string) => !!a && !!b && a.replace(/\D/g, "").slice(-10) === b.replace(/\D/g, "").slice(-10);
+
 export async function POST(req: Request) {
   const raw = await req.text();
   if (!verifyPhotonWebhook(raw, req.headers)) return NextResponse.json({ error: "bad signature" }, { status: 400 });
@@ -44,12 +47,10 @@ export async function POST(req: Request) {
   if (eventId && !(await firstTimeSeen(`photon:${eventId}`))) return new Response(null, { status: 204 });
 
   if (event.type && event.type !== "message.received") return new Response(null, { status: 204 });
-  // apiVersion 2026-07-01 nests the message under data.object; older payloads used data.message or data itself.
-  // Reading only the old shapes dropped every inbound text, including a supervisor's "approve".
   const m = event.data?.object ?? event.data?.message ?? event.data;
   const from = m?.sentBy?.handle;
   const text = textOf(m?.content);
-  if (!m || !from || !text || m.sentBy?.kind === "agent") {
+  if (!m || !from || !text || m.sentBy?.kind === "agent" || same(from, process.env.PHOTON_NUMBER)) {
     return new Response(null, { status: 204 }); // not an inbound human text
   }
 
