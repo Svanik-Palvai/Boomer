@@ -8,6 +8,7 @@ import { useWakeLock } from "@/components/camera/useWakeLock";
 import { usePoll } from "@/components/hooks/useJob";
 import { ActionBar, Banner, Tape } from "@/components/screens/shell";
 import { FRAMES } from "@/lib/config";
+import LessonRecorder from "@/components/lessons/Recorder";
 import { api } from "@/lib/routes";
 import s from "./camera.module.css";
 
@@ -97,6 +98,7 @@ export default function CameraPage({ params }: { params: { workerId: string } })
 
       <div className={s.viewport}>
         <video ref={cam.videoRef} className={s.video} playsInline muted autoPlay />
+        <LessonRecorder workerId={params.workerId} jobId={cam.ack?.jobId} jobStatus={job?.status??cam.ack?.status} videoRef={cam.videoRef} />
         {cam.camera !== "live" && <CameraNotice cam={cam} />}
       </div>
 

@@ -1,0 +1,1243 @@
+/* OWNER: Pitch presentation. Scoped industrial palette; product screens keep their tokens. */
+@font-face {
+  font-family: BoomerCondensed;
+  src: url("/pitch/barlow-condensed-bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: BoomerCondensed;
+  src: url("/pitch/barlow-condensed-extra.ttf") format("truetype");
+  font-weight: 800;
+  font-display: swap;
+}
+.pitch {
+  --yellow: #f4c430;
+  --black: #171914;
+  --paper: #f1ebdd;
+  --olive: #525b3e;
+  --orange: #d97842;
+  --muted: #b8b9a9;
+  --progress: 0;
+  --gather: 0;
+  background: var(--paper);
+  color: var(--black);
+  font-size: 18px;
+  line-height: 1.5;
+  color-scheme: light;
+  overflow: clip;
+}
+.pitch * {
+  box-sizing: border-box;
+}
+.pitch a {
+  color: inherit;
+  text-decoration-color: currentColor;
+  text-underline-offset: 5px;
+}
+.pitch :focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 5px;
+  border-radius: 0;
+}
+.pitch h1,
+.pitch h2,
+.pitch h3,
+.brand,
+.footer > a {
+  font-family: BoomerCondensed, "Arial Narrow", Impact, sans-serif;
+  text-wrap: balance;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 0.96;
+}
+.pitch h2 {
+  font-size: clamp(48px, 5.5vw, 80px);
+}
+.pitch h3 {
+  font-size: clamp(28px, 3vw, 40px);
+}
+.pitch p {
+  max-width: 62ch;
+}
+.pitch button {
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid currentColor;
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
+  min-height: 48px;
+  padding: 10px 16px;
+}
+.pitch button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.pitch button:hover:not(:disabled) {
+  background: var(--yellow);
+  color: var(--black);
+}
+.skip {
+  position: fixed;
+  left: 16px;
+  top: -100px;
+  z-index: 101;
+  background: var(--paper);
+  padding: 12px;
+}
+.skip:focus {
+  top: 80px;
+}
+.nav {
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  padding: 0 3.5%;
+  background: var(--black);
+  color: var(--paper);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  border-bottom: 1px solid #ffffff25;
+}
+.brand {
+  font-size: 34px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.brand {
+  --hat-gap: var(--black);
+  padding-top: 8px;
+}
+.brand > span:last-child {
+  color: var(--yellow);
+  margin-left: 5px;
+}
+.nav nav {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.nav nav a {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  padding: 18px 0;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+}
+.nav nav a[aria-current] {
+  color: var(--yellow);
+  border-bottom-color: var(--yellow);
+}
+.navDemo {
+  font-family: monospace;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid #f1ebdd60;
+  padding: 12px 16px;
+  white-space: nowrap;
+}
+.navDemo:hover {
+  color: var(--yellow);
+}
+.progress {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 3px;
+  background: var(--yellow);
+  transform-origin: left;
+  transform: scaleX(var(--progress));
+}
+.main {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+.sectionLabel {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  font-family: monospace;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+.kicker {
+  font-family: monospace;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  line-height: 1.6;
+  text-transform: uppercase;
+  display: block;
+}
+.section {
+  padding: 72px 6%;
+  scroll-margin-top: 76px;
+}
+.paper {
+  background: var(--paper);
+  color: var(--black);
+}
+.dark {
+  background: var(--black);
+  color: var(--paper);
+}
+.sectionLabel {
+  border-top: 1px solid currentColor;
+  padding-top: 14px;
+  margin-bottom: 52px;
+}
+.split {
+  display: grid;
+  grid-template-columns: 1.12fr 1fr;
+  gap: 8%;
+  align-items: start;
+}
+.lede {
+  font-size: 23px;
+  line-height: 1.45;
+}
+.lede p + p {
+  margin-top: 20px;
+}
+.yellowText {
+  color: var(--yellow);
+}
+.industry {
+  background: #e4dfd2;
+  padding: 32px 0 36px;
+  border-top: 1px solid #17191430;
+}
+.railHeading {
+  padding: 0 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.railHeading h2 {
+  font-size: 32px;
+}
+.railHeading p {
+  font-size: 12px;
+  margin-top: 8px;
+}
+.railHeading button {
+  font: 11px monospace;
+  flex-shrink: 0;
+}
+.railViewport {
+  overflow: hidden;
+}
+.rail {
+  display: flex;
+  width: max-content;
+  animation: railTravel 45s linear infinite;
+}
+.rail[data-paused="true"],
+.railViewport:focus-within .rail,
+.railViewport:hover .rail {
+  animation-play-state: paused;
+}
+.railGroup {
+  display: flex;
+  gap: 16px;
+  padding-right: 16px;
+}
+.companyWrap {
+  width: 220px;
+  flex: 0 0 220px;
+  background: #faf9f5;
+  border: 1px solid #17191425;
+}
+.company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  text-decoration: none;
+  min-height: 122px;
+}
+.companyImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 100%;
+}
+.company img {
+  width: auto;
+  max-width: 170px;
+  height: auto;
+  max-height: 64px;
+  object-fit: contain;
+}
+.company b {
+  font-size: 23px;
+  color: #273940;
+}
+.company small {
+  font: 9px monospace;
+  text-transform: uppercase;
+  color: #525b3e;
+  margin-top: 10px;
+}
+@keyframes railTravel {
+  to {
+    transform: translateX(-50%);
+  }
+}
+.guideLayout {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 10%;
+  margin-top: 40px;
+  align-items: start;
+}
+.guideVisual {
+  position: sticky;
+  top: 105px;
+  padding-top: 24px;
+}
+.harness {
+  width: 100%;
+  height: auto;
+  max-height: 56vh;
+  display: block;
+}
+.guideVisual > .kicker {
+  color: var(--muted);
+}
+.voice {
+  border-top: 1px solid #f1ebdd50;
+  padding: 20px 0;
+  min-height: 160px;
+}
+.voice p {
+  font-size: 22px;
+  line-height: 1.3;
+  margin-top: 12px;
+  max-width: 38ch;
+}
+.signal {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 36px;
+  margin-top: 18px;
+}
+.signal i {
+  display: block;
+  width: 3px;
+  background: var(--yellow);
+}
+.guideBeat {
+  min-height: 64vh;
+  padding: 70px 0;
+  border-top: 1px solid #f1ebdd40;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.guideBeat > .kicker {
+  color: var(--yellow);
+}
+.guideBeat h3 {
+  font-size: 46px;
+  margin: 16px 0 22px;
+}
+.guideBeat p {
+  color: var(--muted);
+  font-size: 18px;
+}
+.technical {
+  display: block;
+  color: var(--yellow);
+  font: 11px monospace;
+  margin-top: 30px;
+  padding-left: 14px;
+  border-left: 2px solid var(--yellow);
+}
+.mobileQuote {
+  display: none;
+}
+.replaySection {
+  background: var(--olive);
+  color: var(--paper);
+  min-height: 320vh;
+  scroll-margin-top: 76px;
+}
+.replaySticky {
+  position: sticky;
+  top: 76px;
+  padding: 32px 6% 24px;
+  min-height: calc(100svh - 76px);
+}
+.replaySticky > .sectionLabel {
+  margin-bottom: 28px;
+}
+.replayLayout {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 7%;
+  align-items: center;
+}
+.replayText > h2 {
+  font-size: clamp(42px, 4.6vw, 68px);
+}
+.demoLabel {
+  font: 10px monospace;
+  line-height: 1.6;
+  margin: 18px 0 24px;
+  border-left: 3px solid var(--yellow);
+  padding-left: 12px;
+}
+.replayCaption {
+  min-height: 260px;
+}
+.replayCaption h3 {
+  font-size: 28px;
+  margin: 12px 0 20px;
+}
+.speaker {
+  font: 10px monospace;
+  color: var(--yellow);
+  display: block;
+}
+.spoken {
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 8px 0 18px;
+}
+.replayNote {
+  font-size: 13px;
+  line-height: 1.5;
+  max-width: 52ch;
+}
+.replayControls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.replayControls button {
+  font: 12px monospace;
+  padding: 8px 12px;
+  min-height: 44px;
+}
+.replayControls > span {
+  font: 12px monospace;
+  padding: 8px;
+}
+.controlNote {
+  font: 10px monospace;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+.replayDiagram {
+  border: 1px solid #f1ebdd70;
+  background: #24291f;
+}
+.diagramHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font: 9px monospace;
+  padding: 14px;
+  border-bottom: 1px solid #f1ebdd40;
+}
+.outlet {
+  width: 100%;
+  height: auto;
+  max-height: 48vh;
+  display: block;
+}
+.diagramStatus {
+  padding: 16px;
+  font: 12px monospace;
+  background: var(--orange);
+  color: var(--black);
+  border-top: 1px solid var(--black);
+  font-weight: bold;
+}
+.diagramStatus[data-correct="true"] {
+  background: #c6d2b1;
+}
+.safety {
+  font-size: 11px;
+  line-height: 1.5;
+  border-top: 1px solid #f1ebdd50;
+  margin-top: 24px;
+  padding-top: 14px;
+  max-width: none !important;
+}
+.staticReplay {
+  font-size: 14px;
+  margin-top: 24px;
+}
+.lessonSection {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 10%;
+  border-bottom: 1px solid #17191430;
+}
+.lessonSection h2 {
+  margin: 24px 0;
+}
+.lessonSection p {
+  font-size: 18px;
+  max-width: 40ch;
+}
+.textLink {
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 24px;
+  padding-block: 12px;
+  font-weight: bold;
+}
+.lessonFlow {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid currentColor;
+}
+.lessonFlow li {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  font-size: 20px;
+  padding: 18px 0;
+  border-bottom: 1px solid #17191440;
+}
+.lessonFlow span {
+  font: 12px monospace;
+  color: var(--olive);
+}
+.lessonSection .pipelineNote {
+  font: 11px monospace;
+  margin-top: 20px;
+  line-height: 1.7;
+}
+.architecture {
+  display: grid;
+  grid-template-columns: 1fr 30px 1.4fr 30px 1fr;
+  align-items: center;
+  gap: 16px;
+  margin-top: 60px;
+}
+.architecture > div {
+  padding: 24px 0;
+  border-block: 1px solid #f1ebdd50;
+}
+.architecture h3 {
+  font-size: 28px;
+  margin: 14px 0;
+}
+.architecture p {
+  font-size: 14px;
+  color: var(--muted);
+}
+.architecture .backend {
+  background: var(--yellow);
+  color: var(--black);
+  padding: 32px 24px;
+}
+.backend p {
+  color: var(--black);
+}
+.connector {
+  font-size: 26px;
+  color: var(--yellow);
+  text-align: center;
+}
+.architectureBottom {
+  font: 12px monospace;
+  text-align: center;
+  margin: 24px auto 0;
+  padding: 16px;
+  border-bottom: 1px solid #f1ebdd50;
+  color: var(--yellow);
+}
+.architectureBottom span {
+  padding-inline: 15px;
+}
+.buildNotes {
+  margin: 32px 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+.buildNotes summary {
+  cursor: pointer;
+  min-height: 48px;
+  padding: 12px 0;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.buildNotes p {
+  margin: 16px 0;
+}
+.final {
+  padding: 70px 0;
+  border-bottom: 1px solid #f1ebdd50;
+}
+.final h2 {
+  margin: 24px 0 32px;
+  font-size: clamp(56px, 7vw, 100px);
+}
+.finalActions {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.cta {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 56px;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 20px 24px;
+  background: var(--yellow);
+  color: var(--black) !important;
+  border: 1px solid var(--yellow);
+  min-height: 64px;
+}
+.cta:hover {
+  background: var(--paper);
+  border-color: var(--paper);
+}
+.finalActions .textLink {
+  margin: 0;
+}
+.finalNote {
+  font: 11px monospace;
+  line-height: 1.6;
+  color: var(--muted);
+  margin-top: 22px;
+}
+.team {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  padding-top: 32px;
+}
+.team b {
+  display: block;
+  font-family: BoomerCondensed, Impact, sans-serif;
+  font-size: 28px;
+}
+.team span {
+  display: block;
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 5px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  align-items: center;
+  padding: 40px 6%;
+  background: var(--yellow);
+  color: var(--black);
+}
+.footer > a {
+  font-size: 54px;
+  text-decoration: none;
+  /* On the yellow footer the hat inverts to black so it stays visible. */
+  --hat: var(--black);
+  --hat-gap: var(--yellow);
+  padding-top: 14px;
+}
+.footer p {
+  font-size: 16px;
+}
+.footer > span {
+  font: 10px monospace;
+  text-align: right;
+  line-height: 1.7;
+}
+@media (min-width: 1500px) {
+  .section {
+    padding-inline: max(6%, calc((100vw - 1300px) / 2));
+  }
+  .replaySticky {
+    padding-inline: max(6%, calc((100vw - 1300px) / 2));
+  }
+}
+@media (max-width: 1100px) {
+  .nav {
+    gap: 20px;
+  }
+  .nav nav {
+    gap: 15px;
+  }
+  .nav nav a {
+    font-size: 10px;
+  }
+  .replayCaption {
+    min-height: 290px;
+  }
+  .spoken {
+    font-size: 21px;
+  }
+}
+@media (max-width: 899px) {
+  .nav {
+    height: auto;
+    min-height: 68px;
+    flex-wrap: wrap;
+    padding: 12px 5%;
+    gap: 10px;
+  }
+  .brand {
+    font-size: 30px;
+  }
+  .navDemo {
+    margin-left: auto;
+    font-size: 10px;
+    padding: 8px 12px;
+  }
+  .nav nav {
+    order: 3;
+    width: 100%;
+    overflow: auto;
+    gap: 20px;
+  }
+  .nav nav a {
+    font-size: 10px;
+    padding: 7px 0;
+  }
+  .section {
+    padding: 48px 6%;
+    scroll-margin-top: 110px;
+  }
+  .sectionLabel {
+    margin-bottom: 36px;
+    font-size: 9px;
+  }
+  .split {
+    gap: 5%;
+  }
+  .lede {
+    font-size: 19px;
+  }
+  .guideLayout {
+    gap: 5%;
+  }
+  .guideVisual {
+    position: static;
+  }
+  .guideBeat {
+    min-height: 0;
+    padding: 30px 0;
+  }
+  .guideBeat h3 {
+    font-size: 32px;
+  }
+  .guideBeat p {
+    font-size: 15px;
+  }
+  .technical {
+    font-size: 9px;
+    margin-top: 20px;
+  }
+  .harness {
+    max-height: none;
+  }
+  .mobileQuote {
+    display: block;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--yellow);
+    margin: 20px 0 0;
+  }
+  .voice {
+    display: none;
+  }
+  .replaySection {
+    min-height: 0;
+    scroll-margin-top: 110px;
+  }
+  .replaySticky {
+    position: relative;
+    top: 0;
+    padding: 40px 6%;
+    min-height: 0;
+  }
+  .replayLayout {
+    gap: 5%;
+    align-items: start;
+  }
+  .replayCaption {
+    min-height: 330px;
+  }
+  .replayText > h2 {
+    font-size: 44px;
+  }
+  .replayDiagram {
+    margin-top: 20px;
+  }
+  .outlet {
+    max-height: none;
+  }
+  .replayControls {
+    gap: 6px;
+  }
+  .replayControls button {
+    font-size: 11px;
+    padding: 8px;
+  }
+  .diagramStatus {
+    font-size: 10px;
+  }
+  .lessonSection {
+    gap: 6%;
+  }
+  .lessonFlow li {
+    font-size: 17px;
+  }
+  .architecture {
+    gap: 10px;
+    grid-template-columns: 1fr 18px 1.4fr 18px 1fr;
+  }
+  .architecture h3 {
+    font-size: 24px;
+  }
+  .architecture .backend {
+    padding: 20px 16px;
+  }
+  .architecture p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 599px) {
+  .pitch {
+    font-size: 16px;
+  }
+  .sectionLabel {
+    font-size: 8px;
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+  .sectionLabel span:last-child {
+    text-align: right;
+    max-width: 45%;
+  }
+  .pitch h2 {
+    font-size: 52px;
+  }
+  .split,
+  .guideLayout,
+  .replayLayout,
+  .lessonSection {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .lede {
+    font-size: 18px;
+  }
+  .railHeading {
+    align-items: flex-start;
+    gap: 14px;
+  }
+  .railHeading h2 {
+    font-size: 25px;
+  }
+  .railHeading p {
+    font-size: 10px;
+    max-width: 25ch;
+  }
+  .railHeading button {
+    font-size: 9px;
+    padding: 8px;
+    min-width: 82px;
+  }
+  .companyWrap {
+    width: 180px;
+    flex-basis: 180px;
+  }
+  .company img {
+    max-width: 142px;
+  }
+  .guideVisual {
+    padding: 0;
+  }
+  .harness {
+    max-height: 380px;
+  }
+  .guideCopy {
+    margin-top: 0;
+  }
+  .guideBeat h3 {
+    font-size: 36px;
+  }
+  .guideBeat p {
+    font-size: 17px;
+  }
+  .guideBeat {
+    padding: 30px 0;
+  }
+  .replaySticky {
+    padding-top: 40px;
+  }
+  .replayCaption {
+    min-height: 310px;
+  }
+  .replayDiagram {
+    margin: 0;
+  }
+  .outlet {
+    max-height: 400px;
+  }
+  .replayText > h2 {
+    font-size: 48px;
+  }
+  .replayCaption h3 {
+    font-size: 30px;
+  }
+  .spoken {
+    font-size: 24px;
+  }
+  .replayNote {
+    font-size: 13px;
+  }
+  .demoLabel {
+    font-size: 9px;
+  }
+  .replayControls {
+    flex-wrap: nowrap;
+  }
+  .replayControls button {
+    font-size: 10px;
+  }
+  .controlNote {
+    font-size: 9px;
+  }
+  .replayLayout {
+    gap: 24px;
+  }
+  .diagramHeader {
+    font-size: 8px;
+  }
+  .lessonSection {
+    gap: 40px;
+  }
+  .lessonSection h2 {
+    font-size: 48px;
+  }
+  .lessonSection p {
+    font-size: 16px;
+  }
+  .architecture {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  .architecture > div {
+    padding: 20px;
+  }
+  .connector {
+    transform: rotate(90deg);
+    height: 28px;
+    line-height: 28px;
+  }
+  .architecture h3 {
+    font-size: 30px;
+  }
+  .architecture p {
+    font-size: 15px;
+  }
+  .architectureBottom {
+    font-size: 9px;
+  }
+  .final {
+    padding: 44px 0;
+  }
+  .final h2 {
+    font-size: 54px;
+  }
+  .finalActions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .cta {
+    width: 100%;
+    font-size: 18px;
+    gap: 24px;
+  }
+  .team {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  .team b {
+    font-size: 27px;
+  }
+  .team span {
+    font-size: 11px;
+  }
+  .footer {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .footer > a {
+    font-size: 48px;
+  }
+  .footer p {
+    font-size: 13px;
+  }
+  .footer > span {
+    text-align: left;
+    font-size: 9px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pitch *,
+  .pitch *::before,
+  .pitch *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+  .rail {
+    width: 100%;
+    transform: none;
+  }
+  .railGroup {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 0 20px;
+  }
+  .railGroup[aria-hidden="true"] {
+    display: none;
+  }
+  .companyWrap {
+    max-width: 220px;
+    flex: 1 1 150px;
+  }
+  .replaySection {
+    min-height: 0;
+  }
+  .replaySticky {
+    position: relative;
+    top: 0;
+  }
+  .guideVisual {
+    position: static;
+  }
+  .guideBeat {
+    min-height: 0;
+    padding: 32px 0;
+  }
+  .mobileQuote {
+    display: block;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--yellow);
+    margin: 20px 0 0;
+  }
+  .voice {
+    display: none;
+  }
+}
+
+/* A faint paper impression, drawn locally rather than a stock texture. */
+.paper {
+  background-image: url("/pitch/grain.svg");
+}
+
+/* The physical setup responds as the four voice beats pass through view. */
+@media (min-width: 900px) and (prefers-reduced-motion: no-preference) {
+  .guideBeat {
+    opacity: 0.35;
+    transform: translateY(18px);
+    transition:
+      opacity 350ms ease,
+      transform 350ms ease;
+  }
+  .guideBeat[data-active="true"] {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .guideVisual svg {
+    transition: transform 600ms ease;
+    transform-origin: 50% 55%;
+  }
+  .guideVisual[data-guide-phase="1"] svg {
+    transform: scale(1.035);
+  }
+  .guideVisual[data-guide-phase="2"] svg {
+    transform: scale(1.065);
+  }
+  .guideVisual[data-guide-phase="3"] svg {
+    transform: scale(1.1);
+  }
+}
+
+@media (max-height: 619px) {
+  .replaySection {
+    min-height: 0;
+  }
+  .replaySticky,
+  .guideVisual {
+    position: relative;
+    top: 0;
+  }
+}
+
+.nav nav {
+  flex: 1;
+  min-width: 0;
+  overflow-x: auto;
+}
+.nav nav a {
+  flex-shrink: 0;
+}
+.team > b {
+  font-family: BoomerCondensed, Impact, sans-serif;
+  font-size: 28px;
+}
+@media (max-width: 899px) {
+  .nav nav {
+    flex: 0 0 100%;
+    width: 100%;
+    order: 3;
+  }
+}
+
+.pipelineTech {
+  margin-top: 20px;
+  border-top: 1px solid #17191440;
+  font-size: 13px;
+}
+.pipelineTech summary {
+  min-height: 48px;
+  cursor: pointer;
+  padding-block: 14px;
+}
+.pipelineTech p {
+  font-size: 13px;
+  line-height: 1.6;
+  margin-block: 12px;
+}
+.pipelineTech a {
+  display: inline-block;
+  padding-block: 12px;
+  font-size: 12px;
+}
+/* Judge walkthrough: complete content with concise sections, rather than scroll delays. */
+.guideLayout {
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 6%;
+  align-items: center;
+}
+.guideVisual {
+  position: static;
+  padding: 0;
+}
+.guideVisual .harness {
+  max-height: 390px;
+}
+.guideCopy {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.guideBeat {
+  min-height: 0;
+  padding: 20px 0;
+  opacity: 1;
+  transform: none;
+  justify-content: start;
+}
+.guideBeat h3 {
+  font-size: 30px;
+  margin: 12px 0;
+}
+.guideBeat p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+.guideVisual svg {
+  transform: none !important;
+  max-height: 390px;
+}
+.voice {
+  min-height: 0;
+  padding: 16px 0;
+}
+.voice p {
+  font-size: 18px;
+}
+.signal {
+  display: none;
+}
+.section,
+.industry,
+.replaySticky {
+  padding-left: max(6%, calc((100% - 1300px) / 2));
+  padding-right: max(6%, calc((100% - 1300px) / 2));
+}
+.trackDisclosure {
+  background: var(--paper);
+  border-block: 1px solid #17191440;
+}
+.trackDisclosure > summary {
+  cursor: pointer;
+  padding: 24px 6%;
+  font: 12px/1.5 monospace;
+}
+.lessonArchitecture {
+  border: 1px solid #f1ebdd40;
+  padding: 20px;
+  font: 11px/1.8 monospace;
+  color: var(--yellow);
+  margin-top: 20px;
+}
+.lessonSection {
+  scroll-margin-top: 105px;
+}
+@media (max-width: 900px) {
+  .guideLayout {
+    grid-template-columns: 1fr;
+  }
+  .guideVisual .harness,
+  .guideVisual svg {
+    max-height: 320px;
+  }
+  .guideCopy {
+    margin-top: 20px;
+  }
+  .guideBeat {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media (max-width: 599px) {
+  .guideCopy {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .guideBeat h3 {
+    font-size: 28px;
+  }
+  .guideBeat {
+    padding: 18px 0;
+  }
+}

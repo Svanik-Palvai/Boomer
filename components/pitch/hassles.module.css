@@ -1,0 +1,513 @@
+/* OWNER: Pitch presentation. Hero hassle cards: the jobsite paperwork, phones and tags an electrician juggles. */
+.card {
+  --ink: #171914;
+  --paper: #efe9da;
+  --red: #b83a26;
+  --yellow: #f4c430;
+  --olive: #525b3e;
+  --mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --hand: "Segoe Print", "Bradley Hand", Noteworthy, "Marker Felt", cursive;
+  /* Each card starts gathering a little later than the last, then is pulled into the hub. */
+  --g: clamp(0, calc((var(--gather, 0) - var(--d, 0)) / (1 - var(--d, 0))), 1);
+  position: absolute;
+  box-sizing: border-box;
+  text-align: left;
+  font: 400 13px/1.35 system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--ink);
+  box-shadow:
+    0 1px 0 rgb(255 255 255 / 0.06) inset,
+    0 2px 4px rgb(0 0 0 / 0.35),
+    0 26px 44px -20px rgb(0 0 0 / 0.75);
+  transform: translate(calc(var(--tx, 0px) * var(--g)), calc(var(--ty, 0px) * var(--g)))
+    rotate(calc(var(--r, 0deg) * (1 - var(--g))))
+    scale(calc((1 - var(--g) * 0.86) * var(--s, 1)));
+  opacity: calc(1 - var(--g) * var(--g));
+  will-change: transform, opacity;
+}
+.label {
+  display: block;
+  font: 600 10px/1.4 var(--mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+/* The one line that says the hassle in plain words; same treatment on every card. */
+.pain {
+  margin: 12px 0 0;
+  padding-top: 9px;
+  border-top: 1px solid currentColor;
+  font: 700 14px/1.2 BoomerCondensed, "Arial Narrow", sans-serif;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  max-width: none;
+}
+
+/* ---- Code book ---- */
+.book {
+  width: 196px;
+  padding: 16px 16px 14px 32px;
+  border-radius: 3px 7px 7px 3px;
+  color: var(--paper);
+  background:
+    linear-gradient(90deg, #0b0c09 0 12px, #2a2d25 12px 14px, transparent 14px),
+    linear-gradient(160deg, #2a2d26, #1b1d18);
+}
+.book .label {
+  color: var(--yellow);
+}
+.bookYear {
+  display: block;
+  margin-top: 10px;
+  font: 800 58px/0.85 BoomerCondensed, Impact, sans-serif;
+  letter-spacing: -0.02em;
+  color: var(--yellow);
+}
+.bookEdition {
+  display: block;
+  font: 700 18px/1 BoomerCondensed, Impact, sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.bookOld {
+  display: inline-block;
+  margin-top: 10px;
+  font: 11px var(--mono);
+  color: #9fa392;
+  text-decoration: line-through 2px var(--red);
+}
+
+/* ---- Red inspection tag ---- */
+.tag {
+  width: 196px;
+  padding: 34px 16px 14px;
+  color: #fff3e3;
+  background:
+    radial-gradient(circle at 20% 15%, rgb(255 255 255 / 0.08), transparent 55%),
+    linear-gradient(180deg, #c4432d, #a3321f);
+  clip-path: polygon(22% 0, 78% 0, 100% 11%, 100% 100%, 0 100%, 0 11%);
+}
+.grommet {
+  position: absolute;
+  top: 9px;
+  left: 50%;
+  width: 16px;
+  height: 16px;
+  margin-left: -8px;
+  border-radius: 50%;
+  background: #141511;
+  box-shadow: 0 0 0 3px #d8d2c4, 0 0 0 4px rgb(0 0 0 / 0.3);
+}
+.tagStamp {
+  display: inline-block;
+  margin: 8px 0 10px;
+  padding: 2px 8px 0;
+  border: 3px solid currentColor;
+  font: 800 34px/1 BoomerCondensed, Impact, sans-serif;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transform: rotate(-4deg);
+}
+.tagRows {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 4px 10px;
+  margin: 0;
+  font: 11px/1.35 var(--mono);
+}
+.tagRows dt {
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+.tagRows dd {
+  margin: 0;
+}
+
+/* ---- Missed-call notification ---- */
+.phone {
+  width: 236px;
+  padding: 10px 10px 14px;
+  border-radius: 22px;
+  color: var(--paper);
+  background: #0f100d;
+  border: 1px solid rgb(255 255 255 / 0.1);
+}
+.phone .pain {
+  margin: 12px 6px 0;
+}
+.notice {
+  padding: 12px;
+  border-radius: 14px;
+  background: #262822;
+}
+.noticeHead {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font: 600 10px/1 var(--mono);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #b9bcab;
+}
+.noticeHead svg {
+  width: 16px;
+  height: 16px;
+  padding: 3px;
+  border-radius: 5px;
+  background: #3c9a52;
+  fill: #fff;
+}
+.noticeHead time {
+  margin-left: auto;
+  text-transform: none;
+}
+.notice b {
+  display: block;
+  margin-top: 9px;
+  font-size: 13px;
+}
+.notice p {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: #d8d4c6;
+}
+
+/* ---- Paper hours log ---- */
+.hours {
+  width: 188px;
+  padding: 14px 16px;
+  background:
+    radial-gradient(circle at 78% 70%, transparent 21px, rgb(120 82 40 / 0.22) 22px 25px, transparent 26px),
+    repeating-linear-gradient(transparent 0 25px, rgb(23 25 20 / 0.12) 25px 26px),
+    #ece5d3;
+}
+.hoursRows {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+}
+.hoursRows li {
+  display: flex;
+  justify-content: space-between;
+  height: 26px;
+  align-items: center;
+  font: 11px var(--mono);
+}
+.hoursRows em {
+  font: 400 18px/1 var(--hand);
+  color: #24408f;
+}
+.smudge {
+  filter: blur(0.6px);
+  opacity: 0.75;
+}
+
+/* ---- License card ---- */
+.license {
+  width: 236px;
+  padding: 0 0 14px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: linear-gradient(160deg, #e3e6d6, #c8cdb6);
+}
+.license .pain {
+  margin: 12px 14px 0;
+}
+.licenseHead {
+  padding: 9px 14px;
+  background: var(--olive);
+  color: var(--paper);
+  font: 600 10px/1.4 var(--mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.licenseBody {
+  display: flex;
+  gap: 12px;
+  padding: 12px 14px 0;
+}
+.portrait {
+  flex: none;
+  width: 44px;
+  height: 54px;
+  border-radius: 4px;
+  background:
+    radial-gradient(circle at 50% 36%, #8b917c 0 9px, transparent 10px),
+    radial-gradient(ellipse at 50% 100%, #8b917c 0 19px, transparent 20px),
+    #aeb49c;
+}
+.licenseBody dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 3px 10px;
+  margin: 0;
+  font: 11px/1.3 var(--mono);
+}
+.licenseBody dt {
+  color: #5d6450;
+  text-transform: uppercase;
+}
+.licenseBody dd {
+  margin: 0;
+  font-weight: 600;
+}
+.licenseStamp {
+  display: inline-block;
+  margin: 10px 14px 0;
+  padding: 3px 7px;
+  border: 2px solid var(--red);
+  color: var(--red);
+  font: 800 15px/1 BoomerCondensed, Impact, sans-serif;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transform: rotate(-4deg);
+}
+
+/* ---- Apprentice text with a blurry photo ---- */
+.chat {
+  width: 210px;
+  padding: 14px;
+  border-radius: 18px;
+  background: #e8e3d5;
+}
+.chat .label {
+  color: #5d6450;
+}
+.photo {
+  height: 82px;
+  margin-top: 10px;
+  border-radius: 12px 12px 12px 4px;
+  overflow: hidden;
+  background: radial-gradient(circle at 60% 40%, #7a6f58, #3b3a30 70%);
+}
+.photo svg {
+  width: 100%;
+  height: 100%;
+  filter: blur(2.2px);
+}
+.photo path {
+  fill: none;
+  stroke-width: 6;
+  stroke-linecap: round;
+}
+.photo path:nth-child(1) {
+  stroke: #1a1a17;
+}
+.photo path:nth-child(2) {
+  stroke: #e8e2d0;
+}
+.photo path:nth-child(3) {
+  stroke: #b8873c;
+}
+.bubble {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 7px 12px;
+  border-radius: 16px 16px 16px 4px;
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 14px;
+}
+.delivered {
+  display: block;
+  margin-top: 5px;
+  font: 10px var(--mono);
+  color: #6b705f;
+}
+
+/* ---- Permit form ---- */
+.permit {
+  width: 214px;
+  padding: 0 14px 14px;
+  background: #f1ecdf;
+}
+.permitHead {
+  margin: 0 -14px 10px;
+  padding: 9px 14px;
+  background: var(--ink);
+  color: var(--yellow);
+  font: 600 10px/1.4 var(--mono);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.field {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  height: 24px;
+  font: 10px var(--mono);
+  text-transform: uppercase;
+  color: #4a4f40;
+}
+.field i {
+  flex: 1;
+  border-bottom: 1px solid #17191470;
+}
+.permitStamp {
+  position: absolute;
+  right: 12px;
+  top: 58px;
+  padding: 4px 9px 2px;
+  border: 3px double var(--red);
+  color: var(--red);
+  font: 800 22px/1 BoomerCondensed, Impact, sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transform: rotate(9deg);
+  opacity: 0.88;
+}
+
+/* ---- Panel directory inside a steel door ---- */
+.panel {
+  width: 198px;
+  padding: 12px;
+  border-radius: 6px;
+  color: var(--paper);
+  background:
+    radial-gradient(circle at 9px 9px, #8d907f 0 2.5px, transparent 3px),
+    radial-gradient(circle at calc(100% - 9px) 9px, #8d907f 0 2.5px, transparent 3px),
+    linear-gradient(160deg, #4a4e45, #33362f);
+}
+.panel .label {
+  padding: 0 4px;
+  color: #d9dccb;
+}
+.circuits {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+  background: #f3efe3;
+  color: var(--ink);
+}
+.circuits li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 27px;
+  padding: 0 7px;
+  border-bottom: 1px solid #17191426;
+}
+.circuits li:nth-child(odd) {
+  border-right: 1px solid #17191426;
+}
+.circuits span {
+  font: 10px var(--mono);
+  color: #6b705f;
+}
+.circuits em {
+  font: 400 15px/1 var(--hand);
+  color: #24408f;
+}
+.blank {
+  flex: 1;
+}
+
+/* ---- Desktop placement: three objects per side plus two under the title; none cross the type ---- */
+.book {
+  left: 3%;
+  top: 7%;
+  --r: -4deg;
+  --d: 0;
+}
+.tag {
+  left: 9.5%;
+  top: 35%;
+  --r: 5deg;
+  --d: 0.12;
+}
+.phone {
+  left: 2.5%;
+  bottom: 6%;
+  --r: -2deg;
+  --d: 0.06;
+}
+.license {
+  right: 3%;
+  top: 7%;
+  --r: 4deg;
+  --d: 0.04;
+}
+.chat {
+  right: 9.5%;
+  top: 33%;
+  --r: -4deg;
+  --d: 0.16;
+}
+.permit {
+  right: 2.5%;
+  bottom: 6%;
+  --r: 3deg;
+  --d: 0.08;
+}
+.hours {
+  left: 27%;
+  bottom: 3.5%;
+  --r: -5deg;
+  --d: 0.2;
+}
+.panel {
+  right: 27%;
+  bottom: 3.5%;
+  --r: 4deg;
+  --d: 0.24;
+}
+
+/* Smaller screens: smaller objects; the bottom row goes when there is no room under the title. */
+@media (max-width: 1240px) {
+  .card {
+    --s: 0.84;
+  }
+}
+@media (max-width: 1060px), (max-height: 860px) {
+  .hours,
+  .panel {
+    display: none;
+  }
+}
+@media (max-height: 760px) {
+  .card {
+    --s: 0.74;
+  }
+  .book,
+  .license {
+    top: 4%;
+  }
+}
+@media (max-width: 900px) {
+  .card {
+    --s: 0.68;
+  }
+  .tag {
+    left: 4%;
+  }
+  .chat {
+    right: 4%;
+  }
+}
+
+/* Phones and reduced motion: a static grid of the same hassles under the title. */
+@media (max-width: 759px), (prefers-reduced-motion: reduce) {
+  .card {
+    position: relative;
+    inset: auto;
+    width: auto;
+    transform: rotate(var(--r, 0deg));
+    opacity: 1;
+    will-change: auto;
+  }
+  .hours,
+  .panel {
+    display: block;
+  }
+}
+@media (max-width: 759px) {
+  .card {
+    --r: 0deg;
+  }
+  .hours,
+  .panel,
+  .chat,
+  .license {
+    display: none;
+  }
+}

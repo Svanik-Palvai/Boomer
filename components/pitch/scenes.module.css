@@ -1,0 +1,1473 @@
+/* OWNER: Pitch presentation. Pinned scenes become ordinary content with reduced motion or on phones. */
+.scene {
+  --p: 1;
+  --title-out: 0;
+  --gather: 0;
+  --hub: 1;
+  --left: 1;
+  --middle: 1;
+  --right: 1;
+  --travel: 1;
+  --local: 1;
+  --message: 1;
+  --record: 1;
+  position: relative;
+  scroll-margin-top: 76px;
+}
+.stage {
+  position: relative;
+  min-height: 760px;
+  padding: 28px 6%;
+  overflow: hidden;
+}
+.scene[data-motion="true"] {
+  min-height: 300svh;
+}
+.scene[data-motion="true"] .stage {
+  position: sticky;
+  top: 76px;
+  height: calc(100svh - 76px);
+  min-height: 620px;
+}
+.stageMeta {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font: 10px/1.6 monospace;
+  letter-spacing: 0.08em;
+  border-top: 1px solid #17191450;
+  padding-top: 12px;
+  position: relative;
+  z-index: 5;
+}
+.intro {
+  background: #f4c430;
+  color: #171914;
+}
+.introTitle {
+  position: relative;
+  text-align: center;
+  padding: 80px 0 40px;
+  z-index: 3;
+}
+.introTitle > p:first-child {
+  font-size: 17px;
+  margin: 0 auto 20px;
+}
+.wordmark {
+  font:
+    800 clamp(100px, 21vw, 300px) / 0.9 BoomerCondensed,
+    Impact,
+    sans-serif;
+  letter-spacing: -0.045em;
+  white-space: nowrap;
+}
+.wordmark > span {
+  font-size: 0.65em;
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 5px;
+}
+.introTitle h1 {
+  font-size: clamp(28px, 3.4vw, 48px);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  margin: 24px 0 14px;
+}
+.introTitle .positioning {
+  font-size: 15px;
+  margin: auto;
+  color: #525b3e;
+}
+.scene[data-motion="true"] .introTitle {
+  position: absolute;
+  inset: 17% 5% auto;
+  padding: 0;
+  opacity: calc(1 - var(--title-out));
+  transform: translateY(calc(var(--title-out) * -90px))
+    scale(calc(1 - var(--title-out) * 0.25));
+  will-change: transform, opacity;
+}
+.chaos {
+  display: none;
+}
+.scene[data-motion="true"] .chaos {
+  display: block;
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.fragment {
+  position: absolute;
+  left: 50%;
+  top: 47%;
+  width: 178px;
+  background: #f1ebdd;
+  border: 1px solid #17191425;
+  padding: 15px;
+  text-align: left;
+  box-shadow: 3px 4px 0 #17191415;
+  transform: translate(-50%, -50%)
+    translate(
+      calc(var(--x) * (1 - var(--gather))),
+      calc(var(--y) * (1 - var(--gather)))
+    )
+    rotate(calc(var(--r) * (1 - var(--gather))))
+    scale(calc(1 - var(--gather) * 0.82));
+  opacity: calc((1 - var(--gather)) * 0.8);
+  will-change: transform, opacity;
+}
+.fragment span,
+.fragment small {
+  display: block;
+  font: 9px/1.5 monospace;
+  color: #525b3e;
+}
+.fragment b {
+  font-size: 17px;
+  line-height: 1.2;
+  display: block;
+  margin: 10px 0;
+}
+.fragment0 {
+  --x: -41vw;
+  --y: -22vh;
+  --r: -7deg;
+}
+.fragment1 {
+  --x: 40vw;
+  --y: -20vh;
+  --r: 6deg;
+}
+.fragment2 {
+  --x: -42vw;
+  --y: 1vh;
+  --r: 5deg;
+}
+.fragment3 {
+  --x: 42vw;
+  --y: 3vh;
+  --r: -5deg;
+}
+.fragment4 {
+  --x: -36vw;
+  --y: 24vh;
+  --r: -4deg;
+}
+.fragment5 {
+  --x: 36vw;
+  --y: 25vh;
+  --r: 7deg;
+}
+.system {
+  display: none;
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+}
+.scene[data-motion="true"] .system {
+  display: block;
+}
+.wires {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: var(--hub);
+}
+.wires path {
+  fill: none;
+  stroke: #171914;
+  stroke-width: 1;
+  stroke-dasharray: 1000;
+}
+.leftWire {
+  stroke-dashoffset: calc((1 - var(--left)) * 1000px);
+}
+.middleWire {
+  stroke-dashoffset: calc((1 - var(--middle)) * 1000px);
+}
+.rightWire {
+  stroke-dashoffset: calc((1 - var(--right)) * 1000px);
+}
+.hub {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  width: 132px;
+  height: 160px;
+  background: #171914;
+  color: #f1ebdd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 10px;
+  transform: translate(-50%, -50%) scale(calc(0.6 + var(--hub) * 0.4));
+  opacity: var(--hub);
+  box-shadow: 7px 7px 0 #17191420;
+}
+.hub > span {
+  font: 10px monospace;
+}
+.hub > small {
+  font: 8px monospace;
+  letter-spacing: 0.12em;
+  color: #f4c430;
+}
+.hubSymbol {
+  font:
+    800 72px/0.9 BoomerCondensed,
+    Impact,
+    sans-serif;
+  color: #f4c430;
+}
+.hubSymbol span {
+  font-size: 32px;
+  vertical-align: top;
+}
+.branches {
+  position: absolute;
+  top: 62%;
+  left: 6%;
+  right: 6%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10%;
+}
+.branch {
+  text-align: center;
+  background: #f1ebdd;
+  border: 1px solid #17191435;
+  padding: 20px 12px;
+  box-shadow: 4px 4px 0 #17191412;
+}
+.branch span {
+  display: block;
+  font: 10px monospace;
+  color: #525b3e;
+}
+.branch b {
+  display: block;
+  font:
+    700 clamp(24px, 2.5vw, 38px) / 1 BoomerCondensed,
+    Impact,
+    sans-serif;
+  margin: 10px 0;
+}
+.branch small {
+  font-size: 12px;
+}
+.branch[data-index="0"] {
+  opacity: var(--left);
+  transform: translateY(calc((1 - var(--left)) * 45px));
+}
+.branch[data-index="1"] {
+  opacity: var(--middle);
+  transform: translateY(calc((1 - var(--middle)) * 45px));
+}
+.branch[data-index="2"] {
+  opacity: var(--right);
+  transform: translateY(calc((1 - var(--right)) * 45px));
+}
+.caption {
+  position: absolute;
+  bottom: 7%;
+  left: 10%;
+  right: 10%;
+  text-align: center;
+  opacity: var(--hub);
+}
+.caption h2 {
+  font-size: clamp(24px, 3vw, 42px) !important;
+}
+.caption p {
+  font-size: 14px;
+  margin: 12px auto 0;
+}
+.scrollNote {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 20px;
+  left: 6%;
+  right: 6%;
+  font: 9px monospace;
+  gap: 20px;
+}
+.staticCapabilities {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  padding: 20px 6% 48px;
+}
+.staticCapabilities span {
+  font: 11px monospace;
+}
+.staticCapabilities h2 {
+  font-size: 32px !important;
+  margin: 12px 0;
+}
+.staticCapabilities p {
+  font-size: 15px;
+}
+.scene[data-motion="true"] .staticCapabilities {
+  display: none;
+}
+.border {
+  background: #f1ebdd;
+  color: #171914;
+}
+.border[data-motion="true"] {
+  min-height: 240svh;
+}
+.borderHeading {
+  position: relative;
+  text-align: center;
+  padding: 54px 0 20px;
+  z-index: 2;
+}
+.borderHeading h2 {
+  font-size: clamp(40px, 5vw, 70px) !important;
+  line-height: 1;
+}
+.borderHeading em {
+  font-style: normal;
+  color: #525b3e;
+}
+.borderHeading p {
+  font-size: 16px;
+  margin: 20px auto 0;
+}
+.routeVisual {
+  height: 330px;
+  position: relative;
+  margin: 12px auto;
+  max-width: 1120px;
+}
+.routeLine {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  overflow: visible;
+}
+.routeLine path {
+  fill: none;
+  stroke: #17191430;
+  stroke-dasharray: 5 8;
+  stroke-width: 2;
+}
+.routeLine .routeFill {
+  stroke: #525b3e;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: calc((1 - var(--travel)) * 1000px);
+  stroke-width: 3;
+}
+.originCard,
+.destinationCard {
+  position: absolute;
+  top: 0;
+  padding: 22px;
+  border: 1px solid #17191440;
+  width: 245px;
+  background: #f8f5ee;
+  box-shadow: 5px 5px 0 #1719140c;
+}
+.originCard {
+  left: 4%;
+  transform: translateX(calc(var(--travel) * -25px))
+    rotate(calc(var(--travel) * -3deg));
+}
+.destinationCard {
+  right: 4%;
+  transform: translateX(calc((1 - var(--travel)) * 40px))
+    rotate(calc((1 - var(--travel)) * 4deg));
+}
+.originCard > span,
+.destinationCard > span {
+  font: 9px monospace;
+  letter-spacing: 0.05em;
+}
+.originCard b,
+.destinationCard b {
+  display: block;
+  font:
+    700 40px/1 BoomerCondensed,
+    Impact,
+    sans-serif;
+  margin: 18px 0 10px;
+}
+.originCard small,
+.destinationCard small {
+  font: 14px monospace;
+  color: #525b3e;
+}
+.traveler {
+  position: absolute;
+  left: calc(15% + var(--travel) * 70%);
+  top: 48%;
+  transform: translate(-50%, -50%);
+  background: #f4c430;
+  border: 1px solid #171914;
+  width: 68px;
+  height: 68px;
+  display: grid;
+  place-content: center;
+  font:
+    800 47px/1 BoomerCondensed,
+    Impact,
+    sans-serif;
+  box-shadow: 4px 4px 0 #1719141a;
+  will-change: left;
+}
+.traveler > span {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  font-size: 18px;
+}
+.traveler > small {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  font: 8px monospace;
+  white-space: nowrap;
+}
+.localNote {
+  position: absolute;
+  right: 4%;
+  bottom: 10px;
+  width: 245px;
+  background: #525b3e;
+  color: #f1ebdd;
+  padding: 14px 18px;
+  opacity: var(--local);
+  transform: translateY(calc((1 - var(--local)) * 35px));
+}
+.localNote span {
+  display: block;
+  font: 8px monospace;
+  color: #f4c430;
+}
+.localNote b {
+  display: block;
+  font-size: 18px;
+  margin: 6px 0;
+}
+.localNote small {
+  display: block;
+  font-size: 11px;
+}
+.borderCaption {
+  text-align: center;
+  max-width: 600px;
+  margin: 20px auto 56px;
+}
+.borderCaption > span {
+  font: 9px monospace;
+  color: #525b3e;
+}
+.borderCaption h3 {
+  font-size: 32px !important;
+  margin: 12px 0;
+}
+.borderCaption p {
+  font-size: 15px;
+  margin: auto;
+}
+.sources {
+  font-size: 11px;
+  line-height: 1.5;
+  max-width: 700px;
+  margin: 20px auto;
+  position: relative;
+  z-index: 10;
+}
+.sources summary {
+  cursor: pointer;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.sources > div {
+  background: #f1ebdd;
+  border: 1px solid #17191440;
+  padding: 18px;
+  max-height: 220px;
+  overflow: auto;
+  box-shadow: 5px 5px 0 #17191410;
+}
+.sources p + p {
+  margin-top: 12px;
+}
+.border[data-motion="true"] .borderHeading {
+  padding-top: 5vh;
+}
+.border[data-motion="true"] .routeVisual {
+  position: absolute;
+  left: 6%;
+  right: 6%;
+  top: 36%;
+  height: 35%;
+  margin: 0;
+}
+.border[data-motion="true"] .borderCaption {
+  position: absolute;
+  bottom: 7%;
+  left: 10%;
+  right: 10%;
+  margin: 0 auto;
+}
+.border[data-motion="true"] .sources {
+  position: absolute;
+  bottom: 3px;
+  left: 10%;
+  right: 10%;
+  margin: 0 auto;
+}
+.record {
+  background: #f4c430;
+  color: #171914;
+}
+.record[data-motion="true"] {
+  min-height: 230svh;
+}
+.recordCopy {
+  max-width: 520px;
+  padding-top: 90px;
+  position: relative;
+  z-index: 2;
+}
+.micro {
+  font: 9px monospace;
+  letter-spacing: 0.07em;
+  display: block;
+}
+.recordCopy h2 {
+  font-size: clamp(48px, 5vw, 72px) !important;
+  margin: 22px 0 28px;
+}
+.recordCopy h2 em {
+  font-style: normal;
+  color: #525b3e;
+}
+.recordCopy > p {
+  font-size: 20px;
+  max-width: 32ch;
+  min-height: 84px;
+}
+.recordStamp {
+  display: inline-block;
+  margin-top: 24px;
+  border: 1px solid #171914;
+  padding: 10px 14px;
+  font: 10px monospace;
+  transform: rotate(-3deg);
+}
+.recordObjects {
+  position: absolute;
+  right: 6%;
+  top: 18%;
+  width: 46%;
+  height: 68%;
+}
+.messagePhone {
+  position: absolute;
+  left: 4%;
+  top: 0;
+  width: 245px;
+  min-height: 400px;
+  background: #171914;
+  border: 6px solid #171914;
+  border-radius: 26px;
+  color: #f1ebdd;
+  padding: 50px 18px 24px;
+  transform: translateX(calc(var(--record) * -55px))
+    translateY(calc((1 - var(--message)) * 80px))
+    rotate(calc(var(--record) * -7deg));
+  box-shadow: 8px 10px 0 #17191415;
+  opacity: calc(0.3 + var(--message) * 0.7);
+}
+.phoneNotch {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 10px;
+  background: #34372e;
+  border-radius: 10px;
+}
+.messagePhone > span {
+  font: 8px monospace;
+  color: #c5c6b6;
+}
+.messagePhone > b {
+  display: block;
+  margin: 12px 0 28px;
+  font-family: BoomerCondensed, Impact, sans-serif;
+  font-size: 24px;
+}
+.message {
+  background: #525b3e;
+  border-radius: 12px 12px 0 12px;
+  padding: 14px;
+  font-size: 13px;
+  opacity: var(--message);
+  transform: translateY(calc((1 - var(--message)) * 30px));
+}
+.message small {
+  display: block;
+  font-size: 10px;
+  margin-top: 18px;
+  text-decoration: underline;
+}
+.messagePhone > small {
+  display: block;
+  font: 7px monospace;
+  color: #aeb09e;
+  line-height: 1.5;
+  margin-top: 24px;
+}
+.jobPaper {
+  position: absolute;
+  width: 330px;
+  right: 0;
+  top: 15%;
+  padding: 26px;
+  background: #f1ebdd;
+  border: 1px solid #17191450;
+  box-shadow: 8px 8px 0 #17191420;
+  transform: translateY(calc((1 - var(--record)) * 100px))
+    rotate(calc((1 - var(--record)) * 8deg));
+  opacity: var(--record);
+  will-change: transform, opacity;
+}
+.paperHeading {
+  font: 9px monospace;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #17191450;
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+}
+.jobPaper h3 {
+  font-size: 36px !important;
+  margin-bottom: 24px;
+}
+.result {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  font-size: 11px;
+  border-top: 1px solid #17191435;
+  padding: 13px 0;
+}
+.result b {
+  font: 9px monospace;
+  color: #525b3e;
+  text-align: right;
+}
+.jobPaper > p {
+  font-size: 11px;
+  line-height: 1.6;
+  margin: 18px 0 28px;
+}
+.recordFooter {
+  position: absolute;
+  bottom: 28px;
+  left: 6%;
+  right: 6%;
+  border-top: 1px solid #17191440;
+  padding-top: 16px;
+  font: 9px monospace;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+@media (max-width: 1100px) {
+  .fragment {
+    width: 145px;
+    padding: 12px;
+  }
+  .fragment b {
+    font-size: 14px;
+  }
+  .fragment small {
+    font-size: 8px;
+  }
+  .branch {
+    padding: 16px 10px;
+  }
+  .branch small {
+    font-size: 10px;
+  }
+  .originCard,
+  .destinationCard,
+  .localNote {
+    width: 210px;
+  }
+  .originCard b,
+  .destinationCard b {
+    font-size: 36px;
+  }
+  .recordCopy {
+    max-width: 42%;
+    padding-top: 90px;
+  }
+  .recordCopy > p {
+    font-size: 18px;
+  }
+  .recordObjects {
+    right: 4%;
+    width: 49%;
+  }
+  .jobPaper {
+    width: 290px;
+    padding: 22px;
+  }
+  .messagePhone {
+    width: 215px;
+    left: 0;
+  }
+  .jobPaper h3 {
+    font-size: 32px !important;
+  }
+  .result {
+    font-size: 10px;
+  }
+}
+@media (min-width: 760px) and (max-height: 780px) {
+  .scene[data-motion="true"] .stage {
+    min-height: 580px;
+  }
+  .introTitle > p:first-child {
+    font-size: 14px;
+  }
+  .scene[data-motion="true"] .introTitle {
+    inset: 12% 5% auto;
+  }
+  .wordmark {
+    font-size: min(19vw, 220px);
+  }
+  .introTitle h1 {
+    font-size: 34px;
+    margin: 18px 0 10px;
+  }
+  .hub {
+    width: 110px;
+    height: 130px;
+  }
+  .hubSymbol {
+    font-size: 60px;
+  }
+  .branches {
+    top: 57%;
+  }
+  .branch {
+    padding: 14px 10px;
+  }
+  .caption {
+    bottom: 7%;
+  }
+  .caption h2 {
+    font-size: 32px !important;
+  }
+  .caption p {
+    font-size: 12px;
+  }
+  .borderHeading h2 {
+    font-size: 48px !important;
+  }
+  .borderHeading p {
+    font-size: 14px;
+    margin-top: 12px;
+  }
+  .border[data-motion="true"] .routeVisual {
+    top: 34%;
+    height: 34%;
+  }
+  .originCard,
+  .destinationCard {
+    padding: 16px;
+  }
+  .originCard b,
+  .destinationCard b {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+  .borderCaption h3 {
+    font-size: 26px !important;
+  }
+  .borderCaption p {
+    font-size: 13px;
+  }
+  .localNote {
+    padding: 10px 14px;
+    bottom: -6px;
+  }
+  .localNote b {
+    font-size: 15px;
+  }
+  .recordCopy {
+    padding-top: 50px;
+  }
+  .recordCopy h2 {
+    font-size: 58px !important;
+  }
+  .recordCopy > p {
+    font-size: 16px;
+  }
+  .recordObjects {
+    top: 15%;
+  }
+  .jobPaper {
+    padding: 20px;
+    top: 10%;
+  }
+  .messagePhone {
+    min-height: 350px;
+    padding-top: 40px;
+  }
+  .jobPaper h3 {
+    font-size: 30px !important;
+  }
+  .jobPaper > p {
+    margin: 12px 0 16px;
+  }
+  .recordStamp {
+    margin-top: 12px;
+  }
+}
+@media (min-width: 760px) and (max-width: 899px) {
+  .scene {
+    scroll-margin-top: 105px;
+  }
+  .scene[data-motion="true"] .stage {
+    top: 105px;
+    height: calc(100svh - 105px);
+  }
+  .introTitle h1 {
+    font-size: 36px;
+  }
+  .branches {
+    gap: 5%;
+    left: 4%;
+    right: 4%;
+  }
+  .branch b {
+    font-size: 26px;
+  }
+  .caption {
+    left: 6%;
+    right: 6%;
+  }
+  .caption h2 {
+    font-size: 32px !important;
+  }
+  .recordCopy h2 {
+    font-size: 56px !important;
+  }
+  .recordCopy > p {
+    font-size: 16px;
+  }
+  .jobPaper {
+    width: 250px;
+    padding: 18px;
+  }
+  .jobPaper h3 {
+    font-size: 28px !important;
+  }
+  .messagePhone {
+    width: 190px;
+  }
+  .recordStamp {
+    font-size: 8px;
+  }
+  .routeVisual {
+    left: 3% !important;
+    right: 3% !important;
+  }
+  .originCard,
+  .destinationCard,
+  .localNote {
+    width: 190px;
+  }
+  .originCard b,
+  .destinationCard b {
+    font-size: 31px;
+  }
+}
+@media (max-width: 759px) {
+  .scene {
+    scroll-margin-top: 105px;
+  }
+  .stage {
+    min-height: 0;
+    padding: 22px 6% 50px;
+  }
+  .stageMeta {
+    font-size: 8px;
+  }
+  .stageMeta span:last-child {
+    max-width: 50%;
+    text-align: right;
+  }
+  .introTitle {
+    padding: 64px 0 38px;
+  }
+  .introTitle > p:first-child {
+    font-size: 15px;
+    max-width: 28ch;
+  }
+  .wordmark {
+    font-size: 24vw;
+  }
+  .introTitle h1 {
+    font-size: 32px;
+    line-height: 1.08;
+    margin: 26px 0 18px;
+  }
+  .introTitle .positioning {
+    font-size: 14px;
+    max-width: 24ch;
+  }
+  .scrollNote {
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    font-size: 8px;
+    margin-top: 18px;
+  }
+  .caption {
+    display: none;
+  }
+  .staticCapabilities {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 6% 40px;
+  }
+  .staticCapabilities > div {
+    padding-top: 18px;
+    border-top: 1px solid #17191450;
+  }
+  .staticCapabilities h2 {
+    font-size: 28px !important;
+    margin: 8px 0;
+  }
+  .staticCapabilities p {
+    font-size: 14px;
+  }
+  .borderHeading {
+    padding: 40px 0 15px;
+  }
+  .borderHeading h2 {
+    font-size: 43px !important;
+  }
+  .borderHeading p {
+    font-size: 15px;
+    max-width: 25ch;
+  }
+  .routeVisual {
+    height: 380px;
+    margin-top: 28px;
+  }
+  .originCard,
+  .destinationCard {
+    width: 48%;
+    top: 0;
+    padding: 14px 10px;
+  }
+  .originCard {
+    left: 0;
+    transform: none;
+  }
+  .destinationCard {
+    right: 0;
+    transform: none;
+  }
+  .originCard > span,
+  .destinationCard > span {
+    font-size: 7px;
+  }
+  .originCard b,
+  .destinationCard b {
+    font-size: 30px;
+    margin: 14px 0 10px;
+  }
+  .originCard small,
+  .destinationCard small {
+    font-size: 12px;
+  }
+  .routeLine {
+    top: 40px;
+    height: 230px;
+  }
+  .traveler {
+    top: 40%;
+    left: 85%;
+    width: 54px;
+    height: 54px;
+    font-size: 36px;
+  }
+  .traveler > small {
+    top: 65px;
+    font-size: 7px;
+  }
+  .localNote {
+    bottom: 20px;
+    right: 0;
+    width: 80%;
+    padding: 18px;
+  }
+  .borderCaption {
+    margin: 0 auto 24px;
+  }
+  .borderCaption h3 {
+    font-size: 28px !important;
+  }
+  .borderCaption p {
+    font-size: 14px;
+  }
+  .sources {
+    font-size: 11px;
+    margin: 0;
+  }
+  .recordCopy {
+    padding-top: 44px;
+    max-width: 100%;
+  }
+  .recordCopy h2 {
+    font-size: 54px !important;
+  }
+  .recordCopy > p {
+    font-size: 17px;
+    min-height: 0;
+  }
+  .recordObjects {
+    position: relative;
+    top: auto;
+    right: auto;
+    height: 600px;
+    width: 100%;
+    margin: 50px 0 15px;
+  }
+  .messagePhone {
+    width: 210px;
+    min-height: 360px;
+    left: 0;
+    transform: rotate(-5deg);
+  }
+  .jobPaper {
+    width: 285px;
+    top: 190px;
+    right: 0;
+    transform: rotate(3deg);
+    padding: 22px;
+  }
+  .jobPaper h3 {
+    font-size: 32px !important;
+  }
+  .recordFooter {
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    display: block;
+    font-size: 8px;
+    line-height: 1.8;
+  }
+  .recordFooter span {
+    padding: 0 8px;
+  }
+  .recordStamp {
+    font-size: 9px;
+    margin-top: 20px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .scene .stage {
+    position: relative !important;
+    top: 0 !important;
+    height: auto !important;
+  }
+  .scene {
+    min-height: 0 !important;
+  }
+  .chaos,
+  .system {
+    display: none !important;
+  }
+  .introTitle {
+    position: relative !important;
+    inset: auto !important;
+    transform: none !important;
+    opacity: 1 !important;
+    padding: 70px 0 !important;
+  }
+  .staticCapabilities {
+    display: grid !important;
+  }
+  .borderHeading {
+    padding: 40px 0 20px !important;
+  }
+  .routeVisual {
+    position: relative !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    margin: 30px auto !important;
+    height: 330px !important;
+  }
+  .borderCaption,
+  .sources {
+    position: relative !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    margin: 24px auto !important;
+  }
+  .record .stage {
+    min-height: 760px !important;
+  }
+  .recordObjects {
+    --message: 1;
+    --record: 1;
+  }
+  .scrollNote {
+    position: relative !important;
+    bottom: auto !important;
+    left: auto !important;
+    right: auto !important;
+    margin-top: 25px;
+  }
+  .caption {
+    display: none !important;
+  }
+}
+/* Real workflow inputs converge into the wordmark before the system is revealed. */
+.intro {
+  background: #1c201b;
+  color: #f1ebdd;
+  --hat-gap: #1c201b;
+}
+.intro .stageMeta {
+  border-color: #f1ebdd35;
+}
+.wordmark > span:first-child {
+  font-size: 1em;
+  vertical-align: baseline;
+  margin-left: 0;
+}
+.wordmark > span:last-child {
+  color: #f4c430;
+}
+.introTitle .positioning {
+  font-size: 17px;
+  font-weight: 400;
+  color: #c9cebd;
+  letter-spacing: 0.02em;
+}
+.evidenceRow {
+  position: absolute;
+  left: 8%;
+  right: 8%;
+  bottom: 8%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+.evidence {
+  border: 1px solid #f1ebdd30;
+  background: #242a22;
+  padding: 16px;
+  text-align: left;
+  transform: translate(
+      calc(var(--gather) * var(--dx, 0px)),
+      calc(var(--gather) * var(--dy, 0px))
+    )
+    scale(calc(1 - var(--gather) * 0.94));
+  opacity: calc(1 - var(--gather) * var(--gather));
+  transform-origin: center;
+  will-change: transform, opacity;
+}
+.evidence > span {
+  display: block;
+  font: 9px/1.5 monospace;
+  color: #f4c430;
+  letter-spacing: 0.06em;
+}
+.evidence > b {
+  display: block;
+  font:
+    700 27px/1.1 BoomerCondensed,
+    Impact,
+    sans-serif;
+  margin: 14px 0;
+}
+.evidence > small {
+  display: block;
+  font: 10px/1.5 monospace;
+  color: #b8c0ab;
+  margin-top: 12px;
+}
+.cameraView {
+  position: relative;
+  margin-top: 12px;
+  height: 67px;
+  background: #151913;
+  display: grid;
+  place-content: center;
+  font: 700 22px monospace;
+}
+.cameraView > span {
+  border: 1px solid #c4cab8;
+  padding: 3px 22px;
+}
+.cameraView i {
+  position: absolute;
+  inset: 8px 25%;
+  border: 1px solid #f4c430;
+}
+.cameraView small {
+  font: 7px monospace;
+  text-align: center;
+  margin-top: 5px;
+  color: #b8c0ab;
+}
+.cameraInput > b {
+  display: none;
+}
+.sourceRow,
+.stepLine {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 0;
+  border-top: 1px solid #f1ebdd20;
+  font: 10px/1.4 monospace;
+}
+.sourceRow > span,
+.stepLine > span {
+  color: #b8c0ab;
+}
+.sourceRow strong,
+.stepLine strong {
+  font-weight: 400;
+  text-align: right;
+}
+.intro .wires path {
+  stroke: #f4c430;
+}
+.intro .branch {
+  background: #242a22;
+  color: #f1ebdd;
+  border-color: #f1ebdd40;
+  box-shadow: none;
+}
+.intro .branch span {
+  color: #f4c430;
+}
+.intro .hub {
+  border: 1px solid #f4c430;
+  box-shadow: none;
+}
+.intro .staticCapabilities > div {
+  border-color: #f1ebdd40;
+}
+@media (min-width: 760px) and (max-height: 780px) {
+  .evidenceRow {
+    bottom: 7%;
+  }
+  .evidence {
+    padding: 12px;
+  }
+  .evidence > b {
+    font-size: 22px;
+    margin: 10px 0;
+  }
+  .cameraView {
+    height: 50px;
+  }
+  .evidence > small {
+    font-size: 8px;
+    margin-top: 8px;
+  }
+  .sourceRow,
+  .stepLine {
+    font-size: 8px;
+    padding: 5px 0;
+  }
+}
+@media (max-width: 1000px) {
+  .evidenceRow {
+    left: 5%;
+    right: 5%;
+    gap: 16px;
+  }
+  .evidence > b {
+    font-size: 23px;
+  }
+  .sourceRow,
+  .stepLine {
+    font-size: 8px;
+  }
+}
+@media (max-width: 759px), (prefers-reduced-motion: reduce) {
+  .intro .chaos {
+    display: block !important;
+    position: relative;
+    inset: auto;
+  }
+  .evidenceRow {
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    grid-template-columns: 1fr;
+    margin: 12px 0 28px;
+  }
+  .evidence {
+    transform: none;
+    opacity: 1;
+    will-change: auto;
+  }
+}
+/* Compact, centered scenes remain fully readable at every scroll position. */
+.compactBorder .stage,
+.completeRecord .stage {
+  min-height: 0;
+  max-width: none;
+  margin: 0 auto;
+  padding: 40px max(6%, calc((100% - 1300px) / 2)) 48px;
+}
+.compactBorder .borderHeading {
+  padding: 32px 0 24px;
+}
+.compactBorder .borderHeading h2 {
+  font-size: clamp(38px, 4vw, 58px) !important;
+}
+.centeredRoute {
+  max-width: 900px;
+  margin: 12px auto 24px;
+  display: grid;
+  grid-template-columns: 1fr 60px 1fr;
+  gap: 24px;
+  align-items: center;
+}
+.centeredRoute > div {
+  border: 1px solid #17191445;
+  padding: 22px;
+  background: #f8f5ee;
+}
+.centeredRoute > div > span {
+  font: 9px monospace;
+}
+.centeredRoute h3 {
+  font-size: 40px;
+  margin: 14px 0;
+}
+.centeredRoute b {
+  font: 14px monospace;
+  color: #525b3e;
+}
+.routeArrow {
+  font-size: 36px;
+  text-align: center;
+}
+.routeScope {
+  max-width: 78ch !important;
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 0 auto;
+}
+.recordGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8%;
+  align-items: center;
+  padding: 40px 0 10px;
+}
+.completeRecord .recordCopy {
+  padding: 0;
+  max-width: none;
+}
+.completeRecord .recordCopy h2 {
+  font-size: clamp(44px, 4.5vw, 64px) !important;
+}
+.completeRecord .recordCopy > p {
+  font-size: 17px;
+  min-height: 0;
+}
+.completeRecord .recordCopy > p:last-child {
+  margin-top: 24px;
+  font-size: 14px;
+}
+.recordEvidence {
+  border: 1px solid #17191455;
+}
+.recordMessage {
+  padding: 22px;
+  background: #171914;
+  color: #f1ebdd;
+}
+.recordMessage > span {
+  font: 9px monospace;
+  color: #f4c430;
+}
+.recordMessage p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 14px 0;
+}
+.recordMessage small {
+  font: 9px monospace;
+  color: #bac0ad;
+}
+.recordPaper {
+  background: #f1ebdd;
+  padding: 24px;
+}
+.recordPaper h3 {
+  font-size: 32px;
+  margin: 18px 0;
+}
+.recordPaper > p {
+  font-size: 12px;
+  line-height: 1.6;
+  margin-top: 16px;
+}
+@media (max-width: 759px) {
+  .centeredRoute {
+    gap: 10px;
+    grid-template-columns: 1fr 24px 1fr;
+  }
+  .centeredRoute > div {
+    padding: 16px 10px;
+  }
+  .centeredRoute h3 {
+    font-size: 28px;
+  }
+  .centeredRoute > div > span {
+    font-size: 7px;
+  }
+  .routeArrow {
+    font-size: 24px;
+  }
+  .recordGrid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .compactBorder .stage,
+  .completeRecord .stage {
+    padding: 26px 6% 36px;
+  }
+}
