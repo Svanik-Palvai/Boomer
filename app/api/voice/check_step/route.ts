@@ -3,12 +3,12 @@ import type { CheckResult } from "@/lib/types";
 import { voiceTool } from "@/lib/voice/tool";
 import { framesAfterBurst, requestBurst, updateJob } from "@/lib/db";
 import { checkStep } from "@/lib/ai/checkStep";
-import { allDone, applyCheck, canConfirmByVoice, confirmSpoken, currentStep, readStep } from "@/lib/agent/engine";
+import { allDone, applyCheck, canConfirmByVoice, confirmSpoken, currentStep, readStep, startGuiding } from "@/lib/agent/engine";
 import { SAY } from "@/lib/copy";
 import { UNCLEAR_RETRIES } from "@/lib/config";
 import { judgeConfirmation } from "@/lib/ai/judgeConfirmation";
 import { remember } from "@/lib/memory/store";
-import { approvalGate } from "@/lib/jobs/approval";
+import { approvalGate, markTold } from "@/lib/jobs/approval";
 
 /** Checker -> shared job memory, so the guide and the iMessage recorder can refer back to it. Fire-and-forget: the check has a ~3 s budget. */
 function logCheck(jobId: string, text: string) {
@@ -20,6 +20,11 @@ export const POST = voiceTool("check_step", async ({ job, worker, req }) => {
   if (job.status !== "guiding" || !step) {
     const gate = job.status === "plan_ready" ? approvalGate(job) : null;
     if (gate?.wait) return { say: gate.say };
+    // The supervisor's OK is in: start step 1 now (same as next_step), instead of asking the worker to say next.
+    if (gate && job.steps.length) {
+      const updated = await updateJob(job.id, (j) => startGuiding(markTold(j)));
+      return { job: updated, say: [gate.intro, readStep(updated, worker)].filter(Boolean).join(" ") };
+    }
     return { say: allDone(job) ? "That's every step. Say finish." : "We haven't started the steps yet. Say next to begin." };
   }
 
