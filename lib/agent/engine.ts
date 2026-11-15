@@ -67,7 +67,7 @@ export function explainStep(job: Job, why?: string): string {
 
 /** The worker may confirm out loud: spoken steps, or a vision step after "can't tell" more than UNCLEAR_RETRIES times. */
 /** Vision steps that must be SEEN: the camera has to pass them, a spoken "confirm" never does (the caught mistake lives here). */
-export const SEEN_ONLY_STEPS = new Set(["gfci-5-line", "island-3-location"]);
+export const SEEN_ONLY_STEPS = new Set(["gfci-5-line"]);
 
 export function canConfirmByVoice(job: Job): boolean {
   const step = currentStep(job);
